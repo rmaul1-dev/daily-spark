@@ -139,6 +139,15 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "awOa4Pk82Kg",
+    "title": "Computing Conversations: A Brief History of Packets--Vint Cerf",
+    "channel": "IEEE Computer Society",
+    "duration_sec": 1025,
+    "start": 84,
+    "end": 948,
+    "why": "Vint Cerf recounts how packet switching, ARPANET, and the network-of-networks design came together (audio interview)."
+  },
   "sources": [
     {
       "title": "A Brief History of the Internet",

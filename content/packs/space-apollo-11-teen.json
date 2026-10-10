@@ -123,6 +123,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "Te7q_mUsgoQ",
+    "title": "A Tense Lunar Landing",
+    "channel": "Smithsonian National Air and Space Museum",
+    "duration_sec": 133,
+    "why": "Smithsonian's account of the 1202 computer alarms and the low-fuel landing."
+  },
   "sources": [
     {
       "title": "July 20, 1969: One Giant Leap For Mankind",

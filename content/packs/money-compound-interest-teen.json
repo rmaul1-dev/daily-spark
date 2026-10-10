@@ -125,6 +125,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "aqu8pALMtOs",
+    "title": "Growing Money - No-Frills Money Skills",
+    "channel": "Federal Reserve Bank of St. Louis",
+    "duration_sec": 441,
+    "why": "The St. Louis Fed works real numbers to show how compound interest and starting early grow savings."
+  },
   "sources": [
     {
       "title": "What is compound interest?",

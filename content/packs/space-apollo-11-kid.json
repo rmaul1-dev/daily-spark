@@ -124,6 +124,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "CbTaDOuSePk",
+    "title": "Apollo 11 - The First Moon Walk | Things You Wanna Know | Nat Geo Kids",
+    "channel": "Nat Geo Kids",
+    "duration_sec": 165,
+    "why": "The Apollo 11 trip from launch to splashdown, including the pen that saved the day."
+  },
   "sources": [
     {
       "title": "July 20, 1969: One Giant Leap For Mankind",

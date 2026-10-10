@@ -124,6 +124,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "bRWbXXs4Wqc",
+    "title": "How the Wright Brothers Solved the Problem of Flight | The Henry Ford’s Innovation Nation",
+    "channel": "The Henry Ford",
+    "duration_sec": 195,
+    "why": "Standing at their bike shop, a museum curator explains how the Wrights tested, failed, and tried again."
+  },
   "sources": [
     {
       "title": "1903: The First Flight",

@@ -139,6 +139,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "LPZh9BOjkQs",
+    "title": "Large Language Models explained briefly",
+    "channel": "3Blue1Brown",
+    "duration_sec": 478,
+    "why": "3Blue1Brown's visual overview of how large language models are trained to predict the next word."
+  },
   "sources": [
     {
       "title": "What is machine learning?",

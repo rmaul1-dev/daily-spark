@@ -135,6 +135,15 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "APG3GgpzEM0",
+    "title": "New Media, Religion, and Economic Change: Printing and the Protestant Reformation",
+    "channel": "Becker Friedman Institute University of Chicago",
+    "duration_sec": 2528,
+    "start": 0,
+    "end": 688,
+    "why": "Economist Jeremiah Dittmar on how printing spread as a for-profit industry and powered the Reformation (first 11 minutes of a research talk)."
+  },
   "sources": [
     {
       "title": "The Gutenberg Bible",

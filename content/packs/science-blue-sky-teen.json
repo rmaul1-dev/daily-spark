@@ -125,6 +125,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "NafbGOQBlQs",
+    "title": "Why is the Sun Yellow and the Sky Blue?",
+    "channel": "minutephysics",
+    "duration_sec": 118,
+    "why": "A quick, careful explanation of scattering — and why the sky isn't really 'blue', just bluer."
+  },
   "sources": [
     {
       "title": "Why Is the Sky Blue?",

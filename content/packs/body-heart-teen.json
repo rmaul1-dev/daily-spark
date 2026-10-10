@@ -125,6 +125,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "ruM4Xxhx32U",
+    "title": "How the heart actually pumps blood - Edmond Hui",
+    "channel": "TED-Ed",
+    "duration_sec": 267,
+    "why": "Animated tour of the four chambers, valves, and the two loops blood travels."
+  },
   "sources": [
     {
       "title": "How Blood Flows through the Heart",

@@ -123,6 +123,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "Amkg1cdDCpM",
+    "title": "Can you change your sleep schedule?",
+    "channel": "TED-Ed",
+    "duration_sec": 278,
+    "why": "How your body clock works and why shifting a sleep schedule is hard but possible."
+  },
   "sources": [
     {
       "title": "Brain Basics: Understanding Sleep",

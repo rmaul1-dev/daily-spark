@@ -125,6 +125,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "kIUEEmYo8DU",
+    "title": "The Book That Changed the World",
+    "channel": "Library of Congress",
+    "duration_sec": 138,
+    "why": "Library of Congress curators show the Gutenberg Bible and explain why movable type mattered."
+  },
   "sources": [
     {
       "title": "The Gutenberg Bible",

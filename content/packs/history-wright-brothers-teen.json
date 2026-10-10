@@ -126,6 +126,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "CiCJTR-hZnY",
+    "title": "Wing Warping the Wright Way",
+    "channel": "Smithsonian National Air and Space Museum",
+    "duration_sec": 131,
+    "why": "Smithsonian curators show the kite that proved wing warping could control roll."
+  },
   "sources": [
     {
       "title": "1903: The First Flight",

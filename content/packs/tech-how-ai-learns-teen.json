@@ -123,6 +123,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "JrXazCEACVo",
+    "title": "How Neural Networks Work",
+    "channel": "Code.org",
+    "duration_sec": 304,
+    "why": "Build a one-neuron movie recommender and watch the weights adjust from feedback."
+  },
   "sources": [
     {
       "title": "Explained: Neural networks",

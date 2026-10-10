@@ -139,6 +139,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "7CPv0NSIG2M",
+    "title": "The Plate Tectonics Revolution: Crash Course Geography #19",
+    "channel": "CrashCourse",
+    "duration_sec": 658,
+    "why": "The full plate-tectonics story — Wegener, sea-floor spreading, and what drives the plates."
+  },
   "sources": [
     {
       "title": "Historical perspective (This Dynamic Earth)",

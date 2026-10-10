@@ -124,6 +124,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "r8BIz5I-aDc",
+    "title": "Break even analysis",
+    "channel": "The Finance Storyteller",
+    "duration_sec": 214,
+    "why": "Break-even in words, on a graph, and as a formula, plus the four levers that move it."
+  },
   "sources": [
     {
       "title": "Break-even point",

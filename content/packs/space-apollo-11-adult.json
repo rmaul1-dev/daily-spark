@@ -139,6 +139,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "z4cn93H6sM0",
+    "title": "The Real Story Behind the Apollo 11 Computer Error | WSJ",
+    "channel": "The Wall Street Journal",
+    "duration_sec": 437,
+    "why": "Apollo programmer Don Eyles explains the landing computer, the 1202 alarm, and why the software held."
+  },
   "sources": [
     {
       "title": "Apollo 11 Mission Overview",

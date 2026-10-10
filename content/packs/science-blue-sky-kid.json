@@ -124,6 +124,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "ehUIlhKhzDA",
+    "title": "Why Is the Sky Blue?",
+    "channel": "NASA Space Place",
+    "duration_sec": 168,
+    "why": "NASA explains how air scatters blue light and why sunsets turn orange and red."
+  },
   "sources": [
     {
       "title": "Why Is the Sky Blue?",

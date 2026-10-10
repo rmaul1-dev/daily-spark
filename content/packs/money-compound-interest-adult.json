@@ -139,6 +139,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "mec-QpjQMXY",
+    "title": "The rule of 72 for compound interest | Interest and debt | Finance & Capital Markets | Khan Academy",
+    "channel": "Khan Academy",
+    "duration_sec": 550,
+    "why": "Khan Academy shows where the Rule of 72 comes from and how close it gets to the exact answer."
+  },
   "sources": [
     {
       "title": "What is compound interest?",

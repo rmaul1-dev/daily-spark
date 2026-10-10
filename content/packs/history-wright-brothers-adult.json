@@ -140,6 +140,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "2Ab6jUgTtl4",
+    "title": "The Wright Brothers Discover Aspect Ratio",
+    "channel": "Smithsonian National Air and Space Museum",
+    "duration_sec": 381,
+    "why": "The Smithsonian's curator of aerodynamics on how wind-tunnel data led the Wrights to longer, skinnier wings."
+  },
   "sources": [
     {
       "title": "1903: The First Flight",

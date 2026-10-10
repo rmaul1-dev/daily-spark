@@ -139,6 +139,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "X9ZZ6tcxArI",
+    "title": "The Heart, Part 1 - Under Pressure: Crash Course Anatomy & Physiology #25",
+    "channel": "CrashCourse",
+    "duration_sec": 608,
+    "why": "A full anatomy-and-physiology lesson on the heart's structure and the path of blood."
+  },
   "sources": [
     {
       "title": "How Blood Flows through the Heart",

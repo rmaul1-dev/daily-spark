@@ -124,6 +124,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "Wq9kLzm36h0",
+    "title": "Continental Drift 101 | National Geographic",
+    "channel": "National Geographic",
+    "duration_sec": 82,
+    "why": "Nat Geo's quick look at how the continents split from Pangaea and are still moving today."
+  },
   "sources": [
     {
       "title": "Historical perspective (This Dynamic Earth)",

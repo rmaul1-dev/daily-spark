@@ -123,6 +123,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "vNDYUlxNIAA",
+    "title": "This tool will help improve your critical thinking - Erick Wilberding",
+    "channel": "TED-Ed",
+    "duration_sec": 319,
+    "why": "An animated look at how Socrates taught by asking questions instead of giving answers."
+  },
   "sources": [
     {
       "title": "Socrates",

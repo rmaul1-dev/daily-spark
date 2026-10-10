@@ -125,6 +125,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "HGErx4wy8r0",
+    "title": "The Gutenberg Printing Press and Its Effect on Mass Communication",
+    "channel": "IEEE REACH",
+    "duration_sec": 339,
+    "why": "How Gutenberg combined existing tools into a press and how it spread information across Europe."
+  },
   "sources": [
     {
       "title": "The Gutenberg Bible",

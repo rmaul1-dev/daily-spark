@@ -123,6 +123,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "ewrBalT_eBM",
+    "title": "A Packet's Tale. How Does the Internet Work? | World Science Festival",
+    "channel": "World Science Festival",
+    "duration_sec": 209,
+    "why": "Follow one web page as it's chopped into packets, crosses an ocean as light, and gets rebuilt."
+  },
   "sources": [
     {
       "title": "A Brief History of the Internet",

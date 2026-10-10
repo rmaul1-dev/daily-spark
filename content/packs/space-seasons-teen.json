@@ -124,6 +124,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "WgHmqv_-UbQ",
+    "title": "Why Do We Have Different Seasons? | California Academy of Sciences",
+    "channel": "California Academy of Sciences",
+    "duration_sec": 197,
+    "why": "An animated orbit shows how Earth's tilt changes the sun's angle and day length through the year."
+  },
   "sources": [
     {
       "title": "What Causes the Seasons?",

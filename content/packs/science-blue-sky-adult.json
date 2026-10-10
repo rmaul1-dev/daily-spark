@@ -139,6 +139,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "R5P6O0pDyMU",
+    "title": "Why Isn't The Sky Purple?",
+    "channel": "minutephysics",
+    "duration_sec": 189,
+    "why": "Why the sky isn't violet: scattering plus how human color vision combines light."
+  },
   "sources": [
     {
       "title": "Why Is the Sky Blue?",

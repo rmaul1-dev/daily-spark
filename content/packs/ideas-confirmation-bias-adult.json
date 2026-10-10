@@ -139,6 +139,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "d2r7Bk1NlgU",
+    "title": "Introduction to Cognitive Bias: Crash Course Scientific Thinking #1",
+    "channel": "CrashCourse",
+    "duration_sec": 709,
+    "why": "Why pattern-seeking brains fall for cognitive biases, and how scientific methods are built to counter them."
+  },
   "sources": [
     {
       "title": "Confirmation bias",

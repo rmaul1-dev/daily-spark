@@ -122,6 +122,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "zAbcIQB4VBc",
+    "title": "CIVIX Explains: Confirmation Bias",
+    "channel": "CIVIX",
+    "duration_sec": 216,
+    "why": "Everyday examples of our brains picking favorites, and three ways to catch yourself doing it."
+  },
   "sources": [
     {
       "title": "Confirmation bias",

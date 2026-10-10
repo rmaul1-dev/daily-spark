@@ -124,6 +124,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "AYdF7b3nMto",
+    "title": "The Internet: Packets, Routing & Reliability",
+    "channel": "Code.org",
+    "duration_sec": 385,
+    "why": "How packets, IP addresses, routers, and TCP make delivery reliable on an unreliable network."
+  },
   "sources": [
     {
       "title": "A Brief History of the Internet",

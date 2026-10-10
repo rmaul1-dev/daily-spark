@@ -123,6 +123,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "tF9-jLZNM10",
+    "title": "How to Feel Your Heart Beat",
+    "channel": "SciShow Kids",
+    "duration_sec": 215,
+    "why": "Feel your own heartbeat and see what the heart is doing with every thump."
+  },
   "sources": [
     {
       "title": "What the Heart Looks Like",

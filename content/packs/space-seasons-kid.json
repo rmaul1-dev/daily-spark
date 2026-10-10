@@ -124,6 +124,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "b25g4nZTHvM",
+    "title": "Seasons and the Sun: Crash Course Kids 11.1",
+    "channel": "Crash Course Kids",
+    "duration_sec": 236,
+    "why": "A flashlight demo shows why tilted, slanted sunlight makes winter colder."
+  },
   "sources": [
     {
       "title": "What Causes the Seasons?",

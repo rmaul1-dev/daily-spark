@@ -123,6 +123,15 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "NpV4DWL0bSw",
+    "title": "Classical Greek Philosophy: Socrates and Plato",
+    "channel": "Professor Dave Explains",
+    "duration_sec": 554,
+    "start": 0,
+    "end": 254,
+    "why": "Who Socrates was, what his questioning method aimed at, and why Athens put him on trial (Socrates section only)."
+  },
   "sources": [
     {
       "title": "Socrates",

@@ -138,6 +138,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "gMoSKkJxyT8",
+    "title": "Sleep and Circadian Systems - Yale Medicine Explains",
+    "channel": "Yale Medicine",
+    "duration_sec": 329,
+    "why": "A Yale sleep physician explains the two systems — sleep pressure and the circadian clock — that time sleep."
+  },
   "sources": [
     {
       "title": "Brain Basics: Understanding Sleep",

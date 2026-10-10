@@ -123,6 +123,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "_aAmaCeq9v4",
+    "title": "Why Do We Need Sleep?",
+    "channel": "SciShow Kids",
+    "duration_sec": 213,
+    "why": "Why your body and brain need sleep, and what happens while you're out."
+  },
   "sources": [
     {
       "title": "Brain Basics: Understanding Sleep",

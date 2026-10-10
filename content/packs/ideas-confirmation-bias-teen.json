@@ -123,6 +123,13 @@
       ]
     }
   ],
+  "video": {
+    "youtube_id": "vKA4w2O61Xo",
+    "title": "The Most Common Cognitive Bias",
+    "channel": "Veritasium",
+    "duration_sec": 284,
+    "why": "Real people play the number-rule game — watch how almost everyone only tests guesses they expect to be right."
+  },
   "sources": [
     {
       "title": "Confirmation bias",
