@@ -1,0 +1,218 @@
+{
+  "id": "science-photosynthesis-adult",
+  "topic": "science",
+  "subject": "photosynthesis",
+  "level": "adult",
+  "title": "Photosynthesis: Energy, Carbon, Oxygen",
+  "emoji": "\ud83c\udf3f",
+  "summary": "How light-driven chemistry underwrites food webs, the fast carbon cycle, and the oxygen we breathe.",
+  "minutes": 8,
+  "date_added": "2026-10-10",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is the net chemical job of oxygenic photosynthesis?",
+      "answer": "Light energy drives the conversion of CO2 and water into carbohydrates, releasing O2\u2014NASA's simplified form is CO2 + H2O + energy \u2192 CH2O + O2."
+    },
+    {
+      "id": "k2",
+      "prompt": "How are the light reactions and the Calvin\u2013Benson cycle coupled?",
+      "answer": "Light reactions in the thylakoid split water, release O2, and make ATP and NADPH; the Calvin\u2013Benson cycle in the stroma uses that ATP/NADPH to fix CO2 into carbohydrate."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why is \"forests make all our oxygen\" incomplete?",
+      "answer": "Roughly half of oxygen production comes from ocean plankton; marine life consumes about as much, while the air holds a long-term O2 store."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "\ud83d\udd0b",
+      "title": "Every calorie started as a photon",
+      "text": "Fossil fuels are ancient photosynthesis. Your lunch is recent photosynthesis. Almost every food web is a relay of sunlight energy stored in chemical bonds\u2014then spent."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "About what share of Earth's current oxygen production do scientists attribute to the ocean?",
+      "options": [
+        {
+          "text": "Under 10%"
+        },
+        {
+          "text": "Roughly half",
+          "correct": true
+        },
+        {
+          "text": "Over 90%"
+        },
+        {
+          "text": "None\u2014oceans only store dissolved O2 from the air"
+        }
+      ],
+      "reveal": "Roughly half. NOAA notes most of that production is from oceanic plankton; Prochlorococcus alone may contribute up to ~20% of biosphere oxygen production. Marine life consumes roughly as much as the ocean produces, so the breathable atmosphere is a long-accumulated reservoir.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "\u2697\ufe0f",
+      "title": "The fast carbon cycle's engine",
+      "text": "NASA Earth Observatory: during photosynthesis, plants absorb CO2 and sunlight to make glucose and other sugars. Plants and phytoplankton combine CO2 and water using solar energy to form sugar (CH2O) and oxygen: CO2 + H2O + energy \u2192 CH2O + O2. That reaction is the foundation of the fast (biological) carbon cycle.",
+      "example": "Animals (including people) then break those sugars down for energy, returning CO2\u2014closing a loop that seasons the atmosphere."
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83e\udde9",
+      "title": "Two modules in one organelle",
+      "text": "In plants, photosynthesis splits across chloroplast compartments. Light reactions in the thylakoid membrane split water into oxygen, protons, and electrons and generate ATP and NADPH. The Calvin\u2013Benson cycle in the stroma uses that ATP and NADPH to convert CO2 into carbohydrate.",
+      "why": {
+        "q": "Why separate \"light\" chemistry from carbon fixation?",
+        "a": "Light capture is membrane photochemistry; sugar building is soluble enzymatic carbon chemistry. Coupling them through ATP/NADPH lets the cell run fixation where the enzymes are, using energy harvested at the membrane."
+      },
+      "examples_by_interest": {
+        "business": "Say\u2026 light reactions are the power plant; the Calvin\u2013Benson cycle is the factory floor that turns cheap CO2 into inventory (sugar) using that power.",
+        "building": "Say\u2026 thylakoids harvest energy like a solar array; the stroma is the workshop that assembles carbon into structure.",
+        "nature": "Say\u2026 a leaf is a stacked set of solar membranes feeding a carbon-fixing liquid interior."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udce1",
+      "title": "Chlorophyll catches the photons",
+      "text": "The light reactions begin when chlorophyll and related pigments absorb sunlight. That absorbed energy drives electron transfer, water splitting, and the ATP/NADPH supply that carbon fixation needs. Without a pigment tuned to visible light, there is no oxygenic photosynthesis.",
+      "example": "Johnson (2016): solar energy capture and electron/proton transfer start the light reactions in the thylakoid membrane."
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83c\udf0f",
+      "title": "Oxygen: production vs. the air we breathe",
+      "text": "NOAA estimates roughly half of Earth's oxygen production comes from the ocean, mostly phytoplankton. Roughly the same amount is consumed by marine life. The oxygen land animals breathe is largely from the atmosphere's accumulated store\u2014built over hundreds of millions of years of net photosynthetic oxygen release.",
+      "example": "Prochlorococcus, the smallest known photosynthetic organism, may produce up to ~20% of the oxygen in our biosphere\u2014more than all tropical rainforests combined, by that estimate."
+    },
+    {
+      "type": "think",
+      "question": "If atmospheric O2 is a long-term bank account, what short-term risks still matter when ocean or land photosynthesis is disrupted\u2014for climate, fisheries, or a closed habitat?",
+      "nudges": [
+        "Separate local O2 production/consumption from the global reservoir.",
+        "NASA ties plant/plankton growth tightly to the fast carbon cycle and seasonal CO2 swings."
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Which best matches NASA's simplified photosynthesis reaction?",
+          "options": [
+            {
+              "text": "CO2 + H2O + energy \u2192 carbohydrate + O2",
+              "correct": true,
+              "why": "Earth Observatory uses CO2 + H2O + energy \u2192 CH2O + O2."
+            },
+            {
+              "text": "O2 + sugar \u2192 CO2 + sunlight",
+              "correct": false,
+              "why": "That direction is closer to respiration/combustion, not photosynthesis."
+            },
+            {
+              "text": "N2 + soil \u2192 protein + heat",
+              "correct": false,
+              "why": "Nitrogen fixation is a different process."
+            },
+            {
+              "text": "CH4 + O2 \u2192 chlorophyll",
+              "correct": false,
+              "why": "Chlorophyll is a pigment built by cells; that is not the net reaction."
+            }
+          ]
+        },
+        {
+          "q": "Where do the light reactions and Calvin\u2013Benson cycle primarily run in a plant chloroplast?",
+          "options": [
+            {
+              "text": "Thylakoid membrane (light) and stroma (Calvin\u2013Benson)",
+              "correct": true,
+              "why": "Johnson (Essays Biochem): light reactions in thylakoid membranes; Calvin\u2013Benson in the stroma."
+            },
+            {
+              "text": "Cell wall and vacuole only",
+              "correct": false,
+              "why": "Those are not the photosynthetic compartments."
+            },
+            {
+              "text": "Mitochondrial matrix for both",
+              "correct": false,
+              "why": "Mitochondria run respiration; chloroplasts run photosynthesis."
+            },
+            {
+              "text": "Nucleus for light; cytoplasm for carbon",
+              "correct": false,
+              "why": "Both stages are chloroplast-localized in plants."
+            }
+          ]
+        },
+        {
+          "q": "Why is \"trees produce all the oxygen we breathe\" misleading?",
+          "options": [
+            {
+              "text": "Ocean plankton produce ~half of O2 production, and the air is a long-term reservoir",
+              "correct": true,
+              "why": "NOAA: ~half of production from the ocean; atmospheric O2 accumulated over hundreds of millions of years."
+            },
+            {
+              "text": "Oxygen comes only from volcanoes",
+              "correct": false,
+              "why": "Volcanoes emit gases; O2 in air is tied to photosynthetic history."
+            },
+            {
+              "text": "Animals produce more O2 than plants",
+              "correct": false,
+              "why": "Animals consume O2 in respiration."
+            },
+            {
+              "text": "There is no oxygen in the ocean",
+              "correct": false,
+              "why": "The ocean both produces and consumes large amounts of O2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Photosynthesis stores sunlight by\u2026",
+        "Inside a chloroplast\u2026",
+        "When people say forests make our oxygen\u2026"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Carbon Cycle",
+      "publisher": "NASA Earth Observatory",
+      "url": "https://earthobservatory.nasa.gov/features/CarbonCycle",
+      "supports": "Plants absorb CO2 + sunlight \u2192 glucose/sugars; plants and phytoplankton: CO2 + H2O + energy \u2192 CH2O + O2; foundation of fast carbon cycle; animals eat plants/plankton and return CO2."
+    },
+    {
+      "title": "Photosynthesis (Essays in Biochemistry)",
+      "publisher": "PMC / Biochemical Society (Johnson, 2016)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5264509/",
+      "supports": "Light reactions in thylakoid membrane split water and make ATP/NADPH with O2 by-product; Calvin\u2013Benson cycle in stroma converts CO2 to carbohydrate; sustains food chains and oxygen for aerobic life."
+    },
+    {
+      "title": "How much oxygen comes from the ocean?",
+      "publisher": "NOAA Ocean Service",
+      "url": "https://oceanservice.noaa.gov/facts/ocean-oxygen.html",
+      "supports": "~Half of oxygen production from ocean; plankton majority; Prochlorococcus up to ~20%; marine consumption roughly matches ocean production; atmospheric O2 accumulated over hundreds of millions of years."
+    }
+  ],
+  "video": {
+    "youtube_id": "sQK3Yr4Sc_k",
+    "title": "Photosynthesis: Crash Course Biology #8",
+    "channel": "CrashCourse",
+    "duration_sec": 795,
+    "why": "A denser tour of light-dependent reactions and the Calvin cycle to reinforce the pack\u2019s two-module picture."
+  }
+}

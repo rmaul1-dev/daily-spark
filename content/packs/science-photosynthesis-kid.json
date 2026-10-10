@@ -1,0 +1,236 @@
+{
+  "id": "science-photosynthesis-kid",
+  "topic": "science",
+  "subject": "photosynthesis",
+  "level": "kid",
+  "title": "How Plants Make Food",
+  "emoji": "\ud83c\udf31",
+  "summary": "Plants use sunlight, air, and water to make sugar\u2014and give us oxygen.",
+  "minutes": 6,
+  "date_added": "2026-10-10",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What do plants use to make their own food?",
+      "answer": "Sunlight, carbon dioxide from the air, and water. That process is called photosynthesis.",
+      "options": [
+        {
+          "text": "Sunlight, carbon dioxide, and water",
+          "correct": true
+        },
+        {
+          "text": "Only soil and rain"
+        },
+        {
+          "text": "Only the warmth of the Sun"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "What gas do plants release that we need to breathe?",
+      "answer": "Oxygen. Photosynthesis makes food for the plant and releases oxygen as a by-product.",
+      "options": [
+        {
+          "text": "Oxygen",
+          "correct": true
+        },
+        {
+          "text": "Helium"
+        },
+        {
+          "text": "Nitrogen only"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "Where does a lot of Earth's oxygen production happen?",
+      "answer": "In the ocean. Tiny floating life called phytoplankton makes roughly half of the oxygen produced on Earth.",
+      "options": [
+        {
+          "text": "In the ocean, from tiny phytoplankton",
+          "correct": true
+        },
+        {
+          "text": "Only inside volcanoes"
+        },
+        {
+          "text": "Only under the ground"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "\ud83e\udd57",
+      "title": "Who cooked your lunch?",
+      "text": "A salad, a sandwich, even a burger starts with plants. Plants do not shop for food. They build it. How?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "About how much of Earth's oxygen production comes from the ocean?",
+      "options": [
+        {
+          "text": "Almost none"
+        },
+        {
+          "text": "Roughly half",
+          "correct": true
+        },
+        {
+          "text": "All of it"
+        }
+      ],
+      "reveal": "Roughly half! Tiny ocean plankton make a huge share of the oxygen produced on Earth\u2014about as much as all the land plants together.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "\u2600\ufe0f",
+      "title": "Recipes need three ingredients",
+      "text": "Plants take in carbon dioxide from the air and water from the ground. They use sunlight as energy. Together, those make sugar the plant can use as food. That process is called photosynthesis.",
+      "example": "NASA puts it this way: plants use CO2, water, and sunlight to make food and release oxygen."
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udfe2",
+      "title": "Why leaves look green",
+      "text": "Leaves hold a green pigment called chlorophyll. Chlorophyll catches light energy so the plant can build sugar. It absorbs mostly blue and red light. Green light mostly bounces away, so leaves look green to us.",
+      "why": {
+        "q": "Why would bouncing green light make a leaf look green?",
+        "a": "We see the light that reaches our eyes. If green is reflected, green is what we see."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83c\udfed",
+      "title": "Tiny factories inside leaves",
+      "text": "Photosynthesis happens in tiny parts of plant cells called chloroplasts. Chlorophyll sits inside them. Each one is like a tiny kitchen that runs on sunlight.",
+      "example": "OpenStax Biology says plant cells keep chloroplasts for this job."
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83c\udf0a",
+      "title": "The ocean helps too",
+      "text": "Trees are not the only oxygen makers. Tiny ocean floaters called phytoplankton also use sunlight to make food. About half of Earth\u2019s oxygen production comes from the ocean.",
+      "example": "One tiny bacterium may make up to about 20% of the oxygen in our living world.",
+      "examples_by_interest": {
+        "animals": "Say\u2026 a whale\u2019s food web starts with tiny plankton that catch sunlight.",
+        "nature": "Say\u2026 green film on a pond is often algae doing the same job as a leaf.",
+        "cooking": "Say\u2026 the lettuce in your sandwich stored sunlight energy before it reached your plate."
+      }
+    },
+    {
+      "type": "think",
+      "question": "If plants and ocean plankton stopped making food, what would change first for animals\u2014and for us?",
+      "nudges": [
+        "What do animals eat, directly or through a food chain?",
+        "What helpful gas would stop being added?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What are the main ingredients plants use in photosynthesis?",
+          "options": [
+            {
+              "text": "Sunlight, carbon dioxide, and water",
+              "correct": true,
+              "why": "Yes. Those three let plants build sugar and release oxygen."
+            },
+            {
+              "text": "Only soil and rocks",
+              "correct": false,
+              "why": "Soil helps hold water and nutrients, but the food-making recipe needs light, CO2, and water."
+            },
+            {
+              "text": "Only moonlight",
+              "correct": false,
+              "why": "Photosynthesis runs on sunlight energy, not moonlight as the main fuel."
+            }
+          ]
+        },
+        {
+          "q": "What by-product of photosynthesis do we breathe?",
+          "options": [
+            {
+              "text": "Oxygen",
+              "correct": true,
+              "why": "Right. Making sugar also releases oxygen."
+            },
+            {
+              "text": "Smoke",
+              "correct": false,
+              "why": "Smoke comes from burning. Photosynthesis releases oxygen."
+            },
+            {
+              "text": "Pure carbon",
+              "correct": false,
+              "why": "Carbon from CO2 ends up in the sugar, not as a breathable gas."
+            }
+          ]
+        },
+        {
+          "q": "About how much of Earth's oxygen production comes from the ocean?",
+          "options": [
+            {
+              "text": "Roughly half",
+              "correct": true,
+              "why": "NOAA estimates about half comes from ocean photosynthesis, mostly plankton."
+            },
+            {
+              "text": "Almost none",
+              "correct": false,
+              "why": "Ocean plankton are huge oxygen makers."
+            },
+            {
+              "text": "Exactly all of it",
+              "correct": false,
+              "why": "Land plants make a large share too. The ocean's share is about half."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Plants make food by\u2026",
+        "Chlorophyll helps because\u2026",
+        "The ocean matters because\u2026"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "What is the Carbon Cycle?",
+      "publisher": "NASA Science (Kids)",
+      "url": "https://science.nasa.gov/kids/earth/what-is-the-carbon-cycle/",
+      "supports": "Plants absorb CO2 during photosynthesis using CO2, water, and sunlight to make food and release oxygen."
+    },
+    {
+      "title": "How much oxygen comes from the ocean?",
+      "publisher": "NOAA Ocean Service",
+      "url": "https://oceanservice.noaa.gov/facts/ocean-oxygen.html",
+      "supports": "Roughly half of Earth's oxygen production comes from the ocean; Prochlorococcus up to ~20% of biosphere oxygen; atmospheric O2 accumulated over hundreds of millions of years."
+    },
+    {
+      "title": "8.2 The Light-Dependent Reactions of Photosynthesis (see also 8.1 Overview)",
+      "publisher": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis",
+      "supports": "Chlorophyll absorbs light; chlorophyll a absorbs blue and red, not green, so it appears green; light-dependent chemistry in chloroplast membranes. (Chloroplasts/overview also in OpenStax 8.1.)"
+    }
+  ],
+  "video": {
+    "youtube_id": "eo5XndJaz-Y",
+    "title": "The simple story of photosynthesis and food - Amanda Ooten",
+    "channel": "TED-Ed",
+    "duration_sec": 241,
+    "why": "A clear walk through how plants use CO2, water, and sunlight in chloroplasts to build the carbohydrates in food."
+  }
+}

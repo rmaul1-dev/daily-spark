@@ -1,0 +1,216 @@
+{
+  "id": "science-photosynthesis-teen",
+  "topic": "science",
+  "subject": "photosynthesis",
+  "level": "teen",
+  "title": "Photosynthesis: Earth's Solar Factory",
+  "emoji": "\u2600\ufe0f",
+  "summary": "Light energy becomes sugar and oxygen\u2014and feeds almost every food web.",
+  "minutes": 7,
+  "date_added": "2026-10-10",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What does photosynthesis convert, and what does it release?",
+      "answer": "It uses light energy to turn CO2 and water into sugars (food) and releases oxygen as a by-product."
+    },
+    {
+      "id": "k2",
+      "prompt": "Where in a plant cell does photosynthesis happen, and what pigment catches light?",
+      "answer": "In chloroplasts. Chlorophyll absorbs mostly blue and red light and reflects green, which is why leaves look green."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why does ocean plankton matter as much as forests for oxygen production?",
+      "answer": "NOAA estimates roughly half of Earth's oxygen production comes from the ocean, mostly from phytoplankton."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "\ud83c\udf54",
+      "title": "Your lunch is leftover sunlight",
+      "text": "A burger, a salad, even a fish taco traces back to organisms that trapped sunlight. Photosynthesis is how that energy entered the food web in the first place."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Scientists estimate ocean photosynthesis produces about what share of Earth's oxygen production?",
+      "options": [
+        {
+          "text": "Under 5%"
+        },
+        {
+          "text": "Roughly 50%",
+          "correct": true
+        },
+        {
+          "text": "Over 95%"
+        }
+      ],
+      "reveal": "Roughly half. Tiny phytoplankton punch far above their size\u2014and one bacterium, Prochlorococcus, may alone account for up to about 20% of biosphere oxygen production.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "\u2699\ufe0f",
+      "title": "The core reaction",
+      "text": "During photosynthesis, plants and phytoplankton absorb carbon dioxide and use sunlight to combine CO2 with water, forming sugars and releasing oxygen. NASA writes the simplified reaction as CO2 + H2O + energy \u2192 CH2O + O2.",
+      "example": "That sugar becomes the fuel for building leaves, wood, and the food animals eat."
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udd2c",
+      "title": "Chloroplasts and chlorophyll",
+      "text": "In plants and algae, the work happens inside chloroplasts. Embedded in their membranes is chlorophyll, the pigment that absorbs light energy. Chlorophyll a absorbs blue and red wavelengths strongly; green is mostly reflected or transmitted, so leaves look green.",
+      "why": {
+        "q": "Why absorb blue and red instead of every color equally?",
+        "a": "Pigments only absorb specific wavelengths. Chlorophyll's chemistry is tuned to blue and red; the unused green is what reaches your eyes."
+      },
+      "examples_by_interest": {
+        "golf": "Say\u2026 the deep green of a fairway is chlorophyll reflecting the wavelengths it does not use for photosynthesis.",
+        "soccer": "Say\u2026 a sunlit field looks green because chlorophyll is bouncing green light while capturing blue and red.",
+        "business": "Say\u2026 chlorophyll is like a solar panel tuned to certain wavelengths; unused green light is the 'waste light' you see.",
+        "space": "Say\u2026 from orbit, green continents are a chlorophyll signal\u2014NASA even tracks plant growth from space."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udd17",
+      "title": "Light first, sugar next",
+      "text": "Photosynthesis is not one click. First, light-dependent reactions in the chloroplast capture sunlight, split water, and release oxygen while storing energy in short-term carriers. Then plants use that stored energy to build carbohydrate molecules from CO2.",
+      "example": "NASA summarizes the net result: CO2 + water + energy \u2192 sugar + O2. OpenStax details how light absorption by chlorophyll drives the first half."
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83c\udf0a",
+      "title": "Half the oxygen story is invisible",
+      "text": "Phytoplankton are microscopic marine algae (and some bacteria) with chlorophyll. They float where sunlight reaches. NOAA estimates roughly half of Earth's oxygen production comes from the ocean\u2014mostly these drifters. Land forests matter hugely too; the split is about half and half for production.",
+      "example": "Prochlorococcus, the smallest photosynthetic organism known, may produce up to ~20% of the oxygen in our biosphere\u2014more than all tropical rainforests combined, by that estimate."
+    },
+    {
+      "type": "think",
+      "question": "If you were designing a closed space habitat, what would photosynthesis need to keep people alive\u2014and what could still go wrong even if plants grew?",
+      "nudges": [
+        "List inputs (light, CO2, water, nutrients) and outputs (O2, food).",
+        "NOAA notes marine life also consumes much of the oxygen the ocean produces\u2014balance matters."
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What is the best summary of photosynthesis?",
+          "options": [
+            {
+              "text": "Light energy converts CO2 and water into sugars and releases O2",
+              "correct": true,
+              "why": "Yes\u2014that is the core NASA/biology summary."
+            },
+            {
+              "text": "Plants pull oxygen from soil and store it as sugar",
+              "correct": false,
+              "why": "Oxygen released comes from splitting water in the light reactions, not from soil air."
+            },
+            {
+              "text": "Heat alone turns water into food",
+              "correct": false,
+              "why": "The energy source is light captured by pigments, not heat alone."
+            },
+            {
+              "text": "Roots breathe in sugar from rocks",
+              "correct": false,
+              "why": "Sugars are built in chloroplasts from CO2 and water using light energy."
+            }
+          ]
+        },
+        {
+          "q": "Why do most leaves look green?",
+          "options": [
+            {
+              "text": "Chlorophyll absorbs blue and red light and reflects green",
+              "correct": true,
+              "why": "OpenStax: chlorophyll a absorbs ends of the visible spectrum, not green."
+            },
+            {
+              "text": "Leaves paint themselves with green dye from soil",
+              "correct": false,
+              "why": "The green is reflected light from chlorophyll, not soil dye."
+            },
+            {
+              "text": "Green light is the only color plants can use",
+              "correct": false,
+              "why": "They mostly use blue and red; green is the color they use least."
+            },
+            {
+              "text": "The sky dyes leaves blue-green",
+              "correct": false,
+              "why": "Leaf color comes from pigments inside the leaf."
+            }
+          ]
+        },
+        {
+          "q": "About what share of Earth's oxygen production comes from the ocean?",
+          "options": [
+            {
+              "text": "Roughly half",
+              "correct": true,
+              "why": "NOAA's estimate for ocean production is about 50%."
+            },
+            {
+              "text": "Under 1%",
+              "correct": false,
+              "why": "Ocean plankton are major producers."
+            },
+            {
+              "text": "Exactly 100%",
+              "correct": false,
+              "why": "Land plants produce a large share as well."
+            },
+            {
+              "text": "None\u2014oceans only consume oxygen",
+              "correct": false,
+              "why": "Oceans both produce and consume; production from plankton is huge."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Photosynthesis turns\u2026",
+        "Chlorophyll and chloroplasts\u2026",
+        "Ocean plankton matter because\u2026"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Carbon Cycle",
+      "publisher": "NASA Earth Observatory",
+      "url": "https://earthobservatory.nasa.gov/features/CarbonCycle",
+      "supports": "Plants absorb CO2 and sunlight to make glucose/sugars; plants and phytoplankton combine CO2 + water + energy \u2192 sugar + O2; foundation of the fast carbon cycle; animals eat plants/plankton for that energy."
+    },
+    {
+      "title": "How much oxygen comes from the ocean?; What are phytoplankton?",
+      "publisher": "NOAA Ocean Service",
+      "url": "https://oceanservice.noaa.gov/facts/ocean-oxygen.html",
+      "supports": "~Half of oxygen production from ocean; phytoplankton with chlorophyll; Prochlorococcus up to ~20%; marine life consumes roughly as much as ocean produces; atmospheric O2 accumulated over hundreds of millions of years."
+    },
+    {
+      "title": "8.2 The Light-Dependent Reactions of Photosynthesis (see also 8.1 Overview)",
+      "publisher": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis",
+      "supports": "Chlorophyll a absorbs blue/red not green (leaves appear green); photosynthetic pigments; light-dependent reactions. Chloroplasts and overall CO2+water+light\u2192carbohydrates+O2 in OpenStax 8.1."
+    }
+  ],
+  "video": {
+    "youtube_id": "CMiPYHNNg28",
+    "title": "Photosynthesis (UPDATED)",
+    "channel": "Amoeba Sisters",
+    "duration_sec": 479,
+    "why": "Reviews chloroplasts, light-dependent steps, and how CO2 becomes sugar\u2014matching the pack\u2019s mechanism angle."
+  }
+}
