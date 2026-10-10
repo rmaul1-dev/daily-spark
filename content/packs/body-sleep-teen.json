@@ -1,0 +1,146 @@
+{
+  "id": "body-sleep-teen",
+  "topic": "body",
+  "subject": "sleep",
+  "level": "teen",
+  "title": "Sleep: Your Brain's Two Timers",
+  "emoji": "🌙",
+  "summary": "Sleep drive, the body clock, caffeine, and why sleep is training too.",
+  "minutes": 7,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌙",
+      "title": "Sleep is part of training",
+      "text": "Athletes talk about practice, food, and gear. Fewer talk about sleep, but sleep is when your body supports growth and your brain locks in learning. How does your brain decide when to sleep?"
+    },
+    {
+      "type": "idea",
+      "emoji": "⏳",
+      "title": "Timer 1: sleep drive",
+      "text": "The longer you're awake, the stronger your drive to sleep gets. One reason is a chemical called adenosine that builds up and makes you feel sleepy. Caffeine works by blocking adenosine. It hides the sleepiness instead of removing it."
+    },
+    {
+      "type": "idea",
+      "emoji": "🕰️",
+      "title": "Timer 2: the body clock",
+      "text": "Your circadian rhythm runs on about 24 hours. A cluster of brain cells gets light information straight from your eyes. When it gets dark, your brain releases melatonin. Light is the strongest signal, which is why bright screens at night can push sleep later."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔄",
+      "title": "Sleep cycles",
+      "text": "You cycle through non-REM and REM sleep several times a night. Deep non-REM sleep comes mostly in the first half of the night. The first REM, where most dreaming happens, starts about 90 minutes after you fall asleep. REM periods get longer toward morning.",
+      "example": "Memory consolidation most likely needs both non-REM and REM sleep."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚽",
+      "title": "The numbers",
+      "text": "Teens 13 to 18 should sleep 8 to 10 hours. In children and teens, sleep also helps support growth and development. Short sleep makes it harder to concentrate and react quickly, which matters on a test and on a soccer field."
+    },
+    {
+      "type": "think",
+      "question": "If you need 8 to 10 hours and have to be up at 6:30 a.m., when should you be asleep? What makes that hard, and what would you trade off?",
+      "nudges": [
+        "Do the math backward from your wake-up time.",
+        "Which habits are within your control?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "How does caffeine make you feel less sleepy?",
+          "options": [
+            {
+              "text": "It blocks adenosine, a chemical that builds sleep pressure.",
+              "correct": true,
+              "why": "Right. The sleep need is still there; you just feel it less."
+            },
+            {
+              "text": "It adds extra sleep to your night.",
+              "correct": false,
+              "why": "Caffeine doesn't replace sleep."
+            },
+            {
+              "text": "It raises melatonin.",
+              "correct": false,
+              "why": "Caffeine works on adenosine, not melatonin."
+            }
+          ]
+        },
+        {
+          "q": "When does the first REM period usually begin?",
+          "options": [
+            {
+              "text": "About 90 minutes after falling asleep",
+              "correct": true,
+              "why": "Yes. REM periods get longer later in the night."
+            },
+            {
+              "text": "Right as you fall asleep",
+              "correct": false,
+              "why": "Sleep starts with non-REM stages."
+            },
+            {
+              "text": "Only after 8 hours",
+              "correct": false,
+              "why": "It begins much earlier and repeats."
+            }
+          ]
+        },
+        {
+          "q": "How much sleep is recommended for teens 13 to 18?",
+          "options": [
+            {
+              "text": "8 to 10 hours",
+              "correct": true,
+              "why": "Correct, per the NIH's heart, lung, and blood institute."
+            },
+            {
+              "text": "5 to 6 hours",
+              "correct": false,
+              "why": "Well below the recommendation."
+            },
+            {
+              "text": "12 to 16 hours",
+              "correct": false,
+              "why": "That is the range for babies."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "My brain has two sleep timers:…",
+        "Caffeine works by…",
+        "Sleep helps my sports and school because…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Brain Basics: Understanding Sleep",
+      "publisher": "National Institute of Neurological Disorders and Stroke (NIH)",
+      "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep",
+      "supports": "We sleep about a third of our time; sleep is needed to form memory pathways; a possible \"housekeeping\" role; sleep stages and REM; circadian rhythm and sleep drive; adenosine, caffeine, melatonin, and light; the purpose of sleep is still partly a mystery."
+    },
+    {
+      "title": "How Much Sleep Is Enough?",
+      "publisher": "National Heart, Lung, and Blood Institute (NIH)",
+      "url": "https://www.nhlbi.nih.gov/health/sleep/how-much-sleep",
+      "supports": "Recommended sleep: adults 7 to 9 hours; children 6 to 12, 9 to 12 hours; teens 13 to 18, 8 to 10 hours; adults sleeping under 7 hours may have more health issues."
+    },
+    {
+      "title": "Why Is Sleep Important?",
+      "publisher": "National Heart, Lung, and Blood Institute (NIH)",
+      "url": "https://www.nhlbi.nih.gov/health/sleep/why-sleep-important",
+      "supports": "Sleep supports growth in children and teens; heart rate and blood pressure fall in non-REM sleep; poor sleep is linked to higher hunger hormones and weaker insulin response."
+    }
+  ]
+}

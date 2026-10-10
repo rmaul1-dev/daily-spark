@@ -1,0 +1,142 @@
+{
+  "id": "history-printing-press-teen",
+  "topic": "history",
+  "subject": "printing-press",
+  "level": "teen",
+  "title": "Gutenberg's Startup: Combining Old Tech",
+  "emoji": "🏭",
+  "summary": "Gutenberg didn't invent the press, paper, or movable type. So what did he do?",
+  "minutes": 7,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🏭",
+      "title": "He didn't invent the parts",
+      "text": "Screw presses were Roman. Movable type was first made in China. Paper and bound books existed already. So why do we remember Johann Gutenberg?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🧩",
+      "title": "Combination innovation",
+      "text": "Around 1440, Gutenberg combined four existing technologies: the screw press, movable type, the bound book (codex), and mill-made paper. He added his own pieces too: a hand mold for casting metal letters and an oil-based ink that stuck to metal.",
+      "example": "Many startups work this way. The breakthrough is not one part. It is a system where all the parts finally work together."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌏",
+      "title": "Asia got there first",
+      "text": "The Chinese artisan Bi Sheng made movable type from baked clay in the 11th century. The oldest surviving book printed with metal movable type is Korea's Jikji, from 1377.",
+      "example": "Chinese writing uses thousands of different characters, so a full set of type was very costly. The Latin alphabet needs only a few dozen letters, which made Gutenberg's system cheaper to set up."
+    },
+    {
+      "type": "idea",
+      "emoji": "💰",
+      "title": "Long R&D, outside money",
+      "text": "A 1439 lawsuit already describes Gutenberg's type, molds, and metals. His famous Bible came out between 1454 and 1456, published with his partner Johann Fust. That is about 15 years from early evidence to flagship product.",
+      "example": "More than 150 copies were printed. Only 20 complete copies survive intact today."
+    },
+    {
+      "type": "idea",
+      "emoji": "📈",
+      "title": "Then it scaled",
+      "text": "By the end of the 1400s, around 270 European cities had printers. Between 1518 and 1520, printers handed out about 300,000 copies of Martin Luther's writings. Historians link printing to the Reformation and the Scientific Revolution."
+    },
+    {
+      "type": "think",
+      "question": "Books kept being copied by hand for centuries after printing arrived. Why do old methods hang on even after a better one shows up?",
+      "nudges": [
+        "Think about cost, skills people already have, and trust.",
+        "Is there something today that is \"better\" but lots of people still do the old way?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Why did metal movable type take off faster in Europe than in China?",
+          "options": [
+            {
+              "text": "The Latin alphabet has few letters, so a full set of type cost much less.",
+              "correct": true,
+              "why": "Right. Thousands of Chinese characters meant a huge, expensive set of type."
+            },
+            {
+              "text": "Europe invented movable type first.",
+              "correct": false,
+              "why": "Bi Sheng made movable type in China in the 11th century, long before Gutenberg."
+            },
+            {
+              "text": "Asia had no paper.",
+              "correct": false,
+              "why": "Woodblock printing on paper was the main method in East Asia, so paper was not the problem."
+            }
+          ]
+        },
+        {
+          "q": "Which of these was one of Gutenberg's own innovations?",
+          "options": [
+            {
+              "text": "A hand mold for casting metal type",
+              "correct": true,
+              "why": "Yes. That let him make lots of matching letters quickly."
+            },
+            {
+              "text": "The screw press",
+              "correct": false,
+              "why": "Screw presses go back to the Romans. Farmers used them for grapes and olives."
+            },
+            {
+              "text": "The bound book (codex)",
+              "correct": false,
+              "why": "The codex format also dates back to the Roman Empire."
+            }
+          ]
+        },
+        {
+          "q": "Which is the best summary of what Gutenberg achieved?",
+          "options": [
+            {
+              "text": "He combined old and new tools into a system that could mass-produce books.",
+              "correct": true,
+              "why": "Exactly. The system, not a single part, was the breakthrough."
+            },
+            {
+              "text": "He invented the first way to put ink on paper.",
+              "correct": false,
+              "why": "Woodblock printing had existed for centuries before him."
+            },
+            {
+              "text": "He made hand-copying disappear right away.",
+              "correct": false,
+              "why": "Books were still copied by hand for centuries afterward."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Gutenberg didn't invent every part, but…",
+        "His system worked well in Europe because…",
+        "It mattered because…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Gutenberg Bible",
+      "publisher": "Harry Ransom Center, University of Texas at Austin",
+      "url": "https://www.hrc.utexas.edu/gutenberg-bible/",
+      "supports": "Mainz in the mid-1450s; Gutenberg and partner Johann Fust; more than 150 copies in Latin; individual metal type; one of only 20 complete copies surviving; books still copied by hand for centuries."
+    },
+    {
+      "title": "Printing press",
+      "publisher": "Wikipedia (encyclopedia article with cited historians)",
+      "url": "https://en.wikipedia.org/wiki/Printing_press",
+      "supports": "Screw press used for grapes and olives; four combined technologies; hand mold and oil-based ink; Bi Sheng and the 1377 Jikji; spread to about 270 cities; 20 million copies by 1500; Luther and Erasmus print runs."
+    }
+  ]
+}

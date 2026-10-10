@@ -1,0 +1,141 @@
+{
+  "id": "tech-internet-packets-teen",
+  "topic": "tech",
+  "subject": "internet-packets",
+  "level": "teen",
+  "title": "Packets, Protocols, and a Network of Networks",
+  "emoji": "🌐",
+  "summary": "Why the internet chops data into packets and lets each network be different.",
+  "minutes": 7,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌐",
+      "title": "Built to connect anything",
+      "text": "The internet was designed to connect networks that worked in totally different ways, including radio and satellite networks. How do you build one system on top of all of them?"
+    },
+    {
+      "type": "idea",
+      "emoji": "📦",
+      "title": "Packet switching",
+      "text": "Instead of holding one line open for a whole conversation, like an old phone call, data is cut into packets that share the network. Leonard Kleinrock published the first paper on packet-switching theory in 1961 and argued that packets could work in place of reserved circuits.",
+      "example": "ARPANET's first node went live at UCLA in September 1969. By the end of that year, four host computers were connected."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏗️",
+      "title": "Open architecture",
+      "text": "In 1972, Bob Kahn proposed linking many independent networks of any design. Each network could stay different. A shared protocol would carry packets between them. In 1973, he and Vint Cerf began designing that protocol, TCP."
+    },
+    {
+      "type": "idea",
+      "emoji": "✂️",
+      "title": "TCP and IP split up",
+      "text": "The original TCP did everything. Then real uses, like sending voice in the 1970s, showed some apps would rather skip a lost packet than wait. So it split in two: IP handles addresses and forwarding, and TCP handles extras like recovering lost packets and controlling flow.",
+      "example": "Delivery is \"best effort.\" If a packet does not arrive, the sender sends it again."
+    },
+    {
+      "type": "idea",
+      "emoji": "📅",
+      "title": "Switch day",
+      "text": "On January 1, 1983, the ARPANET switched its hosts to TCP/IP. Electronic mail turned out to be one of the biggest impacts of that era. By 1992, the internet had one million hosts."
+    },
+    {
+      "type": "think",
+      "question": "The internet's designers kept the core simple and let the \"smarts\" live in the computers at each end. What are the trade-offs of that design, for innovation and for security?",
+      "nudges": [
+        "Who gets to build new apps if the network does not need to approve them?",
+        "What problems does a simple, open core make harder?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Why was IP split from TCP?",
+          "options": [
+            {
+              "text": "Some apps, like voice, would rather handle lost packets themselves than wait.",
+              "correct": true,
+              "why": "Right. IP became the simple addressing and forwarding layer."
+            },
+            {
+              "text": "TCP was too slow to send email.",
+              "correct": false,
+              "why": "The issue was about apps like packet voice, not email."
+            },
+            {
+              "text": "To make the internet private",
+              "correct": false,
+              "why": "The split was about flexibility, not privacy."
+            }
+          ]
+        },
+        {
+          "q": "What was Bob Kahn's \"open architecture\" idea?",
+          "options": [
+            {
+              "text": "Link independent networks of any design with a shared protocol",
+              "correct": true,
+              "why": "Yes. A network of networks."
+            },
+            {
+              "text": "Make every network use the same hardware",
+              "correct": false,
+              "why": "The opposite: networks could be different."
+            },
+            {
+              "text": "Let anyone open the ARPANET's computers",
+              "correct": false,
+              "why": "It was about connecting networks, not opening machines."
+            }
+          ]
+        },
+        {
+          "q": "What does \"best effort\" delivery mean?",
+          "options": [
+            {
+              "text": "The network tries, and lost packets are resent by the source.",
+              "correct": true,
+              "why": "Right. Reliability comes from the ends, not a promise from the network."
+            },
+            {
+              "text": "Every packet is guaranteed to arrive on time.",
+              "correct": false,
+              "why": "No guarantee. That is why retransmission exists."
+            },
+            {
+              "text": "Only important packets are sent.",
+              "correct": false,
+              "why": "All packets are sent. Some may be lost and resent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The internet sends data as…",
+        "TCP and IP each…",
+        "The design is clever because…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "A Brief History of the Internet",
+      "publisher": "Internet Society (written by Internet pioneers including Cerf and Kahn)",
+      "url": "https://www.internetsociety.org/internet/history-internet/brief-history-internet/",
+      "supports": "Packet switching; the first ARPANET node at UCLA in September 1969 and four hosts by year-end; Kahn's open-architecture idea (1972); Cerf and Kahn's TCP; the split into TCP and IP; best-effort delivery and retransmission; the switch to TCP/IP on January 1, 1983; email's impact."
+    },
+    {
+      "title": "Internet History, 1962 to 1992",
+      "publisher": "Computer History Museum",
+      "url": "https://www.computerhistory.org/internethistory/",
+      "supports": "ARPA as a funder of high-risk, high-gain research that laid the groundwork for the ARPANET; by 1992 the Internet had one million hosts."
+    }
+  ]
+}

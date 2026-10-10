@@ -1,0 +1,156 @@
+{
+  "id": "ideas-confirmation-bias-adult",
+  "topic": "ideas",
+  "subject": "confirmation-bias",
+  "level": "adult",
+  "title": "Confirmation Bias: Search, Interpretation, Memory",
+  "emoji": "🧭",
+  "summary": "Three channels of bias, a fair critique, and what it means for investment and operating decisions.",
+  "minutes": 8,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧭",
+      "title": "Same evidence, opposite conclusions",
+      "text": "Give people who disagree the same pair of studies, one on each side. In a well-known lab study, almost all of them ended up back where they started, each rating the study that agreed with them as better done. Which part of their reasoning broke?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🔀",
+      "title": "Three channels",
+      "text": "Confirmation bias is the tendency to search for, interpret, favor, and recall information in ways that support prior beliefs. Biased search, biased interpretation, and biased recall are used to explain attitude polarization, belief perseverance (beliefs that survive after their evidence is discredited), irrational primacy effects, and illusory correlations."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "The Stanford study",
+      "text": "Participants with strong views on capital punishment (half for, half against) read two fictional studies, one supporting deterrence and one undermining it, with the conclusions swapped across groups. After the detailed versions, they almost all returned to their original belief and rated the study that agreed with them as better done, pointing to specific flaws in the other.",
+      "example": "The bias is symmetric: both sides did it. Interpretation, not access to evidence, was the failure point."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔬",
+      "title": "A fair critique",
+      "text": "In Wason's 2-4-6 task (1960), people tested only triples that fit their hypothesis. Klayman and Ha argued that a positive test strategy is often rational, because positive tests are informative when the true answer is specific and unlikely. Wason's broad rule (\"any ascending sequence\") was the case where positive tests fail.",
+      "example": "Practical upshot: the error is not positive testing; it is failing to ask which tests could surprise you."
+    },
+    {
+      "type": "idea",
+      "emoji": "💼",
+      "title": "Where it costs money",
+      "text": "Flawed decisions attributed to confirmation bias have been documented in political, organizational, financial, and scientific settings, and the bias contributes to overconfidence. The effect is strongest for desired outcomes, emotionally charged issues, and entrenched beliefs, which describes most thesis-driven investing and most strategic pet projects."
+    },
+    {
+      "type": "think",
+      "question": "What would it take, structurally, for your team to reward the person who disconfirms a favored thesis? Write down one belief about the business you would bet on, then the single observation that would make you drop it.",
+      "nudges": [
+        "Define the kill criteria before you collect the evidence.",
+        "Who is your designated dissenter, and are they ever right in public?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "In the Stanford capital-punishment study, what happened after participants read detailed descriptions?",
+          "options": [
+            {
+              "text": "Most returned to their original belief and rated the confirming study as better designed.",
+              "correct": true,
+              "why": "Biased interpretation in both camps."
+            },
+            {
+              "text": "Both sides converged toward the middle.",
+              "correct": false,
+              "why": "They did not converge; they reverted."
+            },
+            {
+              "text": "Opponents changed their minds but supporters didn't.",
+              "correct": false,
+              "why": "The effect showed up on both sides."
+            },
+            {
+              "text": "Everyone discounted both studies equally.",
+              "correct": false,
+              "why": "They discounted only the disconfirming one."
+            }
+          ]
+        },
+        {
+          "q": "What is Klayman and Ha's main argument?",
+          "options": [
+            {
+              "text": "Positive tests are often informative; Wason's task is a case where they are not.",
+              "correct": true,
+              "why": "Positive testing is not the bias by itself."
+            },
+            {
+              "text": "The 2-4-6 results failed to replicate.",
+              "correct": false,
+              "why": "Not their claim."
+            },
+            {
+              "text": "People prefer negative tests.",
+              "correct": false,
+              "why": "People prefer positive tests."
+            },
+            {
+              "text": "Confirmation bias only affects novices.",
+              "correct": false,
+              "why": "Not their claim."
+            }
+          ]
+        },
+        {
+          "q": "\"Belief perseverance\" refers to…",
+          "options": [
+            {
+              "text": "Beliefs persisting after their supporting evidence is shown to be false",
+              "correct": true,
+              "why": "One of four effects attributed to biased search, interpretation, and recall."
+            },
+            {
+              "text": "Remembering early information best",
+              "correct": false,
+              "why": "That is the primacy effect."
+            },
+            {
+              "text": "Seeing a link between unrelated events",
+              "correct": false,
+              "why": "That is illusory correlation."
+            },
+            {
+              "text": "Opinions growing more extreme with shared evidence",
+              "correct": false,
+              "why": "That is attitude polarization."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Confirmation bias works through…",
+        "The fair critique is…",
+        "At work, we could…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Confirmation bias",
+      "publisher": "Wikipedia (encyclopedia article with cited psychology research)",
+      "url": "https://en.wikipedia.org/wiki/Confirmation_bias",
+      "supports": "Definition; strongest for desired outcomes and emotional or entrenched beliefs; Wason's 1960 2-4-6 task; positive-test preference and the Klayman and Ha critique; the Stanford capital-punishment study; effects on financial, organizational, and scientific decisions."
+    },
+    {
+      "title": "Confirmation bias",
+      "publisher": "APA Dictionary of Psychology (American Psychological Association)",
+      "url": "https://dictionary.apa.org/confirmation-bias",
+      "supports": "Definition: the tendency to gather evidence that confirms preexisting expectations while dismissing or failing to seek contradictory evidence."
+    }
+  ]
+}

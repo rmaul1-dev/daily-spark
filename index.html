@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Daily Spark</title>
+<meta name="description" content="A few minutes a day of bite-sized learning for the whole family.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Daily Spark">
+<meta name="theme-color" content="#fff7ec">
+<meta name="referrer" content="no-referrer">
+<meta name="app-version" content="daily-spark-v4-691472a2">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-192.png">
+<style>
+:root{--bg:#fff7ec;--card:#fffdf9;--ink:#2a1f17;--muted:#7b6a5b;--accent:#ef6a1a;--accent-d:#c9520c;--sun:#ffb547;--ok:#19864a;--ok-bg:#e5f6ea;--bad:#c23b3b;--bad-bg:#fdeaea;--line:#efdfcb;--r:22px;--tc:#ef6a1a;
+--sat:env(safe-area-inset-top,0px);--sab:env(safe-area-inset-bottom,0px);--sal:env(safe-area-inset-left,0px);--sar:env(safe-area-inset-right,0px)}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Rounded","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:17px;line-height:1.45;-webkit-text-size-adjust:100%}
+body{overscroll-behavior:none}
+button{font:inherit;color:inherit;cursor:pointer;border:0;background:none;touch-action:manipulation}
+a{color:var(--accent-d)}
+textarea,input,select{font:inherit;color:inherit}
+#app{min-height:100%;display:flex;flex-direction:column}
+.screen{flex:1;width:100%;max-width:780px;margin:0 auto;padding:calc(14px + var(--sat)) calc(16px + var(--sar)) calc(28px + var(--sab)) calc(16px + var(--sal))}
+h1,h2,h3{margin:0;line-height:1.2}
+h1{font-size:1.75rem;letter-spacing:-.01em}
+h2{font-size:1.3rem}
+h3{font-size:1.08rem}
+.muted{color:var(--muted)}
+.small{font-size:.86rem}
+.row{display:flex;align-items:center;gap:10px}
+.spacer{flex:1}
+.center{text-align:center}
+.stack>*+*{margin-top:14px}
+
+/* top bar */
+.top{display:flex;align-items:center;gap:10px;margin-bottom:16px;min-height:44px}
+.top h1,.top h2{flex:1;min-width:0}
+.iconbtn{width:44px;height:44px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:1.25rem;background:#fff;border:1.5px solid var(--line);flex:none}
+.iconbtn:active{transform:scale(.94)}
+.iconbtn.on{background:#ffe3d1;border-color:#f6b48a}
+.iconbtn[disabled]{opacity:.3}
+.brand{display:flex;align-items:center;gap:10px}
+.brand .logo{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,var(--sun),var(--accent));display:flex;align-items:center;justify-content:center;font-size:1.4rem;box-shadow:0 3px 10px #ef6a1a40}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:50px;padding:0 22px;border-radius:999px;background:var(--accent);color:#fff;font-weight:700;font-size:1.05rem;box-shadow:0 3px 0 var(--accent-d)}
+.btn:active{transform:translateY(2px);box-shadow:0 1px 0 var(--accent-d)}
+.btn.ghost{background:#fff;color:var(--ink);border:1.5px solid var(--line);box-shadow:none}
+.btn.wide{width:100%}
+.btn.sm{min-height:40px;padding:0 16px;font-size:.95rem}
+.btn[disabled]{opacity:.45;box-shadow:none}
+.link{color:var(--accent-d);font-weight:600;padding:8px 4px}
+
+/* panels */
+.panel{background:var(--card);border:1.5px solid var(--line);border-radius:var(--r);padding:18px;box-shadow:0 2px 0 #00000008}
+.family{background:linear-gradient(160deg,#fff4e2,#ffe7d2);border-color:#f6cfa8;position:relative;overflow:hidden}
+.family .tag{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--accent-d)}
+.family .big{font-size:2.6rem;line-height:1}
+.dinner{margin-top:12px;background:#ffffffc0;border-radius:16px;padding:12px 14px;font-size:.98rem}
+.dinner b{display:block;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;background:#fff;border:1.5px solid var(--line);font-size:.85rem;font-weight:600;white-space:nowrap}
+.chip.t{border-color:color-mix(in srgb,var(--tc) 35%,white);color:color-mix(in srgb,var(--tc) 85%,black);background:color-mix(in srgb,var(--tc) 9%,white)}
+.chip.ok{background:var(--ok-bg);border-color:#bfe5cb;color:var(--ok)}
+
+/* profiles */
+.people{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.person{display:flex;align-items:center;gap:14px;text-align:left;padding:16px;border-radius:var(--r);background:#fff;border:1.5px solid var(--line);min-height:84px}
+.person:active{transform:scale(.98)}
+.avatar{width:54px;height:54px;flex:none;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.8rem;background:#fff1e0;border:2px solid #f8d2ad}
+.person .nm{font-weight:800;font-size:1.12rem}
+.person .meta{font-size:.86rem;color:var(--muted)}
+.fire{font-weight:800;color:var(--accent-d)}
+.hold{position:relative;overflow:hidden}
+.hold .fill{position:absolute;left:0;top:0;bottom:0;width:0;background:#ffd9bf;z-index:0}
+.hold.holding .fill{width:100%;transition:width 1.1s linear}
+.hold span{position:relative;z-index:1}
+
+/* learner home */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.stat{background:#fff;border:1.5px solid var(--line);border-radius:18px;padding:10px 12px;text-align:center}
+.stat b{display:block;font-size:1.35rem}
+.stat span{font-size:.8rem;color:var(--muted)}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.tile{display:flex;flex-direction:column;align-items:flex-start;gap:6px;text-align:left;padding:16px;border-radius:var(--r);background:#fff;border:1.5px solid var(--line);min-height:96px}
+.tile .e{font-size:1.8rem;line-height:1}
+.tile b{font-size:1.05rem}
+.review{background:#eef6ff;border-color:#c7defa}
+
+/* topics */
+.topics{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+@media(min-width:700px){.topics{grid-template-columns:repeat(4,1fr)}}
+.topic{display:flex;flex-direction:column;gap:8px;align-items:flex-start;text-align:left;padding:16px 14px 14px;border-radius:var(--r);background:#fff;border:1.5px solid var(--line);border-top:6px solid var(--tc);min-height:132px}
+.topic .e{font-size:2.1rem;line-height:1}
+.topic b{font-size:1.02rem;line-height:1.2}
+.bar{width:100%;height:8px;border-radius:99px;background:#f3e8db;overflow:hidden;margin-top:auto}
+.bar i{display:block;height:100%;background:var(--tc);border-radius:99px}
+.packs{display:flex;flex-direction:column;gap:12px}
+.packrow{display:flex;gap:14px;align-items:center;text-align:left;padding:14px 16px;border-radius:var(--r);background:#fff;border:1.5px solid var(--line);border-left:6px solid var(--tc)}
+.packrow .e{font-size:2rem;flex:none}
+.packrow b{display:block;font-size:1.05rem}
+.packrow .s{font-size:.9rem;color:var(--muted)}
+
+/* player */
+.player{height:100vh;height:100dvh;display:flex;flex-direction:column;max-width:780px;margin:0 auto;width:100%;padding:calc(8px + var(--sat)) calc(12px + var(--sar)) calc(10px + var(--sab)) calc(12px + var(--sal))}
+.ptop{display:flex;align-items:center;gap:8px;padding:4px 2px 10px}
+.dots{flex:1;display:flex;gap:5px;justify-content:center;flex-wrap:wrap}
+.dots i{width:9px;height:9px;border-radius:50%;background:#e9d9c6}
+.dots i.on{background:var(--accent);transform:scale(1.25)}
+.dots i.seen{background:#f5b58b}
+.stage{flex:1;position:relative;min-height:0;touch-action:pan-y}
+.card{position:absolute;inset:0;background:var(--card);border-radius:28px;border:1.5px solid var(--line);box-shadow:0 8px 24px #7a4a1a1a;display:flex;flex-direction:column;overflow:hidden;will-change:transform}
+.card .band{height:10px;background:var(--tc);flex:none}
+.card .body{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:22px 24px 26px;display:flex;flex-direction:column}
+.card .kicker{font-size:.8rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:color-mix(in srgb,var(--tc) 80%,black);margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.card h2{font-size:1.55rem;margin-bottom:12px;letter-spacing:-.01em}
+.card p{margin:0 0 12px}
+.card .txt{font-size:1.14rem}
+.lv-kid .card .txt{font-size:1.24rem;line-height:1.5}
+.lv-adult .card .txt{font-size:1.1rem}
+.card .emoji{font-size:3.4rem;line-height:1;margin:2px 0 14px}
+.card.hook .emoji{font-size:4.6rem;margin:10px 0 18px}
+.card.hook h2{font-size:1.85rem}
+.card.hook .body{justify-content:center}
+.example{background:color-mix(in srgb,var(--tc) 8%,white);border-left:5px solid var(--tc);border-radius:14px;padding:12px 14px;font-size:1.02rem;margin-top:4px}
+.example b{display:block;font-size:.76rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.fig{margin:14px auto 4px;width:100%;max-width:440px}
+.fig svg{width:100%;height:auto;display:block}
+.hint{margin-top:auto;padding-top:16px;color:var(--muted);font-size:.9rem;text-align:center}
+.nudges{list-style:none;padding:0;margin:6px 0 0}
+.nudges li{background:#fff4e6;border-radius:14px;padding:10px 14px;margin-top:8px;font-size:1.02rem}
+.nudges li::before{content:"💭 "}
+.opts{display:flex;flex-direction:column;gap:10px;margin-top:6px}
+.opt{text-align:left;padding:14px 16px;border-radius:16px;background:#fff;border:2px solid var(--line);font-size:1.06rem;min-height:54px}
+.opt:active{transform:scale(.99)}
+.opt.right{border-color:#7fcf9c;background:var(--ok-bg)}
+.opt.wrong{border-color:#eba3a3;background:var(--bad-bg)}
+.opt.dim{opacity:.55}
+.opt .why{display:block;font-size:.93rem;margin-top:6px;color:#3f342b}
+.verdict{font-weight:800;margin-top:12px;font-size:1.05rem}
+.verdict.ok{color:var(--ok)}.verdict.no{color:var(--bad)}
+.starters{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 12px}
+.starters button{padding:8px 12px;border-radius:999px;background:#fff4e6;border:1.5px solid #f6d3b0;font-size:.95rem}
+textarea.note{width:100%;min-height:120px;border-radius:16px;border:2px solid var(--line);padding:12px 14px;background:#fff;resize:vertical;font-size:1.05rem}
+textarea.note:focus{outline:none;border-color:#f6b48a}
+.saved{font-size:.85rem;color:var(--ok);min-height:1.2em;margin-top:6px}
+.src{padding:12px 0;border-top:1.5px dashed var(--line)}
+.src:first-of-type{border-top:0}
+.src a{font-weight:700;font-size:1.04rem;word-break:break-word}
+.src .pub{font-size:.85rem;color:var(--muted);margin-top:2px}
+.src .sup{font-size:.95rem;margin-top:6px}
+.pnav{display:flex;gap:10px;padding-top:12px}
+.pnav .btn{flex:1}
+.pnav .btn.ghost{flex:0 0 32%}
+.toast{position:fixed;left:50%;bottom:calc(90px + var(--sab));transform:translateX(-50%);background:#2a1f17;color:#fff;padding:10px 18px;border-radius:999px;font-size:.95rem;z-index:50;max-width:90vw;text-align:center;animation:fade 2.2s forwards}
+@keyframes fade{0%{opacity:0;transform:translate(-50%,8px)}10%,80%{opacity:1;transform:translate(-50%,0)}100%{opacity:0}}
+.sheet-bg{position:fixed;inset:0;background:#2a1f1766;z-index:40;display:flex;align-items:flex-end;justify-content:center}
+.sheet{background:var(--card);width:100%;max-width:640px;max-height:80vh;overflow:auto;border-radius:26px 26px 0 0;padding:20px 22px calc(24px + var(--sab))}
+@media(min-width:700px){.sheet-bg{align-items:center}.sheet{border-radius:26px}}
+
+/* completion */
+.done-hero{font-size:4.5rem;line-height:1;margin:18px 0 8px}
+.score{font-size:1.2rem;font-weight:700}
+
+/* lists */
+.list{display:flex;flex-direction:column;gap:10px}
+.item{background:#fff;border:1.5px solid var(--line);border-radius:18px;padding:14px 16px}
+.item .t{font-weight:700}
+.note-q{margin-top:8px;padding:10px 12px;background:#fff6ea;border-radius:12px;font-size:.95rem;white-space:pre-wrap}
+.note-q::before{content:"🗣️ ";}
+.fav-card{border-left:6px solid var(--tc)}
+
+/* parent */
+.kid{margin-top:16px}
+.kid .head{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.kgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:12px}
+@media(max-width:520px){.kgrid{grid-template-columns:repeat(2,1fr)}}
+.tbars{display:grid;grid-template-columns:1fr;gap:6px;margin:6px 0 12px}
+@media(min-width:620px){.tbars{grid-template-columns:1fr 1fr;column-gap:18px}}
+.tb{display:grid;grid-template-columns:24px 1fr 44px;align-items:center;gap:8px;font-size:.88rem}
+.tb .bar{margin:0}
+details{margin-top:6px}
+summary{cursor:pointer;font-weight:700;padding:8px 0}
+.field{display:flex;flex-direction:column;gap:6px;margin-bottom:12px}
+.field input,.field select,textarea.code{border:2px solid var(--line);border-radius:14px;padding:10px 12px;background:#fff;font-size:1rem;min-height:46px}
+textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospace;font-size:.78rem}
+.prof-edit{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start}
+.emoji-pick{display:flex;flex-wrap:wrap;gap:6px}
+.emoji-pick button{width:40px;height:40px;border-radius:12px;border:1.5px solid var(--line);background:#fff;font-size:1.3rem}
+.emoji-pick button.sel{border-color:var(--accent);background:#ffe3d1}
+.offline{display:inline-block;background:#fff3c4;border:1.5px solid #f0d77b;color:#6b5400;border-radius:999px;padding:3px 10px;font-size:.8rem;font-weight:700}
+.empty{padding:28px 10px;text-align:center;color:var(--muted)}
+/* iPad and larger: bigger type, roomier cards */
+@media(min-width:700px){
+  html,body{font-size:19px}
+  .player{padding-left:calc(28px + var(--sal));padding-right:calc(28px + var(--sar))}
+  .player{justify-content:center}
+  .stage{max-height:900px;flex:1 1 auto}
+  .ptop,.stage,.pnav{width:100%}
+  .card .body{padding:40px 48px 40px}
+  .card h2{font-size:2.05rem}
+  .card .txt{font-size:1.32rem}
+  .lv-kid .card .txt{font-size:1.4rem}
+  .lv-adult .card .txt{font-size:1.28rem}
+  .card .emoji{font-size:4.6rem}
+  .card.hook .emoji{font-size:6rem}
+  .card.hook h2{font-size:2.5rem}
+  .example{font-size:1.15rem;padding:16px 20px}
+  .opt{font-size:1.2rem;padding:18px 20px}
+  .nudges li{font-size:1.15rem}
+  .fig{max-width:520px}
+  .pnav{max-width:780px;margin:0 auto;width:100%}
+}
+
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script>
+/* Daily Spark engine: pure logic (no DOM), shared by the app and the node tests.
+   Dates are local calendar days as 'YYYY-MM-DD' keys. */
+(function (root) {
+  'use strict';
+  const LEVELS = ['adult', 'teen', 'kid'];
+  const REVIEW_STEPS = [2, 4, 7, 14];          // days until the next review after a miss / each later success
+  const STREAK_SECONDS = 300;                   // 5 minutes of learning, or one finished pack, keeps a streak
+
+  // ---------- dates ----------
+  const pad = n => String(n).padStart(2, '0');
+  function dayKey(d) { d = d || new Date(); return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); }
+  function dayNum(key) { const [y, m, d] = key.split('-').map(Number); return Math.round(Date.UTC(y, m - 1, d) / 86400000); }
+  function fromNum(n) { const d = new Date(n * 86400000); return d.getUTCFullYear() + '-' + pad(d.getUTCMonth() + 1) + '-' + pad(d.getUTCDate()); }
+  function addDays(key, n) { return fromNum(dayNum(key) + n); }
+
+  // ---------- content ----------
+  const CARD_TYPES = ['hook', 'idea', 'think', 'quiz', 'teach'];
+  function checkPack(p) {
+    // light runtime check (the full validator is tools/validate.js); returns a list of problems
+    const errs = [];
+    if (!p || typeof p !== 'object') return ['not an object'];
+    ['id', 'topic', 'level', 'title'].forEach(k => { if (!p[k] || typeof p[k] !== 'string') errs.push('missing ' + k); });
+    if (LEVELS.indexOf(p.level) < 0) errs.push('bad level ' + p.level);
+    if (!Array.isArray(p.cards) || !p.cards.length) errs.push('no cards');
+    else {
+      p.cards.forEach((c, i) => { if (CARD_TYPES.indexOf(c && c.type) < 0) errs.push('card ' + i + ' has bad type'); });
+      const quiz = p.cards.find(c => c.type === 'quiz');
+      if (!quiz || !Array.isArray(quiz.questions) || !quiz.questions.length) errs.push('no quiz');
+      else quiz.questions.forEach((q, i) => {
+        if (!Array.isArray(q.options) || q.options.filter(o => o.correct).length !== 1) errs.push('question ' + i + ' needs exactly one correct option');
+      });
+    }
+    if (!Array.isArray(p.sources) || !p.sources.length) errs.push('no sources');
+    return errs;
+  }
+
+  // fetchJson(url) -> Promise<object>; memo is an optional {id: pack} cache (e.g. packs kept from earlier loads)
+  async function loadPack(fetchJson, id, memo) {
+    if (memo && memo[id]) return memo[id];
+    if (!/^[a-z0-9-]+$/.test(id)) throw new Error('bad pack id ' + id);
+    const p = await fetchJson('content/packs/' + id + '.json');
+    const errs = checkPack(p);
+    if (errs.length) throw new Error('pack ' + id + ': ' + errs.join('; '));
+    if (p.id !== id) throw new Error('pack id mismatch: ' + p.id + ' vs ' + id);
+    if (memo) memo[id] = p;
+    return p;
+  }
+
+  // index: {topics:[{id,name,emoji,color}], packs:[{id,topic,level,title,...}], family:[{date,topic,title,packs:{adult,teen,kid},dinner_question}]}
+  async function loadIndex(fetchJson, fallback) {
+    try {
+      const idx = await fetchJson('content/index.json');
+      if (!idx || !Array.isArray(idx.packs)) throw new Error('index has no packs');
+      return { index: idx, fresh: true };
+    } catch (e) {
+      if (fallback && Array.isArray(fallback.packs)) return { index: fallback, fresh: false };
+      throw e;
+    }
+  }
+
+  function packsFor(index, level, topic) {
+    return index.packs.filter(p => p.level === level && (!topic || p.topic === topic))
+      .sort((a, b) => (a.date_added || '').localeCompare(b.date_added || '') || a.id.localeCompare(b.id));
+  }
+
+  // Family topic of the day: an exact date entry wins; otherwise rotate through the dated list in order.
+  function familyFor(index, key) {
+    const fam = (index.family || []).filter(f => f && f.date && f.packs).slice().sort((a, b) => a.date.localeCompare(b.date));
+    if (!fam.length) return null;
+    const exact = fam.find(f => f.date === key);
+    if (exact) return Object.assign({ rotated: false }, exact);
+    const n = fam.length, off = dayNum(key) - dayNum(fam[0].date);
+    const i = ((off % n) + n) % n;
+    return Object.assign({}, fam[i], { rotated: true });
+  }
+
+  // ---------- learner data ----------
+  function newLearner() { return { done: {}, history: [], days: {}, reviews: {}, favs: {}, teach: {}, quiz: { asked: 0, correct: 0 } }; }
+  function day(L, key) { return L.days[key] || (L.days[key] = { sec: 0, packs: 0 }); }
+  function addSeconds(L, key, sec) { if (sec > 0) day(L, key).sec += Math.round(sec); }
+  function dayCounts(d) { return !!d && (d.packs >= 1 || d.sec >= STREAK_SECONDS); }
+
+  // consecutive counted days ending today (or yesterday, if today isn't counted yet)
+  function streak(L, key) {
+    let k = dayCounts(L.days[key]) ? key : addDays(key, -1), n = 0;
+    while (dayCounts(L.days[k])) { n++; k = addDays(k, -1); }
+    return n;
+  }
+  function bestStreak(L) {
+    const keys = Object.keys(L.days).filter(k => dayCounts(L.days[k])).sort();
+    let best = 0, run = 0, prev = null;
+    keys.forEach(k => { run = prev && dayNum(k) - dayNum(prev) === 1 ? run + 1 : 1; best = Math.max(best, run); prev = k; });
+    return best;
+  }
+
+  // record one answered quiz question (first try only counts toward accuracy)
+  function qid(packId, qi) { return packId + '#' + qi; }
+  function recordAnswer(L, key, item, correct) {
+    L.quiz.asked++; if (correct) L.quiz.correct++;
+    if (!correct) scheduleMiss(L, key, item);
+  }
+  // item: {id, packId, topic, q, options:[{text,correct,why}]}
+  function scheduleMiss(L, key, item) {
+    const prev = L.reviews[item.id];
+    L.reviews[item.id] = Object.assign({}, item, { due: addDays(key, REVIEW_STEPS[0]), stage: 0, misses: (prev ? prev.misses : 0) + 1, added: prev ? prev.added : key });
+  }
+  // result of answering a review question; returns 'retired' | 'later' | 'again'
+  function reviewAnswer(L, key, id, correct) {
+    const r = L.reviews[id]; if (!r) return null;
+    if (correct) {
+      r.stage++;
+      if (r.stage >= REVIEW_STEPS.length) { delete L.reviews[id]; return 'retired'; }
+      r.due = addDays(key, REVIEW_STEPS[r.stage]); return 'later';
+    }
+    r.stage = 0; r.misses++; r.due = addDays(key, REVIEW_STEPS[0]); return 'again';
+  }
+  function dueReviews(L, key) {
+    return Object.values(L.reviews).filter(r => r.due <= key).sort((a, b) => a.due.localeCompare(b.due) || a.id.localeCompare(b.id));
+  }
+
+  // finished pack
+  function finishPack(L, key, info) {
+    // info: {packId, topic, title, level, correct, total, seconds, family}
+    const first = !L.done[info.packId];
+    const rec = { packId: info.packId, topic: info.topic, title: info.title, level: info.level, date: key, correct: info.correct, total: info.total, family: !!info.family };
+    L.done[info.packId] = rec;
+    L.history.unshift(Object.assign({ repeat: !first }, rec));
+    if (L.history.length > 400) L.history.length = 400;
+    day(L, key).packs++;
+    return rec;
+  }
+
+  function topicProgress(L, index, level) {
+    const out = {};
+    (index.topics || []).forEach(t => { out[t.id] = { done: 0, total: 0 }; });
+    index.packs.filter(p => p.level === level).forEach(p => {
+      const o = out[p.topic] || (out[p.topic] = { done: 0, total: 0 });
+      o.total++; if (L.done[p.id]) o.done++;
+    });
+    return out;
+  }
+  function accuracy(L) { return L.quiz.asked ? Math.round(100 * L.quiz.correct / L.quiz.asked) : null; }
+  function minutesSince(L, key, ndays) {
+    let s = 0; for (let i = 0; i < ndays; i++) { const d = L.days[addDays(key, -i)]; if (d) s += d.sec; } return Math.round(s / 60);
+  }
+  // next suggested pack in a topic: first not done, else the least recently done
+  function nextPack(L, index, level, topic) {
+    const list = packsFor(index, level, topic);
+    return list.find(p => !L.done[p.id]) || list.slice().sort((a, b) => (L.done[a.id].date || '').localeCompare(L.done[b.id].date || ''))[0] || null;
+  }
+
+  // Flesch-Kincaid grade level (used by the validator; here so it is tested)
+  function syllables(word) {
+    let w = word.toLowerCase().replace(/[^a-z]/g, '');
+    if (!w) return 0; if (w.length <= 3) return 1;
+    w = w.replace(/(?:[^laeiouy]es|[^laeiouy]ed|[^laeiouy]e)$/, '').replace(/^y/, '');
+    const m = w.match(/[aeiouy]{1,2}/g); return Math.max(1, m ? m.length : 1);
+  }
+  function fkGrade(text) {
+    const sentences = Math.max(1, (text.match(/[.!?]+(\s|$)/g) || []).length);
+    const words = text.split(/\s+/).map(w => w.replace(/[^A-Za-z'’-]/g, '')).filter(w => /[A-Za-z]/.test(w));
+    if (!words.length) return 0;
+    const syl = words.reduce((s, w) => s + syllables(w), 0);
+    return 0.39 * (words.length / sentences) + 11.8 * (syl / words.length) - 15.59;
+  }
+
+  const DS = { LEVELS, REVIEW_STEPS, STREAK_SECONDS, CARD_TYPES, dayKey, dayNum, addDays, checkPack, loadPack, loadIndex, packsFor, familyFor,
+    newLearner, addSeconds, dayCounts, streak, bestStreak, qid, recordAnswer, scheduleMiss, reviewAnswer, dueReviews, finishPack,
+    topicProgress, accuracy, minutesSince, nextPack, syllables, fkGrade };
+  if (typeof module !== 'undefined' && module.exports) module.exports = DS; else root.DS = DS;
+})(typeof self !== 'undefined' ? self : this);
+
+</script>
+<script>
+/* Daily Spark UI. All progress lives in this device's localStorage. No accounts, no tracking, no outside requests
+   except opening a source link the learner taps. */
+(function () {
+  'use strict';
+  const KEY = 'dailyspark.v1', IKEY = 'dailyspark.index', CKEY = 'dailyspark.cached';
+  const LEVEL_NAME = { adult: 'Grown-up', teen: 'Teen', kid: 'Kid' };
+  const AVATARS = ['🦉', '⛳', '🌻', '🦊', '🐢', '🚀', '⚽', '🎸', '🐬', '🌈', '🧠', '🍀'];
+  const $app = document.getElementById('app');
+  const params = new URLSearchParams(location.search);
+  const DAY_OVERRIDE = /^\d{4}-\d{2}-\d{2}$/.test(params.get('day') || '') ? params.get('day') : null;
+  const today = () => DAY_OVERRIDE || DS.dayKey();
+
+  // ---------- storage ----------
+  function defaults() {
+    const profiles = [
+      { id: 'dad', name: 'Dad', level: 'adult', avatar: '🦉' },
+      { id: 'p2', name: 'Player 2', level: 'teen', avatar: '⛳' },
+      { id: 'kate', name: 'Kate', level: 'kid', avatar: '🌻' }];
+    const learners = {}; profiles.forEach(p => { learners[p.id] = DS.newLearner(); });
+    return { v: 1, profiles, learners, current: null };
+  }
+  function load() {
+    try {
+      const s = JSON.parse(localStorage.getItem(KEY));
+      if (s && Array.isArray(s.profiles) && s.learners) {
+        s.profiles.forEach(p => { s.learners[p.id] = Object.assign(DS.newLearner(), s.learners[p.id] || {}); });
+        return s;
+      }
+    } catch (e) { /* fall through */ }
+    return defaults();
+  }
+  let ST = load();
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(ST)); } catch (e) { toast('Could not save. Storage may be full.'); } }
+  const prof = () => ST.profiles.find(p => p.id === ST.current) || null;
+  const learner = id => ST.learners[id] || (ST.learners[id] = DS.newLearner());
+
+  // ---------- content ----------
+  let INDEX = null, FRESH = false;
+  const MEMO = {};
+  async function fetchJson(url) { const r = await fetch(url, { cache: 'no-cache' }); if (!r.ok) throw new Error(r.status + ' ' + url); return r.json(); }
+  function storedIndex() { try { return JSON.parse(localStorage.getItem(IKEY)); } catch (e) { return null; } }
+  async function loadContent() {
+    try {
+      const res = await DS.loadIndex(fetchJson, storedIndex());
+      INDEX = res.index; FRESH = res.fresh;
+      if (FRESH) try { localStorage.setItem(IKEY, JSON.stringify(INDEX)); } catch (e) { }
+    } catch (e) { INDEX = null; }
+  }
+  const topicOf = id => (INDEX && INDEX.topics.find(t => t.id === id)) || { id, name: id, emoji: '✨', color: '#ef6a1a' };
+  const metaOf = id => INDEX && INDEX.packs.find(p => p.id === id);
+  function cachedSet() { try { return new Set(JSON.parse(localStorage.getItem(CKEY)) || []); } catch (e) { return new Set(); } }
+  // download packs for every level in use so they work offline (the service worker keeps the copies)
+  async function prefetch() {
+    if (!INDEX || !navigator.onLine) return;
+    const levels = new Set(ST.profiles.map(p => p.level)), have = cachedSet();
+    const ids = INDEX.packs.filter(p => levels.has(p.level)).map(p => p.id).slice(0, 120);
+    for (const id of ids) {
+      try { const p = await DS.loadPack(fetchJson, id); MEMO[id] = p; have.add(id); } catch (e) { }
+    }
+    try { localStorage.setItem(CKEY, JSON.stringify([...have])); } catch (e) { }
+  }
+
+  // ---------- helpers ----------
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const tc = t => ' style="--tc:' + esc(topicOf(t).color) + '"';
+  function toast(msg) { const d = document.createElement('div'); d.className = 'toast'; d.textContent = msg; document.body.appendChild(d); setTimeout(() => d.remove(), 2300); }
+  function fmtDate(key) { const [y, m, d] = key.split('-').map(Number); return new Date(y, m - 1, d).toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' }); }
+  function niceToday() { const [y, m, d] = today().split('-').map(Number); return new Date(y, m - 1, d).toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric' }); }
+  // inline SVG from content: keep shapes and text only
+  function safeSvg(src) {
+    try {
+      const doc = new DOMParser().parseFromString(src, 'image/svg+xml');
+      const svg = doc.documentElement; if (!svg || svg.nodeName !== 'svg' || doc.querySelector('parsererror')) return '';
+      svg.querySelectorAll('script,foreignObject,iframe,image,style,a,use').forEach(n => n.remove());
+      [svg, ...svg.querySelectorAll('*')].forEach(n => [...n.attributes].forEach(a => { if (/^on/i.test(a.name) || /href$/i.test(a.name) || /javascript:/i.test(a.value)) n.removeAttribute(a.name); }));
+      svg.setAttribute('role', 'img');
+      return new XMLSerializer().serializeToString(svg);
+    } catch (e) { return ''; }
+  }
+  const famToday = () => INDEX ? DS.familyFor(INDEX, today()) : null;
+
+  // ---------- time tracking (counts toward the 5-minute streak rule; idle gaps capped) ----------
+  let since = null;
+  function flushTime() {
+    if (since && ST.current) {
+      const sec = Math.min((Date.now() - since) / 1000, 120);
+      DS.addSeconds(learner(ST.current), today(), sec); save();
+    }
+    since = (S.name === 'player' || S.name === 'review') && !document.hidden ? Date.now() : null;
+  }
+  document.addEventListener('visibilitychange', flushTime);
+
+  // ---------- router ----------
+  let S = { name: 'who', arg: null };
+  function go(name, arg) { flushTime(); S = { name, arg }; render(); window.scrollTo(0, 0); flushTime(); }
+  function render() {
+    const fn = VIEWS[S.name] || VIEWS.who;
+    document.body.className = prof() ? 'lv-' + prof().level : '';
+    $app.innerHTML = fn(S.arg);
+    if (AFTER[S.name]) AFTER[S.name]();
+  }
+
+  // ---------- views ----------
+  const VIEWS = {}, AFTER = {};
+
+  function familyPanel(f, p) {
+    if (!f) return '';
+    const t = topicOf(f.topic), L = p && learner(p.id), id = p && f.packs[p.level], m = id && metaOf(id), done = L && L.done[id];
+    return '<section class="panel family"' + tc(f.topic) + '>' +
+      '<div class="row"><span class="tag">👨‍👩‍👧 Family topic of the day</span><span class="spacer"></span><span class="chip t">' + esc(t.emoji + ' ' + t.name) + '</span></div>' +
+      '<div class="row" style="margin-top:10px;align-items:flex-start"><div class="big">' + esc(m ? m.emoji : t.emoji) + '</div><div style="flex:1;min-width:0"><h2>' + esc(f.title) + '</h2>' +
+      (m ? '<div class="muted small" style="margin-top:4px">' + esc(m.title) + ' · ' + esc(m.minutes) + ' min</div>' : '<div class="muted small" style="margin-top:4px">Everyone learns the same topic at their own level.</div>') + '</div></div>' +
+      '<div class="dinner"><b>🍽️ Dinner question</b>' + esc(f.dinner_question) + '</div>' +
+      (m ? '<div style="margin-top:14px"><button class="btn wide" data-act="open" data-arg="' + esc(id) + '" data-fam="1">' + (done ? '✓ Done · Do it again' : 'Start today’s pack') + '</button></div>' : '') +
+      '</section>';
+  }
+
+  VIEWS.who = function () {
+    const f = famToday(), k = today();
+    const people = ST.profiles.map(p => {
+      const L = learner(p.id), s = DS.streak(L, k), fid = f && f.packs[p.level], famDone = fid && L.done[fid] && L.done[fid].date === k;
+      return '<button class="person" data-act="pick" data-arg="' + esc(p.id) + '"><div class="avatar">' + esc(p.avatar) + '</div><div style="min-width:0"><div class="nm">' + esc(p.name) + '</div>' +
+        '<div class="meta">' + LEVEL_NAME[p.level] + (s ? ' · <span class="fire">🔥 ' + s + '</span>' : '') + (famDone ? ' · ✓ today' : '') + '</div></div></button>';
+    }).join('');
+    return '<div class="screen stack">' +
+      '<div class="top"><div class="brand"><div class="logo">✨</div><div><h1>Daily Spark</h1><div class="muted small">' + esc(niceToday()) + '</div></div></div><span class="spacer"></span>' + (FRESH ? '' : '<span class="offline">Offline</span>') + '</div>' +
+      (INDEX ? familyPanel(f, null) : '<section class="panel">⚠️ Couldn’t load the lessons. Connect to the internet once, then reopen the app.</section>') +
+      '<h3 style="margin-top:22px">Who’s learning?</h3><div class="people">' + people + '</div>' +
+      '<div class="row" style="margin-top:22px;flex-wrap:wrap"><button class="btn ghost sm hold" id="parentHold"><i class="fill"></i><span>👀 Hold for Parent view</span></button><span class="spacer"></span><button class="link" data-act="go" data-arg="profiles">Edit profiles</button></div>' +
+      '</div>';
+  };
+  AFTER.who = function () {
+    const b = document.getElementById('parentHold'); if (!b) return;
+    let t = null;
+    const start = e => { e.preventDefault(); b.classList.add('holding'); t = setTimeout(() => { b.classList.remove('holding'); go('parent'); }, 1100); };
+    const stop = () => { b.classList.remove('holding'); clearTimeout(t); };
+    b.addEventListener('pointerdown', start); ['pointerup', 'pointerleave', 'pointercancel'].forEach(ev => b.addEventListener(ev, stop));
+    b.addEventListener('click', () => toast('Press and hold to open the parent view'));
+  };
+
+  VIEWS.home = function () {
+    const p = prof(); if (!p) return VIEWS.who();
+    const L = learner(p.id), k = today(), f = famToday(), due = DS.dueReviews(L, k);
+    const todayMin = Math.round(((L.days[k] || {}).sec || 0) / 60), countsToday = DS.dayCounts(L.days[k]);
+    let next = '';
+    if (INDEX) {
+      const prog = DS.topicProgress(L, INDEX, p.level);
+      const tid = INDEX.topics.map(t => t.id).filter(id => prog[id] && prog[id].total > prog[id].done).sort((a, b) => prog[a].done / prog[a].total - prog[b].done / prog[b].total)[0];
+      const n = tid && DS.nextPack(L, INDEX, p.level, tid);
+      if (n) next = '<button class="packrow" data-act="open" data-arg="' + esc(n.id) + '"' + tc(n.topic) + '><span class="e">' + esc(n.emoji) + '</span><span><span class="muted small">Up next · ' + esc(topicOf(n.topic).name) + '</span><b>' + esc(n.title) + '</b><span class="s">' + esc(n.summary) + '</span></span></button>';
+    }
+    return '<div class="screen stack">' +
+      '<div class="top"><button class="iconbtn" data-act="go" data-arg="who" aria-label="Switch learner">←</button><div class="avatar" style="width:44px;height:44px;font-size:1.4rem">' + esc(p.avatar) + '</div><h1 style="font-size:1.45rem">Hi, ' + esc(p.name) + '!</h1></div>' +
+      '<div class="stats"><div class="stat"><b>🔥 ' + DS.streak(L, k) + '</b><span>day streak</span></div><div class="stat"><b>' + (countsToday ? '✓' : todayMin + '/5') + '</b><span>' + (countsToday ? 'today counts' : 'minutes today') + '</span></div><div class="stat"><b>' + Object.keys(L.done).length + '</b><span>packs done</span></div></div>' +
+      familyPanel(f, p) +
+      (due.length ? '<button class="panel review row" style="width:100%;text-align:left" data-act="go" data-arg="review"><span style="font-size:2rem">🔁</span><span style="flex:1"><b>Quick review</b><br><span class="small muted">' + due.length + ' question' + (due.length > 1 ? 's' : '') + ' from earlier packs. Try again!</span></span><span class="chip">Go</span></button>' : '') +
+      '<button class="btn wide" data-act="go" data-arg="topics">🧭 Pick your own topic</button>' + next +
+      '<div class="tiles"><button class="tile" data-act="go" data-arg="favs"><span class="e">♡</span><b>Saved cards</b><span class="small muted">' + Object.keys(L.favs).length + ' saved</span></button>' +
+      '<button class="tile" data-act="go" data-arg="history"><span class="e">📜</span><b>History</b><span class="small muted">' + L.history.length + ' finished</span></button></div>' +
+      '</div>';
+  };
+
+  VIEWS.topics = function () {
+    const p = prof(); if (!p || !INDEX) return VIEWS.who();
+    const prog = DS.topicProgress(learner(p.id), INDEX, p.level);
+    return '<div class="screen"><div class="top"><button class="iconbtn" data-act="go" data-arg="home" aria-label="Back">←</button><h1>Pick a topic</h1></div><div class="topics">' +
+      INDEX.topics.map(t => { const g = prog[t.id] || { done: 0, total: 0 }; return '<button class="topic" data-act="topic" data-arg="' + esc(t.id) + '"' + tc(t.id) + '><span class="e">' + esc(t.emoji) + '</span><b>' + esc(t.name) + '</b><span class="small muted">' + g.done + ' of ' + g.total + ' done</span><span class="bar"><i style="width:' + (g.total ? Math.round(100 * g.done / g.total) : 0) + '%"></i></span></button>'; }).join('') +
+      '</div></div>';
+  };
+
+  VIEWS.topic = function (tid) {
+    const p = prof(); if (!p || !INDEX) return VIEWS.who();
+    const L = learner(p.id), t = topicOf(tid), list = DS.packsFor(INDEX, p.level, tid);
+    return '<div class="screen"' + tc(tid) + '><div class="top"><button class="iconbtn" data-act="go" data-arg="topics" aria-label="Back">←</button><h1>' + esc(t.emoji + ' ' + t.name) + '</h1></div><div class="packs">' +
+      (list.length ? list.map(m => '<button class="packrow" data-act="open" data-arg="' + esc(m.id) + '"' + tc(tid) + '><span class="e">' + esc(m.emoji) + '</span><span style="flex:1;min-width:0"><b>' + esc(m.title) + '</b><span class="s">' + esc(m.summary) + '</span><br><span class="small muted">' + esc(m.minutes) + ' min</span> ' + (L.done[m.id] ? '<span class="chip ok">✓ Done</span>' : '') + '</span></button>').join('') : '<div class="empty">No packs here yet. New ones arrive regularly!</div>') +
+      '</div></div>';
+  };
+
+  // ---------- pack player ----------
+  let P = null;
+  async function openPack(id, fam) {
+    let pack;
+    try { pack = await DS.loadPack(fetchJson, id, MEMO); }
+    catch (e) { toast(navigator.onLine ? 'Couldn’t open that pack.' : 'This pack isn’t downloaded yet. Connect to the internet once to get it.'); return; }
+    const cards = [];
+    pack.cards.forEach((c, ci) => {
+      if (c.type === 'quiz') c.questions.forEach((q, j) => cards.push({ type: 'q', q, j, n: c.questions.length, ci }));
+      else cards.push(Object.assign({ ci }, c));
+    });
+    cards.push({ type: 'sources' });
+    P = { pack, cards, i: 0, seen: new Set([0]), answers: {}, fam: !!fam || !!(famToday() && Object.values(famToday().packs).includes(id)) };
+    go('player');
+  }
+  const ideaCount = () => P.pack.cards.filter(c => c.type === 'idea').length;
+  function cardHtml(c, i) {
+    const L = learner(ST.current);
+    if (c.type === 'hook') return '<div class="body"><div class="kicker">' + esc(topicOf(P.pack.topic).emoji + ' ' + topicOf(P.pack.topic).name) + ' · ' + esc(P.pack.minutes) + ' min</div><div class="emoji">' + esc(c.emoji) + '</div><h2>' + esc(c.title) + '</h2><p class="txt">' + esc(c.text) + '</p><div class="hint">Swipe or tap Next →</div></div>';
+    if (c.type === 'idea') {
+      const n = P.pack.cards.slice(0, c.ci + 1).filter(x => x.type === 'idea').length;
+      return '<div class="body"><div class="kicker">💡 Idea ' + n + ' of ' + ideaCount() + '</div><div class="emoji">' + esc(c.emoji) + '</div><h2>' + esc(c.title) + '</h2><p class="txt">' + esc(c.text) + '</p>' +
+        (c.svg ? '<div class="fig">' + safeSvg(c.svg) + '</div>' : '') +
+        (c.example ? '<div class="example"><b>For example</b>' + esc(c.example) + '</div>' : '') + '</div>';
+    }
+    if (c.type === 'think') return '<div class="body"><div class="kicker">🤔 Think</div><div class="emoji">🤔</div><h2>' + esc(c.question) + '</h2><ul class="nudges">' + (c.nudges || []).map(n => '<li>' + esc(n) + '</li>').join('') + '</ul><div class="hint">No right answer. Take a moment, or talk it over with someone.</div></div>';
+    if (c.type === 'q') {
+      const a = P.answers[c.j];
+      return '<div class="body"><div class="kicker">✅ Quick check ' + (c.j + 1) + ' of ' + c.n + '</div><h2>' + esc(c.q.q) + '</h2>' + optionsHtml(c.q, a, 'answer', c.j) + '</div>';
+    }
+    if (c.type === 'teach') {
+      const note = (L.teach[P.pack.id] || {}).text || '';
+      return '<div class="body"><div class="kicker">🗣️ Teach it back</div><h2>' + esc(c.prompt) + '</h2><p class="muted">Say it out loud, or type it. It’s saved only on this device.</p>' +
+        '<div class="starters">' + (c.starters || []).map(s => '<button data-act="starter" data-arg="' + esc(s) + '">' + esc(s) + '</button>').join('') + '</div>' +
+        '<textarea class="note" id="teachNote" placeholder="Optional: your 3 sentences…" rows="4">' + esc(note) + '</textarea><div class="saved" id="savedMsg">' + (note ? 'Saved ✓' : '') + '</div></div>';
+    }
+    if (c.type === 'sources') return '<div class="body"><div class="kicker">🔎 How do we know?</div><h2>Where these facts come from</h2><p class="muted small">Every fact in this pack was checked against these sources. Tap one to read more.</p>' + sourcesHtml(P.pack) +
+      '<div style="margin-top:auto;padding-top:16px"><button class="btn wide" data-act="finish">🎉 Finish pack</button></div></div>';
+    return '';
+  }
+  function sourcesHtml(pack) {
+    return pack.sources.map(s => '<div class="src"><a href="' + esc(s.url) + '" target="_blank" rel="noopener noreferrer">' + esc(s.title) + ' ↗</a><div class="pub">' + esc(s.publisher) + '</div><div class="sup">' + esc(s.supports) + '</div></div>').join('');
+  }
+  function optionsHtml(q, a, act, j) {
+    return '<div class="opts">' + q.options.map((o, k) => {
+      let cls = 'opt', why = '';
+      if (a) {
+        if (o.correct) { cls += ' right'; why = '<span class="why">' + (a.chosen === k ? '✅ ' : '👉 ') + esc(o.why) + '</span>'; }
+        else if (a.chosen === k) { cls += ' wrong'; why = '<span class="why">' + esc(o.why) + '</span>'; }
+        else cls += ' dim';
+      }
+      return '<button class="' + cls + '" data-act="' + act + '" data-arg="' + j + ':' + k + '"' + (a ? ' disabled' : '') + '>' + esc(o.text) + why + '</button>';
+    }).join('') + '</div>' + (a ? '<div class="verdict ' + (a.correct ? 'ok">Nice! That’s right.' : 'no">Not quite. Now you know! We’ll bring this one back in a couple of days.') + '</div>' : '');
+  }
+  VIEWS.player = function () {
+    if (!P) return VIEWS.home();
+    const c = P.cards[P.i], fav = (c.type === 'hook' || c.type === 'idea'), favOn = fav && learner(ST.current).favs[P.pack.id + ':' + c.ci];
+    const blocked = c.type === 'q' && !P.answers[c.j], last = P.i === P.cards.length - 1;
+    return '<div class="player"' + tc(P.pack.topic) + '><div class="ptop"><button class="iconbtn" data-act="close" aria-label="Close">✕</button><div class="dots">' +
+      P.cards.map((x, k) => '<i class="' + (k === P.i ? 'on' : P.seen.has(k) ? 'seen' : '') + '"></i>').join('') + '</div>' +
+      '<button class="iconbtn' + (favOn ? ' on' : '') + '" data-act="fav" aria-label="Save card"' + (fav ? '' : ' disabled') + '>' + (favOn ? '♥' : '♡') + '</button><button class="iconbtn" data-act="sources" aria-label="How do we know?">📚</button></div>' +
+      '<div class="stage" id="stage"><div class="card ' + esc(c.type) + '" id="card"><div class="band"></div>' + cardHtml(c, P.i) + '</div></div>' +
+      '<div class="pnav"><button class="btn ghost" data-act="prev"' + (P.i ? '' : ' disabled') + '>← Back</button>' +
+      (last ? '<button class="btn" data-act="finish">Finish</button>' : '<button class="btn" data-act="next"' + (blocked ? ' disabled' : '') + '>' + (blocked ? 'Pick an answer' : 'Next →') + '</button>') + '</div></div>';
+  };
+  AFTER.player = function () {
+    const ta = document.getElementById('teachNote');
+    if (ta) ta.addEventListener('input', () => {
+      const L = learner(ST.current), v = ta.value.slice(0, 2000);
+      if (v.trim()) L.teach[P.pack.id] = { text: v, date: today(), title: P.pack.title, topic: P.pack.topic }; else delete L.teach[P.pack.id];
+      save(); const m = document.getElementById('savedMsg'); if (m) m.textContent = v.trim() ? 'Saved ✓' : '';
+    });
+    swipe(document.getElementById('stage'));
+  };
+  function step(d) {
+    if (!P) return;
+    const c = P.cards[P.i];
+    if (d > 0 && c.type === 'q' && !P.answers[c.j]) { toast('Pick an answer first'); return; }
+    const n = P.i + d; if (n < 0 || n >= P.cards.length) return;
+    flushTime(); P.i = n; P.seen.add(n); render(); flushTime();
+  }
+  function swipe(el) {
+    if (!el) return;
+    let x0 = null, y0 = 0, dx = 0, card = null, horiz = null;
+    el.addEventListener('pointerdown', e => {
+      if (e.target.closest('textarea,input,a,button,select') || (e.pointerType === 'mouse' && e.button !== 0)) return;
+      x0 = e.clientX; y0 = e.clientY; dx = 0; horiz = null; card = document.getElementById('card');
+    });
+    el.addEventListener('pointermove', e => {
+      if (x0 == null) return;
+      dx = e.clientX - x0; const dy = e.clientY - y0;
+      if (horiz == null && (Math.abs(dx) > 8 || Math.abs(dy) > 8)) horiz = Math.abs(dx) > Math.abs(dy);
+      if (horiz && card) card.style.transform = 'translateX(' + dx + 'px) rotate(' + dx / 40 + 'deg)';
+    });
+    const end = () => {
+      if (x0 == null) return; x0 = null;
+      if (card) { card.style.transition = 'transform .18s'; card.style.transform = ''; }
+      if (horiz && Math.abs(dx) > 70) step(dx < 0 ? 1 : -1);
+    };
+    el.addEventListener('pointerup', end); el.addEventListener('pointercancel', end);
+  }
+  function answer(arg) {
+    const [j, k] = arg.split(':').map(Number), c = P.cards[P.i];
+    if (c.type !== 'q' || P.answers[j]) return;
+    const correct = !!c.q.options[k].correct, L = learner(ST.current);
+    P.answers[j] = { chosen: k, correct };
+    DS.recordAnswer(L, today(), { id: DS.qid(P.pack.id, j), packId: P.pack.id, topic: P.pack.topic, title: P.pack.title, q: c.q.q, options: c.q.options }, correct);
+    save(); render();
+  }
+  function finish() {
+    const L = learner(ST.current), qs = P.cards.filter(c => c.type === 'q');
+    const correct = qs.filter(c => P.answers[c.j] && P.answers[c.j].correct).length;
+    flushTime();
+    const wasCounted = DS.dayCounts(L.days[today()]);
+    DS.finishPack(L, today(), { packId: P.pack.id, topic: P.pack.topic, title: P.pack.title, level: P.pack.level, correct, total: qs.length, family: P.fam });
+    save();
+    go('done', { correct, total: qs.length, newDay: !wasCounted });
+  }
+  VIEWS.done = function (r) {
+    if (!P) return VIEWS.home();
+    const L = learner(ST.current), s = DS.streak(L, today()), f = famToday();
+    const famQ = P.fam && f && Object.values(f.packs).includes(P.pack.id) ? '<div class="dinner" style="text-align:left"><b>🍽️ Bring this to dinner</b>' + esc(f.dinner_question) + '</div>' : '';
+    const more = DS.packsFor(INDEX, P.pack.level, P.pack.topic).find(m => !L.done[m.id]);
+    return '<div class="screen center stack"' + tc(P.pack.topic) + '><div class="done-hero">🎉</div><h1>Pack complete!</h1><p class="muted">' + esc(P.pack.title) + '</p>' +
+      '<div class="panel"><div class="score">Quick check: ' + r.correct + ' of ' + r.total + '</div><div class="muted small">' + (r.correct === r.total ? 'Perfect!' : 'Missed ones come back for review in a couple of days.') + '</div>' +
+      '<div style="margin-top:10px" class="fire">🔥 ' + s + '-day streak' + (r.newDay ? ' · today counts!' : '') + '</div></div>' + famQ +
+      '<div class="stack" style="margin-top:18px">' + (more ? '<button class="btn wide" data-act="open" data-arg="' + esc(more.id) + '">Another ' + esc(topicOf(P.pack.topic).name) + ' pack</button>' : '') +
+      '<button class="btn ghost wide" data-act="go" data-arg="home">Back to home</button></div></div>';
+  };
+
+  function sheet(html) {
+    const bg = document.createElement('div'); bg.className = 'sheet-bg'; bg.innerHTML = '<div class="sheet">' + html + '<div style="margin-top:16px"><button class="btn ghost wide" data-act="closesheet">Close</button></div></div>';
+    bg.addEventListener('click', e => { if (e.target === bg) bg.remove(); }); document.body.appendChild(bg);
+  }
+
+  // ---------- review ----------
+  let R = null;
+  VIEWS.review = function () {
+    const L = learner(ST.current);
+    if (!R) R = { items: DS.dueReviews(L, today()).slice(0, 10), i: 0, a: null, right: 0 };
+    if (!R.items.length) return '<div class="screen"><div class="top"><button class="iconbtn" data-act="go" data-arg="home">←</button><h1>Review</h1></div><div class="empty">Nothing to review right now. 🎈</div></div>';
+    if (R.i >= R.items.length) return '<div class="screen center stack"><div class="done-hero">🔁</div><h1>Review done!</h1><div class="panel score">' + R.right + ' of ' + R.items.length + ' right</div><p class="muted">Right answers come back less often. Missed ones come back in 2 days.</p><button class="btn wide" data-act="endreview">Back to home</button></div>';
+    const it = R.items[R.i];
+    let msg = '';
+    if (R.a) msg = '<p class="muted" style="margin-top:10px">' + (R.a.res === 'retired' ? 'You’ve got this one for good! 🏅' : R.a.res === 'later' ? 'Nice. It’ll come back later to make it stick.' : 'It’ll come back in 2 days.') + '</p>';
+    return '<div class="player"' + tc(it.topic) + '><div class="ptop"><button class="iconbtn" data-act="endreview" aria-label="Close">✕</button><div class="dots">' + R.items.map((x, k) => '<i class="' + (k === R.i ? 'on' : k < R.i ? 'seen' : '') + '"></i>').join('') + '</div></div>' +
+      '<div class="stage"><div class="card"><div class="band"></div><div class="body"><div class="kicker">🔁 Review · from “' + esc(it.title) + '”</div><h2>' + esc(it.q) + '</h2>' + optionsHtml(it, R.a, 'ranswer', 0) + msg + '</div></div></div>' +
+      '<div class="pnav"><button class="btn" data-act="rnext"' + (R.a ? '' : ' disabled') + '>' + (R.a ? 'Next →' : 'Pick an answer') + '</button></div></div>';
+  };
+  function ranswer(arg) {
+    if (!R || R.a) return; const k = Number(arg.split(':')[1]), it = R.items[R.i], correct = !!it.options[k].correct;
+    const res = DS.reviewAnswer(learner(ST.current), today(), it.id, correct); if (correct) R.right++;
+    R.a = { chosen: k, correct, res }; save(); render();
+  }
+
+  // ---------- saved + history ----------
+  VIEWS.favs = function () {
+    const L = learner(ST.current), list = Object.values(L.favs).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+    return '<div class="screen"><div class="top"><button class="iconbtn" data-act="go" data-arg="home">←</button><h1>Saved cards</h1></div><div class="list">' +
+      (list.length ? list.map(f => '<div class="item fav-card"' + tc(f.topic) + '><div class="row"><span style="font-size:1.8rem">' + esc(f.emoji) + '</span><div style="flex:1"><div class="t">' + esc(f.title) + '</div><div class="small muted">' + esc(f.packTitle) + '</div></div><button class="iconbtn on" data-act="unfav" data-arg="' + esc(f.id) + '" aria-label="Remove">♥</button></div><p style="margin:10px 0 0">' + esc(f.text) + '</p>' + (f.example ? '<div class="example" style="margin-top:10px">' + esc(f.example) + '</div>' : '') + '</div>').join('')
+        : '<div class="empty">Tap ♡ on any idea card to save it here.</div>') + '</div></div>';
+  };
+  VIEWS.history = function () {
+    const L = learner(ST.current);
+    return '<div class="screen"><div class="top"><button class="iconbtn" data-act="go" data-arg="home">←</button><h1>History</h1></div><div class="list">' +
+      (L.history.length ? L.history.slice(0, 100).map(h => { const t = topicOf(h.topic), n = L.teach[h.packId]; return '<button class="item" style="text-align:left;width:100%" data-act="open" data-arg="' + esc(h.packId) + '"><div class="row"><span style="font-size:1.5rem">' + esc(t.emoji) + '</span><div style="flex:1"><div class="t">' + esc(h.title) + '</div><div class="small muted">' + esc(fmtDate(h.date)) + ' · quiz ' + h.correct + '/' + h.total + (h.family ? ' · family' : '') + '</div></div></div>' + (n && !h.repeat ? '<div class="note-q">' + esc(n.text) + '</div>' : '') + '</button>'; }).join('')
+        : '<div class="empty">Finished packs show up here.</div>') + '</div></div>';
+  };
+
+  // ---------- parent view ----------
+  VIEWS.parent = function () {
+    const k = today();
+    const blocks = ST.profiles.map(p => {
+      const L = learner(p.id), acc = DS.accuracy(L), prog = INDEX ? DS.topicProgress(L, INDEX, p.level) : {};
+      const week = L.history.filter(h => DS.dayNum(k) - DS.dayNum(h.date) < 7).length;
+      const bars = INDEX ? INDEX.topics.map(t => { const g = prog[t.id] || { done: 0, total: 0 }; return '<div class="tb"' + tc(t.id) + '><span>' + esc(t.emoji) + '</span><span class="bar"><i style="width:' + (g.total ? Math.round(100 * g.done / g.total) : 0) + '%"></i></span><span class="muted">' + g.done + '/' + g.total + '</span></div>'; }).join('') : '';
+      const recent = L.history.slice(0, 8).map(h => { const n = L.teach[h.packId]; return '<div class="item"><div class="t">' + esc(topicOf(h.topic).emoji + ' ' + h.title) + '</div><div class="small muted">' + esc(fmtDate(h.date)) + ' · quiz ' + h.correct + '/' + h.total + '</div>' + (n && !h.repeat ? '<div class="note-q">' + esc(n.text) + '</div>' : '') + '</div>'; }).join('');
+      return '<section class="panel kid"><div class="head"><div class="avatar">' + esc(p.avatar) + '</div><div style="flex:1"><h2>' + esc(p.name) + '</h2><div class="small muted">' + LEVEL_NAME[p.level] + ' level</div></div></div>' +
+        '<div class="kgrid"><div class="stat"><b>🔥 ' + DS.streak(L, k) + '</b><span>streak (best ' + DS.bestStreak(L) + ')</span></div><div class="stat"><b>' + Object.keys(L.done).length + '</b><span>packs · ' + week + ' this week</span></div><div class="stat"><b>' + DS.minutesSince(L, k, 7) + '</b><span>minutes, 7 days</span></div><div class="stat"><b>' + (acc == null ? '–' : acc + '%') + '</b><span>quiz accuracy</span></div></div>' +
+        '<div class="small muted">Topics finished</div><div class="tbars">' + bars + '</div>' +
+        '<div class="small muted">' + Object.keys(L.reviews).length + ' question(s) in the review queue · ' + Object.keys(L.teach).length + ' teach-back note(s)</div>' +
+        '<details' + (recent ? ' open' : '') + '><summary>Recent packs & teach-back notes</summary><div class="list">' + (recent || '<div class="empty">No packs yet.</div>') + '</div></details></section>';
+    }).join('');
+    return '<div class="screen"><div class="top"><button class="iconbtn" data-act="go" data-arg="who">←</button><h1>Parent view</h1></div>' +
+      '<p class="muted small">Progress on this device only. Nothing is uploaded anywhere.</p>' + blocks +
+      '<section class="panel" style="margin-top:16px"><h3>Move progress between devices</h3><p class="small muted">Each iPhone or iPad keeps its own progress. To see everything here, copy the code on the other device (Parent view → Copy my code), then paste it below. Matching profiles are merged.</p>' +
+      '<div class="row" style="flex-wrap:wrap"><button class="btn sm" data-act="export">Copy my code</button><button class="btn ghost sm" data-act="import">Merge a pasted code</button></div><textarea class="code" id="code" placeholder="Paste a code here, then tap Merge" style="margin-top:12px"></textarea></section></div>';
+  };
+  function exportCode() {
+    const json = JSON.stringify({ app: 'daily-spark', v: 1, profiles: ST.profiles, learners: ST.learners });
+    const code = btoa(unescape(encodeURIComponent(json)));
+    const ta = document.getElementById('code'); ta.value = code; ta.select();
+    (navigator.clipboard ? navigator.clipboard.writeText(code) : Promise.reject()).then(() => toast('Code copied'), () => toast('Select the code and copy it'));
+  }
+  function mergeLearner(a, b) {
+    Object.entries(b.done || {}).forEach(([id, r]) => { if (!a.done[id] || (r.date || '') > (a.done[id].date || '')) a.done[id] = r; });
+    const seen = new Set(a.history.map(h => h.packId + '@' + h.date));
+    (b.history || []).forEach(h => { if (!seen.has(h.packId + '@' + h.date)) a.history.push(h); });
+    a.history.sort((x, y) => (y.date || '').localeCompare(x.date || ''));
+    Object.entries(b.days || {}).forEach(([k, d]) => { const o = a.days[k] || (a.days[k] = { sec: 0, packs: 0 }); o.sec = Math.max(o.sec, d.sec || 0); o.packs = Math.max(o.packs, d.packs || 0); });
+    Object.entries(b.reviews || {}).forEach(([id, r]) => { if (!a.reviews[id]) a.reviews[id] = r; });
+    Object.assign(a.favs, b.favs || {});
+    Object.entries(b.teach || {}).forEach(([id, t]) => { if (!a.teach[id] || (t.date || '') >= (a.teach[id].date || '')) a.teach[id] = t; });
+    if ((b.quiz || {}).asked > a.quiz.asked) a.quiz = b.quiz;
+  }
+  function importCode() {
+    const raw = (document.getElementById('code').value || '').trim(); if (!raw) return toast('Paste a code first');
+    let data; try { data = JSON.parse(decodeURIComponent(escape(atob(raw)))); } catch (e) { return toast('That code didn’t work'); }
+    if (!data || data.app !== 'daily-spark' || !Array.isArray(data.profiles)) return toast('That isn’t a Daily Spark code');
+    data.profiles.forEach(p => {
+      if (!p || !/^[a-z0-9-]{1,40}$/.test(p.id) || !DS.LEVELS.includes(p.level)) return;
+      if (!ST.profiles.find(x => x.id === p.id)) ST.profiles.push({ id: p.id, name: String(p.name || 'Learner').slice(0, 24), level: p.level, avatar: String(p.avatar || '🙂').slice(0, 4) });
+      mergeLearner(learner(p.id), Object.assign(DS.newLearner(), (data.learners || {})[p.id] || {}));
+    });
+    save(); toast('Progress merged'); render();
+  }
+
+  // ---------- profiles ----------
+  let EDIT = null;
+  VIEWS.profiles = function () {
+    if (!EDIT) EDIT = JSON.parse(JSON.stringify(ST.profiles));
+    return '<div class="screen"><div class="top"><button class="iconbtn" data-act="cancelprof">←</button><h1>Profiles</h1></div><div class="list">' +
+      EDIT.map((p, i) => '<div class="item prof-edit"><div class="avatar">' + esc(p.avatar) + '</div><div><div class="field"><label class="small muted">Name</label><input maxlength="24" data-pi="' + i + '" data-f="name" value="' + esc(p.name) + '"></div>' +
+        '<div class="field"><label class="small muted">Level</label><select data-pi="' + i + '" data-f="level">' + DS.LEVELS.map(l => '<option value="' + l + '"' + (p.level === l ? ' selected' : '') + '>' + LEVEL_NAME[l] + (l === 'kid' ? ' (about ages 9–12)' : l === 'teen' ? ' (about 12–16)' : '') + '</option>').join('') + '</select></div>' +
+        '<div class="emoji-pick">' + AVATARS.map(a => '<button data-act="avatar" data-arg="' + i + ':' + a + '" class="' + (a === p.avatar ? 'sel' : '') + '">' + a + '</button>').join('') + '</div>' +
+        (EDIT.length > 1 ? '<button class="link" data-act="delprof" data-arg="' + i + '">Remove</button>' : '') + '</div></div>').join('') + '</div>' +
+      '<div class="row" style="margin-top:16px;flex-wrap:wrap">' + (EDIT.length < 6 ? '<button class="btn ghost sm" data-act="addprof">+ Add learner</button>' : '') + '<span class="spacer"></span><button class="btn" data-act="saveprof">Save</button></div></div>';
+  };
+  AFTER.profiles = function () {
+    $app.querySelectorAll('[data-pi]').forEach(el => el.addEventListener('input', () => { EDIT[+el.dataset.pi][el.dataset.f] = el.value; }));
+  };
+
+  // ---------- actions ----------
+  const ACT = {
+    go: a => { if (a === 'review') R = null; go(a); },
+    pick: id => { ST.current = id; save(); go('home'); },
+    topic: id => go('topic', id),
+    open: (id, el) => openPack(id, el && el.dataset.fam),
+    next: () => step(1), prev: () => step(-1),
+    answer, ranswer,
+    rnext: () => { R.i++; R.a = null; flushTime(); render(); },
+    endreview: () => { R = null; go('home'); },
+    close: () => { P = null; go('home'); },
+    finish,
+    fav: () => {
+      const c = P.cards[P.i], L = learner(ST.current), id = P.pack.id + ':' + c.ci;
+      if (L.favs[id]) delete L.favs[id];
+      else { L.favs[id] = { id, packId: P.pack.id, packTitle: P.pack.title, topic: P.pack.topic, emoji: c.emoji, title: c.title, text: c.text, example: c.example || '', date: today() }; toast('Saved ♥'); }
+      save(); render();
+    },
+    unfav: id => { delete learner(ST.current).favs[id]; save(); render(); },
+    sources: () => sheet('<h2>🔎 How do we know?</h2><p class="muted small">' + esc(P.pack.title) + '</p>' + sourcesHtml(P.pack)),
+    closesheet: (a, el) => el.closest('.sheet-bg').remove(),
+    starter: s => { const ta = document.getElementById('teachNote'); if (!ta) return; ta.value = (ta.value.trim() ? ta.value.trim() + ' ' : '') + s.replace(/…$/, '') + ' '; ta.focus(); ta.dispatchEvent(new Event('input')); },
+    export: exportCode, import: importCode,
+    avatar: a => { const [i, e] = a.split(':'); EDIT[+i].avatar = e; render(); },
+    addprof: () => { EDIT.push({ id: 'p' + Date.now().toString(36), name: 'New learner', level: 'kid', avatar: AVATARS[EDIT.length % AVATARS.length] }); render(); },
+    delprof: i => { const p = EDIT[+i]; if (confirm('Remove ' + p.name + '? Their progress on this device will be deleted.')) { EDIT.splice(+i, 1); render(); } },
+    cancelprof: () => { EDIT = null; go('who'); },
+    saveprof: () => {
+      EDIT.forEach(p => { p.name = (p.name || '').trim().slice(0, 24) || 'Learner'; });
+      const keep = new Set(EDIT.map(p => p.id));
+      Object.keys(ST.learners).forEach(id => { if (!keep.has(id)) delete ST.learners[id]; });
+      ST.profiles = EDIT; EDIT = null; if (!keep.has(ST.current)) ST.current = null;
+      ST.profiles.forEach(p => learner(p.id)); save(); prefetch(); go('who');
+    },
+  };
+  document.addEventListener('click', e => {
+    const el = e.target.closest('[data-act]'); if (!el || el.disabled) return;
+    const f = ACT[el.dataset.act]; if (f) { e.preventDefault(); f(el.dataset.arg, el, e); }
+  });
+  document.addEventListener('keydown', e => {
+    if (S.name !== 'player' || e.target.closest('textarea,input')) return;
+    if (e.key === 'ArrowRight') step(1); if (e.key === 'ArrowLeft') step(-1);
+  });
+
+  // ---------- start ----------
+  async function start() {
+    $app.innerHTML = '<div class="screen center"><div class="done-hero">✨</div><p class="muted">Loading…</p></div>';
+    await loadContent();
+    render();
+    if ('serviceWorker' in navigator && location.protocol !== 'file:') navigator.serviceWorker.register('sw.js').catch(() => { });
+    setTimeout(prefetch, 800);
+  }
+  window.DSAPP = { go, openPack, step, state: () => ST, player: () => P, index: () => INDEX, save, render, ACT, reload: () => { ST = load(); render(); } };
+  start();
+})();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+{
+  "id": "money-profit-break-even-teen",
+  "topic": "money",
+  "subject": "profit-break-even",
+  "level": "teen",
+  "title": "Break-Even: The First Number Investors Ask For",
+  "emoji": "⛳",
+  "summary": "Contribution margin, break-even units, and pricing for a small golf business.",
+  "minutes": 7,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "⛳",
+      "title": "A golf ball business",
+      "text": "Say you start a business selling cleaned, sorted used golf balls by the dozen. How many dozen do you need to sell before you stop losing money?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🧱",
+      "title": "Fixed vs. variable",
+      "text": "Fixed costs don't change with how much you sell, like a $90 cleaning setup and a $30 website for the season. Variable costs rise with each sale, like buying used balls and egg cartons.",
+      "example": "In this example: fixed costs = $120. Each dozen costs you $6 in balls and packaging."
+    },
+    {
+      "type": "idea",
+      "emoji": "➗",
+      "title": "Contribution margin",
+      "text": "Contribution margin is what each sale contributes toward fixed costs: price minus variable cost. Sell a dozen for $14 with $6 of variable cost, and each dozen contributes $8."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎯",
+      "title": "The SBA formula",
+      "text": "Break-even units = fixed costs ÷ (price − variable cost per unit). Here: $120 ÷ ($14 − $6) = 15 dozen. Dozen number 16 is your first real profit.",
+      "example": "The SBA suggests adding about 10% for costs you can't predict, so plan on about $132 of fixed costs, or 17 dozen."
+    },
+    {
+      "type": "idea",
+      "emoji": "💼",
+      "title": "Why investors care",
+      "text": "The SBA notes investors want to know not just the return they can expect but when they will see it. Many businesses lose money for months or years before breaking even. A clear break-even point shows you understand your costs."
+    },
+    {
+      "type": "think",
+      "question": "You could charge $20 a dozen and break even after only 9 dozen. What might you give up by raising the price? How would you find out?",
+      "nudges": [
+        "Who are your customers and what are their alternatives?",
+        "What small test could tell you which price works?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Fixed costs $120, price $14, variable cost $6. Break-even?",
+          "options": [
+            {
+              "text": "15 dozen",
+              "correct": true,
+              "why": "$120 ÷ $8 = 15."
+            },
+            {
+              "text": "9 dozen",
+              "correct": false,
+              "why": "That divides by the price ($14), not the contribution margin ($8)."
+            },
+            {
+              "text": "20 dozen",
+              "correct": false,
+              "why": "That divides by $6, the variable cost. Use price minus variable cost."
+            }
+          ]
+        },
+        {
+          "q": "What is contribution margin per unit?",
+          "options": [
+            {
+              "text": "Price minus variable cost per unit",
+              "correct": true,
+              "why": "Right. It is what each sale contributes to covering fixed costs."
+            },
+            {
+              "text": "Total revenue",
+              "correct": false,
+              "why": "Revenue includes the part that pays variable costs."
+            },
+            {
+              "text": "Fixed costs divided by price",
+              "correct": false,
+              "why": "Not a standard measure."
+            }
+          ]
+        },
+        {
+          "q": "Which is a fixed cost for the golf ball business?",
+          "options": [
+            {
+              "text": "A season-long website fee",
+              "correct": true,
+              "why": "Yes. It stays the same no matter how many dozen you sell."
+            },
+            {
+              "text": "Egg cartons for each dozen",
+              "correct": false,
+              "why": "That rises with each sale. It is variable."
+            },
+            {
+              "text": "Buying more used balls",
+              "correct": false,
+              "why": "More sales need more balls. Variable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Break-even is…",
+        "To find it, you…",
+        "A higher price would…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Break-even point",
+      "publisher": "U.S. Small Business Administration",
+      "url": "https://www.sba.gov/breakevenpointcalculator",
+      "supports": "Break-even is where total cost equals total revenue; fixed costs ÷ (price − variable cost) = break-even units; contribution margin; fixed vs. variable costs; adding about 10% for unexpected expenses; why investors and lenders ask for it."
+    }
+  ]
+}

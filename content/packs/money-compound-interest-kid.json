@@ -1,0 +1,142 @@
+{
+  "id": "money-compound-interest-kid",
+  "topic": "money",
+  "subject": "compound-interest",
+  "level": "kid",
+  "title": "Money That Grows Money",
+  "emoji": "🌱",
+  "summary": "Compound interest: when your interest starts earning interest too.",
+  "minutes": 6,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌱",
+      "title": "Money that grows on its own?",
+      "text": "Imagine putting $100 in a savings account and never adding another cent. Twenty-five years later, it could be almost $340. Where does the extra money come from?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🏦",
+      "title": "Interest is a thank-you",
+      "text": "When you keep money in a bank, the bank pays you a little extra for letting it use your money. That extra is called interest.",
+      "example": "If you have $100 and earn 5% interest in a year, you get $5. Now you have $105."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔁",
+      "title": "Interest on interest",
+      "text": "In year two, you earn 5% on all $105, not just the first $100. That gives you $110.25. The extra 25 cents is interest earned on your interest. This is called compound interest."
+    },
+    {
+      "type": "idea",
+      "emoji": "📈",
+      "title": "Small at first, big later",
+      "text": "Each year, the pile grows a little faster than the year before. After 10 years, $100 at 5% grows to more than $162. After 25 years, it is almost $340.",
+      "example": "The early years look slow. The later years are where it really takes off.",
+      "svg": "<svg viewBox=\"0 0 300 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"$100 growing at 5% every 5 years\"><rect x=\"33.0\" y=\"82.5\" width=\"34.0\" height=\"29.5\" rx=\"3\" fill=\"#10b981\"/><rect x=\"73.0\" y=\"74.3\" width=\"34.0\" height=\"37.7\" rx=\"3\" fill=\"#10b981\"/><rect x=\"113.0\" y=\"63.9\" width=\"34.0\" height=\"48.1\" rx=\"3\" fill=\"#10b981\"/><rect x=\"153.0\" y=\"50.6\" width=\"34.0\" height=\"61.4\" rx=\"3\" fill=\"#10b981\"/><rect x=\"193.0\" y=\"33.6\" width=\"34.0\" height=\"78.4\" rx=\"3\" fill=\"#10b981\"/><rect x=\"233.0\" y=\"12.0\" width=\"34.0\" height=\"100.0\" rx=\"3\" fill=\"#10b981\"/><path d=\"M24 112 H276\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+    },
+    {
+      "type": "idea",
+      "emoji": "⏰",
+      "title": "Time is the secret ingredient",
+      "text": "The longer your money stays put, the more years it has to grow on itself. That is why starting early helps so much, even with small amounts."
+    },
+    {
+      "type": "think",
+      "question": "Besides money, what else gets bigger faster the longer you keep at it, like interest on interest?",
+      "nudges": [
+        "Think about reading, practicing a sport, or making friends.",
+        "What happens if you stop and start over?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "You have $100 and earn 5% interest in one year. How much do you have?",
+          "options": [
+            {
+              "text": "$105",
+              "correct": true,
+              "why": "Yes! 5% of $100 is $5."
+            },
+            {
+              "text": "$150",
+              "correct": false,
+              "why": "That would be 50%. 5% of $100 is just $5."
+            },
+            {
+              "text": "$100.05",
+              "correct": false,
+              "why": "That is only 5 cents. 5% of $100 is $5."
+            }
+          ]
+        },
+        {
+          "q": "What makes compound interest special?",
+          "options": [
+            {
+              "text": "You earn interest on your interest, too.",
+              "correct": true,
+              "why": "Right. That is why it grows faster over time."
+            },
+            {
+              "text": "The bank takes money away each year.",
+              "correct": false,
+              "why": "With interest, the bank adds money to your account."
+            },
+            {
+              "text": "You get the same amount every single year.",
+              "correct": false,
+              "why": "That would be simple interest. Compound interest grows a bit more each year."
+            }
+          ]
+        },
+        {
+          "q": "Why does starting early help?",
+          "options": [
+            {
+              "text": "Your money has more years to grow on itself.",
+              "correct": true,
+              "why": "Yes. Time is the secret ingredient."
+            },
+            {
+              "text": "Banks pay kids more.",
+              "correct": false,
+              "why": "The rate is not about age. Time is what helps."
+            },
+            {
+              "text": "Money is worth nothing later.",
+              "correct": false,
+              "why": "Starting early gives your money more time to grow."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Interest is…",
+        "Compound interest means…",
+        "Starting early helps because…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "What is compound interest?",
+      "publisher": "Investor.gov (U.S. Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/additional-resources/information/youth/teachers-classroom-resources/what-compound-interest",
+      "supports": "$100 at 5% becomes $105, then $110.25, more than $162 in 10 years, and almost $340 in 25 years; the Rule of 72 (9% doubles in about 8 years); the $730 pizza-savings example ($931.69 after 5 years, $3,155.02 after 30)."
+    },
+    {
+      "title": "Compound Interest Calculator",
+      "publisher": "Investor.gov (U.S. Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator",
+      "supports": "A free official calculator to try your own starting amount, monthly additions, rate, and years."
+    }
+  ]
+}

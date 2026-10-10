@@ -1,0 +1,140 @@
+{
+  "id": "body-sleep-kid",
+  "topic": "body",
+  "subject": "sleep",
+  "level": "kid",
+  "title": "Your Brain's Night Shift",
+  "emoji": "😴",
+  "summary": "What your brain does while you sleep, and how much sleep you need.",
+  "minutes": 6,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "😴",
+      "title": "A third of your life",
+      "text": "You spend about one-third of your life asleep. That sounds like a lot of doing nothing. But your brain is busy all night. What is it doing?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🧠",
+      "title": "Saving what you learned",
+      "text": "Sleep helps your brain build and keep the pathways it uses to learn and remember. Without enough sleep, it is harder to focus and to react quickly.",
+      "example": "So sleep is part of learning, not a break from it."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧹",
+      "title": "A cleanup crew",
+      "text": "Scientists have found signs that sleep may help clean out waste that builds up in the brain while you are awake. They are still learning how it all works."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌙",
+      "title": "Your body clock",
+      "text": "Your body has a clock that runs on about 24 hours. When it gets dark, your brain makes more of a chemical called melatonin, which helps you feel sleepy. Bright light, like from screens, can make it harder to fall asleep."
+    },
+    {
+      "type": "idea",
+      "emoji": "⏰",
+      "title": "How much do you need?",
+      "text": "Experts say kids ages 6 to 12 should sleep 9 to 12 hours a night. Teens need 8 to 10 hours. Grown-ups need 7 to 9."
+    },
+    {
+      "type": "think",
+      "question": "What is one thing that makes it harder for you to fall asleep? What is one small change you could try?",
+      "nudges": [
+        "Think about light, screens, noise, and worries.",
+        "What helps you feel calm at night?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "How much sleep do experts say kids ages 6 to 12 need?",
+          "options": [
+            {
+              "text": "9 to 12 hours",
+              "correct": true,
+              "why": "Yes! That is more than grown-ups need."
+            },
+            {
+              "text": "4 to 5 hours",
+              "correct": false,
+              "why": "That is much too little for a growing kid."
+            },
+            {
+              "text": "15 to 18 hours",
+              "correct": false,
+              "why": "That is closer to what babies sleep."
+            }
+          ]
+        },
+        {
+          "q": "What does melatonin do?",
+          "options": [
+            {
+              "text": "It helps you feel sleepy when it gets dark.",
+              "correct": true,
+              "why": "Right. Your brain makes more of it at night."
+            },
+            {
+              "text": "It wakes you up in the morning.",
+              "correct": false,
+              "why": "Melatonin is the sleepy-time chemical."
+            },
+            {
+              "text": "It makes you hungry.",
+              "correct": false,
+              "why": "Melatonin is about sleep, not hunger."
+            }
+          ]
+        },
+        {
+          "q": "Why is sleep important for learning?",
+          "options": [
+            {
+              "text": "It helps your brain build pathways to remember things.",
+              "correct": true,
+              "why": "Yes. Sleep helps lock in what you learned."
+            },
+            {
+              "text": "Your brain turns off completely.",
+              "correct": false,
+              "why": "Your brain stays very active during sleep."
+            },
+            {
+              "text": "It isn't important for learning.",
+              "correct": false,
+              "why": "It is! Sleep helps you learn and remember."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "While I sleep, my brain…",
+        "Kids my age need…",
+        "One thing I can do is…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Brain Basics: Understanding Sleep",
+      "publisher": "National Institute of Neurological Disorders and Stroke (NIH)",
+      "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep",
+      "supports": "We sleep about a third of our time; sleep is needed to form memory pathways; a possible \"housekeeping\" role; sleep stages and REM; circadian rhythm and sleep drive; adenosine, caffeine, melatonin, and light; the purpose of sleep is still partly a mystery."
+    },
+    {
+      "title": "How Much Sleep Is Enough?",
+      "publisher": "National Heart, Lung, and Blood Institute (NIH)",
+      "url": "https://www.nhlbi.nih.gov/health/sleep/how-much-sleep",
+      "supports": "Recommended sleep: adults 7 to 9 hours; children 6 to 12, 9 to 12 hours; teens 13 to 18, 8 to 10 hours; adults sleeping under 7 hours may have more health issues."
+    }
+  ]
+}

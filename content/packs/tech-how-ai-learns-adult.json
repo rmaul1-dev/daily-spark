@@ -1,0 +1,162 @@
+{
+  "id": "tech-how-ai-learns-adult",
+  "topic": "tech",
+  "subject": "how-ai-learns",
+  "level": "adult",
+  "title": "Machine Learning: Loss, Gradients, Generalization",
+  "emoji": "📉",
+  "summary": "What training optimizes, why it can fail quietly, and how today's language models fit in.",
+  "minutes": 8,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "📉",
+      "title": "Minimize a number",
+      "text": "Strip away the hype and supervised learning is this: define a number that measures how wrong you are, then nudge millions of parameters to make it smaller. Why does that produce anything that looks like intelligence, and when does it break?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🎯",
+      "title": "The objective",
+      "text": "Supervised learning compares outputs against ground truth (labels) using a loss function, and training means minimizing that loss. Backpropagation computes how each weight contributed to the loss, and gradient descent adjusts them, even across millions or billions of weights.",
+      "example": "IBM's spam example: a rules-based filter needs hand-crafted criteria; a learned filter needs an algorithm plus a good dataset of labeled emails."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧪",
+      "title": "Generalization is the goal",
+      "text": "Training performance is a means to an end. What matters is generalization: doing well on new, real-world data. A model can fit its training set and still fail in production. That is overfitting, which is why validation design and monitoring for drift matter after deployment.",
+      "example": "Investing analogue: a backtest that fits history beautifully is not evidence of out-of-sample alpha."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔁",
+      "title": "A 70-year idea",
+      "text": "McCulloch and Pitts proposed neural nets in 1944. Rosenblatt's Perceptron came in 1957. The field then went in and out of fashion. Deep learning's return was fueled largely by graphics processors. In 2024, Hopfield and Hinton won the Nobel Prize in Physics for foundational work."
+    },
+    {
+      "type": "idea",
+      "emoji": "💬",
+      "title": "Where LLMs fit",
+      "text": "Large language models are trained mainly by self-supervision: hide some words in a text and predict them. The \"labels\" come free from the text itself, which is why the method scales to huge datasets. IBM notes deep learning needs very large amounts of data and compute compared with traditional ML."
+    },
+    {
+      "type": "think",
+      "question": "If a model is optimized to predict the next word, what is it actually optimizing, and where might that diverge from what you want it to do (accuracy, honesty, judgment)?",
+      "nudges": [
+        "Separate the training objective from the business objective.",
+        "What would \"overfitting\" look like for a model you rely on at work?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What does gradient descent do in training?",
+          "options": [
+            {
+              "text": "Adjusts parameters in the direction that reduces the loss",
+              "correct": true,
+              "why": "Right. Backprop computes the gradients; descent applies the update."
+            },
+            {
+              "text": "Labels the training data",
+              "correct": false,
+              "why": "Labels come from people or from the data itself."
+            },
+            {
+              "text": "Measures accuracy on new data",
+              "correct": false,
+              "why": "That is validation or testing."
+            },
+            {
+              "text": "Chooses the model architecture",
+              "correct": false,
+              "why": "Architecture is a design choice made before training."
+            }
+          ]
+        },
+        {
+          "q": "A model scores very well on training data but poorly on new data. That is best described as…",
+          "options": [
+            {
+              "text": "Overfitting: failing to generalize",
+              "correct": true,
+              "why": "Yes. Same failure as a curve-fit backtest."
+            },
+            {
+              "text": "Self-supervision",
+              "correct": false,
+              "why": "That is a way of getting labels from the data, not a failure mode."
+            },
+            {
+              "text": "Drift",
+              "correct": false,
+              "why": "Drift is when real-world data shifts after deployment. This is a gap that exists from the start."
+            },
+            {
+              "text": "Underfitting",
+              "correct": false,
+              "why": "Underfitting means doing poorly even on the training data."
+            }
+          ]
+        },
+        {
+          "q": "Why can language models train on enormous datasets?",
+          "options": [
+            {
+              "text": "Self-supervision gets labels from the text itself.",
+              "correct": true,
+              "why": "Hide words and predict them: no hand-labeling needed."
+            },
+            {
+              "text": "They need no computing power.",
+              "correct": false,
+              "why": "Deep learning needs very large compute."
+            },
+            {
+              "text": "They use hand-written grammar rules.",
+              "correct": false,
+              "why": "That was older rules-based AI."
+            },
+            {
+              "text": "They only use labeled images.",
+              "correct": false,
+              "why": "They are trained mainly on text."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Training a model means…",
+        "The danger is…",
+        "The parallel in my work is…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "What is machine learning?",
+      "publisher": "IBM Think",
+      "url": "https://www.ibm.com/think/topics/machine-learning",
+      "supports": "Rules-based spam filters vs. learned ones; loss functions; backpropagation and gradient descent; generalization as the goal and the risk of overfitting; supervised, unsupervised and reinforcement learning; LLMs trained by predicting missing words."
+    },
+    {
+      "title": "Explained: Neural networks",
+      "publisher": "MIT News",
+      "url": "https://news.mit.edu/2017/explained-neural-networks-deep-learning-0414",
+      "supports": "Machine learning learns from training examples, often hand-labeled; nodes, weights and thresholds; weights start random and are adjusted in training; 1944 McCulloch and Pitts; the 1957 Perceptron; graphics chips fueled deep learning's return."
+    },
+    {
+      "title": "Popular information: The Nobel Prize in Physics 2024",
+      "publisher": "The Nobel Prize (Royal Swedish Academy of Sciences)",
+      "url": "https://www.nobelprize.org/prizes/physics/2024/popular-information/",
+      "supports": "Traditional software works like a recipe while machine learning learns by example; artificial neural networks inspired by the brain; Hebb's idea that connections strengthen; Hopfield and Hinton; \"computers cannot think\" but can mimic memory and learning."
+    }
+  ]
+}

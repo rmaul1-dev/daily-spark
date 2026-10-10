@@ -1,0 +1,135 @@
+{
+  "id": "money-profit-break-even-kid",
+  "topic": "money",
+  "subject": "profit-break-even",
+  "level": "kid",
+  "title": "How a Stand Makes a Profit",
+  "emoji": "🍋",
+  "summary": "Money in, money out, and how many cups you need to sell.",
+  "minutes": 6,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🍋",
+      "title": "Did your stand make money?",
+      "text": "Say you sold $30 of lemonade on Saturday. Did you make $30? Not so fast. What did you have to buy to make it?"
+    },
+    {
+      "type": "idea",
+      "emoji": "💵",
+      "title": "Money in, money out",
+      "text": "Revenue is all the money that comes in from selling. Costs are all the money you spend to make and sell your product. Profit is what is left: revenue minus costs.",
+      "example": "If you sold $30 and spent $18, your profit is $12."
+    },
+    {
+      "type": "idea",
+      "emoji": "📦",
+      "title": "Two kinds of costs",
+      "text": "Some costs stay the same no matter how much you sell, like a sign or a pitcher. These are fixed costs. Other costs go up with every cup you sell, like lemons and cups. These are variable costs."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "The break-even point",
+      "text": "Break-even is when the money coming in equals all your costs. You have not lost money, and you have not made any yet. Every sale after that is profit.",
+      "example": "Say your sign and pitcher cost $12. Each cup sells for $1 and costs 40 cents to make. Each cup gives you 60 cents toward your $12. You need 20 cups to break even."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧮",
+      "title": "Plan for surprises",
+      "text": "A U.S. government office that helps small businesses has a tip. When you plan, add about 10% extra to your costs. Surprises happen, like spilled lemonade!"
+    },
+    {
+      "type": "think",
+      "question": "If you raise your price from $1 to $2 a cup, you need fewer cups to break even. But what else might change?",
+      "nudges": [
+        "Would as many people buy?",
+        "What would you do to make your lemonade worth $2?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What is profit?",
+          "options": [
+            {
+              "text": "Revenue minus costs",
+              "correct": true,
+              "why": "Yes! It is the money left after paying for everything."
+            },
+            {
+              "text": "All the money that comes in",
+              "correct": false,
+              "why": "That is revenue. You still have to subtract costs."
+            },
+            {
+              "text": "The price of one cup",
+              "correct": false,
+              "why": "Price is what one cup sells for. Profit is what is left over."
+            }
+          ]
+        },
+        {
+          "q": "Which one is a variable cost for a lemonade stand?",
+          "options": [
+            {
+              "text": "Paper cups",
+              "correct": true,
+              "why": "Right. You need one more cup for every sale."
+            },
+            {
+              "text": "A sign you make once",
+              "correct": false,
+              "why": "That stays the same no matter how much you sell. It is fixed."
+            },
+            {
+              "text": "A pitcher",
+              "correct": false,
+              "why": "You buy it once. That is a fixed cost."
+            }
+          ]
+        },
+        {
+          "q": "What does break-even mean?",
+          "options": [
+            {
+              "text": "Money in equals all your costs.",
+              "correct": true,
+              "why": "Yes. After that point, sales start making profit."
+            },
+            {
+              "text": "You sold every cup.",
+              "correct": false,
+              "why": "Break-even is about covering costs, not selling out."
+            },
+            {
+              "text": "You lost all your money.",
+              "correct": false,
+              "why": "At break-even, you have not lost or made money."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Profit means…",
+        "Fixed and variable costs are…",
+        "Break-even is when…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Break-even point",
+      "publisher": "U.S. Small Business Administration",
+      "url": "https://www.sba.gov/breakevenpointcalculator",
+      "supports": "Break-even is where total cost equals total revenue; fixed costs ÷ (price − variable cost) = break-even units; contribution margin; fixed vs. variable costs; adding about 10% for unexpected expenses; why investors and lenders ask for it."
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "science-blue-sky-teen",
+  "topic": "science",
+  "subject": "blue-sky",
+  "level": "teen",
+  "title": "Blue Sky Physics: Scattering",
+  "emoji": "🔭",
+  "summary": "Why short wavelengths scatter more, and what that explains.",
+  "minutes": 7,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🔭",
+      "title": "Why not violet?",
+      "text": "Violet light has an even shorter wavelength than blue, and short waves scatter more. So why isn't the sky violet?"
+    },
+    {
+      "type": "idea",
+      "emoji": "〰️",
+      "title": "Wavelength is the key",
+      "text": "Sunlight contains all visible colors. Blue light travels as shorter waves than red light. When light hits particles much smaller than its wavelength, like gas molecules, it scatters in all directions. This is called Rayleigh scattering.",
+      "svg": "<svg viewBox=\"0 0 300 130\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Short blue waves and long red waves\"><path d=\"M20 38 q 8.0 -22 16 0 q 8.0 22 16 0 q 8.0 -22 16 0 q 8.0 22 16 0 q 8.0 -22 16 0 q 8.0 22 16 0 q 8.0 -22 16 0 q 8.0 22 16 0 q 8.0 -22 16 0 q 8.0 22 16 0 q 8.0 -22 16 0 q 8.0 22 16 0 q 8.0 -22 16 0 q 8.0 22 16 0 q 8.0 -22 16 0 q 8.0 22 16 0\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"5\" stroke-linecap=\"round\"/><path d=\"M20 98 q 23.0 -22 46 0 q 23.0 22 46 0 q 23.0 -22 46 0 q 23.0 22 46 0 q 23.0 -22 46 0\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"5\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+      "type": "idea",
+      "emoji": "📐",
+      "title": "The fourth-power rule",
+      "text": "Rayleigh scattering is proportional to 1 divided by wavelength to the fourth power (1/λ⁴). Small changes in wavelength make big changes in scattering.",
+      "example": "Example: if one color's wavelength were half another's, it would scatter 2⁴ = 16 times as much."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌅",
+      "title": "Horizons and sunsets",
+      "text": "Near the horizon, light passes through more air and is scattered many times, so the sky looks paler and whiter. At sunset, so much blue is scattered out of the direct beam that mostly red and yellow get through. Dust and other particles can make sunsets even redder."
+    },
+    {
+      "type": "idea",
+      "emoji": "👁️",
+      "title": "Answering the violet puzzle",
+      "text": "Scattered skylight does include violet. But your eyes respond to the mix of blue and violet light as if it were blue plus white. So we see a blue sky.",
+      "example": "The answer depends on physics and on biology: what reaches your eye and how your eye reads it."
+    },
+    {
+      "type": "think",
+      "question": "Mars has a thin carbon dioxide atmosphere full of fine dust. Its daytime sky looks orange-red, and its sunsets look blue. What does that tell you about what controls a sky's color?",
+      "nudges": [
+        "Does particle size matter, not just the gas?",
+        "How could you test a guess about another planet's sky?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What is Rayleigh scattering proportional to?",
+          "options": [
+            {
+              "text": "1/λ⁴ (one over wavelength to the fourth power)",
+              "correct": true,
+              "why": "Right. Shorter wavelengths scatter far more strongly."
+            },
+            {
+              "text": "λ (wavelength)",
+              "correct": false,
+              "why": "That would make red scatter most. Then the sky would look reddish."
+            },
+            {
+              "text": "It is the same for all colors.",
+              "correct": false,
+              "why": "If it were the same, the sky would look white, not blue."
+            }
+          ]
+        },
+        {
+          "q": "Why does the sky near the horizon look paler than straight up?",
+          "options": [
+            {
+              "text": "Light from there passes through more air and gets scattered many times, mixing the colors.",
+              "correct": true,
+              "why": "Yes. Mixing colors back together pushes the sky toward white."
+            },
+            {
+              "text": "The ground is closer, so it reflects green.",
+              "correct": false,
+              "why": "The ground does reflect light, but the main effect is extra scattering through more air."
+            },
+            {
+              "text": "There is less air near the horizon.",
+              "correct": false,
+              "why": "It is the opposite: your line of sight passes through more air."
+            }
+          ]
+        },
+        {
+          "q": "Why don't we see a violet sky?",
+          "options": [
+            {
+              "text": "Our eyes read the scattered blue-violet mix as blue plus white.",
+              "correct": true,
+              "why": "Right. Part of the answer is in your eyes, not just the air."
+            },
+            {
+              "text": "Sunlight has no violet light.",
+              "correct": false,
+              "why": "Sunlight does include violet. A prism can show it."
+            },
+            {
+              "text": "Violet scatters less than red.",
+              "correct": false,
+              "why": "Violet has a shorter wavelength, so it scatters more than red."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Air molecules scatter…",
+        "Blue wins because…",
+        "Sunsets are red because…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Why Is the Sky Blue?",
+      "publisher": "NASA Space Place",
+      "url": "https://spaceplace.nasa.gov/blue-sky/en/",
+      "supports": "Sunlight contains all colors; blue travels as shorter waves and is scattered more by air molecules; whiter sky near the horizon; red sunsets; the orange daytime sky and blue sunsets on Mars."
+    },
+    {
+      "title": "Rayleigh scattering",
+      "publisher": "Wikipedia (encyclopedia article with cited physics sources)",
+      "url": "https://en.wikipedia.org/wiki/Rayleigh_scattering",
+      "supports": "Scattering by particles much smaller than the wavelength goes as one over wavelength to the fourth power; named for Lord Rayleigh; Tyndall's 1869 observation; Rayleigh's 1871 papers; the eye reads the scattered blue-violet mix as blue plus white."
+    }
+  ]
+}

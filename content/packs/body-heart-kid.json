@@ -1,0 +1,146 @@
+{
+  "id": "body-heart-kid",
+  "topic": "body",
+  "subject": "heart",
+  "level": "kid",
+  "title": "Your Heart: The Pump That Never Stops",
+  "emoji": "❤️",
+  "summary": "Four rooms, one-way doors, and the \"lub-DUB\" you can hear.",
+  "minutes": 6,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "❤️",
+      "title": "Feel it right now",
+      "text": "Put two fingers on the inside of your wrist, below your thumb. Feel a tap, tap, tap? That is your heart pushing blood all through your body."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏠",
+      "title": "A house with four rooms",
+      "text": "Your heart is a muscle in the middle of your chest. It has four rooms called chambers. The two top rooms collect blood. The two bottom rooms pump blood out."
+    },
+    {
+      "type": "idea",
+      "emoji": "🚪",
+      "title": "One-way doors",
+      "text": "Between the rooms are valves. They work like one-way doors, so blood only flows forward. When the valves snap shut, they make the \"lub-DUB\" sound a doctor hears with a stethoscope."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔁",
+      "title": "Two trips",
+      "text": "Blood that has used up its oxygen comes back to the right side of your heart. The heart pumps it to your lungs to pick up fresh oxygen. Then it comes back to the left side, which pumps it out to your whole body.",
+      "svg": "<svg viewBox=\"0 0 300 130\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Two loops: heart to lungs and heart to body\"><ellipse cx=\"80\" cy=\"65\" rx=\"62\" ry=\"40\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"6\"/><ellipse cx=\"220\" cy=\"65\" rx=\"62\" ry=\"40\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"6\"/><circle cx=\"150\" cy=\"65\" r=\"22\" fill=\"#e11d48\"/><text x=\"150\" y=\"72\" font-size=\"20\" text-anchor=\"middle\">❤️</text><text x=\"40\" y=\"72\" font-size=\"24\" text-anchor=\"middle\">🫁</text><text x=\"262\" y=\"72\" font-size=\"24\" text-anchor=\"middle\">🏃</text></svg>"
+    },
+    {
+      "type": "idea",
+      "emoji": "⚡",
+      "title": "Your heart's spark",
+      "text": "Each heartbeat starts with a tiny electrical signal from a natural pacemaker in the top right room. At rest, a normal heart beats 60 to 100 times a minute. When you run or play, it speeds up to bring more oxygen to your muscles."
+    },
+    {
+      "type": "think",
+      "question": "Your heart beats all day and all night without you thinking about it. Why do you think your body doesn't make you remember to do it?",
+      "nudges": [
+        "What would happen if you had to remember?",
+        "What else does your body do on its own?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What do the heart valves do?",
+          "options": [
+            {
+              "text": "Keep blood flowing one way",
+              "correct": true,
+              "why": "Yes! They are like one-way doors."
+            },
+            {
+              "text": "Make blood red",
+              "correct": false,
+              "why": "Valves control the direction of blood flow."
+            },
+            {
+              "text": "Help you breathe",
+              "correct": false,
+              "why": "Your lungs help you breathe. Valves keep blood moving forward."
+            }
+          ]
+        },
+        {
+          "q": "Where does the heart send blood to pick up oxygen?",
+          "options": [
+            {
+              "text": "The lungs",
+              "correct": true,
+              "why": "Right. Then it comes back to the left side of the heart."
+            },
+            {
+              "text": "The stomach",
+              "correct": false,
+              "why": "Oxygen comes from the lungs."
+            },
+            {
+              "text": "The brain",
+              "correct": false,
+              "why": "The brain needs oxygen, but blood picks it up in the lungs."
+            }
+          ]
+        },
+        {
+          "q": "What happens to your heart rate when you play soccer?",
+          "options": [
+            {
+              "text": "It speeds up to bring more oxygen to your muscles.",
+              "correct": true,
+              "why": "Yes. Your muscles need more oxygen when they work hard."
+            },
+            {
+              "text": "It stops.",
+              "correct": false,
+              "why": "Your heart keeps beating. It speeds up."
+            },
+            {
+              "text": "It slows way down.",
+              "correct": false,
+              "why": "Exercise makes it beat faster."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "My heart has…",
+        "Blood goes from my heart to…",
+        "When I exercise…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "What the Heart Looks Like",
+      "publisher": "National Heart, Lung, and Blood Institute (NIH)",
+      "url": "https://www.nhlbi.nih.gov/health/heart/anatomy",
+      "supports": "The heart's location; four chambers (two atria, two ventricles); valves keep blood moving one way; the septum; three tissue layers."
+    },
+    {
+      "title": "How the Heart Beats",
+      "publisher": "National Heart, Lung, and Blood Institute (NIH)",
+      "url": "https://www.nhlbi.nih.gov/health/heart/heart-beats",
+      "supports": "The \"lub-DUB\" sounds and the valves that make them; how to take your pulse; 60 to 100 beats per minute at rest; faster during exercise; the SA node, AV node, and electrical signal; blood pressure numbers."
+    },
+    {
+      "title": "How Blood Flows through the Heart",
+      "publisher": "National Heart, Lung, and Blood Institute (NIH)",
+      "url": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+      "supports": "Four valves; the path from the body to the right side, to the lungs, to the left side, and out the aorta; the left ventricle's high pressure; coronary arteries feeding the heart muscle."
+    }
+  ]
+}

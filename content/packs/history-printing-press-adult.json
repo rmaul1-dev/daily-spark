@@ -1,0 +1,152 @@
+{
+  "id": "history-printing-press-adult",
+  "topic": "history",
+  "subject": "printing-press",
+  "level": "adult",
+  "title": "The Printing Press as an Economic Shock",
+  "emoji": "📈",
+  "summary": "Fixed costs, alphabets, and diffusion: why printing scaled in Europe.",
+  "minutes": 8,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "📈",
+      "title": "20 million copies by 1500",
+      "text": "By 1500, Western Europe's presses had produced an estimated 20 million copies. By 1600, an estimated 150 to 200 million. Was the breakthrough the machine, or the economics around it?"
+    },
+    {
+      "type": "idea",
+      "emoji": "⚙️",
+      "title": "A system, not a gadget",
+      "text": "Gutenberg (around 1440) integrated four existing technologies: the screw press, movable type, the codex, and mechanized paper. His own additions were a hand mold for casting uniform type and an oil-based ink suited to metal. The hard problem was making interchangeable type at scale.",
+      "example": "A 1439 lawsuit already describes his types, molds, and metals. The Bible shipped between 1454 and 1456, with partner Johann Fust. Roughly 15 years from first evidence to flagship product is patient capital by any standard."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔣",
+      "title": "Why the alphabet mattered",
+      "text": "Bi Sheng made clay movable type in 11th-century China, and Korea's Jikji (1377) is the oldest surviving book printed with metal type. Yet East Asian movable type never displaced woodblocks, partly because logographic scripts need thousands of characters. That raises the fixed cost of a type set. A Latin font needed only a small character set.",
+      "example": "Careful with a famous comparison: Korea's 1434 Kabin type is reported at 40 sheets a day, while European presses around 1600 did 1,500 to 3,600 impressions a day. Different eras and processes, so it is not a like-for-like productivity gap."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌐",
+      "title": "Diffusion",
+      "text": "Mainz began as Europe's only print shop. By 1480, printers worked in 110 places across ten countries, and by 1500 around 270 cities were involved in printing. As copies got cheaper, books shifted from Latin toward local languages, and those languages grew more standardized."
+    },
+    {
+      "type": "idea",
+      "emoji": "📣",
+      "title": "Content found its market",
+      "text": "Martin Luther became Europe's most published author around 1520. Printers issued 291 editions of his 45 works and distributed about 300,000 copies between 1518 and 1520. Erasmus sold at least 750,000 copies in his lifetime.",
+      "example": "Historians say printing contributed to the Reformation and the Scientific Revolution. \"Contributed\" matters: printing amplified movements that had other causes too."
+    },
+    {
+      "type": "think",
+      "question": "Printing cut the cost of copying ideas, good and bad alike. What is the closest modern analogue, and where does the analogy break down?",
+      "nudges": [
+        "Separate fixed costs (type, presses) from marginal costs (one more copy).",
+        "Who were the gatekeepers before and after, and who paid for distribution?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What is a key reason East Asian movable type did not reach widespread use, according to the historians cited?",
+          "options": [
+            {
+              "text": "Logographic scripts needed thousands of characters, raising the cost of a full type set.",
+              "correct": true,
+              "why": "Right. Fixed cost per font was the binding constraint, not the idea of movable type."
+            },
+            {
+              "text": "Metal type had not been invented in Asia.",
+              "correct": false,
+              "why": "Korea's Jikji (1377) is the oldest surviving book printed with metal movable type."
+            },
+            {
+              "text": "There was little demand for printed text.",
+              "correct": false,
+              "why": "Woodblock printing remained the primary method in East Asia. The demand was there; the method differed."
+            },
+            {
+              "text": "Paper was unavailable.",
+              "correct": false,
+              "why": "Woodblock printing on paper was widespread, so paper was not the constraint."
+            }
+          ]
+        },
+        {
+          "q": "Kabin type (1434) at 40 sheets a day vs. European presses around 1600 at 1,500 to 3,600 impressions a day. What is the right caution?",
+          "options": [
+            {
+              "text": "Different eras and processes, so the gap overstates a like-for-like comparison.",
+              "correct": true,
+              "why": "Yes. The figures are about 170 years apart and measure different workflows."
+            },
+            {
+              "text": "The European figure is per year, not per day.",
+              "correct": false,
+              "why": "The source gives it per workday."
+            },
+            {
+              "text": "Kabin type was wooden, not metal.",
+              "correct": false,
+              "why": "Kabin was a metal movable type font."
+            },
+            {
+              "text": "There is no caution; it proves the alphabet caused the gap.",
+              "correct": false,
+              "why": "The alphabet argument is about the fixed cost of type, not this single productivity comparison."
+            }
+          ]
+        },
+        {
+          "q": "Roughly how many copies had Western European presses produced by 1500?",
+          "options": [
+            {
+              "text": "More than 20 million",
+              "correct": true,
+              "why": "Correct, then 150 to 200 million by 1600."
+            },
+            {
+              "text": "About 200,000",
+              "correct": false,
+              "why": "Far too low. Luther's works alone reached about 300,000 copies in 1518 to 1520."
+            },
+            {
+              "text": "About 2 billion",
+              "correct": false,
+              "why": "Far too high. Even by 1600 the estimate is 150 to 200 million."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The real breakthrough was…",
+        "It scaled in Europe because…",
+        "The lesson for today is…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Gutenberg Bible",
+      "publisher": "Harry Ransom Center, University of Texas at Austin",
+      "url": "https://www.hrc.utexas.edu/gutenberg-bible/",
+      "supports": "Mainz in the mid-1450s; Gutenberg and partner Johann Fust; more than 150 copies in Latin; individual metal type; one of only 20 complete copies surviving; books still copied by hand for centuries."
+    },
+    {
+      "title": "Printing press",
+      "publisher": "Wikipedia (encyclopedia article with cited historians)",
+      "url": "https://en.wikipedia.org/wiki/Printing_press",
+      "supports": "Screw press used for grapes and olives; four combined technologies; hand mold and oil-based ink; Bi Sheng and the 1377 Jikji; spread to about 270 cities; 20 million copies by 1500; Luther and Erasmus print runs."
+    }
+  ]
+}

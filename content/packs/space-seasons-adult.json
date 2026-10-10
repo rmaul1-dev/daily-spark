@@ -1,0 +1,162 @@
+{
+  "id": "space-seasons-adult",
+  "topic": "space",
+  "subject": "seasons",
+  "level": "adult",
+  "title": "Seasons: Geometry Beats Distance",
+  "emoji": "📐",
+  "summary": "Insolation geometry, the 6.8% January bonus, and why tilt drives ice ages.",
+  "minutes": 8,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "📐",
+      "title": "The 6.8% puzzle",
+      "text": "Each January, Earth receives about 6.8% more incoming sunlight than in July, because it is about 3.2 million miles closer to the Sun. Yet January is the Northern Hemisphere's winter. What dominates, and by how much?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🔦",
+      "title": "Geometry first",
+      "text": "Earth's axis is tilted 23.4° to its orbital plane and keeps a fixed orientation in space, so the subsolar latitude swings through the year. Energy per unit of ground area scales roughly with the sine of the Sun's elevation: at 30°, a beam covers twice the area it would overhead.",
+      "svg": "<svg viewBox=\"0 0 300 140\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Earth tilted toward the Sun in June and away in December\"><circle cx=\"150\" cy=\"70\" r=\"22\" fill=\"#fbbf24\"/><circle cx=\"45\" cy=\"70\" r=\"24\" fill=\"#60a5fa\"/><path d=\"M36 40 L54 100\" stroke=\"#1e293b\" stroke-width=\"3\"/><circle cx=\"255\" cy=\"70\" r=\"24\" fill=\"#60a5fa\"/><path d=\"M246 40 L264 100\" stroke=\"#1e293b\" stroke-width=\"3\"/><path d=\"M75 70 H120 M180 70 H225\" stroke=\"#f59e0b\" stroke-width=\"3\" stroke-dasharray=\"6 5\"/></svg>"
+    },
+    {
+      "type": "idea",
+      "emoji": "📊",
+      "title": "Distance is a second-order term",
+      "text": "Perihelion comes around January 3 and aphelion around July 4, a 3.4% variation in distance and about 6.8% in sunlight. That is real, but small next to the swing in sun angle at mid-latitudes. Eccentricity does make Northern summers about 4.5 days longer than Northern winters."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧊",
+      "title": "Tilt on long timescales",
+      "text": "Tilt (obliquity) has varied between 22.1° and 24.5° over the last million years on a cycle of about 41,000 years. It is about 23.4° now and slowly decreasing. Larger tilt means more extreme seasons. Lower tilt gives milder summers that, at high latitudes, let snow persist and ice sheets build.",
+      "example": "NASA notes that the relative importance of tilt versus precession for ice ages is still being studied."
+    },
+    {
+      "type": "idea",
+      "emoji": "💥",
+      "title": "Origin",
+      "text": "NASA Space Place notes scientists think an impact with a body called Theia knocked the young Earth off-kilter, and most think the debris formed the Moon."
+    },
+    {
+      "type": "think",
+      "question": "\"Closer is hotter\" is intuitive and wrong for seasons, because a first-order variable (angle) swamps a second-order one (distance). Where in your work do people over-attribute outcomes to the variable that is easiest to see?",
+      "nudges": [
+        "Rank the drivers of a metric you manage by actual sensitivity.",
+        "What would a one-line test of the popular explanation look like?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "About how much more sunlight reaches Earth at perihelion (January) than at aphelion (July)?",
+          "options": [
+            {
+              "text": "About 6.8%",
+              "correct": true,
+              "why": "From a 3.4% distance variation (inverse-square roughly doubles it)."
+            },
+            {
+              "text": "About 0.5%",
+              "correct": false,
+              "why": "Too small."
+            },
+            {
+              "text": "About 23%",
+              "correct": false,
+              "why": "That is the figure at maximum orbital eccentricity, not today."
+            },
+            {
+              "text": "About 50%",
+              "correct": false,
+              "why": "Far too large."
+            }
+          ]
+        },
+        {
+          "q": "Over the last million years, Earth's tilt has ranged between…",
+          "options": [
+            {
+              "text": "22.1° and 24.5°",
+              "correct": true,
+              "why": "On a cycle of about 41,000 years."
+            },
+            {
+              "text": "0° and 45°",
+              "correct": false,
+              "why": "Far wider than the actual range."
+            },
+            {
+              "text": "23.4° fixed",
+              "correct": false,
+              "why": "Tilt varies slowly over time."
+            },
+            {
+              "text": "20° and 30°",
+              "correct": false,
+              "why": "Too wide."
+            }
+          ]
+        },
+        {
+          "q": "Why do Northern Hemisphere summers last about 4.5 days longer than winters?",
+          "options": [
+            {
+              "text": "Orbital eccentricity: Earth moves slower near aphelion in July.",
+              "correct": true,
+              "why": "Eccentricity changes season lengths, even though tilt drives the seasons."
+            },
+            {
+              "text": "Tilt is larger in summer.",
+              "correct": false,
+              "why": "Tilt doesn't change within a year."
+            },
+            {
+              "text": "Daylight saving time",
+              "correct": false,
+              "why": "A clock convention, not orbital mechanics."
+            },
+            {
+              "text": "The Moon's gravity",
+              "correct": false,
+              "why": "Not the cause given by NASA."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Seasons come from…, not…",
+        "Distance matters only…",
+        "Over long timescales…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "What Causes the Seasons?",
+      "publisher": "NASA Space Place",
+      "url": "https://spaceplace.nasa.gov/seasons/en/",
+      "supports": "Tilt, not distance, causes seasons; the tilted axis keeps pointing the same way; June and December; perihelion (91.4 million miles) in January and aphelion (94.5 million miles) in July; the Theia impact idea."
+    },
+    {
+      "title": "Earth: Facts",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/earth/facts/",
+      "supports": "Earth's axis is tilted 23.4 degrees relative to its orbit, and this tilt causes the yearly cycle of seasons."
+    },
+    {
+      "title": "Milankovitch (Orbital) Cycles and Their Role in Earth's Climate",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/science-research/earth-science/milankovitch-orbital-cycles-and-their-role-in-earths-climate/",
+      "supports": "Tilt has ranged from 22.1 to 24.5 degrees over the last million years on a roughly 41,000-year cycle; perihelion about January 3 brings about 6.8% more sunlight than aphelion; Northern summers are about 4.5 days longer than winters."
+    }
+  ]
+}

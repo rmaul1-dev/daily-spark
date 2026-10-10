@@ -1,0 +1,140 @@
+{
+  "id": "tech-how-ai-learns-teen",
+  "topic": "tech",
+  "subject": "how-ai-learns",
+  "level": "teen",
+  "title": "Inside a Neural Network",
+  "emoji": "🧠",
+  "summary": "Weights, training, and why \"learning from examples\" is powerful and risky.",
+  "minutes": 7,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "📧",
+      "title": "Write the rules for spam",
+      "text": "Try writing exact rules that catch every spam email and never block a real one. It is really hard. Machine learning skips the rules and learns from examples instead. How?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🍰",
+      "title": "Recipe vs. examples",
+      "text": "Traditional software is a recipe: data in, fixed steps, result out. In machine learning, the computer learns by example. That lets it handle fuzzy problems, like identifying objects in a picture, that are too vague for step-by-step instructions."
+    },
+    {
+      "type": "idea",
+      "emoji": "🕸️",
+      "title": "Nodes and weights",
+      "text": "A neural network is made of simple nodes in layers. Each incoming connection has a number called a weight. A node multiplies each input by its weight, adds them up, and if the total passes a threshold, it \"fires\" and passes the number on.",
+      "example": "Weights start random. During training, they are adjusted again and again until examples with the same label produce similar outputs."
+    },
+    {
+      "type": "idea",
+      "emoji": "📜",
+      "title": "An old idea that came back",
+      "text": "Neural networks were first proposed in 1944 by Warren McCulloch and Walter Pitts. The first trainable one, the Perceptron, was shown in 1957. Interest rose and fell for decades. Then graphics chips gave enough computing power for \"deep learning\" to take off."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏆",
+      "title": "Prize-winning physics",
+      "text": "The 2024 Nobel Prize in Physics went to John Hopfield and Geoffrey Hinton for work that helped lay the foundation for today's machine learning. The Nobel Prize explainer also notes that computers cannot think, but machines can now mimic functions such as memory and learning."
+    },
+    {
+      "type": "think",
+      "question": "Say a soccer club trains a model to pick young talent using data from past star players. What could it learn that you wouldn't want it to? How would you check?",
+      "nudges": [
+        "A model learns whatever patterns are in its examples, including unfair ones.",
+        "What would you test it on before trusting it?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "In a neural network, what is a \"weight\"?",
+          "options": [
+            {
+              "text": "A number that scales how much an input counts",
+              "correct": true,
+              "why": "Right. Training is mostly adjusting these numbers."
+            },
+            {
+              "text": "How heavy the computer is",
+              "correct": false,
+              "why": "Ha. It is a number on a connection between nodes."
+            },
+            {
+              "text": "The label on a training example",
+              "correct": false,
+              "why": "Labels are the answers. Weights are the adjustable settings."
+            }
+          ]
+        },
+        {
+          "q": "How are weights set in a typical network?",
+          "options": [
+            {
+              "text": "They start random and get adjusted during training.",
+              "correct": true,
+              "why": "Yes. Each round nudges them to reduce errors."
+            },
+            {
+              "text": "A programmer types each one by hand.",
+              "correct": false,
+              "why": "With thousands or millions of weights, that would be impossible."
+            },
+            {
+              "text": "They never change.",
+              "correct": false,
+              "why": "If they never changed, the network could not learn."
+            }
+          ]
+        },
+        {
+          "q": "What helped deep learning take off in the 2010s?",
+          "options": [
+            {
+              "text": "Graphics chips with lots of processing power",
+              "correct": true,
+              "why": "Yes. MIT credits graphics chips for much of the comeback."
+            },
+            {
+              "text": "The invention of neural networks that decade",
+              "correct": false,
+              "why": "Neural networks were first proposed in 1944."
+            },
+            {
+              "text": "Computers learning to think like people",
+              "correct": false,
+              "why": "The Nobel explainer says computers cannot think. They mimic some functions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Machine learning is different from normal code because…",
+        "A neural network learns by…",
+        "One risk is…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Explained: Neural networks",
+      "publisher": "MIT News",
+      "url": "https://news.mit.edu/2017/explained-neural-networks-deep-learning-0414",
+      "supports": "Machine learning learns from training examples, often hand-labeled; nodes, weights and thresholds; weights start random and are adjusted in training; 1944 McCulloch and Pitts; the 1957 Perceptron; graphics chips fueled deep learning's return."
+    },
+    {
+      "title": "Popular information: The Nobel Prize in Physics 2024",
+      "publisher": "The Nobel Prize (Royal Swedish Academy of Sciences)",
+      "url": "https://www.nobelprize.org/prizes/physics/2024/popular-information/",
+      "supports": "Traditional software works like a recipe while machine learning learns by example; artificial neural networks inspired by the brain; Hebb's idea that connections strengthen; Hopfield and Hinton; \"computers cannot think\" but can mimic memory and learning."
+    }
+  ]
+}

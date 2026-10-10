@@ -1,0 +1,711 @@
+{
+ "version": 1,
+ "updated": "2026-10-10",
+ "topics": [
+  {
+   "id": "history",
+   "name": "History",
+   "emoji": "🏺",
+   "color": "#c2410c"
+  },
+  {
+   "id": "science",
+   "name": "Science",
+   "emoji": "🔬",
+   "color": "#0e7490"
+  },
+  {
+   "id": "tech",
+   "name": "Tech & AI",
+   "emoji": "🤖",
+   "color": "#7c3aed"
+  },
+  {
+   "id": "civics",
+   "name": "Politics & Civics",
+   "emoji": "🏛️",
+   "color": "#1d4ed8"
+  },
+  {
+   "id": "money",
+   "name": "Money & Business",
+   "emoji": "💰",
+   "color": "#15803d"
+  },
+  {
+   "id": "space",
+   "name": "Space",
+   "emoji": "🚀",
+   "color": "#4338ca"
+  },
+  {
+   "id": "body",
+   "name": "Human Body & Health",
+   "emoji": "❤️",
+   "color": "#be123c"
+  },
+  {
+   "id": "ideas",
+   "name": "Big Ideas",
+   "emoji": "💡",
+   "color": "#a16207"
+  }
+ ],
+ "family": [
+  {
+   "date": "2026-10-09",
+   "topic": "space",
+   "title": "The Moon landing",
+   "packs": {
+    "adult": "space-apollo-11-adult",
+    "teen": "space-apollo-11-teen",
+    "kid": "space-apollo-11-kid"
+   },
+   "dinner_question": "Armstrong said hundreds of thousands of people made Apollo 11 work. What is a job on a team you belong to that nobody notices, but everything depends on?"
+  },
+  {
+   "date": "2026-10-10",
+   "topic": "body",
+   "title": "Sleep",
+   "packs": {
+    "adult": "body-sleep-adult",
+    "teen": "body-sleep-teen",
+    "kid": "body-sleep-kid"
+   },
+   "dinner_question": "What is one thing that makes it hard for you to get enough sleep, and what is one small change our whole family could try this week?"
+  },
+  {
+   "date": "2026-10-11",
+   "topic": "money",
+   "title": "Compound interest",
+   "packs": {
+    "adult": "money-compound-interest-adult",
+    "teen": "money-compound-interest-teen",
+    "kid": "money-compound-interest-kid"
+   },
+   "dinner_question": "Besides money, what in your life grows faster the longer you stick with it? What makes it hard to stick with?"
+  },
+  {
+   "date": "2026-10-12",
+   "topic": "civics",
+   "title": "Free speech at school",
+   "packs": {
+    "adult": "civics-first-amendment-adult",
+    "teen": "civics-first-amendment-teen",
+    "kid": "civics-first-amendment-kid"
+   },
+   "dinner_question": "Where should a school draw the line between letting students speak up and keeping class focused? Now try arguing the other side."
+  },
+  {
+   "date": "2026-10-13",
+   "topic": "tech",
+   "title": "How AI learns",
+   "packs": {
+    "adult": "tech-how-ai-learns-adult",
+    "teen": "tech-how-ai-learns-teen",
+    "kid": "tech-how-ai-learns-kid"
+   },
+   "dinner_question": "If a computer learns only from the examples it is given, what is something you would never want it to decide without a person checking? Why?"
+  },
+  {
+   "date": "2026-10-14",
+   "topic": "ideas",
+   "title": "The sure-thing trap",
+   "packs": {
+    "adult": "ideas-confirmation-bias-adult",
+    "teen": "ideas-confirmation-bias-teen",
+    "kid": "ideas-confirmation-bias-kid"
+   },
+   "dinner_question": "Tell about a time you were sure about something and turned out to be wrong. What finally changed your mind?"
+  },
+  {
+   "date": "2026-10-15",
+   "topic": "history",
+   "title": "The Wright brothers",
+   "packs": {
+    "adult": "history-wright-brothers-adult",
+    "teen": "history-wright-brothers-teen",
+    "kid": "history-wright-brothers-kid"
+   },
+   "dinner_question": "The Wright brothers failed many times before they flew. What is something you are getting better at by failing first?"
+  }
+ ],
+ "packs": [
+  {
+   "id": "history-printing-press-kid",
+   "topic": "history",
+   "level": "kid",
+   "title": "The Machine That Copied Books",
+   "emoji": "📜",
+   "subject": "printing-press",
+   "summary": "How metal letters you could move changed who got to read.",
+   "minutes": 6,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "history-printing-press-teen",
+   "topic": "history",
+   "level": "teen",
+   "title": "Gutenberg's Startup: Combining Old Tech",
+   "emoji": "🏭",
+   "subject": "printing-press",
+   "summary": "Gutenberg didn't invent the press, paper, or movable type. So what did he do?",
+   "minutes": 7,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "history-printing-press-adult",
+   "topic": "history",
+   "level": "adult",
+   "title": "The Printing Press as an Economic Shock",
+   "emoji": "📈",
+   "subject": "printing-press",
+   "summary": "Fixed costs, alphabets, and diffusion: why printing scaled in Europe.",
+   "minutes": 8,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "history-wright-brothers-kid",
+   "topic": "history",
+   "level": "kid",
+   "title": "Two Brothers Learn to Fly",
+   "emoji": "✈️",
+   "subject": "wright-brothers",
+   "summary": "How the Wright brothers practiced, tested, and finally flew.",
+   "minutes": 6,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "history-wright-brothers-teen",
+   "topic": "history",
+   "level": "teen",
+   "title": "The Wright Way: Engineering by Experiment",
+   "emoji": "🛠️",
+   "subject": "wright-brothers",
+   "summary": "Control, bad data, and a propeller that is really a spinning wing.",
+   "minutes": 7,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "history-wright-brothers-adult",
+   "topic": "history",
+   "level": "adult",
+   "title": "Why the Wrights Won: R&D Lessons, 1899–1905",
+   "emoji": "🔬",
+   "subject": "wright-brothers",
+   "summary": "Problem decomposition, distrust of inherited data, and capital efficiency.",
+   "minutes": 8,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "science-blue-sky-kid",
+   "topic": "science",
+   "level": "kid",
+   "title": "Why Is the Sky Blue?",
+   "emoji": "🌤️",
+   "subject": "blue-sky",
+   "summary": "Sunlight hides a rainbow, and the air bounces the blue part around.",
+   "minutes": 6,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "science-blue-sky-teen",
+   "topic": "science",
+   "level": "teen",
+   "title": "Blue Sky Physics: Scattering",
+   "emoji": "🔭",
+   "subject": "blue-sky",
+   "summary": "Why short wavelengths scatter more, and what that explains.",
+   "minutes": 7,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "science-blue-sky-adult",
+   "topic": "science",
+   "level": "adult",
+   "title": "Rayleigh's Sky: A Model That Predicts",
+   "emoji": "🔭",
+   "subject": "blue-sky",
+   "summary": "A one-line scaling law, its limits, and what the eye adds.",
+   "minutes": 8,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "science-moving-continents-kid",
+   "topic": "science",
+   "level": "kid",
+   "title": "The Puzzle of Moving Continents",
+   "emoji": "🧩",
+   "subject": "moving-continents",
+   "summary": "One scientist noticed the continents fit like puzzle pieces.",
+   "minutes": 6,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "science-moving-continents-teen",
+   "topic": "science",
+   "level": "teen",
+   "title": "Continental Drift: Right Idea, Missing Mechanism",
+   "emoji": "🌍",
+   "subject": "moving-continents",
+   "summary": "How evidence from the sea floor turned a rejected idea into plate tectonics.",
+   "minutes": 7,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "science-moving-continents-adult",
+   "topic": "science",
+   "level": "adult",
+   "title": "Plate Tectonics: How a Paradigm Flipped",
+   "emoji": "🌋",
+   "subject": "moving-continents",
+   "summary": "Evidence vs. mechanism, the sea-floor data, and what is still unresolved.",
+   "minutes": 8,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "tech-how-ai-learns-kid",
+   "topic": "tech",
+   "level": "kid",
+   "title": "How Does a Computer Learn?",
+   "emoji": "🤖",
+   "subject": "how-ai-learns",
+   "summary": "Computers can learn from examples, a bit like you learned to spot a dog.",
+   "minutes": 6,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "tech-how-ai-learns-teen",
+   "topic": "tech",
+   "level": "teen",
+   "title": "Inside a Neural Network",
+   "emoji": "🧠",
+   "subject": "how-ai-learns",
+   "summary": "Weights, training, and why \"learning from examples\" is powerful and risky.",
+   "minutes": 7,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "tech-how-ai-learns-adult",
+   "topic": "tech",
+   "level": "adult",
+   "title": "Machine Learning: Loss, Gradients, Generalization",
+   "emoji": "📉",
+   "subject": "how-ai-learns",
+   "summary": "What training optimizes, why it can fail quietly, and how today's language models fit in.",
+   "minutes": 8,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "tech-internet-packets-kid",
+   "topic": "tech",
+   "level": "kid",
+   "title": "How a Message Crosses the Internet",
+   "emoji": "📨",
+   "subject": "internet-packets",
+   "summary": "Your message is cut into small pieces that travel on their own.",
+   "minutes": 6,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "tech-internet-packets-teen",
+   "topic": "tech",
+   "level": "teen",
+   "title": "Packets, Protocols, and a Network of Networks",
+   "emoji": "🌐",
+   "subject": "internet-packets",
+   "summary": "Why the internet chops data into packets and lets each network be different.",
+   "minutes": 7,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "tech-internet-packets-adult",
+   "topic": "tech",
+   "level": "adult",
+   "title": "The Internet's Design Bets",
+   "emoji": "🧭",
+   "subject": "internet-packets",
+   "summary": "Packet switching, open architecture, and the TCP/IP split as strategic choices.",
+   "minutes": 8,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "civics-checks-and-balances-kid",
+   "topic": "civics",
+   "level": "kid",
+   "title": "Three Branches, One Team",
+   "emoji": "🏛️",
+   "subject": "checks-and-balances",
+   "summary": "Why the U.S. government is split into three parts that check each other.",
+   "minutes": 6,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "civics-checks-and-balances-teen",
+   "topic": "civics",
+   "level": "teen",
+   "title": "Checks and Balances: Designing Against Power",
+   "emoji": "⚖️",
+   "subject": "checks-and-balances",
+   "summary": "How the Constitution sets the branches against each other, and the debate about it.",
+   "minutes": 7,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "civics-checks-and-balances-adult",
+   "topic": "civics",
+   "level": "adult",
+   "title": "Separation of Powers as Incentive Design",
+   "emoji": "🧮",
+   "subject": "checks-and-balances",
+   "summary": "Veto points, supermajorities, and the trade-off between stability and responsiveness.",
+   "minutes": 8,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "civics-first-amendment-kid",
+   "topic": "civics",
+   "level": "kid",
+   "title": "Five Freedoms in One Sentence",
+   "emoji": "🗽",
+   "subject": "first-amendment",
+   "summary": "The First Amendment, and the students who wore armbands to school.",
+   "minutes": 6,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "civics-first-amendment-teen",
+   "topic": "civics",
+   "level": "teen",
+   "title": "Free Speech at School: Tinker v. Des Moines",
+   "emoji": "🎗️",
+   "subject": "first-amendment",
+   "summary": "What the First Amendment says, and how the Court balanced it with school order.",
+   "minutes": 7,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "civics-first-amendment-adult",
+   "topic": "civics",
+   "level": "adult",
+   "title": "The First Amendment: Text, Origins, and a Standard",
+   "emoji": "📜",
+   "subject": "first-amendment",
+   "summary": "Why the Bill of Rights was added, and how Tinker built a test for rights inside institutions.",
+   "minutes": 8,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "money-compound-interest-kid",
+   "topic": "money",
+   "level": "kid",
+   "title": "Money That Grows Money",
+   "emoji": "🌱",
+   "subject": "compound-interest",
+   "summary": "Compound interest: when your interest starts earning interest too.",
+   "minutes": 6,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "money-compound-interest-teen",
+   "topic": "money",
+   "level": "teen",
+   "title": "The Math of Compounding",
+   "emoji": "📈",
+   "subject": "compound-interest",
+   "summary": "Exponential growth, the Rule of 72, and why time beats timing.",
+   "minutes": 7,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "money-compound-interest-adult",
+   "topic": "money",
+   "level": "adult",
+   "title": "Compounding: The Arithmetic and the Leaks",
+   "emoji": "🧾",
+   "subject": "compound-interest",
+   "summary": "Rule-of-72 precision, fee drag, and teaching it at the kitchen table.",
+   "minutes": 8,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "money-profit-break-even-kid",
+   "topic": "money",
+   "level": "kid",
+   "title": "How a Stand Makes a Profit",
+   "emoji": "🍋",
+   "subject": "profit-break-even",
+   "summary": "Money in, money out, and how many cups you need to sell.",
+   "minutes": 6,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "money-profit-break-even-teen",
+   "topic": "money",
+   "level": "teen",
+   "title": "Break-Even: The First Number Investors Ask For",
+   "emoji": "⛳",
+   "subject": "profit-break-even",
+   "summary": "Contribution margin, break-even units, and pricing for a small golf business.",
+   "minutes": 7,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "money-profit-break-even-adult",
+   "topic": "money",
+   "level": "adult",
+   "title": "Break-Even, Operating Leverage, and Margin of Safety",
+   "emoji": "🏗️",
+   "subject": "profit-break-even",
+   "summary": "The CVP toolkit applied to a startup decision, with the traps.",
+   "minutes": 8,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "space-apollo-11-kid",
+   "topic": "space",
+   "level": "kid",
+   "title": "Footprints on the Moon",
+   "emoji": "🌕",
+   "subject": "apollo-11",
+   "summary": "The day people first walked on the Moon, and the thousands who made it happen.",
+   "minutes": 6,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "space-apollo-11-teen",
+   "topic": "space",
+   "level": "teen",
+   "title": "Apollo 11: Engineering Under Pressure",
+   "emoji": "🛰️",
+   "subject": "apollo-11",
+   "summary": "A goal, a deadline, and the problems solved in the final minutes.",
+   "minutes": 7,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "space-apollo-11-adult",
+   "topic": "space",
+   "level": "adult",
+   "title": "Apollo 11: Program Management at the Edge",
+   "emoji": "🧑‍🚀",
+   "subject": "apollo-11",
+   "summary": "Margins, abort design, and human judgment in a mission that left little slack.",
+   "minutes": 8,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "space-seasons-kid",
+   "topic": "space",
+   "level": "kid",
+   "title": "Why Do We Have Seasons?",
+   "emoji": "🍂",
+   "subject": "seasons",
+   "summary": "It's not about being close to the Sun. It's all about the tilt.",
+   "minutes": 6,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "space-seasons-teen",
+   "topic": "space",
+   "level": "teen",
+   "title": "Seasons: Tilt, Not Distance",
+   "emoji": "🌐",
+   "subject": "seasons",
+   "summary": "Testing a common belief against the data.",
+   "minutes": 7,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "space-seasons-adult",
+   "topic": "space",
+   "level": "adult",
+   "title": "Seasons: Geometry Beats Distance",
+   "emoji": "📐",
+   "subject": "seasons",
+   "summary": "Insolation geometry, the 6.8% January bonus, and why tilt drives ice ages.",
+   "minutes": 8,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "body-heart-kid",
+   "topic": "body",
+   "level": "kid",
+   "title": "Your Heart: The Pump That Never Stops",
+   "emoji": "❤️",
+   "subject": "heart",
+   "summary": "Four rooms, one-way doors, and the \"lub-DUB\" you can hear.",
+   "minutes": 6,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "body-heart-teen",
+   "topic": "body",
+   "level": "teen",
+   "title": "Heart Engineering: Two Pumps and a Timing System",
+   "emoji": "🫀",
+   "subject": "heart",
+   "summary": "Circuits, valves, and the electrical delay that makes each beat work.",
+   "minutes": 7,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "body-heart-adult",
+   "topic": "body",
+   "level": "adult",
+   "title": "The Heart as a System: Pumps, Valves, Control",
+   "emoji": "⚙️",
+   "subject": "heart",
+   "summary": "Series circuits, check valves, conduction timing, and where it fails.",
+   "minutes": 8,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "body-sleep-kid",
+   "topic": "body",
+   "level": "kid",
+   "title": "Your Brain's Night Shift",
+   "emoji": "😴",
+   "subject": "sleep",
+   "summary": "What your brain does while you sleep, and how much sleep you need.",
+   "minutes": 6,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "body-sleep-teen",
+   "topic": "body",
+   "level": "teen",
+   "title": "Sleep: Your Brain's Two Timers",
+   "emoji": "🌙",
+   "subject": "sleep",
+   "summary": "Sleep drive, the body clock, caffeine, and why sleep is training too.",
+   "minutes": 7,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "body-sleep-adult",
+   "topic": "body",
+   "level": "adult",
+   "title": "Sleep: Two-Process Regulation and What's Still Unknown",
+   "emoji": "🛌",
+   "subject": "sleep",
+   "summary": "Homeostatic drive, circadian timing, metabolic links, and an honest open question.",
+   "minutes": 8,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "ideas-confirmation-bias-kid",
+   "topic": "ideas",
+   "level": "kid",
+   "title": "The Sure-Thing Trap",
+   "emoji": "🔍",
+   "subject": "confirmation-bias",
+   "summary": "Why we look for proof we're right, and a game that shows it.",
+   "minutes": 6,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "ideas-confirmation-bias-teen",
+   "topic": "ideas",
+   "level": "teen",
+   "title": "Confirmation Bias: Test to Fail",
+   "emoji": "🧪",
+   "subject": "confirmation-bias",
+   "summary": "Why smart people get stuck on wrong answers, and how scientists and founders fight it.",
+   "minutes": 7,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "ideas-confirmation-bias-adult",
+   "topic": "ideas",
+   "level": "adult",
+   "title": "Confirmation Bias: Search, Interpretation, Memory",
+   "emoji": "🧭",
+   "subject": "confirmation-bias",
+   "summary": "Three channels of bias, a fair critique, and what it means for investment and operating decisions.",
+   "minutes": 8,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "ideas-socrates-kid",
+   "topic": "ideas",
+   "level": "kid",
+   "title": "The Man Who Asked Questions",
+   "emoji": "🏛️",
+   "subject": "socrates",
+   "summary": "Socrates helped people think by asking questions, not by giving answers.",
+   "minutes": 6,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "ideas-socrates-teen",
+   "topic": "ideas",
+   "level": "teen",
+   "title": "Socrates: Who Was He Really?",
+   "emoji": "🏺",
+   "subject": "socrates",
+   "summary": "The method, the trial, and the puzzle of a man who wrote nothing.",
+   "minutes": 7,
+   "date_added": "2026-10-09",
+   "cards": 8
+  },
+  {
+   "id": "ideas-socrates-adult",
+   "topic": "ideas",
+   "level": "adult",
+   "title": "Socrates: Method, Evidence, and the Cost of Questions",
+   "emoji": "🦉",
+   "subject": "socrates",
+   "summary": "The Socratic problem as source criticism, and what modern \"Socratic\" teaching leaves out.",
+   "minutes": 8,
+   "date_added": "2026-10-09",
+   "cards": 8
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "science-moving-continents-teen",
+  "topic": "science",
+  "subject": "moving-continents",
+  "level": "teen",
+  "title": "Continental Drift: Right Idea, Missing Mechanism",
+  "emoji": "🌍",
+  "summary": "How evidence from the sea floor turned a rejected idea into plate tectonics.",
+  "minutes": 7,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌍",
+      "title": "Rejected, then right",
+      "text": "In 1912 Alfred Wegener proposed that continents move. Most geologists dismissed the idea. About fifty years later it became the foundation of modern geology. What changed?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🧩",
+      "title": "The original case",
+      "text": "Wegener pointed to the fit of South America and Africa, matching fossils on both coasts, and climate clues like coal from tropical plants in Antarctica. His theory said the supercontinent Pangaea began to break up about 200 million years ago."
+    },
+    {
+      "type": "idea",
+      "emoji": "❓",
+      "title": "The fatal weakness",
+      "text": "Critics asked what force could move continents. Wegener said they plowed through the ocean floor. The geophysicist Harold Jeffreys argued, correctly, that solid rock could not plow through the sea floor without breaking up.",
+      "example": "A theory can have strong evidence and still be rejected if its mechanism is wrong."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧲",
+      "title": "The sea floor's tape recording",
+      "text": "In the 1950s, scientists found a zebra pattern of magnetic stripes on the sea floor. The stripes matched on both sides of mid-ocean ridges. New rock forms at the ridge, records Earth's magnetic field as it cools, and moves outward. Rocks get older the farther they are from the ridge.",
+      "svg": "<svg viewBox=\"0 0 300 128\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Matching magnetic stripes on both sides of a ridge\"><rect x=\"142\" y=\"10\" width=\"16\" height=\"100\" fill=\"#ef4444\"/><rect x=\"158\" y=\"10\" width=\"14\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"128\" y=\"10\" width=\"14\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"172\" y=\"10\" width=\"22\" height=\"100\" fill=\"#fde7c2\"/><rect x=\"106\" y=\"10\" width=\"22\" height=\"100\" fill=\"#fde7c2\"/><rect x=\"194\" y=\"10\" width=\"12\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"94\" y=\"10\" width=\"12\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"206\" y=\"10\" width=\"26\" height=\"100\" fill=\"#fde7c2\"/><rect x=\"68\" y=\"10\" width=\"26\" height=\"100\" fill=\"#fde7c2\"/><rect x=\"232\" y=\"10\" width=\"18\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"50\" y=\"10\" width=\"18\" height=\"100\" fill=\"#f59e0b\"/><path d=\"M150 118 l-40 0 m6 -5 l-6 5 l6 5 M150 118 l40 0 m-6 -5 l6 5 l-6 5\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/></svg>"
+    },
+    {
+      "type": "idea",
+      "emoji": "🛳️",
+      "title": "Clinching evidence",
+      "text": "In 1968 the research ship Glomar Challenger drilled sea-floor cores across the Mid-Atlantic Ridge. Dating the samples proved seafloor spreading. Today the Mid-Atlantic Ridge spreads about 2.5 centimeters per year.",
+      "example": "That sounds slow, but over 100 to 200 million years it opened the whole Atlantic Ocean."
+    },
+    {
+      "type": "think",
+      "question": "Wegener was right about drift but wrong about how it worked. Should he get credit? How should science treat ideas with good evidence but a bad explanation?",
+      "nudges": [
+        "Separate \"what happens\" from \"why it happens.\"",
+        "Can you name another idea that was dismissed before it was proved?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What was the main scientific objection to Wegener's theory?",
+          "options": [
+            {
+              "text": "No believable force or mechanism to move continents",
+              "correct": true,
+              "why": "Right. His \"plowing\" idea did not hold up."
+            },
+            {
+              "text": "The continents do not fit at all.",
+              "correct": false,
+              "why": "The fit was one of his best clues."
+            },
+            {
+              "text": "Fossils did not match across oceans.",
+              "correct": false,
+              "why": "Matching fossils were part of his evidence."
+            }
+          ]
+        },
+        {
+          "q": "What do the magnetic stripes on the sea floor show?",
+          "options": [
+            {
+              "text": "New rock forms at ridges and spreads outward, recording magnetic field flips.",
+              "correct": true,
+              "why": "Yes. The symmetric stripes are a record of spreading."
+            },
+            {
+              "text": "Iron from sunken ships",
+              "correct": false,
+              "why": "They come from magnetic minerals in volcanic rock."
+            },
+            {
+              "text": "Where the oldest rock is",
+              "correct": false,
+              "why": "Rocks near the ridge are the youngest."
+            }
+          ]
+        },
+        {
+          "q": "At about 2.5 cm per year, how far does the Mid-Atlantic Ridge spread in a million years?",
+          "options": [
+            {
+              "text": "About 25 km",
+              "correct": true,
+              "why": "2.5 cm × 1,000,000 = 2,500,000 cm = 25 km."
+            },
+            {
+              "text": "About 2.5 km",
+              "correct": false,
+              "why": "Check the conversion: 100,000 cm make a kilometer."
+            },
+            {
+              "text": "About 250 km",
+              "correct": false,
+              "why": "Too much by a factor of 10."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Wegener's evidence was…",
+        "He was doubted because…",
+        "The sea floor proved…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Historical perspective (This Dynamic Earth)",
+      "publisher": "U.S. Geological Survey",
+      "url": "https://pubs.usgs.gov/gip/dynamic/historical.html",
+      "supports": "Ortelius in 1596; Wegener's 1912 continental drift; matching coastlines and fossils; coal in Antarctica; the missing force; Wegener's death in 1930; the open question of what drives plates."
+    },
+    {
+      "title": "Developing the theory (This Dynamic Earth)",
+      "publisher": "U.S. Geological Survey",
+      "url": "https://pubs.usgs.gov/gip/dynamic/developing.html",
+      "supports": "Echo-sounding and the mid-ocean ridge (more than 50,000 km long); thin seafloor sediment found in 1947; zebra-like magnetic striping; seafloor spreading; the 1968 Glomar Challenger drill cores."
+    },
+    {
+      "title": "Understanding plate motions (This Dynamic Earth)",
+      "publisher": "U.S. Geological Survey",
+      "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+      "supports": "Mid-Atlantic Ridge spreading of about 2.5 cm per year; rates from under 2.5 to over 15 cm per year; the San Andreas Fault at about 5 cm per year."
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "civics-checks-and-balances-kid",
+  "topic": "civics",
+  "subject": "checks-and-balances",
+  "level": "kid",
+  "title": "Three Branches, One Team",
+  "emoji": "🏛️",
+  "summary": "Why the U.S. government is split into three parts that check each other.",
+  "minutes": 6,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "✂️",
+      "title": "Rock, paper, scissors",
+      "text": "In rock, paper, scissors, nothing wins every time. The people who wrote the U.S. Constitution wanted government to work a bit like that. Why would they want no single part to always win?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🏛️",
+      "title": "Three branches",
+      "text": "The Constitution splits the national government into three branches. Congress makes laws. The President leads the executive branch and makes sure laws are carried out. The courts decide what laws mean and whether they follow the Constitution.",
+      "svg": "<svg viewBox=\"0 0 300 150\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Three branches checking each other\"><path d=\"M150 30 L60 120 L240 120 Z\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"4\" stroke-dasharray=\"8 6\"/><circle cx=\"150\" cy=\"30\" r=\"24\" fill=\"#f97316\"/><circle cx=\"60\" cy=\"120\" r=\"24\" fill=\"#3b82f6\"/><circle cx=\"240\" cy=\"120\" r=\"24\" fill=\"#10b981\"/><text x=\"150\" y=\"37\" font-size=\"20\" text-anchor=\"middle\">🏛️</text><text x=\"60\" y=\"127\" font-size=\"20\" text-anchor=\"middle\">🦅</text><text x=\"240\" y=\"127\" font-size=\"20\" text-anchor=\"middle\">⚖️</text></svg>"
+    },
+    {
+      "type": "idea",
+      "emoji": "🛑",
+      "title": "Checks: the veto",
+      "text": "Congress can pass a bill, but the President can veto it, which means saying no. Then Congress can still make it a law if two thirds of both the House and the Senate vote yes.",
+      "example": "Two thirds is a lot. It is like needing 20 out of 30 kids in your class to agree."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Checks: judges",
+      "text": "The President picks Supreme Court justices, but the Senate has to approve them. And the Supreme Court can strike down a law that breaks the Constitution."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎯",
+      "title": "Why do this?",
+      "text": "The goal is that no one person or group gets too much power. Each branch can push back on the others. That is called checks and balances."
+    },
+    {
+      "type": "think",
+      "question": "Checks and balances can make it slow and hard to pass laws. When is that a good thing? When might it be frustrating?",
+      "nudges": [
+        "Think about a rule you would want to be very sure about.",
+        "Think about a problem that needs a fast fix."
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Which branch makes laws?",
+          "options": [
+            {
+              "text": "Congress",
+              "correct": true,
+              "why": "Yes! Congress is the House and the Senate."
+            },
+            {
+              "text": "The Supreme Court",
+              "correct": false,
+              "why": "Courts decide what laws mean. Congress makes them."
+            },
+            {
+              "text": "The President",
+              "correct": false,
+              "why": "The President can sign or veto bills, but Congress writes and passes them."
+            }
+          ]
+        },
+        {
+          "q": "What is a veto?",
+          "options": [
+            {
+              "text": "When the President says no to a bill",
+              "correct": true,
+              "why": "Right. But Congress can still override it with two thirds of each house."
+            },
+            {
+              "text": "A kind of election",
+              "correct": false,
+              "why": "A veto is the President rejecting a bill."
+            },
+            {
+              "text": "A new law",
+              "correct": false,
+              "why": "A veto stops a bill. It is not a law."
+            }
+          ]
+        },
+        {
+          "q": "Why did the Constitution set up checks and balances?",
+          "options": [
+            {
+              "text": "So no one person or group gets too much power",
+              "correct": true,
+              "why": "Exactly. Each branch can push back on the others."
+            },
+            {
+              "text": "So laws can be passed very fast",
+              "correct": false,
+              "why": "Checks often slow things down. The goal is balance of power."
+            },
+            {
+              "text": "So the President can do anything",
+              "correct": false,
+              "why": "The opposite. Checks limit every branch."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The three branches are…",
+        "One way they check each other is…",
+        "This matters because…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Branches of the U.S. government",
+      "publisher": "USAGov (official U.S. government guide)",
+      "url": "https://www.usa.gov/branches-of-government",
+      "supports": "The three branches and their roles; checks and balances: the veto, Senate confirmation of nominees, removal of a president in exceptional cases, and the Court overturning unconstitutional laws."
+    },
+    {
+      "title": "The Constitution of the United States: A Transcription",
+      "publisher": "U.S. National Archives",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "supports": "Veto override by two thirds of each House; the President shall \"take Care that the Laws be faithfully executed\"; Senate advice and consent for judges; House impeaches, Senate tries, two-thirds to convict, judgment limited to removal and disqualification."
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "tech-how-ai-learns-kid",
+  "topic": "tech",
+  "subject": "how-ai-learns",
+  "level": "kid",
+  "title": "How Does a Computer Learn?",
+  "emoji": "🤖",
+  "summary": "Computers can learn from examples, a bit like you learned to spot a dog.",
+  "minutes": 6,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🐶",
+      "title": "Nobody gave you a rule for \"dog\"",
+      "text": "How do you know a dog is a dog? Nobody gave you a list of rules. You saw lots of dogs and figured it out. Some computers learn in a similar way."
+    },
+    {
+      "type": "idea",
+      "emoji": "📋",
+      "title": "Recipe or examples?",
+      "text": "Most computer programs follow steps, like a recipe. The computer does exactly what the steps say. But some jobs are too tricky for simple steps, like finding the cat in a photo. For those, computers can learn from examples instead."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏷️",
+      "title": "Learning from labels",
+      "text": "To teach a computer to spot cats, people show it thousands of pictures. Each picture has a label, like \"cat\" or \"not cat.\" The computer looks for patterns that match the labels.",
+      "example": "Spam filters learn this way too. They look at lots of emails that are marked \"spam\" or \"not spam.\""
+    },
+    {
+      "type": "idea",
+      "emoji": "🎚️",
+      "title": "Turning tiny knobs",
+      "text": "Inside, the computer has many tiny settings, like volume knobs. At first they are set at random. Each time it guesses wrong, it turns the knobs a little. After lots of practice, its guesses get much better."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧠",
+      "title": "Smart, but not thinking",
+      "text": "The Nobel Prize team that explained this work wrote that computers cannot think. They can copy some things brains do, like remembering and learning patterns. A computer can only learn from the examples it is given."
+    },
+    {
+      "type": "think",
+      "question": "If a computer only learned from pictures of big dogs, what might go wrong when it sees a tiny dog? What does that tell us about examples?",
+      "nudges": [
+        "What makes a good set of examples?",
+        "Who should check the computer's work?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "How do some computers learn to spot cats in photos?",
+          "options": [
+            {
+              "text": "By looking at lots of labeled examples",
+              "correct": true,
+              "why": "Yes! They find patterns in pictures marked \"cat\" or \"not cat.\""
+            },
+            {
+              "text": "By reading a dictionary",
+              "correct": false,
+              "why": "Words alone would not help it see a cat. It needs picture examples."
+            },
+            {
+              "text": "By asking a real cat",
+              "correct": false,
+              "why": "Ha! It learns from pictures that people have labeled."
+            }
+          ]
+        },
+        {
+          "q": "What does the computer do when it guesses wrong while learning?",
+          "options": [
+            {
+              "text": "It adjusts its tiny settings a little.",
+              "correct": true,
+              "why": "Right. Lots of small fixes add up to better guesses."
+            },
+            {
+              "text": "It gives up.",
+              "correct": false,
+              "why": "Wrong guesses are how it learns. It keeps adjusting."
+            },
+            {
+              "text": "It deletes all the pictures.",
+              "correct": false,
+              "why": "No, it keeps practicing on the examples."
+            }
+          ]
+        },
+        {
+          "q": "Which is true about these learning computers?",
+          "options": [
+            {
+              "text": "They can only learn from the examples they are given.",
+              "correct": true,
+              "why": "Yes. That is why good, varied examples matter so much."
+            },
+            {
+              "text": "They think and feel just like people.",
+              "correct": false,
+              "why": "The Nobel explainer says computers cannot think. They copy some things brains do."
+            },
+            {
+              "text": "They never make mistakes.",
+              "correct": false,
+              "why": "They can make mistakes, especially on things unlike their examples."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Some computers learn by…",
+        "When they get it wrong…",
+        "That is why examples…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Popular information: The Nobel Prize in Physics 2024",
+      "publisher": "The Nobel Prize (Royal Swedish Academy of Sciences)",
+      "url": "https://www.nobelprize.org/prizes/physics/2024/popular-information/",
+      "supports": "Traditional software works like a recipe while machine learning learns by example; artificial neural networks inspired by the brain; Hebb's idea that connections strengthen; Hopfield and Hinton; \"computers cannot think\" but can mimic memory and learning."
+    },
+    {
+      "title": "Explained: Neural networks",
+      "publisher": "MIT News",
+      "url": "https://news.mit.edu/2017/explained-neural-networks-deep-learning-0414",
+      "supports": "Machine learning learns from training examples, often hand-labeled; nodes, weights and thresholds; weights start random and are adjusted in training; 1944 McCulloch and Pitts; the 1957 Perceptron; graphics chips fueled deep learning's return."
+    }
+  ]
+}

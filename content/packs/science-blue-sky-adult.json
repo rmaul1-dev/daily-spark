@@ -1,0 +1,156 @@
+{
+  "id": "science-blue-sky-adult",
+  "topic": "science",
+  "subject": "blue-sky",
+  "level": "adult",
+  "title": "Rayleigh's Sky: A Model That Predicts",
+  "emoji": "🔭",
+  "summary": "A one-line scaling law, its limits, and what the eye adds.",
+  "minutes": 8,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🔭",
+      "title": "1/λ⁴",
+      "text": "One scaling law explains a blue sky, white horizons, and red sunsets, and it took Tyndall, Rayleigh, and Maxwell to nail it down. What does the law say, and where does it stop working?"
+    },
+    {
+      "type": "idea",
+      "emoji": "📐",
+      "title": "The scaling law",
+      "text": "For particles much smaller than the wavelength of light, like N₂ and O₂ molecules, scattered intensity goes as 1/λ⁴. The light's oscillating electric field drives the molecule's charges, which re-radiate as a tiny dipole. That is the mechanism behind the steep wavelength dependence.",
+      "example": "Back-of-envelope: blue near 450 nm vs. red near 700 nm gives (700/450)⁴ ≈ 5.9. Blue scatters roughly six times as strongly."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧪",
+      "title": "How we got here",
+      "text": "In 1869, John Tyndall saw that light scattered by very fine particles looked faintly blue, but he could not explain why blue was preferred. In 1871, Lord Rayleigh published papers on the color and polarization of skylight. In 1881, using Maxwell's electromagnetic theory of light, he showed his equations followed from electromagnetism."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌅",
+      "title": "Path length does the rest",
+      "text": "Near the horizon, light crosses much more atmosphere and is scattered repeatedly, so the colors re-mix toward white. At sunset, blue and violet have been scattered out of the direct beam, leaving reds and yellows. Aerosols (dust, smoke, sulfates after big eruptions) add their own scattering."
+    },
+    {
+      "type": "idea",
+      "emoji": "👁️",
+      "title": "The model's limits",
+      "text": "Pure 1/λ⁴ predicts a violet sky. It isn't one, because the eye responds to the scattered blue-violet mix as blue plus white. And on Mars, fine dust (not molecules) dominates, giving an orange daytime sky and blue sunsets. That is a different scattering regime.",
+      "example": "Lesson: a clean physical law plus a measurement instrument (the eye) plus the right regime gives the observed answer."
+    },
+    {
+      "type": "think",
+      "question": "The 1/λ⁴ law is \"right\" but alone gives the wrong color. Where in your field does a correct model give a misleading answer because the measurement layer or regime is ignored?",
+      "nudges": [
+        "Think of a metric that is accurate but read through a biased instrument.",
+        "What is your field's version of \"dust instead of molecules\"?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Using 1/λ⁴, about how much more strongly is 450 nm light scattered than 700 nm light?",
+          "options": [
+            {
+              "text": "About 6 times",
+              "correct": true,
+              "why": "(700/450)⁴ ≈ 5.9."
+            },
+            {
+              "text": "About 1.6 times",
+              "correct": false,
+              "why": "That is just the wavelength ratio, without the fourth power."
+            },
+            {
+              "text": "About 2.4 times",
+              "correct": false,
+              "why": "That is the ratio squared. The law uses the fourth power."
+            },
+            {
+              "text": "About 36 times",
+              "correct": false,
+              "why": "Too high. That would be closer to the eighth power."
+            }
+          ]
+        },
+        {
+          "q": "Why is Earth's sky blue rather than violet?",
+          "options": [
+            {
+              "text": "The eye responds to the scattered blue-violet mix as blue plus white.",
+              "correct": true,
+              "why": "Right. The perception layer matters."
+            },
+            {
+              "text": "Sunlight lacks violet.",
+              "correct": false,
+              "why": "Sunlight includes violet. A prism shows it."
+            },
+            {
+              "text": "Violet is scattered less than blue.",
+              "correct": false,
+              "why": "Under 1/λ⁴, violet is scattered more than blue."
+            },
+            {
+              "text": "Ozone turns violet into blue.",
+              "correct": false,
+              "why": "Not the explanation given by the sources here."
+            }
+          ]
+        },
+        {
+          "q": "Why does the Martian daytime sky look orange-red?",
+          "options": [
+            {
+              "text": "Fine dust dominates the scattering in Mars's thin CO₂ atmosphere.",
+              "correct": true,
+              "why": "Yes. Different particles mean a different scattering regime."
+            },
+            {
+              "text": "Mars has a thicker atmosphere than Earth.",
+              "correct": false,
+              "why": "Mars has a very thin atmosphere."
+            },
+            {
+              "text": "Mars is closer to the Sun.",
+              "correct": false,
+              "why": "Mars is farther from the Sun than Earth is. Distance is not the reason."
+            },
+            {
+              "text": "Rayleigh scattering is stronger on Mars.",
+              "correct": false,
+              "why": "Dust scattering, not molecular Rayleigh scattering, drives the Martian color."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Small molecules scatter light as 1/λ⁴, so…",
+        "Path length explains…",
+        "The model's limits show…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Why Is the Sky Blue?",
+      "publisher": "NASA Space Place",
+      "url": "https://spaceplace.nasa.gov/blue-sky/en/",
+      "supports": "Sunlight contains all colors; blue travels as shorter waves and is scattered more by air molecules; whiter sky near the horizon; red sunsets; the orange daytime sky and blue sunsets on Mars."
+    },
+    {
+      "title": "Rayleigh scattering",
+      "publisher": "Wikipedia (encyclopedia article with cited physics sources)",
+      "url": "https://en.wikipedia.org/wiki/Rayleigh_scattering",
+      "supports": "Scattering by particles much smaller than the wavelength goes as one over wavelength to the fourth power; named for Lord Rayleigh; Tyndall's 1869 observation; Rayleigh's 1871 papers; the eye reads the scattered blue-violet mix as blue plus white."
+    }
+  ]
+}

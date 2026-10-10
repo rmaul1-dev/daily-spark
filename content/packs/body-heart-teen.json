@@ -1,0 +1,148 @@
+{
+  "id": "body-heart-teen",
+  "topic": "body",
+  "subject": "heart",
+  "level": "teen",
+  "title": "Heart Engineering: Two Pumps and a Timing System",
+  "emoji": "🫀",
+  "summary": "Circuits, valves, and the electrical delay that makes each beat work.",
+  "minutes": 7,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🫀",
+      "title": "A pump with a built-in delay",
+      "text": "Your heart has a timing system that deliberately slows its own electrical signal for a split second on every beat. Why would a pump want a delay?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🔁",
+      "title": "Two pumps in one",
+      "text": "The right side sends oxygen-poor blood to the lungs. The left side sends oxygen-rich blood to the whole body. The left ventricle makes the high pressure needed to push blood all the way through your body.",
+      "svg": "<svg viewBox=\"0 0 300 130\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Two loops: heart to lungs and heart to body\"><ellipse cx=\"80\" cy=\"65\" rx=\"62\" ry=\"40\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"6\"/><ellipse cx=\"220\" cy=\"65\" rx=\"62\" ry=\"40\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"6\"/><circle cx=\"150\" cy=\"65\" r=\"22\" fill=\"#e11d48\"/><text x=\"150\" y=\"72\" font-size=\"20\" text-anchor=\"middle\">❤️</text><text x=\"40\" y=\"72\" font-size=\"24\" text-anchor=\"middle\">🫁</text><text x=\"262\" y=\"72\" font-size=\"24\" text-anchor=\"middle\">🏃</text></svg>"
+    },
+    {
+      "type": "idea",
+      "emoji": "🧭",
+      "title": "The route",
+      "text": "Body → vena cava → right atrium → right ventricle → pulmonary artery → lungs → pulmonary veins → left atrium → left ventricle → aorta → body. Four valves keep it moving one way.",
+      "example": "Even the heart muscle needs its own blood supply: coronary arteries branch off the aorta to feed it."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚡",
+      "title": "The timing system",
+      "text": "Each beat starts in the SA node, the natural pacemaker in the right atrium. The signal spreads through the atria, which squeeze blood into the ventricles. At the AV node, the signal slows down slightly. That gives the ventricles time to finish filling before they contract."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏃",
+      "title": "Measure it",
+      "text": "Find your pulse at the wrist, count beats for 30 seconds, and double it. At rest, 60 to 100 beats per minute is normal. During a soccer sprint, your rate rises to get more oxygen to your muscles.",
+      "example": "Math: at 60 to 100 beats per minute, that is 86,400 to 144,000 beats a day."
+    },
+    {
+      "type": "think",
+      "question": "Your heart rate goes up when you exercise and down when you rest, and that is a sign of a heart responding well. How could an athlete use heart-rate data to train smarter? What could it miss?",
+      "nudges": [
+        "What does a lower resting rate over time suggest?",
+        "What can't a single number tell you?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Why does the signal slow down at the AV node?",
+          "options": [
+            {
+              "text": "So the ventricles can finish filling before they contract",
+              "correct": true,
+              "why": "Right. The delay is a feature, not a bug."
+            },
+            {
+              "text": "Because the AV node is broken",
+              "correct": false,
+              "why": "In a healthy heart the slowdown is normal and useful."
+            },
+            {
+              "text": "To make the heart beat faster",
+              "correct": false,
+              "why": "It adds a brief delay within each beat."
+            }
+          ]
+        },
+        {
+          "q": "Which chamber pumps blood out to the whole body?",
+          "options": [
+            {
+              "text": "Left ventricle",
+              "correct": true,
+              "why": "It generates the high pressure needed to reach your whole body."
+            },
+            {
+              "text": "Right atrium",
+              "correct": false,
+              "why": "The right atrium collects oxygen-poor blood coming back from the body."
+            },
+            {
+              "text": "Right ventricle",
+              "correct": false,
+              "why": "The right ventricle pumps blood to the lungs."
+            }
+          ]
+        },
+        {
+          "q": "You count 38 beats in 30 seconds. What is your heart rate?",
+          "options": [
+            {
+              "text": "76 beats per minute",
+              "correct": true,
+              "why": "38 × 2 = 76, which is in the normal resting range."
+            },
+            {
+              "text": "38 beats per minute",
+              "correct": false,
+              "why": "Remember to double a 30-second count."
+            },
+            {
+              "text": "19 beats per minute",
+              "correct": false,
+              "why": "You double the count, not halve it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "My heart is really two pumps:…",
+        "Each beat is timed by…",
+        "When I exercise…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "How Blood Flows through the Heart",
+      "publisher": "National Heart, Lung, and Blood Institute (NIH)",
+      "url": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+      "supports": "Four valves; the path from the body to the right side, to the lungs, to the left side, and out the aorta; the left ventricle's high pressure; coronary arteries feeding the heart muscle."
+    },
+    {
+      "title": "How the Heart Beats",
+      "publisher": "National Heart, Lung, and Blood Institute (NIH)",
+      "url": "https://www.nhlbi.nih.gov/health/heart/heart-beats",
+      "supports": "The \"lub-DUB\" sounds and the valves that make them; how to take your pulse; 60 to 100 beats per minute at rest; faster during exercise; the SA node, AV node, and electrical signal; blood pressure numbers."
+    },
+    {
+      "title": "What the Heart Looks Like",
+      "publisher": "National Heart, Lung, and Blood Institute (NIH)",
+      "url": "https://www.nhlbi.nih.gov/health/heart/anatomy",
+      "supports": "The heart's location; four chambers (two atria, two ventricles); valves keep blood moving one way; the septum; three tissue layers."
+    }
+  ]
+}

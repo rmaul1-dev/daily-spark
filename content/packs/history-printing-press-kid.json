@@ -1,0 +1,142 @@
+{
+  "id": "history-printing-press-kid",
+  "topic": "history",
+  "subject": "printing-press",
+  "level": "kid",
+  "title": "The Machine That Copied Books",
+  "emoji": "📜",
+  "summary": "How metal letters you could move changed who got to read.",
+  "minutes": 6,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "📜",
+      "title": "Copy a whole book by hand?",
+      "text": "Long ago in Europe, if you wanted a new copy of a book, someone had to write every word by hand. Then, almost 600 years ago, a new machine changed that."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔤",
+      "title": "Letters you can move",
+      "text": "Johann Gutenberg lived in Mainz, a city in Germany. His team made small metal letters. Each letter was its own piece. Workers lined them up to spell words, added ink, and pressed paper on top.",
+      "example": "When the page was done, they took the letters apart and used them again for the next page. It is a bit like building words with blocks."
+    },
+    {
+      "type": "idea",
+      "emoji": "📖",
+      "title": "A famous Bible",
+      "text": "In the 1450s, Gutenberg and his partner Johann Fust printed more than 150 copies of the Bible in Latin. People still call it the Gutenberg Bible.",
+      "example": "Only 20 complete copies are still in one piece today. One of them is in a museum in Texas, and you can look at it online."
+    },
+    {
+      "type": "idea",
+      "emoji": "🍇",
+      "title": "An old tool, a new job",
+      "text": "The press used a big screw to push down hard and flat. Farmers already used screw presses to squeeze grapes and olives. Gutenberg put old tools together in a new way.",
+      "example": "Lots of inventions work like this. Someone mixes things that already exist and makes something new."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌍",
+      "title": "Ideas start to travel",
+      "text": "Printed books got cheaper over time, so more people could own them. By the year 1500, printers in Europe had made more than 20 million copies. More people learned to read."
+    },
+    {
+      "type": "think",
+      "question": "What is something today that spreads ideas fast, like the printing press did? Is that always a good thing?",
+      "nudges": [
+        "Think about phones, videos, and the internet.",
+        "Can a wrong idea spread fast too? What could help?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What made Gutenberg's metal letters special?",
+          "options": [
+            {
+              "text": "Each letter was its own piece that could be moved and used again.",
+              "correct": true,
+              "why": "Yes! Workers could line the letters up, print, then reuse them for the next page."
+            },
+            {
+              "text": "Each page was painted by hand.",
+              "correct": false,
+              "why": "That was the old, slow way. Some decorations were still added by hand, but the words were printed."
+            },
+            {
+              "text": "The letters were made of paper.",
+              "correct": false,
+              "why": "They were metal, so they were strong enough to use again and again."
+            }
+          ]
+        },
+        {
+          "q": "Where did Gutenberg print his Bible?",
+          "options": [
+            {
+              "text": "Mainz, Germany",
+              "correct": true,
+              "why": "Right. His shop was in Mainz in the 1450s."
+            },
+            {
+              "text": "London, England",
+              "correct": false,
+              "why": "Not quite. Gutenberg worked in Mainz, Germany."
+            },
+            {
+              "text": "Rome, Italy",
+              "correct": false,
+              "why": "Italy soon had many printers, but Gutenberg worked in Mainz, Germany."
+            }
+          ]
+        },
+        {
+          "q": "Why did printing help more people learn to read?",
+          "options": [
+            {
+              "text": "Books got cheaper and easier to find.",
+              "correct": true,
+              "why": "Yes. When books cost less, more families and schools could have them."
+            },
+            {
+              "text": "Printed books had no words, only pictures.",
+              "correct": false,
+              "why": "Printed books were full of words. That is why they helped people read."
+            },
+            {
+              "text": "People stopped going to school.",
+              "correct": false,
+              "why": "No. Printing made learning easier, not less common."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Before printing, books were…",
+        "Gutenberg's big idea was…",
+        "This mattered because…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Gutenberg Bible",
+      "publisher": "Harry Ransom Center, University of Texas at Austin",
+      "url": "https://www.hrc.utexas.edu/gutenberg-bible/",
+      "supports": "Mainz in the mid-1450s; Gutenberg and partner Johann Fust; more than 150 copies in Latin; individual metal type; one of only 20 complete copies surviving; books still copied by hand for centuries."
+    },
+    {
+      "title": "Printing press",
+      "publisher": "Wikipedia (encyclopedia article with cited historians)",
+      "url": "https://en.wikipedia.org/wiki/Printing_press",
+      "supports": "Screw press used for grapes and olives; four combined technologies; hand mold and oil-based ink; Bi Sheng and the 1377 Jikji; spread to about 270 cities; 20 million copies by 1500; Luther and Erasmus print runs."
+    }
+  ]
+}

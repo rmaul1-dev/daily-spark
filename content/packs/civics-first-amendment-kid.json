@@ -1,0 +1,141 @@
+{
+  "id": "civics-first-amendment-kid",
+  "topic": "civics",
+  "subject": "first-amendment",
+  "level": "kid",
+  "title": "Five Freedoms in One Sentence",
+  "emoji": "🗽",
+  "summary": "The First Amendment, and the students who wore armbands to school.",
+  "minutes": 6,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🗽",
+      "title": "Five freedoms, one sentence",
+      "text": "One sentence in the U.S. Constitution protects five big freedoms. It is called the First Amendment. Can you guess any of the five?"
+    },
+    {
+      "type": "idea",
+      "emoji": "✋",
+      "title": "The five freedoms",
+      "text": "The First Amendment protects freedom of religion, speech, and the press. It also protects the right to gather peacefully and the right to petition, which means asking the government to fix a problem.",
+      "example": "It became part of the Constitution in 1791, as part of the Bill of Rights."
+    },
+    {
+      "type": "idea",
+      "emoji": "🖤",
+      "title": "The armband story",
+      "text": "During the Vietnam War, some students at a public school in Des Moines, Iowa, wore black armbands to school. It was a silent protest against the war. The principal had warned them they would be suspended, and they were."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "The Supreme Court decides",
+      "text": "The students' parents went to court. In 1969, the Supreme Court sided with the students, 7 votes to 2. It said students do not lose their rights to free speech \"at the schoolhouse gate.\""
+    },
+    {
+      "type": "idea",
+      "emoji": "🤝",
+      "title": "The other side",
+      "text": "Two justices disagreed. They said school is for learning and the armbands were a distraction. They thought schools should have a lot of power to keep classes calm and focused.",
+      "example": "Both sides cared about something important: free speech, and a good place to learn."
+    },
+    {
+      "type": "think",
+      "question": "Where should a school draw the line between letting students speak up and keeping class focused?",
+      "nudges": [
+        "What kinds of speech help a school?",
+        "What would make speech too disruptive?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Which of these is one of the five First Amendment freedoms?",
+          "options": [
+            {
+              "text": "Freedom of the press",
+              "correct": true,
+              "why": "Yes! Also religion, speech, peaceful gathering, and petition."
+            },
+            {
+              "text": "Freedom from homework",
+              "correct": false,
+              "why": "Nice try! That is not in the Constitution."
+            },
+            {
+              "text": "Freedom to drive at any age",
+              "correct": false,
+              "why": "Not one of the five. Driving rules come from state laws."
+            }
+          ]
+        },
+        {
+          "q": "What did the students in Des Moines do?",
+          "options": [
+            {
+              "text": "Wore black armbands as a silent protest",
+              "correct": true,
+              "why": "Right. They were suspended, and the case went to the Supreme Court."
+            },
+            {
+              "text": "Wrote a newspaper",
+              "correct": false,
+              "why": "Their protest was wearing armbands."
+            },
+            {
+              "text": "Skipped school",
+              "correct": false,
+              "why": "They went to school wearing armbands."
+            }
+          ]
+        },
+        {
+          "q": "What did the two justices who disagreed think?",
+          "options": [
+            {
+              "text": "Schools need power to keep class calm and focused.",
+              "correct": true,
+              "why": "Yes. They worried about distraction from learning."
+            },
+            {
+              "text": "Students should never be allowed in school.",
+              "correct": false,
+              "why": "No. They wanted schools to keep order."
+            },
+            {
+              "text": "The armbands should be required for everyone.",
+              "correct": false,
+              "why": "No. They thought the school could ban them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The First Amendment protects…",
+        "In the armband case…",
+        "I think the line should be…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "First Amendment",
+      "publisher": "National Constitution Center",
+      "url": "https://constitutioncenter.org/the-constitution/amendments/amendment-i",
+      "supports": "Full text of the First Amendment; passed by Congress September 25, 1789; ratified December 15, 1791; the five freedoms: religion, speech, press, assembly, and petition."
+    },
+    {
+      "title": "Facts and Case Summary: Tinker v. Des Moines",
+      "publisher": "United States Courts (Administrative Office of the U.S. Courts)",
+      "url": "https://www.uscourts.gov/about-federal-courts/educational-resources/educational-activities/first-amendment-activities/tinker-v-des-moines/facts-and-case-summary-tinker-v-des-moines",
+      "supports": "Students wore black armbands to protest the Vietnam War and were suspended; lower courts sided with the school; 7–2 decision on February 24, 1969; the \"schoolhouse gate\" line; the dissent's argument for school order."
+    }
+  ]
+}

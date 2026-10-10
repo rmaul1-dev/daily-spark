@@ -1,0 +1,134 @@
+{
+  "id": "ideas-socrates-teen",
+  "topic": "ideas",
+  "subject": "socrates",
+  "level": "teen",
+  "title": "Socrates: Who Was He Really?",
+  "emoji": "🏺",
+  "summary": "The method, the trial, and the puzzle of a man who wrote nothing.",
+  "minutes": 7,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🏺",
+      "title": "Famous for 2,400 years, wrote nothing",
+      "text": "Socrates is one of the most important thinkers in history, and he never wrote a single word of philosophy down. So how do we know what he thought?"
+    },
+    {
+      "type": "idea",
+      "emoji": "📚",
+      "title": "Three witnesses who disagree",
+      "text": "Our main sources are Aristophanes, who mocked Socrates in a comedy called Clouds; Xenophon; and Plato, who made Socrates the star of most of his dialogues. Their accounts differ in big ways. Scholars call this \"the Socratic problem.\"",
+      "example": "It is a lesson in sources: when witnesses disagree, ask what each one wanted and how they knew."
+    },
+    {
+      "type": "idea",
+      "emoji": "❓",
+      "title": "The method",
+      "text": "Socrates questioned people about what matters most, like courage, love, and reverence, whether or not they wanted to be questioned. At his trial, Plato reports him saying \"the unexamined life is not worth living for a human being.\""
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "The trial",
+      "text": "In 399 B.C.E., Socrates was charged with irreverence (not believing in the gods of Athens) and with corrupting the city's young men. He was condemned and died by drinking hemlock. In Plato's account, Socrates said the comedy Clouds had turned jurors against him years earlier."
+    },
+    {
+      "type": "idea",
+      "emoji": "🤝",
+      "title": "Midwife of ideas",
+      "text": "Socrates likened his work to midwifery: helping others give birth to their own ideas. His mother, Plato tells us, became a midwife. Modern \"Socratic\" classrooms borrow his name for question-driven learning, though they are usually gentler than the real Socrates."
+    },
+    {
+      "type": "think",
+      "question": "Socrates made people uncomfortable by showing they didn't know what they thought they knew. Is discomfort necessary for real learning? When does it go too far?",
+      "nudges": [
+        "Think of a coach or teacher who pushed you with questions.",
+        "What is the difference between challenging an idea and embarrassing a person?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What is \"the Socratic problem\"?",
+          "options": [
+            {
+              "text": "Our sources about Socrates disagree, so we are unsure what he really thought.",
+              "correct": true,
+              "why": "Right. Aristophanes, Xenophon, and Plato tell different stories."
+            },
+            {
+              "text": "A famous math puzzle Socrates invented",
+              "correct": false,
+              "why": "It is about the historical sources."
+            },
+            {
+              "text": "Socrates refused to answer questions.",
+              "correct": false,
+              "why": "He asked plenty. The problem is about evidence."
+            }
+          ]
+        },
+        {
+          "q": "What were the charges against Socrates?",
+          "options": [
+            {
+              "text": "Irreverence toward the city's gods and corrupting the young",
+              "correct": true,
+              "why": "Correct, in 399 B.C.E."
+            },
+            {
+              "text": "Stealing from the treasury",
+              "correct": false,
+              "why": "Not one of the charges."
+            },
+            {
+              "text": "Writing banned books",
+              "correct": false,
+              "why": "He didn't write anything."
+            }
+          ]
+        },
+        {
+          "q": "Which source was a comedy that mocked Socrates?",
+          "options": [
+            {
+              "text": "Aristophanes's Clouds",
+              "correct": true,
+              "why": "Yes. Plato's Socrates said it shaped jurors' views of him."
+            },
+            {
+              "text": "Plato's Apology",
+              "correct": false,
+              "why": "The Apology is Plato's account of the trial defense."
+            },
+            {
+              "text": "Xenophon's history",
+              "correct": false,
+              "why": "Xenophon wrote about Socrates, but Clouds was the comedy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "We know about Socrates from…",
+        "His method was…",
+        "He was put on trial because…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Socrates",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/socrates/",
+      "supports": "Lived 469–399 B.C.E. and wrote nothing; known through Aristophanes, Xenophon, and Plato, whose accounts differ; question-and-answer examination; \"the unexamined life is not worth living\" (Apology 38a); compared his work to midwifery; charged with irreverence and corrupting the young; died by hemlock; modern \"Socratic\" teaching differs from the original."
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "tech-internet-packets-kid",
+  "topic": "tech",
+  "subject": "internet-packets",
+  "level": "kid",
+  "title": "How a Message Crosses the Internet",
+  "emoji": "📨",
+  "summary": "Your message is cut into small pieces that travel on their own.",
+  "minutes": 6,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "📨",
+      "title": "Your message gets chopped up",
+      "text": "When you send a photo to a friend, it does not travel in one piece. It is cut into lots of small pieces. Each piece can even take a different path!"
+    },
+    {
+      "type": "idea",
+      "emoji": "📦",
+      "title": "Packets",
+      "text": "The small pieces are called packets. Each packet has an address on it, like a letter in the mail. Computers along the way read the address and pass the packet closer to where it is going."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧩",
+      "title": "Putting it back together",
+      "text": "Packets can arrive in a mixed-up order. The computer at the other end puts them back in the right order. If a packet gets lost, it is sent again.",
+      "example": "It is like mailing a puzzle one piece per envelope. Your friend sorts the pieces and asks for any missing one."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏫",
+      "title": "Where it started",
+      "text": "In September 1969, a computer at UCLA, a college in California, became the first one on a new network called the ARPANET. By the end of that year, four computers were linked. That small network grew into the internet."
+    },
+    {
+      "type": "idea",
+      "emoji": "🤝",
+      "title": "Shared rules",
+      "text": "For computers to talk, they need to follow the same rules. In 1973, Bob Kahn and Vint Cerf began designing the rules that became TCP/IP. The internet still uses them today."
+    },
+    {
+      "type": "think",
+      "question": "Why do you think it is better to send small packets than one giant message?",
+      "nudges": [
+        "What happens if one small piece is lost?",
+        "What if one road is busy?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What is a packet?",
+          "options": [
+            {
+              "text": "A small piece of a message with an address on it",
+              "correct": true,
+              "why": "Yes! Packets travel separately and get put back together."
+            },
+            {
+              "text": "A whole video in one piece",
+              "correct": false,
+              "why": "Big messages get cut into many small packets."
+            },
+            {
+              "text": "A kind of computer",
+              "correct": false,
+              "why": "A packet is a piece of data, not a computer."
+            }
+          ]
+        },
+        {
+          "q": "What happens if a packet gets lost?",
+          "options": [
+            {
+              "text": "It is sent again.",
+              "correct": true,
+              "why": "Right. The receiving computer can get a fresh copy."
+            },
+            {
+              "text": "The whole internet stops.",
+              "correct": false,
+              "why": "No. One lost packet is just sent again."
+            },
+            {
+              "text": "The message is gone forever.",
+              "correct": false,
+              "why": "The lost piece is sent again, so the message can be finished."
+            }
+          ]
+        },
+        {
+          "q": "Where did the first computer join the ARPANET in 1969?",
+          "options": [
+            {
+              "text": "UCLA in California",
+              "correct": true,
+              "why": "Yes. By the end of 1969, four computers were connected."
+            },
+            {
+              "text": "A library in New York",
+              "correct": false,
+              "why": "The first spot was UCLA in California."
+            },
+            {
+              "text": "The Moon",
+              "correct": false,
+              "why": "Funny, but that was the same year as the Moon landing! The first node was at UCLA."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "When I send a message, it…",
+        "Each packet…",
+        "If one is lost…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "A Brief History of the Internet",
+      "publisher": "Internet Society (written by Internet pioneers including Cerf and Kahn)",
+      "url": "https://www.internetsociety.org/internet/history-internet/brief-history-internet/",
+      "supports": "Packet switching; the first ARPANET node at UCLA in September 1969 and four hosts by year-end; Kahn's open-architecture idea (1972); Cerf and Kahn's TCP; the split into TCP and IP; best-effort delivery and retransmission; the switch to TCP/IP on January 1, 1983; email's impact."
+    },
+    {
+      "title": "Internet History, 1962 to 1992",
+      "publisher": "Computer History Museum",
+      "url": "https://www.computerhistory.org/internethistory/",
+      "supports": "ARPA as a funder of high-risk, high-gain research that laid the groundwork for the ARPANET; by 1992 the Internet had one million hosts."
+    }
+  ]
+}

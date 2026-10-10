@@ -1,0 +1,161 @@
+{
+  "id": "civics-first-amendment-adult",
+  "topic": "civics",
+  "subject": "first-amendment",
+  "level": "adult",
+  "title": "The First Amendment: Text, Origins, and a Standard",
+  "emoji": "📜",
+  "summary": "Why the Bill of Rights was added, and how Tinker built a test for rights inside institutions.",
+  "minutes": 8,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "📜",
+      "title": "\"Article the third\"",
+      "text": "In the twelve amendments Congress sent to the states in 1789, what we call the First Amendment was listed third. Why was there a Bill of Rights at all, and how do courts apply one sentence to the messy reality of institutions?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🛡️",
+      "title": "Why it was added",
+      "text": "The congressional resolution proposing the amendments says several state ratifying conventions wanted \"further declaratory and restrictive clauses\" added \"to prevent misconstruction or abuse of its powers.\" It also hoped to extend \"public confidence in the Government.\" Congress passed the First Amendment on September 25, 1789; it was ratified December 15, 1791."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔍",
+      "title": "Five clauses",
+      "text": "One sentence holds distinct clauses: establishment, free exercise, speech, press, and assembly and petition. Each has its own body of interpretation. The text restrains government (\"Congress shall make no law…\"), not private parties."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏫",
+      "title": "Tinker as a standard",
+      "text": "Tinker v. Des Moines (7–2, 1969): officials could not ban students' black armbands protesting the Vietnam War merely on suspicion of disruption. That is a standard, not a bright-line rule: it calls for case-by-case judgment about disruption, not mere suspicion of it.",
+      "example": "The dissent argued that school is for learning, that no one has a right to express any opinion at any time, and that officials need broad authority over order."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Rules vs. standards",
+      "text": "Bright-line rules are predictable and cheap to apply but misfit edge cases. Standards fit cases better but invite inconsistency and litigation. Tinker chose a standard for expression inside an institution with a legitimate mission. The tension recurs in workplaces, campuses, and platforms."
+    },
+    {
+      "type": "think",
+      "question": "Where do you draw the line between individual expression and an institution's mission, in schools, companies, or online platforms? Would you rather have a rule or a standard, and why?",
+      "nudges": [
+        "Steelman the Tinker dissent before rejecting it.",
+        "Which errors are cheaper: allowing too much speech or too little?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Why did Congress propose the Bill of Rights, per its own resolution?",
+          "options": [
+            {
+              "text": "States' ratifying conventions wanted restrictive clauses to prevent misconstruction or abuse of federal power.",
+              "correct": true,
+              "why": "Right, and to extend public confidence in the government."
+            },
+            {
+              "text": "To create the federal courts",
+              "correct": false,
+              "why": "Courts were set up in Article III."
+            },
+            {
+              "text": "To restrict state governments directly",
+              "correct": false,
+              "why": "The text addresses the federal government (\"Congress shall make no law\")."
+            },
+            {
+              "text": "To replace the Articles of Confederation",
+              "correct": false,
+              "why": "The Constitution itself did that."
+            }
+          ]
+        },
+        {
+          "q": "Tinker's test is best described as…",
+          "options": [
+            {
+              "text": "A standard: no ban on mere suspicion of disruption",
+              "correct": true,
+              "why": "Yes. It calls for case-by-case judgment rather than a blanket ban."
+            },
+            {
+              "text": "A bright-line ban on all school protests",
+              "correct": false,
+              "why": "The Court rejected the ban."
+            },
+            {
+              "text": "Unlimited student speech",
+              "correct": false,
+              "why": "The ruling did not grant unlimited speech."
+            },
+            {
+              "text": "A rule that applies only in Iowa",
+              "correct": false,
+              "why": "It is a U.S. Supreme Court precedent."
+            }
+          ]
+        },
+        {
+          "q": "When was the First Amendment ratified?",
+          "options": [
+            {
+              "text": "December 15, 1791",
+              "correct": true,
+              "why": "Correct. Congress passed it on September 25, 1789."
+            },
+            {
+              "text": "July 4, 1776",
+              "correct": false,
+              "why": "That is the Declaration of Independence."
+            },
+            {
+              "text": "September 17, 1787",
+              "correct": false,
+              "why": "The Constitution was signed in 1787. The Bill of Rights came later."
+            },
+            {
+              "text": "1803",
+              "correct": false,
+              "why": "That is Marbury v. Madison."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The First Amendment was added because…",
+        "Tinker built a standard that…",
+        "The trade-off is…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Bill of Rights: A Transcription",
+      "publisher": "U.S. National Archives",
+      "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+      "supports": "The original text, including the preamble about preventing \"misconstruction or abuse\" of powers, and the First Amendment's wording as \"Article the third\" of the amendments Congress proposed."
+    },
+    {
+      "title": "First Amendment",
+      "publisher": "National Constitution Center",
+      "url": "https://constitutioncenter.org/the-constitution/amendments/amendment-i",
+      "supports": "Full text of the First Amendment; passed by Congress September 25, 1789; ratified December 15, 1791; the five freedoms: religion, speech, press, assembly, and petition."
+    },
+    {
+      "title": "Facts and Case Summary: Tinker v. Des Moines",
+      "publisher": "United States Courts (Administrative Office of the U.S. Courts)",
+      "url": "https://www.uscourts.gov/about-federal-courts/educational-resources/educational-activities/first-amendment-activities/tinker-v-des-moines/facts-and-case-summary-tinker-v-des-moines",
+      "supports": "Students wore black armbands to protest the Vietnam War and were suspended; lower courts sided with the school; 7–2 decision on February 24, 1969; the \"schoolhouse gate\" line; the dissent's argument for school order."
+    }
+  ]
+}

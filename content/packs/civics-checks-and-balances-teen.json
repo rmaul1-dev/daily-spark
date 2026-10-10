@@ -1,0 +1,146 @@
+{
+  "id": "civics-checks-and-balances-teen",
+  "topic": "civics",
+  "subject": "checks-and-balances",
+  "level": "teen",
+  "title": "Checks and Balances: Designing Against Power",
+  "emoji": "⚖️",
+  "summary": "How the Constitution sets the branches against each other, and the debate about it.",
+  "minutes": 7,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "😇",
+      "title": "\"If men were angels…\"",
+      "text": "In Federalist No. 51, the case for the Constitution was put bluntly: \"If men were angels, no government would be necessary.\" So if people aren't angels, how do you design a government that controls itself?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🧲",
+      "title": "Ambition vs. ambition",
+      "text": "The same essay says \"Ambition must be made to counteract ambition.\" Instead of trusting leaders to be good, the design gives each branch tools and reasons to resist the others.",
+      "svg": "<svg viewBox=\"0 0 300 150\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Three branches checking each other\"><path d=\"M150 30 L60 120 L240 120 Z\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"4\" stroke-dasharray=\"8 6\"/><circle cx=\"150\" cy=\"30\" r=\"24\" fill=\"#f97316\"/><circle cx=\"60\" cy=\"120\" r=\"24\" fill=\"#3b82f6\"/><circle cx=\"240\" cy=\"120\" r=\"24\" fill=\"#10b981\"/><text x=\"150\" y=\"37\" font-size=\"20\" text-anchor=\"middle\">🏛️</text><text x=\"60\" y=\"127\" font-size=\"20\" text-anchor=\"middle\">🦅</text><text x=\"240\" y=\"127\" font-size=\"20\" text-anchor=\"middle\">⚖️</text></svg>"
+    },
+    {
+      "type": "idea",
+      "emoji": "🛑",
+      "title": "Veto and override",
+      "text": "The President can veto a bill. Congress can override it, but only if two thirds of the House and two thirds of the Senate agree. The Senate also must give \"advice and consent\" before the President can appoint judges."
+    },
+    {
+      "type": "idea",
+      "emoji": "📜",
+      "title": "Impeachment and judicial review",
+      "text": "The House can impeach, which means formally accuse, an official. The Senate holds the trial, and it takes two thirds of senators present to convict. Courts can strike down unconstitutional laws. That power is not spelled out in the Constitution. It was confirmed in 1803 in Marbury v. Madison."
+    },
+    {
+      "type": "idea",
+      "emoji": "🗣️",
+      "title": "The debate",
+      "text": "Supporters say checks and balances prevent abuse and force compromise. Critics say they can cause gridlock, so government responds slowly when problems need action. Both sides agree the system makes big changes hard. They disagree about whether that is a feature or a bug."
+    },
+    {
+      "type": "think",
+      "question": "Is it better for a system to make change hard (to prevent mistakes) or easy (to fix problems fast)? Does your answer depend on who is in charge?",
+      "nudges": [
+        "Try arguing the side you don't agree with.",
+        "Think of a school, team, or company rule. Who can overrule whom?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What does it take to override a presidential veto?",
+          "options": [
+            {
+              "text": "Two thirds of both the House and the Senate",
+              "correct": true,
+              "why": "Right. It is a high bar on purpose."
+            },
+            {
+              "text": "A simple majority of the Senate",
+              "correct": false,
+              "why": "A majority passes a bill. Overriding a veto takes two thirds of each house."
+            },
+            {
+              "text": "A Supreme Court ruling",
+              "correct": false,
+              "why": "Courts don't override vetoes. Congress does."
+            }
+          ]
+        },
+        {
+          "q": "Where does the courts' power to strike down unconstitutional laws come from?",
+          "options": [
+            {
+              "text": "It was confirmed in Marbury v. Madison (1803); it is not spelled out in the Constitution.",
+              "correct": true,
+              "why": "Right. The Supreme Court itself notes it is not explicit in the text."
+            },
+            {
+              "text": "Article I lists it word for word.",
+              "correct": false,
+              "why": "The Court notes judicial review is not explicitly provided in the Constitution."
+            },
+            {
+              "text": "A law passed in 1950",
+              "correct": false,
+              "why": "It goes back to 1803."
+            }
+          ]
+        },
+        {
+          "q": "Which statement fairly describes the debate about checks and balances?",
+          "options": [
+            {
+              "text": "Supporters stress preventing abuse; critics stress gridlock and slow responses.",
+              "correct": true,
+              "why": "Yes. Both describe real effects; people weigh them differently."
+            },
+            {
+              "text": "Everyone agrees they only have benefits.",
+              "correct": false,
+              "why": "There is a real debate about the costs."
+            },
+            {
+              "text": "Only one political party supports them.",
+              "correct": false,
+              "why": "Support and criticism come from many viewpoints."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The framers didn't trust…, so they…",
+        "Two checks are…",
+        "People debate whether…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Constitution of the United States: A Transcription",
+      "publisher": "U.S. National Archives",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "supports": "Veto override by two thirds of each House; the President shall \"take Care that the Laws be faithfully executed\"; Senate advice and consent for judges; House impeaches, Senate tries, two-thirds to convict, judgment limited to removal and disqualification."
+    },
+    {
+      "title": "The Federalist Papers: Text of Nos. 51–60",
+      "publisher": "Library of Congress Research Guides",
+      "url": "https://guides.loc.gov/federalist-papers/text-51-60",
+      "supports": "Federalist No. 51: \"If men were angels, no government would be necessary\" and \"Ambition must be made to counteract ambition.\""
+    },
+    {
+      "title": "The Court and Constitutional Interpretation",
+      "publisher": "Supreme Court of the United States",
+      "url": "https://www.supremecourt.gov/about/constitutional.aspx",
+      "supports": "Judicial review is not explicitly provided in the Constitution; it was anticipated (including in the Federalist Papers) and confirmed in 1803 in Marbury v. Madison."
+    }
+  ]
+}

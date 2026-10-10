@@ -1,0 +1,135 @@
+{
+  "id": "science-blue-sky-kid",
+  "topic": "science",
+  "subject": "blue-sky",
+  "level": "kid",
+  "title": "Why Is the Sky Blue?",
+  "emoji": "🌤️",
+  "summary": "Sunlight hides a rainbow, and the air bounces the blue part around.",
+  "minutes": 6,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌤️",
+      "title": "Sunlight is secretly a rainbow",
+      "text": "Sunlight looks white. But it is really made of all the colors of the rainbow mixed together. So why does the sky look blue instead of rainbow?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🌈",
+      "title": "A rainbow inside white light",
+      "text": "When white light shines through a prism, it splits into all its colors. Light travels in waves. Blue light has short, choppy waves. Red light has long, lazy waves.",
+      "svg": "<svg viewBox=\"0 0 300 130\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Short blue waves and long red waves\"><path d=\"M20 38 q 8.0 -22 16 0 q 8.0 22 16 0 q 8.0 -22 16 0 q 8.0 22 16 0 q 8.0 -22 16 0 q 8.0 22 16 0 q 8.0 -22 16 0 q 8.0 22 16 0 q 8.0 -22 16 0 q 8.0 22 16 0 q 8.0 -22 16 0 q 8.0 22 16 0 q 8.0 -22 16 0 q 8.0 22 16 0 q 8.0 -22 16 0 q 8.0 22 16 0\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"5\" stroke-linecap=\"round\"/><path d=\"M20 98 q 23.0 -22 46 0 q 23.0 22 46 0 q 23.0 -22 46 0 q 23.0 22 46 0 q 23.0 -22 46 0\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"5\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+      "type": "idea",
+      "emoji": "🎱",
+      "title": "Air bounces light around",
+      "text": "Air is made of tiny bits called molecules. When sunlight hits them, the light gets scattered, or bounced, in all directions. Blue light gets scattered much more than red light.",
+      "example": "So when you look up, blue light comes at you from every part of the sky."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌅",
+      "title": "Why sunsets turn red",
+      "text": "At sunset, sunlight has to travel through much more air to reach you. Most of the blue gets scattered away on the trip. The reds and yellows make it through to your eyes."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔴",
+      "title": "Other planets, other skies",
+      "text": "Mars has thin air and lots of fine dust. In the daytime, its sky looks orange or reddish. At sunset, the sky near the Sun turns blue-gray, which is the opposite of Earth!"
+    },
+    {
+      "type": "think",
+      "question": "If you stood on the Moon, which has almost no air, what color do you think the sky would be in the daytime? Why?",
+      "nudges": [
+        "What does the blue sky need to happen?",
+        "If nothing scatters the light, where does it go?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What is sunlight really made of?",
+          "options": [
+            {
+              "text": "All the colors mixed together",
+              "correct": true,
+              "why": "Yes! A prism can split it into a rainbow."
+            },
+            {
+              "text": "Only blue light",
+              "correct": false,
+              "why": "Sunlight has every color. Blue is just the one the air scatters most."
+            },
+            {
+              "text": "Only yellow light",
+              "correct": false,
+              "why": "The Sun can look yellow, but its light has all the colors."
+            }
+          ]
+        },
+        {
+          "q": "Why does the sky look blue?",
+          "options": [
+            {
+              "text": "Air scatters blue light more than other colors.",
+              "correct": true,
+              "why": "Right. Blue light bounces all over the sky, so blue reaches your eyes from every direction."
+            },
+            {
+              "text": "The sky reflects the blue ocean.",
+              "correct": false,
+              "why": "A common guess! But the sky is blue over deserts too. It is the air scattering light."
+            },
+            {
+              "text": "Space is blue.",
+              "correct": false,
+              "why": "Space looks black. The blue comes from our air."
+            }
+          ]
+        },
+        {
+          "q": "Why are sunsets red and orange?",
+          "options": [
+            {
+              "text": "Sunlight travels through more air, so most blue is scattered away.",
+              "correct": true,
+              "why": "Yes. The reds and yellows are left to reach your eyes."
+            },
+            {
+              "text": "The Sun cools down at night.",
+              "correct": false,
+              "why": "The Sun does not cool down each evening. The change is in how much air the light passes through."
+            },
+            {
+              "text": "Clouds paint the sky.",
+              "correct": false,
+              "why": "Clouds can glow with sunset colors, but the colors come from scattered sunlight."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Sunlight is really…",
+        "The air scatters…",
+        "At sunset…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Why Is the Sky Blue?",
+      "publisher": "NASA Space Place",
+      "url": "https://spaceplace.nasa.gov/blue-sky/en/",
+      "supports": "Sunlight contains all colors; blue travels as shorter waves and is scattered more by air molecules; whiter sky near the horizon; red sunsets; the orange daytime sky and blue sunsets on Mars."
+    }
+  ]
+}

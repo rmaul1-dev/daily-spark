@@ -1,0 +1,156 @@
+{
+  "id": "space-apollo-11-adult",
+  "topic": "space",
+  "subject": "apollo-11",
+  "level": "adult",
+  "title": "Apollo 11: Program Management at the Edge",
+  "emoji": "🧑‍🚀",
+  "summary": "Margins, abort design, and human judgment in a mission that left little slack.",
+  "minutes": 8,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧑‍🚀",
+      "title": "About 30 seconds of margin",
+      "text": "Eagle touched down with about 30 seconds of descent fuel remaining. For a program that spent eight years engineering out risk, why did the last minutes come down to a pilot's judgment?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🎯",
+      "title": "A crisp objective",
+      "text": "The primary objective was the goal Kennedy set on May 25, 1961: a crewed lunar landing and return to Earth. Secondary objectives were layered on: TV transmission, a seismic package, a laser-ranging retroreflector, a solar-wind experiment, samples, and extensive photography.",
+      "example": "One unambiguous success criterion, with science as a bonus rather than a dependency."
+    },
+    {
+      "type": "idea",
+      "emoji": "🛟",
+      "title": "Design for abort",
+      "text": "Apollo 11 was the last Apollo mission to fly a free-return trajectory. It gave a ready abort with no engine firing at any point before lunar orbit insertion. The launch was accurate enough that three of four planned midcourse corrections were skipped."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧠",
+      "title": "Human in the loop",
+      "text": "In the final descent, the computer raised alarms from being asked to do too much at once, and the targeted area was strewn with boulders. Armstrong flew partly manually, extending powered descent about 40 seconds past plan and landing about four miles downrange.",
+      "example": "Aldrin later said the alarm \"came up when we did not want to be trying to solve these particular problems.\""
+    },
+    {
+      "type": "idea",
+      "emoji": "📏",
+      "title": "By the numbers",
+      "text": "Launch July 16, 1969, 9:32 a.m. EDT. Surface stay: 21 hours, 36 minutes; moonwalk about 2.5 hours, ranging up to 300 feet from Eagle. Splashdown July 24 after 195 hours, 18 minutes, 35 seconds, about 36 minutes longer than planned. NASA estimates 650 million people watched the first step."
+    },
+    {
+      "type": "think",
+      "question": "Armstrong credited \"hundreds of thousands\" of people, each determined that nothing would go wrong because of them. How do you build that kind of individual ownership in a large organization without paralyzing it?",
+      "nudges": [
+        "Where do your systems rely on heroics in the last 30 seconds?",
+        "What is your free-return trajectory: a safe default if something fails?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What did the free-return trajectory provide?",
+          "options": [
+            {
+              "text": "An abort path home with no engine firing, before lunar orbit insertion",
+              "correct": true,
+              "why": "Correct. A passive safety margin."
+            },
+            {
+              "text": "A faster route to the Moon",
+              "correct": false,
+              "why": "It was about safety, not speed."
+            },
+            {
+              "text": "A landing on the far side",
+              "correct": false,
+              "why": "They landed in the Sea of Tranquility on the near side."
+            },
+            {
+              "text": "Extra fuel for the descent",
+              "correct": false,
+              "why": "It did not add descent fuel."
+            }
+          ]
+        },
+        {
+          "q": "What caused the program alarms during the descent?",
+          "options": [
+            {
+              "text": "The guidance computer was asked to do too many things at once.",
+              "correct": true,
+              "why": "Yes, an overload, not a failure of the landing itself."
+            },
+            {
+              "text": "A fuel leak",
+              "correct": false,
+              "why": "Fuel was tight but not leaking."
+            },
+            {
+              "text": "Loss of communication with Houston",
+              "correct": false,
+              "why": "Not the cause of the alarms."
+            },
+            {
+              "text": "A radar collision warning",
+              "correct": false,
+              "why": "NASA describes it as an overloaded computer."
+            }
+          ]
+        },
+        {
+          "q": "How long did Armstrong and Aldrin spend on the lunar surface (in the lander and outside)?",
+          "options": [
+            {
+              "text": "21 hours, 36 minutes",
+              "correct": true,
+              "why": "Right, including about 2.5 hours of moonwalk."
+            },
+            {
+              "text": "2.5 hours",
+              "correct": false,
+              "why": "That was the moonwalk portion."
+            },
+            {
+              "text": "8 days",
+              "correct": false,
+              "why": "That was roughly the whole mission."
+            },
+            {
+              "text": "About 45 minutes",
+              "correct": false,
+              "why": "Far longer than that."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Apollo 11 managed risk by…",
+        "In the final minutes…",
+        "The lesson for my work is…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apollo 11 Mission Overview",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/history/apollo-11-mission-overview/",
+      "supports": "Kennedy's 1961 goal; crew roles; launch July 16, 1969; an estimated 650 million viewers; landing about four miles downrange after maneuvering to avoid a crater; 21 hours 36 minutes on the surface; experiments left behind; splashdown July 24 after 195 hours, 18 minutes."
+    },
+    {
+      "title": "July 20, 1969: One Giant Leap For Mankind",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/history/july-20-1969-one-giant-leap-for-mankind/",
+      "supports": "The 363-foot Saturn V with 7.5 million pounds of thrust; Armstrong manually flying past boulders; computer alarms; landing at 4:17 p.m. EDT with about 30 seconds of fuel left; the first step at 10:56 p.m.; \"magnificent desolation\"; the plaque; \"hundreds of thousands\" of workers; 10 more moonwalkers."
+    }
+  ]
+}

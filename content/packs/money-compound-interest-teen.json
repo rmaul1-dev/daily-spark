@@ -1,0 +1,142 @@
+{
+  "id": "money-compound-interest-teen",
+  "topic": "money",
+  "subject": "compound-interest",
+  "level": "teen",
+  "title": "The Math of Compounding",
+  "emoji": "📈",
+  "summary": "Exponential growth, the Rule of 72, and why time beats timing.",
+  "minutes": 7,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🍕",
+      "title": "The pizza question",
+      "text": "Skip a $2 slice of pizza every day for a year and you save $730. Invest it at 5% and leave it alone. How much do you think it becomes after 30 years?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🔁",
+      "title": "The formula",
+      "text": "Compound growth multiplies instead of adds: amount = start × (1 + rate)^years. At 5%, $100 becomes $105, then $110.25. In year two, you earn 25 cents on your first $5 of interest.",
+      "example": "The pizza answer: $730 grows to $931.69 after 5 years and $3,155.02 after 30 years, with nothing added."
+    },
+    {
+      "type": "idea",
+      "emoji": "7️⃣",
+      "title": "The Rule of 72",
+      "text": "To estimate how long money takes to double, divide 72 by the yearly rate. At 9%, money doubles in about 72 ÷ 9 = 8 years. At 6%, about 12 years.",
+      "example": "It is a shortcut, not exact, but it is close for normal rates."
+    },
+    {
+      "type": "idea",
+      "emoji": "📊",
+      "title": "Why the end matters most",
+      "text": "Because growth multiplies, most of the dollar gain comes late. $100 at 5% gains about $63 in the first 10 years but about $176 in the next 15.",
+      "svg": "<svg viewBox=\"0 0 300 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"$100 at 5% over 25 years\"><rect x=\"33.0\" y=\"82.5\" width=\"34.0\" height=\"29.5\" rx=\"3\" fill=\"#10b981\"/><rect x=\"73.0\" y=\"74.3\" width=\"34.0\" height=\"37.7\" rx=\"3\" fill=\"#10b981\"/><rect x=\"113.0\" y=\"63.9\" width=\"34.0\" height=\"48.1\" rx=\"3\" fill=\"#10b981\"/><rect x=\"153.0\" y=\"50.6\" width=\"34.0\" height=\"61.4\" rx=\"3\" fill=\"#10b981\"/><rect x=\"193.0\" y=\"33.6\" width=\"34.0\" height=\"78.4\" rx=\"3\" fill=\"#10b981\"/><rect x=\"233.0\" y=\"12.0\" width=\"34.0\" height=\"100.0\" rx=\"3\" fill=\"#10b981\"/><path d=\"M24 112 H276\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+    },
+    {
+      "type": "idea",
+      "emoji": "⛳",
+      "title": "A careful analogy",
+      "text": "People say practicing 1% better each day compounds: 1.01³⁶⁵ ≈ 37.8. That is real math, but skills don't grow that neatly. Progress in golf or soccer comes in bumps and plateaus. The useful lesson: consistency over long periods beats short bursts."
+    },
+    {
+      "type": "think",
+      "question": "If compounding rewards time so much, why don't more people start saving early? What gets in the way?",
+      "nudges": [
+        "Think about what is easy to see now vs. later.",
+        "Would you rather have $730 of pizza or $3,155 thirty years from now? Why?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Using the Rule of 72, how long does money take to double at 6%?",
+          "options": [
+            {
+              "text": "About 12 years",
+              "correct": true,
+              "why": "72 ÷ 6 = 12."
+            },
+            {
+              "text": "About 6 years",
+              "correct": false,
+              "why": "That would be a 12% return."
+            },
+            {
+              "text": "About 72 years",
+              "correct": false,
+              "why": "Divide 72 by the rate: 72 ÷ 6 = 12."
+            }
+          ]
+        },
+        {
+          "q": "$100 at 5%: how much does it gain in year 2?",
+          "options": [
+            {
+              "text": "$5.25",
+              "correct": true,
+              "why": "5% of $105 = $5.25. The extra 25 cents is interest on interest."
+            },
+            {
+              "text": "$5.00",
+              "correct": false,
+              "why": "That is simple interest. Compounding earns on the $105."
+            },
+            {
+              "text": "$10.25",
+              "correct": false,
+              "why": "That is the total gain over both years."
+            }
+          ]
+        },
+        {
+          "q": "Why does most of the gain come in later years?",
+          "options": [
+            {
+              "text": "Each year's growth is a percent of a bigger balance.",
+              "correct": true,
+              "why": "Right. Multiplying a bigger number gives a bigger jump."
+            },
+            {
+              "text": "Banks raise the rate over time.",
+              "correct": false,
+              "why": "Even at a fixed rate, the dollar gains grow."
+            },
+            {
+              "text": "Taxes go away later.",
+              "correct": false,
+              "why": "Not the reason. It is the math of multiplying."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Compounding works by…",
+        "The Rule of 72 says…",
+        "The big lesson is…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "What is compound interest?",
+      "publisher": "Investor.gov (U.S. Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/additional-resources/information/youth/teachers-classroom-resources/what-compound-interest",
+      "supports": "$100 at 5% becomes $105, then $110.25, more than $162 in 10 years, and almost $340 in 25 years; the Rule of 72 (9% doubles in about 8 years); the $730 pizza-savings example ($931.69 after 5 years, $3,155.02 after 30)."
+    },
+    {
+      "title": "Compound Interest Calculator",
+      "publisher": "Investor.gov (U.S. Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator",
+      "supports": "A free official calculator to try your own starting amount, monthly additions, rate, and years."
+    }
+  ]
+}

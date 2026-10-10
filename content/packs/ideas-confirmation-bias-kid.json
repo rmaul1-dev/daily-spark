@@ -1,0 +1,139 @@
+{
+  "id": "ideas-confirmation-bias-kid",
+  "topic": "ideas",
+  "subject": "confirmation-bias",
+  "level": "kid",
+  "title": "The Sure-Thing Trap",
+  "emoji": "🔍",
+  "summary": "Why we look for proof we're right, and a game that shows it.",
+  "minutes": 6,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🔢",
+      "title": "Guess my rule",
+      "text": "I have a secret rule for three numbers. The numbers 2, 4, 6 follow my rule. What do you think the rule is? Keep your guess in mind."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧪",
+      "title": "The 2-4-6 game",
+      "text": "In 1960, a scientist named Peter Wason played this game with people. They could test any three numbers and he would say \"fits\" or \"doesn't fit.\" Most people guessed rules like \"count up by 2.\" They tested numbers like 10, 12, 14. Every test said \"fits!\""
+    },
+    {
+      "type": "idea",
+      "emoji": "🎯",
+      "title": "The surprise",
+      "text": "The real rule was simply \"any three numbers that go up.\" So 1, 7, 50 fits too! People had a hard time finding it. They only tested numbers that matched their guess. They never tried numbers that could prove their guess wrong."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧠",
+      "title": "A name for it",
+      "text": "This is called confirmation bias. It means we look for things that show we are right and skip things that might show we are wrong. Everyone does it, even scientists and grown-ups. It is strongest when we really want something to be true."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔦",
+      "title": "How to beat it",
+      "text": "Try to test your idea in a way that could fail. Ask, \"What would show I am wrong?\" In the number game, a great test is 1, 2, 3 or 5, 4, 3. If 5, 4, 3 does not fit, you learn something new!"
+    },
+    {
+      "type": "think",
+      "question": "Think of something you feel very sure about. What is one thing that could show you are wrong? How would you check?",
+      "nudges": [
+        "It can be about a sport, a food, or a friend.",
+        "Is it fun or scary to test it? Why?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What was the real rule in the 2-4-6 game?",
+          "options": [
+            {
+              "text": "Any three numbers that go up",
+              "correct": true,
+              "why": "Yes! The rule was much simpler than most people guessed."
+            },
+            {
+              "text": "Count up by 2",
+              "correct": false,
+              "why": "That was the most common guess, but it was too narrow."
+            },
+            {
+              "text": "Only even numbers",
+              "correct": false,
+              "why": "1, 7, 50 fits too, and those are not all even."
+            }
+          ]
+        },
+        {
+          "q": "What is confirmation bias?",
+          "options": [
+            {
+              "text": "Looking for proof you are right and skipping proof you might be wrong",
+              "correct": true,
+              "why": "Right. Everyone does it sometimes."
+            },
+            {
+              "text": "Always changing your mind",
+              "correct": false,
+              "why": "It is closer to the opposite: sticking to what you already think."
+            },
+            {
+              "text": "Being very good at math",
+              "correct": false,
+              "why": "It is about how people look at evidence, not math skill."
+            }
+          ]
+        },
+        {
+          "q": "Which is the best test if you think the rule is \"count up by 2\"?",
+          "options": [
+            {
+              "text": "5, 4, 3",
+              "correct": true,
+              "why": "Great! It could prove your idea wrong, so you learn more."
+            },
+            {
+              "text": "20, 22, 24",
+              "correct": false,
+              "why": "That just matches your guess again, so it can't prove it wrong."
+            },
+            {
+              "text": "100, 102, 104",
+              "correct": false,
+              "why": "Another \"count up by 2\" test. It won't show if your rule is too narrow."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "In the 2-4-6 game…",
+        "Confirmation bias means…",
+        "To beat it, you can…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Confirmation bias",
+      "publisher": "Wikipedia (encyclopedia article with cited psychology research)",
+      "url": "https://en.wikipedia.org/wiki/Confirmation_bias",
+      "supports": "Definition; strongest for desired outcomes and emotional or entrenched beliefs; Wason's 1960 2-4-6 task; positive-test preference and the Klayman and Ha critique; the Stanford capital-punishment study; effects on financial, organizational, and scientific decisions."
+    },
+    {
+      "title": "Confirmation bias",
+      "publisher": "APA Dictionary of Psychology (American Psychological Association)",
+      "url": "https://dictionary.apa.org/confirmation-bias",
+      "supports": "Definition: the tendency to gather evidence that confirms preexisting expectations while dismissing or failing to seek contradictory evidence."
+    }
+  ]
+}

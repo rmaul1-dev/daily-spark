@@ -1,0 +1,141 @@
+{
+  "id": "space-seasons-kid",
+  "topic": "space",
+  "subject": "seasons",
+  "level": "kid",
+  "title": "Why Do We Have Seasons?",
+  "emoji": "🍂",
+  "summary": "It's not about being close to the Sun. It's all about the tilt.",
+  "minutes": 6,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🍂",
+      "title": "A surprising fact",
+      "text": "Earth is closest to the Sun in January. But January is winter in the U.S.! So being closer to the Sun can't be why summer is hot. What is the real reason?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🌍",
+      "title": "Earth leans over",
+      "text": "Earth spins around an imaginary pole called its axis. That axis is not straight up and down. It is tilted, like a top leaning to one side.",
+      "svg": "<svg viewBox=\"0 0 300 140\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Earth tilted toward the Sun in June and away in December\"><circle cx=\"150\" cy=\"70\" r=\"22\" fill=\"#fbbf24\"/><circle cx=\"45\" cy=\"70\" r=\"24\" fill=\"#60a5fa\"/><path d=\"M36 40 L54 100\" stroke=\"#1e293b\" stroke-width=\"3\"/><circle cx=\"255\" cy=\"70\" r=\"24\" fill=\"#60a5fa\"/><path d=\"M246 40 L264 100\" stroke=\"#1e293b\" stroke-width=\"3\"/><path d=\"M75 70 H120 M180 70 H225\" stroke=\"#f59e0b\" stroke-width=\"3\" stroke-dasharray=\"6 5\"/></svg>"
+    },
+    {
+      "type": "idea",
+      "emoji": "☀️",
+      "title": "Leaning toward the Sun",
+      "text": "As Earth travels around the Sun, its tilt always points the same way in space. Around June, the top half of Earth leans toward the Sun. The Sun's rays hit it more directly, so it's summer there.",
+      "example": "Around December, the bottom half leans toward the Sun. Then it is summer in places like Australia and winter in the U.S."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔦",
+      "title": "Direct vs. slanted",
+      "text": "Shine a flashlight straight down on paper. You get a small, bright spot. Now tilt the flashlight. The light spreads out and gets weaker. Slanted sunlight is like that, so winter is colder."
+    },
+    {
+      "type": "idea",
+      "emoji": "💥",
+      "title": "Why the tilt?",
+      "text": "Scientists think that long ago, something big named Theia smashed into the young Earth and knocked it off-kilter. Most scientists think the rubble from that crash became our Moon!"
+    },
+    {
+      "type": "think",
+      "question": "If Earth had no tilt at all, what do you think the seasons would be like?",
+      "nudges": [
+        "Would summer and winter still happen?",
+        "Would every day be about the same?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What causes the seasons?",
+          "options": [
+            {
+              "text": "Earth's tilted axis",
+              "correct": true,
+              "why": "Yes! Different parts of Earth get more direct sunlight at different times of year."
+            },
+            {
+              "text": "Earth getting closer to the Sun",
+              "correct": false,
+              "why": "Earth is closest to the Sun in January, during the U.S. winter."
+            },
+            {
+              "text": "The Moon blocking sunlight",
+              "correct": false,
+              "why": "The Moon does not cause seasons."
+            }
+          ]
+        },
+        {
+          "q": "In June, which half of Earth leans toward the Sun?",
+          "options": [
+            {
+              "text": "The northern half",
+              "correct": true,
+              "why": "Right. That is why June is summer in the U.S."
+            },
+            {
+              "text": "The southern half",
+              "correct": false,
+              "why": "That happens around December."
+            },
+            {
+              "text": "Neither half",
+              "correct": false,
+              "why": "The tilt always makes one half lean toward the Sun more."
+            }
+          ]
+        },
+        {
+          "q": "Why is slanted sunlight weaker?",
+          "options": [
+            {
+              "text": "It spreads out over a bigger area.",
+              "correct": true,
+              "why": "Yes, just like a tilted flashlight beam."
+            },
+            {
+              "text": "It has fewer colors.",
+              "correct": false,
+              "why": "Color is not the reason. It is about spreading out."
+            },
+            {
+              "text": "It travels slower.",
+              "correct": false,
+              "why": "Light speed is not the reason. The light is spread out."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Earth's axis is…",
+        "In June…",
+        "Slanted sunlight…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "What Causes the Seasons?",
+      "publisher": "NASA Space Place",
+      "url": "https://spaceplace.nasa.gov/seasons/en/",
+      "supports": "Tilt, not distance, causes seasons; the tilted axis keeps pointing the same way; June and December; perihelion (91.4 million miles) in January and aphelion (94.5 million miles) in July; the Theia impact idea."
+    },
+    {
+      "title": "Earth: Facts",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/earth/facts/",
+      "supports": "Earth's axis is tilted 23.4 degrees relative to its orbit, and this tilt causes the yearly cycle of seasons."
+    }
+  ]
+}

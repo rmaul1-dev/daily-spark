@@ -1,0 +1,149 @@
+{
+  "id": "money-profit-break-even-adult",
+  "topic": "money",
+  "subject": "profit-break-even",
+  "level": "adult",
+  "title": "Break-Even, Operating Leverage, and Margin of Safety",
+  "emoji": "🏗️",
+  "summary": "The CVP toolkit applied to a startup decision, with the traps.",
+  "minutes": 8,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🏗️",
+      "title": "Same revenue, different risk",
+      "text": "Two businesses each sell $100k a year. One has mostly fixed costs, the other mostly variable. Revenue drops 20%. Which one is in trouble, and how fast?"
+    },
+    {
+      "type": "idea",
+      "emoji": "📐",
+      "title": "The SBA formulas",
+      "text": "Break-even units = fixed costs ÷ (price − variable cost per unit). Break-even dollars = fixed costs ÷ contribution margin ratio, where the ratio = (price − variable cost) ÷ price. The SBA builds its calculator on monthly figures.",
+      "example": "Example: $40k of fixed costs and a 40% contribution margin ratio give $100k of break-even revenue."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎚️",
+      "title": "Operating leverage",
+      "text": "Business A: $60k fixed, 70% contribution margin ratio. Business B: $10k fixed, 20% ratio. At $100k revenue both earn $10k. At $80k, A earns −$4k and B earns $6k. At $120k, A earns $24k and B earns $14k. High fixed costs amplify both directions."
+    },
+    {
+      "type": "idea",
+      "emoji": "🛟",
+      "title": "Margin of safety",
+      "text": "Margin of safety = (current revenue − break-even revenue) ÷ current revenue. A has break-even revenue of about $85.7k, so a 14% margin at $100k. B breaks even at $50k, a 50% margin. The SBA also suggests padding costs by about 10% for unpredictable expenses."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚠️",
+      "title": "Where it misleads",
+      "text": "CVP assumes linear prices and costs and a single product (or a stable mix). The SBA itself calls break-even an estimate for planning and lenders, not precise accounting. Step-fixed costs, volume discounts, and mix shifts break the straight lines."
+    },
+    {
+      "type": "think",
+      "question": "For a business you know well, is the cost structure a deliberate choice or an accident? What would it take to move fixed costs to variable, or the reverse, and when would you want to?",
+      "nudges": [
+        "Think of outsourcing, leasing vs. buying, and revenue-share deals.",
+        "How volatile is demand, and how confident are you in it?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Fixed costs $40k, contribution margin ratio 40%. Break-even revenue?",
+          "options": [
+            {
+              "text": "$100k",
+              "correct": true,
+              "why": "$40k ÷ 0.40."
+            },
+            {
+              "text": "$16k",
+              "correct": false,
+              "why": "That multiplies instead of divides."
+            },
+            {
+              "text": "$56k",
+              "correct": false,
+              "why": "Not derived from the formula."
+            },
+            {
+              "text": "$40k",
+              "correct": false,
+              "why": "That ignores variable costs."
+            }
+          ]
+        },
+        {
+          "q": "Business A ($60k fixed, 70% CM ratio) at $80k revenue earns…",
+          "options": [
+            {
+              "text": "−$4k",
+              "correct": true,
+              "why": "0.70 × 80k − 60k = −4k."
+            },
+            {
+              "text": "$6k",
+              "correct": false,
+              "why": "That is Business B."
+            },
+            {
+              "text": "$10k",
+              "correct": false,
+              "why": "That is at $100k revenue."
+            },
+            {
+              "text": "$16k",
+              "correct": false,
+              "why": "Check: 56k − 60k."
+            }
+          ]
+        },
+        {
+          "q": "Which is a core limitation of break-even analysis?",
+          "options": [
+            {
+              "text": "It assumes linear costs and prices and a stable product mix.",
+              "correct": true,
+              "why": "Right. Real cost curves have steps and discounts."
+            },
+            {
+              "text": "It ignores fixed costs.",
+              "correct": false,
+              "why": "Fixed costs are central to it."
+            },
+            {
+              "text": "It can't be computed in dollars.",
+              "correct": false,
+              "why": "The SBA gives a dollar formula."
+            },
+            {
+              "text": "Lenders don't use it.",
+              "correct": false,
+              "why": "The SBA says it is usually required by investors and lenders."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Break-even tells you…",
+        "Operating leverage means…",
+        "The trap is…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Break-even point",
+      "publisher": "U.S. Small Business Administration",
+      "url": "https://www.sba.gov/breakevenpointcalculator",
+      "supports": "Break-even is where total cost equals total revenue; fixed costs ÷ (price − variable cost) = break-even units; contribution margin; fixed vs. variable costs; adding about 10% for unexpected expenses; why investors and lenders ask for it."
+    }
+  ]
+}

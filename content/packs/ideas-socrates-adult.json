@@ -1,0 +1,150 @@
+{
+  "id": "ideas-socrates-adult",
+  "topic": "ideas",
+  "subject": "socrates",
+  "level": "adult",
+  "title": "Socrates: Method, Evidence, and the Cost of Questions",
+  "emoji": "🦉",
+  "summary": "The Socratic problem as source criticism, and what modern \"Socratic\" teaching leaves out.",
+  "minutes": 8,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🦉",
+      "title": "The patron saint of this app",
+      "text": "A \"Socratic tutor\" is now a product category. The historical Socrates wrote nothing, made powerful people look foolish in public, and was executed by his city. How much of the original survives in the modern label?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🧾",
+      "title": "The evidence problem",
+      "text": "Socrates (469–399 B.C.E.) left no writing. Our three primary sources, Aristophanes's comedy Clouds (423 B.C.E.), Xenophon, and Plato, give accounts that differ in crucial respects. Plato's dialogues, where Socrates is the dominant figure, carry the most weight, which makes \"what Socrates thought\" partly a question about Plato.",
+      "example": "Good analyst practice: weight each source by its incentives and access, and note where the only witness is also the author with an agenda."
+    },
+    {
+      "type": "idea",
+      "emoji": "❓",
+      "title": "The method",
+      "text": "Socrates examined people's lives, his own and others', through question-and-answer, probing what they claimed to know about matters like courage, love, reverence, and moderation. He framed it as a mission and, in Plato's Apology, defended it with \"the unexamined life is not worth living for a human being.\""
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "The cost",
+      "text": "In 399 B.C.E. he was tried for irreverence, which his accuser Meletus said had corrupted the city's young men. He was condemned and drank hemlock. In Plato's telling, Socrates named Aristophanes's caricature as more dangerous than his formal accusers, because it had shaped jurors' views since their youth. Reputation, built years earlier, decided the case."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎓",
+      "title": "The modern label",
+      "text": "The Stanford Encyclopedia notes that today's \"Socratic questioning\" usually means collaborative, interactive learning, without the sting of exposing a disquieting truth that the original involved. It borrows the name for gravitas while dropping the discomfort.",
+      "example": "For a family learning app, that is probably the right trade, but it is worth knowing it is a trade."
+    },
+    {
+      "type": "think",
+      "question": "Socratic questioning works by exposing gaps between what people say and what they can defend. In your company, who is allowed to do that to senior leaders, and what happens to them?",
+      "nudges": [
+        "Where is your organization's \"Clouds\": the caricature that shapes judgment before the evidence arrives?",
+        "How much discomfort is productive at a family dinner table?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What is the core of \"the Socratic problem\"?",
+          "options": [
+            {
+              "text": "Primary sources (Aristophanes, Xenophon, Plato) differ, so the historical Socrates is uncertain.",
+              "correct": true,
+              "why": "A source-criticism problem."
+            },
+            {
+              "text": "Socrates's own writings were lost.",
+              "correct": false,
+              "why": "He wrote nothing to lose."
+            },
+            {
+              "text": "Plato invented Socrates.",
+              "correct": false,
+              "why": "He was a real Athenian; the question is how accurate the portraits are."
+            },
+            {
+              "text": "Translations of Greek are unreliable.",
+              "correct": false,
+              "why": "Not the core issue."
+            }
+          ]
+        },
+        {
+          "q": "According to Plato's Apology, which did Socrates call more dangerous than his formal accusers?",
+          "options": [
+            {
+              "text": "Aristophanes, whose comedy shaped jurors' views from youth",
+              "correct": true,
+              "why": "Reputation formed years earlier."
+            },
+            {
+              "text": "The oracle at Delphi",
+              "correct": false,
+              "why": "He cited the oracle as the source of his mission."
+            },
+            {
+              "text": "Xenophon",
+              "correct": false,
+              "why": "Xenophon was a sympathetic source."
+            },
+            {
+              "text": "Plato",
+              "correct": false,
+              "why": "Plato was his student and chronicler."
+            }
+          ]
+        },
+        {
+          "q": "How does the SEP characterize modern \"Socratic questioning\"?",
+          "options": [
+            {
+              "text": "Collaborative and interactive, usually without the sting of exposing uncomfortable truths",
+              "correct": true,
+              "why": "It borrows the name and drops much of the discomfort."
+            },
+            {
+              "text": "Identical to Socrates's method",
+              "correct": false,
+              "why": "The SEP draws a contrast."
+            },
+            {
+              "text": "Lecture-based instruction",
+              "correct": false,
+              "why": "It is interactive."
+            },
+            {
+              "text": "A method Socrates wrote down for teachers",
+              "correct": false,
+              "why": "He wrote nothing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "What we know about Socrates is limited because…",
+        "His method…",
+        "The modern version differs by…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Socrates",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/socrates/",
+      "supports": "Lived 469–399 B.C.E. and wrote nothing; known through Aristophanes, Xenophon, and Plato, whose accounts differ; question-and-answer examination; \"the unexamined life is not worth living\" (Apology 38a); compared his work to midwifery; charged with irreverence and corrupting the young; died by hemlock; modern \"Socratic\" teaching differs from the original."
+    }
+  ]
+}

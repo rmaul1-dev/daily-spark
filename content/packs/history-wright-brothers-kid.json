@@ -1,0 +1,141 @@
+{
+  "id": "history-wright-brothers-kid",
+  "topic": "history",
+  "subject": "wright-brothers",
+  "level": "kid",
+  "title": "Two Brothers Learn to Fly",
+  "emoji": "✈️",
+  "summary": "How the Wright brothers practiced, tested, and finally flew.",
+  "minutes": 6,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "✈️",
+      "title": "Count to 12",
+      "text": "Count to 12 out loud, slowly. That is how long the very first airplane flight lasted. It happened on December 17, 1903."
+    },
+    {
+      "type": "idea",
+      "emoji": "🚲",
+      "title": "Bike shop builders",
+      "text": "Wilbur and Orville Wright lived in Dayton, Ohio, and ran a bicycle shop. In 1896 they started to study flying for real. They read all they could find, and Wilbur even wrote to the Smithsonian to ask for more."
+    },
+    {
+      "type": "idea",
+      "emoji": "🪁",
+      "title": "Practice first",
+      "text": "Before they added an engine, the brothers built gliders. In 1902 alone, they made between 700 and 1,000 glides. They learned to steer by twisting the tips of the wings.",
+      "example": "Wilbur said, \"It is possible to fly without motors, but not without knowledge and skill.\""
+    },
+    {
+      "type": "idea",
+      "emoji": "🌬️",
+      "title": "Test, fail, fix",
+      "text": "Their early gliders did not lift as much as the math said they should. So in 1901 they built a small wind tunnel. They tested lots of tiny wing shapes and wrote down what really happened.",
+      "example": "Their next glider, built with the new numbers, worked much better."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏖️",
+      "title": "The big day",
+      "text": "At Kitty Hawk, North Carolina, Orville flew for 12 seconds and went 120 feet. Later that day, Wilbur flew 852 feet in 59 seconds. Then a gust of wind flipped the plane. It never flew again, but you can see it in a museum in Washington, D.C."
+    },
+    {
+      "type": "think",
+      "question": "The Wright brothers failed many times before they flew. Why do you think they kept going?",
+      "nudges": [
+        "What did each mistake teach them?",
+        "Think of something you got better at by messing up first."
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What did the Wright brothers do before they added an engine?",
+          "options": [
+            {
+              "text": "They built and flew gliders.",
+              "correct": true,
+              "why": "Yes! Hundreds of glides taught them how to control a plane."
+            },
+            {
+              "text": "They bought a plane from a store.",
+              "correct": false,
+              "why": "There were no airplanes to buy yet. They had to invent one."
+            },
+            {
+              "text": "They flew a hot-air balloon.",
+              "correct": false,
+              "why": "Balloons were different. The brothers practiced with gliders."
+            }
+          ]
+        },
+        {
+          "q": "Why did they build a wind tunnel?",
+          "options": [
+            {
+              "text": "Their gliders did not lift as much as the math said, so they tested wing shapes.",
+              "correct": true,
+              "why": "Right. They checked the numbers for themselves."
+            },
+            {
+              "text": "To make wind at Kitty Hawk",
+              "correct": false,
+              "why": "Kitty Hawk already had strong, steady winds. That is why they went there."
+            },
+            {
+              "text": "To keep the engine cool",
+              "correct": false,
+              "why": "The tunnel was for testing small wings, not the engine."
+            }
+          ]
+        },
+        {
+          "q": "How long was the very first flight?",
+          "options": [
+            {
+              "text": "12 seconds",
+              "correct": true,
+              "why": "Correct. Short, but it was a real powered flight with a pilot."
+            },
+            {
+              "text": "12 minutes",
+              "correct": false,
+              "why": "Much shorter than that. It was 12 seconds."
+            },
+            {
+              "text": "One hour",
+              "correct": false,
+              "why": "Long flights came later. In 1905 Wilbur flew for 39 minutes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The Wright brothers were…",
+        "Before flying, they…",
+        "I think the lesson is…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "1903: The First Flight",
+      "publisher": "National Park Service, Wright Brothers National Memorial",
+      "url": "https://www.nps.gov/wrbr/learn/historyculture/thefirstflight.htm",
+      "supports": "Over a thousand glides; Wilbur's quote on knowledge and skill; their own engine and propellers; the coin toss; 27-mph wind, 6.8-mph groundspeed, 34-mph airspeed; 120 feet and 852 feet in 59 seconds."
+    },
+    {
+      "title": "1903 Wright Flyer",
+      "publisher": "Smithsonian National Air and Space Museum",
+      "url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000",
+      "supports": "Four-year research program from 1899; letter to the Smithsonian; wing warping; the 1901 wind tunnel; 700 to 1,000 glides in 1902; Charles Taylor and the 12-horsepower engine; 12-second first flight; the 1905 39-minute flight."
+    }
+  ]
+}

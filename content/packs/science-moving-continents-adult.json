@@ -1,0 +1,162 @@
+{
+  "id": "science-moving-continents-adult",
+  "topic": "science",
+  "subject": "moving-continents",
+  "level": "adult",
+  "title": "Plate Tectonics: How a Paradigm Flipped",
+  "emoji": "🌋",
+  "summary": "Evidence vs. mechanism, the sea-floor data, and what is still unresolved.",
+  "minutes": 8,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌋",
+      "title": "Evidence without mechanism",
+      "text": "Wegener's 1912 continental drift had real evidence and was still largely dismissed for decades. Was the field being stubborn, or rational?"
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Why rejection was defensible",
+      "text": "Wegener's data (coastline fit, matching fossils, coal in Antarctica, glacial deposits in now-arid Africa) were suggestive. But his mechanism, continents plowing through oceanic crust, was physically implausible, as Harold Jeffreys argued. Science weighs an idea's explanatory \"how\" heavily, and this one failed."
+    },
+    {
+      "type": "idea",
+      "emoji": "📡",
+      "title": "New instruments, new data",
+      "text": "Echo-sounding after World War I showed a rugged sea floor. In 1947 the research ship Atlantis found the Atlantic's sediment far thinner than expected for an ocean billions of years old. By the 1950s, surveys revealed a global mid-ocean ridge more than 50,000 km long.",
+      "example": "Magnetometers adapted from WWII submarine detection then revealed zebra-like magnetic striping on the sea floor."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧲",
+      "title": "The prediction that held",
+      "text": "Seafloor spreading predicted that rocks would be youngest at the ridge crest and older with distance, that the youngest would have present-day polarity, and that stripes would be symmetric. All three held. In 1968, Glomar Challenger drill cores dated by fossils and isotopes clinched it.",
+      "svg": "<svg viewBox=\"0 0 300 128\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Matching magnetic stripes on both sides of a ridge\"><rect x=\"142\" y=\"10\" width=\"16\" height=\"100\" fill=\"#ef4444\"/><rect x=\"158\" y=\"10\" width=\"14\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"128\" y=\"10\" width=\"14\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"172\" y=\"10\" width=\"22\" height=\"100\" fill=\"#fde7c2\"/><rect x=\"106\" y=\"10\" width=\"22\" height=\"100\" fill=\"#fde7c2\"/><rect x=\"194\" y=\"10\" width=\"12\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"94\" y=\"10\" width=\"12\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"206\" y=\"10\" width=\"26\" height=\"100\" fill=\"#fde7c2\"/><rect x=\"68\" y=\"10\" width=\"26\" height=\"100\" fill=\"#fde7c2\"/><rect x=\"232\" y=\"10\" width=\"18\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"50\" y=\"10\" width=\"18\" height=\"100\" fill=\"#f59e0b\"/><path d=\"M150 118 l-40 0 m6 -5 l-6 5 l6 5 M150 118 l40 0 m-6 -5 l6 5 l-6 5\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/></svg>"
+    },
+    {
+      "type": "idea",
+      "emoji": "📏",
+      "title": "Rates, and an open question",
+      "text": "Spreading rates range from under 2.5 cm per year (Arctic Ridge) to over 15 cm per year (East Pacific Rise). The San Andreas slips about 5 cm per year on average. Yet USGS notes that what drives the plates, the very question Wegener could not answer, is still debated."
+    },
+    {
+      "type": "think",
+      "question": "A field rejected a correct conclusion for decades because the proposed mechanism was wrong. In investing or operations, when should you act on a pattern you can't yet explain?",
+      "nudges": [
+        "What is the cost of being early and wrong vs. late and right?",
+        "What evidence would make a mechanism unnecessary for a decision?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Which finding most directly supported seafloor spreading?",
+          "options": [
+            {
+              "text": "Symmetric magnetic stripes, with the youngest rock at the ridge crest",
+              "correct": true,
+              "why": "Yes. It matched the hypothesis's specific predictions."
+            },
+            {
+              "text": "The fit of South America and Africa",
+              "correct": false,
+              "why": "That supported drift, but it was Wegener's older evidence and did not show a mechanism."
+            },
+            {
+              "text": "Coal deposits in Antarctica",
+              "correct": false,
+              "why": "Climate evidence for drift, not for spreading."
+            },
+            {
+              "text": "The height of the Himalayas",
+              "correct": false,
+              "why": "Explained by plate collision, but not the key spreading evidence."
+            }
+          ]
+        },
+        {
+          "q": "What was Harold Jeffreys's objection?",
+          "options": [
+            {
+              "text": "Solid continents could not plow through oceanic crust without breaking up.",
+              "correct": true,
+              "why": "Right, and he was correct about that mechanism."
+            },
+            {
+              "text": "Fossils could have floated across the ocean.",
+              "correct": false,
+              "why": "Wegener argued the organisms could not have crossed. Jeffreys's objection was physical."
+            },
+            {
+              "text": "Earth is expanding.",
+              "correct": false,
+              "why": "The expanding-Earth idea came up later and lacked a mechanism too."
+            },
+            {
+              "text": "Magnetic stripes were random.",
+              "correct": false,
+              "why": "Stripes were found later. Jeffreys argued about mechanics."
+            }
+          ]
+        },
+        {
+          "q": "Per USGS, which question remains debated?",
+          "options": [
+            {
+              "text": "The nature of the forces that drive the plates",
+              "correct": true,
+              "why": "Ironically, Wegener's unanswered question."
+            },
+            {
+              "text": "Whether the sea floor spreads",
+              "correct": false,
+              "why": "Settled by drill-core dating by 1968 and later work."
+            },
+            {
+              "text": "Whether Pangaea existed",
+              "correct": false,
+              "why": "Widely accepted."
+            },
+            {
+              "text": "Whether the Atlantic is widening",
+              "correct": false,
+              "why": "Measured spreading shows it is."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The idea was rejected because…",
+        "What changed the verdict was…",
+        "The decision lesson is…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Historical perspective (This Dynamic Earth)",
+      "publisher": "U.S. Geological Survey",
+      "url": "https://pubs.usgs.gov/gip/dynamic/historical.html",
+      "supports": "Ortelius in 1596; Wegener's 1912 continental drift; matching coastlines and fossils; coal in Antarctica; the missing force; Wegener's death in 1930; the open question of what drives plates."
+    },
+    {
+      "title": "Developing the theory (This Dynamic Earth)",
+      "publisher": "U.S. Geological Survey",
+      "url": "https://pubs.usgs.gov/gip/dynamic/developing.html",
+      "supports": "Echo-sounding and the mid-ocean ridge (more than 50,000 km long); thin seafloor sediment found in 1947; zebra-like magnetic striping; seafloor spreading; the 1968 Glomar Challenger drill cores."
+    },
+    {
+      "title": "Understanding plate motions (This Dynamic Earth)",
+      "publisher": "U.S. Geological Survey",
+      "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+      "supports": "Mid-Atlantic Ridge spreading of about 2.5 cm per year; rates from under 2.5 to over 15 cm per year; the San Andreas Fault at about 5 cm per year."
+    }
+  ]
+}

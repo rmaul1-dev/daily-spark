@@ -1,0 +1,143 @@
+{
+  "id": "history-wright-brothers-teen",
+  "topic": "history",
+  "subject": "wright-brothers",
+  "level": "teen",
+  "title": "The Wright Way: Engineering by Experiment",
+  "emoji": "🛠️",
+  "summary": "Control, bad data, and a propeller that is really a spinning wing.",
+  "minutes": 7,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🛠️",
+      "title": "The underdogs",
+      "text": "Samuel Langley had government money and the newspapers watching. Two bicycle makers from Ohio worked in near obscurity. The bike makers flew first. How?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🎮",
+      "title": "Control was the real problem",
+      "text": "Glider pioneer Otto Lilienthal steered by shifting his body weight. The Wrights twisted the wing tips in opposite directions (\"wing warping\"). One side then made more lift than the other, which banked the plane.",
+      "example": "They tested the idea on a kite with a five-foot wingspan in 1899 before risking a person."
+    },
+    {
+      "type": "idea",
+      "emoji": "📊",
+      "title": "When the data is wrong",
+      "text": "Their 1900 and 1901 gliders made much less lift than published data predicted. Instead of guessing, they built a wind tunnel in fall 1901 with instruments to measure lift and drag on small model wings.",
+      "example": "Their 1902 glider, built from their own data, made 700 to 1,000 flights. The best went 622.5 feet in 26 seconds."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌀",
+      "title": "A propeller is a spinning wing",
+      "text": "Boat propeller theory did not help much. The Wrights treated a propeller as a wing turned on its side and spun, making \"lift\" that pushes forward. The 1903 Flyer had two propellers turning in opposite directions to cancel a twisting force.",
+      "example": "They built their own 12-horsepower engine with their bicycle shop mechanic, Charles Taylor."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧮",
+      "title": "Do the math",
+      "text": "On December 17, 1903, the wind was 27 mph. Orville's groundspeed was only 6.8 mph, so his airspeed was about 34 mph. Lift depends on air moving over the wings, so a headwind helps you get airborne.",
+      "example": "Flight 1: 120 feet in 12 seconds. Flight 4, with Wilbur: 852 feet in 59 seconds."
+    },
+    {
+      "type": "think",
+      "question": "Langley relied on raw power. The Wrights relied on control and skill. In golf, soccer, or a business you'd start, what is the \"control problem\" people overlook?",
+      "nudges": [
+        "Is distance or accuracy the bigger problem for most golfers?",
+        "What would your version of a wind tunnel be: a cheap test before the big bet?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Into a 27-mph headwind, Orville's groundspeed was 6.8 mph. About what was his airspeed?",
+          "options": [
+            {
+              "text": "About 34 mph",
+              "correct": true,
+              "why": "Yes: 27 + 6.8 is about 34. The air moved over the wings at about 34 mph."
+            },
+            {
+              "text": "About 20 mph",
+              "correct": false,
+              "why": "That subtracts the numbers. Into a headwind, airspeed is groundspeed plus wind speed."
+            },
+            {
+              "text": "6.8 mph",
+              "correct": false,
+              "why": "That is speed over the sand. The wings \"feel\" the air, which was moving toward them too."
+            }
+          ]
+        },
+        {
+          "q": "What was \"wing warping\"?",
+          "options": [
+            {
+              "text": "Twisting the wing tips so one side lifts more and the plane banks",
+              "correct": true,
+              "why": "Right. It steers with air forces instead of body weight."
+            },
+            {
+              "text": "Shifting the pilot's body weight",
+              "correct": false,
+              "why": "That was Lilienthal's method. The Wrights wanted something that worked on bigger aircraft."
+            },
+            {
+              "text": "Flapping the wings like a bird",
+              "correct": false,
+              "why": "The wings did not flap. They twisted slightly at the tips."
+            }
+          ]
+        },
+        {
+          "q": "Why did the Wrights build a wind tunnel?",
+          "options": [
+            {
+              "text": "Their gliders made less lift than the published data predicted.",
+              "correct": true,
+              "why": "Exactly. They tested the numbers instead of trusting them."
+            },
+            {
+              "text": "To test the engine",
+              "correct": false,
+              "why": "The tunnel measured lift and drag on model wings."
+            },
+            {
+              "text": "To show reporters",
+              "correct": false,
+              "why": "They worked mostly out of the public eye. The tunnel was for data."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The Wrights solved control by…",
+        "When their data was wrong, they…",
+        "One idea I can use is…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "1903: The First Flight",
+      "publisher": "National Park Service, Wright Brothers National Memorial",
+      "url": "https://www.nps.gov/wrbr/learn/historyculture/thefirstflight.htm",
+      "supports": "Over a thousand glides; Wilbur's quote on knowledge and skill; their own engine and propellers; the coin toss; 27-mph wind, 6.8-mph groundspeed, 34-mph airspeed; 120 feet and 852 feet in 59 seconds."
+    },
+    {
+      "title": "1903 Wright Flyer",
+      "publisher": "Smithsonian National Air and Space Museum",
+      "url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000",
+      "supports": "Four-year research program from 1899; letter to the Smithsonian; wing warping; the 1901 wind tunnel; 700 to 1,000 glides in 1902; Charles Taylor and the 12-horsepower engine; 12-second first flight; the 1905 39-minute flight."
+    }
+  ]
+}

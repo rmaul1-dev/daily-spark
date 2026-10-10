@@ -1,0 +1,156 @@
+{
+  "id": "money-compound-interest-adult",
+  "topic": "money",
+  "subject": "compound-interest",
+  "level": "adult",
+  "title": "Compounding: The Arithmetic and the Leaks",
+  "emoji": "🧾",
+  "summary": "Rule-of-72 precision, fee drag, and teaching it at the kitchen table.",
+  "minutes": 8,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧾",
+      "title": "The 1% that isn't small",
+      "text": "A 1% annual fee sounds like a rounding error. Over 30 years at a 7% gross return, it takes roughly a quarter of the ending value. Why is the intuition so far off?"
+    },
+    {
+      "type": "idea",
+      "emoji": "📐",
+      "title": "Rule of 72, checked",
+      "text": "Exact doubling time is ln 2 ÷ ln(1 + r). At 9%: 0.693 ÷ 0.0862 ≈ 8.04 years, versus 72 ÷ 9 = 8. With continuous compounding the constant is 69.3. 72 is a convenient, slightly high stand-in that divides cleanly by 2, 3, 4, 6, 8, 9, and 12."
+    },
+    {
+      "type": "idea",
+      "emoji": "🩸",
+      "title": "Fee drag",
+      "text": "$1 at 7% for 30 years grows to 1.07³⁰ ≈ 7.61. At 6% (7% minus a 1% fee), 1.06³⁰ ≈ 5.74. The fee costs about 25% of terminal wealth, not 1%, because it compounds against you every year.",
+      "example": "Same logic for taxes on turnover and for cash drag: small rate gaps, huge terminal gaps."
+    },
+    {
+      "type": "idea",
+      "emoji": "⏳",
+      "title": "Back-loaded payoffs",
+      "text": "$100 at 5% gains about $63 in years 1 to 10 and about $176 in years 11 to 25. Most dollar gains arrive late, so interruptions (withdrawals, panic selling, starting late) cost most at the end, where they are least visible in advance."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧒",
+      "title": "Teaching it",
+      "text": "Investor.gov's classroom version: skip a $2 slice a day, save $730, invest at 5%. That is $931.69 after 5 years and $3,155.02 after 30. Kids feel the sacrifice now and see the payoff later, which is the whole psychological problem in one example.",
+      "example": "Investor.gov's free calculator lets the girls test their own numbers."
+    },
+    {
+      "type": "think",
+      "question": "Where else in your work does a small recurring rate (churn, defect rate, fee, error rate) compound into a large terminal effect that people underweight?",
+      "nudges": [
+        "Translate one \"small\" annual rate into a 10-year multiplier.",
+        "Which of these leaks is actually controllable?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "At a 7% gross return, a 1% annual fee over 30 years reduces terminal wealth by about…",
+          "options": [
+            {
+              "text": "25%",
+              "correct": true,
+              "why": "5.74 ÷ 7.61 ≈ 0.75."
+            },
+            {
+              "text": "1%",
+              "correct": false,
+              "why": "The fee compounds every year, so the loss is far larger."
+            },
+            {
+              "text": "7%",
+              "correct": false,
+              "why": "Too small. Compute 1.06³⁰ ÷ 1.07³⁰."
+            },
+            {
+              "text": "50%",
+              "correct": false,
+              "why": "Too large for a 1-point gap over 30 years."
+            }
+          ]
+        },
+        {
+          "q": "Exact doubling time at 9% annual compounding is about…",
+          "options": [
+            {
+              "text": "8.04 years",
+              "correct": true,
+              "why": "ln 2 ÷ ln 1.09 ≈ 8.04; the Rule of 72 says 8."
+            },
+            {
+              "text": "7.2 years",
+              "correct": false,
+              "why": "That would be the Rule of 72 at 10%."
+            },
+            {
+              "text": "9 years",
+              "correct": false,
+              "why": "Too long."
+            },
+            {
+              "text": "6.9 years",
+              "correct": false,
+              "why": "That is closer to the continuous-compounding constant at 10%."
+            }
+          ]
+        },
+        {
+          "q": "Why is the constant 69.3 for continuous compounding?",
+          "options": [
+            {
+              "text": "Because ln 2 ≈ 0.693",
+              "correct": true,
+              "why": "Doubling time = ln 2 ÷ r with continuous compounding."
+            },
+            {
+              "text": "Because 72 minus 2.7 for inflation",
+              "correct": false,
+              "why": "Inflation is not part of the derivation."
+            },
+            {
+              "text": "By convention only",
+              "correct": false,
+              "why": "It comes from ln 2."
+            },
+            {
+              "text": "Because of daily compounding",
+              "correct": false,
+              "why": "Daily compounding is close to continuous, but 69.3 comes from ln 2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Compounding works against you when…",
+        "The Rule of 72 is…",
+        "I'll explain it to the girls by…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "What is compound interest?",
+      "publisher": "Investor.gov (U.S. Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/additional-resources/information/youth/teachers-classroom-resources/what-compound-interest",
+      "supports": "$100 at 5% becomes $105, then $110.25, more than $162 in 10 years, and almost $340 in 25 years; the Rule of 72 (9% doubles in about 8 years); the $730 pizza-savings example ($931.69 after 5 years, $3,155.02 after 30)."
+    },
+    {
+      "title": "Compound Interest Calculator",
+      "publisher": "Investor.gov (U.S. Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator",
+      "supports": "A free official calculator to try your own starting amount, monthly additions, rate, and years."
+    }
+  ]
+}

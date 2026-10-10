@@ -1,0 +1,141 @@
+{
+  "id": "space-apollo-11-kid",
+  "topic": "space",
+  "subject": "apollo-11",
+  "level": "kid",
+  "title": "Footprints on the Moon",
+  "emoji": "🌕",
+  "summary": "The day people first walked on the Moon, and the thousands who made it happen.",
+  "minutes": 6,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌕",
+      "title": "30 seconds to spare",
+      "text": "When the first spaceship to carry people landed on the Moon, it had only about 30 seconds of fuel left. What happened in those last tense minutes?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🚀",
+      "title": "The big rocket",
+      "text": "On July 16, 1969, three astronauts blasted off from Florida on a Saturn V rocket. It was 363 feet tall. That is taller than a football field is long!",
+      "example": "The crew was Neil Armstrong, Buzz Aldrin, and Michael Collins."
+    },
+    {
+      "type": "idea",
+      "emoji": "🦅",
+      "title": "The Eagle has landed",
+      "text": "Four days later, Armstrong and Aldrin flew a small lander called Eagle down to the Moon. Collins stayed in orbit in the main ship, Columbia. Armstrong steered by hand past a field of big boulders. Then he radioed, \"The Eagle has landed.\""
+    },
+    {
+      "type": "idea",
+      "emoji": "👣",
+      "title": "One small step",
+      "text": "That night, Armstrong climbed down the ladder and stepped onto the Moon. He said, \"That's one small step for a man, one giant leap for mankind.\" More than half a billion people watched on TV.",
+      "example": "Aldrin joined him. They explored for about two and a half hours, collected rocks, and took photos."
+    },
+    {
+      "type": "idea",
+      "emoji": "🤝",
+      "title": "A giant team",
+      "text": "Years later, Armstrong said \"hundreds of thousands\" of people made the mission work. Each one tried hard to make sure nothing went wrong because of them. The crew splashed down safely in the Pacific Ocean on July 24."
+    },
+    {
+      "type": "think",
+      "question": "Only two people walked on the Moon that day, but hundreds of thousands helped. Why do you think so many people were needed? Who gets the credit?",
+      "nudges": [
+        "Think about everything a trip to the Moon needs.",
+        "Is there a job you do on a team that nobody sees?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Who was the first person to walk on the Moon?",
+          "options": [
+            {
+              "text": "Neil Armstrong",
+              "correct": true,
+              "why": "Yes! Buzz Aldrin followed him about 20 minutes later."
+            },
+            {
+              "text": "Michael Collins",
+              "correct": false,
+              "why": "Collins stayed in orbit around the Moon in Columbia."
+            },
+            {
+              "text": "Buzz Aldrin",
+              "correct": false,
+              "why": "Aldrin was second. Armstrong went first."
+            }
+          ]
+        },
+        {
+          "q": "What did Armstrong do when Eagle was about to land?",
+          "options": [
+            {
+              "text": "He steered by hand past big boulders.",
+              "correct": true,
+              "why": "Right. That used up fuel, so they landed with about 30 seconds left."
+            },
+            {
+              "text": "He turned around and went home.",
+              "correct": false,
+              "why": "He kept going and landed safely."
+            },
+            {
+              "text": "He let the computer do everything.",
+              "correct": false,
+              "why": "He took over and steered by hand."
+            }
+          ]
+        },
+        {
+          "q": "How many people did Armstrong say helped the mission?",
+          "options": [
+            {
+              "text": "Hundreds of thousands",
+              "correct": true,
+              "why": "Yes. It took a giant team."
+            },
+            {
+              "text": "Three",
+              "correct": false,
+              "why": "Three astronauts flew, but many more people made it work."
+            },
+            {
+              "text": "About ten",
+              "correct": false,
+              "why": "Way more! He said hundreds of thousands."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "In 1969, three astronauts…",
+        "Armstrong and Aldrin…",
+        "It took…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "July 20, 1969: One Giant Leap For Mankind",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/history/july-20-1969-one-giant-leap-for-mankind/",
+      "supports": "The 363-foot Saturn V with 7.5 million pounds of thrust; Armstrong manually flying past boulders; computer alarms; landing at 4:17 p.m. EDT with about 30 seconds of fuel left; the first step at 10:56 p.m.; \"magnificent desolation\"; the plaque; \"hundreds of thousands\" of workers; 10 more moonwalkers."
+    },
+    {
+      "title": "Apollo 11 Mission Overview",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/history/apollo-11-mission-overview/",
+      "supports": "Kennedy's 1961 goal; crew roles; launch July 16, 1969; an estimated 650 million viewers; landing about four miles downrange after maneuvering to avoid a crater; 21 hours 36 minutes on the surface; experiments left behind; splashdown July 24 after 195 hours, 18 minutes."
+    }
+  ]
+}

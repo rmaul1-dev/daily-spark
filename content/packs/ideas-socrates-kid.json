@@ -1,0 +1,134 @@
+{
+  "id": "ideas-socrates-kid",
+  "topic": "ideas",
+  "subject": "socrates",
+  "level": "kid",
+  "title": "The Man Who Asked Questions",
+  "emoji": "🏛️",
+  "summary": "Socrates helped people think by asking questions, not by giving answers.",
+  "minutes": 6,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "❓",
+      "title": "Questions instead of answers",
+      "text": "What if your teacher never told you the answer, and only asked you questions until you figured it out yourself? That is how a famous thinker named Socrates taught."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏛️",
+      "title": "Who was Socrates?",
+      "text": "Socrates lived in Athens, in ancient Greece, about 2,400 years ago. He loved to talk with people in the city about big questions, like what courage is, or what love is."
+    },
+    {
+      "type": "idea",
+      "emoji": "✍️",
+      "title": "He never wrote a book",
+      "text": "Socrates did not write anything down. We know about him from other people who wrote about him. The most famous one is his student Plato. Their stories do not always agree. So experts still argue about what he was really like."
+    },
+    {
+      "type": "idea",
+      "emoji": "🤝",
+      "title": "A helper for ideas",
+      "text": "Socrates compared his work to the job of a midwife, a person who helps babies be born. He said he helped people bring out their own ideas. He did this by asking one question after another.",
+      "example": "He also said that a life you never stop to think about is not worth living."
+    },
+    {
+      "type": "idea",
+      "emoji": "😬",
+      "title": "Not everyone liked it",
+      "text": "Some people in Athens got annoyed when his questions showed they did not know as much as they thought. In the end, he was put on trial. People still argue about whether that was fair."
+    },
+    {
+      "type": "think",
+      "question": "Why might a good question help you learn more than just being told the answer?",
+      "nudges": [
+        "Think of a time you figured something out yourself.",
+        "How did it feel compared to being told?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "How did Socrates mostly teach?",
+          "options": [
+            {
+              "text": "By asking questions",
+              "correct": true,
+              "why": "Yes! He helped people find and test their own ideas."
+            },
+            {
+              "text": "By writing long books",
+              "correct": false,
+              "why": "He never wrote anything down."
+            },
+            {
+              "text": "By giving tests",
+              "correct": false,
+              "why": "He used conversation and questions."
+            }
+          ]
+        },
+        {
+          "q": "How do we know about Socrates today?",
+          "options": [
+            {
+              "text": "Other people, like his student Plato, wrote about him.",
+              "correct": true,
+              "why": "Right. That is why experts still debate what he was really like."
+            },
+            {
+              "text": "He wrote his own life story.",
+              "correct": false,
+              "why": "Socrates did not write anything."
+            },
+            {
+              "text": "From videos",
+              "correct": false,
+              "why": "He lived about 2,400 years ago, long before cameras!"
+            }
+          ]
+        },
+        {
+          "q": "Socrates compared himself to a midwife. What did he mean?",
+          "options": [
+            {
+              "text": "He helped other people bring out their own ideas.",
+              "correct": true,
+              "why": "Yes. The ideas came from them, with his help."
+            },
+            {
+              "text": "He worked in a hospital.",
+              "correct": false,
+              "why": "It was a comparison. He helped ideas, not babies."
+            },
+            {
+              "text": "He wanted to be a doctor.",
+              "correct": false,
+              "why": "It was a way to describe how he taught."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Socrates was…",
+        "He taught by…",
+        "I think questions help because…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Socrates",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/socrates/",
+      "supports": "Lived 469–399 B.C.E. and wrote nothing; known through Aristophanes, Xenophon, and Plato, whose accounts differ; question-and-answer examination; \"the unexamined life is not worth living\" (Apology 38a); compared his work to midwifery; charged with irreverence and corrupting the young; died by hemlock; modern \"Socratic\" teaching differs from the original."
+    }
+  ]
+}

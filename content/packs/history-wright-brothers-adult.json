@@ -1,0 +1,157 @@
+{
+  "id": "history-wright-brothers-adult",
+  "topic": "history",
+  "subject": "wright-brothers",
+  "level": "adult",
+  "title": "Why the Wrights Won: R&D Lessons, 1899–1905",
+  "emoji": "🔬",
+  "summary": "Problem decomposition, distrust of inherited data, and capital efficiency.",
+  "minutes": 8,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🔬",
+      "title": "Funding vs. method",
+      "text": "Langley had War Department underwriting, Smithsonian prestige, and a stronger engine. The Wrights had a Dayton bicycle shop and a four-year R&D program. Which advantage actually mattered?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🧱",
+      "title": "Decompose the problem",
+      "text": "Flight needs lift, control, and propulsion. The Wrights sequenced them: control first (the 1899 wing-warping kite), then lift data (the 1901 wind tunnel), propulsion last (1903). Per the Park Service, Langley \"relied on brute power\" to keep theoretically stable machines aloft.",
+      "example": "The Wrights' premise was that a pilot must actively fly the machine. Their 1,000-plus glides made them the first true pilots before they ever added an engine."
+    },
+    {
+      "type": "idea",
+      "emoji": "📉",
+      "title": "Distrust inherited data",
+      "text": "The 1900 and 1901 gliders produced substantially less lift than their calculations predicted. They built a wind tunnel in fall 1901 whose instruments measured lift and drag coefficients, the exact terms in the equations they doubted.",
+      "example": "The 1902 glider, designed from their own data, made 700 to 1,000 flights. That is model-versus-reality reconciliation before scaling."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔧",
+      "title": "Capital efficiency",
+      "text": "They chose Kitty Hawk after asking the U.S. Weather Bureau about strong, steady winds and sand. Finding no light enough commercial engine, they built a 12-horsepower one with mechanic Charles Taylor. It was cruder and weaker than Langley's, but efficient wings and propellers meant less power was needed.",
+      "example": "The propellers, designed from tunnel data as rotating wings, are called one of their most original, purely scientific achievements."
+    },
+    {
+      "type": "idea",
+      "emoji": "📆",
+      "title": "Demo is not product",
+      "text": "December 17, 1903: 12 seconds and 120 feet, then 852 feet in 59 seconds. A gust then wrecked the Flyer. Refined aircraft followed in 1904 and 1905. On October 5, 1905, Wilbur flew 39 minutes and 24.5 miles over a closed course."
+    },
+    {
+      "type": "think",
+      "question": "The Wrights' edge was a tight build-test-learn loop and taking nothing on authority. Where is your organization's \"published data\" quietly wrong, and what would a cheap wind tunnel look like?",
+      "nudges": [
+        "Which assumption do you inherit and never test?",
+        "What is the smallest experiment that would falsify it?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Which achievement does the Park Service call one of the Wrights' most original and purely scientific?",
+          "options": [
+            {
+              "text": "Designing the first efficient airplane propeller from their tunnel data",
+              "correct": true,
+              "why": "Right. They treated the propeller as a rotating wing."
+            },
+            {
+              "text": "Building the most powerful engine of the era",
+              "correct": false,
+              "why": "Their engine was cruder and less powerful than Langley's."
+            },
+            {
+              "text": "Inventing the launch rail",
+              "correct": false,
+              "why": "Not highlighted that way. The propeller is."
+            },
+            {
+              "text": "Securing War Department funding",
+              "correct": false,
+              "why": "That was Langley's backing, not an achievement of the Wrights."
+            }
+          ]
+        },
+        {
+          "q": "What did the 1901 wind tunnel instruments measure?",
+          "options": [
+            {
+              "text": "Lift and drag coefficients on model wing shapes",
+              "correct": true,
+              "why": "Yes, the terms in the lift and drag equations they doubted."
+            },
+            {
+              "text": "Engine horsepower",
+              "correct": false,
+              "why": "The engine came in 1903. The tunnel was about wing data."
+            },
+            {
+              "text": "Wind speeds at Kitty Hawk",
+              "correct": false,
+              "why": "They got site information from the Weather Bureau. The tunnel tested model wings."
+            },
+            {
+              "text": "Propeller noise",
+              "correct": false,
+              "why": "No. It was aerodynamic coefficients."
+            }
+          ]
+        },
+        {
+          "q": "When did a Wright aircraft show clearly practical, sustained flight?",
+          "options": [
+            {
+              "text": "October 5, 1905: 39 minutes and 24.5 miles",
+              "correct": true,
+              "why": "Right. The 1903 flights proved it possible; 1905 made it practical."
+            },
+            {
+              "text": "December 17, 1903, on the first flight",
+              "correct": false,
+              "why": "That flight lasted 12 seconds. A milestone, not yet a practical aircraft."
+            },
+            {
+              "text": "December 14, 1903",
+              "correct": false,
+              "why": "Wilbur's attempt that day stalled after leaving the rail."
+            },
+            {
+              "text": "1899, with the kite",
+              "correct": false,
+              "why": "The kite tested control and carried no pilot."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The Wrights beat better-funded rivals by…",
+        "The key habit was…",
+        "Where I could apply it…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "1903: The First Flight",
+      "publisher": "National Park Service, Wright Brothers National Memorial",
+      "url": "https://www.nps.gov/wrbr/learn/historyculture/thefirstflight.htm",
+      "supports": "Over a thousand glides; Wilbur's quote on knowledge and skill; their own engine and propellers; the coin toss; 27-mph wind, 6.8-mph groundspeed, 34-mph airspeed; 120 feet and 852 feet in 59 seconds."
+    },
+    {
+      "title": "1903 Wright Flyer",
+      "publisher": "Smithsonian National Air and Space Museum",
+      "url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000",
+      "supports": "Four-year research program from 1899; letter to the Smithsonian; wing warping; the 1901 wind tunnel; 700 to 1,000 glides in 1902; Charles Taylor and the 12-horsepower engine; 12-second first flight; the 1905 39-minute flight."
+    }
+  ]
+}

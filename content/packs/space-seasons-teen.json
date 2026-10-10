@@ -1,0 +1,141 @@
+{
+  "id": "space-seasons-teen",
+  "topic": "space",
+  "subject": "seasons",
+  "level": "teen",
+  "title": "Seasons: Tilt, Not Distance",
+  "emoji": "🌐",
+  "summary": "Testing a common belief against the data.",
+  "minutes": 7,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌐",
+      "title": "Test the belief",
+      "text": "Many people believe summer happens when Earth is closest to the Sun. Here's a test: if that were true, what would we expect Australia's seasons to be compared with the U.S.?"
+    },
+    {
+      "type": "idea",
+      "emoji": "📏",
+      "title": "The distance data",
+      "text": "Earth's orbit is slightly lopsided. Its closest point to the Sun, about 91.4 million miles, comes in January. Its farthest, about 94.5 million miles, comes in July. That is a 3-million-mile difference, but small compared with the whole distance.",
+      "example": "If distance ruled, the whole planet would have summer in January. Instead, the two hemispheres have opposite seasons."
+    },
+    {
+      "type": "idea",
+      "emoji": "📐",
+      "title": "The tilt",
+      "text": "Earth's axis is tilted 23.4 degrees compared with its orbit. The axis keeps pointing the same direction in space all year, so the hemisphere leaning toward the Sun changes as Earth orbits.",
+      "svg": "<svg viewBox=\"0 0 300 140\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Earth tilted toward the Sun in June and away in December\"><circle cx=\"150\" cy=\"70\" r=\"22\" fill=\"#fbbf24\"/><circle cx=\"45\" cy=\"70\" r=\"24\" fill=\"#60a5fa\"/><path d=\"M36 40 L54 100\" stroke=\"#1e293b\" stroke-width=\"3\"/><circle cx=\"255\" cy=\"70\" r=\"24\" fill=\"#60a5fa\"/><path d=\"M246 40 L264 100\" stroke=\"#1e293b\" stroke-width=\"3\"/><path d=\"M75 70 H120 M180 70 H225\" stroke=\"#f59e0b\" stroke-width=\"3\" stroke-dasharray=\"6 5\"/></svg>"
+    },
+    {
+      "type": "idea",
+      "emoji": "🔦",
+      "title": "Why direct rays heat more",
+      "text": "When sunlight hits at a steep angle, its energy is packed into a small area. At a low angle, the same beam spreads over more ground. With the Sun 30 degrees above the horizon, a beam covers twice the area it would straight overhead, so each square meter gets half the energy."
+    },
+    {
+      "type": "idea",
+      "emoji": "💥",
+      "title": "Where the tilt came from",
+      "text": "NASA explains that scientists think a big object, called Theia, hit the young Earth and knocked it off-kilter. Most scientists think debris from that impact became the Moon."
+    },
+    {
+      "type": "think",
+      "question": "A common belief (closer = hotter) feels obvious but fails a simple test. What's another \"obvious\" belief you could test with one piece of data?",
+      "nudges": [
+        "What would you expect to see if it were true?",
+        "Where could you find that data?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Which fact best disproves \"summer happens when Earth is closest to the Sun\"?",
+          "options": [
+            {
+              "text": "The Northern and Southern Hemispheres have opposite seasons at the same time.",
+              "correct": true,
+              "why": "Right. One distance can't make both summer and winter."
+            },
+            {
+              "text": "The Sun is very hot.",
+              "correct": false,
+              "why": "True, but it doesn't test the claim."
+            },
+            {
+              "text": "The Moon orbits Earth.",
+              "correct": false,
+              "why": "Not related to the seasons."
+            }
+          ]
+        },
+        {
+          "q": "How much is Earth's axis tilted?",
+          "options": [
+            {
+              "text": "About 23.4 degrees",
+              "correct": true,
+              "why": "Yes, compared with the plane of its orbit."
+            },
+            {
+              "text": "About 90 degrees",
+              "correct": false,
+              "why": "That would put the poles almost sideways. The real tilt is 23.4 degrees."
+            },
+            {
+              "text": "0 degrees",
+              "correct": false,
+              "why": "With no tilt, we'd have almost no seasons."
+            }
+          ]
+        },
+        {
+          "q": "With the Sun 30° above the horizon, a beam's energy per square meter is about…",
+          "options": [
+            {
+              "text": "Half of what it is straight overhead",
+              "correct": true,
+              "why": "The beam spreads over twice the area (1 ÷ sin 30° = 2)."
+            },
+            {
+              "text": "The same as overhead",
+              "correct": false,
+              "why": "Slanted light spreads out, so each spot gets less."
+            },
+            {
+              "text": "Twice as much as overhead",
+              "correct": false,
+              "why": "It's the opposite: spreading reduces energy per area."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "People think seasons come from…, but…",
+        "The tilt means…",
+        "Slanted light…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "What Causes the Seasons?",
+      "publisher": "NASA Space Place",
+      "url": "https://spaceplace.nasa.gov/seasons/en/",
+      "supports": "Tilt, not distance, causes seasons; the tilted axis keeps pointing the same way; June and December; perihelion (91.4 million miles) in January and aphelion (94.5 million miles) in July; the Theia impact idea."
+    },
+    {
+      "title": "Earth: Facts",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/earth/facts/",
+      "supports": "Earth's axis is tilted 23.4 degrees relative to its orbit, and this tilt causes the yearly cycle of seasons."
+    }
+  ]
+}

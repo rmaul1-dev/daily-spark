@@ -1,0 +1,140 @@
+{
+  "id": "space-apollo-11-teen",
+  "topic": "space",
+  "subject": "apollo-11",
+  "level": "teen",
+  "title": "Apollo 11: Engineering Under Pressure",
+  "emoji": "🛰️",
+  "summary": "A goal, a deadline, and the problems solved in the final minutes.",
+  "minutes": 7,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🛰️",
+      "title": "A goal with a deadline",
+      "text": "On May 25, 1961, President Kennedy set a national goal: land people on the Moon and return them safely to Earth. Eight years later it happened. What does it take to hit a target that big on time?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🚀",
+      "title": "Raw power",
+      "text": "The Saturn V stood 363 feet tall and produced 7.5 million pounds of thrust. Apollo 11 launched on July 16, 1969, at 9:32 a.m. EDT and reached Earth orbit about 12 minutes later."
+    },
+    {
+      "type": "idea",
+      "emoji": "🚨",
+      "title": "Alarms on the way down",
+      "text": "During the final descent, Eagle's computer sounded alarms. It was trying to do too many things at once. Meanwhile, the planned landing spot was littered with boulders, so Armstrong flew part of the landing by hand.",
+      "example": "Eagle landed at 4:17 p.m. EDT on July 20 with only about 30 seconds of fuel left, about four miles past the planned spot."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔬",
+      "title": "Real science",
+      "text": "The mission was not just footprints. Armstrong and Aldrin set up a seismic experiment to detect moonquakes, a laser reflector so scientists on Earth could bounce lasers off the Moon, and a solar wind experiment. They gathered lunar samples to bring home."
+    },
+    {
+      "type": "idea",
+      "emoji": "🛟",
+      "title": "Built-in backup plans",
+      "text": "Apollo 11 flew a \"free-return\" path. If the engine failed on the way out, the spacecraft would loop around the Moon and head back to Earth without firing it. Engineers planned for failure from the start."
+    },
+    {
+      "type": "think",
+      "question": "Armstrong overrode the planned landing spot and used up fuel. When should you trust the plan, and when should you trust your judgment in the moment? Think of a soccer game or a golf shot.",
+      "nudges": [
+        "What did Armstrong know that the plan didn't?",
+        "What made it safe for him to improvise?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Why did Eagle's computer sound alarms during landing?",
+          "options": [
+            {
+              "text": "It was trying to do too many things at once.",
+              "correct": true,
+              "why": "Right. The crew and Mission Control kept going."
+            },
+            {
+              "text": "It ran out of fuel.",
+              "correct": false,
+              "why": "Fuel was low, but the alarms were about the computer being overloaded."
+            },
+            {
+              "text": "A meteor hit the lander.",
+              "correct": false,
+              "why": "No. The computer was overloaded."
+            }
+          ]
+        },
+        {
+          "q": "What was the purpose of the \"free-return\" path?",
+          "options": [
+            {
+              "text": "To swing around the Moon and come home even if the engine failed",
+              "correct": true,
+              "why": "Yes. A safety net built into the route."
+            },
+            {
+              "text": "To save time on the trip home",
+              "correct": false,
+              "why": "It was about safety, not speed."
+            },
+            {
+              "text": "To land on the far side of the Moon",
+              "correct": false,
+              "why": "They landed on the near side, in the Sea of Tranquility."
+            }
+          ]
+        },
+        {
+          "q": "Why did Armstrong fly part of the landing by hand?",
+          "options": [
+            {
+              "text": "The planned spot was covered with boulders.",
+              "correct": true,
+              "why": "Right. He flew past them to a safer spot."
+            },
+            {
+              "text": "The computer was turned off for the whole flight.",
+              "correct": false,
+              "why": "The computer was working, though it sounded alarms."
+            },
+            {
+              "text": "He wanted to land closer to Columbia.",
+              "correct": false,
+              "why": "Columbia was in orbit. He was avoiding boulders."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Apollo 11 met a goal set in…",
+        "The landing was tense because…",
+        "Engineers planned for failure by…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "July 20, 1969: One Giant Leap For Mankind",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/history/july-20-1969-one-giant-leap-for-mankind/",
+      "supports": "The 363-foot Saturn V with 7.5 million pounds of thrust; Armstrong manually flying past boulders; computer alarms; landing at 4:17 p.m. EDT with about 30 seconds of fuel left; the first step at 10:56 p.m.; \"magnificent desolation\"; the plaque; \"hundreds of thousands\" of workers; 10 more moonwalkers."
+    },
+    {
+      "title": "Apollo 11 Mission Overview",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/history/apollo-11-mission-overview/",
+      "supports": "Kennedy's 1961 goal; crew roles; launch July 16, 1969; an estimated 650 million viewers; landing about four miles downrange after maneuvering to avoid a crater; 21 hours 36 minutes on the surface; experiments left behind; splashdown July 24 after 195 hours, 18 minutes."
+    }
+  ]
+}

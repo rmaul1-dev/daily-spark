@@ -1,0 +1,162 @@
+{
+  "id": "body-heart-adult",
+  "topic": "body",
+  "subject": "heart",
+  "level": "adult",
+  "title": "The Heart as a System: Pumps, Valves, Control",
+  "emoji": "⚙️",
+  "summary": "Series circuits, check valves, conduction timing, and where it fails.",
+  "minutes": 8,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "⚙️",
+      "title": "An engineer's view",
+      "text": "Two positive-displacement pumps in series, four check valves, an electrical timing system with a deliberate delay, and a dedicated supply line for the pump's own muscle. What does that design tell you about its failure modes?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🔁",
+      "title": "Pumps in series",
+      "text": "The right heart drives the pulmonary circuit (to the lungs), and the left drives the systemic circuit (to the body). Because blood passes through one and then the other, over time the two sides must move the same volume. The left ventricle generates the high pressure needed for the whole systemic circuit.",
+      "svg": "<svg viewBox=\"0 0 300 130\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Two loops: heart to lungs and heart to body\"><ellipse cx=\"80\" cy=\"65\" rx=\"62\" ry=\"40\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"6\"/><ellipse cx=\"220\" cy=\"65\" rx=\"62\" ry=\"40\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"6\"/><circle cx=\"150\" cy=\"65\" r=\"22\" fill=\"#e11d48\"/><text x=\"150\" y=\"72\" font-size=\"20\" text-anchor=\"middle\">❤️</text><text x=\"40\" y=\"72\" font-size=\"24\" text-anchor=\"middle\">🫁</text><text x=\"262\" y=\"72\" font-size=\"24\" text-anchor=\"middle\">🏃</text></svg>"
+    },
+    {
+      "type": "idea",
+      "emoji": "🚪",
+      "title": "Check valves",
+      "text": "Four valves (tricuspid, pulmonary, mitral, aortic) open and close with each beat to prevent backflow. \"Lub\" is the atrioventricular valves closing; \"dub\" is the aortic and pulmonary valves closing. Valve disease shows up as backflow or obstructed flow."
+    },
+    {
+      "type": "idea",
+      "emoji": "⏱️",
+      "title": "Control system",
+      "text": "The SA node in the right atrium sets the rhythm. The signal crosses the atria, pauses briefly at the AV node so the ventricles can fill, then spreads through the ventricular walls. Rate and force are modulated by the nervous system and hormones. Arrhythmias and conduction disorders are failures of this control layer.",
+      "example": "Resting rate of 60 to 100 bpm is normal. Healthy blood pressure for most adults is usually under 120/80: systolic during ejection, diastolic during filling."
+    },
+    {
+      "type": "idea",
+      "emoji": "🛠️",
+      "title": "Supply and maintenance",
+      "text": "Coronary arteries branch off the aorta to feed the heart muscle itself. During non-REM sleep, heart rate and blood pressure fall and the heart works less hard; a sharp rise on waking has been linked to angina and heart attacks."
+    },
+    {
+      "type": "think",
+      "question": "The heart separates the power layer (muscle), the flow-control layer (valves), the timing layer (conduction), and the supply layer (coronaries). Which of these maps to the weakest layer in a system you run?",
+      "nudges": [
+        "Where would a \"conduction disorder\" show up in your organization?",
+        "What is your system's equivalent of the AV-node delay, a deliberate pause that improves throughput?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What does the AV-node delay accomplish?",
+          "options": [
+            {
+              "text": "It lets the ventricles finish filling before they contract.",
+              "correct": true,
+              "why": "A deliberate pause that improves each stroke."
+            },
+            {
+              "text": "It sets the resting heart rate.",
+              "correct": false,
+              "why": "The SA node sets the rhythm."
+            },
+            {
+              "text": "It closes the aortic valve.",
+              "correct": false,
+              "why": "Valves respond to pressure, not the AV node directly."
+            },
+            {
+              "text": "It increases blood pressure.",
+              "correct": false,
+              "why": "Not its function."
+            }
+          ]
+        },
+        {
+          "q": "The \"dub\" heart sound is produced by…",
+          "options": [
+            {
+              "text": "Closure of the aortic and pulmonary valves",
+              "correct": true,
+              "why": "Right, after the ventricles eject."
+            },
+            {
+              "text": "Closure of the tricuspid and mitral valves",
+              "correct": false,
+              "why": "That is \"lub.\""
+            },
+            {
+              "text": "The SA node firing",
+              "correct": false,
+              "why": "Electrical activity is silent."
+            },
+            {
+              "text": "Blood entering the atria",
+              "correct": false,
+              "why": "Not the source of the sound."
+            }
+          ]
+        },
+        {
+          "q": "Blood pressure \"120 over 80\": what is the 80?",
+          "options": [
+            {
+              "text": "Diastolic pressure, between beats while the heart fills",
+              "correct": true,
+              "why": "Lowest arterial pressure in the cycle."
+            },
+            {
+              "text": "Systolic pressure during ejection",
+              "correct": false,
+              "why": "That is the 120."
+            },
+            {
+              "text": "Heart rate",
+              "correct": false,
+              "why": "Rate is beats per minute, not pressure."
+            },
+            {
+              "text": "Oxygen saturation",
+              "correct": false,
+              "why": "Different measurement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The heart is designed as…",
+        "Each beat is controlled by…",
+        "The failure modes are…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "How Blood Flows through the Heart",
+      "publisher": "National Heart, Lung, and Blood Institute (NIH)",
+      "url": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+      "supports": "Four valves; the path from the body to the right side, to the lungs, to the left side, and out the aorta; the left ventricle's high pressure; coronary arteries feeding the heart muscle."
+    },
+    {
+      "title": "How the Heart Beats",
+      "publisher": "National Heart, Lung, and Blood Institute (NIH)",
+      "url": "https://www.nhlbi.nih.gov/health/heart/heart-beats",
+      "supports": "The \"lub-DUB\" sounds and the valves that make them; how to take your pulse; 60 to 100 beats per minute at rest; faster during exercise; the SA node, AV node, and electrical signal; blood pressure numbers."
+    },
+    {
+      "title": "Why Is Sleep Important?",
+      "publisher": "National Heart, Lung, and Blood Institute (NIH)",
+      "url": "https://www.nhlbi.nih.gov/health/sleep/why-sleep-important",
+      "supports": "Sleep supports growth in children and teens; heart rate and blood pressure fall in non-REM sleep; poor sleep is linked to higher hunger hormones and weaker insulin response."
+    }
+  ]
+}

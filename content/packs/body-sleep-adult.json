@@ -1,0 +1,161 @@
+{
+  "id": "body-sleep-adult",
+  "topic": "body",
+  "subject": "sleep",
+  "level": "adult",
+  "title": "Sleep: Two-Process Regulation and What's Still Unknown",
+  "emoji": "🛌",
+  "summary": "Homeostatic drive, circadian timing, metabolic links, and an honest open question.",
+  "minutes": 8,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🛌",
+      "title": "Essential and unexplained",
+      "text": "NINDS calls quality sleep as essential to survival as food and water, and also says its biological purpose \"remains a mystery.\" What do we actually know about how it is regulated and what it does?"
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Two processes",
+      "text": "Sleep-wake homeostasis tracks sleep need: the drive builds every hour awake and produces longer, deeper sleep after deprivation. Adenosine release promotes sleepiness, and caffeine counteracts it by blocking adenosine. The circadian system, set by the suprachiasmatic nucleus from light signals via the retina, times sleepiness and wakefulness across about 24 hours.",
+      "example": "Light is likely the single greatest external influence, which is why shift work and jet lag create a mismatch between the internal and external clocks."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧠",
+      "title": "Architecture",
+      "text": "A night cycles through three non-REM stages and REM several times. Deep stage 3 dominates the first half; REM begins about 90 minutes in and lengthens toward morning. Memory consolidation most likely requires both. Recent findings suggest a \"housekeeping\" role in clearing toxins that build up while awake."
+    },
+    {
+      "type": "idea",
+      "emoji": "🫀",
+      "title": "Systemic effects",
+      "text": "In non-REM sleep, heart rate and blood pressure fall. Insufficient quality sleep is linked to higher levels of the hunger-regulating hormones leptin and ghrelin and to a reduced response to insulin. Chronic short or poor sleep raises the risk of high blood pressure, cardiovascular disease, diabetes, depression, and obesity."
+    },
+    {
+      "type": "idea",
+      "emoji": "📏",
+      "title": "Dose",
+      "text": "Adults: 7 to 9 hours; adults sleeping under 7 may have more health issues. Teens 13 to 18: 8 to 10 hours. Children 6 to 12: 9 to 12 hours. NINDS adds that individual needs vary considerably at the same age."
+    },
+    {
+      "type": "think",
+      "question": "Sleep is the clearest case of an input everyone knows matters and almost everyone under-invests in. Why? What would change if you treated it like a scheduled operating commitment rather than a residual?",
+      "nudges": [
+        "What is the real cost of the last hour of work at night vs. the first hour of sleep?",
+        "Which household \"light and timing\" levers are cheap to pull?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "How does caffeine reduce sleepiness?",
+          "options": [
+            {
+              "text": "By blocking adenosine signaling",
+              "correct": true,
+              "why": "Correct. It masks homeostatic pressure rather than discharging it."
+            },
+            {
+              "text": "By suppressing melatonin release",
+              "correct": false,
+              "why": "Not the mechanism NINDS describes."
+            },
+            {
+              "text": "By shortening REM latency",
+              "correct": false,
+              "why": "Not the mechanism."
+            },
+            {
+              "text": "By resetting the SCN",
+              "correct": false,
+              "why": "Light, not caffeine, is the main circadian input."
+            }
+          ]
+        },
+        {
+          "q": "When is deep (stage 3) non-REM sleep concentrated?",
+          "options": [
+            {
+              "text": "In longer periods during the first half of the night",
+              "correct": true,
+              "why": "Right. REM periods lengthen toward morning."
+            },
+            {
+              "text": "Evenly across the night",
+              "correct": false,
+              "why": "Stage 3 is front-loaded."
+            },
+            {
+              "text": "Only in the last hour before waking",
+              "correct": false,
+              "why": "REM, not deep sleep, grows later in the night."
+            },
+            {
+              "text": "Only during naps",
+              "correct": false,
+              "why": "It is part of normal nightly cycles."
+            }
+          ]
+        },
+        {
+          "q": "Which changes are linked to insufficient sleep, per NHLBI?",
+          "options": [
+            {
+              "text": "Higher hunger-hormone levels (leptin, ghrelin) and reduced insulin response",
+              "correct": true,
+              "why": "A plausible pathway between short sleep and metabolic risk."
+            },
+            {
+              "text": "Lower blood pressure during the day",
+              "correct": false,
+              "why": "Short sleep is linked to higher risk of high blood pressure."
+            },
+            {
+              "text": "Improved glucose control",
+              "correct": false,
+              "why": "The opposite: reduced response to insulin."
+            },
+            {
+              "text": "More time in REM sleep",
+              "correct": false,
+              "why": "Not the finding cited."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Sleep is regulated by…",
+        "Short sleep affects…",
+        "For our family, I would change…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Brain Basics: Understanding Sleep",
+      "publisher": "National Institute of Neurological Disorders and Stroke (NIH)",
+      "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep",
+      "supports": "We sleep about a third of our time; sleep is needed to form memory pathways; a possible \"housekeeping\" role; sleep stages and REM; circadian rhythm and sleep drive; adenosine, caffeine, melatonin, and light; the purpose of sleep is still partly a mystery."
+    },
+    {
+      "title": "Why Is Sleep Important?",
+      "publisher": "National Heart, Lung, and Blood Institute (NIH)",
+      "url": "https://www.nhlbi.nih.gov/health/sleep/why-sleep-important",
+      "supports": "Sleep supports growth in children and teens; heart rate and blood pressure fall in non-REM sleep; poor sleep is linked to higher hunger hormones and weaker insulin response."
+    },
+    {
+      "title": "How Much Sleep Is Enough?",
+      "publisher": "National Heart, Lung, and Blood Institute (NIH)",
+      "url": "https://www.nhlbi.nih.gov/health/sleep/how-much-sleep",
+      "supports": "Recommended sleep: adults 7 to 9 hours; children 6 to 12, 9 to 12 hours; teens 13 to 18, 8 to 10 hours; adults sleeping under 7 hours may have more health issues."
+    }
+  ]
+}

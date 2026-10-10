@@ -1,0 +1,140 @@
+{
+  "id": "ideas-confirmation-bias-teen",
+  "topic": "ideas",
+  "subject": "confirmation-bias",
+  "level": "teen",
+  "title": "Confirmation Bias: Test to Fail",
+  "emoji": "🧪",
+  "summary": "Why smart people get stuck on wrong answers, and how scientists and founders fight it.",
+  "minutes": 7,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧪",
+      "title": "Smart and still stuck",
+      "text": "In a famous experiment, smart adults spent ages \"proving\" a rule that was wrong, and every test they ran told them they were right. How is that possible?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🔢",
+      "title": "The 2-4-6 task",
+      "text": "In Peter Wason's 1960 experiment, people were told that 2, 4, 6 fits a rule. They proposed number triples and heard \"fits\" or \"doesn't fit.\" Many announced rules far more specific than the real one, such as \"the middle number is the average of the other two.\"",
+      "example": "The real rule: any ascending sequence. If you think the rule is \"+2 each time,\" testing 11, 13, 15 can't show you're wrong. Testing 11, 12, 19 can."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧠",
+      "title": "What it is",
+      "text": "Confirmation bias is the tendency to search for, interpret, favor, and recall information in a way that supports what you already believe. It's strongest for outcomes you want, emotionally charged topics, and beliefs you've held a long time."
+    },
+    {
+      "type": "idea",
+      "emoji": "🚀",
+      "title": "Why founders should care",
+      "text": "Research links confirmation bias to flawed decisions in business, finance, and science, and to overconfidence. If you only ask friends whether they'd buy your product, you are running the 11, 13, 15 test."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔬",
+      "title": "A twist",
+      "text": "Testing examples that fit your idea isn't always bad. Researchers Klayman and Ha argued that positive tests are often informative in real life. The trap in Wason's task was that the true rule was much broader than people's guesses, so \"fits\" answers taught them nothing new."
+    },
+    {
+      "type": "think",
+      "question": "Pick a belief you have about your golf swing, a team, or a business idea. Design one test that could prove you wrong. What result would actually change your mind?",
+      "nudges": [
+        "Decide in advance what would count as \"wrong.\"",
+        "Who could you ask that would not just agree with you?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "You think the rule is \"+2 each time.\" Which test is most informative?",
+          "options": [
+            {
+              "text": "11, 12, 19",
+              "correct": true,
+              "why": "It breaks your rule. If it still fits, your rule is too narrow."
+            },
+            {
+              "text": "11, 13, 15",
+              "correct": false,
+              "why": "It fits your rule, so a \"fits\" answer can't surprise you."
+            },
+            {
+              "text": "20, 22, 24",
+              "correct": false,
+              "why": "Same problem: another confirming test."
+            }
+          ]
+        },
+        {
+          "q": "When is confirmation bias strongest, per research summaries?",
+          "options": [
+            {
+              "text": "For desired outcomes, emotional issues, and deeply held beliefs",
+              "correct": true,
+              "why": "Right. Caring a lot makes it harder to see clearly."
+            },
+            {
+              "text": "Only for math problems",
+              "correct": false,
+              "why": "It shows up everywhere, especially on things we care about."
+            },
+            {
+              "text": "Only in children",
+              "correct": false,
+              "why": "Adults and experts show it too."
+            }
+          ]
+        },
+        {
+          "q": "What was Klayman and Ha's point?",
+          "options": [
+            {
+              "text": "Positive tests are often informative; Wason's task was a special case where the true rule was broad.",
+              "correct": true,
+              "why": "Yes. The real skill is choosing tests that can surprise you."
+            },
+            {
+              "text": "Confirmation bias doesn't exist.",
+              "correct": false,
+              "why": "They refined the explanation; they didn't deny the pattern."
+            },
+            {
+              "text": "Wason used the wrong numbers.",
+              "correct": false,
+              "why": "Their critique was about the strategy, not the numbers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Confirmation bias is…",
+        "The 2-4-6 task shows…",
+        "To fight it, I would…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Confirmation bias",
+      "publisher": "Wikipedia (encyclopedia article with cited psychology research)",
+      "url": "https://en.wikipedia.org/wiki/Confirmation_bias",
+      "supports": "Definition; strongest for desired outcomes and emotional or entrenched beliefs; Wason's 1960 2-4-6 task; positive-test preference and the Klayman and Ha critique; the Stanford capital-punishment study; effects on financial, organizational, and scientific decisions."
+    },
+    {
+      "title": "Confirmation bias",
+      "publisher": "APA Dictionary of Psychology (American Psychological Association)",
+      "url": "https://dictionary.apa.org/confirmation-bias",
+      "supports": "Definition: the tendency to gather evidence that confirms preexisting expectations while dismissing or failing to seek contradictory evidence."
+    }
+  ]
+}

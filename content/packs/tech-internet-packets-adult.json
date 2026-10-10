@@ -1,0 +1,156 @@
+{
+  "id": "tech-internet-packets-adult",
+  "topic": "tech",
+  "subject": "internet-packets",
+  "level": "adult",
+  "title": "The Internet's Design Bets",
+  "emoji": "🧭",
+  "summary": "Packet switching, open architecture, and the TCP/IP split as strategic choices.",
+  "minutes": 8,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧭",
+      "title": "A design that outlived its makers' plans",
+      "text": "The internet's core protocols were designed in the 1970s for a defense research network. By 1992, the Internet had a million hosts. Which design bets made that scaling possible?"
+    },
+    {
+      "type": "idea",
+      "emoji": "📦",
+      "title": "Bet 1: share the pipe",
+      "text": "Circuit switching reserves capacity for a whole session. Packet switching splits data into independently routed packets that share links. Kleinrock published the first paper on packet-switching theory in 1961 and made the case that packets were feasible in place of circuits. ARPANET's first node went live at UCLA in September 1969; four hosts were connected by year-end."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧱",
+      "title": "Bet 2: don't standardize the networks",
+      "text": "Kahn's 1972 \"open architecture\" let independent networks (ARPANET, packet radio, packet satellite) keep their own designs. A common internetworking protocol carried traffic across them. Kahn brought in Vint Cerf in spring 1973 to design what became TCP/IP.",
+      "example": "Strategy lens: standardize the interface, not the participants. That lowers the cost of joining."
+    },
+    {
+      "type": "idea",
+      "emoji": "✂️",
+      "title": "Bet 3: a thin waist",
+      "text": "The original TCP bundled forwarding with reliability. Packet voice experiments in the 1970s showed some applications should handle loss themselves rather than wait for retransmission. So the stack split: IP for addressing and forwarding, TCP for flow control and recovery. The network is best-effort; reliability sits at the edges."
+    },
+    {
+      "type": "idea",
+      "emoji": "📅",
+      "title": "Execution",
+      "text": "DARPA funded three implementations (Stanford, BBN, UCL); within about a year, three independent versions of TCP could interoperate. On January 1, 1983, ARPANET hosts switched from NCP to TCP/IP. ARPA itself was described as a funder of \"high-risk, high-gain\" research.",
+      "example": "Per the protocol's designers, email, more than file transfer or remote login, probably had the era's most significant impact."
+    },
+    {
+      "type": "think",
+      "question": "A best-effort core with smart edges made permissionless innovation easy, and it also pushed security and trust problems to the edges. Was that the right trade? What would you choose today?",
+      "nudges": [
+        "Who bears the cost of reliability and security in this design?",
+        "Compare it to a platform business you know: open interface vs. controlled network."
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What prompted splitting the original TCP into TCP and IP?",
+          "options": [
+            {
+              "text": "Applications like packet voice preferred to handle losses themselves rather than wait for retransmission.",
+              "correct": true,
+              "why": "Right. A thin IP layer left reliability choices to the endpoints."
+            },
+            {
+              "text": "Email traffic overloaded TCP.",
+              "correct": false,
+              "why": "Email's impact was big, but the split was motivated by applications like voice."
+            },
+            {
+              "text": "Security requirements from the Defense Department",
+              "correct": false,
+              "why": "Not the reason given by the protocol's designers."
+            },
+            {
+              "text": "IP was patented separately.",
+              "correct": false,
+              "why": "No. It was an architectural choice."
+            }
+          ]
+        },
+        {
+          "q": "What was the key idea of \"open architecture\" networking?",
+          "options": [
+            {
+              "text": "Independent networks keep their own designs and interconnect via a common protocol.",
+              "correct": true,
+              "why": "Standardize the interface, not the networks."
+            },
+            {
+              "text": "All networks adopt ARPANET hardware.",
+              "correct": false,
+              "why": "The point was to avoid that requirement."
+            },
+            {
+              "text": "Make all network code open source.",
+              "correct": false,
+              "why": "Different meaning of \"open.\""
+            },
+            {
+              "text": "Use circuit switching for reliability",
+              "correct": false,
+              "why": "It built on packet switching."
+            }
+          ]
+        },
+        {
+          "q": "How was the TCP/IP specification proven in practice?",
+          "options": [
+            {
+              "text": "Three independently built implementations were shown to interoperate.",
+              "correct": true,
+              "why": "Stanford, BBN, and UCL. Interoperation is the real test of a spec."
+            },
+            {
+              "text": "It mandated a single vendor.",
+              "correct": false,
+              "why": "The opposite approach."
+            },
+            {
+              "text": "It kept the spec secret.",
+              "correct": false,
+              "why": "No, interoperation required a shared spec."
+            },
+            {
+              "text": "It waited for commercial products.",
+              "correct": false,
+              "why": "It funded research implementations directly."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The internet scaled because…",
+        "The best-effort core means…",
+        "The strategic lesson is…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "A Brief History of the Internet",
+      "publisher": "Internet Society (written by Internet pioneers including Cerf and Kahn)",
+      "url": "https://www.internetsociety.org/internet/history-internet/brief-history-internet/",
+      "supports": "Packet switching; the first ARPANET node at UCLA in September 1969 and four hosts by year-end; Kahn's open-architecture idea (1972); Cerf and Kahn's TCP; the split into TCP and IP; best-effort delivery and retransmission; the switch to TCP/IP on January 1, 1983; email's impact."
+    },
+    {
+      "title": "Internet History, 1962 to 1992",
+      "publisher": "Computer History Museum",
+      "url": "https://www.computerhistory.org/internethistory/",
+      "supports": "ARPA as a funder of high-risk, high-gain research that laid the groundwork for the ARPANET; by 1992 the Internet had one million hosts."
+    }
+  ]
+}

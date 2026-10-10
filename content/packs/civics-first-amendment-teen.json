@@ -1,0 +1,146 @@
+{
+  "id": "civics-first-amendment-teen",
+  "topic": "civics",
+  "subject": "first-amendment",
+  "level": "teen",
+  "title": "Free Speech at School: Tinker v. Des Moines",
+  "emoji": "🎗️",
+  "summary": "What the First Amendment says, and how the Court balanced it with school order.",
+  "minutes": 7,
+  "date_added": "2026-10-09",
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🎗️",
+      "title": "\"The schoolhouse gate\"",
+      "text": "Do you have free speech rights at school? In 1969 the Supreme Court said yes, students don't shed their rights \"at the schoolhouse gate.\" But it is not unlimited. Where is the line?"
+    },
+    {
+      "type": "idea",
+      "emoji": "📜",
+      "title": "The text",
+      "text": "\"Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.\"",
+      "example": "It limits what government can do. Tinker involved a public school, which is part of government."
+    },
+    {
+      "type": "idea",
+      "emoji": "🖤",
+      "title": "The case",
+      "text": "Students in Des Moines, Iowa, planned to wear black armbands to protest the Vietnam War. The principal warned they would be suspended, and some were. A federal district court sided with the school, and an appeals court upheld that. The students took it to the Supreme Court."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "The majority",
+      "text": "In a 7–2 decision on February 24, 1969, the Court said school officials could not ban the armbands only because of a suspicion that they might disrupt learning. A silent, symbolic message counted as protected expression."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧱",
+      "title": "The dissent",
+      "text": "The dissent argued the First Amendment does not give a right to express any opinion at any time. Students attend school to learn, not to teach, and the armbands were a distraction. Officials should have broad authority to keep a productive learning environment."
+    },
+    {
+      "type": "think",
+      "question": "Imagine a student wears a shirt with a message others find offensive. Using Tinker, what questions would you ask before deciding whether the school can ban it?",
+      "nudges": [
+        "Is there actual disruption, or only a fear of it?",
+        "How would the majority and the dissent each see it?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What rule did the Tinker majority set?",
+          "options": [
+            {
+              "text": "Schools can't ban student expression only on a suspicion it might be disruptive.",
+              "correct": true,
+              "why": "Right. A fear of disruption alone wasn't enough."
+            },
+            {
+              "text": "Students can say anything at school.",
+              "correct": false,
+              "why": "The ruling did not make speech unlimited."
+            },
+            {
+              "text": "Schools can ban any protest.",
+              "correct": false,
+              "why": "That was closer to the lower courts and the dissent."
+            }
+          ]
+        },
+        {
+          "q": "What was the vote?",
+          "options": [
+            {
+              "text": "7–2 for the students",
+              "correct": true,
+              "why": "Yes, decided February 24, 1969."
+            },
+            {
+              "text": "9–0 for the students",
+              "correct": false,
+              "why": "Two justices dissented."
+            },
+            {
+              "text": "5–4 for the school",
+              "correct": false,
+              "why": "The school lost."
+            }
+          ]
+        },
+        {
+          "q": "Which argument came from the dissent?",
+          "options": [
+            {
+              "text": "School officials need broad authority to keep a productive learning environment.",
+              "correct": true,
+              "why": "Right. The dissent focused on order and learning."
+            },
+            {
+              "text": "Armbands are not speech at all.",
+              "correct": false,
+              "why": "The dissent's point was about time and place, not whether armbands express a view."
+            },
+            {
+              "text": "Students should have more rights than adults.",
+              "correct": false,
+              "why": "No one argued that."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The First Amendment says…",
+        "In Tinker, the Court decided…",
+        "The other side argued…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "First Amendment",
+      "publisher": "National Constitution Center",
+      "url": "https://constitutioncenter.org/the-constitution/amendments/amendment-i",
+      "supports": "Full text of the First Amendment; passed by Congress September 25, 1789; ratified December 15, 1791; the five freedoms: religion, speech, press, assembly, and petition."
+    },
+    {
+      "title": "Facts and Case Summary: Tinker v. Des Moines",
+      "publisher": "United States Courts (Administrative Office of the U.S. Courts)",
+      "url": "https://www.uscourts.gov/about-federal-courts/educational-resources/educational-activities/first-amendment-activities/tinker-v-des-moines/facts-and-case-summary-tinker-v-des-moines",
+      "supports": "Students wore black armbands to protest the Vietnam War and were suspended; lower courts sided with the school; 7–2 decision on February 24, 1969; the \"schoolhouse gate\" line; the dissent's argument for school order."
+    },
+    {
+      "title": "The Bill of Rights: A Transcription",
+      "publisher": "U.S. National Archives",
+      "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+      "supports": "The original text, including the preamble about preventing \"misconstruction or abuse\" of powers, and the First Amendment's wording as \"Article the third\" of the amendments Congress proposed."
+    }
+  ]
+}
