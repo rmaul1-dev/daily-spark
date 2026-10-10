@@ -7,6 +7,23 @@
   "emoji": "🧠",
   "summary": "Weights, training, and why \"learning from examples\" is powerful and risky.",
   "minutes": 7,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How does a neural network learn?",
+      "answer": "Its weights start random, and training nudges them round after round to reduce errors on labeled examples."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why use machine learning instead of a recipe-style program?",
+      "answer": "Some problems, like identifying objects in pictures, are too fuzzy for step-by-step rules; machine learning learns them from examples."
+    },
+    {
+      "id": "k3",
+      "prompt": "What's a risk of learning from examples?",
+      "answer": "A model learns whatever patterns are in its examples, including unfair ones."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -16,10 +33,33 @@
       "text": "Try writing exact rules that catch every spam email and never block a real one. It is really hard. Machine learning skips the rules and learns from examples instead. How?"
     },
     {
+      "type": "predict",
+      "question": "A neural network's \"weights\" are the numbers it learns. How do you think they start out?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "Typed in by programmers"
+        },
+        {
+          "text": "Random, then adjusted during training",
+          "correct": true
+        },
+        {
+          "text": "Copied from a human brain"
+        }
+      ],
+      "reveal": "At random. Then training nudges them, round after round, to reduce errors on labeled examples.",
+      "reveal_after": 2
+    },
+    {
       "type": "idea",
       "emoji": "🍰",
       "title": "Recipe vs. examples",
-      "text": "Traditional software is a recipe: data in, fixed steps, result out. In machine learning, the computer learns by example. That lets it handle fuzzy problems, like identifying objects in a picture, that are too vague for step-by-step instructions."
+      "text": "Traditional software is a recipe: data in, fixed steps, result out. In machine learning, the computer learns by example. That lets it handle fuzzy problems, like identifying objects in a picture, that are too vague for step-by-step instructions.",
+      "examples_by_interest": {
+        "golf": "Say you want an app that judges golf swings. Writing exact rules for a \"good swing\" is really hard. Showing it thousands of swings that coaches labeled is learning by example.",
+        "soccer": "Say you want an app that spots a good first touch in soccer. Exact rules are hard to write. Showing it thousands of clips that coaches labeled is learning by example."
+      }
     },
     {
       "type": "idea",
@@ -32,7 +72,11 @@
       "type": "idea",
       "emoji": "📜",
       "title": "An old idea that came back",
-      "text": "Neural networks were first proposed in 1944 by Warren McCulloch and Walter Pitts. The first trainable one, the Perceptron, was shown in 1957. Interest rose and fell for decades. Then graphics chips gave enough computing power for \"deep learning\" to take off."
+      "text": "Neural networks were first proposed in 1944 by Warren McCulloch and Walter Pitts. The first trainable one, the Perceptron, was shown in 1957. Interest rose and fell for decades. Then graphics chips gave enough computing power for \"deep learning\" to take off.",
+      "why": {
+        "q": "Neural networks were proposed in 1944. Why did deep learning take off so much later?",
+        "a": "It needed far more computing power, and graphics chips finally provided it."
+      }
     },
     {
       "type": "idea",

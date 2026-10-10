@@ -7,6 +7,28 @@
   "emoji": "🧮",
   "summary": "Veto points, supermajorities, and the trade-off between stability and responsiveness.",
   "minutes": 8,
+  "series": {
+    "id": "checks-on-power",
+    "part": 1,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What was the framers' design strategy in Federalist No. 51?",
+      "answer": "Give each branch both the means and the motive to resist encroachment: \"Ambition must be made to counteract ambition.\""
+    },
+    {
+      "id": "k2",
+      "prompt": "What do the Constitution's supermajority thresholds encode?",
+      "answer": "How costly a mistake would be in each domain: overrides, treaties and convictions need two thirds."
+    },
+    {
+      "id": "k3",
+      "prompt": "What's the core trade-off of more veto points?",
+      "answer": "More stability and protection against error or abuse, but more status-quo bias and slower response."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +36,25 @@
       "emoji": "🧮",
       "title": "Org design for distrust",
       "text": "A good operations leader designs controls assuming good people will sometimes err. The framers designed for officials who would sometimes abuse power. What does that look like in the actual mechanics?"
+    },
+    {
+      "type": "predict",
+      "question": "Most votes in Congress need a simple majority. Why do you think overriding a veto, convicting on impeachment and approving a treaty each need two thirds?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "A mistake there would be especially costly",
+          "correct": true
+        },
+        {
+          "text": "To make Congress move faster"
+        },
+        {
+          "text": "Two thirds was simply a tradition"
+        }
+      ],
+      "reveal": "Thresholds encode how costly a mistake would be in each domain. Even then, the penalty for conviction is capped: removal and disqualification from office.",
+      "reveal_after": 2
     },
     {
       "type": "idea",
@@ -40,7 +81,11 @@
       "title": "The core trade-off",
       "text": "More veto points means more stability and more protection against error or abuse. It also means more status quo bias and slower response. Defenders emphasize protection of rights and forced coalition-building. Critics emphasize gridlock, and that hard-to-pass laws can also be hard to fix.",
       "example": "Neither view is partisan in itself. A useful self-test: would you value the brakes the same if the other side held power?",
-      "svg": "<svg viewBox=\"0 0 300 150\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Three branches checking each other\"><path d=\"M150 30 L60 120 L240 120 Z\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"4\" stroke-dasharray=\"8 6\"/><circle cx=\"150\" cy=\"30\" r=\"24\" fill=\"#f97316\"/><circle cx=\"60\" cy=\"120\" r=\"24\" fill=\"#3b82f6\"/><circle cx=\"240\" cy=\"120\" r=\"24\" fill=\"#10b981\"/><text x=\"150\" y=\"37\" font-size=\"20\" text-anchor=\"middle\">🏛️</text><text x=\"60\" y=\"127\" font-size=\"20\" text-anchor=\"middle\">🦅</text><text x=\"240\" y=\"127\" font-size=\"20\" text-anchor=\"middle\">⚖️</text></svg>"
+      "svg": "<svg viewBox=\"0 0 300 150\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Three branches checking each other\"><path d=\"M150 30 L60 120 L240 120 Z\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"4\" stroke-dasharray=\"8 6\"/><circle cx=\"150\" cy=\"30\" r=\"24\" fill=\"#f97316\"/><circle cx=\"60\" cy=\"120\" r=\"24\" fill=\"#3b82f6\"/><circle cx=\"240\" cy=\"120\" r=\"24\" fill=\"#10b981\"/><text x=\"150\" y=\"37\" font-size=\"20\" text-anchor=\"middle\">🏛️</text><text x=\"60\" y=\"127\" font-size=\"20\" text-anchor=\"middle\">🦅</text><text x=\"240\" y=\"127\" font-size=\"20\" text-anchor=\"middle\">⚖️</text></svg>",
+      "why": {
+        "q": "How can you tell if your view of gridlock is principled rather than partisan?",
+        "a": "Ask whether you'd want the same checks if the other side held power."
+      }
     },
     {
       "type": "think",

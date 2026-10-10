@@ -7,6 +7,28 @@
   "emoji": "📈",
   "summary": "Fixed costs, alphabets, and diffusion: why printing scaled in Europe.",
   "minutes": 8,
+  "series": {
+    "id": "inventors",
+    "part": 1,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why did the alphabet matter to the economics of movable type?",
+      "answer": "Logographic scripts need thousands of characters, raising the fixed cost of a type set; a Latin font needs only a small set."
+    },
+    {
+      "id": "k2",
+      "prompt": "What was Gutenberg's own hard problem, beyond integrating existing tech?",
+      "answer": "Making uniform, interchangeable type at scale, solved with his hand mold (plus an oil-based ink for metal)."
+    },
+    {
+      "id": "k3",
+      "prompt": "How fast did printing spread?",
+      "answer": "From Mainz alone to 110 places in ten countries by 1480, about 270 cities by 1500, and an estimated 20 million copies."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +36,25 @@
       "emoji": "📈",
       "title": "20 million copies by 1500",
       "text": "By 1500, Western Europe's presses had produced an estimated 20 million copies. By 1600, an estimated 150 to 200 million. Was the breakthrough the machine, or the economics around it?"
+    },
+    {
+      "type": "predict",
+      "question": "Korea printed with metal type in 1377, decades before Gutenberg. Why didn't movable type displace woodblocks in East Asia?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "Thousands of characters made a type set expensive",
+          "correct": true
+        },
+        {
+          "text": "Metal was scarce in East Asia"
+        },
+        {
+          "text": "Governments banned it"
+        }
+      ],
+      "reveal": "Mostly economics: logographic scripts need thousands of characters, which raises the fixed cost of a type set. A Latin font needed only a small character set.",
+      "reveal_after": 2
     },
     {
       "type": "idea",
@@ -33,7 +74,11 @@
       "type": "idea",
       "emoji": "🌐",
       "title": "Diffusion",
-      "text": "Mainz began as Europe's only print shop. By 1480, printers worked in 110 places across ten countries, and by 1500 around 270 cities were involved in printing. As copies got cheaper, books shifted from Latin toward local languages, and those languages grew more standardized."
+      "text": "Mainz began as Europe's only print shop. By 1480, printers worked in 110 places across ten countries, and by 1500 around 270 cities were involved in printing. As copies got cheaper, books shifted from Latin toward local languages, and those languages grew more standardized.",
+      "why": {
+        "q": "Why would cheaper copies push books from Latin toward local languages?",
+        "a": "Cheaper books reached a wider market of readers who didn't read Latin, so printers served them, and those languages grew more standardized."
+      }
     },
     {
       "type": "idea",

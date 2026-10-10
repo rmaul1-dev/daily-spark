@@ -7,6 +7,18 @@
   "emoji": "🛰️",
   "summary": "A goal, a deadline, and the problems solved in the final minutes.",
   "minutes": 7,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What two problems hit Eagle's final descent, and how were they handled?",
+      "answer": "Computer alarms from overload, and a boulder-strewn landing spot. They kept going, and Armstrong flew part of the landing by hand."
+    },
+    {
+      "id": "k2",
+      "prompt": "What was Apollo 11's \"free-return\" path for?",
+      "answer": "A backup built into the route: if the engine failed on the way out, the spacecraft would loop around the Moon and head home without firing it."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +26,25 @@
       "emoji": "🛰️",
       "title": "A goal with a deadline",
       "text": "On May 25, 1961, President Kennedy set a national goal: land people on the Moon and return them safely to Earth. Eight years later it happened. What does it take to hit a target that big on time?"
+    },
+    {
+      "type": "predict",
+      "question": "During Eagle's final descent, its computer kept sounding alarms. What do you think was going on?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "The lander was out of fuel"
+        },
+        {
+          "text": "The computer was trying to do too many things at once",
+          "correct": true
+        },
+        {
+          "text": "A meteor had hit the lander"
+        }
+      ],
+      "reveal": "The computer was trying to do too many things at once. At the same time, the landing spot was full of boulders, so Armstrong flew part of the landing by hand.",
+      "reveal_after": 2
     },
     {
       "type": "idea",
@@ -38,7 +69,11 @@
       "type": "idea",
       "emoji": "🛟",
       "title": "Built-in backup plans",
-      "text": "Apollo 11 flew a \"free-return\" path. If the engine failed on the way out, the spacecraft would loop around the Moon and head back to Earth without firing it. Engineers planned for failure from the start."
+      "text": "Apollo 11 flew a \"free-return\" path. If the engine failed on the way out, the spacecraft would loop around the Moon and head back to Earth without firing it. Engineers planned for failure from the start.",
+      "why": {
+        "q": "Why plan a route that works even if the engine fails?",
+        "a": "Engineers planned for failure from the start. A safe default doesn't depend on everything going right."
+      }
     },
     {
       "type": "think",

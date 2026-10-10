@@ -7,6 +7,23 @@
   "emoji": "⚙️",
   "summary": "Series circuits, check valves, conduction timing, and where it fails.",
   "minutes": 8,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What does the AV-node pause accomplish?",
+      "answer": "It lets the ventricles finish filling before they contract."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why must the right and left heart move the same volume over time?",
+      "answer": "They are pumps in series: blood passes through the pulmonary circuit and then the systemic one."
+    },
+    {
+      "id": "k3",
+      "prompt": "What are the two ways valve disease shows up?",
+      "answer": "Backflow (a valve that doesn't close) or obstructed flow (one that doesn't open well)."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +31,28 @@
       "emoji": "⚙️",
       "title": "An engineer's view",
       "text": "Two positive-displacement pumps in series, four check valves, an electrical timing system with a deliberate delay, and a dedicated supply line for the pump's own muscle. What does that design tell you about its failure modes?"
+    },
+    {
+      "type": "predict",
+      "question": "Of the heart's layers (muscle, valves, conduction timing, coronary supply), which one fails in an arrhythmia?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "The timing/control layer",
+          "correct": true
+        },
+        {
+          "text": "The check valves"
+        },
+        {
+          "text": "The coronary supply line"
+        },
+        {
+          "text": "The pump muscle"
+        }
+      ],
+      "reveal": "The control (timing) layer. The SA node sets the rhythm, the AV node adds a deliberate pause, and arrhythmias and conduction disorders are failures of that control system.",
+      "reveal_after": 3
     },
     {
       "type": "idea",
@@ -26,7 +65,11 @@
       "type": "idea",
       "emoji": "🚪",
       "title": "Check valves",
-      "text": "Four valves (tricuspid, pulmonary, mitral, aortic) open and close with each beat to prevent backflow. \"Lub\" is the atrioventricular valves closing; \"dub\" is the aortic and pulmonary valves closing. Valve disease shows up as backflow or obstructed flow."
+      "text": "Four valves (tricuspid, pulmonary, mitral, aortic) open and close with each beat to prevent backflow. \"Lub\" is the atrioventricular valves closing; \"dub\" is the aortic and pulmonary valves closing. Valve disease shows up as backflow or obstructed flow.",
+      "why": {
+        "q": "Why would a valve problem look like either backflow or obstruction?",
+        "a": "A check valve has two jobs: close fully to stop backflow, and open fully to let flow through. Failure at either job gives one of the two signatures."
+      }
     },
     {
       "type": "idea",

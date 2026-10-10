@@ -7,6 +7,64 @@
   "emoji": "🏛️",
   "summary": "Why the U.S. government is split into three parts that check each other.",
   "minutes": 6,
+  "series": {
+    "id": "checks-on-power",
+    "part": 1,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why did the Constitution set up branches that can check each other?",
+      "answer": "So no one person or group gets too much power. Each branch can push back on the others.",
+      "options": [
+        {
+          "text": "So no one part gets too much power",
+          "correct": true
+        },
+        {
+          "text": "So laws pass as fast as possible"
+        },
+        {
+          "text": "So the President always wins"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "What does each branch of government do?",
+      "answer": "Congress makes laws. The President carries them out. The courts decide what laws mean.",
+      "options": [
+        {
+          "text": "Congress makes laws, the President carries them out, courts decide what they mean",
+          "correct": true
+        },
+        {
+          "text": "The President makes laws, Congress carries them out, courts vote on them"
+        },
+        {
+          "text": "Courts make laws, Congress judges them, the President writes them down"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What is one way a branch can check another?",
+      "answer": "The President can veto a bill. Or the Senate approves judges, and the courts can strike down a law that breaks the Constitution.",
+      "options": [
+        {
+          "text": "The President can veto a bill Congress passed",
+          "correct": true
+        },
+        {
+          "text": "The courts can write new laws"
+        },
+        {
+          "text": "The President can close Congress"
+        }
+      ]
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +72,25 @@
       "emoji": "✂️",
       "title": "Rock, paper, scissors",
       "text": "In rock, paper, scissors, nothing wins every time. The people who wrote the U.S. Constitution wanted government to work a bit like that. Why would they want no single part to always win?"
+    },
+    {
+      "type": "predict",
+      "question": "The President says no to a bill. That is called a veto. Can the bill still become a law?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "No, the President always has the final say"
+        },
+        {
+          "text": "Yes, if two thirds of Congress vote yes",
+          "correct": true
+        },
+        {
+          "text": "Only if a judge says yes"
+        }
+      ],
+      "reveal": "Yes! Congress can still make it a law if two thirds of both the House and the Senate vote yes. Each branch can push back on the others.",
+      "reveal_after": 2
     },
     {
       "type": "idea",
@@ -27,7 +104,11 @@
       "emoji": "🛑",
       "title": "Checks: the veto",
       "text": "Congress can pass a bill, but the President can veto it, which means saying no. Then Congress can still make it a law if two thirds of both the House and the Senate vote yes.",
-      "example": "Two thirds is a lot. It is like needing 20 out of 30 kids in your class to agree."
+      "example": "Two thirds is a lot. It is like needing 20 out of 30 kids in your class to agree.",
+      "why": {
+        "q": "Why does an override need two thirds, not just more than half?",
+        "a": "Two thirds is a high bar. Congress has to really agree before it overrules the President."
+      }
     },
     {
       "type": "idea",

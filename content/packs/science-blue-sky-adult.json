@@ -7,6 +7,28 @@
   "emoji": "🔭",
   "summary": "A one-line scaling law, its limits, and what the eye adds.",
   "minutes": 8,
+  "series": {
+    "id": "sunlight",
+    "part": 1,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why does a correct 1/λ⁴ law still give the wrong sky color?",
+      "answer": "It ignores the measurement layer: the eye reads the blue-violet mix as blue plus white."
+    },
+    {
+      "id": "k2",
+      "prompt": "What's the physical mechanism behind Rayleigh scattering?",
+      "answer": "Light's oscillating field drives charges in tiny molecules, which re-radiate as dipoles, giving the steep 1/λ⁴ dependence."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why are Mars's sky and sunsets colored differently?",
+      "answer": "Fine dust, not molecules, dominates scattering there: a different regime, giving an orange day sky and blue sunsets."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +36,25 @@
       "emoji": "🔭",
       "title": "1/λ⁴",
       "text": "One scaling law explains a blue sky, white horizons, and red sunsets, and it took Tyndall, Rayleigh, and Maxwell to nail it down. What does the law say, and where does it stop working?"
+    },
+    {
+      "type": "predict",
+      "question": "Rayleigh's 1/λ⁴ law says violet scatters more than blue. So why isn't the sky violet?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "Our eyes read the blue-violet mix as blue",
+          "correct": true
+        },
+        {
+          "text": "Violet light can't travel through air"
+        },
+        {
+          "text": "Clouds soak up the violet"
+        }
+      ],
+      "reveal": "The eye. It responds to the scattered blue-violet mix as blue plus white. The physics was right; the measurement layer changed the answer.",
+      "reveal_after": 4
     },
     {
       "type": "idea",
@@ -32,7 +73,11 @@
       "type": "idea",
       "emoji": "🌅",
       "title": "Path length does the rest",
-      "text": "Near the horizon, light crosses much more atmosphere and is scattered repeatedly, so the colors re-mix toward white. At sunset, blue and violet have been scattered out of the direct beam, leaving reds and yellows. Aerosols (dust, smoke, sulfates after big eruptions) add their own scattering."
+      "text": "Near the horizon, light crosses much more atmosphere and is scattered repeatedly, so the colors re-mix toward white. At sunset, blue and violet have been scattered out of the direct beam, leaving reds and yellows. Aerosols (dust, smoke, sulfates after big eruptions) add their own scattering.",
+      "why": {
+        "q": "Why is the sky whiter near the horizon?",
+        "a": "Light crosses much more atmosphere there and is scattered repeatedly, re-mixing the colors toward white."
+      }
     },
     {
       "type": "idea",

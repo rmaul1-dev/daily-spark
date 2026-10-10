@@ -7,6 +7,28 @@
   "emoji": "🌍",
   "summary": "How evidence from the sea floor turned a rejected idea into plate tectonics.",
   "minutes": 7,
+  "series": {
+    "id": "how-we-know",
+    "part": 3,
+    "of": 3
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why was continental drift rejected at first, even with good evidence?",
+      "answer": "It lacked a believable mechanism: Wegener said continents plowed through the sea floor, which solid rock couldn't do."
+    },
+    {
+      "id": "k2",
+      "prompt": "What do the magnetic stripes on the sea floor show?",
+      "answer": "New rock forms at the ridge, records Earth's magnetic field as it cools, and spreads outward, matching on both sides."
+    },
+    {
+      "id": "k3",
+      "prompt": "The Mid-Atlantic Ridge spreads about 2.5 cm a year. Why does that matter?",
+      "answer": "Over 100 to 200 million years, that slow spreading opened the whole Atlantic Ocean."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +36,25 @@
       "emoji": "🌍",
       "title": "Rejected, then right",
       "text": "In 1912 Alfred Wegener proposed that continents move. Most geologists dismissed the idea. About fifty years later it became the foundation of modern geology. What changed?"
+    },
+    {
+      "type": "predict",
+      "question": "Wegener's idea had good evidence but was rejected for decades. What do you think finally changed geologists' minds?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "Sea-floor evidence of new rock forming and spreading",
+          "correct": true
+        },
+        {
+          "text": "A more accurate world map"
+        },
+        {
+          "text": "A new fossil Wegener found"
+        }
+      ],
+      "reveal": "Evidence from the sea floor: magnetic stripes matching on both sides of mid-ocean ridges, then 1968 drill cores from the Glomar Challenger that proved seafloor spreading.",
+      "reveal_after": 4
     },
     {
       "type": "idea",
@@ -33,7 +74,11 @@
       "emoji": "🧲",
       "title": "The sea floor's tape recording",
       "text": "In the 1950s, scientists found a zebra pattern of magnetic stripes on the sea floor. The stripes matched on both sides of mid-ocean ridges. New rock forms at the ridge, records Earth's magnetic field as it cools, and moves outward. Rocks get older the farther they are from the ridge.",
-      "svg": "<svg viewBox=\"0 0 300 128\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Matching magnetic stripes on both sides of a ridge\"><rect x=\"142\" y=\"10\" width=\"16\" height=\"100\" fill=\"#ef4444\"/><rect x=\"158\" y=\"10\" width=\"14\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"128\" y=\"10\" width=\"14\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"172\" y=\"10\" width=\"22\" height=\"100\" fill=\"#fde7c2\"/><rect x=\"106\" y=\"10\" width=\"22\" height=\"100\" fill=\"#fde7c2\"/><rect x=\"194\" y=\"10\" width=\"12\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"94\" y=\"10\" width=\"12\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"206\" y=\"10\" width=\"26\" height=\"100\" fill=\"#fde7c2\"/><rect x=\"68\" y=\"10\" width=\"26\" height=\"100\" fill=\"#fde7c2\"/><rect x=\"232\" y=\"10\" width=\"18\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"50\" y=\"10\" width=\"18\" height=\"100\" fill=\"#f59e0b\"/><path d=\"M150 118 l-40 0 m6 -5 l-6 5 l6 5 M150 118 l40 0 m-6 -5 l6 5 l-6 5\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/></svg>"
+      "svg": "<svg viewBox=\"0 0 300 128\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Matching magnetic stripes on both sides of a ridge\"><rect x=\"142\" y=\"10\" width=\"16\" height=\"100\" fill=\"#ef4444\"/><rect x=\"158\" y=\"10\" width=\"14\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"128\" y=\"10\" width=\"14\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"172\" y=\"10\" width=\"22\" height=\"100\" fill=\"#fde7c2\"/><rect x=\"106\" y=\"10\" width=\"22\" height=\"100\" fill=\"#fde7c2\"/><rect x=\"194\" y=\"10\" width=\"12\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"94\" y=\"10\" width=\"12\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"206\" y=\"10\" width=\"26\" height=\"100\" fill=\"#fde7c2\"/><rect x=\"68\" y=\"10\" width=\"26\" height=\"100\" fill=\"#fde7c2\"/><rect x=\"232\" y=\"10\" width=\"18\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"50\" y=\"10\" width=\"18\" height=\"100\" fill=\"#f59e0b\"/><path d=\"M150 118 l-40 0 m6 -5 l-6 5 l6 5 M150 118 l40 0 m-6 -5 l6 5 l-6 5\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/></svg>",
+      "why": {
+        "q": "Why are rocks older the farther they are from the ridge?",
+        "a": "New rock forms at the ridge and moves outward, so rock far away formed longer ago."
+      }
     },
     {
       "type": "idea",
@@ -41,6 +86,12 @@
       "title": "Clinching evidence",
       "text": "In 1968 the research ship Glomar Challenger drilled sea-floor cores across the Mid-Atlantic Ridge. Dating the samples proved seafloor spreading. Today the Mid-Atlantic Ridge spreads about 2.5 centimeters per year.",
       "example": "That sounds slow, but over 100 to 200 million years it opened the whole Atlantic Ocean."
+    },
+    {
+      "type": "link",
+      "to": "ideas-confirmation-bias-teen",
+      "prompt": "Geologists rejected drift, then changed their minds when sea-floor data came in. Is that confirmation bias, or the cure for it?",
+      "model": "Mostly the cure: they changed their view when tests that could have failed, the stripes and the drill cores, came out in drift's favor."
     },
     {
       "type": "think",

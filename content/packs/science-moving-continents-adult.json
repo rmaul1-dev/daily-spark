@@ -7,6 +7,28 @@
   "emoji": "🌋",
   "summary": "Evidence vs. mechanism, the sea-floor data, and what is still unresolved.",
   "minutes": 8,
+  "series": {
+    "id": "how-we-know",
+    "part": 3,
+    "of": 3
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why was rejecting Wegener in the 1920s defensible?",
+      "answer": "His evidence was suggestive but his mechanism (continents plowing through oceanic crust) was physically implausible."
+    },
+    {
+      "id": "k2",
+      "prompt": "Which predictions of seafloor spreading held?",
+      "answer": "Youngest rocks at the ridge crest and older with distance, present-day polarity at the crest, symmetric stripes; 1968 drill cores clinched it."
+    },
+    {
+      "id": "k3",
+      "prompt": "What is still open in plate tectonics?",
+      "answer": "What drives the plates."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +36,22 @@
       "emoji": "🌋",
       "title": "Evidence without mechanism",
       "text": "Wegener's 1912 continental drift had real evidence and was still largely dismissed for decades. Was the field being stubborn, or rational?"
+    },
+    {
+      "type": "predict",
+      "question": "Plate tectonics is settled science. Is what drives the plates also settled?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "No, it's still debated",
+          "correct": true
+        },
+        {
+          "text": "Yes, mantle convection was proven in 1968"
+        }
+      ],
+      "reveal": "No. USGS notes the driving forces, the very question Wegener couldn't answer, are still debated. The field accepted the pattern before the full mechanism.",
+      "reveal_after": 4
     },
     {
       "type": "idea",
@@ -26,7 +64,11 @@
       "emoji": "📡",
       "title": "New instruments, new data",
       "text": "Echo-sounding after World War I showed a rugged sea floor. In 1947 the research ship Atlantis found the Atlantic's sediment far thinner than expected for an ocean billions of years old. By the 1950s, surveys revealed a global mid-ocean ridge more than 50,000 km long.",
-      "example": "Magnetometers adapted from WWII submarine detection then revealed zebra-like magnetic striping on the sea floor."
+      "example": "Magnetometers adapted from WWII submarine detection then revealed zebra-like magnetic striping on the sea floor.",
+      "why": {
+        "q": "Why was thin Atlantic sediment a clue?",
+        "a": "An ocean floor billions of years old should have collected thick sediment. Thin sediment suggested the floor was much younger."
+      }
     },
     {
       "type": "idea",
@@ -40,6 +82,12 @@
       "emoji": "📏",
       "title": "Rates, and an open question",
       "text": "Spreading rates range from under 2.5 cm per year (Arctic Ridge) to over 15 cm per year (East Pacific Rise). The San Andreas slips about 5 cm per year on average. Yet USGS notes that what drives the plates, the very question Wegener could not answer, is still debated."
+    },
+    {
+      "type": "link",
+      "to": "ideas-confirmation-bias-adult",
+      "prompt": "Rejecting drift for lack of a mechanism, then accepting it after the predictions held: defensible caution or belief perseverance?",
+      "model": "Mostly defensible: the field updated when risky predictions held. Belief perseverance is holding on after the evidence is discredited, which is not what happened."
     },
     {
       "type": "think",

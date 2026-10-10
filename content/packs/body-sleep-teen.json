@@ -7,6 +7,23 @@
   "emoji": "🌙",
   "summary": "Sleep drive, the body clock, caffeine, and why sleep is training too.",
   "minutes": 7,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What are your brain's two sleep \"timers\"?",
+      "answer": "Sleep drive, which builds the longer you're awake, and the body clock (circadian rhythm), which runs on about 24 hours and responds to light."
+    },
+    {
+      "id": "k2",
+      "prompt": "How does caffeine make you feel less sleepy, and why doesn't it replace sleep?",
+      "answer": "It blocks adenosine, which builds sleep pressure. It hides the sleepiness; the need for sleep is still there."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why can bright screens at night push your sleep later?",
+      "answer": "Light is the strongest signal to your body clock, and melatonin is released when it gets dark, so bright light at night can delay sleep."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +31,25 @@
       "emoji": "🌙",
       "title": "Sleep is part of training",
       "text": "Athletes talk about practice, food, and gear. Fewer talk about sleep, but sleep is when your body supports growth and your brain locks in learning. How does your brain decide when to sleep?"
+    },
+    {
+      "type": "predict",
+      "question": "How do you think caffeine makes you feel less sleepy?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "It gives your brain extra energy, like food"
+        },
+        {
+          "text": "It blocks a chemical that builds up and makes you sleepy",
+          "correct": true
+        },
+        {
+          "text": "It resets your body clock to morning"
+        }
+      ],
+      "reveal": "It blocks adenosine, a chemical that builds up the longer you're awake and makes you sleepy. Caffeine hides the sleepiness instead of removing it.",
+      "reveal_after": 1
     },
     {
       "type": "idea",
@@ -32,7 +68,11 @@
       "emoji": "🔄",
       "title": "Sleep cycles",
       "text": "You cycle through non-REM and REM sleep several times a night. Deep non-REM sleep comes mostly in the first half of the night. The first REM, where most dreaming happens, starts about 90 minutes after you fall asleep. REM periods get longer toward morning.",
-      "example": "Memory consolidation most likely needs both non-REM and REM sleep."
+      "example": "Memory consolidation most likely needs both non-REM and REM sleep.",
+      "why": {
+        "q": "Why might a short night cut REM sleep more than deep sleep?",
+        "a": "Deep non-REM sleep comes mostly in the first half of the night, and REM periods get longer toward morning. Cutting the end of the night cuts mostly REM."
+      }
     },
     {
       "type": "idea",

@@ -7,6 +7,28 @@
   "emoji": "📐",
   "summary": "Insolation geometry, the 6.8% January bonus, and why tilt drives ice ages.",
   "minutes": 8,
+  "series": {
+    "id": "sunlight",
+    "part": 2,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why does angle beat distance for seasons?",
+      "answer": "At 30° elevation a beam covers twice the area it would overhead (half the energy per square meter); distance changes sunlight only about 6.8%."
+    },
+    {
+      "id": "k2",
+      "prompt": "What does Earth's eccentricity actually do?",
+      "answer": "A second-order effect: about 6.8% more sunlight in January, and Northern summers about 4.5 days longer than winters."
+    },
+    {
+      "id": "k3",
+      "prompt": "How does lower axial tilt help ice sheets grow?",
+      "answer": "Milder summers at high latitudes let snow persist from year to year."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +36,25 @@
       "emoji": "📐",
       "title": "The 6.8% puzzle",
       "text": "Each January, Earth receives about 6.8% more incoming sunlight than in July, because it is about 3.2 million miles closer to the Sun. Yet January is the Northern Hemisphere's winter. What dominates, and by how much?"
+    },
+    {
+      "type": "predict",
+      "question": "At 30° solar elevation, how much energy does each square meter of ground get compared with the Sun overhead?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "About half",
+          "correct": true
+        },
+        {
+          "text": "About 90%"
+        },
+        {
+          "text": "About a third"
+        }
+      ],
+      "reveal": "About half: the beam covers twice the area. That swing in angle dwarfs the ~6.8% sunlight difference from distance.",
+      "reveal_after": 1
     },
     {
       "type": "idea",
@@ -33,13 +74,23 @@
       "emoji": "🧊",
       "title": "Tilt on long timescales",
       "text": "Tilt (obliquity) has varied between 22.1° and 24.5° over the last million years on a cycle of about 41,000 years. It is about 23.4° now and slowly decreasing. Larger tilt means more extreme seasons. Lower tilt gives milder summers that, at high latitudes, let snow persist and ice sheets build.",
-      "example": "NASA notes that the relative importance of tilt versus precession for ice ages is still being studied."
+      "example": "NASA notes that the relative importance of tilt versus precession for ice ages is still being studied.",
+      "why": {
+        "q": "Why would milder summers, not colder winters, build ice sheets?",
+        "a": "Ice builds when summer fails to melt the winter's snow. Milder summers let snow persist year to year."
+      }
     },
     {
       "type": "idea",
       "emoji": "💥",
       "title": "Origin",
       "text": "NASA Space Place notes scientists think an impact with a body called Theia knocked the young Earth off-kilter, and most think the debris formed the Moon."
+    },
+    {
+      "type": "link",
+      "to": "science-blue-sky-adult",
+      "prompt": "In \"Rayleigh's Sky: A Model That Predicts,\" path length explained sunsets better than the source. Here, angle beats distance. What's the common lesson?",
+      "model": "Geometry (path and angle) dominates the intuitive cause; the easy-to-see variable is second-order."
     },
     {
       "type": "think",

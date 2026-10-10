@@ -7,6 +7,23 @@
   "emoji": "🧭",
   "summary": "Packet switching, open architecture, and the TCP/IP split as strategic choices.",
   "minutes": 8,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is the internet's \"thin waist\"?",
+      "answer": "A minimal best-effort IP layer for addressing and forwarding, with reliability (TCP) at the edges."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why didn't Kahn standardize the networks themselves?",
+      "answer": "His open architecture let independent networks keep their own designs and standardized only the internetworking protocol between them."
+    },
+    {
+      "id": "k3",
+      "prompt": "How did DARPA de-risk TCP/IP's execution?",
+      "answer": "It funded three independent implementations (Stanford, BBN, UCL) that interoperated within about a year."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +31,22 @@
       "emoji": "🧭",
       "title": "A design that outlived its makers' plans",
       "text": "The internet's core protocols were designed in the 1970s for a defense research network. By 1992, the Internet had a million hosts. Which design bets made that scaling possible?"
+    },
+    {
+      "type": "predict",
+      "question": "In the TCP/IP split, where does reliability live: inside the network, or at the edges?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "At the edges (the hosts)",
+          "correct": true
+        },
+        {
+          "text": "Inside the network routers"
+        }
+      ],
+      "reveal": "At the edges. IP is best-effort addressing and forwarding; TCP at the hosts handles flow control and recovery. Packet-voice experiments showed some apps should handle loss themselves.",
+      "reveal_after": 3
     },
     {
       "type": "idea",
@@ -32,7 +65,11 @@
       "type": "idea",
       "emoji": "✂️",
       "title": "Bet 3: a thin waist",
-      "text": "The original TCP bundled forwarding with reliability. Packet voice experiments in the 1970s showed some applications should handle loss themselves rather than wait for retransmission. So the stack split: IP for addressing and forwarding, TCP for flow control and recovery. The network is best-effort; reliability sits at the edges."
+      "text": "The original TCP bundled forwarding with reliability. Packet voice experiments in the 1970s showed some applications should handle loss themselves rather than wait for retransmission. So the stack split: IP for addressing and forwarding, TCP for flow control and recovery. The network is best-effort; reliability sits at the edges.",
+      "why": {
+        "q": "Why would packet voice prefer to skip a lost packet?",
+        "a": "Waiting for a retransmission adds delay a live conversation can't absorb; a tiny gap is better."
+      }
     },
     {
       "type": "idea",

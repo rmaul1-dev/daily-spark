@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "updated": "2026-10-10",
  "topics": [
   {
@@ -130,6 +130,191 @@
    "dinner_question": "The Wright brothers failed many times before they flew. What is something you are getting better at by failing first?"
   }
  ],
+ "series": [
+  {
+   "id": "money-grows-kid",
+   "sid": "money-grows",
+   "title": "Money grows",
+   "emoji": "💰",
+   "topic": "money",
+   "level": "kid",
+   "packs": [
+    "money-profit-break-even-kid",
+    "money-compound-interest-kid"
+   ]
+  },
+  {
+   "id": "money-grows-teen",
+   "sid": "money-grows",
+   "title": "Money grows",
+   "emoji": "💰",
+   "topic": "money",
+   "level": "teen",
+   "packs": [
+    "money-profit-break-even-teen",
+    "money-compound-interest-teen"
+   ]
+  },
+  {
+   "id": "money-grows-adult",
+   "sid": "money-grows",
+   "title": "Money grows",
+   "emoji": "💰",
+   "topic": "money",
+   "level": "adult",
+   "packs": [
+    "money-profit-break-even-adult",
+    "money-compound-interest-adult"
+   ]
+  },
+  {
+   "id": "how-we-know-kid",
+   "sid": "how-we-know",
+   "title": "How do we know?",
+   "emoji": "🔎",
+   "topic": "ideas",
+   "level": "kid",
+   "packs": [
+    "ideas-socrates-kid",
+    "ideas-confirmation-bias-kid",
+    "science-moving-continents-kid"
+   ]
+  },
+  {
+   "id": "how-we-know-teen",
+   "sid": "how-we-know",
+   "title": "How do we know?",
+   "emoji": "🔎",
+   "topic": "ideas",
+   "level": "teen",
+   "packs": [
+    "ideas-socrates-teen",
+    "ideas-confirmation-bias-teen",
+    "science-moving-continents-teen"
+   ]
+  },
+  {
+   "id": "how-we-know-adult",
+   "sid": "how-we-know",
+   "title": "How do we know?",
+   "emoji": "🔎",
+   "topic": "ideas",
+   "level": "adult",
+   "packs": [
+    "ideas-socrates-adult",
+    "ideas-confirmation-bias-adult",
+    "science-moving-continents-adult"
+   ]
+  },
+  {
+   "id": "inventors-kid",
+   "sid": "inventors",
+   "title": "Inventors at work",
+   "emoji": "🛠️",
+   "topic": "history",
+   "level": "kid",
+   "packs": [
+    "history-printing-press-kid",
+    "history-wright-brothers-kid"
+   ]
+  },
+  {
+   "id": "inventors-teen",
+   "sid": "inventors",
+   "title": "Inventors at work",
+   "emoji": "🛠️",
+   "topic": "history",
+   "level": "teen",
+   "packs": [
+    "history-printing-press-teen",
+    "history-wright-brothers-teen"
+   ]
+  },
+  {
+   "id": "inventors-adult",
+   "sid": "inventors",
+   "title": "Inventors at work",
+   "emoji": "🛠️",
+   "topic": "history",
+   "level": "adult",
+   "packs": [
+    "history-printing-press-adult",
+    "history-wright-brothers-adult"
+   ]
+  },
+  {
+   "id": "sunlight-kid",
+   "sid": "sunlight",
+   "title": "Sunlight and Earth",
+   "emoji": "☀️",
+   "topic": "science",
+   "level": "kid",
+   "packs": [
+    "science-blue-sky-kid",
+    "space-seasons-kid"
+   ]
+  },
+  {
+   "id": "sunlight-teen",
+   "sid": "sunlight",
+   "title": "Sunlight and Earth",
+   "emoji": "☀️",
+   "topic": "science",
+   "level": "teen",
+   "packs": [
+    "science-blue-sky-teen",
+    "space-seasons-teen"
+   ]
+  },
+  {
+   "id": "sunlight-adult",
+   "sid": "sunlight",
+   "title": "Sunlight and Earth",
+   "emoji": "☀️",
+   "topic": "science",
+   "level": "adult",
+   "packs": [
+    "science-blue-sky-adult",
+    "space-seasons-adult"
+   ]
+  },
+  {
+   "id": "checks-on-power-kid",
+   "sid": "checks-on-power",
+   "title": "Checks on power",
+   "emoji": "⚖️",
+   "topic": "civics",
+   "level": "kid",
+   "packs": [
+    "civics-checks-and-balances-kid",
+    "civics-first-amendment-kid"
+   ]
+  },
+  {
+   "id": "checks-on-power-teen",
+   "sid": "checks-on-power",
+   "title": "Checks on power",
+   "emoji": "⚖️",
+   "topic": "civics",
+   "level": "teen",
+   "packs": [
+    "civics-checks-and-balances-teen",
+    "civics-first-amendment-teen"
+   ]
+  },
+  {
+   "id": "checks-on-power-adult",
+   "sid": "checks-on-power",
+   "title": "Checks on power",
+   "emoji": "⚖️",
+   "topic": "civics",
+   "level": "adult",
+   "packs": [
+    "civics-checks-and-balances-adult",
+    "civics-first-amendment-adult"
+   ]
+  }
+ ],
  "packs": [
   {
    "id": "history-printing-press-kid",
@@ -141,7 +326,13 @@
    "summary": "How metal letters you could move changed who got to read.",
    "minutes": 6,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3,
+   "series": {
+    "id": "inventors",
+    "part": 1,
+    "of": 2
+   }
   },
   {
    "id": "history-printing-press-teen",
@@ -153,7 +344,13 @@
    "summary": "Gutenberg didn't invent the press, paper, or movable type. So what did he do?",
    "minutes": 7,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3,
+   "series": {
+    "id": "inventors",
+    "part": 1,
+    "of": 2
+   }
   },
   {
    "id": "history-printing-press-adult",
@@ -165,7 +362,13 @@
    "summary": "Fixed costs, alphabets, and diffusion: why printing scaled in Europe.",
    "minutes": 8,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3,
+   "series": {
+    "id": "inventors",
+    "part": 1,
+    "of": 2
+   }
   },
   {
    "id": "history-wright-brothers-kid",
@@ -177,7 +380,13 @@
    "summary": "How the Wright brothers practiced, tested, and finally flew.",
    "minutes": 6,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 10,
+   "keys_count": 2,
+   "series": {
+    "id": "inventors",
+    "part": 2,
+    "of": 2
+   }
   },
   {
    "id": "history-wright-brothers-teen",
@@ -189,7 +398,13 @@
    "summary": "Control, bad data, and a propeller that is really a spinning wing.",
    "minutes": 7,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "inventors",
+    "part": 2,
+    "of": 2
+   }
   },
   {
    "id": "history-wright-brothers-adult",
@@ -201,7 +416,13 @@
    "summary": "Problem decomposition, distrust of inherited data, and capital efficiency.",
    "minutes": 8,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "inventors",
+    "part": 2,
+    "of": 2
+   }
   },
   {
    "id": "science-blue-sky-kid",
@@ -213,7 +434,13 @@
    "summary": "Sunlight hides a rainbow, and the air bounces the blue part around.",
    "minutes": 6,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3,
+   "series": {
+    "id": "sunlight",
+    "part": 1,
+    "of": 2
+   }
   },
   {
    "id": "science-blue-sky-teen",
@@ -225,7 +452,13 @@
    "summary": "Why short wavelengths scatter more, and what that explains.",
    "minutes": 7,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3,
+   "series": {
+    "id": "sunlight",
+    "part": 1,
+    "of": 2
+   }
   },
   {
    "id": "science-blue-sky-adult",
@@ -237,7 +470,13 @@
    "summary": "A one-line scaling law, its limits, and what the eye adds.",
    "minutes": 8,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3,
+   "series": {
+    "id": "sunlight",
+    "part": 1,
+    "of": 2
+   }
   },
   {
    "id": "science-moving-continents-kid",
@@ -249,7 +488,13 @@
    "summary": "One scientist noticed the continents fit like puzzle pieces.",
    "minutes": 6,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "how-we-know",
+    "part": 3,
+    "of": 3
+   }
   },
   {
    "id": "science-moving-continents-teen",
@@ -261,7 +506,13 @@
    "summary": "How evidence from the sea floor turned a rejected idea into plate tectonics.",
    "minutes": 7,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "how-we-know",
+    "part": 3,
+    "of": 3
+   }
   },
   {
    "id": "science-moving-continents-adult",
@@ -273,7 +524,13 @@
    "summary": "Evidence vs. mechanism, the sea-floor data, and what is still unresolved.",
    "minutes": 8,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "how-we-know",
+    "part": 3,
+    "of": 3
+   }
   },
   {
    "id": "tech-how-ai-learns-kid",
@@ -285,7 +542,8 @@
    "summary": "Computers can learn from examples, a bit like you learned to spot a dog.",
    "minutes": 6,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3
   },
   {
    "id": "tech-how-ai-learns-teen",
@@ -297,7 +555,8 @@
    "summary": "Weights, training, and why \"learning from examples\" is powerful and risky.",
    "minutes": 7,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3
   },
   {
    "id": "tech-how-ai-learns-adult",
@@ -309,7 +568,8 @@
    "summary": "What training optimizes, why it can fail quietly, and how today's language models fit in.",
    "minutes": 8,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3
   },
   {
    "id": "tech-internet-packets-kid",
@@ -321,7 +581,8 @@
    "summary": "Your message is cut into small pieces that travel on their own.",
    "minutes": 6,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3
   },
   {
    "id": "tech-internet-packets-teen",
@@ -333,7 +594,8 @@
    "summary": "Why the internet chops data into packets and lets each network be different.",
    "minutes": 7,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3
   },
   {
    "id": "tech-internet-packets-adult",
@@ -345,7 +607,8 @@
    "summary": "Packet switching, open architecture, and the TCP/IP split as strategic choices.",
    "minutes": 8,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3
   },
   {
    "id": "civics-checks-and-balances-kid",
@@ -357,7 +620,13 @@
    "summary": "Why the U.S. government is split into three parts that check each other.",
    "minutes": 6,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3,
+   "series": {
+    "id": "checks-on-power",
+    "part": 1,
+    "of": 2
+   }
   },
   {
    "id": "civics-checks-and-balances-teen",
@@ -369,7 +638,13 @@
    "summary": "How the Constitution sets the branches against each other, and the debate about it.",
    "minutes": 7,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3,
+   "series": {
+    "id": "checks-on-power",
+    "part": 1,
+    "of": 2
+   }
   },
   {
    "id": "civics-checks-and-balances-adult",
@@ -381,7 +656,13 @@
    "summary": "Veto points, supermajorities, and the trade-off between stability and responsiveness.",
    "minutes": 8,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3,
+   "series": {
+    "id": "checks-on-power",
+    "part": 1,
+    "of": 2
+   }
   },
   {
    "id": "civics-first-amendment-kid",
@@ -393,7 +674,13 @@
    "summary": "The First Amendment, and the students who wore armbands to school.",
    "minutes": 6,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "checks-on-power",
+    "part": 2,
+    "of": 2
+   }
   },
   {
    "id": "civics-first-amendment-teen",
@@ -405,7 +692,13 @@
    "summary": "What the First Amendment says, and how the Court balanced it with school order.",
    "minutes": 7,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "checks-on-power",
+    "part": 2,
+    "of": 2
+   }
   },
   {
    "id": "civics-first-amendment-adult",
@@ -417,7 +710,13 @@
    "summary": "Why the Bill of Rights was added, and how Tinker built a test for rights inside institutions.",
    "minutes": 8,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "checks-on-power",
+    "part": 2,
+    "of": 2
+   }
   },
   {
    "id": "money-compound-interest-kid",
@@ -429,7 +728,13 @@
    "summary": "Compound interest: when your interest starts earning interest too.",
    "minutes": 6,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "money-grows",
+    "part": 2,
+    "of": 2
+   }
   },
   {
    "id": "money-compound-interest-teen",
@@ -441,7 +746,13 @@
    "summary": "Exponential growth, the Rule of 72, and why time beats timing.",
    "minutes": 7,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "money-grows",
+    "part": 2,
+    "of": 2
+   }
   },
   {
    "id": "money-compound-interest-adult",
@@ -453,7 +764,13 @@
    "summary": "Rule-of-72 precision, fee drag, and teaching it at the kitchen table.",
    "minutes": 8,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "money-grows",
+    "part": 2,
+    "of": 2
+   }
   },
   {
    "id": "money-profit-break-even-kid",
@@ -465,7 +782,13 @@
    "summary": "Money in, money out, and how many cups you need to sell.",
    "minutes": 6,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3,
+   "series": {
+    "id": "money-grows",
+    "part": 1,
+    "of": 2
+   }
   },
   {
    "id": "money-profit-break-even-teen",
@@ -477,7 +800,13 @@
    "summary": "Contribution margin, break-even units, and pricing for a small golf business.",
    "minutes": 7,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3,
+   "series": {
+    "id": "money-grows",
+    "part": 1,
+    "of": 2
+   }
   },
   {
    "id": "money-profit-break-even-adult",
@@ -489,7 +818,13 @@
    "summary": "The CVP toolkit applied to a startup decision, with the traps.",
    "minutes": 8,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3,
+   "series": {
+    "id": "money-grows",
+    "part": 1,
+    "of": 2
+   }
   },
   {
    "id": "space-apollo-11-kid",
@@ -501,7 +836,8 @@
    "summary": "The day people first walked on the Moon, and the thousands who made it happen.",
    "minutes": 6,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 2
   },
   {
    "id": "space-apollo-11-teen",
@@ -513,7 +849,8 @@
    "summary": "A goal, a deadline, and the problems solved in the final minutes.",
    "minutes": 7,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 2
   },
   {
    "id": "space-apollo-11-adult",
@@ -525,7 +862,8 @@
    "summary": "Margins, abort design, and human judgment in a mission that left little slack.",
    "minutes": 8,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3
   },
   {
    "id": "space-seasons-kid",
@@ -537,7 +875,13 @@
    "summary": "It's not about being close to the Sun. It's all about the tilt.",
    "minutes": 6,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "sunlight",
+    "part": 2,
+    "of": 2
+   }
   },
   {
    "id": "space-seasons-teen",
@@ -549,7 +893,13 @@
    "summary": "Testing a common belief against the data.",
    "minutes": 7,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "sunlight",
+    "part": 2,
+    "of": 2
+   }
   },
   {
    "id": "space-seasons-adult",
@@ -561,7 +911,13 @@
    "summary": "Insolation geometry, the 6.8% January bonus, and why tilt drives ice ages.",
    "minutes": 8,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "sunlight",
+    "part": 2,
+    "of": 2
+   }
   },
   {
    "id": "body-heart-kid",
@@ -573,7 +929,8 @@
    "summary": "Four rooms, one-way doors, and the \"lub-DUB\" you can hear.",
    "minutes": 6,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3
   },
   {
    "id": "body-heart-teen",
@@ -585,7 +942,8 @@
    "summary": "Circuits, valves, and the electrical delay that makes each beat work.",
    "minutes": 7,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3
   },
   {
    "id": "body-heart-adult",
@@ -597,7 +955,8 @@
    "summary": "Series circuits, check valves, conduction timing, and where it fails.",
    "minutes": 8,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3
   },
   {
    "id": "body-sleep-kid",
@@ -609,7 +968,8 @@
    "summary": "What your brain does while you sleep, and how much sleep you need.",
    "minutes": 6,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3
   },
   {
    "id": "body-sleep-teen",
@@ -621,7 +981,8 @@
    "summary": "Sleep drive, the body clock, caffeine, and why sleep is training too.",
    "minutes": 7,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3
   },
   {
    "id": "body-sleep-adult",
@@ -633,7 +994,8 @@
    "summary": "Homeostatic drive, circadian timing, metabolic links, and an honest open question.",
    "minutes": 8,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3
   },
   {
    "id": "ideas-confirmation-bias-kid",
@@ -645,7 +1007,13 @@
    "summary": "Why we look for proof we're right, and a game that shows it.",
    "minutes": 6,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "how-we-know",
+    "part": 2,
+    "of": 3
+   }
   },
   {
    "id": "ideas-confirmation-bias-teen",
@@ -657,7 +1025,13 @@
    "summary": "Why smart people get stuck on wrong answers, and how scientists and founders fight it.",
    "minutes": 7,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "how-we-know",
+    "part": 2,
+    "of": 3
+   }
   },
   {
    "id": "ideas-confirmation-bias-adult",
@@ -669,7 +1043,13 @@
    "summary": "Three channels of bias, a fair critique, and what it means for investment and operating decisions.",
    "minutes": 8,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "how-we-know",
+    "part": 2,
+    "of": 3
+   }
   },
   {
    "id": "ideas-socrates-kid",
@@ -681,7 +1061,13 @@
    "summary": "Socrates helped people think by asking questions, not by giving answers.",
    "minutes": 6,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3,
+   "series": {
+    "id": "how-we-know",
+    "part": 1,
+    "of": 3
+   }
   },
   {
    "id": "ideas-socrates-teen",
@@ -693,7 +1079,13 @@
    "summary": "The method, the trial, and the puzzle of a man who wrote nothing.",
    "minutes": 7,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3,
+   "series": {
+    "id": "how-we-know",
+    "part": 1,
+    "of": 3
+   }
   },
   {
    "id": "ideas-socrates-adult",
@@ -705,7 +1097,13 @@
    "summary": "The Socratic problem as source criticism, and what modern \"Socratic\" teaching leaves out.",
    "minutes": 8,
    "date_added": "2026-10-09",
-   "cards": 8
+   "cards": 9,
+   "keys_count": 3,
+   "series": {
+    "id": "how-we-know",
+    "part": 1,
+    "of": 3
+   }
   }
  ]
 }

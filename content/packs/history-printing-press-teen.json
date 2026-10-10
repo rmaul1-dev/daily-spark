@@ -7,6 +7,28 @@
   "emoji": "🏭",
   "summary": "Gutenberg didn't invent the press, paper, or movable type. So what did he do?",
   "minutes": 7,
+  "series": {
+    "id": "inventors",
+    "part": 1,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What did Gutenberg actually achieve if he didn't invent the parts?",
+      "answer": "He combined existing tech with his own inventions (a type mold, oil-based ink) into a system that could mass-produce books."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why did metal movable type take off faster in Europe than in China?",
+      "answer": "The Latin alphabet needs only a few dozen letters, so a full set of type cost far less than one for thousands of Chinese characters."
+    },
+    {
+      "id": "k3",
+      "prompt": "How long did Gutenberg take from early evidence to his famous Bible, and what does that show?",
+      "answer": "About 15 years (a 1439 lawsuit to the 1454–56 Bible): big breakthroughs can need long R&D and outside money."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +36,25 @@
       "emoji": "🏭",
       "title": "He didn't invent the parts",
       "text": "Screw presses were Roman. Movable type was first made in China. Paper and bound books existed already. So why do we remember Johann Gutenberg?"
+    },
+    {
+      "type": "predict",
+      "question": "Gutenberg didn't invent the press, paper or movable type. What do you think his real breakthrough was?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "Inventing the first way to put ink on paper"
+        },
+        {
+          "text": "Inventing the bound book"
+        },
+        {
+          "text": "Combining old and new tools into one system that could mass-produce books",
+          "correct": true
+        }
+      ],
+      "reveal": "A system. He combined the screw press, movable type, the bound book and mill-made paper, then added his own hand mold for casting type and an oil-based ink.",
+      "reveal_after": 1
     },
     {
       "type": "idea",
@@ -27,7 +68,11 @@
       "emoji": "🌏",
       "title": "Asia got there first",
       "text": "The Chinese artisan Bi Sheng made movable type from baked clay in the 11th century. The oldest surviving book printed with metal movable type is Korea's Jikji, from 1377.",
-      "example": "Chinese writing uses thousands of different characters, so a full set of type was very costly. The Latin alphabet needs only a few dozen letters, which made Gutenberg's system cheaper to set up."
+      "example": "Chinese writing uses thousands of different characters, so a full set of type was very costly. The Latin alphabet needs only a few dozen letters, which made Gutenberg's system cheaper to set up.",
+      "why": {
+        "q": "Why would a few dozen letters make printing cheaper to set up?",
+        "a": "A full set of type needs every character. Thousands of Chinese characters meant a huge, costly set; the Latin alphabet needed only a few dozen letters."
+      }
     },
     {
       "type": "idea",

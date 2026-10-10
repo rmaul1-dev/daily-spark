@@ -7,6 +7,28 @@
   "emoji": "📜",
   "summary": "Why the Bill of Rights was added, and how Tinker built a test for rights inside institutions.",
   "minutes": 8,
+  "series": {
+    "id": "checks-on-power",
+    "part": 2,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is the Tinker standard?",
+      "answer": "School officials can't ban student expression merely on suspicion of disruption; it calls for case-by-case judgment about actual disruption."
+    },
+    {
+      "id": "k2",
+      "prompt": "What's the trade-off between rules and standards?",
+      "answer": "Rules are predictable and cheap to apply but misfit edge cases; standards fit better but invite inconsistency and litigation."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why was a Bill of Rights added at all?",
+      "answer": "Several state ratifying conventions wanted \"declaratory and restrictive clauses\" to prevent misconstruction or abuse of federal power."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +36,22 @@
       "emoji": "📜",
       "title": "\"Article the third\"",
       "text": "In the twelve amendments Congress sent to the states in 1789, what we call the First Amendment was listed third. Why was there a Bill of Rights at all, and how do courts apply one sentence to the messy reality of institutions?"
+    },
+    {
+      "type": "predict",
+      "question": "In Tinker (1969), did the Court set a bright-line rule or a case-by-case standard?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "A case-by-case standard",
+          "correct": true
+        },
+        {
+          "text": "A bright-line rule"
+        }
+      ],
+      "reveal": "A standard: officials can't ban expression merely on suspicion of disruption, which calls for judgment about actual disruption case by case. More fit, less predictability.",
+      "reveal_after": 3
     },
     {
       "type": "idea",
@@ -25,7 +63,11 @@
       "type": "idea",
       "emoji": "🔍",
       "title": "Five clauses",
-      "text": "One sentence holds distinct clauses: establishment, free exercise, speech, press, and assembly and petition. Each has its own body of interpretation. The text restrains government (\"Congress shall make no law…\"), not private parties."
+      "text": "One sentence holds distinct clauses: establishment, free exercise, speech, press, and assembly and petition. Each has its own body of interpretation. The text restrains government (\"Congress shall make no law…\"), not private parties.",
+      "why": {
+        "q": "Why doesn't the First Amendment apply to a private company's speech rules?",
+        "a": "Its text restrains government (\"Congress shall make no law…\"), not private parties."
+      }
     },
     {
       "type": "idea",
@@ -39,6 +81,12 @@
       "emoji": "⚖️",
       "title": "Rules vs. standards",
       "text": "Bright-line rules are predictable and cheap to apply but misfit edge cases. Standards fit cases better but invite inconsistency and litigation. Tinker chose a standard for expression inside an institution with a legitimate mission. The tension recurs in workplaces, campuses, and platforms."
+    },
+    {
+      "type": "link",
+      "to": "civics-checks-and-balances-adult",
+      "prompt": "\"Separation of Powers as Incentive Design\" was about structure. The Bill of Rights adds enumerated limits. Why might the ratifying conventions have wanted both?",
+      "model": "Structure makes branches check each other, but conventions still wanted explicit \"restrictive clauses\" to prevent misconstruction or abuse; a written right gives courts a clear line to enforce."
     },
     {
       "type": "think",

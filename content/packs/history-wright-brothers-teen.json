@@ -7,6 +7,28 @@
   "emoji": "🛠️",
   "summary": "Control, bad data, and a propeller that is really a spinning wing.",
   "minutes": 7,
+  "series": {
+    "id": "inventors",
+    "part": 2,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What did the Wrights treat as the key problem of flight, and how did they solve it?",
+      "answer": "Control. They twisted the wing tips in opposite directions (wing warping) so one side lifted more and the plane banked."
+    },
+    {
+      "id": "k2",
+      "prompt": "When published lift data didn't match their gliders, what did the Wrights do?",
+      "answer": "Built their own wind tunnel and measured lift and drag on model wings instead of trusting the numbers."
+    },
+    {
+      "id": "k3",
+      "prompt": "Flying into a headwind, how do airspeed and groundspeed relate?",
+      "answer": "Airspeed is about groundspeed plus the headwind: on Dec 17, 1903, 6.8 + 27 ≈ 34 mph."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +36,25 @@
       "emoji": "🛠️",
       "title": "The underdogs",
       "text": "Samuel Langley had government money and the newspapers watching. Two bicycle makers from Ohio worked in near obscurity. The bike makers flew first. How?"
+    },
+    {
+      "type": "predict",
+      "question": "Langley had government money and the newspapers watching. What do you think was the problem the Wrights solved first?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "More engine power"
+        },
+        {
+          "text": "Control: steering and balancing the plane",
+          "correct": true
+        },
+        {
+          "text": "Making the plane lighter than air"
+        }
+      ],
+      "reveal": "Control. Lilienthal steered by shifting his body weight. The Wrights twisted the wing tips (\"wing warping\") so one side lifted more and the plane banked.",
+      "reveal_after": 1
     },
     {
       "type": "idea",
@@ -27,14 +68,23 @@
       "emoji": "📊",
       "title": "When the data is wrong",
       "text": "Their 1900 and 1901 gliders made much less lift than published data predicted. Instead of guessing, they built a wind tunnel in fall 1901 with instruments to measure lift and drag on small model wings.",
-      "example": "Their 1902 glider, built from their own data, made 700 to 1,000 flights. The best went 622.5 feet in 26 seconds."
+      "example": "Their 1902 glider, built from their own data, made 700 to 1,000 flights. The best went 622.5 feet in 26 seconds.",
+      "examples_by_interest": {
+        "golf": "Say a golf magazine claims a new driver adds 10 yards. The Wright move: test it yourself with the same balls and many swings, and write down the real distances.",
+        "soccer": "Say a training video promises a new kicking style adds power. The Wright move: film 20 kicks each way and measure, instead of trusting the video.",
+        "business": "Say a report says the market for your product is huge. The Wright move: run a small test sale and measure real demand before betting big."
+      }
     },
     {
       "type": "idea",
       "emoji": "🌀",
       "title": "A propeller is a spinning wing",
       "text": "Boat propeller theory did not help much. The Wrights treated a propeller as a wing turned on its side and spun, making \"lift\" that pushes forward. The 1903 Flyer had two propellers turning in opposite directions to cancel a twisting force.",
-      "example": "They built their own 12-horsepower engine with their bicycle shop mechanic, Charles Taylor."
+      "example": "They built their own 12-horsepower engine with their bicycle shop mechanic, Charles Taylor.",
+      "why": {
+        "q": "Why treat a propeller as a spinning wing?",
+        "a": "A wing makes lift from air flowing over it. Turn a wing on its side and spin it, and that \"lift\" pushes the plane forward."
+      }
     },
     {
       "type": "idea",
@@ -42,6 +92,12 @@
       "title": "Do the math",
       "text": "On December 17, 1903, the wind was 27 mph. Orville's groundspeed was only 6.8 mph, so his airspeed was about 34 mph. Lift depends on air moving over the wings, so a headwind helps you get airborne.",
       "example": "Flight 1: 120 feet in 12 seconds. Flight 4, with Wilbur: 852 feet in 59 seconds."
+    },
+    {
+      "type": "link",
+      "to": "history-printing-press-teen",
+      "prompt": "In \"Gutenberg's Startup: Combining Old Tech\" the breakthrough was a system, not one part. What was the Wrights' system?",
+      "model": "Control (wing warping), their own lift data (the wind tunnel), and efficient propellers with a light engine, all made to work together."
     },
     {
       "type": "think",

@@ -7,6 +7,64 @@
   "emoji": "🍋",
   "summary": "Money in, money out, and how many cups you need to sell.",
   "minutes": 6,
+  "series": {
+    "id": "money-grows",
+    "part": 1,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What does break-even mean?",
+      "answer": "The money coming in equals all your costs. Every sale after that is profit.",
+      "options": [
+        {
+          "text": "Money in equals all your costs",
+          "correct": true
+        },
+        {
+          "text": "You sold every cup"
+        },
+        {
+          "text": "You lost all your money"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "What is profit?",
+      "answer": "Revenue minus costs: the money left after you pay for everything.",
+      "options": [
+        {
+          "text": "Money in minus money spent",
+          "correct": true
+        },
+        {
+          "text": "All the money that comes in"
+        },
+        {
+          "text": "The price of one cup"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What is the difference between fixed and variable costs?",
+      "answer": "Fixed costs stay the same no matter how much you sell, like a sign. Variable costs go up with every sale, like cups.",
+      "options": [
+        {
+          "text": "Fixed costs stay the same; variable costs go up with each sale",
+          "correct": true
+        },
+        {
+          "text": "Fixed costs are free"
+        },
+        {
+          "text": "Variable costs never change"
+        }
+      ]
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +72,25 @@
       "emoji": "🍋",
       "title": "Did your stand make money?",
       "text": "Say you sold $30 of lemonade on Saturday. Did you make $30? Not so fast. What did you have to buy to make it?"
+    },
+    {
+      "type": "predict",
+      "question": "Your sign and pitcher cost $12. Each cup sells for $1 and costs 40 cents to make. How many cups do you need to sell to stop losing money?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "12 cups"
+        },
+        {
+          "text": "20 cups",
+          "correct": true
+        },
+        {
+          "text": "30 cups"
+        }
+      ],
+      "reveal": "20 cups. Each cup gives you 60 cents toward your $12, and 20 times 60 cents is $12. Every cup after that is profit!",
+      "reveal_after": 3
     },
     {
       "type": "idea",
@@ -26,14 +103,22 @@
       "type": "idea",
       "emoji": "📦",
       "title": "Two kinds of costs",
-      "text": "Some costs stay the same no matter how much you sell, like a sign or a pitcher. These are fixed costs. Other costs go up with every cup you sell, like lemons and cups. These are variable costs."
+      "text": "Some costs stay the same no matter how much you sell, like a sign or a pitcher. These are fixed costs. Other costs go up with every cup you sell, like lemons and cups. These are variable costs.",
+      "why": {
+        "q": "Why are paper cups a variable cost, but a pitcher is not?",
+        "a": "You need one more cup for every sale. You buy a pitcher once, no matter how much you sell."
+      }
     },
     {
       "type": "idea",
       "emoji": "⚖️",
       "title": "The break-even point",
       "text": "Break-even is when the money coming in equals all your costs. You have not lost money, and you have not made any yet. Every sale after that is profit.",
-      "example": "Say your sign and pitcher cost $12. Each cup sells for $1 and costs 40 cents to make. Each cup gives you 60 cents toward your $12. You need 20 cups to break even."
+      "example": "Say your sign and pitcher cost $12. Each cup sells for $1 and costs 40 cents to make. Each cup gives you 60 cents toward your $12. You need 20 cups to break even.",
+      "examples_by_interest": {
+        "art": "Say you sell bookmarks you paint. Paint and brushes cost $12 once. Each bookmark sells for $1, and its paper costs 40 cents. Each sale gives 60 cents toward your $12, so you need 20 to break even.",
+        "soccer": "Say your soccer team sells water at a game. The cooler costs $12. Each bottle sells for $1 and costs 40 cents. Each bottle gives 60 cents toward the cooler, so you need 20 to break even."
+      }
     },
     {
       "type": "idea",

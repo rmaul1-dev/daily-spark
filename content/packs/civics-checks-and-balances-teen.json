@@ -7,6 +7,28 @@
   "emoji": "⚖️",
   "summary": "How the Constitution sets the branches against each other, and the debate about it.",
   "minutes": 7,
+  "series": {
+    "id": "checks-on-power",
+    "part": 1,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What did Federalist No. 51 mean by \"ambition must be made to counteract ambition\"?",
+      "answer": "Don't rely on leaders being good; give each branch the tools and reasons to resist the others."
+    },
+    {
+      "id": "k2",
+      "prompt": "Where does the courts' power to strike down laws come from?",
+      "answer": "It isn't spelled out in the Constitution; it was confirmed in Marbury v. Madison in 1803."
+    },
+    {
+      "id": "k3",
+      "prompt": "What's the core debate about checks and balances?",
+      "answer": "Supporters say they prevent abuse and force compromise; critics say they cause gridlock. Both agree they make big change hard."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +36,25 @@
       "emoji": "😇",
       "title": "\"If men were angels…\"",
       "text": "In Federalist No. 51, the case for the Constitution was put bluntly: \"If men were angels, no government would be necessary.\" So if people aren't angels, how do you design a government that controls itself?"
+    },
+    {
+      "type": "predict",
+      "question": "\"If men were angels, no government would be necessary.\" So how did the Constitution's designers plan to keep government in check?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "Trust leaders to be good people"
+        },
+        {
+          "text": "Give each branch tools and reasons to resist the others",
+          "correct": true
+        },
+        {
+          "text": "Let one branch supervise all the others"
+        }
+      ],
+      "reveal": "Instead of trusting leaders to be good, they set \"ambition\" against \"ambition\": each branch gets tools and reasons to resist the others.",
+      "reveal_after": 1
     },
     {
       "type": "idea",
@@ -38,7 +79,11 @@
       "type": "idea",
       "emoji": "🗣️",
       "title": "The debate",
-      "text": "Supporters say checks and balances prevent abuse and force compromise. Critics say they can cause gridlock, so government responds slowly when problems need action. Both sides agree the system makes big changes hard. They disagree about whether that is a feature or a bug."
+      "text": "Supporters say checks and balances prevent abuse and force compromise. Critics say they can cause gridlock, so government responds slowly when problems need action. Both sides agree the system makes big changes hard. They disagree about whether that is a feature or a bug.",
+      "why": {
+        "q": "Two people can agree on the facts about gridlock and still disagree about the system. Why?",
+        "a": "Both agree it makes big changes hard. They disagree about whether that is a feature (fewer mistakes) or a bug (slower fixes)."
+      }
     },
     {
       "type": "think",

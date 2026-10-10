@@ -7,6 +7,64 @@
   "emoji": "🔍",
   "summary": "Why we look for proof we're right, and a game that shows it.",
   "minutes": 6,
+  "series": {
+    "id": "how-we-know",
+    "part": 2,
+    "of": 3
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is confirmation bias?",
+      "answer": "Looking for things that show we are right, and skipping things that might show we are wrong.",
+      "options": [
+        {
+          "text": "Looking only for proof that you are right",
+          "correct": true
+        },
+        {
+          "text": "Always changing your mind"
+        },
+        {
+          "text": "Being very good at math"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "How can you beat confirmation bias?",
+      "answer": "Test your idea in a way that could fail. Ask, \"What would show I am wrong?\"",
+      "options": [
+        {
+          "text": "Try a test that could show you are wrong",
+          "correct": true
+        },
+        {
+          "text": "Only ask friends who agree"
+        },
+        {
+          "text": "Do the same test again and again"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "Why did people in the 2-4-6 game miss the real rule?",
+      "answer": "They only tested numbers that matched their guess, so every test said \"fits.\"",
+      "options": [
+        {
+          "text": "They only tested numbers that fit their guess",
+          "correct": true
+        },
+        {
+          "text": "The rule was kept secret forever"
+        },
+        {
+          "text": "They were bad at counting"
+        }
+      ]
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +72,25 @@
       "emoji": "🔢",
       "title": "Guess my rule",
       "text": "I have a secret rule for three numbers. The numbers 2, 4, 6 follow my rule. What do you think the rule is? Keep your guess in mind."
+    },
+    {
+      "type": "predict",
+      "question": "Think about 2, 4, 6. What do you think the secret rule is?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "Count up by 2"
+        },
+        {
+          "text": "Only even numbers"
+        },
+        {
+          "text": "Any three numbers that go up",
+          "correct": true
+        }
+      ],
+      "reveal": "The real rule was simply \"any three numbers that go up.\" Most people guessed something narrower, like \"count up by 2.\" They only tested numbers that fit their guess.",
+      "reveal_after": 2
     },
     {
       "type": "idea",
@@ -37,7 +114,21 @@
       "type": "idea",
       "emoji": "🔦",
       "title": "How to beat it",
-      "text": "Try to test your idea in a way that could fail. Ask, \"What would show I am wrong?\" In the number game, a great test is 1, 2, 3 or 5, 4, 3. If 5, 4, 3 does not fit, you learn something new!"
+      "text": "Try to test your idea in a way that could fail. Ask, \"What would show I am wrong?\" In the number game, a great test is 1, 2, 3 or 5, 4, 3. If 5, 4, 3 does not fit, you learn something new!",
+      "why": {
+        "q": "Why is 5, 4, 3 a better test than 10, 12, 14?",
+        "a": "10, 12, 14 fits your guess, so it can't show you are wrong. 5, 4, 3 could fail. If it does, you learn something new."
+      },
+      "examples_by_interest": {
+        "soccer": "Say you think your lucky socks help you score. A test that could fail: play some games in other socks, and count your goals both ways.",
+        "animals": "Say you think your dog only barks at the mail carrier. A test that could fail: write down every bark for a week, not just the mail times."
+      }
+    },
+    {
+      "type": "link",
+      "to": "ideas-socrates-kid",
+      "prompt": "Socrates asked question after question to help people test their ideas. How is asking \"What would show I am wrong?\" like what Socrates did?",
+      "model": "Both use a question to check whether an idea really holds up, instead of just believing it."
     },
     {
       "type": "think",

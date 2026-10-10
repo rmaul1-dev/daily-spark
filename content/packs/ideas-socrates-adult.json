@@ -7,6 +7,28 @@
   "emoji": "🦉",
   "summary": "The Socratic problem as source criticism, and what modern \"Socratic\" teaching leaves out.",
   "minutes": 8,
+  "series": {
+    "id": "how-we-know",
+    "part": 1,
+    "of": 3
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What does modern \"Socratic questioning\" keep and drop from the original?",
+      "answer": "Keeps the question-and-answer, collaborative form; drops the sting of exposing a disquieting truth."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why is \"what Socrates thought\" partly a question about Plato?",
+      "answer": "Socrates left no writing, and Plato's dialogues carry the most weight among sources that differ in crucial respects."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why did Socrates call Aristophanes's caricature more dangerous than his accusers?",
+      "answer": "It had shaped jurors' views since youth; reputation built years earlier decided the case."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -16,11 +38,34 @@
       "text": "A \"Socratic tutor\" is now a product category. The historical Socrates wrote nothing, made powerful people look foolish in public, and was executed by his city. How much of the original survives in the modern label?"
     },
     {
+      "type": "predict",
+      "question": "Modern teachers call collaborative, friendly questioning \"Socratic.\" What do you think it leaves out?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "The discomfort of exposing what people don't know",
+          "correct": true
+        },
+        {
+          "text": "The question-and-answer format"
+        },
+        {
+          "text": "Nothing important"
+        }
+      ],
+      "reveal": "The sting. The Stanford Encyclopedia notes the original exposed disquieting truths; the modern label borrows the name while dropping the discomfort.",
+      "reveal_after": 4
+    },
+    {
       "type": "idea",
       "emoji": "🧾",
       "title": "The evidence problem",
       "text": "Socrates (469–399 B.C.E.) left no writing. Our three primary sources, Aristophanes's comedy Clouds (423 B.C.E.), Xenophon, and Plato, give accounts that differ in crucial respects. Plato's dialogues, where Socrates is the dominant figure, carry the most weight, which makes \"what Socrates thought\" partly a question about Plato.",
-      "example": "Good analyst practice: weight each source by its incentives and access, and note where the only witness is also the author with an agenda."
+      "example": "Good analyst practice: weight each source by its incentives and access, and note where the only witness is also the author with an agenda.",
+      "why": {
+        "q": "How should you weigh three sources that disagree?",
+        "a": "By incentives and access: what each wanted, and how each knew."
+      }
     },
     {
       "type": "idea",

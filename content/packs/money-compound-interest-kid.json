@@ -7,6 +7,64 @@
   "emoji": "🌱",
   "summary": "Compound interest: when your interest starts earning interest too.",
   "minutes": 6,
+  "series": {
+    "id": "money-grows",
+    "part": 2,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What makes compound interest special?",
+      "answer": "You earn interest on your interest too, so your money grows a little faster each year.",
+      "options": [
+        {
+          "text": "You earn interest on your interest",
+          "correct": true
+        },
+        {
+          "text": "The bank takes money each year"
+        },
+        {
+          "text": "You get the same amount every year"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Why does starting to save early help so much?",
+      "answer": "Your money has more years to grow on itself.",
+      "options": [
+        {
+          "text": "Your money has more years to grow",
+          "correct": true
+        },
+        {
+          "text": "Banks pay kids more"
+        },
+        {
+          "text": "Money is worth nothing later"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What is interest?",
+      "answer": "Extra money a bank pays you for letting it use your money.",
+      "options": [
+        {
+          "text": "Extra money the bank pays you for keeping money there",
+          "correct": true
+        },
+        {
+          "text": "A fee you pay to open a piggy bank"
+        },
+        {
+          "text": "Money you get for spending fast"
+        }
+      ]
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +72,25 @@
       "emoji": "🌱",
       "title": "Money that grows on its own?",
       "text": "Imagine putting $100 in a savings account and never adding another cent. Twenty-five years later, it could be almost $340. Where does the extra money come from?"
+    },
+    {
+      "type": "predict",
+      "question": "You have $105 after one year at 5%. In year two, do you earn interest on just your first $100, or on all $105?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "Just on the first $100"
+        },
+        {
+          "text": "On all $105, including last year's interest",
+          "correct": true
+        },
+        {
+          "text": "No interest in year two"
+        }
+      ],
+      "reveal": "On all $105! That gives you $110.25. The extra 25 cents is interest earned on your interest. That is compound interest.",
+      "reveal_after": 2
     },
     {
       "type": "idea",
@@ -34,13 +111,23 @@
       "title": "Small at first, big later",
       "text": "Each year, the pile grows a little faster than the year before. After 10 years, $100 at 5% grows to more than $162. After 25 years, it is almost $340.",
       "example": "The early years look slow. The later years are where it really takes off.",
-      "svg": "<svg viewBox=\"0 0 300 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"$100 growing at 5% every 5 years\"><rect x=\"33.0\" y=\"82.5\" width=\"34.0\" height=\"29.5\" rx=\"3\" fill=\"#10b981\"/><rect x=\"73.0\" y=\"74.3\" width=\"34.0\" height=\"37.7\" rx=\"3\" fill=\"#10b981\"/><rect x=\"113.0\" y=\"63.9\" width=\"34.0\" height=\"48.1\" rx=\"3\" fill=\"#10b981\"/><rect x=\"153.0\" y=\"50.6\" width=\"34.0\" height=\"61.4\" rx=\"3\" fill=\"#10b981\"/><rect x=\"193.0\" y=\"33.6\" width=\"34.0\" height=\"78.4\" rx=\"3\" fill=\"#10b981\"/><rect x=\"233.0\" y=\"12.0\" width=\"34.0\" height=\"100.0\" rx=\"3\" fill=\"#10b981\"/><path d=\"M24 112 H276\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      "svg": "<svg viewBox=\"0 0 300 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"$100 growing at 5% every 5 years\"><rect x=\"33.0\" y=\"82.5\" width=\"34.0\" height=\"29.5\" rx=\"3\" fill=\"#10b981\"/><rect x=\"73.0\" y=\"74.3\" width=\"34.0\" height=\"37.7\" rx=\"3\" fill=\"#10b981\"/><rect x=\"113.0\" y=\"63.9\" width=\"34.0\" height=\"48.1\" rx=\"3\" fill=\"#10b981\"/><rect x=\"153.0\" y=\"50.6\" width=\"34.0\" height=\"61.4\" rx=\"3\" fill=\"#10b981\"/><rect x=\"193.0\" y=\"33.6\" width=\"34.0\" height=\"78.4\" rx=\"3\" fill=\"#10b981\"/><rect x=\"233.0\" y=\"12.0\" width=\"34.0\" height=\"100.0\" rx=\"3\" fill=\"#10b981\"/><path d=\"M24 112 H276\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+      "why": {
+        "q": "Why does the pile grow a little faster each year?",
+        "a": "Each year you earn interest on a bigger pile, because last year's interest is now part of it."
+      }
     },
     {
       "type": "idea",
       "emoji": "⏰",
       "title": "Time is the secret ingredient",
       "text": "The longer your money stays put, the more years it has to grow on itself. That is why starting early helps so much, even with small amounts."
+    },
+    {
+      "type": "link",
+      "to": "money-profit-break-even-kid",
+      "prompt": "You learned that profit is the money left after costs. What could you do with it so it grows on its own?",
+      "model": "Put it in savings. It earns interest. Later, the interest earns interest too."
     },
     {
       "type": "think",

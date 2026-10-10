@@ -7,6 +7,23 @@
   "emoji": "🫀",
   "summary": "Circuits, valves, and the electrical delay that makes each beat work.",
   "minutes": 7,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why does the heart's signal pause at the AV node on every beat?",
+      "answer": "So the ventricles can finish filling with blood before they contract."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why is the heart called \"two pumps in one\"?",
+      "answer": "The right side pumps oxygen-poor blood to the lungs; the left side pumps oxygen-rich blood to the whole body."
+    },
+    {
+      "id": "k3",
+      "prompt": "How do you turn a 30-second pulse count into a heart rate, and what's normal at rest?",
+      "answer": "Double the count to get beats per minute. At rest, 60 to 100 is normal."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -16,11 +33,34 @@
       "text": "Your heart has a timing system that deliberately slows its own electrical signal for a split second on every beat. Why would a pump want a delay?"
     },
     {
+      "type": "predict",
+      "question": "Your heart slows its own electrical signal for a split second on every beat. Why would a pump want a delay?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "To let the heart muscle rest between beats"
+        },
+        {
+          "text": "To let the lower chambers finish filling before they squeeze",
+          "correct": true
+        },
+        {
+          "text": "To keep the heartbeat from getting too loud"
+        }
+      ],
+      "reveal": "It's for filling. The signal slows at the AV node, which gives the ventricles time to finish filling before they contract. The delay is a feature, not a bug.",
+      "reveal_after": 3
+    },
+    {
       "type": "idea",
       "emoji": "🔁",
       "title": "Two pumps in one",
       "text": "The right side sends oxygen-poor blood to the lungs. The left side sends oxygen-rich blood to the whole body. The left ventricle makes the high pressure needed to push blood all the way through your body.",
-      "svg": "<svg viewBox=\"0 0 300 130\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Two loops: heart to lungs and heart to body\"><ellipse cx=\"80\" cy=\"65\" rx=\"62\" ry=\"40\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"6\"/><ellipse cx=\"220\" cy=\"65\" rx=\"62\" ry=\"40\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"6\"/><circle cx=\"150\" cy=\"65\" r=\"22\" fill=\"#e11d48\"/><text x=\"150\" y=\"72\" font-size=\"20\" text-anchor=\"middle\">❤️</text><text x=\"40\" y=\"72\" font-size=\"24\" text-anchor=\"middle\">🫁</text><text x=\"262\" y=\"72\" font-size=\"24\" text-anchor=\"middle\">🏃</text></svg>"
+      "svg": "<svg viewBox=\"0 0 300 130\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Two loops: heart to lungs and heart to body\"><ellipse cx=\"80\" cy=\"65\" rx=\"62\" ry=\"40\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"6\"/><ellipse cx=\"220\" cy=\"65\" rx=\"62\" ry=\"40\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"6\"/><circle cx=\"150\" cy=\"65\" r=\"22\" fill=\"#e11d48\"/><text x=\"150\" y=\"72\" font-size=\"20\" text-anchor=\"middle\">❤️</text><text x=\"40\" y=\"72\" font-size=\"24\" text-anchor=\"middle\">🫁</text><text x=\"262\" y=\"72\" font-size=\"24\" text-anchor=\"middle\">🏃</text></svg>",
+      "why": {
+        "q": "Why does the left ventricle need more pressure than the right?",
+        "a": "The left side has to push blood all the way through your body. The right side sends it to the lungs."
+      }
     },
     {
       "type": "idea",

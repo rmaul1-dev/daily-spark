@@ -11,7 +11,7 @@
 <meta name="apple-mobile-web-app-title" content="Daily Spark">
 <meta name="theme-color" content="#fff7ec">
 <meta name="referrer" content="no-referrer">
-<meta name="app-version" content="daily-spark-v5-659d6a66">
+<meta name="app-version" content="daily-spark-v7-bdf94c0e">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://i.ytimg.com; frame-src https://www.youtube-nocookie.com; connect-src 'self'; object-src 'none'; base-uri 'self'">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icon-180.png">
@@ -55,7 +55,7 @@ h3{font-size:1.08rem}
 .btn.wide{width:100%}
 .btn.sm{min-height:40px;padding:0 16px;font-size:.95rem}
 .btn[disabled]{opacity:.45;box-shadow:none}
-.link{color:var(--accent-d);font-weight:600;padding:8px 4px}
+button.link{color:var(--accent-d);font-weight:600;padding:8px 4px}
 
 /* panels */
 .panel{background:var(--card);border:1.5px solid var(--line);border-radius:var(--r);padding:18px;box-shadow:0 2px 0 #00000008}
@@ -228,6 +228,86 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
   .pnav{max-width:780px;margin:0 auto;width:100%}
 }
 
+/* ---------- v2 ---------- */
+.btn.big{min-height:60px;font-size:1.15rem}
+.week{padding:14px 16px}
+.wdots{display:flex;gap:6px;margin:10px 0 8px}
+.wd{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px}
+.wd i{width:100%;max-width:40px;aspect-ratio:1;border-radius:50%;background:#f3e8db;display:flex;align-items:center;justify-content:center;font-style:normal;font-weight:800;color:#fff;font-size:.95rem}
+.wd.on i{background:var(--ok)}
+.wd.today i{box-shadow:0 0 0 3px #f6b48a}
+.wd.fut i{background:#faf3ea;border:1.5px dashed #ead9c4}
+.wd small{font-size:.72rem;color:var(--muted);font-weight:700}
+.challenge{background:linear-gradient(160deg,#f1f8ff,#e6f1ff);border-color:#c7defa}
+.challenge .tag,.family .tag{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#2b5d99}
+.family .tag{color:var(--accent-d)}
+.ask{width:100%;background:#fff7d6;border-color:#f0d77b;gap:12px}
+.reveal{background:#f3efff;border:1.5px solid #d8cdfb;border-radius:16px;padding:12px 14px;margin:2px 0 12px;font-size:1.02rem}
+.reveal>b{display:block;font-size:.76rem;letter-spacing:.06em;text-transform:uppercase;color:#5b44b8;margin-bottom:4px}
+.gline{margin-bottom:6px}
+.whybox{margin-top:12px;background:#fff8e8;border:1.5px dashed #f0cf93;border-radius:16px;padding:12px 14px;font-size:1.02rem}
+.answer{margin-top:10px;background:var(--ok-bg);border:1.5px solid #bfe5cb;border-radius:14px;padding:10px 14px;font-size:1.04rem}
+.answer b{display:block;font-size:.76rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ok);margin-bottom:2px}
+.est{margin-top:10px;background:#fff;border:2px solid var(--line);border-radius:18px;padding:16px}
+.estv{font-size:1.8rem;font-weight:800;text-align:center;margin-bottom:8px;color:var(--accent-d)}
+.est input[type=range]{width:100%;height:36px;accent-color:var(--accent)}
+.opt.picked{border-color:var(--accent);background:#fff1e6;box-shadow:inset 0 0 0 1px var(--accent)}
+.conf{margin-top:14px;background:#fff4e6;border-radius:16px;padding:12px 14px;display:flex;flex-direction:column;gap:10px;font-weight:700}
+.conf .btn{flex:1}
+.wrapq{margin-top:12px;padding:12px 14px;background:#fff;border:1.5px solid var(--line);border-radius:16px}
+.rubric-got{background:var(--ok-bg);border-radius:16px;padding:12px 14px;margin:6px 0 14px;display:flex;flex-direction:column;gap:4px}
+.rubric-got b{font-size:.76rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ok)}
+.check{display:flex;align-items:center;gap:10px;padding:10px 4px;font-size:1.02rem;cursor:pointer}
+.check input{width:24px;height:24px;accent-color:var(--accent);flex:none}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.ichip{padding:8px 12px;border-radius:999px;background:#fff;border:1.5px solid var(--line);font-size:.95rem;min-height:40px}
+.ichip.on{background:#ffe3d1;border-color:var(--accent);font-weight:700}
+.sheet input{border:2px solid var(--line);border-radius:14px;padding:10px 12px;background:#fff;font-size:1rem;min-height:46px;width:100%}
+.sheet textarea.note{min-height:70px}
+.sheet .check input{width:24px;height:24px;min-height:0;padding:0;flex:none}
+.grades{display:flex;flex-wrap:wrap;gap:8px}
+.grades .btn{flex:1 1 auto;min-width:88px}
+.note-q.mine::before{content:"✍️ "}
+.bands{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.band-c{border-radius:16px;padding:10px 6px;text-align:center;border:1.5px solid var(--line);background:#fff}
+.band-c b{display:block;font-size:1.25rem}
+.band-c span{font-size:.8rem;color:var(--muted)}
+.b-new{--bc:#9bbf5a}.b-growing{--bc:#3fa564}.b-strong{--bc:#1f7a46}.b-refresh{--bc:#e08a2e}
+.band-c{border-top:5px solid var(--bc)}
+.ktopic h3{margin-bottom:8px}
+.kseries{margin:6px 0 10px;padding-left:10px;border-left:3px solid color-mix(in srgb,var(--tc) 40%,white)}
+.kpack{margin-top:8px}
+.kph{font-weight:700;font-size:.95rem;margin-bottom:6px}
+.kchips{display:flex;flex-direction:column;gap:6px}
+.kchip{display:flex;align-items:center;gap:8px;text-align:left;padding:8px 12px;border-radius:14px;background:color-mix(in srgb,var(--bc) 12%,white);border:1.5px solid color-mix(in srgb,var(--bc) 45%,white);font-size:.92rem;min-height:44px;width:100%}
+.kchip .kt{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.series{border-left:6px solid var(--tc)}
+.spath{list-style:none;padding:0;margin:12px 0 0;display:flex;flex-direction:column;gap:0}
+.spath li{position:relative}
+.spath li+li::before{content:"";position:absolute;left:21px;top:-10px;height:14px;border-left:3px dotted color-mix(in srgb,var(--tc) 50%,white)}
+.spath button{display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:6px 0}
+.spath .n{width:44px;height:44px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-weight:800;background:#fff;border:2.5px solid var(--tc);color:color-mix(in srgb,var(--tc) 85%,black)}
+.spath li.done .n{background:var(--tc);color:#fff}
+.spath .st{display:flex;flex-direction:column;min-width:0}
+.toggles{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.toggles .vtoggle{margin-left:0}
+.warnp{background:var(--bad-bg);border-color:#eba3a3}
+.card.warm .body{justify-content:flex-start}
+.prof-edit .chips .ichip{font-size:.9rem}
+@media(max-width:420px){.bands b{font-size:1.1rem}.kgrid .stat b{font-size:1.1rem}}
+@media(min-width:700px){
+  .reveal,.whybox,.answer{font-size:1.15rem;padding:16px 20px}
+  .estv{font-size:2.3rem}
+  .kchips{display:grid;grid-template-columns:1fr 1fr}
+}
+/* v2 fixes: long decks keep their progress dots on one line; the 4 adult grades fit in one row */
+.dots{flex-wrap:nowrap;gap:4px;min-width:0}
+.dots i{flex:0 1 9px;min-width:4px}
+.grades{display:grid;grid-template-columns:repeat(auto-fit,minmax(70px,1fr));gap:8px}
+.grades .btn{padding-left:6px;padding-right:6px;white-space:nowrap}
+.week .row{flex-wrap:wrap;row-gap:4px}
+.week .fire{white-space:nowrap}
+
 </style>
 </head>
 <body>
@@ -238,8 +318,7 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
 (function (root) {
   'use strict';
   const LEVELS = ['adult', 'teen', 'kid'];
-  const REVIEW_STEPS = [2, 4, 7, 14];          // days until the next review after a miss / each later success
-  const STREAK_SECONDS = 300;                   // 5 minutes of learning, or one finished pack, keeps a streak
+  const STREAK_SECONDS = 300;                   // 5 minutes of learning (or one finished pack or warm-up) counts a day
 
   // ---------- dates ----------
   const pad = n => String(n).padStart(2, '0');
@@ -249,7 +328,7 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
   function addDays(key, n) { return fromNum(dayNum(key) + n); }
 
   // ---------- content ----------
-  const CARD_TYPES = ['hook', 'idea', 'think', 'quiz', 'teach'];
+  const CARD_TYPES = ['hook', 'predict', 'idea', 'link', 'think', 'quiz', 'teach'];
   function checkPack(p) {
     // light runtime check (the full validator is tools/validate.js); returns a list of problems
     const errs = [];
@@ -296,18 +375,40 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
     if (autoplay) u += '&autoplay=1';
     return u;
   }
-  // The card sequence the player shows. Quiz cards expand into one card per question; a 'watch' card goes
-  // right after the idea cards (before Think) when the pack has a valid video and videos are on for this learner.
+  // A predict card is usable if it has a question and either choices or an estimate range
+  function okPredict(c) {
+    if (!c || typeof c.question !== 'string' || !c.question.trim() || typeof c.reveal !== 'string') return false;
+    if (c.mode === 'estimate') { const e = c.estimate; return !!e && [e.min, e.max, e.step, e.answer].every(n => typeof n === 'number' && isFinite(n)) && e.max > e.min && e.step > 0; }
+    return Array.isArray(c.options) && c.options.length >= 2 && c.options.every(o => o && typeof o.text === 'string');
+  }
+  // The card sequence the player shows. Quiz cards expand into one card per question. opts:
+  //   videos: false        -> no Watch card (grown-ups setting)
+  //   done: {packId: ...}  -> link cards appear only if the learner finished the pack they link to
+  //   seriesRecall: {...}  -> a "last time in this series" recall card before the hook
+  //   seriesWrap: [...]    -> a cumulative series check before the teach card (final part of a series)
+  // A Watch card goes right after the last idea card when the pack has a valid video. A malformed optional card
+  // (predict/link) is skipped rather than breaking the pack, so a learner can always finish.
   function deck(pack, opts) {
+    opts = opts || {};
     const cards = [];
+    const pred = pack.cards.find(c => c.type === 'predict');
+    const predOk = okPredict(pred);
+    const nIdeas = pack.cards.filter(c => c.type === 'idea').length;
+    const revealAt = predOk ? Math.max(1, Math.min(nIdeas, pred.reveal_after | 0 || nIdeas)) : 0;
+    let ideaNo = 0;
+    if (opts.seriesRecall) cards.push(Object.assign({ type: 'srecall' }, opts.seriesRecall));
     pack.cards.forEach((c, ci) => {
       if (c.type === 'quiz') c.questions.forEach((q, j) => cards.push({ type: 'q', q, j, n: c.questions.length, ci }));
+      else if (c.type === 'predict') { if (predOk && c === pred) cards.push(Object.assign({ ci }, c)); }
+      else if (c.type === 'link') { if (c.to && c.prompt && opts.done && opts.done[c.to]) cards.push(Object.assign({ ci }, c)); }
+      else if (c.type === 'idea') { ideaNo++; cards.push(Object.assign({ ci, n: ideaNo }, c, ideaNo === revealAt ? { reveal: pred } : {})); }
+      else if (c.type === 'teach' && opts.seriesWrap && opts.seriesWrap.length) { cards.push({ type: 'swrap', items: opts.seriesWrap, series: opts.seriesTitle }); cards.push(Object.assign({ ci }, c)); }
       else cards.push(Object.assign({ ci }, c));
     });
-    const wantVideo = !(opts && opts.videos === false) && pack.video && !checkVideo(pack.video).length;
+    const wantVideo = opts.videos !== false && pack.video && !checkVideo(pack.video).length;
     if (wantVideo) {
-      let at = cards.findIndex(c => c.type === 'think');
-      if (at < 0) at = cards.findIndex(c => c.type === 'q' || c.type === 'teach');
+      let at = -1; cards.forEach((c, i) => { if (c.type === 'idea') at = i + 1; });
+      if (at < 0) at = cards.findIndex(c => c.type === 'think' || c.type === 'q' || c.type === 'teach');
       if (at < 0) at = cards.length;
       cards.splice(at, 0, { type: 'watch', video: pack.video });
     }
@@ -356,47 +457,327 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
   }
 
   // ---------- learner data ----------
-  function newLearner() { return { done: {}, history: [], days: {}, reviews: {}, favs: {}, teach: {}, quiz: { asked: 0, correct: 0 } }; }
+  // Data version 2 (Daily Spark v2). v1 data is migrated on load by migrate(); see the migration tests.
+  const DATA_VERSION = 2;
+  function newLearner() {
+    return { done: {}, history: [], days: {}, memory: {}, favs: {}, teach: {}, quiz: { asked: 0, correct: 0 },
+      predict: {}, calib: { sureRight: 0, sureWrong: 0, unsureRight: 0, unsureWrong: 0 }, recall: { w1: [0, 0], w5: [0, 0] },
+      dinner: {}, weekGoals: {}, dv: DATA_VERSION };
+  }
   function day(L, key) { return L.days[key] || (L.days[key] = { sec: 0, packs: 0 }); }
   function addSeconds(L, key, sec) { if (sec > 0) day(L, key).sec += Math.round(sec); }
-  function dayCounts(d) { return !!d && (d.packs >= 1 || d.sec >= STREAK_SECONDS); }
+  // a day "counts" with one finished pack, one finished warm-up, or 5 minutes of learning
+  function dayCounts(d) { return !!d && (d.packs >= 1 || d.warm >= 1 || d.sec >= STREAK_SECONDS); }
 
-  // consecutive counted days ending today (or yesterday, if today isn't counted yet)
+  // v1 daily streak, kept only as history ("longest run of days"); v2 headlines weekly goals instead
   function streak(L, key) {
     let k = dayCounts(L.days[key]) ? key : addDays(key, -1), n = 0;
     while (dayCounts(L.days[k])) { n++; k = addDays(k, -1); }
     return n;
   }
   function bestStreak(L) {
-    const keys = Object.keys(L.days).filter(k => dayCounts(L.days[k])).sort();
+    const keys = Object.keys(L.days || {}).filter(k => DATE.test(k) && dayCounts(L.days[k])).sort();
     let best = 0, run = 0, prev = null;
     keys.forEach(k => { run = prev && dayNum(k) - dayNum(prev) === 1 ? run + 1 : 1; best = Math.max(best, run); prev = k; });
     return best;
   }
 
-  // record one answered quiz question (first try only counts toward accuracy)
+  // ---------- memory: spaced recall of key ideas and missed / unsure quiz questions ----------
+  const LADDER = [1, 3, 7, 16, 35, 75, 150];      // days; box 0..6. Items are never retired.
+  const CAP = { kid: 3, teen: 4, adult: 5 };       // warm-up size
+  const MORE_MAX = 15;                             // most recall items in one day, warm-up + "More review"
+  const GRADES = ['again', 'partly', 'good', 'easy'];   // shown as Not yet / Partly / Got it / Easy (Easy: adults only)
+  const DATE = /^\d{4}-\d{2}-\d{2}$/;
+  const clampBox = b => Math.max(0, Math.min(6, b | 0));
+  // deterministic 0..1 from a string (FNV-1a), so jitter is testable
+  function hash01(s) { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return (h >>> 0) / 4294967296; }
+  // ±10% of the interval (for intervals of 7+ days) to spread reviews out; seeded by item id + rep count
+  function jitter(id, interval, salt) {
+    if (interval < 7) return 0;
+    const f = hash01(String(id) + '|' + (salt || 0)) * 0.2 - 0.1;
+    return Math.round(interval * f);
+  }
+  function memId(packId, sub) { return packId + '#' + sub; }
   function qid(packId, qi) { return packId + '#' + qi; }
-  function recordAnswer(L, key, item, correct) {
-    L.quiz.asked++; if (correct) L.quiz.correct++;
-    if (!correct) scheduleMiss(L, key, item);
+  const cleanOpts = o => Array.isArray(o) ? o.filter(x => x && typeof x.text === 'string').map(x => { const r = { text: x.text }; if (x.correct) r.correct = true; if (x.why) r.why = x.why; return r; }) : undefined;
+
+  // Seed a pack's key ideas into memory when the learner finishes it. Existing items are left alone (finishing a
+  // pack again doesn't reset progress). spread > 0 staggers first reviews (used when backfilling old packs).
+  function seedKeys(L, pack, key, spread) {
+    let added = 0;
+    (Array.isArray(pack.keys) ? pack.keys : []).forEach((k, i) => {
+      if (!k || !k.id || !k.prompt) return;
+      const id = memId(pack.id, k.id);
+      if (L.memory[id]) return;
+      const first = 1 + (spread ? (i + added + (spread - 1)) % 7 : 0);
+      L.memory[id] = { id, kind: 'key', packId: pack.id, topic: pack.topic, series: pack.series ? pack.series.id : undefined, title: pack.title,
+        prompt: k.prompt, answer: k.answer, options: cleanOpts(k.options), box: 0, iv: 1, due: addDays(key, first), reps: 0, lapses: 0, last: null, added: key, hist: '' };
+      added++;
+    });
+    return added;
   }
-  // item: {id, packId, topic, q, options:[{text,correct,why}]}
-  function scheduleMiss(L, key, item) {
-    const prev = L.reviews[item.id];
-    L.reviews[item.id] = Object.assign({}, item, { due: addDays(key, REVIEW_STEPS[0]), stage: 0, misses: (prev ? prev.misses : 0) + 1, added: prev ? prev.added : key });
-  }
-  // result of answering a review question; returns 'retired' | 'later' | 'again'
-  function reviewAnswer(L, key, id, correct) {
-    const r = L.reviews[id]; if (!r) return null;
-    if (correct) {
-      r.stage++;
-      if (r.stage >= REVIEW_STEPS.length) { delete L.reviews[id]; return 'retired'; }
-      r.due = addDays(key, REVIEW_STEPS[r.stage]); return 'later';
+  // refresh a slimmed item's text from its pack (see compact())
+  function fillFromPack(it, pack) {
+    if (!it || !pack) return it;
+    if (it.kind === 'key') {
+      const k = (pack.keys || []).find(x => memId(pack.id, x.id) === it.id);
+      if (k) return Object.assign({}, it, { prompt: k.prompt, answer: k.answer, options: cleanOpts(k.options) });
     }
-    r.stage = 0; r.misses++; r.due = addDays(key, REVIEW_STEPS[0]); return 'again';
+    return it;
   }
-  function dueReviews(L, key) {
-    return Object.values(L.reviews).filter(r => r.due <= key).sort((a, b) => a.due.localeCompare(b.due) || a.id.localeCompare(b.id));
+  const hasText = it => !!(it && it.prompt);
+
+  // One quiz answer inside a pack. Misses come back tomorrow; right-but-"Not sure" comes back in 3 days.
+  // item: {id, packId, topic, title, q, options}; conf: 'sure' | 'unsure' | null
+  function recordAnswer(L, key, item, correct, conf, chosenText) {
+    L.quiz.asked++; if (correct) L.quiz.correct++;
+    if (conf === 'sure' || conf === 'unsure') L.calib[conf + (correct ? 'Right' : 'Wrong')]++;
+    const m = L.memory[item.id];
+    if (!correct) {
+      if (m) { m.lapses = (m.lapses || 0) + 1; m.box = 0; m.iv = 1; m.due = addDays(key, 1); m.hist = ((m.hist || '') + 'a').slice(-3); }
+      else L.memory[item.id] = { id: item.id, kind: 'quiz', packId: item.packId, topic: item.topic, title: item.title, prompt: item.q, options: cleanOpts(item.options),
+        box: 0, iv: 1, due: addDays(key, 1), reps: 0, lapses: 1, last: null, added: key, hist: '' };
+      if (chosenText) L.memory[item.id].lastWrong = String(chosenText).slice(0, 200);
+      if (conf) L.memory[item.id].conf = conf;
+      return 'again';
+    }
+    if (conf === 'unsure' && !m) {
+      L.memory[item.id] = { id: item.id, kind: 'quiz', packId: item.packId, topic: item.topic, title: item.title, prompt: item.q, options: cleanOpts(item.options),
+        box: 1, iv: 3, due: addDays(key, 3), reps: 0, lapses: 0, last: null, added: key, hist: '', conf };
+      return 'unsure';
+    }
+    return null;
+  }
+  // a link (connection) card the learner thought about comes back in 3 days
+  function addLink(L, key, pack, card) {
+    const id = memId(pack.id, 'link-' + card.to);
+    if (L.memory[id]) return false;
+    L.memory[id] = { id, kind: 'link', packId: pack.id, topic: pack.topic, title: pack.title, prompt: card.prompt, answer: card.model,
+      box: 1, iv: 3, due: addDays(key, 3), reps: 0, lapses: 0, last: null, added: key, hist: '' };
+    return true;
+  }
+
+  // Grade one recall. g: 'again' (Not yet) | 'partly' | 'good' (Got it) | 'easy'.
+  //   Not yet: lapses++, box -= 2 (min 0), due tomorrow     Partly: same box, due in half the box interval
+  //   Got it:  box + 1, due in LADDER[box]                    Easy:   box + 2, due in LADDER[box]
+  //   Intervals of 7+ days get ±10% jitter. Returns the item.
+  function grade(L, key, id, g) {
+    const it = L.memory[id]; if (!it) return null;
+    if (GRADES.indexOf(g) < 0) throw new Error('bad grade ' + g);
+    const before = clampBox(it.box), wasIv = it.iv || LADDER[before];
+    let box = before, iv;
+    if (g === 'again') { it.lapses = (it.lapses || 0) + 1; box = Math.max(0, before - 2); iv = 1; }
+    else if (g === 'partly') iv = Math.ceil(LADDER[before] / 2);
+    else if (g === 'good') { box = Math.min(6, before + 1); iv = LADDER[box]; }
+    else { box = Math.min(6, before + 2); iv = LADDER[box]; }
+    it.reps = (it.reps || 0) + 1;
+    // delayed-recall metric: key ideas recalled after a 1-week and a 5-week gap
+    if (it.kind === 'key' && L.recall) {
+      const b = wasIv === 7 ? 'w1' : wasIv === 35 ? 'w5' : null;
+      if (b) { L.recall[b][0]++; if (g === 'good' || g === 'easy') L.recall[b][1]++; }
+    }
+    it.box = box; it.iv = iv; it.due = addDays(key, Math.max(1, iv + jitter(it.id, iv, it.reps))); it.last = key;
+    it.hist = ((it.hist || '') + g[0]).slice(-3);
+    const d = day(L, key); d.rev = (d.rev || 0) + 1;
+    return it;
+  }
+  function reviewsToday(L, key) { return ((L.days[key] || {}).rev) || 0; }
+
+  // how overdue an item is, relative to its interval (warm-up picks the most overdue first)
+  function overdueRatio(it, key) { return (dayNum(key) - dayNum(it.due)) / (it.iv || LADDER[clampBox(it.box)]); }
+  function dueItems(L, key) {
+    return Object.values(L.memory || {}).filter(it => it && DATE.test(it.due || '') && it.due <= key && it.last !== key);
+  }
+  // never two in a row from the same pack; prefer switching topics
+  function interleave(items) {
+    const out = [], pool = items.slice();
+    while (pool.length) {
+      const last = out[out.length - 1];
+      let i = last ? pool.findIndex(x => x.packId !== last.packId && x.topic !== last.topic) : 0;
+      if (i < 0) i = pool.findIndex(x => x.packId !== last.packId);
+      if (i < 0) break;
+      out.push(pool.splice(i, 1)[0]);
+    }
+    return out;
+  }
+  // Warm-up: up to CAP[level] items. specials (a parent's question, the dinner follow-up) go first, then due items by
+  // overdue ratio, interleaved across packs. boostPack (yesterday's family pack) is pulled to the front of the recall
+  // items. Already-reviewed-today items are skipped. The caller never shows how many more are waiting.
+  function warmup(L, key, level, opts) {
+    opts = opts || {};
+    const cap = opts.cap || CAP[level] || 4, skip = opts.exclude || new Set();
+    const room = Math.max(0, MORE_MAX - reviewsToday(L, key));
+    const boost = it => (opts.boostPack && it.packId === opts.boostPack ? 1 : 0);
+    const due = dueItems(L, key).filter(it => !skip.has(it.id))
+      .sort((a, b) => boost(b) - boost(a) || overdueRatio(b, key) - overdueRatio(a, key) || a.id.localeCompare(b.id));
+    const specials = (opts.specials || []).slice(0, 2);
+    return specials.concat(interleave(due).slice(0, room)).slice(0, cap);
+  }
+  // A parent's / listener's question back, waiting for the learner's answer (oldest first)
+  function pendingQuestions(L) {
+    return Object.entries(L.teach || {}).filter(([, t]) => t && t.parent && t.parent.reply && !t.parent.answered)
+      .sort((a, b) => (a[1].parent.date || '').localeCompare(b[1].parent.date || ''))
+      .map(([packId, t]) => ({ id: 'pq:' + packId, kind: 'parentq', packId, topic: t.topic, title: t.title, prompt: t.parent.reply, by: t.parent.by || '' }));
+  }
+  function answerQuestion(L, key, packId, text) {
+    const t = L.teach[packId]; if (!t || !t.parent) return false;
+    t.parent.answered = { text: String(text || '').slice(0, 1000), date: key }; return true;
+  }
+  // The morning after a family day: did this learner do yesterday's family pack (or was dinner logged)?
+  // famY: the family entry for yesterday; dinners: ST.family.dinners
+  function dinnerFollowup(L, key, level, famY, dinners) {
+    if (!famY || !famY.packs) return null;
+    const y = addDays(key, -1), pid = famY.packs[level];
+    if (L.dinner && L.dinner[y]) return null;
+    const did = (L.history || []).some(h => h.packId === pid && h.date === y);
+    const held = dinners && dinners[y] && dinners[y].held;
+    if (!did && !held) return null;
+    return { id: 'dinner:' + y, kind: 'dinner', date: y, packId: did ? pid : null, topic: famY.topic, title: famY.title, question: famY.dinner_question };
+  }
+
+  // ---------- "What I know": strength bands for key ideas ----------
+  function strength(it, key) {
+    if (!it.reps) return 'new';
+    const over = dayNum(key) - dayNum(it.due), recentMisses = (it.hist || '').split('').filter(c => c === 'a').length;
+    if (over > (it.iv || LADDER[clampBox(it.box)]) || recentMisses >= 2) return 'refresh';
+    return it.box >= 3 ? 'strong' : 'growing';
+  }
+  function knowledge(L, key) {
+    const out = { new: 0, growing: 0, strong: 0, refresh: 0, total: 0 };
+    Object.values(L.memory || {}).forEach(it => { if (it.kind !== 'key') return; out[strength(it, key)]++; out.total++; });
+    return out;
+  }
+  function recallRate(L) {
+    const r = L.recall || { w1: [0, 0], w5: [0, 0] }, pct = a => a[0] ? Math.round(100 * a[1] / a[0]) : null;
+    return { w1: { n: r.w1[0], ok: r.w1[1], pct: pct(r.w1) }, w5: { n: r.w5[0], ok: r.w5[1], pct: pct(r.w5) } };
+  }
+  // ideas and questions that keep slipping (missed 2+ times): talk about these
+  function trouble(L) {
+    return Object.values(L.memory || {}).filter(it => (it.lapses || 0) >= 2).sort((a, b) => b.lapses - a.lapses || (b.last || '').localeCompare(a.last || ''));
+  }
+
+  // ---------- weekly goal (replaces the daily streak) ----------
+  const GOAL_DEFAULT = { kid: 4, teen: 5, adult: 5 };
+  const dow = key => (new Date(dayNum(key) * 86400000).getUTCDay() + 6) % 7;     // Monday = 0
+  function weekStart(key) { return addDays(key, -dow(key)); }
+  function isoWeek(key) {
+    const thu = dayNum(key) - dow(key) + 3, y = new Date(thu * 86400000).getUTCFullYear();
+    return y + '-W' + pad(1 + Math.floor((thu - dayNum(y + '-01-01')) / 7));
+  }
+  function goalOf(L, week, goal) { return (L.weekGoals && L.weekGoals[week]) || goal; }
+  // remember the goal a week was played under, so changing the goal later doesn't rewrite history
+  function noteGoal(L, key, goal) { if (!L.weekGoals) L.weekGoals = {}; L.weekGoals[isoWeek(key)] = goal; }
+  function weekStatus(L, key, goal) {
+    const s = weekStart(key), wk = isoWeek(key), g = goalOf(L, wk, goal);
+    const days = [0, 1, 2, 3, 4, 5, 6].map(i => { const k = addDays(s, i); return { key: k, on: dayCounts(L.days[k]), today: k === key, future: k > key }; });
+    const n = days.filter(d => d.on).length;
+    return { week: wk, days, n, goal: g, met: n >= g };
+  }
+  // consecutive weeks meeting the goal; this week counts once met, and an unfinished week never breaks the run
+  function weeksInRow(L, key, goal) {
+    let count = weekStatus(L, key, goal).met ? 1 : 0, s = addDays(weekStart(key), -7);
+    for (let i = 0; i < 530; i++) {
+      const st = weekStatus(L, addDays(s, 6), goal); if (!st.met) break;
+      count++; s = addDays(s, -7);
+    }
+    return count;
+  }
+  // days since the last counted day before today (for "Welcome back!")
+  function daysAway(L, key) {
+    const last = Object.keys(L.days || {}).filter(k => k < key && dayCounts(L.days[k])).sort().pop();
+    return last ? dayNum(key) - dayNum(last) : null;
+  }
+
+  // ---------- series ----------
+  function seriesFor(index, packId) { return (index.series || []).find(s => s.packs.indexOf(packId) >= 0) || null; }
+  function seriesProgress(L, s) { return s.packs.map((id, i) => ({ id, part: i + 1, done: !!L.done[id] })); }
+  function nextInSeries(L, s) { return s.packs.find(id => !L.done[id]) || null; }
+
+  // ---------- migration (v1 -> v2) ----------
+  const isObj = o => !!o && typeof o === 'object' && !Array.isArray(o);
+  function migrateLearner(L, key) {
+    L = isObj(L) ? L : {};
+    const out = Object.assign(newLearner(), L);
+    ['done', 'days', 'favs', 'teach', 'memory', 'predict', 'dinner', 'weekGoals'].forEach(k => { if (!isObj(out[k])) out[k] = {}; });
+    if (!Array.isArray(out.history)) out.history = [];
+    if (!isObj(out.quiz)) out.quiz = { asked: 0, correct: 0 };
+    out.calib = Object.assign({ sureRight: 0, sureWrong: 0, unsureRight: 0, unsureWrong: 0 }, isObj(out.calib) ? out.calib : {});
+    out.recall = isObj(out.recall) && Array.isArray(out.recall.w1) && Array.isArray(out.recall.w5) ? out.recall : { w1: [0, 0], w5: [0, 0] };
+    // v1 reviews (missed quiz questions, stage 0..3 of [2,4,7,14] days) -> memory items on the same box and due date
+    if (isObj(out.reviews)) {
+      Object.keys(out.reviews).forEach(id => {
+        const r = out.reviews[id]; if (!isObj(r) || out.memory[id]) return;
+        const box = Math.max(0, Math.min(3, r.stage | 0));
+        out.memory[id] = { id, kind: 'quiz', packId: r.packId || id.split('#')[0], topic: r.topic || '', title: r.title || '', prompt: r.q || '', options: cleanOpts(r.options) || [],
+          box, iv: LADDER[box], due: DATE.test(r.due || '') ? r.due : key, reps: box, lapses: Math.max(1, r.misses | 0), last: null, added: DATE.test(r.added || '') ? r.added : key, hist: '' };
+      });
+      delete out.reviews;
+    }
+    if (!isObj(out.legacy)) out.legacy = { bestDailyRun: bestStreak(out), dailyRunAtUpgrade: streak(out, key), upgraded: key };
+    out.dv = DATA_VERSION;
+    return out;
+  }
+  // Upgrade a stored state object in place to the current data version. Safe to run more than once.
+  function migrate(s, key) {
+    if (!isObj(s) || !Array.isArray(s.profiles)) return null;
+    s.profiles = s.profiles.filter(p => isObj(p) && typeof p.id === 'string');
+    s.profiles.forEach(p => {
+      if (LEVELS.indexOf(p.level) < 0) p.level = 'kid';
+      p.interests = Array.isArray(p.interests) ? p.interests.filter(x => typeof x === 'string').slice(0, 8) : [];
+      if (!(p.weeklyGoal >= 3 && p.weeklyGoal <= 6)) p.weeklyGoal = GOAL_DEFAULT[p.level];
+    });
+    if (!isObj(s.learners)) s.learners = {};
+    s.profiles.forEach(p => { s.learners[p.id] = migrateLearner(s.learners[p.id], key); });
+    if (!isObj(s.family)) s.family = {};
+    if (!isObj(s.family.dinners)) s.family.dinners = {};
+    if (!isObj(s.family.challenge)) s.family.challenge = {};
+    if (s.family.challengeOn === undefined) s.family.challengeOn = true;
+    s.v = DATA_VERSION;
+    return s;
+  }
+  // Merge learner b (from another device's code) into a. Nothing already on this device is lost.
+  function mergeLearner(a, b, key) {
+    b = migrateLearner(JSON.parse(JSON.stringify(b || {})), key);
+    Object.entries(b.done).forEach(([id, r]) => { if (!a.done[id] || (r.date || '') > (a.done[id].date || '')) a.done[id] = r; });
+    const seen = new Set(a.history.map(h => h.packId + '@' + h.date));
+    b.history.forEach(h => { if (!seen.has(h.packId + '@' + h.date)) a.history.push(h); });
+    a.history.sort((x, y) => (y.date || '').localeCompare(x.date || ''));
+    Object.entries(b.days).forEach(([k, d]) => { const o = a.days[k] || (a.days[k] = { sec: 0, packs: 0 }); ['sec', 'packs', 'warm', 'rev'].forEach(f => { if ((d[f] || 0) > (o[f] || 0)) o[f] = d[f]; }); });
+    // memory: keep the copy reviewed most recently (then the one with more reps)
+    Object.entries(b.memory).forEach(([id, m]) => { const o = a.memory[id]; if (!o || (m.last || '') > (o.last || '') || ((m.last || '') === (o.last || '') && (m.reps || 0) > (o.reps || 0))) a.memory[id] = m; });
+    Object.assign(a.favs, b.favs);
+    Object.entries(b.teach).forEach(([id, t]) => {
+      const o = a.teach[id];
+      if (!o || (t.date || '') > (o.date || '')) a.teach[id] = Object.assign({}, t, { parent: t.parent || (o && o.parent) });
+      else if (t.parent && (!o.parent || (t.parent.date || '') > (o.parent.date || '') || (t.parent.answered && !o.parent.answered))) o.parent = t.parent;
+    });
+    Object.entries(b.predict).forEach(([id, p]) => { if (!a.predict[id]) a.predict[id] = p; });
+    Object.entries(b.dinner).forEach(([k, v]) => { if (!a.dinner[k]) a.dinner[k] = v; });
+    Object.entries(b.weekGoals).forEach(([k, v]) => { if (!a.weekGoals[k]) a.weekGoals[k] = v; });
+    if ((b.quiz.asked || 0) > (a.quiz.asked || 0)) a.quiz = b.quiz;
+    const cs = c => c.sureRight + c.sureWrong + c.unsureRight + c.unsureWrong;
+    if (cs(b.calib) > cs(a.calib)) a.calib = b.calib;
+    ['w1', 'w5'].forEach(w => { if (b.recall[w][0] > a.recall[w][0]) a.recall[w] = b.recall[w]; });
+    if (b.legacy && (!a.legacy || (b.legacy.bestDailyRun || 0) > (a.legacy.bestDailyRun || 0))) a.legacy = b.legacy;
+    return a;
+  }
+
+  // ---------- storage budget ----------
+  // localStorage holds about 5 MB per site. Above SOFT characters, compact() frees space without losing progress:
+  // 1) key items older than 60 days drop their copied text (the app re-reads it from the downloaded pack);
+  // 2) history beyond 150 entries is trimmed and old teach-back notes are shortened. Scheduling data is never removed.
+  const STORAGE = { soft: 3500000, warn: 4200000, max: 5000000 };
+  function compact(s, key, level) {
+    const did = [];
+    const learners = Object.values(s.learners || {});
+    if (level >= 1) learners.forEach(L => Object.values(L.memory || {}).forEach(it => {
+      if (it.kind === 'key' && it.prompt && it.added && dayNum(key) - dayNum(it.added) > 60) { delete it.prompt; delete it.answer; delete it.options; it.slim = 1; did.push('slim'); }
+    }));
+    if (level >= 2) learners.forEach(L => {
+      if (L.history.length > 150) { L.history.length = 150; did.push('history'); }
+      Object.values(L.teach || {}).forEach(t => { if (t.text && t.text.length > 600 && t.date && dayNum(key) - dayNum(t.date) > 180) { t.text = t.text.slice(0, 600) + '…'; did.push('teach'); } });
+    });
+    return did;
   }
 
   // finished pack
@@ -410,6 +791,7 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
     day(L, key).packs++;
     return rec;
   }
+  function finishWarmup(L, key) { const d = day(L, key); d.warm = (d.warm || 0) + 1; }
 
   function topicProgress(L, index, level) {
     const out = {};
@@ -430,6 +812,15 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
     return list.find(p => !L.done[p.id]) || list.slice().sort((a, b) => (L.done[a.id].date || '').localeCompare(L.done[b.id].date || ''))[0] || null;
   }
 
+  // interest-flavoured example: the learner's first interest the card has a version for, else the plain example
+  function exampleFor(card, interests) {
+    const m = card.examples_by_interest;
+    if (m && typeof m === 'object') for (const t of (interests || [])) if (typeof m[t] === 'string' && m[t].trim()) return { text: m[t], interest: t };
+    return card.example ? { text: card.example, interest: null } : null;
+  }
+  const INTERESTS = [['golf', '⛳', 'Golf'], ['soccer', '⚽', 'Soccer'], ['business', '💼', 'Business'], ['art', '🎨', 'Art'], ['animals', '🐾', 'Animals'],
+    ['music', '🎵', 'Music'], ['space', '🚀', 'Space'], ['gaming', '🎮', 'Gaming'], ['cooking', '🍳', 'Cooking'], ['building', '🧱', 'Building'], ['reading', '📚', 'Reading'], ['nature', '🌿', 'Nature']];
+
   // Flesch-Kincaid grade level (used by the validator; here so it is tested)
   function syllables(word) {
     let w = word.toLowerCase().replace(/[^a-z]/g, '');
@@ -445,51 +836,85 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
     return 0.39 * (words.length / sentences) + 11.8 * (syl / words.length) - 15.59;
   }
 
-  const DS = { LEVELS, REVIEW_STEPS, STREAK_SECONDS, CARD_TYPES, dayKey, dayNum, addDays, checkPack, checkVideo, videoSeconds, fmtDuration, embedUrl, deck, VIDEO_HOST, loadPack, loadIndex, packsFor, familyFor,
-    newLearner, addSeconds, dayCounts, streak, bestStreak, qid, recordAnswer, scheduleMiss, reviewAnswer, dueReviews, finishPack,
+  const DS = { LEVELS, STREAK_SECONDS, CARD_TYPES, DATA_VERSION, LADDER, CAP, MORE_MAX, GRADES, GOAL_DEFAULT, INTERESTS, STORAGE,
+    dayKey, dayNum, addDays, checkPack, checkVideo, videoSeconds, fmtDuration, embedUrl, okPredict, deck, VIDEO_HOST, loadPack, loadIndex, packsFor, familyFor,
+    newLearner, addSeconds, dayCounts, streak, bestStreak, qid, memId, hash01, jitter, seedKeys, fillFromPack, hasText, recordAnswer, addLink, grade, reviewsToday,
+    overdueRatio, dueItems, interleave, warmup, pendingQuestions, answerQuestion, dinnerFollowup, strength, knowledge, recallRate, trouble,
+    weekStart, isoWeek, noteGoal, weekStatus, weeksInRow, daysAway, seriesFor, seriesProgress, nextInSeries,
+    migrateLearner, migrate, mergeLearner, compact, finishPack, finishWarmup, exampleFor,
     topicProgress, accuracy, minutesSince, nextPack, syllables, fkGrade };
   if (typeof module !== 'undefined' && module.exports) module.exports = DS; else root.DS = DS;
 })(typeof self !== 'undefined' ? self : this);
 
 </script>
 <script>
-/* Daily Spark UI. All progress lives in this device's localStorage. No accounts, no tracking. The only outside
+/* Daily Spark UI (v2). All progress lives in this device's localStorage. No accounts, no tracking. The only outside
    requests are a source link the learner taps and, on a Watch card, the video thumbnail (i.ytimg.com) and, after
-   a tap on Play, the privacy-enhanced YouTube player (youtube-nocookie.com). */
+   a tap on Play, the privacy-enhanced YouTube player (youtube-nocookie.com).
+   v2 learning loop: warm-up (spaced recall) -> guess first (predict) -> ideas (+ Why?) -> connect -> think -> quiz
+   (+ how sure?) -> teach a real person -> sources. Weekly goals instead of a daily streak. */
 (function () {
   'use strict';
-  const KEY = 'dailyspark.v1', IKEY = 'dailyspark.index', CKEY = 'dailyspark.cached';
+  const KEY = 'dailyspark.v1', BACKUP = 'dailyspark.v1.backup', IKEY = 'dailyspark.index', CKEY = 'dailyspark.cached';
   const LEVEL_NAME = { adult: 'Grown-up', teen: 'Teen', kid: 'Kid' };
   const AVATARS = ['🦉', '⛳', '🌻', '🦊', '🐢', '🚀', '⚽', '🎸', '🐬', '🌈', '🧠', '🍀'];
+  const BAND = { new: ['🌱', 'New'], growing: ['🌿', 'Growing'], strong: ['🌳', 'Strong'], refresh: ['🔄', 'Refresh'] };
+  const GRADE_LABEL = { again: 'Not yet', partly: 'Partly', good: 'Got it', easy: 'Easy' };
+  // cooperative family challenge, one per ISO week (no scores, no ranking)
+  const CHALLENGES = [
+    ['🗣️', 'Teach-back chain', 'Each of us explains one idea from this week to someone else in the family. The listener asks one question back.'],
+    ['🔮', 'Guess-first dinner', 'Each of us brings one guess-first question from a pack. Everyone guesses before anyone reveals the answer.'],
+    ['🔎', 'Spot it in real life', 'Each of us finds one idea from a pack out in the world this week and tells the family where we saw it.'],
+    ['🫙', 'Question jar', 'Each of us adds one “How do we know?” question to a jar. At dinner, pick one and look it up together.'],
+    ['🔄', 'Refresh night', 'Each of us picks one idea marked Refresh on our map. The family helps each person explain it again.'],
+    ['📚', 'Same series, every level', 'We all do part 1 of the same series at our own level, then each share one thing that surprised us.']];
   const $app = document.getElementById('app');
   const params = new URLSearchParams(location.search);
   const DAY_OVERRIDE = /^\d{4}-\d{2}-\d{2}$/.test(params.get('day') || '') ? params.get('day') : null;
   const today = () => DAY_OVERRIDE || DS.dayKey();
 
-  // ---------- storage ----------
+  // ---------- storage (data version 2; v1 data is backed up, then migrated) ----------
   function defaults() {
-    const profiles = [
+    const s = { v: 2, profiles: [
       { id: 'dad', name: 'Dad', level: 'adult', avatar: '🦉' },
       { id: 'p2', name: 'Player 2', level: 'teen', avatar: '⛳' },
-      { id: 'kate', name: 'Kate', level: 'kid', avatar: '🌻' }];
-    const learners = {}; profiles.forEach(p => { learners[p.id] = DS.newLearner(); });
-    return { v: 1, profiles, learners, current: null };
+      { id: 'kate', name: 'Kate', level: 'kid', avatar: '🌻' }], learners: {}, current: null };
+    return DS.migrate(s, today());
   }
+  let STORE_FAIL = false, LAST_SIZE = 0;
   function load() {
+    let raw = null;
+    try { raw = localStorage.getItem(KEY); } catch (e) { }
+    if (!raw) return defaults();
     try {
-      const s = JSON.parse(localStorage.getItem(KEY));
+      const s = JSON.parse(raw);
       if (s && Array.isArray(s.profiles) && s.learners) {
-        s.profiles.forEach(p => { s.learners[p.id] = Object.assign(DS.newLearner(), s.learners[p.id] || {}); });
-        return s;
+        // keep an untouched copy of v1 data before the first upgrade (never overwritten)
+        if (!(s.v >= 2)) try { if (!localStorage.getItem(BACKUP)) localStorage.setItem(BACKUP, raw); } catch (e) { }
+        const m = DS.migrate(s, today());
+        if (m) return m;
       }
     } catch (e) { /* fall through */ }
     return defaults();
   }
   let ST = load();
-  function save() { try { localStorage.setItem(KEY, JSON.stringify(ST)); } catch (e) { toast('Could not save. Storage may be full.'); } }
+  function save() {
+    let json = JSON.stringify(ST);
+    if (json.length > DS.STORAGE.soft) { DS.compact(ST, today(), 1); json = JSON.stringify(ST); }
+    if (json.length > DS.STORAGE.warn) { DS.compact(ST, today(), 2); json = JSON.stringify(ST); }
+    try { localStorage.setItem(KEY, json); STORE_FAIL = false; }
+    catch (e) {
+      DS.compact(ST, today(), 2); json = JSON.stringify(ST);
+      try { localStorage.setItem(KEY, json); STORE_FAIL = false; } catch (e2) { STORE_FAIL = true; toast('Couldn’t save. This device’s storage is full. See Parent view.'); }
+    }
+    LAST_SIZE = json.length;
+  }
+  save();
   const prof = () => ST.profiles.find(p => p.id === ST.current) || null;
-  const learner = id => ST.learners[id] || (ST.learners[id] = DS.newLearner());
+  const learner = id => ST.learners[id] || (ST.learners[id] = DS.migrateLearner({}, today()));
   const videosOn = p => !p || p.videos !== false;   // per-profile grown-ups setting, default on
+  const confOn = p => !p || p.conf !== false;       // "How sure?" after quiz answers, default on
+  const goalOf = p => p.weeklyGoal || DS.GOAL_DEFAULT[p.level];
 
   // ---------- content ----------
   let INDEX = null, FRESH = false;
@@ -505,24 +930,45 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
   }
   const topicOf = id => (INDEX && INDEX.topics.find(t => t.id === id)) || { id, name: id, emoji: '✨', color: '#ef6a1a' };
   const metaOf = id => INDEX && INDEX.packs.find(p => p.id === id);
+  const getPack = id => DS.loadPack(fetchJson, id, MEMO);
   function cachedSet() { try { return new Set(JSON.parse(localStorage.getItem(CKEY)) || []); } catch (e) { return new Set(); } }
   // download packs for every level in use so they work offline (the service worker keeps the copies)
   async function prefetch() {
     if (!INDEX || !navigator.onLine) return;
     const levels = new Set(ST.profiles.map(p => p.level)), have = cachedSet();
-    const ids = INDEX.packs.filter(p => levels.has(p.level)).map(p => p.id).slice(0, 120);
+    const ids = INDEX.packs.filter(p => levels.has(p.level)).map(p => p.id).slice(0, 150);
     for (const id of ids) {
-      try { const p = await DS.loadPack(fetchJson, id); MEMO[id] = p; have.add(id); } catch (e) { }
+      try { await getPack(id); have.add(id); } catch (e) { }
     }
     try { localStorage.setItem(CKEY, JSON.stringify([...have])); } catch (e) { }
+  }
+  // v2 upgrade: packs finished before v2 get their key ideas added to memory, first check-ins spread over a week
+  async function backfillKeys() {
+    if (!INDEX) return;
+    let changed = 0;
+    for (const p of ST.profiles) {
+      const L = learner(p.id); let n = 1;
+      for (const id of Object.keys(L.done)) {
+        const m = metaOf(id); if (!m || !m.keys_count || L.memory[DS.memId(id, 'k1')]) continue;
+        try { const pack = await getPack(id); changed += DS.seedKeys(L, pack, today(), n++); } catch (e) { }
+      }
+    }
+    if (changed) { save(); if (S.name === 'home' || S.name === 'who') render(); }
   }
 
   // ---------- helpers ----------
   const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const tc = t => ' style="--tc:' + esc(topicOf(t).color) + '"';
-  function toast(msg) { const d = document.createElement('div'); d.className = 'toast'; d.textContent = msg; document.body.appendChild(d); setTimeout(() => d.remove(), 2300); }
+  function toast(msg) { const d = document.createElement('div'); d.className = 'toast'; d.textContent = msg; document.body.appendChild(d); setTimeout(() => d.remove(), 2600); }
   function fmtDate(key) { const [y, m, d] = key.split('-').map(Number); return new Date(y, m - 1, d).toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' }); }
   function niceToday() { const [y, m, d] = today().split('-').map(Number); return new Date(y, m - 1, d).toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric' }); }
+  const plural = (n, w) => n + ' ' + w + (n === 1 ? '' : 's');
+  // stable shuffle (same order every time for the same item), so the right answer isn't always first
+  const shuffled = (opts, seed) => opts.map((o, k) => ({ o, k, h: DS.hash01(seed + '|' + o.text) })).sort((a, b) => a.h - b.h);
+  function fmtNum(n, unit) {
+    const s = Math.abs(n) >= 1000 ? Math.round(n).toLocaleString('en-US') : String(Math.round(n * 100) / 100);
+    if (!unit) return s; return unit === '$' ? '$' + s : s + ' ' + unit;
+  }
   // inline SVG from content: keep shapes and text only
   function safeSvg(src) {
     try {
@@ -535,15 +981,21 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
     } catch (e) { return ''; }
   }
   const famToday = () => INDEX ? DS.familyFor(INDEX, today()) : null;
+  const famYesterday = () => INDEX ? DS.familyFor(INDEX, DS.addDays(today(), -1)) : null;
+  const challengeOf = key => CHALLENGES[(parseInt(DS.isoWeek(key).split('W')[1], 10) || 0) % CHALLENGES.length];
+  function weekDots(st) {
+    const names = ['M', 'T', 'W', 'T', 'F', 'S', 'S'];
+    return '<div class="wdots">' + st.days.map((d, i) => '<span class="wd' + (d.on ? ' on' : '') + (d.today ? ' today' : '') + (d.future ? ' fut' : '') + '"><i>' + (d.on ? '✓' : '') + '</i><small>' + names[i] + '</small></span>').join('') + '</div>';
+  }
 
-  // ---------- time tracking (counts toward the 5-minute streak rule; idle gaps capped) ----------
+  // ---------- time tracking (5 minutes of learning also counts a day; idle gaps capped) ----------
   let since = null;
   function flushTime() {
     if (since && ST.current) {
       const sec = Math.min((Date.now() - since) / 1000, 120);
       DS.addSeconds(learner(ST.current), today(), sec); save();
     }
-    since = (S.name === 'player' || S.name === 'review') && !document.hidden ? Date.now() : null;
+    since = (S.name === 'player' || S.name === 'warmup') && !document.hidden ? Date.now() : null;
   }
   document.addEventListener('visibilitychange', flushTime);
 
@@ -556,10 +1008,9 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
     $app.innerHTML = fn(S.arg);
     if (AFTER[S.name]) AFTER[S.name]();
   }
-
-  // ---------- views ----------
   const VIEWS = {}, AFTER = {};
 
+  // ---------- who's learning ----------
   function familyPanel(f, p) {
     if (!f) return '';
     const t = topicOf(f.topic), L = p && learner(p.id), id = p && f.packs[p.level], m = id && metaOf(id), done = L && L.done[id];
@@ -568,16 +1019,15 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
       '<div class="row" style="margin-top:10px;align-items:flex-start"><div class="big">' + esc(m ? m.emoji : t.emoji) + '</div><div style="flex:1;min-width:0"><h2>' + esc(f.title) + '</h2>' +
       (m ? '<div class="muted small" style="margin-top:4px">' + esc(m.title) + ' · ' + esc(m.minutes) + ' min</div>' : '<div class="muted small" style="margin-top:4px">Everyone learns the same topic at their own level.</div>') + '</div></div>' +
       '<div class="dinner"><b>🍽️ Dinner question</b>' + esc(f.dinner_question) + '</div>' +
-      (m ? '<div style="margin-top:14px"><button class="btn wide" data-act="open" data-arg="' + esc(id) + '" data-fam="1">' + (done ? '✓ Done · Do it again' : 'Start today’s pack') + '</button></div>' : '') +
+      (m ? '<div style="margin-top:14px"><button class="btn ghost wide" data-act="open" data-arg="' + esc(id) + '" data-fam="1">' + (done ? '✓ Done · Do it again' : 'Open the family pack') + '</button></div>' : '') +
       '</section>';
   }
-
   VIEWS.who = function () {
     const f = famToday(), k = today();
     const people = ST.profiles.map(p => {
-      const L = learner(p.id), s = DS.streak(L, k), fid = f && f.packs[p.level], famDone = fid && L.done[fid] && L.done[fid].date === k;
+      const L = learner(p.id), wk = DS.weekStatus(L, k, goalOf(p)), fid = f && f.packs[p.level], famDone = fid && L.done[fid] && L.done[fid].date === k;
       return '<button class="person" data-act="pick" data-arg="' + esc(p.id) + '"><div class="avatar">' + esc(p.avatar) + '</div><div style="min-width:0"><div class="nm">' + esc(p.name) + '</div>' +
-        '<div class="meta">' + LEVEL_NAME[p.level] + (s ? ' · <span class="fire">🔥 ' + s + '</span>' : '') + (famDone ? ' · ✓ today' : '') + '</div></div></button>';
+        '<div class="meta">' + LEVEL_NAME[p.level] + ' · ' + (wk.met ? '✓ week goal met' : wk.n + ' of ' + wk.goal + ' days') + (famDone ? ' · ✓ today' : '') + '</div></div></button>';
     }).join('');
     return '<div class="screen stack">' +
       '<div class="top"><div class="brand"><div class="logo">✨</div><div><h1>Daily Spark</h1><div class="muted small">' + esc(niceToday()) + '</div></div></div><span class="spacer"></span>' + (FRESH ? '' : '<span class="offline">Offline</span>') + '</div>' +
@@ -595,28 +1045,71 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
     b.addEventListener('click', () => toast('Press and hold to open the parent view'));
   };
 
+  // ---------- learner home ----------
+  // after a tap reveals something, make sure it is on screen (cards scroll inside; small phones)
+  function into(sel) { requestAnimationFrame(() => { const els = document.querySelectorAll(sel), el = els[els.length - 1]; if (el && el.scrollIntoView) el.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }); }
+  function specialsFor(p) {
+    const L = learner(p.id), out = DS.pendingQuestions(L);
+    const d = DS.dinnerFollowup(L, today(), p.level, famYesterday(), ST.family.dinners); if (d) out.push(d);
+    return out;
+  }
+  function warmItems(p, more) {
+    const L = learner(p.id), fy = famYesterday();
+    // one warm-up a day; after it, only a new question back or dinner follow-up shows up again ("More review" stays optional)
+    if (!more && (L.days[today()] || {}).warm) { const sp = specialsFor(p); return sp.length ? DS.warmup(L, today(), p.level, { specials: sp, cap: sp.length }).slice(0, sp.length) : []; }
+    return DS.warmup(L, today(), p.level, { specials: more ? [] : specialsFor(p), boostPack: fy && fy.packs[p.level], cap: more ? 5 : undefined });
+  }
+  // today's pack: the family pack if not done yet, then the next part of a started series, then the next suggestion
+  function todaysPack(p) {
+    if (!INDEX) return null;
+    const L = learner(p.id), f = famToday(), fid = f && f.packs[p.level];
+    if (fid && metaOf(fid) && !L.done[fid]) return { id: fid, fam: true };
+    const ser = (INDEX.series || []).filter(s => s.level === p.level).map(s => ({ s, n: DS.nextInSeries(L, s) })).find(x => x.n && x.s.packs.some(id => L.done[id]));
+    if (ser) return { id: ser.n, fam: false };
+    const prog = DS.topicProgress(L, INDEX, p.level);
+    const tid = INDEX.topics.map(t => t.id).filter(id => prog[id] && prog[id].total > prog[id].done).sort((a, b) => prog[a].done / prog[a].total - prog[b].done / prog[b].total)[0];
+    const n = tid && DS.nextPack(L, INDEX, p.level, tid);
+    return n ? { id: n.id, fam: false } : null;
+  }
+  function weekPanel(p, L) {
+    const k = today(), st = DS.weekStatus(L, k, goalOf(p)), run = DS.weeksInRow(L, k, goalOf(p)), away = DS.daysAway(L, k), counted = DS.dayCounts(L.days[k]);
+    let msg;
+    if (st.met) msg = 'Goal met for the week. Anything more is a bonus.';
+    else if (!counted && away != null && away >= 3) msg = 'Welcome back! Let’s see what stuck.';
+    else if (counted) msg = 'Today counts. ' + (st.goal - st.n === 1 ? 'One more day reaches your goal.' : 'Any ' + (st.goal - st.n) + ' more days this week reach your goal.');
+    else msg = 'A warm-up or one pack makes today count.';
+    return '<section class="panel week"><div class="row"><b>This week: ' + st.n + ' of ' + st.goal + ' days</b><span class="spacer"></span>' + (run ? '<span class="fire">🔥 ' + plural(run, 'week') + ' in a row</span>' : '') + '</div>' +
+      weekDots(st) + '<div class="small muted">' + esc(msg) + '</div></section>';
+  }
+  function challengePanel(p) {
+    if (!ST.family.challengeOn) return '';
+    const k = today(), wk = DS.isoWeek(k), c = challengeOf(k), done = ST.family.challenge[wk] || {}, n = ST.profiles.filter(x => done[x.id]).length, mine = !!done[p.id];
+    return '<section class="panel challenge"><div class="row"><span class="tag">🤝 Family challenge this week</span><span class="spacer"></span><span class="chip">' + n + ' of ' + ST.profiles.length + ' of us</span></div>' +
+      '<h3 style="margin-top:8px">' + esc(c[0] + ' ' + c[1]) + '</h3><p class="small" style="margin:6px 0 10px">' + esc(c[2]) + '</p>' +
+      '<div class="row" style="flex-wrap:wrap"><button class="btn sm' + (mine ? ' ghost' : '') + '" data-act="chal">' + (mine ? '✓ I did my part' : 'I did my part') + '</button><span class="small muted">Optional. We do it together.</span></div></section>';
+  }
   VIEWS.home = function () {
     const p = prof(); if (!p) return VIEWS.who();
-    const L = learner(p.id), k = today(), f = famToday(), due = DS.dueReviews(L, k);
-    const todayMin = Math.round(((L.days[k] || {}).sec || 0) / 60), countsToday = DS.dayCounts(L.days[k]);
-    let next = '';
-    if (INDEX) {
-      const prog = DS.topicProgress(L, INDEX, p.level);
-      const tid = INDEX.topics.map(t => t.id).filter(id => prog[id] && prog[id].total > prog[id].done).sort((a, b) => prog[a].done / prog[a].total - prog[b].done / prog[b].total)[0];
-      const n = tid && DS.nextPack(L, INDEX, p.level, tid);
-      if (n) next = '<button class="packrow" data-act="open" data-arg="' + esc(n.id) + '"' + tc(n.topic) + '><span class="e">' + esc(n.emoji) + '</span><span><span class="muted small">Up next · ' + esc(topicOf(n.topic).name) + '</span><b>' + esc(n.title) + '</b><span class="s">' + esc(n.summary) + '</span></span></button>';
-    }
+    const L = learner(p.id), k = today(), f = famToday(), w = warmItems(p), tp = todaysPack(p), kn = DS.knowledge(L, k), pq = DS.pendingQuestions(L);
+    const tm = tp && metaOf(tp.id), doneToday = (L.days[k] || {}).packs > 0;
+    let main = '';
+    if (w.length) main = '<button class="btn wide big" data-act="today">☀️ Today: warm-up (' + w.length + ')' + (tm && !doneToday ? ' + pack' : '') + '</button>';
+    else if (tm) main = '<button class="btn wide big" data-act="open" data-arg="' + esc(tp.id) + '"' + (tp.fam ? ' data-fam="1"' : '') + '>' + (doneToday ? '✨ One more pack?' : '✨ Today’s pack') + '</button>';
+    const tmRow = tm ? '<button class="packrow" data-act="open" data-arg="' + esc(tm.id) + '"' + (tp.fam ? ' data-fam="1"' : '') + tc(tm.topic) + '><span class="e">' + esc(tm.emoji) + '</span><span><span class="muted small">' + (tp.fam ? 'Family pack' : 'Up next') + ' · ' + esc(topicOf(tm.topic).name) + (tm.series ? ' · Part ' + tm.series.part + ' of ' + tm.series.of : '') + '</span><b>' + esc(tm.title) + '</b><span class="s">' + esc(tm.summary) + '</span></span></button>' : '';
     return '<div class="screen stack">' +
       '<div class="top"><button class="iconbtn" data-act="go" data-arg="who" aria-label="Switch learner">←</button><div class="avatar" style="width:44px;height:44px;font-size:1.4rem">' + esc(p.avatar) + '</div><h1 style="font-size:1.45rem">Hi, ' + esc(p.name) + '!</h1></div>' +
-      '<div class="stats"><div class="stat"><b>🔥 ' + DS.streak(L, k) + '</b><span>day streak</span></div><div class="stat"><b>' + (countsToday ? '✓' : todayMin + '/5') + '</b><span>' + (countsToday ? 'today counts' : 'minutes today') + '</span></div><div class="stat"><b>' + Object.keys(L.done).length + '</b><span>packs done</span></div></div>' +
-      familyPanel(f, p) +
-      (due.length ? '<button class="panel review row" style="width:100%;text-align:left" data-act="go" data-arg="review"><span style="font-size:2rem">🔁</span><span style="flex:1"><b>Quick review</b><br><span class="small muted">' + due.length + ' question' + (due.length > 1 ? 's' : '') + ' from earlier packs. Try again!</span></span><span class="chip">Go</span></button>' : '') +
-      '<button class="btn wide" data-act="go" data-arg="topics">🧭 Pick your own topic</button>' + next +
-      '<div class="tiles"><button class="tile" data-act="go" data-arg="favs"><span class="e">♡</span><b>Saved cards</b><span class="small muted">' + Object.keys(L.favs).length + ' saved</span></button>' +
+      (pq.length ? '<button class="panel ask row" data-act="today"><span style="font-size:1.8rem">💬</span><span style="flex:1;text-align:left"><b>' + esc(pq[0].by || 'Someone') + ' asked you a question</b><br><span class="small muted">It’s waiting in your warm-up.</span></span></button>' : '') +
+      main + tmRow + weekPanel(p, L) +
+      '<div class="stats"><div class="stat"><b>🌳 ' + kn.strong + '</b><span>ideas strong</span></div><div class="stat"><b>🌿 ' + (kn.growing + kn.new) + '</b><span>ideas growing</span></div><div class="stat"><b>' + Object.keys(L.done).length + '</b><span>packs done</span></div></div>' +
+      familyPanel(f, p) + challengePanel(p) +
+      '<button class="btn ghost wide" data-act="go" data-arg="topics">🧭 Pick your own topic</button>' +
+      '<div class="tiles"><button class="tile" data-act="go" data-arg="map"><span class="e">🗺️</span><b>What I know</b><span class="small muted">' + plural(kn.total, 'idea') + '</span></button>' +
+      '<button class="tile" data-act="go" data-arg="favs"><span class="e">♡</span><b>Saved cards</b><span class="small muted">' + Object.keys(L.favs).length + ' saved</span></button>' +
       '<button class="tile" data-act="go" data-arg="history"><span class="e">📜</span><b>History</b><span class="small muted">' + L.history.length + ' finished</span></button></div>' +
       '</div>';
   };
 
+  // ---------- topics and series ----------
   VIEWS.topics = function () {
     const p = prof(); if (!p || !INDEX) return VIEWS.who();
     const prog = DS.topicProgress(learner(p.id), INDEX, p.level);
@@ -624,12 +1117,17 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
       INDEX.topics.map(t => { const g = prog[t.id] || { done: 0, total: 0 }; return '<button class="topic" data-act="topic" data-arg="' + esc(t.id) + '"' + tc(t.id) + '><span class="e">' + esc(t.emoji) + '</span><b>' + esc(t.name) + '</b><span class="small muted">' + g.done + ' of ' + g.total + ' done</span><span class="bar"><i style="width:' + (g.total ? Math.round(100 * g.done / g.total) : 0) + '%"></i></span></button>'; }).join('') +
       '</div></div>';
   };
-
+  function seriesPath(L, s) {
+    return '<section class="panel series"' + tc(s.topic) + '><div class="row"><span style="font-size:1.6rem">' + esc(s.emoji) + '</span><div style="flex:1;min-width:0"><b>' + esc(s.title) + '</b><div class="small muted">A series · ' + s.packs.length + ' parts · each one builds on the last</div></div></div><ol class="spath">' +
+      DS.seriesProgress(L, s).map(x => { const m = metaOf(x.id) || { title: x.id, emoji: '✨' }; return '<li class="' + (x.done ? 'done' : '') + '"><button data-act="open" data-arg="' + esc(x.id) + '"><span class="n">' + (x.done ? '✓' : x.part) + '</span><span class="st"><b>' + esc(m.title) + '</b><span class="small muted">Part ' + x.part + (x.done ? ' · done' : '') + '</span></span></button></li>'; }).join('') + '</ol></section>';
+  }
   VIEWS.topic = function (tid) {
     const p = prof(); if (!p || !INDEX) return VIEWS.who();
     const L = learner(p.id), t = topicOf(tid), list = DS.packsFor(INDEX, p.level, tid);
+    const ser = (INDEX.series || []).filter(s => s.level === p.level && (s.topic === tid || s.packs.some(id => (metaOf(id) || {}).topic === tid)));
     return '<div class="screen"' + tc(tid) + '><div class="top"><button class="iconbtn" data-act="go" data-arg="topics" aria-label="Back">←</button><h1>' + esc(t.emoji + ' ' + t.name) + '</h1></div><div class="packs">' +
-      (list.length ? list.map(m => '<button class="packrow" data-act="open" data-arg="' + esc(m.id) + '"' + tc(tid) + '><span class="e">' + esc(m.emoji) + '</span><span style="flex:1;min-width:0"><b>' + esc(m.title) + '</b><span class="s">' + esc(m.summary) + '</span><br><span class="small muted">' + esc(m.minutes) + ' min</span> ' + (L.done[m.id] ? '<span class="chip ok">✓ Done</span>' : '') + '</span></button>').join('') : '<div class="empty">No packs here yet. New ones arrive regularly!</div>') +
+      ser.map(s => seriesPath(L, s)).join('') +
+      (list.length ? list.map(m => '<button class="packrow" data-act="open" data-arg="' + esc(m.id) + '"' + tc(tid) + '><span class="e">' + esc(m.emoji) + '</span><span style="flex:1;min-width:0"><b>' + esc(m.title) + '</b><span class="s">' + esc(m.summary) + '</span><br><span class="small muted">' + esc(m.minutes) + ' min' + (m.series ? ' · Part ' + m.series.part + ' of ' + m.series.of : '') + '</span> ' + (L.done[m.id] ? '<span class="chip ok">✓ Done</span>' : '') + '</span></button>').join('') : '<div class="empty">No packs here yet. New ones arrive regularly!</div>') +
       '</div></div>';
   };
 
@@ -637,37 +1135,117 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
   let P = null;
   async function openPack(id, fam) {
     let pack;
-    try { pack = await DS.loadPack(fetchJson, id, MEMO); }
+    try { pack = await getPack(id); }
     catch (e) { toast(navigator.onLine ? 'Couldn’t open that pack.' : 'This pack isn’t downloaded yet. Connect to the internet once to get it.'); return; }
-    const cards = DS.deck(pack, { videos: videosOn(prof()) });
-    P = { pack, cards, i: 0, seen: new Set([0]), answers: {}, fam: !!fam || !!(famToday() && Object.values(famToday().packs).includes(id)) };
+    const p = prof(), L = learner(ST.current), opts = { videos: videosOn(p), done: L.done };
+    const s = INDEX && DS.seriesFor(INDEX, id);
+    if (s) {
+      const part = s.packs.indexOf(id) + 1;
+      opts.seriesTitle = s.title;
+      // part 2+: recall one idea from the part before (only if the learner did it)
+      if (part > 1 && L.done[s.packs[part - 2]]) {
+        try { const prev = await getPack(s.packs[part - 2]), k = (prev.keys || [])[0]; if (k) opts.seriesRecall = { prompt: k.prompt, answer: k.answer, from: prev.title, series: s.title }; } catch (e) { }
+      }
+      // last part: a short check on one idea from each earlier part the learner did
+      if (part === s.packs.length && part > 1) {
+        const items = [];
+        for (const pid of s.packs.slice(0, -1)) { if (!L.done[pid]) continue; try { const q = await getPack(pid), k = (q.keys || [])[0]; if (k) items.push({ prompt: k.prompt, answer: k.answer, from: q.title }); } catch (e) { } }
+        if (items.length) opts.seriesWrap = items;
+      }
+    }
+    const cards = DS.deck(pack, opts);
+    P = { pack, cards, i: 0, seen: new Set([0]), answers: {}, pending: {}, why: {}, shown: {}, guess: null, teachMode: null,
+      fam: !!fam || !!(famToday() && Object.values(famToday().packs).includes(id)), series: s };
+    const g = L.predict[id]; if (g && g.date === today()) P.guess = g;
     go('player');
   }
   const ideaCount = () => P.pack.cards.filter(c => c.type === 'idea').length;
-  function cardHtml(c, i) {
-    const L = learner(ST.current);
-    if (c.type === 'hook') return '<div class="body"><div class="kicker">' + esc(topicOf(P.pack.topic).emoji + ' ' + topicOf(P.pack.topic).name) + ' · ' + esc(P.pack.minutes) + ' min</div><div class="emoji">' + esc(c.emoji) + '</div><h2>' + esc(c.title) + '</h2><p class="txt">' + esc(c.text) + '</p><div class="hint">Swipe or tap Next →</div></div>';
+  function revealHtml(c) {
+    const pr = c.reveal, g = P.guess;
+    let mine = '';
+    if (g && pr.mode === 'estimate' && g.value != null) mine = '<div class="gline">You guessed <b>' + esc(fmtNum(g.value, pr.estimate.unit)) + '</b>. The answer: <b>' + esc(fmtNum(pr.estimate.answer, pr.estimate.unit)) + '</b>.</div>';
+    else if (g && g.text) { const right = (pr.options || []).find(o => o.correct); mine = '<div class="gline">You guessed <b>' + esc(g.text) + '</b>.' + (right && right.text === g.text ? ' Spot on! 🎯' : ' A good guess to test.') + '</div>'; }
+    return '<div class="reveal"><b>🔮 Your guess, revisited</b>' + mine + '<div>' + esc(pr.reveal) + '</div>' + (g ? '<div class="small muted" style="margin-top:6px">Guessing first, even wrong, helps this stick.</div>' : '') + '</div>';
+  }
+  function cardHtml(c) {
+    const L = learner(ST.current), p = prof();
+    if (c.type === 'srecall') return '<div class="body"><div class="kicker">🔁 Last time in “' + esc(c.series) + '”</div><div class="emoji">🧠</div><h2>' + esc(c.prompt) + '</h2><p class="muted">From “' + esc(c.from) + '”. Think of your answer first.</p>' +
+      (P.shown.sr ? '<div class="answer">' + esc(c.answer) + '</div><div class="hint">Remembering it again makes it stronger. Next →</div>' : '<div><button class="btn ghost" data-act="show" data-arg="sr">Show the answer</button></div><div class="hint">Or just tap Next →</div>') + '</div>';
+    if (c.type === 'hook') return '<div class="body"><div class="kicker">' + esc(topicOf(P.pack.topic).emoji + ' ' + topicOf(P.pack.topic).name) + ' · ' + esc(P.pack.minutes) + ' min' + (P.series ? ' · Part ' + (P.series.packs.indexOf(P.pack.id) + 1) + ' of ' + P.series.packs.length : '') + '</div><div class="emoji">' + esc(c.emoji) + '</div><h2>' + esc(c.title) + '</h2><p class="txt">' + esc(c.text) + '</p><div class="hint">Swipe or tap Next →</div></div>';
+    if (c.type === 'predict') {
+      let ui;
+      if (c.mode === 'estimate') {
+        const e = c.estimate, v = P.guess && P.guess.value != null ? P.guess.value : null, mid = e.min + Math.round(((e.max - e.min) / 2) / e.step) * e.step;
+        ui = '<div class="est"><div class="estv" id="estv">' + (v == null ? 'Slide to guess' : esc(fmtNum(v, e.unit))) + '</div><input type="range" id="estr" min="' + e.min + '" max="' + e.max + '" step="' + e.step + '" value="' + (v == null ? mid : v) + '" aria-label="Your guess"><div class="row small muted"><span>' + esc(fmtNum(e.min, e.unit)) + '</span><span class="spacer"></span><span>' + esc(fmtNum(e.max, e.unit)) + '</span></div></div>';
+      } else {
+        ui = '<div class="opts">' + shuffled(c.options, P.pack.id + 'p').map(({ o, k }) => '<button class="opt' + (P.guess && P.guess.text === o.text ? ' picked' : '') + '" data-act="guess" data-arg="' + k + '">' + esc(o.text) + '</button>').join('') + '</div>';
+      }
+      return '<div class="body"><div class="kicker">🔮 Guess first</div><h2>' + esc(c.question) + '</h2>' + ui +
+        '<div class="hint" id="phint">' + (P.guess ? 'Locked in. You’ll find out in this pack. Next →' : 'Any guess helps, even a wrong one! Or tap Next.') + '</div></div>';
+    }
     if (c.type === 'idea') {
-      const n = P.pack.cards.slice(0, c.ci + 1).filter(x => x.type === 'idea').length;
-      return '<div class="body"><div class="kicker">💡 Idea ' + n + ' of ' + ideaCount() + '</div><div class="emoji">' + esc(c.emoji) + '</div><h2>' + esc(c.title) + '</h2><p class="txt">' + esc(c.text) + '</p>' +
+      const ex = DS.exampleFor(c, p && p.interests), ws = P.why[c.ci] || 0, ico = ex && ex.interest && DS.INTERESTS.find(x => x[0] === ex.interest);
+      return '<div class="body"><div class="kicker">💡 Idea ' + c.n + ' of ' + ideaCount() + '</div><div class="emoji">' + esc(c.emoji) + '</div><h2>' + esc(c.title) + '</h2><p class="txt">' + esc(c.text) + '</p>' +
+        (c.reveal ? revealHtml(c) : '') +
         (c.svg ? '<div class="fig">' + safeSvg(c.svg) + '</div>' : '') +
-        (c.example ? '<div class="example"><b>For example</b>' + esc(c.example) + '</div>' : '') + '</div>';
+        (ex ? '<div class="example"><b>' + (ico ? 'For you · ' + esc(ico[1] + ' ' + ico[2]) : 'For example') + '</b>' + esc(ex.text) + '</div>' : '') +
+        (c.why ? '<div class="whybox"><b>🤔 Why?</b> ' + esc(c.why.q) + (ws ? '<div class="answer">' + esc(c.why.a) + '</div>' : '<div style="margin-top:8px"><button class="btn ghost sm" data-act="why" data-arg="' + c.ci + '">Think first, then tap</button></div>') + '</div>' : '') + '</div>';
+    }
+    if (c.type === 'link') {
+      const m = metaOf(c.to), sh = P.shown['l' + c.ci];
+      return '<div class="body"><div class="kicker">🔗 Connect</div><div class="emoji">🔗</div><p class="muted small">Connects to a pack you did: <b>' + esc(m ? m.emoji + ' ' + m.title : c.to) + '</b></p><h2>' + esc(c.prompt) + '</h2>' +
+        (sh ? '<div class="answer"><b>One way to see it</b>' + esc(c.model) + '</div><div class="hint">We’ll check this connection again in a few days.</div>' : '<div><button class="btn ghost" data-act="show" data-arg="l' + c.ci + '">I thought about it. Show one way</button></div><div class="hint">Or tap Next →</div>') + '</div>';
     }
     if (c.type === 'watch') return watchHtml(c.video);
     if (c.type === 'think') return '<div class="body"><div class="kicker">🤔 Think</div><div class="emoji">🤔</div><h2>' + esc(c.question) + '</h2><ul class="nudges">' + (c.nudges || []).map(n => '<li>' + esc(n) + '</li>').join('') + '</ul><div class="hint">No right answer. Take a moment, or talk it over with someone.</div></div>';
-    if (c.type === 'q') {
-      const a = P.answers[c.j];
-      return '<div class="body"><div class="kicker">✅ Quick check ' + (c.j + 1) + ' of ' + c.n + '</div><h2>' + esc(c.q.q) + '</h2>' + optionsHtml(c.q, a, 'answer', c.j) + '</div>';
+    if (c.type === 'q') return '<div class="body"><div class="kicker">✅ Quick check ' + (c.j + 1) + ' of ' + c.n + '</div><h2>' + esc(c.q.q) + '</h2>' + optionsHtml(c.q, P.answers[c.j], c.j) + '</div>';
+    if (c.type === 'swrap') {
+      return '<div class="body"><div class="kicker">📚 Series check · ' + esc(c.series || '') + '</div><h2>Can you still answer these?</h2><p class="muted">One idea from each part you did. Think first, then tap.</p>' +
+        c.items.map((it, k) => '<div class="wrapq"><b>' + esc(it.prompt) + '</b><div class="small muted">From “' + esc(it.from || '') + '”</div>' + (P.shown['w' + k] ? '<div class="answer">' + esc(it.answer) + '</div>' : '<div style="margin-top:6px"><button class="btn ghost sm" data-act="show" data-arg="w' + k + '">Show</button></div>') + '</div>').join('') + '</div>';
     }
-    if (c.type === 'teach') {
-      const note = (L.teach[P.pack.id] || {}).text || '';
-      return '<div class="body"><div class="kicker">🗣️ Teach it back</div><h2>' + esc(c.prompt) + '</h2><p class="muted">Say it out loud, or type it. It’s saved only on this device.</p>' +
-        '<div class="starters">' + (c.starters || []).map(s => '<button data-act="starter" data-arg="' + esc(s) + '">' + esc(s) + '</button>').join('') + '</div>' +
-        '<textarea class="note" id="teachNote" placeholder="Optional: your 3 sentences…" rows="4">' + esc(note) + '</textarea><div class="saved" id="savedMsg">' + (note ? 'Saved ✓' : '') + '</div></div>';
-    }
+    if (c.type === 'teach') return teachHtml(c, L);
     if (c.type === 'sources') return '<div class="body"><div class="kicker">🔎 How do we know?</div><h2>Where these facts come from</h2><p class="muted small">Every fact in this pack was checked against these sources. Tap one to read more.</p>' + sourcesHtml(P.pack) +
       '<div style="margin-top:auto;padding-top:16px"><button class="btn wide" data-act="finish">🎉 Finish pack</button></div></div>';
     return '';
+  }
+  function teachHtml(c, L) {
+    const t = L.teach[P.pack.id] || {}, note = t.text || '', r = t.parent && t.parent.date === today() ? t.parent : null;
+    const head = '<div class="kicker">🗣️ Teach it back</div><h2>' + esc(c.prompt.replace(/ at dinner/, '')) + '</h2>';
+    const starters = '<div class="starters">' + (c.starters || []).map(s => '<button data-act="starter" data-arg="' + esc(s) + '">' + esc(s) + '</button>').join('') + '</div>';
+    if (!P.teachMode) return '<div class="body">' + head + '<p class="muted">Explaining an idea to a real person is one of the best ways to remember it. How do you want to do it?</p>' +
+      '<div class="opts"><button class="opt" data-act="teachmode" data-arg="say">🗣️ I’ll explain it to someone now</button><button class="opt" data-act="teachmode" data-arg="write">✍️ I’ll write it</button></div><div class="hint">Optional. You can tap Next anytime.</div></div>';
+    if (P.teachMode === 'say') {
+      const marks = r ? '<div class="rubric-got"><b>Your listener checked</b>' + ['main', 'example', 'evidence'].map(k => '<span>' + (r[k] ? '✅' : '◻️') + ' ' + { main: 'Main idea', example: 'An example', evidence: 'How we know' }[k] + '</span>').join('') + (r.reply ? '<div class="small">💬 ' + esc(r.by) + ' asked a question. It’ll be in your next warm-up.</div>' : '') + '</div>' : '';
+      return '<div class="body">' + head + '<p class="muted">Say it out loud in your own words. Try to cover <b>the main idea</b>, <b>an example</b>, and <b>how we know</b>. Stuck? Start with one of these:</p>' + starters.replace(/data-act="starter"/g, 'data-act="noop"') +
+        marks + '<button class="btn wide" data-act="listener">📱 Hand the phone to your listener</button><div class="small muted" style="margin-top:8px">They tick what you covered and can ask you one question back.</div>' +
+        '<div><button class="link" data-act="teachmode" data-arg="write">Write it instead</button></div></div>';
+    }
+    return '<div class="body">' + head + '<p class="muted">Write it in your own words. It’s saved only on this device, and a grown-up can reply.</p>' + starters +
+      '<textarea class="note" id="teachNote" placeholder="Optional: your 3 sentences…" rows="4">' + esc(note) + '</textarea><div class="saved" id="savedMsg">' + (note ? 'Saved ✓' : '') + '</div>' +
+      '<div><button class="link" data-act="teachmode" data-arg="say">Explain it to someone instead</button></div></div>';
+  }
+  // Listener sheet: used by a listener right after a spoken teach-back, and by a parent replying to a written one.
+  function listenerSheet(pid, ownerId, fromParent) {
+    const owner = ST.profiles.find(x => x.id === ownerId), L = learner(ownerId), t = L.teach[pid] || {};
+    const others = ST.profiles.filter(x => x.id !== ownerId);
+    const bg = sheet('<h2>👂 For the listener</h2><p class="muted small">' + esc(owner ? owner.name : '') + ' explained “' + esc(t.title || (P && P.pack.id === pid ? P.pack.title : (metaOf(pid) || {}).title) || '') + '”.</p>' +
+      (t.text ? '<div class="note-q">' + esc(t.text) + '</div>' : '') + '<p class="small" style="margin:10px 0 4px"><b>Did they…</b></p>' +
+      '<label class="check"><input type="checkbox" id="rbMain"> Say the main idea</label><label class="check"><input type="checkbox" id="rbEx"> Give an example</label><label class="check"><input type="checkbox" id="rbEv"> Say how we know (evidence or a source)</label>' +
+      '<div class="field" style="margin-top:12px"><label class="small muted">Who listened?</label><div class="chips" id="rbWho">' + others.map((o, i) => '<button class="ichip' + (i === 0 ? ' on' : '') + '" data-name="' + esc(o.name) + '">' + esc(o.avatar + ' ' + o.name) + '</button>').join('') + '<button class="ichip' + (others.length ? '' : ' on') + '" data-name="">Someone else</button></div><input id="rbName" maxlength="24" placeholder="Their name" style="margin-top:8px;' + (others.length ? 'display:none' : '') + '"></div>' +
+      '<div class="field"><label class="small muted">One question back (optional). It shows up in ' + esc(owner ? owner.name + '’s' : 'their') + ' next warm-up.</label><textarea class="note" id="rbQ" rows="2" maxlength="300" placeholder="e.g. What would happen if…?"></textarea></div>' +
+      '<button class="btn wide" data-act="rbsave" data-arg="' + esc(pid) + '|' + esc(ownerId) + '|' + (fromParent ? 1 : 0) + '">Save</button>');
+    const who = bg.querySelector('#rbWho'), nm = bg.querySelector('#rbName');
+    who.addEventListener('click', e => { const b = e.target.closest('.ichip'); if (!b) return; who.querySelectorAll('.ichip').forEach(x => x.classList.toggle('on', x === b)); nm.style.display = b.dataset.name ? 'none' : ''; if (!b.dataset.name) nm.focus(); });
+  }
+  function saveListener(arg, el) {
+    const [pid, ownerId, fromParent] = arg.split('|'), L = learner(ownerId), m = metaOf(pid) || {}, bg = el.closest('.sheet-bg');
+    const on = bg.querySelector('#rbWho .ichip.on'), by = ((on && on.dataset.name) || bg.querySelector('#rbName').value || 'Someone').trim().slice(0, 24) || 'Someone';
+    const q = bg.querySelector('#rbQ').value.trim().slice(0, 300), here = P && P.pack.id === pid;
+    const t = L.teach[pid] || (L.teach[pid] = { text: '', date: today(), title: (here ? P.pack.title : m.title) || '', topic: (here ? P.pack.topic : m.topic) || '' });
+    if (!fromParent || fromParent === '0') t.toPerson = by;
+    t.parent = { main: bg.querySelector('#rbMain').checked, example: bg.querySelector('#rbEx').checked, evidence: bg.querySelector('#rbEv').checked, reply: q, by, date: today(), answered: null };
+    save(); bg.remove();
+    toast(fromParent === '1' ? 'Reply saved' : 'Thanks! Hand the phone back.'); render();
   }
   // Watch card: details + a thumbnail with a play button. The YouTube player iframe is only created after a tap,
   // so nothing loads from YouTube until the learner asks for it. Nothing is drawn over the player once it loads.
@@ -701,45 +1279,67 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
   function sourcesHtml(pack) {
     return pack.sources.map(s => '<div class="src"><a href="' + esc(s.url) + '" target="_blank" rel="noopener noreferrer">' + esc(s.title) + ' ↗</a><div class="pub">' + esc(s.publisher) + '</div><div class="sup">' + esc(s.supports) + '</div></div>').join('');
   }
-  function optionsHtml(q, a, act, j) {
-    return '<div class="opts">' + q.options.map((o, k) => {
+  // quiz options; with "How sure?" on, tapping an option asks Sure / Not sure before checking
+  function optionsHtml(q, a, j) {
+    const pend = P.pending[j];
+    let html = '<div class="opts">' + q.options.map((o, k) => {
       let cls = 'opt', why = '';
       if (a) {
         if (o.correct) { cls += ' right'; why = '<span class="why">' + (a.chosen === k ? '✅ ' : '👉 ') + esc(o.why) + '</span>'; }
         else if (a.chosen === k) { cls += ' wrong'; why = '<span class="why">' + esc(o.why) + '</span>'; }
         else cls += ' dim';
-      }
-      return '<button class="' + cls + '" data-act="' + act + '" data-arg="' + j + ':' + k + '"' + (a ? ' disabled' : '') + '>' + esc(o.text) + why + '</button>';
-    }).join('') + '</div>' + (a ? '<div class="verdict ' + (a.correct ? 'ok">Nice! That’s right.' : 'no">Not quite. Now you know! We’ll bring this one back in a couple of days.') + '</div>' : '');
+      } else if (pend === k) cls += ' picked';
+      return '<button class="' + cls + '" data-act="answer" data-arg="' + j + ':' + k + '"' + (a ? ' disabled' : '') + '>' + esc(o.text) + why + '</button>';
+    }).join('') + '</div>';
+    if (!a && pend != null) html += '<div class="conf"><span>How sure are you?</span><div class="row"><button class="btn sm" data-act="conf" data-arg="' + j + ':sure">💪 Sure</button><button class="btn sm ghost" data-act="conf" data-arg="' + j + ':unsure">🤷 Not sure</button></div></div>';
+    if (a) {
+      if (a.correct) html += '<div class="verdict ok">' + (a.conf === 'unsure' ? 'Right! You weren’t sure, so we’ll check it again in a few days to make it stick.' : 'Nice! That’s right.') + '</div>';
+      else html += '<div class="verdict no">' + (a.conf === 'sure' ? 'Great catch: confident mistakes that get fixed are remembered best. It comes back tomorrow.' : 'Not quite. Now you know! We’ll bring this one back tomorrow.') + '</div>';
+    }
+    return html;
   }
   VIEWS.player = function () {
     if (!P) return VIEWS.home();
     const c = P.cards[P.i], fav = (c.type === 'hook' || c.type === 'idea'), favOn = fav && learner(ST.current).favs[P.pack.id + ':' + c.ci];
-    const blocked = c.type === 'q' && !P.answers[c.j], last = P.i === P.cards.length - 1;
+    const blocked = c.type === 'q' && !P.answers[c.j] && P.pending[c.j] == null, last = P.i === P.cards.length - 1;
     return '<div class="player"' + tc(P.pack.topic) + '><div class="ptop"><button class="iconbtn" data-act="close" aria-label="Close">✕</button><div class="dots">' +
       P.cards.map((x, k) => '<i class="' + (k === P.i ? 'on' : P.seen.has(k) ? 'seen' : '') + '"></i>').join('') + '</div>' +
       '<button class="iconbtn' + (favOn ? ' on' : '') + '" data-act="fav" aria-label="Save card"' + (fav ? '' : ' disabled') + '>' + (favOn ? '♥' : '♡') + '</button><button class="iconbtn" data-act="sources" aria-label="How do we know?">📚</button></div>' +
-      '<div class="stage" id="stage"><div class="card ' + esc(c.type) + '" id="card"><div class="band"></div>' + cardHtml(c, P.i) + '</div></div>' +
+      '<div class="stage" id="stage"><div class="card ' + esc(c.type) + '" id="card"><div class="band"></div>' + cardHtml(c) + '</div></div>' +
       '<div class="pnav"><button class="btn ghost" data-act="prev"' + (P.i ? '' : ' disabled') + '>← Back</button>' +
       (last ? '<button class="btn" data-act="finish">Finish</button>' : '<button class="btn" data-act="next"' + (blocked ? ' disabled' : '') + '>' + (blocked ? 'Pick an answer' : 'Next →') + '</button>') + '</div></div>';
   };
   AFTER.player = function () {
     const ta = document.getElementById('teachNote');
     if (ta) ta.addEventListener('input', () => {
-      const L = learner(ST.current), v = ta.value.slice(0, 2000);
-      if (v.trim()) L.teach[P.pack.id] = { text: v, date: today(), title: P.pack.title, topic: P.pack.topic }; else delete L.teach[P.pack.id];
+      const L = learner(ST.current), v = ta.value.slice(0, 2000), old = L.teach[P.pack.id];
+      if (v.trim()) L.teach[P.pack.id] = Object.assign({}, old, { text: v, date: today(), title: P.pack.title, topic: P.pack.topic });
+      else if (old && !old.parent) delete L.teach[P.pack.id]; else if (old) old.text = '';
       save(); const m = document.getElementById('savedMsg'); if (m) m.textContent = v.trim() ? 'Saved ✓' : '';
     });
+    const r = document.getElementById('estr');
+    if (r) {
+      const c = P.cards[P.i], upd = () => { const v = Number(r.value); setGuess({ value: v }); document.getElementById('estv').textContent = fmtNum(v, c.estimate.unit); const h = document.getElementById('phint'); if (h) h.textContent = 'Locked in. You’ll find out in this pack. Next →'; };
+      r.addEventListener('input', upd); r.addEventListener('change', upd);
+    }
     swipe(document.getElementById('stage'));
     const img = document.querySelector('#vthumb img');
     if (img) img.addEventListener('error', () => { const b = document.getElementById('vbox'); if (b && !document.getElementById('vframe')) b.innerHTML = '<div class="voff">📡 ' + OFFLINE_VIDEO + '</div>'; });
   };
+  function setGuess(g) {
+    g.date = today(); P.guess = g;
+    learner(ST.current).predict[P.pack.id] = g; save();
+  }
   window.addEventListener('offline', () => { const b = document.getElementById('vbox'); if (b && !document.getElementById('vframe')) b.innerHTML = '<div class="voff">📡 ' + OFFLINE_VIDEO + '</div>'; });
   window.addEventListener('online', () => { if (S.name === 'player' && P && P.cards[P.i].type === 'watch' && !document.getElementById('vframe')) render(); });
   function step(d) {
     if (!P) return;
     const c = P.cards[P.i];
-    if (d > 0 && c.type === 'q' && !P.answers[c.j]) { toast('Pick an answer first'); return; }
+    if (d > 0 && c.type === 'q' && !P.answers[c.j]) {
+      // an option picked but no Sure / Not sure yet: check it without a confidence tap, never block
+      if (P.pending[c.j] != null) { commitAnswer(c.j, P.pending[c.j], null); return; }
+      toast('Pick an answer first'); return;
+    }
     const n = P.i + d; if (n < 0 || n >= P.cards.length) return;
     flushTime(); P.i = n; P.seen.add(n); render(); flushTime();
   }
@@ -766,55 +1366,165 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
   function answer(arg) {
     const [j, k] = arg.split(':').map(Number), c = P.cards[P.i];
     if (c.type !== 'q' || P.answers[j]) return;
-    const correct = !!c.q.options[k].correct, L = learner(ST.current);
-    P.answers[j] = { chosen: k, correct };
-    DS.recordAnswer(L, today(), { id: DS.qid(P.pack.id, j), packId: P.pack.id, topic: P.pack.topic, title: P.pack.title, q: c.q.q, options: c.q.options }, correct);
-    save(); render();
+    if (confOn(prof())) { P.pending[j] = k; render(); into('.conf'); return; }
+    commitAnswer(j, k, null);
+  }
+  function commitAnswer(j, k, conf) {
+    const c = P.cards.find(x => x.type === 'q' && x.j === j); if (!c || P.answers[j]) return;
+    const o = c.q.options[k], correct = !!o.correct, L = learner(ST.current);
+    P.answers[j] = { chosen: k, correct, conf }; delete P.pending[j];
+    DS.recordAnswer(L, today(), { id: DS.qid(P.pack.id, j), packId: P.pack.id, topic: P.pack.topic, title: P.pack.title, q: c.q.q, options: c.q.options }, correct, conf, o.text);
+    save(); render(); into('.verdict');
   }
   function finish() {
-    const L = learner(ST.current), qs = P.cards.filter(c => c.type === 'q');
+    const L = learner(ST.current), p = prof(), qs = P.cards.filter(c => c.type === 'q');
     const correct = qs.filter(c => P.answers[c.j] && P.answers[c.j].correct).length;
     flushTime();
     const wasCounted = DS.dayCounts(L.days[today()]);
     DS.finishPack(L, today(), { packId: P.pack.id, topic: P.pack.topic, title: P.pack.title, level: P.pack.level, correct, total: qs.length, family: P.fam });
+    const added = DS.seedKeys(L, P.pack, today(), 0);
+    DS.noteGoal(L, today(), goalOf(p));
     save();
-    go('done', { correct, total: qs.length, newDay: !wasCounted });
+    go('done', { correct, total: qs.length, newDay: !wasCounted, added });
   }
   VIEWS.done = function (r) {
     if (!P) return VIEWS.home();
-    const L = learner(ST.current), s = DS.streak(L, today()), f = famToday();
+    const p = prof(), L = learner(ST.current), f = famToday(), st = DS.weekStatus(L, today(), goalOf(p));
     const famQ = P.fam && f && Object.values(f.packs).includes(P.pack.id) ? '<div class="dinner" style="text-align:left"><b>🍽️ Bring this to dinner</b>' + esc(f.dinner_question) + '</div>' : '';
-    const more = DS.packsFor(INDEX, P.pack.level, P.pack.topic).find(m => !L.done[m.id]);
+    const nxt = P.series && DS.nextInSeries(L, P.series), nm = nxt && metaOf(nxt);
+    const more = INDEX && DS.packsFor(INDEX, P.pack.level, P.pack.topic).find(m => !L.done[m.id] && m.id !== nxt);
+    const map = r.added ? 'You added ' + plural(r.added, 'idea') + ' to your map. First check-in: tomorrow.' : 'These ideas are already on your map.';
     return '<div class="screen center stack"' + tc(P.pack.topic) + '><div class="done-hero">🎉</div><h1>Pack complete!</h1><p class="muted">' + esc(P.pack.title) + '</p>' +
-      '<div class="panel"><div class="score">Quick check: ' + r.correct + ' of ' + r.total + '</div><div class="muted small">' + (r.correct === r.total ? 'Perfect!' : 'Missed ones come back for review in a couple of days.') + '</div>' +
-      '<div style="margin-top:10px" class="fire">🔥 ' + s + '-day streak' + (r.newDay ? ' · today counts!' : '') + '</div></div>' + famQ +
-      '<div class="stack" style="margin-top:18px">' + (more ? '<button class="btn wide" data-act="open" data-arg="' + esc(more.id) + '">Another ' + esc(topicOf(P.pack.topic).name) + ' pack</button>' : '') +
-      '<button class="btn ghost wide" data-act="go" data-arg="home">Back to home</button></div></div>';
+      '<div class="panel"><div class="score">🗺️ ' + esc(map) + '</div><div class="muted small" style="margin-top:6px">Quick check: ' + r.correct + ' of ' + r.total + (r.correct === r.total ? ' · Perfect!' : ' · Missed ones come back tomorrow.') + '</div></div>' +
+      '<div class="panel week" style="text-align:left"><div class="row"><b>This week: ' + st.n + ' of ' + st.goal + ' days</b><span class="spacer"></span>' + (r.newDay ? '<span class="chip ok">Today counts ✓</span>' : '') + '</div>' + weekDots(st) + (st.met ? '<div class="small muted">Goal met for the week. Anything more is a bonus.</div>' : '') + '</div>' + famQ +
+      (nm ? '<button class="packrow" style="width:100%" data-act="open" data-arg="' + esc(nm.id) + '"' + tc(nm.topic) + '><span class="e">' + esc(nm.emoji) + '</span><span style="text-align:left"><span class="muted small">Next in “' + esc(P.series.title) + '” · Part ' + (P.series.packs.indexOf(nm.id) + 1) + ' of ' + P.series.packs.length + '</span><b>' + esc(nm.title) + '</b></span></button>' : '') +
+      '<div class="stack" style="margin-top:18px"><button class="btn wide" data-act="go" data-arg="home">Back to home</button>' + (more ? '<button class="btn ghost wide" data-act="open" data-arg="' + esc(more.id) + '">One more? ' + esc(more.title) + '</button>' : '') + '</div></div>';
   };
 
   function sheet(html) {
-    const bg = document.createElement('div'); bg.className = 'sheet-bg'; bg.innerHTML = '<div class="sheet">' + html + '<div style="margin-top:16px"><button class="btn ghost wide" data-act="closesheet">Close</button></div></div>';
+    const bg = document.createElement('div'); bg.className = 'sheet-bg'; bg.innerHTML = '<div class="sheet">' + html + '<div style="margin-top:12px"><button class="btn ghost wide" data-act="closesheet">Close</button></div></div>';
     bg.addEventListener('click', e => { if (e.target === bg) bg.remove(); }); document.body.appendChild(bg);
+    return bg;
   }
 
-  // ---------- review ----------
-  let R = null;
-  VIEWS.review = function () {
-    const L = learner(ST.current);
-    if (!R) R = { items: DS.dueReviews(L, today()).slice(0, 10), i: 0, a: null, right: 0 };
-    if (!R.items.length) return '<div class="screen"><div class="top"><button class="iconbtn" data-act="go" data-arg="home">←</button><h1>Review</h1></div><div class="empty">Nothing to review right now. 🎈</div></div>';
-    if (R.i >= R.items.length) return '<div class="screen center stack"><div class="done-hero">🔁</div><h1>Review done!</h1><div class="panel score">' + R.right + ' of ' + R.items.length + ' right</div><p class="muted">Right answers come back less often. Missed ones come back in 2 days.</p><button class="btn wide" data-act="endreview">Back to home</button></div>';
-    const it = R.items[R.i];
-    let msg = '';
-    if (R.a) msg = '<p class="muted" style="margin-top:10px">' + (R.a.res === 'retired' ? 'You’ve got this one for good! 🏅' : R.a.res === 'later' ? 'Nice. It’ll come back later to make it stick.' : 'It’ll come back in 2 days.') + '</p>';
-    return '<div class="player"' + tc(it.topic) + '><div class="ptop"><button class="iconbtn" data-act="endreview" aria-label="Close">✕</button><div class="dots">' + R.items.map((x, k) => '<i class="' + (k === R.i ? 'on' : k < R.i ? 'seen' : '') + '"></i>').join('') + '</div></div>' +
-      '<div class="stage"><div class="card"><div class="band"></div><div class="body"><div class="kicker">🔁 Review · from “' + esc(it.title) + '”</div><h2>' + esc(it.q) + '</h2>' + optionsHtml(it, R.a, 'ranswer', 0) + msg + '</div></div></div>' +
-      '<div class="pnav"><button class="btn" data-act="rnext"' + (R.a ? '' : ' disabled') + '>' + (R.a ? 'Next →' : 'Pick an answer') + '</button></div></div>';
+  // ---------- warm-up (spaced recall) ----------
+  let W = null;
+  async function startWarmup(then, more) {
+    const p = prof(); if (!p) return;
+    const items = warmItems(p, more).map(it => Object.assign({}, it));
+    // slimmed items (see DS.compact) get their text back from the downloaded pack
+    for (let i = 0; i < items.length; i++) {
+      const it = items[i];
+      if ((it.kind === 'key' || it.kind === 'quiz' || it.kind === 'link') && !DS.hasText(it)) { try { items[i] = DS.fillFromPack(it, await getPack(it.packId)); } catch (e) { } }
+    }
+    const usable = items.filter(it => it.kind === 'parentq' || it.kind === 'dinner' || DS.hasText(it));
+    if (!usable.length) { W = null; if (then) openPack(then.id, then.fam); else go('home'); return; }
+    W = { items: usable, i: 0, st: {}, then, did: 0, finished: false };
+    go('warmup');
+  }
+  function warmCard(it, st) {
+    const lv = prof().level, kick = it.kind === 'parentq' ? '💬 A question for you' : it.kind === 'dinner' ? '🍽️ Dinner follow-up' : it.kind === 'link' ? '🔗 Connection' : '☀️ Warm-up';
+    const from = it.title ? '<div class="small muted">From “' + esc(it.title) + '”</div>' : '';
+    if (it.kind === 'parentq') return '<div class="kicker">' + kick + '</div><h2>' + esc((it.by || 'Someone') + ' asked:') + '</h2><p class="txt">' + esc(it.prompt) + '</p>' + from +
+      '<textarea class="note" id="wText" rows="3" placeholder="Your answer…" style="margin-top:12px"></textarea><div class="row" style="margin-top:12px"><button class="btn" data-act="wsave">Save my answer</button></div>';
+    if (it.kind === 'dinner') return '<div class="kicker">' + kick + '</div><h2>' + esc(it.question) + '</h2><p class="muted">Yesterday’s family topic: ' + esc(it.title) + '. What did your family say? What do you think now?</p>' +
+      '<textarea class="note" id="wText" rows="3" placeholder="A sentence or two…"></textarea><div class="row" style="margin-top:12px"><button class="btn" data-act="wsave">Save</button></div>';
+    const opts = Array.isArray(it.options) && it.options.length >= 2 ? it.options : null;
+    // objective multiple choice: kids' key ideas (think first, then choices) and every missed quiz question
+    if (opts && (it.kind === 'quiz' || lv === 'kid')) {
+      const showChoices = it.kind === 'quiz' || st.choices;
+      let h = '<div class="kicker">' + kick + '</div><h2>' + esc(it.prompt) + '</h2>' + from;
+      if (!showChoices) return h + '<p class="muted" style="margin-top:14px">🤔 Think of your answer first. Got it in your head?</p><div><button class="btn" data-act="wchoices">Show choices</button></div>';
+      h += '<div class="opts" style="margin-top:12px">' + shuffled(opts, it.id).map(({ o, k }) => {
+        let cls = 'opt', why = '';
+        if (st.a) { if (o.correct) { cls += ' right'; if (o.why) why = '<span class="why">' + esc(o.why) + '</span>'; } else if (st.a.k === k) cls += ' wrong'; else cls += ' dim'; }
+        return '<button class="' + cls + '" data-act="wpick" data-arg="' + k + '"' + (st.a ? ' disabled' : '') + '>' + esc(o.text) + why + '</button>';
+      }).join('') + '</div>';
+      if (st.a) h += '<div class="verdict ' + (st.a.ok ? 'ok">Yes! That one’s getting stronger.' : 'no">Not yet, and that’s how remembering grows. It comes back tomorrow.') + '</div>' + (it.answer && !st.a.ok ? '<div class="answer">' + esc(it.answer) + '</div>' : '');
+      return h;
+    }
+    // self-graded recall (teens and grown-ups): think or jot, reveal, then grade honestly
+    const h = '<div class="kicker">' + kick + '</div><h2>' + esc(it.prompt) + '</h2>' + from;
+    if (!st.shown) return h + '<textarea class="note" id="wText" rows="2" placeholder="Optional: jot your answer first" style="margin-top:12px"></textarea><div style="margin-top:12px"><button class="btn" data-act="wreveal">Reveal</button></div>';
+    const grades = lv === 'adult' ? ['again', 'partly', 'good', 'easy'] : ['again', 'partly', 'good'];
+    return h + (st.mine ? '<div class="note-q mine">' + esc(st.mine) + '</div>' : '') + '<div class="answer">' + esc(it.answer || '') + '</div>' +
+      '<p class="small muted" style="margin:12px 0 6px">How did you do?</p><div class="grades">' + grades.map(g => '<button class="btn sm' + (g === 'good' ? '' : ' ghost') + '" data-act="wgrade" data-arg="' + g + '">' + GRADE_LABEL[g] + '</button>').join('') + '</div>';
+  }
+  VIEWS.warmup = function () {
+    const p = prof(); if (!p || !W) return VIEWS.home();
+    if (W.i >= W.items.length) {
+      const moreLeft = warmItems(p, true).length > 0;
+      return '<div class="screen center stack"><div class="done-hero">☀️</div><h1>Warm-up done!</h1><p class="muted">Pulling ideas back out of memory is the hard, useful kind of practice.</p>' +
+        '<div class="stack" style="margin-top:18px">' + (W.then ? '<button class="btn wide" data-act="wthen">On to today’s pack →</button>' : '') +
+        (moreLeft ? '<button class="btn ghost wide" data-act="wmore">More review</button>' : '') + '<button class="btn ghost wide" data-act="go" data-arg="home">Home</button></div></div>';
+    }
+    const it = W.items[W.i], st = W.st[W.i] || (W.st[W.i] = {}), done = st.a || st.g || st.saved;
+    return '<div class="player"' + tc(it.topic) + '><div class="ptop"><button class="iconbtn" data-act="wend" aria-label="End warm-up">✕</button><div class="dots">' + W.items.map((x, k) => '<i class="' + (k === W.i ? 'on' : k < W.i ? 'seen' : '') + '"></i>').join('') + '</div><span style="width:44px"></span></div>' +
+      '<div class="stage"><div class="card warm"><div class="band"></div><div class="body">' + warmCard(it, st) + '</div></div></div>' +
+      '<div class="pnav">' + (done ? '<button class="btn" data-act="wnext">Next →</button>' : '<button class="btn ghost" data-act="wnext">Skip</button>') + '</div></div>';
   };
-  function ranswer(arg) {
-    if (!R || R.a) return; const k = Number(arg.split(':')[1]), it = R.items[R.i], correct = !!it.options[k].correct;
-    const res = DS.reviewAnswer(learner(ST.current), today(), it.id, correct); if (correct) R.right++;
-    R.a = { chosen: k, correct, res }; save(); render();
+  function wDone() {
+    const L = learner(ST.current);
+    if (W && W.did && !W.finished) { W.finished = true; DS.finishWarmup(L, today()); DS.noteGoal(L, today(), goalOf(prof())); save(); }
+  }
+  const WACT = {
+    wchoices: () => { W.st[W.i].choices = true; render(); },
+    wpick: k => {
+      const it = W.items[W.i], st = W.st[W.i], L = learner(ST.current); if (st.a) return;
+      const ok = !!it.options[+k].correct; st.a = { k: +k, ok };
+      DS.grade(L, today(), it.id, ok ? 'good' : 'again');
+      if (!ok && L.memory[it.id]) L.memory[it.id].lastWrong = String(it.options[+k].text).slice(0, 200);
+      W.did++; save(); render(); into('.card.warm .answer, .card.warm .verdict');
+    },
+    wreveal: () => { const t = document.getElementById('wText'), st = W.st[W.i]; st.shown = true; st.mine = t && t.value.trim().slice(0, 400); render(); into('.grades'); },
+    wgrade: g => { const it = W.items[W.i], st = W.st[W.i]; if (st.g) return; st.g = g; DS.grade(learner(ST.current), today(), it.id, g); W.did++; save(); WACT.wnext(); },
+    wsave: () => {
+      const it = W.items[W.i], L = learner(ST.current), v = (document.getElementById('wText') || {}).value || '';
+      if (it.kind === 'parentq') { if (!v.trim()) return toast('Write a few words, or tap Skip'); DS.answerQuestion(L, today(), it.packId, v.trim()); }
+      else L.dinner[it.date] = { text: v.trim().slice(0, 600), date: today() };
+      W.st[W.i].saved = true; W.did++; save(); toast('Saved ✓'); WACT.wnext();
+    },
+    wnext: () => {
+      const it = W.items[W.i], st = W.st[W.i] || {};
+      // skipping the dinner follow-up still marks it handled, so it doesn't come back every morning
+      if (it && it.kind === 'dinner' && !st.saved) { learner(ST.current).dinner[it.date] = { skipped: true, date: today() }; save(); }
+      W.i++; if (W.i >= W.items.length) wDone(); flushTime(); render(); window.scrollTo(0, 0);
+    },
+    wend: () => { wDone(); W = null; go('home'); },
+    wthen: () => { const t = W.then; W = null; openPack(t.id, t.fam); },
+    wmore: () => startWarmup(null, true),
+  };
+
+  // ---------- What I know (map of key ideas by strength) ----------
+  VIEWS.map = function () {
+    const p = prof(); if (!p) return VIEWS.who();
+    const L = learner(p.id), k = today(), kn = DS.knowledge(L, k);
+    const items = Object.values(L.memory).filter(it => it.kind === 'key');
+    const head = '<div class="bands">' + ['new', 'growing', 'strong', 'refresh'].map(b => '<div class="band-c b-' + b + '"><b>' + BAND[b][0] + ' ' + kn[b] + '</b><span>' + BAND[b][1] + '</span></div>').join('') + '</div>' +
+      '<p class="small muted">Ideas grow as you remember them on different days. <b>Refresh</b> just means it’s time for a check-in. Tap any idea to practice it.</p>';
+    if (!items.length) return '<div class="screen stack"><div class="top"><button class="iconbtn" data-act="go" data-arg="home">←</button><h1>What I know</h1></div>' + head + '<div class="empty">Finish a pack and its big ideas land here. 🌱</div></div>';
+    const byPack = {}; items.forEach(it => { (byPack[it.packId] = byPack[it.packId] || []).push(it); });
+    const topics = (INDEX ? INDEX.topics.map(t => t.id) : []).concat(Object.values(byPack).map(a => a[0].topic)).filter((x, i, a) => a.indexOf(x) === i);
+    const chip = it => { const b = DS.strength(it, k); return '<button class="kchip b-' + b + '" data-act="kopen" data-arg="' + esc(it.id) + '"><span>' + BAND[b][0] + '</span><span class="kt">' + esc(it.prompt || 'Key idea') + '</span></button>'; };
+    const packRow = pid => { const m = metaOf(pid) || {}, a = byPack[pid].sort((x, y) => x.id.localeCompare(y.id)); return '<div class="kpack"><div class="kph">' + esc((m.emoji || '✨') + ' ' + (m.title || a[0].title)) + (m.series ? ' <span class="small muted">· Part ' + m.series.part + '</span>' : '') + '</div><div class="kchips">' + a.map(chip).join('') + '</div></div>'; };
+    const sMeta = sid => (INDEX && (INDEX.series || []).find(s => s.sid === sid)) || { title: sid, emoji: '📚' };
+    const partOf = id => ((metaOf(id) || {}).series || {}).part || 0;
+    const body = topics.map(tid => {
+      const pids = Object.keys(byPack).filter(pid => byPack[pid][0].topic === tid); if (!pids.length) return '';
+      const t = topicOf(tid), ser = {}, solo = [];
+      pids.forEach(pid => { const sid = byPack[pid][0].series || ((metaOf(pid) || {}).series || {}).id; if (sid) (ser[sid] = ser[sid] || []).push(pid); else solo.push(pid); });
+      return '<section class="panel ktopic"' + tc(tid) + '><h3>' + esc(t.emoji + ' ' + t.name) + '</h3>' +
+        Object.keys(ser).map(sid => '<div class="kseries"><div class="small muted"><b>' + esc(sMeta(sid).emoji + ' ' + sMeta(sid).title) + '</b> · series</div>' + ser[sid].sort((a, b) => partOf(a) - partOf(b)).map(packRow).join('') + '</div>').join('') +
+        solo.map(packRow).join('') + '</section>';
+    }).join('');
+    return '<div class="screen stack"><div class="top"><button class="iconbtn" data-act="go" data-arg="home">←</button><h1>What I know</h1></div>' + head + body + '</div>';
+  };
+  async function openKey(id) {
+    const L = learner(ST.current); let it = L.memory[id]; if (!it) return;
+    if (!DS.hasText(it)) try { it = DS.fillFromPack(it, await getPack(it.packId)); } catch (e) { }
+    const b = DS.strength(it, today()), ans = it.answer || (it.options || []).filter(o => o.correct).map(o => o.text).join('');
+    const bg = sheet('<div class="kicker">' + BAND[b][0] + ' ' + BAND[b][1] + ' · ' + esc(it.title) + '</div><h2 style="margin:6px 0 12px">' + esc(it.prompt || '') + '</h2><p class="muted small">Think of your answer first.</p><div id="kans"><button class="btn ghost" id="kshow">Show answer</button></div><p class="small muted" style="margin-top:12px">Practice only. This doesn’t change when it comes back.</p>');
+    bg.querySelector('#kshow').addEventListener('click', () => { bg.querySelector('#kans').innerHTML = '<div class="answer">' + esc(ans) + '</div>'; });
   }
 
   // ---------- saved + history ----------
@@ -825,49 +1535,69 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
         : '<div class="empty">Tap ♡ on any idea card to save it here.</div>') + '</div></div>';
   };
   VIEWS.history = function () {
-    const L = learner(ST.current);
-    return '<div class="screen"><div class="top"><button class="iconbtn" data-act="go" data-arg="home">←</button><h1>History</h1></div><div class="list">' +
-      (L.history.length ? L.history.slice(0, 100).map(h => { const t = topicOf(h.topic), n = L.teach[h.packId]; return '<button class="item" style="text-align:left;width:100%" data-act="open" data-arg="' + esc(h.packId) + '"><div class="row"><span style="font-size:1.5rem">' + esc(t.emoji) + '</span><div style="flex:1"><div class="t">' + esc(h.title) + '</div><div class="small muted">' + esc(fmtDate(h.date)) + ' · quiz ' + h.correct + '/' + h.total + (h.family ? ' · family' : '') + '</div></div></div>' + (n && !h.repeat ? '<div class="note-q">' + esc(n.text) + '</div>' : '') + '</button>'; }).join('')
+    const L = learner(ST.current), best = Math.max(DS.bestStreak(L), (L.legacy || {}).bestDailyRun || 0);
+    return '<div class="screen"><div class="top"><button class="iconbtn" data-act="go" data-arg="home">←</button><h1>History</h1></div>' +
+      (best > 1 ? '<p class="small muted">Longest run of days in a row: ' + best + '</p>' : '') + '<div class="list">' +
+      (L.history.length ? L.history.slice(0, 100).map(h => { const t = topicOf(h.topic), n = L.teach[h.packId]; return '<button class="item" style="text-align:left;width:100%" data-act="open" data-arg="' + esc(h.packId) + '"><div class="row"><span style="font-size:1.5rem">' + esc(t.emoji) + '</span><div style="flex:1"><div class="t">' + esc(h.title) + '</div><div class="small muted">' + esc(fmtDate(h.date)) + ' · quiz ' + h.correct + '/' + h.total + (h.family ? ' · family' : '') + '</div></div></div>' + (n && n.text && !h.repeat ? '<div class="note-q">' + esc(n.text) + '</div>' : '') + '</button>'; }).join('')
         : '<div class="empty">Finished packs show up here.</div>') + '</div></div>';
   };
 
   // ---------- parent view ----------
-  VIEWS.parent = function () {
-    const k = today();
-    const blocks = ST.profiles.map(p => {
-      const L = learner(p.id), acc = DS.accuracy(L), prog = INDEX ? DS.topicProgress(L, INDEX, p.level) : {};
-      const week = L.history.filter(h => DS.dayNum(k) - DS.dayNum(h.date) < 7).length;
-      const bars = INDEX ? INDEX.topics.map(t => { const g = prog[t.id] || { done: 0, total: 0 }; return '<div class="tb"' + tc(t.id) + '><span>' + esc(t.emoji) + '</span><span class="bar"><i style="width:' + (g.total ? Math.round(100 * g.done / g.total) : 0) + '%"></i></span><span class="muted">' + g.done + '/' + g.total + '</span></div>'; }).join('') : '';
-      const recent = L.history.slice(0, 8).map(h => { const n = L.teach[h.packId]; return '<div class="item"><div class="t">' + esc(topicOf(h.topic).emoji + ' ' + h.title) + '</div><div class="small muted">' + esc(fmtDate(h.date)) + ' · quiz ' + h.correct + '/' + h.total + '</div>' + (n && !h.repeat ? '<div class="note-q">' + esc(n.text) + '</div>' : '') + '</div>'; }).join('');
-      return '<section class="panel kid"><div class="head"><div class="avatar">' + esc(p.avatar) + '</div><div style="flex:1"><h2>' + esc(p.name) + '</h2><div class="small muted">' + LEVEL_NAME[p.level] + ' level</div></div>' +
-        '<button class="btn ghost sm vtoggle" data-act="vidtoggle" data-arg="' + esc(p.id) + '" aria-pressed="' + videosOn(p) + '">📺 Videos: ' + (videosOn(p) ? 'On' : 'Off') + '</button></div>' +
-        '<div class="kgrid"><div class="stat"><b>🔥 ' + DS.streak(L, k) + '</b><span>streak (best ' + DS.bestStreak(L) + ')</span></div><div class="stat"><b>' + Object.keys(L.done).length + '</b><span>packs · ' + week + ' this week</span></div><div class="stat"><b>' + DS.minutesSince(L, k, 7) + '</b><span>minutes, 7 days</span></div><div class="stat"><b>' + (acc == null ? '–' : acc + '%') + '</b><span>quiz accuracy</span></div></div>' +
-        '<div class="small muted">Topics finished</div><div class="tbars">' + bars + '</div>' +
-        '<div class="small muted">' + Object.keys(L.reviews).length + ' question(s) in the review queue · ' + Object.keys(L.teach).length + ' teach-back note(s)</div>' +
-        '<details' + (recent ? ' open' : '') + '><summary>Recent packs & teach-back notes</summary><div class="list">' + (recent || '<div class="empty">No packs yet.</div>') + '</div></details></section>';
+  const pct = (a, b) => b ? Math.round(100 * a / b) + '%' : '–';
+  function parentBlock(p, k) {
+    const L = learner(p.id), acc = DS.accuracy(L), prog = INDEX ? DS.topicProgress(L, INDEX, p.level) : {}, kn = DS.knowledge(L, k), rr = DS.recallRate(L), st = DS.weekStatus(L, k, goalOf(p)), run = DS.weeksInRow(L, k, goalOf(p)), c = L.calib;
+    const bars = INDEX ? INDEX.topics.map(t => { const g = prog[t.id] || { done: 0, total: 0 }; return '<div class="tb"' + tc(t.id) + '><span>' + esc(t.emoji) + '</span><span class="bar"><i style="width:' + (g.total ? Math.round(100 * g.done / g.total) : 0) + '%"></i></span><span class="muted">' + g.done + '/' + g.total + '</span></div>'; }).join('') : '';
+    const tr = DS.trouble(L).slice(0, 5).map(it => '<div class="item"><div class="t">' + esc(it.prompt || it.title) + '</div><div class="small muted">' + esc(it.title) + ' · missed ' + it.lapses + '×' + (it.lastWrong ? ' · last picked: “' + esc(it.lastWrong) + '”' : '') + '</div></div>').join('');
+    const teach = Object.entries(L.teach).sort((a, b) => (b[1].date || '').localeCompare(a[1].date || '')).slice(0, 8).map(([pid, t]) => {
+      const r = t.parent;
+      return '<div class="item"><div class="row"><div style="flex:1;min-width:0"><div class="t">' + esc(topicOf(t.topic).emoji + ' ' + (t.title || pid)) + '</div><div class="small muted">' + esc(t.date ? fmtDate(t.date) : '') + (t.toPerson ? ' · explained to ' + esc(t.toPerson) : '') + '</div></div>' +
+        (r ? '' : '<button class="btn sm ghost" data-act="reply" data-arg="' + esc(pid) + '|' + esc(p.id) + '">Reply</button>') + '</div>' +
+        (t.text ? '<div class="note-q">' + esc(t.text) + '</div>' : '') +
+        (r ? '<div class="small" style="margin-top:6px">' + (r.main ? '✅' : '◻️') + ' main idea · ' + (r.example ? '✅' : '◻️') + ' example · ' + (r.evidence ? '✅' : '◻️') + ' how we know</div>' + (r.reply ? '<div class="small" style="margin-top:4px">💬 ' + esc(r.by) + ' asked: “' + esc(r.reply) + '”' + (r.answered ? '<br>↳ ' + esc(p.name) + ': “' + esc(r.answered.text) + '”' : ' · <span class="muted">waiting in their warm-up</span>') + '</div>' : '') : '') + '</div>';
     }).join('');
+    const cn = c.sureRight + c.sureWrong + c.unsureRight + c.unsureWrong;
+    return '<section class="panel kid"><div class="head"><div class="avatar">' + esc(p.avatar) + '</div><div style="flex:1;min-width:0"><h2>' + esc(p.name) + '</h2><div class="small muted">' + LEVEL_NAME[p.level] + ' level · goal ' + goalOf(p) + ' days a week</div></div></div>' +
+      '<div class="toggles"><button class="btn ghost sm vtoggle" data-act="vidtoggle" data-arg="' + esc(p.id) + '" aria-pressed="' + videosOn(p) + '">📺 Videos: ' + (videosOn(p) ? 'On' : 'Off') + '</button><button class="btn ghost sm vtoggle" data-act="conftoggle" data-arg="' + esc(p.id) + '" aria-pressed="' + confOn(p) + '">🤷 “How sure?”: ' + (confOn(p) ? 'On' : 'Off') + '</button></div>' +
+      '<div class="kgrid"><div class="stat"><b>' + st.n + '/' + st.goal + '</b><span>days this week' + (run ? ' · ' + plural(run, 'week') + ' in a row' : '') + '</span></div><div class="stat"><b>🌳' + kn.strong + ' 🌿' + (kn.growing + kn.new) + ' 🔄' + kn.refresh + '</b><span>strong · growing · refresh</span></div>' +
+      '<div class="stat"><b>' + (rr.w1.pct == null ? '–' : rr.w1.pct + '%') + ' / ' + (rr.w5.pct == null ? '–' : rr.w5.pct + '%') + '</b><span>recall after 1 wk / 5 wks</span></div><div class="stat"><b>' + (acc == null ? '–' : acc + '%') + '</b><span>quiz accuracy · ' + DS.minutesSince(L, k, 7) + ' min in 7 days</span></div></div>' +
+      (cn ? '<div class="small muted">How sure vs. right: when <b>sure</b>, ' + pct(c.sureRight, c.sureRight + c.sureWrong) + ' right (' + (c.sureRight + c.sureWrong) + ' answers); when <b>not sure</b>, ' + pct(c.unsureRight, c.unsureRight + c.unsureWrong) + ' right (' + (c.unsureRight + c.unsureWrong) + ').</div>' : '') +
+      '<details' + (tr ? ' open' : '') + '><summary>Ideas that keep slipping' + (tr ? '' : ' (none yet)') + '</summary><div class="list">' + (tr || '<div class="empty">Nothing missed twice yet.</div>') + '</div><p class="small muted">Good dinner-table material: talk about these, without quizzing.</p></details>' +
+      '<details' + (teach ? ' open' : '') + '><summary>Teach-backs</summary><div class="list">' + (teach || '<div class="empty">No teach-backs yet.</div>') + '</div></details>' +
+      '<details><summary>Topics finished</summary><div class="tbars">' + bars + '</div></details></section>';
+  }
+  VIEWS.parent = function () {
+    const k = today(), din = ST.family.dinners, td = din[k] || {};
+    const last = [0, 1, 2, 3, 4, 5, 6].map(i => DS.addDays(k, -i)).map(d => {
+      const f = INDEX && DS.familyFor(INDEX, d), e = din[d] || {};
+      const notes = ST.profiles.map(p => { const x = learner(p.id).dinner[d]; return x && x.text ? '<div class="small">↳ ' + esc(p.name) + ' (next morning): “' + esc(x.text) + '”</div>' : ''; }).join('');
+      if (!e.held && !e.note && !notes) return '';
+      return '<div class="item"><div class="t">' + esc(fmtDate(d)) + (e.held ? ' · 🍽️ talked about it' : '') + '</div>' + (f ? '<div class="small muted">' + esc(f.dinner_question) + '</div>' : '') + (e.note ? '<div class="note-q">' + esc(e.note) + '</div>' : '') + notes + '</div>';
+    }).join('');
+    const wk = DS.isoWeek(k), ch = challengeOf(k), chd = ST.family.challenge[wk] || {}, chn = ST.profiles.filter(x => chd[x.id]).length;
+    const size = LAST_SIZE || JSON.stringify(ST).length, used = Math.round(100 * size / DS.STORAGE.max);
     return '<div class="screen"><div class="top"><button class="iconbtn" data-act="go" data-arg="who">←</button><h1>Parent view</h1></div>' +
-      '<p class="muted small">Progress on this device only. Nothing is uploaded anywhere.</p>' +
-      '<p class="muted small">📺 <b>Videos</b> adds a short learning video (from YouTube, played inside the app) to each pack. Turn it off for anyone who shouldn’t see videos. The rest of the pack never depends on it.</p>' + blocks +
+      (STORE_FAIL ? '<section class="panel warnp">⚠️ The last save failed because this device’s storage is full. Copy the progress code below to keep a backup, then free up space.</section>' : '') +
+      '<p class="muted small">Progress on this device only. Nothing is uploaded anywhere. 📺 <b>Videos</b> adds a short learning video to each pack (the rest never depends on it). 🤷 <b>“How sure?”</b> asks Sure / Not sure after quiz answers.</p>' +
+      ST.profiles.map(p => parentBlock(p, k)).join('') +
+      '<section class="panel" style="margin-top:16px"><h3>🍽️ Family dinner</h3>' + (famToday() ? '<p class="small muted">Tonight: ' + esc(famToday().dinner_question) + '</p>' : '') +
+      '<label class="check"><input type="checkbox" id="dinHeld"' + (td.held ? ' checked' : '') + '> We talked about it tonight</label><textarea class="note" id="dinNote" rows="2" placeholder="Optional note: what came up?">' + esc(td.note || '') + '</textarea>' +
+      '<p class="small muted">Tomorrow’s warm-up asks each person who took part one follow-up question.</p><div class="list">' + (last || '<div class="empty">No dinners logged in the last 7 days.</div>') + '</div></section>' +
+      '<section class="panel" style="margin-top:16px"><div class="row"><h3 style="flex:1">🤝 Family challenge</h3><button class="btn ghost sm vtoggle" data-act="chaltoggle" aria-pressed="' + !!ST.family.challengeOn + '">' + (ST.family.challengeOn ? 'On' : 'Off') + '</button></div>' +
+      (ST.family.challengeOn ? '<p><b>' + esc(ch[0] + ' ' + ch[1]) + '</b>: ' + esc(ch[2]) + '</p><p class="small muted">' + chn + ' of ' + ST.profiles.length + ' of us so far. Cooperative only: no scores, no ranking.</p>' : '<p class="small muted">Off. Turn it on for one optional, cooperative challenge each week.</p>') + '</section>' +
+      '<section class="panel" style="margin-top:16px"><h3>💾 Storage</h3><div class="bar" style="margin:8px 0"><i style="width:' + Math.max(1, Math.min(100, used)) + '%;background:' + (used > 80 ? 'var(--bad)' : 'var(--ok)') + '"></i></div><p class="small muted">' + Math.max(1, Math.round(size / 1000)) + ' KB of about 5,000 KB used. If it fills up, old details are trimmed automatically; schedules and progress are kept.</p></section>' +
       '<section class="panel" style="margin-top:16px"><h3>Move progress between devices</h3><p class="small muted">Each iPhone or iPad keeps its own progress. To see everything here, copy the code on the other device (Parent view → Copy my code), then paste it below. Matching profiles are merged.</p>' +
       '<div class="row" style="flex-wrap:wrap"><button class="btn sm" data-act="export">Copy my code</button><button class="btn ghost sm" data-act="import">Merge a pasted code</button></div><textarea class="code" id="code" placeholder="Paste a code here, then tap Merge" style="margin-top:12px"></textarea></section></div>';
   };
+  AFTER.parent = function () {
+    const h = document.getElementById('dinHeld'), n = document.getElementById('dinNote');
+    const upd = () => { const k = today(), e = ST.family.dinners[k] || {}; e.held = h.checked; e.note = n.value.slice(0, 600); if (!e.held && !e.note) delete ST.family.dinners[k]; else ST.family.dinners[k] = e; save(); };
+    if (h) { h.addEventListener('change', upd); n.addEventListener('input', upd); }
+  };
   function exportCode() {
-    const json = JSON.stringify({ app: 'daily-spark', v: 1, profiles: ST.profiles, learners: ST.learners });
+    const json = JSON.stringify({ app: 'daily-spark', v: 2, profiles: ST.profiles, learners: ST.learners, family: ST.family });
     const code = btoa(unescape(encodeURIComponent(json)));
     const ta = document.getElementById('code'); ta.value = code; ta.select();
     (navigator.clipboard ? navigator.clipboard.writeText(code) : Promise.reject()).then(() => toast('Code copied'), () => toast('Select the code and copy it'));
-  }
-  function mergeLearner(a, b) {
-    Object.entries(b.done || {}).forEach(([id, r]) => { if (!a.done[id] || (r.date || '') > (a.done[id].date || '')) a.done[id] = r; });
-    const seen = new Set(a.history.map(h => h.packId + '@' + h.date));
-    (b.history || []).forEach(h => { if (!seen.has(h.packId + '@' + h.date)) a.history.push(h); });
-    a.history.sort((x, y) => (y.date || '').localeCompare(x.date || ''));
-    Object.entries(b.days || {}).forEach(([k, d]) => { const o = a.days[k] || (a.days[k] = { sec: 0, packs: 0 }); o.sec = Math.max(o.sec, d.sec || 0); o.packs = Math.max(o.packs, d.packs || 0); });
-    Object.entries(b.reviews || {}).forEach(([id, r]) => { if (!a.reviews[id]) a.reviews[id] = r; });
-    Object.assign(a.favs, b.favs || {});
-    Object.entries(b.teach || {}).forEach(([id, t]) => { if (!a.teach[id] || (t.date || '') >= (a.teach[id].date || '')) a.teach[id] = t; });
-    if ((b.quiz || {}).asked > a.quiz.asked) a.quiz = b.quiz;
   }
   function importCode() {
     const raw = (document.getElementById('code').value || '').trim(); if (!raw) return toast('Paste a code first');
@@ -875,9 +1605,14 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
     if (!data || data.app !== 'daily-spark' || !Array.isArray(data.profiles)) return toast('That isn’t a Daily Spark code');
     data.profiles.forEach(p => {
       if (!p || !/^[a-z0-9-]{1,40}$/.test(p.id) || !DS.LEVELS.includes(p.level)) return;
-      if (!ST.profiles.find(x => x.id === p.id)) ST.profiles.push(Object.assign({ id: p.id, name: String(p.name || 'Learner').slice(0, 24), level: p.level, avatar: String(p.avatar || '🙂').slice(0, 4) }, p.videos === false ? { videos: false } : {}));
-      mergeLearner(learner(p.id), Object.assign(DS.newLearner(), (data.learners || {})[p.id] || {}));
+      if (!ST.profiles.find(x => x.id === p.id)) ST.profiles.push(Object.assign({ id: p.id, name: String(p.name || 'Learner').slice(0, 24), level: p.level, avatar: String(p.avatar || '🙂').slice(0, 4),
+        interests: Array.isArray(p.interests) ? p.interests.slice(0, 8) : [], weeklyGoal: p.weeklyGoal }, p.videos === false ? { videos: false } : {}, p.conf === false ? { conf: false } : {}));
+      DS.mergeLearner(learner(p.id), (data.learners || {})[p.id] || {}, today());   // v1 codes are migrated inside
     });
+    const f = data.family || {};
+    Object.entries(f.dinners || {}).forEach(([d, e]) => { if (!ST.family.dinners[d]) ST.family.dinners[d] = e; });
+    Object.entries(f.challenge || {}).forEach(([w, e]) => { ST.family.challenge[w] = Object.assign({}, e, ST.family.challenge[w] || {}); });
+    DS.migrate(ST, today());
     save(); toast('Progress merged'); render();
   }
 
@@ -886,30 +1621,56 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
   VIEWS.profiles = function () {
     if (!EDIT) EDIT = JSON.parse(JSON.stringify(ST.profiles));
     return '<div class="screen"><div class="top"><button class="iconbtn" data-act="cancelprof">←</button><h1>Profiles</h1></div><div class="list">' +
-      EDIT.map((p, i) => '<div class="item prof-edit"><div class="avatar">' + esc(p.avatar) + '</div><div><div class="field"><label class="small muted">Name</label><input maxlength="24" data-pi="' + i + '" data-f="name" value="' + esc(p.name) + '"></div>' +
+      EDIT.map((p, i) => '<div class="item prof-edit"><div class="avatar">' + esc(p.avatar) + '</div><div style="min-width:0"><div class="field"><label class="small muted">Name</label><input maxlength="24" data-pi="' + i + '" data-f="name" value="' + esc(p.name) + '"></div>' +
         '<div class="field"><label class="small muted">Level</label><select data-pi="' + i + '" data-f="level">' + DS.LEVELS.map(l => '<option value="' + l + '"' + (p.level === l ? ' selected' : '') + '>' + LEVEL_NAME[l] + (l === 'kid' ? ' (about ages 9–12)' : l === 'teen' ? ' (about 12–16)' : '') + '</option>').join('') + '</select></div>' +
-        '<div class="emoji-pick">' + AVATARS.map(a => '<button data-act="avatar" data-arg="' + i + ':' + a + '" class="' + (a === p.avatar ? 'sel' : '') + '">' + a + '</button>').join('') + '</div>' +
+        '<div class="field"><label class="small muted">Weekly goal: days a week</label><div class="chips">' + [3, 4, 5, 6].map(g => '<button class="ichip' + ((p.weeklyGoal || DS.GOAL_DEFAULT[p.level]) === g ? ' on' : '') + '" data-act="goal" data-arg="' + i + ':' + g + '">' + g + ' days</button>').join('') + '</div></div>' +
+        '<div class="field"><label class="small muted">Interests: some examples get flavored to these</label><div class="chips">' + DS.INTERESTS.map(([id, e, n]) => '<button class="ichip' + ((p.interests || []).includes(id) ? ' on' : '') + '" data-act="interest" data-arg="' + i + ':' + id + '">' + e + ' ' + n + '</button>').join('') + '</div></div>' +
+        '<label class="check"><input type="checkbox" data-pi="' + i + '" data-f="conf"' + (p.conf === false ? '' : ' checked') + '> Ask “How sure?” after quiz answers</label>' +
+        '<div class="emoji-pick" style="margin-top:10px">' + AVATARS.map(a => '<button data-act="avatar" data-arg="' + i + ':' + a + '" class="' + (a === p.avatar ? 'sel' : '') + '">' + a + '</button>').join('') + '</div>' +
         (EDIT.length > 1 ? '<button class="link" data-act="delprof" data-arg="' + i + '">Remove</button>' : '') + '</div></div>').join('') + '</div>' +
       '<div class="row" style="margin-top:16px;flex-wrap:wrap">' + (EDIT.length < 6 ? '<button class="btn ghost sm" data-act="addprof">+ Add learner</button>' : '') + '<span class="spacer"></span><button class="btn" data-act="saveprof">Save</button></div></div>';
   };
   AFTER.profiles = function () {
-    $app.querySelectorAll('[data-pi]').forEach(el => el.addEventListener('input', () => { EDIT[+el.dataset.pi][el.dataset.f] = el.value; }));
+    $app.querySelectorAll('[data-pi]').forEach(el => el.addEventListener(el.type === 'checkbox' ? 'change' : 'input', () => {
+      const p = EDIT[+el.dataset.pi];
+      if (el.dataset.f === 'conf') { if (el.checked) delete p.conf; else p.conf = false; }
+      else p[el.dataset.f] = el.value;
+    }));
   };
 
   // ---------- actions ----------
-  const ACT = {
-    go: a => { if (a === 'review') R = null; go(a); },
+  const ACT = Object.assign({
+    go: a => go(a),
+    noop: () => { },
     pick: id => { ST.current = id; save(); go('home'); },
     topic: id => go('topic', id),
     open: (id, el) => openPack(id, el && el.dataset.fam),
+    today: () => { const p = prof(), tp = todaysPack(p), doneToday = (learner(p.id).days[today()] || {}).packs > 0; startWarmup(tp && !doneToday ? tp : null); },
     next: () => step(1), prev: () => step(-1),
-    answer, ranswer,
-    rnext: () => { R.i++; R.a = null; flushTime(); render(); },
-    endreview: () => { R = null; go('home'); },
+    answer,
+    conf: arg => { const [j, c] = arg.split(':'); if (P.pending[+j] != null) commitAnswer(+j, P.pending[+j], c); },
+    guess: k => { const c = P.cards[P.i]; setGuess({ text: c.options[+k].text }); render(); },
+    why: ci => { P.why[ci] = 1; render(); into('.whybox .answer'); },
+    show: key => {
+      P.shown[key] = true;
+      const c = P.cards[P.i];
+      if (c.type === 'link' && DS.addLink(learner(ST.current), today(), P.pack, c)) save();
+      render();
+      if (c.type === 'swrap') requestAnimationFrame(() => { const w = document.querySelectorAll('.wrapq')[Number(key.slice(1))]; if (w) w.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); });
+      else into('.card .answer');
+    },
+    teachmode: m => { P.teachMode = m; render(); },
+    listener: () => listenerSheet(P.pack.id, ST.current, false),
+    reply: arg => { const [pid, owner] = arg.split('|'); listenerSheet(pid, owner, true); },
+    rbsave: (arg, el) => saveListener(arg, el),
     close: () => { P = null; go('home'); },
     finish,
     playvideo: () => playVideo(),
     vidtoggle: id => { const p = ST.profiles.find(x => x.id === id); if (!p) return; if (videosOn(p)) p.videos = false; else delete p.videos; save(); toast('Videos ' + (videosOn(p) ? 'on' : 'off') + ' for ' + p.name); render(); },
+    conftoggle: id => { const p = ST.profiles.find(x => x.id === id); if (!p) return; if (confOn(p)) p.conf = false; else delete p.conf; save(); toast('“How sure?” ' + (confOn(p) ? 'on' : 'off') + ' for ' + p.name); render(); },
+    chaltoggle: () => { ST.family.challengeOn = !ST.family.challengeOn; save(); render(); },
+    chal: () => { const wk = DS.isoWeek(today()), c = ST.family.challenge[wk] || (ST.family.challenge[wk] = {}); if (c[ST.current]) delete c[ST.current]; else { c[ST.current] = today(); toast('Nice teamwork! 🤝'); } save(); render(); },
+    kopen: id => openKey(id),
     fav: () => {
       const c = P.cards[P.i], L = learner(ST.current), id = P.pack.id + ':' + c.ci;
       if (L.favs[id]) delete L.favs[id];
@@ -922,7 +1683,9 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
     starter: s => { const ta = document.getElementById('teachNote'); if (!ta) return; ta.value = (ta.value.trim() ? ta.value.trim() + ' ' : '') + s.replace(/…$/, '') + ' '; ta.focus(); ta.dispatchEvent(new Event('input')); },
     export: exportCode, import: importCode,
     avatar: a => { const [i, e] = a.split(':'); EDIT[+i].avatar = e; render(); },
-    addprof: () => { EDIT.push({ id: 'p' + Date.now().toString(36), name: 'New learner', level: 'kid', avatar: AVATARS[EDIT.length % AVATARS.length] }); render(); },
+    goal: a => { const [i, g] = a.split(':'); EDIT[+i].weeklyGoal = +g; render(); },
+    interest: a => { const [i, id] = a.split(':'), p = EDIT[+i], s = new Set(p.interests || []); if (s.has(id)) s.delete(id); else if (s.size < 8) s.add(id); p.interests = [...s]; render(); },
+    addprof: () => { EDIT.push({ id: 'p' + Date.now().toString(36), name: 'New learner', level: 'kid', avatar: AVATARS[EDIT.length % AVATARS.length], interests: [], weeklyGoal: DS.GOAL_DEFAULT.kid }); render(); },
     delprof: i => { const p = EDIT[+i]; if (confirm('Remove ' + p.name + '? Their progress on this device will be deleted.')) { EDIT.splice(+i, 1); render(); } },
     cancelprof: () => { EDIT = null; go('who'); },
     saveprof: () => {
@@ -930,9 +1693,9 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
       const keep = new Set(EDIT.map(p => p.id));
       Object.keys(ST.learners).forEach(id => { if (!keep.has(id)) delete ST.learners[id]; });
       ST.profiles = EDIT; EDIT = null; if (!keep.has(ST.current)) ST.current = null;
-      ST.profiles.forEach(p => learner(p.id)); save(); prefetch(); go('who');
+      DS.migrate(ST, today()); save(); prefetch(); go('who');
     },
-  };
+  }, WACT);
   document.addEventListener('click', e => {
     const el = e.target.closest('[data-act]'); if (!el || el.disabled) return;
     const f = ACT[el.dataset.act]; if (f) { e.preventDefault(); f(el.dataset.arg, el, e); }
@@ -948,9 +1711,10 @@ textarea.code{width:100%;min-height:90px;font-family:ui-monospace,Menlo,monospac
     await loadContent();
     render();
     if ('serviceWorker' in navigator && location.protocol !== 'file:') navigator.serviceWorker.register('sw.js').catch(() => { });
+    backfillKeys();
     setTimeout(prefetch, 800);
   }
-  window.DSAPP = { go, openPack, step, state: () => ST, player: () => P, index: () => INDEX, save, render, ACT, reload: () => { ST = load(); render(); } };
+  window.DSAPP = { go, openPack, startWarmup, step, state: () => ST, player: () => P, warm: () => W, index: () => INDEX, save, render, ACT, backfillKeys, reload: () => { ST = load(); render(); } };
   start();
 })();
 

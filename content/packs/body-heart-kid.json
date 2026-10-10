@@ -7,6 +7,59 @@
   "emoji": "❤️",
   "summary": "Four rooms, one-way doors, and the \"lub-DUB\" you can hear.",
   "minutes": 6,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Blood comes back to your heart with its oxygen used up. Where does the heart send it next?",
+      "answer": "To the lungs, to pick up fresh oxygen. Then the left side of the heart pumps it to the whole body.",
+      "options": [
+        {
+          "text": "To the lungs, for fresh oxygen",
+          "correct": true
+        },
+        {
+          "text": "Straight back to the body"
+        },
+        {
+          "text": "To the stomach, for food"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "What do the valves in your heart do?",
+      "answer": "They work like one-way doors, so blood only flows forward. When they snap shut, they make the lub-DUB sound.",
+      "options": [
+        {
+          "text": "Keep blood flowing one way",
+          "correct": true
+        },
+        {
+          "text": "Make the blood red"
+        },
+        {
+          "text": "Help you breathe"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "Why does your heart beat faster when you run or play?",
+      "answer": "It speeds up to bring more oxygen to your working muscles.",
+      "options": [
+        {
+          "text": "To bring more oxygen to your muscles",
+          "correct": true
+        },
+        {
+          "text": "Because the valves stop working"
+        },
+        {
+          "text": "Because your heart is getting tired"
+        }
+      ]
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +67,25 @@
       "emoji": "❤️",
       "title": "Feel it right now",
       "text": "Put two fingers on the inside of your wrist, below your thumb. Feel a tap, tap, tap? That is your heart pushing blood all through your body."
+    },
+    {
+      "type": "predict",
+      "question": "Blood comes back to your heart after its oxygen is used up. Where do you think the heart sends it next?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "Straight back out to your toes"
+        },
+        {
+          "text": "To your lungs, to get fresh oxygen",
+          "correct": true
+        },
+        {
+          "text": "To your stomach, to get food"
+        }
+      ],
+      "reveal": "To your lungs! There the blood picks up fresh oxygen. Then it comes back to the left side of your heart, which pumps it out to your whole body.",
+      "reveal_after": 3
     },
     {
       "type": "idea",
@@ -25,14 +97,22 @@
       "type": "idea",
       "emoji": "🚪",
       "title": "One-way doors",
-      "text": "Between the rooms are valves. They work like one-way doors, so blood only flows forward. When the valves snap shut, they make the \"lub-DUB\" sound a doctor hears with a stethoscope."
+      "text": "Between the rooms are valves. They work like one-way doors, so blood only flows forward. When the valves snap shut, they make the \"lub-DUB\" sound a doctor hears with a stethoscope.",
+      "why": {
+        "q": "Why would a heart need one-way doors?",
+        "a": "So blood only moves forward. Then each squeeze pushes blood where it needs to go."
+      }
     },
     {
       "type": "idea",
       "emoji": "🔁",
       "title": "Two trips",
       "text": "Blood that has used up its oxygen comes back to the right side of your heart. The heart pumps it to your lungs to pick up fresh oxygen. Then it comes back to the left side, which pumps it out to your whole body.",
-      "svg": "<svg viewBox=\"0 0 300 130\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Two loops: heart to lungs and heart to body\"><ellipse cx=\"80\" cy=\"65\" rx=\"62\" ry=\"40\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"6\"/><ellipse cx=\"220\" cy=\"65\" rx=\"62\" ry=\"40\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"6\"/><circle cx=\"150\" cy=\"65\" r=\"22\" fill=\"#e11d48\"/><text x=\"150\" y=\"72\" font-size=\"20\" text-anchor=\"middle\">❤️</text><text x=\"40\" y=\"72\" font-size=\"24\" text-anchor=\"middle\">🫁</text><text x=\"262\" y=\"72\" font-size=\"24\" text-anchor=\"middle\">🏃</text></svg>"
+      "svg": "<svg viewBox=\"0 0 300 130\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Two loops: heart to lungs and heart to body\"><ellipse cx=\"80\" cy=\"65\" rx=\"62\" ry=\"40\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"6\"/><ellipse cx=\"220\" cy=\"65\" rx=\"62\" ry=\"40\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"6\"/><circle cx=\"150\" cy=\"65\" r=\"22\" fill=\"#e11d48\"/><text x=\"150\" y=\"72\" font-size=\"20\" text-anchor=\"middle\">❤️</text><text x=\"40\" y=\"72\" font-size=\"24\" text-anchor=\"middle\">🫁</text><text x=\"262\" y=\"72\" font-size=\"24\" text-anchor=\"middle\">🏃</text></svg>",
+      "why": {
+        "q": "Why does blood go to the lungs before it goes out to your body?",
+        "a": "Blood coming back from your body has used up its oxygen. The lungs are where it picks up fresh oxygen."
+      }
     },
     {
       "type": "idea",

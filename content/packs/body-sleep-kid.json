@@ -7,6 +7,59 @@
   "emoji": "😴",
   "summary": "What your brain does while you sleep, and how much sleep you need.",
   "minutes": 6,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How does sleep help you learn?",
+      "answer": "While you sleep, your brain builds and keeps the pathways it uses to learn and remember.",
+      "options": [
+        {
+          "text": "It helps your brain save what you learned",
+          "correct": true
+        },
+        {
+          "text": "Your brain turns off, so it can't forget"
+        },
+        {
+          "text": "It doesn't help with learning"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Why can bright screens at bedtime make it harder to fall asleep?",
+      "answer": "Your brain makes more melatonin, a chemical that helps you feel sleepy, when it gets dark. Bright light can make it harder to fall asleep.",
+      "options": [
+        {
+          "text": "Bright light can keep you from feeling sleepy",
+          "correct": true
+        },
+        {
+          "text": "Screens make your bed colder"
+        },
+        {
+          "text": "Screens make your brain stop learning"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "How much sleep do kids ages 6 to 12 need each night?",
+      "answer": "Experts say 9 to 12 hours a night. That is more than grown-ups need.",
+      "options": [
+        {
+          "text": "9 to 12 hours",
+          "correct": true
+        },
+        {
+          "text": "5 to 6 hours"
+        },
+        {
+          "text": "15 to 18 hours"
+        }
+      ]
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +67,25 @@
       "emoji": "😴",
       "title": "A third of your life",
       "text": "You spend about one-third of your life asleep. That sounds like a lot of doing nothing. But your brain is busy all night. What is it doing?"
+    },
+    {
+      "type": "predict",
+      "question": "What do you think your brain does while you sleep?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "Turns off and rests, like a lamp"
+        },
+        {
+          "text": "Stays busy, saving what you learned",
+          "correct": true
+        },
+        {
+          "text": "Plays the same dream all night"
+        }
+      ],
+      "reveal": "It stays busy! Sleep helps your brain build and keep the pathways it uses to learn and remember. So sleep is part of learning, not a break from it.",
+      "reveal_after": 1
     },
     {
       "type": "idea",
@@ -32,7 +104,11 @@
       "type": "idea",
       "emoji": "🌙",
       "title": "Your body clock",
-      "text": "Your body has a clock that runs on about 24 hours. When it gets dark, your brain makes more of a chemical called melatonin, which helps you feel sleepy. Bright light, like from screens, can make it harder to fall asleep."
+      "text": "Your body has a clock that runs on about 24 hours. When it gets dark, your brain makes more of a chemical called melatonin, which helps you feel sleepy. Bright light, like from screens, can make it harder to fall asleep.",
+      "why": {
+        "q": "Why would your brain make a sleepy chemical when it gets dark?",
+        "a": "Your body clock runs on about 24 hours. Darkness tells it that night is here, so melatonin helps you feel sleepy at the right time."
+      }
     },
     {
       "type": "idea",

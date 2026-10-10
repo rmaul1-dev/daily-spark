@@ -7,6 +7,42 @@
   "emoji": "🌕",
   "summary": "The day people first walked on the Moon, and the thousands who made it happen.",
   "minutes": 6,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Only two people walked on the Moon in 1969. How many did Armstrong say made it work?",
+      "answer": "Hundreds of thousands. It took a giant team.",
+      "options": [
+        {
+          "text": "Hundreds of thousands",
+          "correct": true
+        },
+        {
+          "text": "Three"
+        },
+        {
+          "text": "About ten"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Why did Armstrong steer the lander Eagle by hand?",
+      "answer": "To fly past a field of big boulders. They landed with only about 30 seconds of fuel left.",
+      "options": [
+        {
+          "text": "To get past a field of big boulders",
+          "correct": true
+        },
+        {
+          "text": "To land closer to Earth"
+        },
+        {
+          "text": "Because the rocket was too tall"
+        }
+      ]
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +50,25 @@
       "emoji": "🌕",
       "title": "30 seconds to spare",
       "text": "When the first spaceship to carry people landed on the Moon, it had only about 30 seconds of fuel left. What happened in those last tense minutes?"
+    },
+    {
+      "type": "predict",
+      "question": "Only two people walked on the Moon in 1969. How many people do you think helped make it happen?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "3"
+        },
+        {
+          "text": "About 100"
+        },
+        {
+          "text": "Hundreds of thousands",
+          "correct": true
+        }
+      ],
+      "reveal": "Armstrong said \"hundreds of thousands\" of people made the mission work. Each one tried hard to make sure nothing went wrong because of them.",
+      "reveal_after": 4
     },
     {
       "type": "idea",
@@ -39,7 +94,11 @@
       "type": "idea",
       "emoji": "🤝",
       "title": "A giant team",
-      "text": "Years later, Armstrong said \"hundreds of thousands\" of people made the mission work. Each one tried hard to make sure nothing went wrong because of them. The crew splashed down safely in the Pacific Ocean on July 24."
+      "text": "Years later, Armstrong said \"hundreds of thousands\" of people made the mission work. Each one tried hard to make sure nothing went wrong because of them. The crew splashed down safely in the Pacific Ocean on July 24.",
+      "why": {
+        "q": "Why would each person on the team care so much about their own job?",
+        "a": "Armstrong said each one tried hard to make sure nothing went wrong because of them. Every small job mattered."
+      }
     },
     {
       "type": "think",

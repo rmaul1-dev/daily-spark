@@ -7,6 +7,28 @@
   "emoji": "🧾",
   "summary": "Rule-of-72 precision, fee drag, and teaching it at the kitchen table.",
   "minutes": 8,
+  "series": {
+    "id": "money-grows",
+    "part": 2,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why do interruptions to compounding cost most at the end?",
+      "answer": "Gains are back-loaded ($100 at 5%: about $63 in years 1–10, about $176 in years 11–25), so late withdrawals or late starts cut the biggest gains."
+    },
+    {
+      "id": "k2",
+      "prompt": "How much does a 1% annual fee cost over 30 years at 7%?",
+      "answer": "About 25% of terminal wealth (1.07³⁰ ≈ 7.61 vs 1.06³⁰ ≈ 5.74), because the fee compounds against you."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why is 72 used instead of 69.3?",
+      "answer": "69.3 is exact for continuous compounding; 72 is slightly high but divides cleanly by 2, 3, 4, 6, 8, 9 and 12."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +36,25 @@
       "emoji": "🧾",
       "title": "The 1% that isn't small",
       "text": "A 1% annual fee sounds like a rounding error. Over 30 years at a 7% gross return, it takes roughly a quarter of the ending value. Why is the intuition so far off?"
+    },
+    {
+      "type": "predict",
+      "question": "$100 at 5%: when do most of the dollar gains arrive, years 1–10 or years 11–25?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "Years 1–10"
+        },
+        {
+          "text": "Years 11–25",
+          "correct": true
+        },
+        {
+          "text": "About evenly"
+        }
+      ],
+      "reveal": "Years 11–25: about $176, versus about $63 in years 1–10. Payoffs are back-loaded, so interruptions cost most at the end.",
+      "reveal_after": 3
     },
     {
       "type": "idea",
@@ -26,7 +67,11 @@
       "emoji": "🩸",
       "title": "Fee drag",
       "text": "$1 at 7% for 30 years grows to 1.07³⁰ ≈ 7.61. At 6% (7% minus a 1% fee), 1.06³⁰ ≈ 5.74. The fee costs about 25% of terminal wealth, not 1%, because it compounds against you every year.",
-      "example": "Same logic for taxes on turnover and for cash drag: small rate gaps, huge terminal gaps."
+      "example": "Same logic for taxes on turnover and for cash drag: small rate gaps, huge terminal gaps.",
+      "why": {
+        "q": "Why does a 1% fee cost about 25%, not 1%?",
+        "a": "It's taken every year from a growing base, so it compounds against you exactly as returns compound for you."
+      }
     },
     {
       "type": "idea",
@@ -40,6 +85,12 @@
       "title": "Teaching it",
       "text": "Investor.gov's classroom version: skip a $2 slice a day, save $730, invest at 5%. That is $931.69 after 5 years and $3,155.02 after 30. Kids feel the sacrifice now and see the payoff later, which is the whole psychological problem in one example.",
       "example": "Investor.gov's free calculator lets the girls test their own numbers."
+    },
+    {
+      "type": "link",
+      "to": "money-profit-break-even-adult",
+      "prompt": "What do operating leverage and fee drag have in common?",
+      "model": "Small structural rates (fixed-cost ratio, a 1% fee) applied repeatedly produce outsized effects that intuition underweights."
     },
     {
       "type": "think",

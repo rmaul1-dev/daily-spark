@@ -7,6 +7,28 @@
   "emoji": "🌐",
   "summary": "Testing a common belief against the data.",
   "minutes": 7,
+  "series": {
+    "id": "sunlight",
+    "part": 2,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What single fact disproves \"summer happens when Earth is closest to the Sun\"?",
+      "answer": "The Northern and Southern Hemispheres have opposite seasons at the same time."
+    },
+    {
+      "id": "k2",
+      "prompt": "How does Earth's tilt cause the seasons?",
+      "answer": "The 23.4° axis keeps pointing the same way in space, so the hemisphere leaning toward the Sun changes as Earth orbits."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why does low-angle sunlight heat less?",
+      "answer": "The same beam spreads over more ground: at 30° above the horizon it covers twice the area, so each square meter gets half the energy."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -16,11 +38,34 @@
       "text": "Many people believe summer happens when Earth is closest to the Sun. Here's a test: if that were true, what would we expect Australia's seasons to be compared with the U.S.?"
     },
     {
+      "type": "predict",
+      "question": "If being closer to the Sun caused summer, when would Australia have its summer?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "In January, along with the whole planet",
+          "correct": true
+        },
+        {
+          "text": "In July, opposite the U.S."
+        },
+        {
+          "text": "Australia would have no summer"
+        }
+      ],
+      "reveal": "In January, along with everyone else: if distance ruled, the whole planet would have summer then. Instead, the hemispheres have opposite seasons, so distance can't be the cause.",
+      "reveal_after": 1
+    },
+    {
       "type": "idea",
       "emoji": "📏",
       "title": "The distance data",
       "text": "Earth's orbit is slightly lopsided. Its closest point to the Sun, about 91.4 million miles, comes in January. Its farthest, about 94.5 million miles, comes in July. That is a 3-million-mile difference, but small compared with the whole distance.",
-      "example": "If distance ruled, the whole planet would have summer in January. Instead, the two hemispheres have opposite seasons."
+      "example": "If distance ruled, the whole planet would have summer in January. Instead, the two hemispheres have opposite seasons.",
+      "why": {
+        "q": "A 3-million-mile difference sounds big. Why isn't it enough to cause the seasons?",
+        "a": "It's small compared with the whole distance, about 91 to 95 million miles."
+      }
     },
     {
       "type": "idea",
@@ -40,6 +85,12 @@
       "emoji": "💥",
       "title": "Where the tilt came from",
       "text": "NASA explains that scientists think a big object, called Theia, hit the young Earth and knocked it off-kilter. Most scientists think debris from that impact became the Moon."
+    },
+    {
+      "type": "link",
+      "to": "science-blue-sky-teen",
+      "prompt": "In \"Blue Sky Physics: Scattering\" low-angle light passes through more air. Here, low-angle light spreads over more ground. What are the two effects of a low Sun?",
+      "model": "More air to scatter through (paler, redder light) and a beam spread over more ground (less energy per square meter)."
     },
     {
       "type": "think",

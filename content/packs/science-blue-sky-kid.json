@@ -7,6 +7,64 @@
   "emoji": "🌤️",
   "summary": "Sunlight hides a rainbow, and the air bounces the blue part around.",
   "minutes": 6,
+  "series": {
+    "id": "sunlight",
+    "part": 1,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why does the sky look blue?",
+      "answer": "Air scatters blue light much more than other colors, so blue reaches your eyes from every part of the sky.",
+      "options": [
+        {
+          "text": "Air bounces blue light around the most",
+          "correct": true
+        },
+        {
+          "text": "The sky reflects the ocean"
+        },
+        {
+          "text": "Space is blue"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Why are sunsets red and orange?",
+      "answer": "At sunset, light travels through much more air. Most of the blue gets scattered away, and the reds and yellows get through.",
+      "options": [
+        {
+          "text": "Light goes through more air, so the blue gets scattered away",
+          "correct": true
+        },
+        {
+          "text": "The Sun cools down at night"
+        },
+        {
+          "text": "Clouds paint the sky"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What is sunlight really made of?",
+      "answer": "All the colors of the rainbow mixed together.",
+      "options": [
+        {
+          "text": "All the colors mixed together",
+          "correct": true
+        },
+        {
+          "text": "Only yellow light"
+        },
+        {
+          "text": "Only blue light"
+        }
+      ]
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +72,25 @@
       "emoji": "🌤️",
       "title": "Sunlight is secretly a rainbow",
       "text": "Sunlight looks white. But it is really made of all the colors of the rainbow mixed together. So why does the sky look blue instead of rainbow?"
+    },
+    {
+      "type": "predict",
+      "question": "Sunlight has every color in it. Which color do you think the air bounces around the most?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "Red"
+        },
+        {
+          "text": "Blue",
+          "correct": true
+        },
+        {
+          "text": "Green"
+        }
+      ],
+      "reveal": "Blue! Air scatters blue light much more than red light. So when you look up, blue light comes at you from every part of the sky.",
+      "reveal_after": 2
     },
     {
       "type": "idea",
@@ -33,7 +110,11 @@
       "type": "idea",
       "emoji": "🌅",
       "title": "Why sunsets turn red",
-      "text": "At sunset, sunlight has to travel through much more air to reach you. Most of the blue gets scattered away on the trip. The reds and yellows make it through to your eyes."
+      "text": "At sunset, sunlight has to travel through much more air to reach you. Most of the blue gets scattered away on the trip. The reds and yellows make it through to your eyes.",
+      "why": {
+        "q": "Why would more air on the way mean less blue reaches you?",
+        "a": "Blue gets scattered the most. On a long trip through lots of air, most of the blue is bounced away before it gets to your eyes."
+      }
     },
     {
       "type": "idea",

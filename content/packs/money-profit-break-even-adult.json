@@ -7,6 +7,28 @@
   "emoji": "🏗️",
   "summary": "The CVP toolkit applied to a startup decision, with the traps.",
   "minutes": 8,
+  "series": {
+    "id": "money-grows",
+    "part": 1,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is operating leverage?",
+      "answer": "High fixed costs with a high contribution margin amplify profit swings in both directions."
+    },
+    {
+      "id": "k2",
+      "prompt": "How do you calculate margin of safety?",
+      "answer": "(Current revenue − break-even revenue) ÷ current revenue."
+    },
+    {
+      "id": "k3",
+      "prompt": "When does CVP / break-even analysis mislead?",
+      "answer": "When prices or costs aren't linear or the mix shifts: step-fixed costs, volume discounts, multiple products."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +36,25 @@
       "emoji": "🏗️",
       "title": "Same revenue, different risk",
       "text": "Two businesses each sell $100k a year. One has mostly fixed costs, the other mostly variable. Revenue drops 20%. Which one is in trouble, and how fast?"
+    },
+    {
+      "type": "predict",
+      "question": "Business A: $60k fixed, 70% margin ratio. Business B: $10k fixed, 20%. Both earn $10k at $100k. Revenue falls to $80k. Which is in trouble?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "A, the fixed-cost-heavy one",
+          "correct": true
+        },
+        {
+          "text": "B, the low-margin one"
+        },
+        {
+          "text": "Neither: they're the same at $100k"
+        }
+      ],
+      "reveal": "A: it swings to −$4k while B still earns $6k. High fixed costs amplify both directions (at $120k, A earns $24k vs B's $14k).",
+      "reveal_after": 2
     },
     {
       "type": "idea",
@@ -26,7 +67,11 @@
       "type": "idea",
       "emoji": "🎚️",
       "title": "Operating leverage",
-      "text": "Business A: $60k fixed, 70% contribution margin ratio. Business B: $10k fixed, 20% ratio. At $100k revenue both earn $10k. At $80k, A earns −$4k and B earns $6k. At $120k, A earns $24k and B earns $14k. High fixed costs amplify both directions."
+      "text": "Business A: $60k fixed, 70% contribution margin ratio. Business B: $10k fixed, 20% ratio. At $100k revenue both earn $10k. At $80k, A earns −$4k and B earns $6k. At $120k, A earns $24k and B earns $14k. High fixed costs amplify both directions.",
+      "why": {
+        "q": "Why do A and B earn the same at $100k but diverge so fast?",
+        "a": "A's 70% ratio means each lost dollar of revenue costs 70¢ of profit; B loses only 20¢."
+      }
     },
     {
       "type": "idea",

@@ -7,6 +7,59 @@
   "emoji": "🤖",
   "summary": "Computers can learn from examples, a bit like you learned to spot a dog.",
   "minutes": 6,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How do some computers learn to spot things like cats?",
+      "answer": "By looking at lots of labeled examples and finding patterns that match the labels.",
+      "options": [
+        {
+          "text": "From lots of labeled examples",
+          "correct": true
+        },
+        {
+          "text": "From reading a dictionary"
+        },
+        {
+          "text": "By asking a real cat"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "What does a learning computer do when it guesses wrong?",
+      "answer": "It turns its tiny settings a little. After lots of practice, its guesses get much better.",
+      "options": [
+        {
+          "text": "Adjusts its tiny settings a little",
+          "correct": true
+        },
+        {
+          "text": "Gives up"
+        },
+        {
+          "text": "Deletes all the pictures"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "Why do good, varied examples matter so much?",
+      "answer": "A computer can only learn from the examples it is given.",
+      "options": [
+        {
+          "text": "It can only learn from the examples it gets",
+          "correct": true
+        },
+        {
+          "text": "It already knows everything"
+        },
+        {
+          "text": "Examples don't matter"
+        }
+      ]
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -16,10 +69,33 @@
       "text": "How do you know a dog is a dog? Nobody gave you a list of rules. You saw lots of dogs and figured it out. Some computers learn in a similar way."
     },
     {
+      "type": "predict",
+      "question": "How do you think a computer learns to spot cats in photos?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "Someone types a rule for every cat"
+        },
+        {
+          "text": "It looks at lots of labeled pictures and finds patterns",
+          "correct": true
+        },
+        {
+          "text": "It asks a real cat"
+        }
+      ],
+      "reveal": "People show it thousands of pictures. Each one has a label, like \"cat\" or \"not cat.\" The computer looks for patterns that match the labels.",
+      "reveal_after": 2
+    },
+    {
       "type": "idea",
       "emoji": "📋",
       "title": "Recipe or examples?",
-      "text": "Most computer programs follow steps, like a recipe. The computer does exactly what the steps say. But some jobs are too tricky for simple steps, like finding the cat in a photo. For those, computers can learn from examples instead."
+      "text": "Most computer programs follow steps, like a recipe. The computer does exactly what the steps say. But some jobs are too tricky for simple steps, like finding the cat in a photo. For those, computers can learn from examples instead.",
+      "why": {
+        "q": "Why can't we just write simple steps for finding a cat in a photo?",
+        "a": "Some jobs are too tricky for simple steps. Learning from lots of examples works better for jobs like that."
+      }
     },
     {
       "type": "idea",

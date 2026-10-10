@@ -7,6 +7,23 @@
   "emoji": "🛌",
   "summary": "Homeostatic drive, circadian timing, metabolic links, and an honest open question.",
   "minutes": 8,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What are the two processes that regulate sleep?",
+      "answer": "Sleep-wake homeostasis (drive that builds with each hour awake, via adenosine) and the circadian system (about 24-hour timing set by light via the SCN)."
+    },
+    {
+      "id": "k2",
+      "prompt": "What does caffeine actually do?",
+      "answer": "It blocks adenosine, counteracting the sleepiness signal; the underlying sleep need still accumulates."
+    },
+    {
+      "id": "k3",
+      "prompt": "Which metabolic effects are linked to insufficient sleep?",
+      "answer": "Higher leptin and ghrelin levels and a reduced response to insulin; chronic short sleep raises risk of diabetes, obesity and cardiovascular disease."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +31,28 @@
       "emoji": "🛌",
       "title": "Essential and unexplained",
       "text": "NINDS calls quality sleep as essential to survival as food and water, and also says its biological purpose \"remains a mystery.\" What do we actually know about how it is regulated and what it does?"
+    },
+    {
+      "type": "predict",
+      "question": "The circadian clock is set by the suprachiasmatic nucleus. What do you think is its main input?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "Light, via the retina",
+          "correct": true
+        },
+        {
+          "text": "Meal timing"
+        },
+        {
+          "text": "Body temperature"
+        },
+        {
+          "text": "Hours already slept"
+        }
+      ],
+      "reveal": "Light, via signals from the retina. That's why light exposure is the lever people can actually pull on their sleep timing.",
+      "reveal_after": 1
     },
     {
       "type": "idea",
@@ -26,7 +65,11 @@
       "type": "idea",
       "emoji": "🧠",
       "title": "Architecture",
-      "text": "A night cycles through three non-REM stages and REM several times. Deep stage 3 dominates the first half; REM begins about 90 minutes in and lengthens toward morning. Memory consolidation most likely requires both. Recent findings suggest a \"housekeeping\" role in clearing toxins that build up while awake."
+      "text": "A night cycles through three non-REM stages and REM several times. Deep stage 3 dominates the first half; REM begins about 90 minutes in and lengthens toward morning. Memory consolidation most likely requires both. Recent findings suggest a \"housekeeping\" role in clearing toxins that build up while awake.",
+      "why": {
+        "q": "Why would cutting the last hour of the night cost mostly REM?",
+        "a": "Deep stage 3 dominates the first half; REM lengthens toward morning. The tail of the night is REM-heavy."
+      }
     },
     {
       "type": "idea",

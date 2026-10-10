@@ -7,6 +7,28 @@
   "emoji": "🎗️",
   "summary": "What the First Amendment says, and how the Court balanced it with school order.",
   "minutes": 7,
+  "series": {
+    "id": "checks-on-power",
+    "part": 2,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What rule did the Tinker majority set?",
+      "answer": "Schools can't ban student expression only on a suspicion that it might be disruptive; a silent, symbolic message is protected."
+    },
+    {
+      "id": "k2",
+      "prompt": "What did the Tinker dissent argue?",
+      "answer": "Students go to school to learn, not to teach; no one has a right to express any opinion at any time; officials need broad authority to keep order."
+    },
+    {
+      "id": "k3",
+      "prompt": "Whom does the First Amendment limit, and why did it apply in Tinker?",
+      "answer": "It limits government. A public school is part of government."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +36,25 @@
       "emoji": "🎗️",
       "title": "\"The schoolhouse gate\"",
       "text": "Do you have free speech rights at school? In 1969 the Supreme Court said yes, students don't shed their rights \"at the schoolhouse gate.\" But it is not unlimited. Where is the line?"
+    },
+    {
+      "type": "predict",
+      "question": "Do students have free speech rights at a public school?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "No: at school, school rules always win"
+        },
+        {
+          "text": "Yes: students can say anything at school"
+        },
+        {
+          "text": "Yes, but not unlimited: a fear of disruption alone isn't enough to ban speech",
+          "correct": true
+        }
+      ],
+      "reveal": "Yes, but not unlimited. In Tinker (7–2, 1969), the Court said a school can't ban student expression only on a suspicion that it might disrupt learning.",
+      "reveal_after": 3
     },
     {
       "type": "idea",
@@ -32,13 +73,23 @@
       "type": "idea",
       "emoji": "⚖️",
       "title": "The majority",
-      "text": "In a 7–2 decision on February 24, 1969, the Court said school officials could not ban the armbands only because of a suspicion that they might disrupt learning. A silent, symbolic message counted as protected expression."
+      "text": "In a 7–2 decision on February 24, 1969, the Court said school officials could not ban the armbands only because of a suspicion that they might disrupt learning. A silent, symbolic message counted as protected expression.",
+      "why": {
+        "q": "Why did it matter that the armbands were silent?",
+        "a": "The Court treated a silent, symbolic message as protected expression, and the school had only a suspicion, not evidence, of disruption."
+      }
     },
     {
       "type": "idea",
       "emoji": "🧱",
       "title": "The dissent",
       "text": "The dissent argued the First Amendment does not give a right to express any opinion at any time. Students attend school to learn, not to teach, and the armbands were a distraction. Officials should have broad authority to keep a productive learning environment."
+    },
+    {
+      "type": "link",
+      "to": "civics-checks-and-balances-teen",
+      "prompt": "In \"Checks and Balances: Designing Against Power\" you saw courts strike down government action (judicial review). How is Tinker an example of the courts checking government?",
+      "model": "A public school is part of government. The Supreme Court ruled its armband ban went too far, checking it in the name of the First Amendment."
     },
     {
       "type": "think",

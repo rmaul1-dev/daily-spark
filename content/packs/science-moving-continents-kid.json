@@ -7,6 +7,64 @@
   "emoji": "🧩",
   "summary": "One scientist noticed the continents fit like puzzle pieces.",
   "minutes": 6,
+  "series": {
+    "id": "how-we-know",
+    "part": 3,
+    "of": 3
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why didn't most scientists believe Wegener at first?",
+      "answer": "He had good clues, but he could not explain what force could move whole continents.",
+      "options": [
+        {
+          "text": "He couldn't explain what moved them",
+          "correct": true
+        },
+        {
+          "text": "He had no clues at all"
+        },
+        {
+          "text": "He was not a real scientist"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "What clues made Wegener think the continents were once joined?",
+      "answer": "Coastlines that fit like puzzle pieces, the same fossils on both sides of the ocean, and warm-weather coal in Antarctica.",
+      "options": [
+        {
+          "text": "Matching coastlines, fossils, and coal",
+          "correct": true
+        },
+        {
+          "text": "Footprints on the beach"
+        },
+        {
+          "text": "Old pirate maps"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What proof finally showed that the continents move?",
+      "answer": "Ships mapped the ocean floor. They found underwater mountains and matching rock stripes, with new sea floor spreading out.",
+      "options": [
+        {
+          "text": "Clues found on the ocean floor",
+          "correct": true
+        },
+        {
+          "text": "A photo taken from the Moon"
+        },
+        {
+          "text": "A volcano in Ohio"
+        }
+      ]
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +72,25 @@
       "emoji": "🧩",
       "title": "Earth is a puzzle",
       "text": "Look at a world map. The east side of South America and the west side of Africa look like they could fit together like puzzle pieces. Is that just luck?"
+    },
+    {
+      "type": "predict",
+      "question": "Alfred Wegener had good clues that the continents moved. What do you think most scientists said at first?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "Yes, right away"
+        },
+        {
+          "text": "That the map was drawn wrong"
+        },
+        {
+          "text": "No, because he couldn't explain what moved them",
+          "correct": true
+        }
+      ],
+      "reveal": "Most scientists said no. He could not explain what force could push whole continents. Proof came years later, from the sea floor.",
+      "reveal_after": 3
     },
     {
       "type": "idea",
@@ -26,7 +103,11 @@
       "emoji": "🦴",
       "title": "Clues in the rocks",
       "text": "Wegener found the same kinds of fossils on coasts of South America and Africa. Those plants and animals could not have swum across a huge ocean. Scientists had also found coal made from warm-weather plants in icy Antarctica.",
-      "example": "These clues made sense if the continents were once joined and in different places."
+      "example": "These clues made sense if the continents were once joined and in different places.",
+      "why": {
+        "q": "Why do the same fossils on two far-apart coasts point to joined continents?",
+        "a": "Those plants and animals could not have swum across a huge ocean. It makes sense if the lands were once joined."
+      }
     },
     {
       "type": "idea",
@@ -40,6 +121,12 @@
       "title": "Proof from the sea floor",
       "text": "Years later, ships mapped the ocean floor. They found a long chain of underwater mountains and stripes in the rocks that matched on both sides. New sea floor was forming in the middle and spreading out. Wegener was mostly right!",
       "svg": "<svg viewBox=\"0 0 300 128\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Matching magnetic stripes on both sides of a ridge\"><rect x=\"142\" y=\"10\" width=\"16\" height=\"100\" fill=\"#ef4444\"/><rect x=\"158\" y=\"10\" width=\"14\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"128\" y=\"10\" width=\"14\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"172\" y=\"10\" width=\"22\" height=\"100\" fill=\"#fde7c2\"/><rect x=\"106\" y=\"10\" width=\"22\" height=\"100\" fill=\"#fde7c2\"/><rect x=\"194\" y=\"10\" width=\"12\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"94\" y=\"10\" width=\"12\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"206\" y=\"10\" width=\"26\" height=\"100\" fill=\"#fde7c2\"/><rect x=\"68\" y=\"10\" width=\"26\" height=\"100\" fill=\"#fde7c2\"/><rect x=\"232\" y=\"10\" width=\"18\" height=\"100\" fill=\"#f59e0b\"/><rect x=\"50\" y=\"10\" width=\"18\" height=\"100\" fill=\"#f59e0b\"/><path d=\"M150 118 l-40 0 m6 -5 l-6 5 l6 5 M150 118 l40 0 m-6 -5 l6 5 l-6 5\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/></svg>"
+    },
+    {
+      "type": "link",
+      "to": "ideas-confirmation-bias-kid",
+      "prompt": "You learned to look for a test that could prove you wrong. The sea floor was a test like that for Wegener. Why is that a good way to settle an argument?",
+      "model": "The sea floor could have shown he was wrong. It showed he was mostly right. So people had a real reason to change their minds."
     },
     {
       "type": "think",

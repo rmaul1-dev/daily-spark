@@ -7,6 +7,23 @@
   "emoji": "🧑‍🚀",
   "summary": "Margins, abort design, and human judgment in a mission that left little slack.",
   "minutes": 8,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What did the free-return trajectory buy Apollo 11?",
+      "answer": "A ready abort with no engine firing at any point before lunar orbit insertion."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why did the landing come down to a pilot's judgment?",
+      "answer": "Computer alarms from overload and a boulder-strewn target; Armstrong flew partly by hand, about 40 seconds past plan."
+    },
+    {
+      "id": "k3",
+      "prompt": "How did Apollo 11 structure its objectives?",
+      "answer": "One crisp primary objective (land and return) with secondary experiments layered on."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +31,20 @@
       "emoji": "🧑‍🚀",
       "title": "About 30 seconds of margin",
       "text": "Eagle touched down with about 30 seconds of descent fuel remaining. For a program that spent eight years engineering out risk, why did the last minutes come down to a pilot's judgment?"
+    },
+    {
+      "type": "predict",
+      "question": "Armstrong flew part of the descent by hand. About how many extra seconds of powered descent did that add?",
+      "mode": "estimate",
+      "estimate": {
+        "min": 0,
+        "max": 120,
+        "step": 5,
+        "unit": "seconds",
+        "answer": 40
+      },
+      "reveal": "About 40 seconds, landing about four miles downrange with about 30 seconds of fuel left.",
+      "reveal_after": 3
     },
     {
       "type": "idea",
@@ -26,7 +57,11 @@
       "type": "idea",
       "emoji": "🛟",
       "title": "Design for abort",
-      "text": "Apollo 11 was the last Apollo mission to fly a free-return trajectory. It gave a ready abort with no engine firing at any point before lunar orbit insertion. The launch was accurate enough that three of four planned midcourse corrections were skipped."
+      "text": "Apollo 11 was the last Apollo mission to fly a free-return trajectory. It gave a ready abort with no engine firing at any point before lunar orbit insertion. The launch was accurate enough that three of four planned midcourse corrections were skipped.",
+      "why": {
+        "q": "Why did skipping three of four midcourse corrections matter?",
+        "a": "It showed how accurate the launch was; less to fix meant fewer chances for error."
+      }
     },
     {
       "type": "idea",

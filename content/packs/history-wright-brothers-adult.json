@@ -7,6 +7,28 @@
   "emoji": "🔬",
   "summary": "Problem decomposition, distrust of inherited data, and capital efficiency.",
   "minutes": 8,
+  "series": {
+    "id": "inventors",
+    "part": 2,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "In what order did the Wrights attack flight's three problems?",
+      "answer": "Control first (1899 wing-warping kite), then lift data (1901 wind tunnel), propulsion last (1903)."
+    },
+    {
+      "id": "k2",
+      "prompt": "How could a cruder, weaker engine than Langley's suffice?",
+      "answer": "Efficient wings and propellers meant less power was needed."
+    },
+    {
+      "id": "k3",
+      "prompt": "What's the \"demo is not product\" lesson from 1903 to 1905?",
+      "answer": "1903 proved powered flight in seconds; a practical aircraft took two more years, until Wilbur's 39-minute closed-course flight in 1905."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +36,25 @@
       "emoji": "🔬",
       "title": "Funding vs. method",
       "text": "Langley had War Department underwriting, Smithsonian prestige, and a stronger engine. The Wrights had a Dayton bicycle shop and a four-year R&D program. Which advantage actually mattered?"
+    },
+    {
+      "type": "predict",
+      "question": "Langley had government funding and a stronger engine. The Wrights had a bike shop. Which advantage do you think decided the race?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "The Wrights' method",
+          "correct": true
+        },
+        {
+          "text": "Langley's funding"
+        },
+        {
+          "text": "Langley's stronger engine"
+        }
+      ],
+      "reveal": "Method. The Wrights sequenced the problem (control, then lift data, then propulsion) and their efficient wings and propellers needed less power. Langley \"relied on brute power.\"",
+      "reveal_after": 3
     },
     {
       "type": "idea",
@@ -27,7 +68,11 @@
       "emoji": "📉",
       "title": "Distrust inherited data",
       "text": "The 1900 and 1901 gliders produced substantially less lift than their calculations predicted. They built a wind tunnel in fall 1901 whose instruments measured lift and drag coefficients, the exact terms in the equations they doubted.",
-      "example": "The 1902 glider, designed from their own data, made 700 to 1,000 flights. That is model-versus-reality reconciliation before scaling."
+      "example": "The 1902 glider, designed from their own data, made 700 to 1,000 flights. That is model-versus-reality reconciliation before scaling.",
+      "why": {
+        "q": "Why measure lift and drag coefficients specifically?",
+        "a": "They were the exact terms in the equations the Wrights doubted. Measuring them fixed the model instead of just the glider."
+      }
     },
     {
       "type": "idea",
@@ -41,6 +86,12 @@
       "emoji": "📆",
       "title": "Demo is not product",
       "text": "December 17, 1903: 12 seconds and 120 feet, then 852 feet in 59 seconds. A gust then wrecked the Flyer. Refined aircraft followed in 1904 and 1905. On October 5, 1905, Wilbur flew 39 minutes and 24.5 miles over a closed course."
+    },
+    {
+      "type": "link",
+      "to": "history-printing-press-adult",
+      "prompt": "Gutenberg integrated existing technologies and solved one hard sub-problem himself (interchangeable type). What's the parallel with the Wrights?",
+      "model": "Both integrated existing pieces and built in-house the one piece nobody could supply (the type mold; the wind-tunnel data and a light engine) before scaling."
     },
     {
       "type": "think",

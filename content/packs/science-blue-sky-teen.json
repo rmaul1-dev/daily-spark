@@ -7,6 +7,28 @@
   "emoji": "🔭",
   "summary": "Why short wavelengths scatter more, and what that explains.",
   "minutes": 7,
+  "series": {
+    "id": "sunlight",
+    "part": 1,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What does Rayleigh scattering depend on, and why does that make the sky blue?",
+      "answer": "It goes as 1/λ⁴, so shorter, bluer wavelengths scatter far more strongly off gas molecules."
+    },
+    {
+      "id": "k2",
+      "prompt": "If violet scatters even more than blue, why isn't the sky violet?",
+      "answer": "Our eyes read the scattered blue-violet mix as blue plus white."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why does the sky near the horizon look paler than straight up?",
+      "answer": "Light from there passes through more air and is scattered many times, mixing the colors back toward white."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +36,20 @@
       "emoji": "🔭",
       "title": "Why not violet?",
       "text": "Violet light has an even shorter wavelength than blue, and short waves scatter more. So why isn't the sky violet?"
+    },
+    {
+      "type": "predict",
+      "question": "Say one color's wavelength is half another's. How many times more does it scatter off air molecules?",
+      "mode": "estimate",
+      "estimate": {
+        "min": 1,
+        "max": 32,
+        "step": 1,
+        "unit": "times",
+        "answer": 16
+      },
+      "reveal": "16 times. Rayleigh scattering goes as 1/λ⁴, so halving the wavelength gives 2⁴ = 16. Small wavelength changes make big scattering changes.",
+      "reveal_after": 2
     },
     {
       "type": "idea",
@@ -40,7 +76,11 @@
       "emoji": "👁️",
       "title": "Answering the violet puzzle",
       "text": "Scattered skylight does include violet. But your eyes respond to the mix of blue and violet light as if it were blue plus white. So we see a blue sky.",
-      "example": "The answer depends on physics and on biology: what reaches your eye and how your eye reads it."
+      "example": "The answer depends on physics and on biology: what reaches your eye and how your eye reads it.",
+      "why": {
+        "q": "Why is the violet puzzle partly about biology, not just physics?",
+        "a": "Violet does reach your eye. But the way your eye responds to the blue-violet mix makes it look blue."
+      }
     },
     {
       "type": "think",

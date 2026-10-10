@@ -7,6 +7,59 @@
   "emoji": "📨",
   "summary": "Your message is cut into small pieces that travel on their own.",
   "minutes": 6,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is a packet?",
+      "answer": "A small piece of a message with an address on it. Packets travel on their own and get put back together.",
+      "options": [
+        {
+          "text": "A small piece of a message with an address",
+          "correct": true
+        },
+        {
+          "text": "A whole video in one piece"
+        },
+        {
+          "text": "A kind of computer"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "What happens if a packet gets lost?",
+      "answer": "It is sent again, so the message can be finished.",
+      "options": [
+        {
+          "text": "It is sent again",
+          "correct": true
+        },
+        {
+          "text": "The internet stops"
+        },
+        {
+          "text": "The message is gone forever"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "Why do computers need to follow the same rules?",
+      "answer": "So they can talk to each other. The rules called TCP/IP are still used today.",
+      "options": [
+        {
+          "text": "So they can understand each other",
+          "correct": true
+        },
+        {
+          "text": "So they can go faster than light"
+        },
+        {
+          "text": "So only one computer can talk at a time"
+        }
+      ]
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -16,10 +69,33 @@
       "text": "When you send a photo to a friend, it does not travel in one piece. It is cut into lots of small pieces. Each piece can even take a different path!"
     },
     {
+      "type": "predict",
+      "question": "Your photo is cut into small pieces to travel. What do you think happens if one piece gets lost?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "Just that piece is sent again",
+          "correct": true
+        },
+        {
+          "text": "The whole photo is lost forever"
+        },
+        {
+          "text": "The whole internet stops"
+        }
+      ],
+      "reveal": "Just that piece is sent again! The computer at the other end puts the pieces back in order and gets a fresh copy of any lost piece.",
+      "reveal_after": 2
+    },
+    {
       "type": "idea",
       "emoji": "📦",
       "title": "Packets",
-      "text": "The small pieces are called packets. Each packet has an address on it, like a letter in the mail. Computers along the way read the address and pass the packet closer to where it is going."
+      "text": "The small pieces are called packets. Each packet has an address on it, like a letter in the mail. Computers along the way read the address and pass the packet closer to where it is going.",
+      "why": {
+        "q": "Why does every packet need an address?",
+        "a": "Each packet travels on its own. Computers along the way read the address to pass it closer to where it is going."
+      }
     },
     {
       "type": "idea",

@@ -7,6 +7,28 @@
   "emoji": "📈",
   "summary": "Exponential growth, the Rule of 72, and why time beats timing.",
   "minutes": 7,
+  "series": {
+    "id": "money-grows",
+    "part": 2,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why does compound growth speed up over time, even at the same rate?",
+      "answer": "Each year's growth is a percent of a bigger balance, so the dollar gains keep getting larger."
+    },
+    {
+      "id": "k2",
+      "prompt": "What is the Rule of 72?",
+      "answer": "Divide 72 by the yearly rate to estimate how many years money takes to double (at 9%, about 8 years)."
+    },
+    {
+      "id": "k3",
+      "prompt": "What's the honest lesson of \"1% better every day compounds\"?",
+      "answer": "Skills don't grow that neatly, but consistency over long periods beats short bursts."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +36,20 @@
       "emoji": "🍕",
       "title": "The pizza question",
       "text": "Skip a $2 slice of pizza every day for a year and you save $730. Invest it at 5% and leave it alone. How much do you think it becomes after 30 years?"
+    },
+    {
+      "type": "predict",
+      "question": "Skip a $2 slice of pizza every day for a year: $730. Invest it at 5% and add nothing. About how much after 30 years?",
+      "mode": "estimate",
+      "estimate": {
+        "min": 0,
+        "max": 10000,
+        "step": 100,
+        "unit": "$",
+        "answer": 3155.02
+      },
+      "reveal": "$3,155.02. Compound growth multiplies instead of adds, and most of the gain comes in the later years.",
+      "reveal_after": 1
     },
     {
       "type": "idea",
@@ -34,13 +70,27 @@
       "emoji": "📊",
       "title": "Why the end matters most",
       "text": "Because growth multiplies, most of the dollar gain comes late. $100 at 5% gains about $63 in the first 10 years but about $176 in the next 15.",
-      "svg": "<svg viewBox=\"0 0 300 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"$100 at 5% over 25 years\"><rect x=\"33.0\" y=\"82.5\" width=\"34.0\" height=\"29.5\" rx=\"3\" fill=\"#10b981\"/><rect x=\"73.0\" y=\"74.3\" width=\"34.0\" height=\"37.7\" rx=\"3\" fill=\"#10b981\"/><rect x=\"113.0\" y=\"63.9\" width=\"34.0\" height=\"48.1\" rx=\"3\" fill=\"#10b981\"/><rect x=\"153.0\" y=\"50.6\" width=\"34.0\" height=\"61.4\" rx=\"3\" fill=\"#10b981\"/><rect x=\"193.0\" y=\"33.6\" width=\"34.0\" height=\"78.4\" rx=\"3\" fill=\"#10b981\"/><rect x=\"233.0\" y=\"12.0\" width=\"34.0\" height=\"100.0\" rx=\"3\" fill=\"#10b981\"/><path d=\"M24 112 H276\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      "svg": "<svg viewBox=\"0 0 300 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"$100 at 5% over 25 years\"><rect x=\"33.0\" y=\"82.5\" width=\"34.0\" height=\"29.5\" rx=\"3\" fill=\"#10b981\"/><rect x=\"73.0\" y=\"74.3\" width=\"34.0\" height=\"37.7\" rx=\"3\" fill=\"#10b981\"/><rect x=\"113.0\" y=\"63.9\" width=\"34.0\" height=\"48.1\" rx=\"3\" fill=\"#10b981\"/><rect x=\"153.0\" y=\"50.6\" width=\"34.0\" height=\"61.4\" rx=\"3\" fill=\"#10b981\"/><rect x=\"193.0\" y=\"33.6\" width=\"34.0\" height=\"78.4\" rx=\"3\" fill=\"#10b981\"/><rect x=\"233.0\" y=\"12.0\" width=\"34.0\" height=\"100.0\" rx=\"3\" fill=\"#10b981\"/><path d=\"M24 112 H276\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+      "examples_by_interest": {
+        "golf": "Say you put away $100 from your golf-ball business at 5% a year. It gains about $63 in the first 10 years, but about $176 in the next 15. Leaving it alone is the whole trick.",
+        "soccer": "Say you save $100 you earned refereeing youth soccer, at 5% a year. It gains about $63 in the first 10 years, but about $176 in the next 15."
+      }
     },
     {
       "type": "idea",
       "emoji": "⛳",
       "title": "A careful analogy",
-      "text": "People say practicing 1% better each day compounds: 1.01³⁶⁵ ≈ 37.8. That is real math, but skills don't grow that neatly. Progress in golf or soccer comes in bumps and plateaus. The useful lesson: consistency over long periods beats short bursts."
+      "text": "People say practicing 1% better each day compounds: 1.01³⁶⁵ ≈ 37.8. That is real math, but skills don't grow that neatly. Progress in golf or soccer comes in bumps and plateaus. The useful lesson: consistency over long periods beats short bursts.",
+      "why": {
+        "q": "Why doesn't 1.01³⁶⁵ ≈ 37.8 really describe getting better at golf?",
+        "a": "Skills don't grow by a fixed percent a day. Progress comes in bumps and plateaus."
+      }
+    },
+    {
+      "type": "link",
+      "to": "money-profit-break-even-teen",
+      "prompt": "In \"Break-Even: The First Number Investors Ask For\" dozen 16 was your first real profit. Say you invested that profit at 5% and left it alone. What happens in year two?",
+      "model": "It earns 5% on the bigger balance, including last year's growth: profit that compounds."
     },
     {
       "type": "think",

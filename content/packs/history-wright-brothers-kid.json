@@ -7,6 +7,47 @@
   "emoji": "✈️",
   "summary": "How the Wright brothers practiced, tested, and finally flew.",
   "minutes": 6,
+  "series": {
+    "id": "inventors",
+    "part": 2,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How did the Wright brothers get ready to fly before they added an engine?",
+      "answer": "They built gliders and made hundreds of glides. They learned to steer by twisting the tips of the wings.",
+      "options": [
+        {
+          "text": "They practiced with gliders",
+          "correct": true
+        },
+        {
+          "text": "They waited for a stronger engine"
+        },
+        {
+          "text": "They tried once and got lucky"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Their gliders did not lift as much as the math said. What did they do?",
+      "answer": "They built a small wind tunnel. They tested lots of tiny wing shapes and wrote down what really happened.",
+      "options": [
+        {
+          "text": "Built a wind tunnel to test wing shapes",
+          "correct": true
+        },
+        {
+          "text": "Gave up on flying"
+        },
+        {
+          "text": "Copied someone else's plane"
+        }
+      ]
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +55,25 @@
       "emoji": "✈️",
       "title": "Count to 12",
       "text": "Count to 12 out loud, slowly. That is how long the very first airplane flight lasted. It happened on December 17, 1903."
+    },
+    {
+      "type": "predict",
+      "question": "Before they ever put an engine on a plane, what do you think the Wright brothers did?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "Bought a plane from a store"
+        },
+        {
+          "text": "Built a giant engine first"
+        },
+        {
+          "text": "Built gliders and practiced hundreds of times",
+          "correct": true
+        }
+      ],
+      "reveal": "They built gliders and practiced. In 1902 alone they made between 700 and 1,000 glides, and they learned to steer before adding an engine.",
+      "reveal_after": 2
     },
     {
       "type": "idea",
@@ -33,13 +93,23 @@
       "emoji": "🌬️",
       "title": "Test, fail, fix",
       "text": "Their early gliders did not lift as much as the math said they should. So in 1901 they built a small wind tunnel. They tested lots of tiny wing shapes and wrote down what really happened.",
-      "example": "Their next glider, built with the new numbers, worked much better."
+      "example": "Their next glider, built with the new numbers, worked much better.",
+      "why": {
+        "q": "Why test tiny wings in a tunnel instead of building a whole new glider each time?",
+        "a": "Tiny wings let them try lots of shapes. They kept the numbers that really worked, and their next glider flew much better."
+      }
     },
     {
       "type": "idea",
       "emoji": "🏖️",
       "title": "The big day",
       "text": "At Kitty Hawk, North Carolina, Orville flew for 12 seconds and went 120 feet. Later that day, Wilbur flew 852 feet in 59 seconds. Then a gust of wind flipped the plane. It never flew again, but you can see it in a museum in Washington, D.C."
+    },
+    {
+      "type": "link",
+      "to": "history-printing-press-kid",
+      "prompt": "Gutenberg put old tools together in a new way. How did the Wright brothers build on what came before them?",
+      "model": "They read all they could find. Then they tested it themselves: gliders, a wind tunnel, and only then an engine."
     },
     {
       "type": "think",

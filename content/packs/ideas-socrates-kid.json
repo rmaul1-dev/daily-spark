@@ -7,6 +7,64 @@
   "emoji": "🏛️",
   "summary": "Socrates helped people think by asking questions, not by giving answers.",
   "minutes": 6,
+  "series": {
+    "id": "how-we-know",
+    "part": 1,
+    "of": 3
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Socrates never wrote anything down. How do we know about him?",
+      "answer": "Other people wrote about him, mostly his student Plato. Their stories do not always agree.",
+      "options": [
+        {
+          "text": "Other people, like Plato, wrote about him",
+          "correct": true
+        },
+        {
+          "text": "He wrote his own life story"
+        },
+        {
+          "text": "From old videos"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "How did Socrates help people think?",
+      "answer": "By asking one question after another, so people brought out and tested their own ideas.",
+      "options": [
+        {
+          "text": "By asking lots of questions",
+          "correct": true
+        },
+        {
+          "text": "By telling them the answers"
+        },
+        {
+          "text": "By making them memorize lists"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "Why did Socrates compare himself to a midwife?",
+      "answer": "He said he helped people bring out their own ideas, the way a midwife helps babies be born.",
+      "options": [
+        {
+          "text": "He helped people bring out their own ideas",
+          "correct": true
+        },
+        {
+          "text": "He took care of babies"
+        },
+        {
+          "text": "He gave people his own ideas"
+        }
+      ]
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +72,25 @@
       "emoji": "❓",
       "title": "Questions instead of answers",
       "text": "What if your teacher never told you the answer, and only asked you questions until you figured it out yourself? That is how a famous thinker named Socrates taught."
+    },
+    {
+      "type": "predict",
+      "question": "Socrates is famous, but he never wrote a book. How do you think we know about him?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "From his own diary"
+        },
+        {
+          "text": "Other people, like his student Plato, wrote about him",
+          "correct": true
+        },
+        {
+          "text": "From a statue that tells his story"
+        }
+      ],
+      "reveal": "Other people wrote about him, most of all his student Plato. Their stories do not always agree, so experts still argue about what he was really like.",
+      "reveal_after": 2
     },
     {
       "type": "idea",
@@ -25,7 +102,11 @@
       "type": "idea",
       "emoji": "✍️",
       "title": "He never wrote a book",
-      "text": "Socrates did not write anything down. We know about him from other people who wrote about him. The most famous one is his student Plato. Their stories do not always agree. So experts still argue about what he was really like."
+      "text": "Socrates did not write anything down. We know about him from other people who wrote about him. The most famous one is his student Plato. Their stories do not always agree. So experts still argue about what he was really like.",
+      "why": {
+        "q": "Why do experts still argue about what Socrates was really like?",
+        "a": "He wrote nothing himself. The people who wrote about him tell stories that do not always agree."
+      }
     },
     {
       "type": "idea",

@@ -7,6 +7,23 @@
   "emoji": "📉",
   "summary": "What training optimizes, why it can fail quietly, and how today's language models fit in.",
   "minutes": 8,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What's the difference between fitting and generalizing?",
+      "answer": "Fitting is doing well on training data; generalizing is doing well on new real-world data. Overfitting is the first without the second."
+    },
+    {
+      "id": "k2",
+      "prompt": "What do loss, backpropagation and gradient descent each do?",
+      "answer": "Loss measures how wrong outputs are; backprop computes each weight's contribution; gradient descent nudges weights to reduce loss."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why does self-supervision scale to huge datasets?",
+      "answer": "The labels come free from the text itself: hide words and predict them."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +31,25 @@
       "emoji": "📉",
       "title": "Minimize a number",
       "text": "Strip away the hype and supervised learning is this: define a number that measures how wrong you are, then nudge millions of parameters to make it smaller. Why does that produce anything that looks like intelligence, and when does it break?"
+    },
+    {
+      "type": "predict",
+      "question": "A model scores 99% on its training data. What does that tell you about how it'll do in production?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "Very little on its own",
+          "correct": true
+        },
+        {
+          "text": "It will score about 99% in production"
+        },
+        {
+          "text": "It will be reliable as long as the data is big"
+        }
+      ],
+      "reveal": "Very little on its own. What matters is generalization to new data; a model can fit its training set and still fail (overfitting). Validation design and drift monitoring matter.",
+      "reveal_after": 2
     },
     {
       "type": "idea",
@@ -27,7 +63,11 @@
       "emoji": "🧪",
       "title": "Generalization is the goal",
       "text": "Training performance is a means to an end. What matters is generalization: doing well on new, real-world data. A model can fit its training set and still fail in production. That is overfitting, which is why validation design and monitoring for drift matter after deployment.",
-      "example": "Investing analogue: a backtest that fits history beautifully is not evidence of out-of-sample alpha."
+      "example": "Investing analogue: a backtest that fits history beautifully is not evidence of out-of-sample alpha.",
+      "why": {
+        "q": "Why monitor for drift after deployment?",
+        "a": "Real-world data changes; a model that generalized at launch can quietly stop fitting the world."
+      }
     },
     {
       "type": "idea",

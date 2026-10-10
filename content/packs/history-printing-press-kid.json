@@ -7,6 +7,64 @@
   "emoji": "📜",
   "summary": "How metal letters you could move changed who got to read.",
   "minutes": 6,
+  "series": {
+    "id": "inventors",
+    "part": 1,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What was special about Gutenberg's metal letters?",
+      "answer": "Each letter was its own piece. Workers lined them up to spell words, added ink, and pressed paper on top.",
+      "options": [
+        {
+          "text": "Each letter was its own piece you could line up",
+          "correct": true
+        },
+        {
+          "text": "They were all carved into one big block"
+        },
+        {
+          "text": "They were drawn with a pen each time"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Why did printing help more people learn to read?",
+      "answer": "Printed books got cheaper over time, so more people could own them.",
+      "options": [
+        {
+          "text": "Books got cheaper, so more people had them",
+          "correct": true
+        },
+        {
+          "text": "Printed books had only pictures"
+        },
+        {
+          "text": "People stopped going to school"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "Gutenberg used a screw press that farmers already had. What does that show about inventions?",
+      "answer": "Lots of inventions mix things that already exist in a new way.",
+      "options": [
+        {
+          "text": "Inventions often mix old things in a new way",
+          "correct": true
+        },
+        {
+          "text": "Inventions must use only brand-new parts"
+        },
+        {
+          "text": "Farmers invented printing"
+        }
+      ]
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +72,25 @@
       "emoji": "📜",
       "title": "Copy a whole book by hand?",
       "text": "Long ago in Europe, if you wanted a new copy of a book, someone had to write every word by hand. Then, almost 600 years ago, a new machine changed that."
+    },
+    {
+      "type": "predict",
+      "question": "What do you think made Gutenberg's machine so much faster than copying books by hand?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "A robot that wrote with a pen"
+        },
+        {
+          "text": "Small metal letters that could be lined up to spell words",
+          "correct": true
+        },
+        {
+          "text": "Paper that could print itself"
+        }
+      ],
+      "reveal": "Small metal letters! Each letter was its own piece. Workers lined them up to spell words, added ink, and pressed paper on top. No more writing every word by hand.",
+      "reveal_after": 1
     },
     {
       "type": "idea",
@@ -40,7 +117,11 @@
       "type": "idea",
       "emoji": "🌍",
       "title": "Ideas start to travel",
-      "text": "Printed books got cheaper over time, so more people could own them. By the year 1500, printers in Europe had made more than 20 million copies. More people learned to read."
+      "text": "Printed books got cheaper over time, so more people could own them. By the year 1500, printers in Europe had made more than 20 million copies. More people learned to read.",
+      "why": {
+        "q": "Why would cheaper books mean more people learned to read?",
+        "a": "When books cost less, more families and schools could have them. More books meant more chances to read."
+      }
     },
     {
       "type": "think",

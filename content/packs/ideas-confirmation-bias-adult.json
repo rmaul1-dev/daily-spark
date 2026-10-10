@@ -7,6 +7,28 @@
   "emoji": "🧭",
   "summary": "Three channels of bias, a fair critique, and what it means for investment and operating decisions.",
   "minutes": 8,
+  "series": {
+    "id": "how-we-know",
+    "part": 2,
+    "of": 3
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "In the Stanford capital-punishment study, which channel of bias showed up?",
+      "answer": "Biased interpretation: given the same mixed evidence, people rated the agreeing study better and found flaws in the other."
+    },
+    {
+      "id": "k2",
+      "prompt": "What are the three channels of confirmation bias?",
+      "answer": "Biased search, biased interpretation, and biased recall."
+    },
+    {
+      "id": "k3",
+      "prompt": "What was Klayman and Ha's critique of the 2-4-6 lesson?",
+      "answer": "Positive testing is often rational; Wason's broad rule was the special case where it fails."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +36,25 @@
       "emoji": "🧭",
       "title": "Same evidence, opposite conclusions",
       "text": "Give people who disagree the same pair of studies, one on each side. In a well-known lab study, almost all of them ended up back where they started, each rating the study that agreed with them as better done. Which part of their reasoning broke?"
+    },
+    {
+      "type": "predict",
+      "question": "People with strong views on capital punishment read one study for and one against. What do you think happened to their views?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "They kept their original view and found flaws in the other study",
+          "correct": true
+        },
+        {
+          "text": "Both groups moved toward the middle"
+        },
+        {
+          "text": "Most switched sides"
+        }
+      ],
+      "reveal": "They almost all returned to their original belief, rated the agreeing study as better done, and found specific flaws in the other. The bias showed up in interpretation, not just search.",
+      "reveal_after": 2
     },
     {
       "type": "idea",
@@ -39,7 +80,17 @@
       "type": "idea",
       "emoji": "💼",
       "title": "Where it costs money",
-      "text": "Flawed decisions attributed to confirmation bias have been documented in political, organizational, financial, and scientific settings, and the bias contributes to overconfidence. The effect is strongest for desired outcomes, emotionally charged issues, and entrenched beliefs, which describes most thesis-driven investing and most strategic pet projects."
+      "text": "Flawed decisions attributed to confirmation bias have been documented in political, organizational, financial, and scientific settings, and the bias contributes to overconfidence. The effect is strongest for desired outcomes, emotionally charged issues, and entrenched beliefs, which describes most thesis-driven investing and most strategic pet projects.",
+      "why": {
+        "q": "Why is thesis-driven investing such fertile ground for the bias?",
+        "a": "It's strongest for desired outcomes, emotional issues and entrenched beliefs, all of which describe a position you've publicly committed to."
+      }
+    },
+    {
+      "type": "link",
+      "to": "ideas-socrates-adult",
+      "prompt": "With Socrates you weighed biased witnesses by their incentives and access. How is that the same skill as resisting confirmation bias in yourself?",
+      "model": "Both ask what the source wants to be true; the difference is that with confirmation bias, the biased witness is you."
     },
     {
       "type": "think",

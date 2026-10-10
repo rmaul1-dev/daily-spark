@@ -7,6 +7,64 @@
   "emoji": "🍂",
   "summary": "It's not about being close to the Sun. It's all about the tilt.",
   "minutes": 6,
+  "series": {
+    "id": "sunlight",
+    "part": 2,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What causes the seasons?",
+      "answer": "Earth's tilted axis. Different halves of Earth lean toward the Sun and get more direct sunlight at different times of year.",
+      "options": [
+        {
+          "text": "Earth's tilt",
+          "correct": true
+        },
+        {
+          "text": "Earth getting closer to the Sun"
+        },
+        {
+          "text": "The Moon blocking sunlight"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Why is slanted sunlight weaker?",
+      "answer": "It spreads out over a bigger area, like a tilted flashlight beam.",
+      "options": [
+        {
+          "text": "It spreads out over a bigger area",
+          "correct": true
+        },
+        {
+          "text": "It has fewer colors"
+        },
+        {
+          "text": "It travels slower"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "In December it is winter in the U.S. What season is it in Australia?",
+      "answer": "Summer! Around December, the bottom half of Earth leans toward the Sun.",
+      "options": [
+        {
+          "text": "Summer",
+          "correct": true
+        },
+        {
+          "text": "Winter"
+        },
+        {
+          "text": "Fall"
+        }
+      ]
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +72,25 @@
       "emoji": "🍂",
       "title": "A surprising fact",
       "text": "Earth is closest to the Sun in January. But January is winter in the U.S.! So being closer to the Sun can't be why summer is hot. What is the real reason?"
+    },
+    {
+      "type": "predict",
+      "question": "What do you think causes summer and winter?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "Earth getting closer to the Sun"
+        },
+        {
+          "text": "Earth's tilt: which half leans toward the Sun",
+          "correct": true
+        },
+        {
+          "text": "The Moon blocking sunlight"
+        }
+      ],
+      "reveal": "It's the tilt! Around June, the top half of Earth leans toward the Sun. The Sun's rays hit it more directly, so it is summer there.",
+      "reveal_after": 2
     },
     {
       "type": "idea",
@@ -27,7 +104,11 @@
       "emoji": "☀️",
       "title": "Leaning toward the Sun",
       "text": "As Earth travels around the Sun, its tilt always points the same way in space. Around June, the top half of Earth leans toward the Sun. The Sun's rays hit it more directly, so it's summer there.",
-      "example": "Around December, the bottom half leans toward the Sun. Then it is summer in places like Australia and winter in the U.S."
+      "example": "Around December, the bottom half leans toward the Sun. Then it is summer in places like Australia and winter in the U.S.",
+      "why": {
+        "q": "Why does it matter that the tilt always points the same way in space?",
+        "a": "As Earth goes around the Sun, first the top half and then the bottom half leans toward the Sun. That makes the seasons switch."
+      }
     },
     {
       "type": "idea",
@@ -40,6 +121,12 @@
       "emoji": "💥",
       "title": "Why the tilt?",
       "text": "Scientists think that long ago, something big named Theia smashed into the young Earth and knocked it off-kilter. Most scientists think the rubble from that crash became our Moon!"
+    },
+    {
+      "type": "link",
+      "to": "science-blue-sky-kid",
+      "prompt": "In \"Why Is the Sky Blue?\" you learned that at sunset, sunlight travels through much more air. In winter, sunlight comes in slanted. What is alike?",
+      "model": "In both, the light reaches you at a slant instead of straight down, and that changes what you get: redder light at sunset, weaker light in winter."
     },
     {
       "type": "think",

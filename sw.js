@@ -1,6 +1,6 @@
 // Offline cache for Daily Spark. The app-shell cache name changes on every build so updates reach phones and iPads.
 // Lessons live in a separate cache that survives app updates.
-const CACHE = 'daily-spark-v5-659d6a66';
+const CACHE = 'daily-spark-v7-bdf94c0e';
 const CONTENT = 'daily-spark-content';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-192.png', './icon-512.png', './content/index.json'];
 self.addEventListener('install', e => e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting())));

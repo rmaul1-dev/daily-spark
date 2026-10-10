@@ -7,6 +7,64 @@
   "emoji": "🗽",
   "summary": "The First Amendment, and the students who wore armbands to school.",
   "minutes": 6,
+  "series": {
+    "id": "checks-on-power",
+    "part": 2,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What did the Supreme Court decide in the armband case?",
+      "answer": "Students keep their free speech rights at school. They don't lose them \"at the schoolhouse gate.\"",
+      "options": [
+        {
+          "text": "Students keep free speech rights at school",
+          "correct": true
+        },
+        {
+          "text": "Schools can ban any protest"
+        },
+        {
+          "text": "Students may skip class to protest"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "What are the five freedoms in the First Amendment?",
+      "answer": "Religion, speech, and the press. Also gathering in peace, and asking the government to fix a problem.",
+      "options": [
+        {
+          "text": "Religion, speech, press, gathering, and petition",
+          "correct": true
+        },
+        {
+          "text": "Speech, voting, driving, school, and money"
+        },
+        {
+          "text": "Religion, homework, games, press, and sports"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What did the two justices who disagreed care about?",
+      "answer": "They thought schools need power to keep class calm and focused on learning.",
+      "options": [
+        {
+          "text": "Keeping class calm and focused",
+          "correct": true
+        },
+        {
+          "text": "Making armbands a rule for everyone"
+        },
+        {
+          "text": "Closing schools during wars"
+        }
+      ]
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +72,25 @@
       "emoji": "🗽",
       "title": "Five freedoms, one sentence",
       "text": "One sentence in the U.S. Constitution protects five big freedoms. It is called the First Amendment. Can you guess any of the five?"
+    },
+    {
+      "type": "predict",
+      "question": "Some students wore black armbands to school as a silent protest, and they were suspended. What do you think the Supreme Court said?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "The students keep free speech at school",
+          "correct": true
+        },
+        {
+          "text": "Students have no free speech at school"
+        },
+        {
+          "text": "Armbands are clothes, so they don't count"
+        }
+      ],
+      "reveal": "The Court sided with the students, 7 votes to 2. Students do not lose their free speech rights \"at the schoolhouse gate.\"",
+      "reveal_after": 3
     },
     {
       "type": "idea",
@@ -39,7 +116,17 @@
       "emoji": "🤝",
       "title": "The other side",
       "text": "Two justices disagreed. They said school is for learning and the armbands were a distraction. They thought schools should have a lot of power to keep classes calm and focused.",
-      "example": "Both sides cared about something important: free speech, and a good place to learn."
+      "example": "Both sides cared about something important: free speech, and a good place to learn.",
+      "why": {
+        "q": "Why might a fair person agree with parts of both sides?",
+        "a": "Both sides cared about something important: free speech, and a good place to learn."
+      }
+    },
+    {
+      "type": "link",
+      "to": "civics-checks-and-balances-kid",
+      "prompt": "In \"Three Branches, One Team\" you learned that courts can check other parts of government. How did a court do that in the armband case?",
+      "model": "The Supreme Court sided with the students against their public school. A court checked a part of government."
     },
     {
       "type": "think",

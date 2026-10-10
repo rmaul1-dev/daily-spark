@@ -7,6 +7,23 @@
   "emoji": "🌐",
   "summary": "Why the internet chops data into packets and lets each network be different.",
   "minutes": 7,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What was Bob Kahn's \"open architecture\" idea?",
+      "answer": "Link independent networks of any design with one shared protocol that carries packets between them."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why was the original TCP split into TCP and IP?",
+      "answer": "Some apps, like voice, would rather skip a lost packet than wait. So IP handles addressing and forwarding, and TCP adds extras like recovery."
+    },
+    {
+      "id": "k3",
+      "prompt": "How is packet switching different from an old phone call?",
+      "answer": "A call holds one line open the whole time; packets share the network, each traveling on its own."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +31,25 @@
       "emoji": "🌐",
       "title": "Built to connect anything",
       "text": "The internet was designed to connect networks that worked in totally different ways, including radio and satellite networks. How do you build one system on top of all of them?"
+    },
+    {
+      "type": "predict",
+      "question": "The internet had to connect networks that worked in totally different ways. How do you think that was done?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "Make every network use the same hardware"
+        },
+        {
+          "text": "Let each network stay different and share one protocol",
+          "correct": true
+        },
+        {
+          "text": "Replace them all with one giant network"
+        }
+      ],
+      "reveal": "Bob Kahn's 1972 \"open architecture\": each network stays different, and one shared protocol carries packets between them. He and Vint Cerf began designing it in 1973.",
+      "reveal_after": 2
     },
     {
       "type": "idea",
@@ -33,7 +69,11 @@
       "emoji": "✂️",
       "title": "TCP and IP split up",
       "text": "The original TCP did everything. Then real uses, like sending voice in the 1970s, showed some apps would rather skip a lost packet than wait. So it split in two: IP handles addresses and forwarding, and TCP handles extras like recovering lost packets and controlling flow.",
-      "example": "Delivery is \"best effort.\" If a packet does not arrive, the sender sends it again."
+      "example": "Delivery is \"best effort.\" If a packet does not arrive, the sender sends it again.",
+      "why": {
+        "q": "Why split IP from TCP instead of one protocol doing everything?",
+        "a": "Apps want different things: live voice would rather skip a lost packet, while a file needs every piece. A simple IP lets each app choose."
+      }
     },
     {
       "type": "idea",

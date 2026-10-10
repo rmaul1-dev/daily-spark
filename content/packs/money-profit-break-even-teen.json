@@ -7,6 +7,28 @@
   "emoji": "⛳",
   "summary": "Contribution margin, break-even units, and pricing for a small golf business.",
   "minutes": 7,
+  "series": {
+    "id": "money-grows",
+    "part": 1,
+    "of": 2
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How do you find break-even units?",
+      "answer": "Fixed costs ÷ (price − variable cost per unit). The part in parentheses is the contribution margin."
+    },
+    {
+      "id": "k2",
+      "prompt": "What is contribution margin?",
+      "answer": "Price minus variable cost per unit: what each sale contributes toward covering fixed costs."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why do investors care about the break-even point?",
+      "answer": "They want to know not just the return but when they'll see it, and a clear break-even shows you understand your costs."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +36,20 @@
       "emoji": "⛳",
       "title": "A golf ball business",
       "text": "Say you start a business selling cleaned, sorted used golf balls by the dozen. How many dozen do you need to sell before you stop losing money?"
+    },
+    {
+      "type": "predict",
+      "question": "Golf-ball business: $120 of fixed costs, you sell a dozen for $14, and each dozen costs you $6. How many dozen to break even?",
+      "mode": "estimate",
+      "estimate": {
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "unit": "dozen",
+        "answer": 15
+      },
+      "reveal": "15 dozen. Each dozen contributes $14 − $6 = $8 toward fixed costs, and $120 ÷ $8 = 15. Dozen number 16 is your first real profit.",
+      "reveal_after": 3
     },
     {
       "type": "idea",
@@ -26,7 +62,11 @@
       "type": "idea",
       "emoji": "➗",
       "title": "Contribution margin",
-      "text": "Contribution margin is what each sale contributes toward fixed costs: price minus variable cost. Sell a dozen for $14 with $6 of variable cost, and each dozen contributes $8."
+      "text": "Contribution margin is what each sale contributes toward fixed costs: price minus variable cost. Sell a dozen for $14 with $6 of variable cost, and each dozen contributes $8.",
+      "why": {
+        "q": "Why divide fixed costs by the contribution margin, not by the price?",
+        "a": "Part of each sale's price just pays that unit's own variable cost. Only the contribution margin is left to pay off fixed costs."
+      }
     },
     {
       "type": "idea",

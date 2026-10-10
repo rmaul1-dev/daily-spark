@@ -7,6 +7,28 @@
   "emoji": "🏺",
   "summary": "The method, the trial, and the puzzle of a man who wrote nothing.",
   "minutes": 7,
+  "series": {
+    "id": "how-we-know",
+    "part": 1,
+    "of": 3
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is \"the Socratic problem\"?",
+      "answer": "Our main sources (Aristophanes, Xenophon, Plato) disagree in big ways, so we can't be sure what Socrates really thought."
+    },
+    {
+      "id": "k2",
+      "prompt": "What was Socrates charged with, and what happened?",
+      "answer": "Irreverence toward the city's gods and corrupting the young (399 B.C.E.). He was condemned and died by drinking hemlock."
+    },
+    {
+      "id": "k3",
+      "prompt": "How do modern \"Socratic\" classrooms differ from the real Socrates?",
+      "answer": "They borrow his question-driven method but are usually gentler; the real Socrates made people uncomfortable."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -16,11 +38,34 @@
       "text": "Socrates is one of the most important thinkers in history, and he never wrote a single word of philosophy down. So how do we know what he thought?"
     },
     {
+      "type": "predict",
+      "question": "Socrates wrote nothing. Which of these do you think is one of our three main sources about him?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "A comedy that made fun of him",
+          "correct": true
+        },
+        {
+          "text": "His own diary"
+        },
+        {
+          "text": "A speech carved in stone"
+        }
+      ],
+      "reveal": "A comedy that mocked him: Aristophanes's Clouds. The other two are Xenophon and Plato, and their accounts differ in big ways. Scholars call this \"the Socratic problem.\"",
+      "reveal_after": 1
+    },
+    {
       "type": "idea",
       "emoji": "📚",
       "title": "Three witnesses who disagree",
       "text": "Our main sources are Aristophanes, who mocked Socrates in a comedy called Clouds; Xenophon; and Plato, who made Socrates the star of most of his dialogues. Their accounts differ in big ways. Scholars call this \"the Socratic problem.\"",
-      "example": "It is a lesson in sources: when witnesses disagree, ask what each one wanted and how they knew."
+      "example": "It is a lesson in sources: when witnesses disagree, ask what each one wanted and how they knew.",
+      "why": {
+        "q": "When witnesses disagree, what two questions help you weigh them?",
+        "a": "What did each one want, and how did they know?"
+      }
     },
     {
       "type": "idea",

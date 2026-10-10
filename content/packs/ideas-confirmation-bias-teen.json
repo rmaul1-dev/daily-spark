@@ -7,6 +7,28 @@
   "emoji": "🧪",
   "summary": "Why smart people get stuck on wrong answers, and how scientists and founders fight it.",
   "minutes": 7,
+  "series": {
+    "id": "how-we-know",
+    "part": 2,
+    "of": 3
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why can't testing 11, 13, 15 show your \"+2\" rule is wrong, and what test can?",
+      "answer": "It fits your rule, so \"fits\" teaches nothing new. A triple that breaks your rule, like 11, 12, 19, can surprise you."
+    },
+    {
+      "id": "k2",
+      "prompt": "What is confirmation bias, and when is it strongest?",
+      "answer": "Favoring information that supports what you already believe; strongest for outcomes you want, emotional topics and long-held beliefs."
+    },
+    {
+      "id": "k3",
+      "prompt": "What was Klayman and Ha's point about positive tests?",
+      "answer": "Positive tests are often informative; Wason's task was a special case where the true rule was broader than people's guesses."
+    }
+  ],
   "date_added": "2026-10-09",
   "cards": [
     {
@@ -14,6 +36,25 @@
       "emoji": "🧪",
       "title": "Smart and still stuck",
       "text": "In a famous experiment, smart adults spent ages \"proving\" a rule that was wrong, and every test they ran told them they were right. How is that possible?"
+    },
+    {
+      "type": "predict",
+      "question": "In a famous experiment, smart adults kept \"proving\" a wrong rule. What do you think went wrong?",
+      "mode": "choice",
+      "options": [
+        {
+          "text": "They didn't run enough tests"
+        },
+        {
+          "text": "They only tested examples that fit their guess",
+          "correct": true
+        },
+        {
+          "text": "The experimenter gave wrong answers"
+        }
+      ],
+      "reveal": "They only ran tests that fit their own guess, like 11, 13, 15 for \"+2 each time.\" A \"fits\" can't surprise you. A test like 11, 12, 19 can.",
+      "reveal_after": 1
     },
     {
       "type": "idea",
@@ -32,13 +73,27 @@
       "type": "idea",
       "emoji": "🚀",
       "title": "Why founders should care",
-      "text": "Research links confirmation bias to flawed decisions in business, finance, and science, and to overconfidence. If you only ask friends whether they'd buy your product, you are running the 11, 13, 15 test."
+      "text": "Research links confirmation bias to flawed decisions in business, finance, and science, and to overconfidence. If you only ask friends whether they'd buy your product, you are running the 11, 13, 15 test.",
+      "why": {
+        "q": "Why is asking your friends whether they'd buy your product a weak test?",
+        "a": "Friends tend to agree with you, so a \"yes\" can't surprise you. It's the 11, 13, 15 test."
+      },
+      "examples_by_interest": {
+        "golf": "Say you think a new putter fixed your putting. If you only remember the putts you made, you're running the 11, 13, 15 test. Count every putt, made or missed.",
+        "soccer": "Say you think your team plays better in blue jerseys. Remembering only the wins in blue is the 11, 13, 15 test. Track every game, win or lose."
+      }
     },
     {
       "type": "idea",
       "emoji": "🔬",
       "title": "A twist",
       "text": "Testing examples that fit your idea isn't always bad. Researchers Klayman and Ha argued that positive tests are often informative in real life. The trap in Wason's task was that the true rule was much broader than people's guesses, so \"fits\" answers taught them nothing new."
+    },
+    {
+      "type": "link",
+      "to": "ideas-socrates-teen",
+      "prompt": "Socrates showed people they didn't know what they thought they knew. How is designing a test that could fail a Socratic move?",
+      "model": "Both go looking for the question or test that could break your belief, instead of the ones that confirm it."
     },
     {
       "type": "think",
