@@ -1,0 +1,226 @@
+{
+  "id": "money-inflation-adult",
+  "topic": "money",
+  "subject": "inflation",
+  "level": "adult",
+  "title": "When Money Buys Less",
+  "emoji": "\ud83e\uddee",
+  "summary": "Inflation as a general price-level rise, CPI/PCE measurement, purchasing power, and who bears unexpected inflation.",
+  "minutes": 8,
+  "date_added": "2026-10-11",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is inflation, precisely?",
+      "answer": "A general increase in the overall price level of goods and services\u2014not a single price\u2014so each unit of currency buys less (purchasing power falls)."
+    },
+    {
+      "id": "k2",
+      "prompt": "What does a CPI (or similar price index) actually measure?",
+      "answer": "The weighted average price change of a market basket of consumer goods and services; the annual percent change is a common inflation rate."
+    },
+    {
+      "id": "k3",
+      "prompt": "Who tends to lose, and who may gain, from unexpected inflation?",
+      "answer": "Cash holders and creditors owed fixed nominal amounts lose purchasing power; borrowers with fixed nominal rates can see the real burden of debt fall. High inflation still harms planning for everyone."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "\ud83e\uddee",
+      "title": "The quiet cut",
+      "text": "A 2% raise with 5% inflation is a roughly 3% real cut. The bank app shows a bigger number; the grocery cart does not. Inflation is the gap between nominal dollars and what they buy."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Unexpected inflation hits. Who is more likely to gain in real terms: a saver holding cash, or a borrower with a fixed-rate loan?",
+      "options": [
+        {
+          "text": "The cash saver"
+        },
+        {
+          "text": "The fixed-rate borrower",
+          "correct": true
+        },
+        {
+          "text": "Neither \u2014 inflation never redistributes"
+        },
+        {
+          "text": "Only stock investors"
+        }
+      ],
+      "reveal": "Fixed-rate borrowers can repay with dollars that buy less, so the real debt burden can fall. Cash and fixed nominal claims lose purchasing power. That is redistribution math\u2014not an argument for high inflation.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udcd0",
+      "title": "Definition with teeth",
+      "text": "Inflation is an increase in the prices of goods and services over time. The Fed stresses it is not one product or even several: it is a general rise in the overall price level. Investor.gov: a general upward movement in prices that reduces purchasing power.",
+      "example": "Relative price changes (cucumbers up, tomatoes down because tastes shift) are not inflation by themselves; inflation is about the currency's buying power across the basket."
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83e\uddfa",
+      "title": "Indexes: CPI, PCE, and \"core\"",
+      "text": "A consumer price index is a statistical estimate of the price level of a market basket\u2014weighted by spending shares. The U.S. CPI comes from BLS; the FOMC's 2% longer-run goal is stated in terms of the Commerce Department's PCE price index, which covers a wide range of household spending. Policymakers also watch \"core\" measures that strip volatile food and energy to read the trend.",
+      "example": "Month-to-month noise is common; the Fed often averages over longer windows and inspects subcategories to judge what is likely to persist.",
+      "why": {
+        "q": "Why target PCE at 2% rather than obsess over every monthly CPI print?",
+        "a": "The FOMC chose annual PCE change as its longer-run gauge of price stability; single-month moves can be erratic, and policy works with a lag."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83c\udf21\ufe0f",
+      "title": "Why \"a little,\" not zero",
+      "text": "The FOMC judges that 2% inflation over the longer run is most consistent with maximum employment and price stability. When households and firms expect inflation to stay low and stable, they can make sound decisions on saving, borrowing, and investment. High or volatile inflation does the opposite: planning frays, contracts misfire, and cash burns quietly.",
+      "example": "The institutional fact for the U.S.: the Fed's longer-run goal is 2% inflation as measured by the PCE price index."
+    },
+    {
+      "type": "idea",
+      "emoji": "\u2696\ufe0f",
+      "title": "Winners, losers, and the real rate",
+      "text": "Unexpected inflation redistributes. Holders of cash and fixed nominal claims lose purchasing power. Borrowers with fixed nominal interest rates can see the real interest rate fall\u2014approximated by nominal rate minus inflation\u2014so the real burden of repayment eases. Lenders and fixed-income investors face the mirror risk Investor.gov labels \"inflation risk.\"",
+      "example": "Say\u2026 a family locked a fixed mortgage rate; higher-than-expected inflation can lighten the real load of those payments, while a cash emergency fund buys less. Neither fact makes high inflation \"good policy\"\u2014it just shows the transfer.",
+      "examples_by_interest": {
+        "business": "Say\u2026 you sold equipment on a fixed-dollar installment note. Higher unexpected inflation means you are repaid in weaker dollars\u2014classic creditor-side inflation risk.",
+        "golf": "Say\u2026 you prepaid a fixed multi-year club membership. Inflation after you pay can make that prepaid claim worth less in real goods\u2014you already spent today's stronger dollars.",
+        "soccer": "Say\u2026 a club borrowed at a fixed rate to build fields. Higher unexpected inflation can reduce the real burden of those fixed payments, while cash reserves for gear buy less."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udd17",
+      "title": "Link to compounding (concept only)",
+      "text": "Compound interest grows a balance; inflation shrinks what each dollar buys. The useful comparison is the real return: roughly nominal growth minus inflation. If a nominal return does not keep up with inflation, savings can grow on paper while buying less in the store.",
+      "example": "This pack is not part three of the money-grows series; it is the purchasing-power lens you need whenever you read a nominal rate."
+    },
+    {
+      "type": "think",
+      "question": "Where in your work or household budget is a \"small\" annual inflation gap most likely to compound into a large real shortfall over a decade?",
+      "nudges": [
+        "Fixed fees, fixed wages, cash buffers, long-term contracts.",
+        "Which of those can you index, renegotiate, or diversify\u2014and which are sticky?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Inflation, as the Fed defines the idea, is best described as\u2026",
+          "options": [
+            {
+              "text": "A general increase in the overall price level of goods and services",
+              "correct": true,
+              "why": "Not one product\u2014overall price level."
+            },
+            {
+              "text": "Any single price increase at one store",
+              "correct": false,
+              "why": "Relative or one-off price changes are not inflation by themselves."
+            },
+            {
+              "text": "A rise in the stock market",
+              "correct": false,
+              "why": "Asset prices are a different concept from consumer-price inflation."
+            },
+            {
+              "text": "An increase in tax brackets only",
+              "correct": false,
+              "why": "Tax effects can interact with inflation, but they are not the definition."
+            }
+          ]
+        },
+        {
+          "q": "The FOMC's longer-run 2% inflation goal is stated in terms of\u2026",
+          "options": [
+            {
+              "text": "The PCE price index",
+              "correct": true,
+              "why": "Annual change in the personal consumption expenditures price index."
+            },
+            {
+              "text": "Only the price of gasoline",
+              "correct": false,
+              "why": "Energy is watched, but the goal is a broad index."
+            },
+            {
+              "text": "The Dow Jones Industrial Average",
+              "correct": false,
+              "why": "That is equities, not consumer inflation."
+            },
+            {
+              "text": "Monthly coin production",
+              "correct": false,
+              "why": "Not the FOMC's stated gauge."
+            }
+          ]
+        },
+        {
+          "q": "Unexpected inflation most clearly helps which party, all else equal?",
+          "options": [
+            {
+              "text": "A borrower with a fixed nominal interest rate",
+              "correct": true,
+              "why": "Real debt burden can fall as the real interest rate falls."
+            },
+            {
+              "text": "A holder of idle cash",
+              "correct": false,
+              "why": "Cash loses purchasing power."
+            },
+            {
+              "text": "A lender owed a fixed nominal payment",
+              "correct": false,
+              "why": "Creditors receiving fixed dollars are on the losing side of that transfer."
+            },
+            {
+              "text": "Someone whose wages never change and who holds only cash",
+              "correct": false,
+              "why": "Fixed nominal income plus cash is typically hurt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Inflation is\u2026",
+        "We measure it with\u2026",
+        "Unexpected inflation redistributes because\u2026"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "T8-85cZRI9o",
+    "title": "Inflation and Bubbles and Tulips: Crash Course Economics #7",
+    "channel": "CrashCourse",
+    "duration_sec": 625,
+    "why": "Crash Course ties raises to purchasing power, then shows how economists measure overall price levels\u2014useful scaffolding for the CPI/PCE ideas in this pack."
+  },
+  "sources": [
+    {
+      "title": "What is inflation, and how does the Federal Reserve evaluate changes in the rate of inflation?",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "url": "https://www.federalreserve.gov/faqs/economy_14419.htm",
+      "supports": "Inflation as general increase in overall price level; price indexes; CPI and PCE; core inflation excluding food/energy; averaging over longer periods; 2% longer-run PCE goal; low, stable inflation supports sound decisions."
+    },
+    {
+      "title": "Bonds - FAQs (Inflation risk)",
+      "publisher": "Investor.gov (U.S. Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds",
+      "supports": "Inflation as general upward movement in prices; reduces purchasing power; inflation risk for fixed-rate investors; TIPS adjust with the CPI."
+    },
+    {
+      "title": "Inflation",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Inflation",
+      "supports": "Purchasing-power definition; CPI as typical measure; debtors with fixed nominal interest can see real rates fall when inflation rises; cash/monetary assets lose purchasing power; preference for low steady inflation; harms of high inflation for planning."
+    }
+  ]
+}

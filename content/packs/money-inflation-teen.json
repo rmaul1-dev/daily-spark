@@ -1,0 +1,211 @@
+{
+  "id": "money-inflation-teen",
+  "topic": "money",
+  "subject": "inflation",
+  "level": "teen",
+  "title": "Why Your Dollar Shrinks",
+  "emoji": "\ud83d\udcc9",
+  "summary": "Inflation, purchasing power, the CPI basket, and why a little inflation differs from a lot.",
+  "minutes": 7,
+  "date_added": "2026-10-11",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is inflation, and what happens to purchasing power when it rises?",
+      "answer": "Inflation is a general upward movement in prices. As prices rise, each dollar buys fewer goods and services\u2014purchasing power falls."
+    },
+    {
+      "id": "k2",
+      "prompt": "How is inflation measured with a \"basket\"?",
+      "answer": "A price index like the CPI tracks the average change in prices of a market basket of consumer goods and services over time."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why does the Fed aim for about 2% inflation, not zero?",
+      "answer": "The FOMC judges that 2% longer-run inflation (PCE) best fits price stability and maximum employment; low, stable inflation helps people plan saving, borrowing, and investment."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "\ud83e\uddfe",
+      "title": "The raise that wasn't",
+      "text": "Say you get a 2% raise, but prices rise 5% the same year. The paycheck looks bigger, yet it buys about 3% less. That gap\u2014nominal dollars versus what they purchase\u2014is purchasing power."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "If only gasoline jumps this month and food, rent, and clothes barely move, is that the same thing as \"inflation\"?",
+      "options": [
+        {
+          "text": "Yes \u2014 any price jump equals inflation"
+        },
+        {
+          "text": "Not by itself \u2014 inflation is a general rise across the price level",
+          "correct": true
+        },
+        {
+          "text": "Only if the Fed announces it on TV"
+        }
+      ],
+      "reveal": "The Fed: inflation cannot be measured by one product or even several. It is a general increase in the overall price level.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udcc8",
+      "title": "Definition, cleanly",
+      "text": "Inflation is a general upward movement in prices of goods and services over time. When the general price level rises, each unit of currency buys fewer goods and services. That loss is a drop in purchasing power.",
+      "example": "Investor.gov: inflation reduces purchasing power\u2014a risk if you earn a fixed rate of interest while prices climb."
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83e\uddfa",
+      "title": "The CPI basket",
+      "text": "A consumer price index (CPI) estimates the price level of a market basket of goods and services households buy. Statisticians weight items by how much people spend on them, then track how the basket's cost changes. The annual percent change is a common inflation rate.",
+      "example": "In the U.S., the Bureau of Labor Statistics publishes the CPI. The Fed also watches other indexes, including the PCE price index.",
+      "why": {
+        "q": "Why weight housing more heavily than, say, pencils?",
+        "a": "A price index weights items by their share of typical spending, so big-budget categories move the overall measure more."
+      },
+      "examples_by_interest": {
+        "business": "Say\u2026 your golf-ball resale side hustle tracks balls, shipping, and packaging as a mini basket. If that whole set rises 4% while you still charge last year's price, your real margin shrinks.",
+        "soccer": "Say\u2026 a travel-team budget tracks fees, cleats, and snacks as a basket. If that basket rises faster than fundraising, the same dollar covers less of the season.",
+        "golf": "Say\u2026 you track range fees, balls, and a lesson as a basket. A 3% rise in that basket means the same allowance buys slightly fewer rounds."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83c\udf21\ufe0f",
+      "title": "Mild vs high",
+      "text": "Mild, steady inflation is different from high or wild inflation. High inflation makes planning hard, erodes cash holdings, and can scramble contracts. Most mainstream economists favor a low, steady rate rather than zero or a free-for-all.",
+      "example": "The Fed aims for 2% inflation over the longer run (PCE). It says when people expect inflation to stay low and stable, they can make sound decisions on saving, borrowing, and investment."
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udd04",
+      "title": "Who feels it differently",
+      "text": "Unexpected inflation redistributes. Someone holding cash or owed a fixed dollar amount loses purchasing power. Someone who borrowed at a fixed interest rate may repay with dollars that buy less\u2014so the real burden of the debt can fall. That is a description of the math, not a cheer for high inflation.",
+      "example": "Investor.gov flags inflation risk for people receiving a fixed rate of interest. The mirror image: fixed-rate borrowers can see the real cost of repayment ease when inflation runs hotter than expected."
+    },
+    {
+      "type": "think",
+      "question": "If your first job pays a fixed hourly wage for a year, what would you watch besides the dollar amount on the paycheck?",
+      "nudges": [
+        "Think about what that wage buys: food, gear, phone plan.",
+        "How is that different from a wage that rises with a price index?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Purchasing power falls when\u2026",
+          "options": [
+            {
+              "text": "The same dollar buys fewer goods and services",
+              "correct": true,
+              "why": "Yes. That is the flip side of a rising general price level."
+            },
+            {
+              "text": "Stores run more sales",
+              "correct": false,
+              "why": "Sales lower prices. Inflation is about prices rising in general."
+            },
+            {
+              "text": "You switch from cash to a debit card",
+              "correct": false,
+              "why": "Payment method is not purchasing power."
+            },
+            {
+              "text": "The CPI basket is updated",
+              "correct": false,
+              "why": "Basket updates improve measurement; they are not the definition of falling purchasing power."
+            }
+          ]
+        },
+        {
+          "q": "What does the CPI mainly track?",
+          "options": [
+            {
+              "text": "Average price change for a market basket of consumer goods and services",
+              "correct": true,
+              "why": "Right. It is a weighted basket measure."
+            },
+            {
+              "text": "Only stock-market prices",
+              "correct": false,
+              "why": "CPI is about consumer prices, not equities."
+            },
+            {
+              "text": "How many dollars are printed each day",
+              "correct": false,
+              "why": "Money supply is related in theory, but CPI measures prices paid."
+            }
+          ]
+        },
+        {
+          "q": "Why does the Fed target about 2% inflation over the longer run?",
+          "options": [
+            {
+              "text": "It judges 2% (PCE) most consistent with price stability and maximum employment",
+              "correct": true,
+              "why": "That is the FOMC's stated longer-run goal."
+            },
+            {
+              "text": "Because Congress bans any other number",
+              "correct": false,
+              "why": "The 2% figure is the FOMC's judgment in its longer-run goals statement."
+            },
+            {
+              "text": "So prices double every year",
+              "correct": false,
+              "why": "2% a year is mild, not a doubling."
+            },
+            {
+              "text": "To make cash worthless on purpose",
+              "correct": false,
+              "why": "The aim is low, stable inflation so people can plan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Inflation is\u2026",
+        "Purchasing power means\u2026",
+        "The CPI basket\u2026"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "TQIlLHAlgqU",
+    "title": "Inflation - Economic Lowdown",
+    "channel": "Federal Reserve Bank of St. Louis",
+    "duration_sec": 295,
+    "why": "The St. Louis Fed defines inflation, shows how the CPI market basket works, and explains why about 2% is the Fed's longer-run aim."
+  },
+  "sources": [
+    {
+      "title": "What is inflation, and how does the Federal Reserve evaluate changes in the rate of inflation?",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "url": "https://www.federalreserve.gov/faqs/economy_14419.htm",
+      "supports": "Definition of inflation as a general increase in the overall price level; price indexes; CPI and PCE; 2% longer-run PCE goal; low, stable inflation supports sound saving, borrowing, and investment decisions."
+    },
+    {
+      "title": "Bonds - FAQs (Inflation risk)",
+      "publisher": "Investor.gov (U.S. Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds",
+      "supports": "Inflation defined as a general upward movement in prices; inflation reduces purchasing power; risk for fixed-rate interest investors; TIPS adjust with the CPI."
+    },
+    {
+      "title": "Inflation",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Inflation",
+      "supports": "Inflation as rise in average prices / fall in purchasing power; measured with a price index such as CPI; debtors with fixed nominal rates can see real interest rates fall when inflation rises; cash holders lose purchasing power; most economists favor a low, steady inflation rate; high inflation harms planning."
+    }
+  ]
+}

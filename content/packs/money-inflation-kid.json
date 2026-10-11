@@ -1,0 +1,237 @@
+{
+  "id": "money-inflation-kid",
+  "topic": "money",
+  "subject": "inflation",
+  "level": "kid",
+  "title": "Why Things Cost More",
+  "emoji": "\ud83d\uded2",
+  "summary": "Inflation is when prices rise across many things, so each dollar buys a little less.",
+  "minutes": 6,
+  "date_added": "2026-10-11",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is inflation?",
+      "answer": "A general rise in prices over time, so each dollar buys less.",
+      "options": [
+        {
+          "text": "Many prices rising over time, so a dollar buys less",
+          "correct": true
+        },
+        {
+          "text": "One store raising the price of one toy"
+        },
+        {
+          "text": "Getting more money for free every year"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "How do people measure inflation?",
+      "answer": "They track a basket of everyday goods and services with a price index.",
+      "options": [
+        {
+          "text": "By tracking a basket of many everyday items",
+          "correct": true
+        },
+        {
+          "text": "By asking one shop for one price"
+        },
+        {
+          "text": "By counting how many coins are in a wallet"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What does mild inflation mean for your money?",
+      "answer": "Prices creep up a little, so cash left still slowly buys a bit less.",
+      "options": [
+        {
+          "text": "Cash left alone slowly buys a bit less",
+          "correct": true
+        },
+        {
+          "text": "Every price falls overnight"
+        },
+        {
+          "text": "Money stops working at stores"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "\ud83c\udf6d",
+      "title": "Same candy, bigger price?",
+      "text": "Say last year a candy bar cost $1 at the corner store. This year the same bar is $1.20. Is that one change already \"inflation\"\u2014or is something bigger going on?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "If just one candy bar costs more, is that enough to call it inflation?",
+      "options": [
+        {
+          "text": "Yes \u2014 any higher price is inflation"
+        },
+        {
+          "text": "No \u2014 inflation is many prices rising together",
+          "correct": true
+        },
+        {
+          "text": "Only if the candy is chocolate"
+        }
+      ],
+      "reveal": "One product going up is not enough. The Fed says inflation is a general rise in the overall price level across goods and services.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udcc8",
+      "title": "Prices rising together",
+      "text": "Inflation means prices of many goods and services rise over time. When that happens, each dollar buys a little less than before.",
+      "example": "Say\u2026 a lemonade cup, a soccer ball, and a movie snack all cost a bit more this year than last. That pattern is closer to inflation than one lonely price tag."
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83e\uddfa",
+      "title": "A basket of stuff",
+      "text": "People measure inflation with a price index. Think of a shopping basket of everyday things. They check how the basket's total cost changes.",
+      "example": "In the United States, one famous basket measure is the Consumer Price Index, or CPI.",
+      "why": {
+        "q": "Why check a whole basket instead of one toy?",
+        "a": "One toy can jump for many reasons. A basket shows if prices are rising in general."
+      },
+      "examples_by_interest": {
+        "soccer": "Say\u2026 you track a ball, shin guards, and team snacks as a mini basket. If that whole set costs more next year, that is closer to inflation than one ball alone.",
+        "golf": "Say\u2026 you track balls, tees, and a range bucket as a mini basket. If that whole set costs more next year, that is closer to inflation than one sleeve of balls.",
+        "business": "Say\u2026 a lemonade stand tracks cups, lemons, and sugar as a basket. If that whole set costs more next year, that is closer to inflation than cups alone."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udcb5",
+      "title": "Your dollar's stretch",
+      "text": "When prices rise, the same dollar buys fewer things. That is less purchasing power. Mild inflation means prices creep up slowly. Very high inflation means prices jump fast.",
+      "example": "Investor.gov says inflation reduces purchasing power. That is hard if you earn a fixed bit of interest."
+    },
+    {
+      "type": "idea",
+      "emoji": "\u2696\ufe0f",
+      "title": "A little vs a lot",
+      "text": "The Federal Reserve aims for about 2% inflation over the longer run. Low, steady inflation helps people plan how to save, borrow, and spend.",
+      "example": "Say\u2026 prices rise a little and pay can keep up. That is different from prices jumping so fast a dollar feels smaller each month."
+    },
+    {
+      "type": "think",
+      "question": "What is one thing your family buys often? How would you notice if its price kept creeping up?",
+      "nudges": [
+        "Think about snacks, sports gear, or a weekly treat.",
+        "Would one higher price convince you, or would you check a few things?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What is inflation?",
+          "options": [
+            {
+              "text": "A general rise in prices over time",
+              "correct": true,
+              "why": "Yes. Many prices rising together, not just one item."
+            },
+            {
+              "text": "Finding a coupon at the store",
+              "correct": false,
+              "why": "Coupons lower what you pay. Inflation is about prices rising."
+            },
+            {
+              "text": "A bank giving you free toys",
+              "correct": false,
+              "why": "Inflation is about the price level, not free gifts."
+            }
+          ]
+        },
+        {
+          "q": "Why use a basket of goods to measure inflation?",
+          "options": [
+            {
+              "text": "It shows whether prices are rising in general",
+              "correct": true,
+              "why": "Right. A price index tracks a group of goods and services."
+            },
+            {
+              "text": "Stores only sell baskets",
+              "correct": false,
+              "why": "The basket is a measuring tool, not a shopping rule."
+            },
+            {
+              "text": "One candy bar tells the whole story",
+              "correct": false,
+              "why": "One price can move for many reasons."
+            }
+          ]
+        },
+        {
+          "q": "When inflation rises, what happens to a dollar left in a drawer?",
+          "options": [
+            {
+              "text": "It slowly buys less",
+              "correct": true,
+              "why": "Yes. That is weaker purchasing power."
+            },
+            {
+              "text": "It buys more every day",
+              "correct": false,
+              "why": "Rising prices mean each dollar stretches less."
+            },
+            {
+              "text": "It turns into more dollars by itself",
+              "correct": false,
+              "why": "Cash in a drawer does not grow. Inflation can shrink what it buys."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Inflation means\u2026",
+        "People measure it with\u2026",
+        "A dollar buys less when\u2026"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "0k2lZek-TYo",
+    "title": "Inflation explained with a chocolate bar | CBC Kids News",
+    "channel": "CBC Kids News",
+    "duration_sec": 226,
+    "why": "A kid reporter uses a chocolate bar to show how prices rise over time and why a little inflation is different from prices racing up."
+  },
+  "sources": [
+    {
+      "title": "What is inflation, and how does the Federal Reserve evaluate changes in the rate of inflation?",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "url": "https://www.federalreserve.gov/faqs/economy_14419.htm",
+      "supports": "Inflation is an increase in prices of goods and services over time; it is a general rise in the overall price level, not one product; price indexes measure a group of goods and services; the Fed tracks CPI among other indexes; FOMC judges 2% longer-run inflation (PCE) most consistent with its mandate; low, stable inflation helps sound saving, borrowing, and investment decisions."
+    },
+    {
+      "title": "Bonds - FAQs (Inflation risk)",
+      "publisher": "Investor.gov (U.S. Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds",
+      "supports": "\"Inflation is a general upward movement in prices. Inflation reduces purchasing power, which is a risk for investors receiving a fixed rate of interest.\"; TIPS are adjusted based on changes in the Consumer Price Index."
+    },
+    {
+      "title": "Consumer price index",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Consumer_price_index",
+      "supports": "A CPI is a weighted average price of a market basket of consumer goods and services; the annual percentage change in the CPI is used as a measure of inflation; in the U.S. the CPI is reported by the Bureau of Labor Statistics."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-10",
+ "updated": "2026-10-11",
  "topics": [
   {
    "id": "history",
@@ -150,6 +150,17 @@
     "kid": "science-blue-sky-kid"
    },
    "dinner_question": "If air is invisible, why does the whole sky look blue—and what color do you think it would be with no air at all?"
+  },
+  {
+   "date": "2026-10-18",
+   "topic": "money",
+   "title": "Inflation",
+   "packs": {
+    "adult": "money-inflation-adult",
+    "teen": "money-inflation-teen",
+    "kid": "money-inflation-kid"
+   },
+   "dinner_question": "If a candy bar, a soccer ball, and a tank of gas all cost a little more next year, how would that change one choice you make with your money?"
   }
  ],
  "series": [
@@ -886,6 +897,45 @@
     "part": 1,
     "of": 2
    }
+  },
+  {
+   "id": "money-inflation-kid",
+   "topic": "money",
+   "level": "kid",
+   "title": "Why Things Cost More",
+   "emoji": "🛒",
+   "subject": "inflation",
+   "summary": "Inflation is when prices rise across many things, so each dollar buys a little less.",
+   "minutes": 6,
+   "date_added": "2026-10-11",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "money-inflation-teen",
+   "topic": "money",
+   "level": "teen",
+   "title": "Why Your Dollar Shrinks",
+   "emoji": "📉",
+   "subject": "inflation",
+   "summary": "Inflation, purchasing power, the CPI basket, and why a little inflation differs from a lot.",
+   "minutes": 7,
+   "date_added": "2026-10-11",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "money-inflation-adult",
+   "topic": "money",
+   "level": "adult",
+   "title": "When Money Buys Less",
+   "emoji": "🧮",
+   "subject": "inflation",
+   "summary": "Inflation as a general price-level rise, CPI/PCE measurement, purchasing power, and who bears unexpected inflation.",
+   "minutes": 8,
+   "date_added": "2026-10-11",
+   "cards": 10,
+   "keys_count": 3
   },
   {
    "id": "space-apollo-11-kid",
