@@ -1,0 +1,216 @@
+{
+  "id": "space-rockets-teen",
+  "topic": "space",
+  "subject": "rockets",
+  "level": "teen",
+  "title": "Rockets: Pushing Off Nothing",
+  "emoji": "\ud83d\ude80",
+  "summary": "Newton's third law, why rockets carry their own oxygen, the 90% fuel problem, and the scientist a newspaper mocked.",
+  "minutes": 7,
+  "date_added": "2026-10-12",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How does a rocket speed up in space, where there is nothing to push against?",
+      "answer": "It pushes its exhaust backward, and by Newton's third law the exhaust pushes the rocket forward."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why can a rocket work in space when a jet engine can't?",
+      "answer": "A rocket carries everything it needs to burn its fuel. A jet needs oxygen from the air."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why is about 90% of an orbit rocket's launch weight propellant?",
+      "answer": "Speed gained grows only with the log of full-to-empty mass, so a big speed change needs a huge fuel share."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "\ud83d\udcf0",
+      "title": "The newspaper that said no",
+      "text": "In January 1920, an unsigned New York Times editorial scoffed at physicist Robert Goddard's idea of rockets flying beyond the air. It said he \"only seems to lack the knowledge ladled out daily in high schools.\" So who was missing the high school physics?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "The editorial's logic: in space there's nothing to push against. So what does a rocket actually push on out there?",
+      "options": [
+        {
+          "text": "The thin leftover air in space"
+        },
+        {
+          "text": "Its own exhaust gas",
+          "correct": true
+        },
+        {
+          "text": "Earth's gravity"
+        },
+        {
+          "text": "Nothing: it coasts on the push from the launch pad"
+        }
+      ],
+      "reveal": "Its own exhaust. The rocket pushes the exhaust backward, and the exhaust pushes the rocket forward. No air required.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "\u2194\ufe0f",
+      "title": "Action, reaction",
+      "text": "Newton's third law: for every action there is an equal and opposite reaction. A rocket engine turns fuel into hot gas and forces it out the back. The rocket pushes the exhaust backward, and the exhaust pushes the rocket forward. That works in a vacuum too.",
+      "example": "NASA's example: stand on a skateboard and throw a bowling ball. You and the ball move in opposite directions. Because you're heavier, the ball moves farther.",
+      "why": {
+        "q": "Why doesn't a rocket need air to push against?",
+        "a": "The push is between the rocket and its own exhaust. Air isn't part of that pair, so the rocket works in empty space."
+      },
+      "examples_by_interest": {
+        "soccer": "Say\u2026 you stand on a skateboard and launch a hard soccer throw-in. The ball pushes back on you, so you roll backward a little. The ball is far lighter, so it flies off fast."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83e\uddea",
+      "title": "Bring your own oxygen",
+      "text": "Burning needs oxygen. A jet engine gets its oxygen from the air, so it can't work above the air. A rocket carries everything it needs, fuel plus an oxidizer, which is why it works in space. Some rockets use liquid propellants; others use solid ones.",
+      "example": "Goddard's 1926 rocket burned gasoline with liquid oxygen, the first liquid-fueled rocket ever launched.",
+      "why": {
+        "q": "Why does carrying an oxidizer matter so much?",
+        "a": "Without air, there's no outside oxygen to burn fuel. Bringing an oxidizer lets the engine burn anywhere."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\u26fd",
+      "title": "The 90% problem",
+      "text": "The rocket equation says the speed a rocket gains = exhaust speed \u00d7 the natural log of (full mass \u00f7 empty mass). A log grows slowly, so each extra bit of speed costs more and more propellant. NASA's worked example for a 200-mile-high orbit: about 90% of launch weight is propellant, and payload is only about 1%.",
+      "example": "NASA's verdict on its own math: \"Rockets are terribly inefficient and expensive.\""
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83e\uddd1\u200d\ud83d\udd2c",
+      "title": "Right too early",
+      "text": "Goddard answered with experiments. In 1915 he ran a lab experiment showing a rocket works in a vacuum. On March 16, 1926, in Auburn, Massachusetts, his liquid-fueled rocket rose 41 feet in 2.5 seconds. On July 17, 1969, the day after Apollo 11 launched, the Times printed \"A Correction.\"",
+      "example": "It said \"it is now definitely established that a rocket can function in a vacuum as well as in an atmosphere. The Times regrets the error.\""
+    },
+    {
+      "type": "think",
+      "question": "Goddard was mocked and turned out to be right. But plenty of mocked ideas are simply wrong. What would convince you an \"impossible\" idea deserves a real test?",
+      "nudges": [
+        "What did Goddard do besides argue back?",
+        "Think of a business idea people laughed at. What small, cheap test could settle it?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "In empty space, what does a rocket push against?",
+          "options": [
+            {
+              "text": "Its own exhaust",
+              "correct": true,
+              "why": "Right. Rocket pushes exhaust back; exhaust pushes rocket forward."
+            },
+            {
+              "text": "The vacuum itself",
+              "correct": false,
+              "why": "A vacuum is empty. There's nothing there to push."
+            },
+            {
+              "text": "Earth's gravity",
+              "correct": false,
+              "why": "Gravity pulls the rocket down; it doesn't give it a push forward."
+            },
+            {
+              "text": "Starlight",
+              "correct": false,
+              "why": "Rocket engines push on their own exhaust, not on light."
+            }
+          ]
+        },
+        {
+          "q": "Why can't a jet engine take you to space?",
+          "options": [
+            {
+              "text": "It needs oxygen from the air",
+              "correct": true,
+              "why": "Yes. Above the air there's no oxygen for it to use."
+            },
+            {
+              "text": "Jet fuel freezes instantly in space",
+              "correct": false,
+              "why": "The real problem is the missing oxygen from the air."
+            },
+            {
+              "text": "Jets are too heavy to fly that high",
+              "correct": false,
+              "why": "Weight isn't the core issue. Air is."
+            },
+            {
+              "text": "There's no gravity in space",
+              "correct": false,
+              "why": "Gravity still acts in orbit. The jet's problem is no air."
+            }
+          ]
+        },
+        {
+          "q": "NASA's ideal orbit rocket is about 90% propellant. Structure and engines take most of the rest. Roughly how much is payload?",
+          "options": [
+            {
+              "text": "About 1%",
+              "correct": true,
+              "why": "That's NASA's estimate. Most of the last 10% is the rocket itself."
+            },
+            {
+              "text": "About 10%",
+              "correct": false,
+              "why": "The whole non-fuel 10% includes structure and engines, not just payload."
+            },
+            {
+              "text": "About 50%",
+              "correct": false,
+              "why": "Rockets carry far more fuel than that. NASA says about 90%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "A rocket moves in space by\u2026",
+        "It works where jets can't because\u2026",
+        "Most of a rocket is fuel because\u2026"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "jSIq1XsdUqA",
+    "title": "Great Minds: Robert Goddard, Original Rocket Scientist",
+    "channel": "SciShow Space",
+    "duration_sec": 260,
+    "why": "Goddard's story from the 1920 editorial to the 1969 correction, with the third-law reason a rocket works in a vacuum."
+  },
+  "sources": [
+    {
+      "title": "What Is a Rocket? (Grades 5-8)",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-a-rocket-grades-5-8/",
+      "supports": "Rockets turn fuel into hot gas pushed out the back; a jet engine requires oxygen from the air, a rocket carries everything it needs so it works in space; liquid and solid propellants; Newton's third law: rocket pushes exhaust backward, exhaust pushes rocket forward; skateboard/bowling ball example; Goddard flew the first liquid-fuel rocket in 1926."
+    },
+    {
+      "title": "Ideal Rocket Equation",
+      "publisher": "NASA Glenn Research Center",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/ideal-rocket-equation/",
+      "supports": "Delta u = Veq \u00d7 ln(full mass / empty mass); worked example to a 200-mile-high orbit gives a mass ratio of about 10, \"90% of the weight of a rocket going to orbit is propellant weight\", payload only about 1%; \"Rockets are terribly inefficient and expensive.\""
+    },
+    {
+      "title": "Robert H. Goddard",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Robert_H._Goddard",
+      "supports": "January 13, 1920 unsigned NYT editorial quote (\"only seems to lack the knowledge ladled out daily in high schools\"); 1915 Clark lab experiment proving a rocket works in a vacuum; first liquid-fueled (gasoline and liquid oxygen) rocket March 16, 1926, Auburn, Massachusetts, rose 41 feet in 2.5 seconds; NYT \"A Correction\" July 17, 1969, the day after Apollo 11's launch, and its quoted text."
+    }
+  ]
+}

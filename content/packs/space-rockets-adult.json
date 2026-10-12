@@ -1,0 +1,217 @@
+{
+  "id": "space-rockets-adult",
+  "topic": "space",
+  "subject": "rockets",
+  "level": "adult",
+  "title": "The Tyranny of the Rocket Equation",
+  "emoji": "\ud83d\ude80",
+  "summary": "Momentum, a logarithm that bills you exponentially, gravity losses, and why staging is worth its risks.",
+  "minutes": 8,
+  "date_added": "2026-10-12",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why does required propellant climb so steeply as the target speed change rises?",
+      "answer": "\u0394u = Veq\u00b7ln(MR), so the mass ratio needed is e^(\u0394u/Veq): it grows exponentially with the speed change."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why can a rocket produce thrust in a vacuum when a jet engine or propeller can't?",
+      "answer": "It carries its oxidizer and throws its own mass backward; jets and propellers need outside air as working fluid and oxygen."
+    },
+    {
+      "id": "k3",
+      "prompt": "What does staging buy, and what does it cost?",
+      "answer": "It discards spent dry mass and lets each stage's engines suit their conditions, at the cost of complexity and added failure points."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "\ud83d\udd01",
+      "title": "Fuel that has to carry fuel",
+      "text": "Every pound of propellant you add to go faster is itself a pound you must accelerate, using more propellant, which also has to be accelerated. Does the extra tank ever stop paying for itself? The answer is a logarithm, and it is unforgiving."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "In NASA's ideal-rocket example (a hydrogen/oxygen rocket headed to a 200-mile-high orbit), what share of launch weight must be propellant?",
+      "estimate": {
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "unit": "%",
+        "answer": 90
+      },
+      "reveal": "About 90%. NASA's worked example gives a mass ratio of about 10, so 90% of launch weight is propellant and payload is only about 1%.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "\u2696\ufe0f",
+      "title": "Momentum, not air",
+      "text": "A rocket's mass falls continuously as propellant leaves, so NASA derives its motion from momentum change rather than constant-mass F = ma. Thrust is F = \u1e41Ve + Ae(pe \u2212 p0): mass flow times exit velocity, plus a nozzle pressure term. There is no intake term, because no outside air comes aboard. The oxidizer is carried, so the rocket works in vacuum; turbines and propellers can't.",
+      "example": "The pressure term explains why the same engine makes more thrust as outside pressure p0 falls toward vacuum.",
+      "why": {
+        "q": "Why does a jet engine fail where a rocket works?",
+        "a": "Jets and propellers use the atmosphere as their working fluid and its oxygen for combustion. A rocket brings its oxidizer and throws its own mass."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udcc8",
+      "title": "A logarithm that bills you exponentially",
+      "text": "Integrate the momentum balance and you get the ideal rocket equation: \u0394u = Veq \u00b7 ln(MR), where MR = full mass \u00f7 empty mass and Veq = Isp \u00b7 g0. Invert it: MR = e^(\u0394u / (Isp \u00b7 g0)). Speed rises with the log of the mass ratio, so the mass ratio you need rises exponentially with the speed you want.",
+      "example": "NASA's numbers: Isp \u2248 350 s, \u0394u \u2248 25,000 ft/s to a 200-mile orbit, g0 = 32.2 ft/s\u00b2. The exponent is \u2248 2.22 and e^2.22 \u2248 9.2, which NASA rounds to a mass ratio of about 10: 90% propellant, roughly 1% payload."
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83c\udf9b\ufe0f",
+      "title": "Where the lever sits",
+      "text": "Because exhaust velocity sits in the exponent's denominator, engine efficiency pays off multiplicatively, and extra \u0394v costs multiplicatively. That makes Isp, not tank size, the sensitive input.",
+      "example": "In this example: raise Isp from 350 s to 450 s for the same 25,000 ft/s, and the required mass ratio falls from \u2248 9.2 to \u2248 5.6 (about 82% propellant), not the \u2248 7.1 a linear guess suggests. Double the \u0394u instead, and the mass ratio squares, to \u2248 85: about 99% propellant.",
+      "why": {
+        "q": "Why is a modest gain in Isp worth so much?",
+        "a": "Isp divides the exponent. Shrinking an exponent cuts the required mass ratio by a factor, not by a few percent, and every saved pound of propellant compounds."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\u23f1\ufe0f",
+      "title": "Gravity taxes slow burns",
+      "text": "Add gravity and NASA's equation becomes \u0394u = Veq \u00b7 ln(MR) \u2212 g0 \u00b7 tb, where tb is burn time. Every second spent holding the rocket up against gravity spends velocity. That is why first stages usually accept lower Isp in exchange for high thrust to climb quickly, while upper stages, above most of the air, favor higher Isp.",
+      "example": "Say a burn lasts 150 s in NASA's simplified form: g0 \u00b7 tb = 32.2 \u00d7 150 = 4,830 ft/s, about a fifth of the 25,000 ft/s budget."
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83e\udde9",
+      "title": "Staging: shed the empty tanks",
+      "text": "The equation reaches a wall: the mass ratio needed for low Earth orbit is larger than any single stage has achieved. Staging splits the \u0394v. Each spent stage drops its useless dry mass, and each stage's engines can be tuned for sea level or near-vacuum. The costs: lower stages lift engines not yet in use, the vehicle is more complex, and every separation and ignition is a possible failure point.",
+      "example": "In equation terms, jettisoning a spent stage resets the \"empty mass\" the next stage must count, so each stage gets its own fresh logarithm."
+    },
+    {
+      "type": "think",
+      "question": "If payload is about 1% of an ideal orbital rocket's launch weight, where is the biggest cost lever: higher Isp, lighter structure, more stages, or recovering hardware for reuse? What does each trade away?",
+      "nudges": [
+        "Which variables sit inside the exponent, and which only shift the empty mass?",
+        "Staging adds failure points. What would recovering hardware cost you in the mass budget, and how would you price that risk?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Per NASA's ideal rocket equation, a rocket's change in velocity equals\u2026",
+          "options": [
+            {
+              "text": "Effective exhaust velocity \u00d7 ln(full mass \u00f7 empty mass)",
+              "correct": true,
+              "why": "Right: \u0394u = Veq \u00b7 ln(MR)."
+            },
+            {
+              "text": "Thrust \u00f7 launch weight",
+              "correct": false,
+              "why": "That ratio governs whether it lifts off, not the total \u0394u."
+            },
+            {
+              "text": "Burn time \u00d7 average thrust",
+              "correct": false,
+              "why": "That's total impulse; dividing by a changing mass is what yields the log."
+            },
+            {
+              "text": "Exhaust velocity \u00d7 the mass ratio",
+              "correct": false,
+              "why": "It's the natural log of the mass ratio, which is why the costs balloon."
+            }
+          ]
+        },
+        {
+          "q": "In this example, Isp rises from 350 s to 450 s with the same \u0394u (\u2248 25,000 ft/s). The required mass ratio\u2026",
+          "options": [
+            {
+              "text": "Falls from \u2248 9.2 to \u2248 5.6",
+              "correct": true,
+              "why": "e^(25,000/(450\u00d732.2)) = e^1.73 \u2248 5.6. Exponents reward efficiency."
+            },
+            {
+              "text": "Falls in proportion, to \u2248 7.1",
+              "correct": false,
+              "why": "That's linear thinking; Isp sits in the exponent."
+            },
+            {
+              "text": "Doesn't change; only \u0394u matters",
+              "correct": false,
+              "why": "Isp sets Veq, which divides the exponent."
+            },
+            {
+              "text": "Rises, because a hotter engine is heavier",
+              "correct": false,
+              "why": "Engine mass is a separate trade; the equation itself rewards higher Isp."
+            }
+          ]
+        },
+        {
+          "q": "Why do first stages often accept lower specific impulse?",
+          "options": [
+            {
+              "text": "To get high thrust and climb quickly, limiting the g0 \u00b7 tb gravity loss",
+              "correct": true,
+              "why": "Yes. They trade efficiency for thrust to push to altitude fast."
+            },
+            {
+              "text": "Because Isp doesn't affect the rocket equation at liftoff",
+              "correct": false,
+              "why": "Isp always enters through Veq."
+            },
+            {
+              "text": "To reduce the number of staging events",
+              "correct": false,
+              "why": "Engine choice per stage doesn't remove separations."
+            },
+            {
+              "text": "Because high-Isp engines can't run in the atmosphere at all",
+              "correct": false,
+              "why": "The trade is efficiency versus thrust, not a ban."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "A rocket gains speed by\u2026",
+        "The rocket equation is brutal because\u2026",
+        "Engineers fight back with\u2026"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "uWjdnvYok4I",
+    "title": "The tyranny of the rocket equation | Don Pettit | TEDxHouston 2013",
+    "channel": "TEDx Talks",
+    "duration_sec": 736,
+    "why": "Astronaut Don Pettit runs real propellants through the rocket equation and lands near 90% propellant. (He puts payload near 2%; NASA's ideal case says 1%.)"
+  },
+  "sources": [
+    {
+      "title": "Ideal Rocket Equation",
+      "publisher": "NASA Glenn Research Center",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/ideal-rocket-equation/",
+      "supports": "Changing mass means standard F = ma can't be used; momentum derivation; \u0394u = Veq ln(MR), MR = full/empty mass, Veq = Isp\u00b7g0, MR = e^(\u0394u/(Isp\u00b7g0)); worked example Isp \u2248 350 s (LH2/LOX), \u224825,000 ft/s to a 200-mile orbit, g0 = 32.2 ft/s\u00b2, MR \u2248 10, 90% propellant, payload \u2248 1%; with gravity \u0394u = Veq ln(MR) \u2212 g0\u00b7tb."
+    },
+    {
+      "title": "Rocket Thrust Diagram",
+      "publisher": "NASA Glenn Research Center",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/rocket-thrust/",
+      "supports": "Stored fuel and oxidizer burned in a combustion chamber; thrust by Newton's third law; F = \u1e41Ve + Ae(pe \u2212 p0); no free-stream intake term because no external air is brought on board; oxidizer carried so rockets work in vacuum, while gas turbines and propellers rely on the atmosphere for working fluid and oxygen."
+    },
+    {
+      "title": "Multistage rocket",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Multistage_rocket",
+      "supports": "Low Earth orbit needs a wet-to-dry mass ratio larger than achieved in a single stage; staging splits the \u0394v and discards spent dry mass; stages' engines tuned for atmospheric vs near-vacuum conditions; costs: lifting unused engines, complexity, each staging event a possible failure point; initial stages trade lower Isp for superior thrust to climb quickly, later stages higher Isp."
+    }
+  ]
+}

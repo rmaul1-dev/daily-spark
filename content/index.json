@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-11",
+ "updated": "2026-10-12",
  "topics": [
   {
    "id": "history",
@@ -161,6 +161,28 @@
     "kid": "money-inflation-kid"
    },
    "dinner_question": "If a candy bar, a soccer ball, and a tank of gas all cost a little more next year, how would that change one choice you make with your money?"
+  },
+  {
+   "date": "2026-10-19",
+   "topic": "space",
+   "title": "How rockets work",
+   "packs": {
+    "adult": "space-rockets-adult",
+    "teen": "space-rockets-teen",
+    "kid": "space-rockets-kid"
+   },
+   "dinner_question": "A rocket moves by throwing its own exhaust backward. What is one thing you do every day that works by pushing something the other way?"
+  },
+  {
+   "date": "2026-10-20",
+   "topic": "body",
+   "title": "The heart",
+   "packs": {
+    "adult": "body-heart-adult",
+    "teen": "body-heart-teen",
+    "kid": "body-heart-kid"
+   },
+   "dinner_question": "Your heart beats all day without you thinking about it. What else does your body do on its own, and what would be hardest to remember if you had to?"
   }
  ],
  "series": [
@@ -1029,6 +1051,45 @@
     "part": 2,
     "of": 2
    }
+  },
+  {
+   "id": "space-rockets-kid",
+   "topic": "space",
+   "level": "kid",
+   "title": "How a Rocket Pushes Off",
+   "emoji": "🚀",
+   "subject": "rockets",
+   "summary": "A rocket shoots hot gas down, and the gas pushes the rocket up. It even works in space.",
+   "minutes": 6,
+   "date_added": "2026-10-12",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "space-rockets-teen",
+   "topic": "space",
+   "level": "teen",
+   "title": "Rockets: Pushing Off Nothing",
+   "emoji": "🚀",
+   "subject": "rockets",
+   "summary": "Newton's third law, why rockets carry their own oxygen, the 90% fuel problem, and the scientist a newspaper mocked.",
+   "minutes": 7,
+   "date_added": "2026-10-12",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "space-rockets-adult",
+   "topic": "space",
+   "level": "adult",
+   "title": "The Tyranny of the Rocket Equation",
+   "emoji": "🚀",
+   "subject": "rockets",
+   "summary": "Momentum, a logarithm that bills you exponentially, gravity losses, and why staging is worth its risks.",
+   "minutes": 8,
+   "date_added": "2026-10-12",
+   "cards": 10,
+   "keys_count": 3
   },
   {
    "id": "body-heart-kid",

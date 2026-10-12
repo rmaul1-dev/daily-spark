@@ -1,0 +1,233 @@
+{
+  "id": "space-rockets-kid",
+  "topic": "space",
+  "subject": "rockets",
+  "level": "kid",
+  "title": "How a Rocket Pushes Off",
+  "emoji": "\ud83d\ude80",
+  "summary": "A rocket shoots hot gas down, and the gas pushes the rocket up. It even works in space.",
+  "minutes": 6,
+  "date_added": "2026-10-12",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How does a rocket move forward?",
+      "answer": "It pushes hot gas out its back. The gas pushes the rocket forward.",
+      "options": [
+        {
+          "text": "It pushes gas out the back, and the gas pushes it forward",
+          "correct": true
+        },
+        {
+          "text": "It pushes on the air in front of it"
+        },
+        {
+          "text": "Gravity pulls it up into the sky"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Why can a rocket work in space, where there is no air?",
+      "answer": "A rocket carries everything it needs. It does not need air like a jet does.",
+      "options": [
+        {
+          "text": "It carries everything it needs, so it does not need air",
+          "correct": true
+        },
+        {
+          "text": "Space is full of air for it to use"
+        },
+        {
+          "text": "It turns its engine off in space and floats up"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What has to be true for a rocket to lift off?",
+      "answer": "Its push up, called thrust, must be bigger than gravity's pull down.",
+      "options": [
+        {
+          "text": "Its push up must be bigger than gravity's pull down",
+          "correct": true
+        },
+        {
+          "text": "It must be lighter than a feather"
+        },
+        {
+          "text": "It must wait for a windy day"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "\ud83d\udef9",
+      "title": "Throw and roll",
+      "text": "Imagine you stand on a skateboard. You hold a heavy ball. You throw it forward as hard as you can. What happens to you?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "How fast does a rocket need to go to stay up in orbit around Earth?",
+      "options": [
+        {
+          "text": "About 180 miles per hour"
+        },
+        {
+          "text": "About 1,800 miles per hour"
+        },
+        {
+          "text": "At least 17,800 miles per hour",
+          "correct": true
+        }
+      ],
+      "reveal": "At least 17,800 miles per hour! NASA says a rocket must go that fast, above most of the air, to stay in orbit.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "\u2194\ufe0f",
+      "title": "Push back, go forward",
+      "text": "A rocket burns fuel and makes hot gas. It pushes the gas out its back. The gas pushes the rocket forward. This is Newton's third law: every action has an equal and opposite reaction.",
+      "example": "On the skateboard, you push the ball forward. The ball pushes you back, so you roll the other way.",
+      "why": {
+        "q": "Why does the ball go farther than you do?",
+        "a": "You are heavier than the ball. NASA says that is why the ball moves farther than the person."
+      },
+      "examples_by_interest": {
+        "soccer": "Say\u2026 you stand on a skateboard and do a hard soccer throw-in. You roll back a little. The ball is light, so it zooms away."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83c\udf92",
+      "title": "No air needed",
+      "text": "A jet engine needs air to work. A rocket engine does not. It carries with it everything it needs. That is why a rocket works in space, where there is no air.",
+      "example": "Some rockets burn liquid fuel. Others burn solid fuel. Fireworks and model rockets use solid fuel.",
+      "why": {
+        "q": "Why can't a jet plane fly to space?",
+        "a": "A jet needs air to work. Space has no air, so a jet engine can't run there."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\u2b06\ufe0f",
+      "title": "Beat gravity",
+      "text": "Earth's gravity pulls down on a rocket. The push from the hot gas is called thrust. To lift off, the thrust pushing up must be bigger than gravity pulling down.",
+      "example": "That is why the biggest, heaviest spacecraft need the biggest rockets and the most fuel."
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udca8",
+      "title": "Super fast to stay up",
+      "text": "To stay in orbit, a rocket must reach at least 17,800 miles per hour. It must also fly above most of the air. Then it can let its satellite go.",
+      "example": "The space station circles about 250 miles up. It moves about 17,150 miles per hour. That is almost 5 miles every second!"
+    },
+    {
+      "type": "think",
+      "question": "What else around you moves by pushing something the other way?",
+      "nudges": [
+        "Think about swimming, rowing a boat, or walking.",
+        "What do your hands or feet push on? Which way do you go?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "A rocket pushes hot gas out its back. What happens next?",
+          "options": [
+            {
+              "text": "The gas pushes the rocket forward",
+              "correct": true,
+              "why": "Yes. Action and reaction go in opposite ways."
+            },
+            {
+              "text": "The rocket stops moving",
+              "correct": false,
+              "why": "The push on the gas gives the rocket a push too."
+            },
+            {
+              "text": "The gas pulls the rocket backward",
+              "correct": false,
+              "why": "The rocket goes the opposite way from the gas."
+            }
+          ]
+        },
+        {
+          "q": "Why can a rocket work in space?",
+          "options": [
+            {
+              "text": "It carries everything it needs",
+              "correct": true,
+              "why": "Right. It does not need air."
+            },
+            {
+              "text": "Space is full of air",
+              "correct": false,
+              "why": "Space has no air. That is why jets can't go there."
+            },
+            {
+              "text": "It is pulled by the Moon",
+              "correct": false,
+              "why": "The rocket moves by pushing out its own gas."
+            }
+          ]
+        },
+        {
+          "q": "To lift off the ground, a rocket's thrust must be\u2026",
+          "options": [
+            {
+              "text": "Bigger than gravity's pull",
+              "correct": true,
+              "why": "Yes. The push up has to win."
+            },
+            {
+              "text": "Smaller than gravity's pull",
+              "correct": false,
+              "why": "Then the rocket would stay on the pad."
+            },
+            {
+              "text": "Exactly zero",
+              "correct": false,
+              "why": "With no thrust, nothing pushes the rocket up."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "A rocket moves by\u2026",
+        "It works in space because\u2026",
+        "To stay in orbit, it has to\u2026"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "o2FFtPPM3iY",
+    "title": "How Do We Launch Things into Space?",
+    "channel": "NASA Space Place",
+    "duration_sec": 164,
+    "why": "A short NASA cartoon shows thrust beating gravity and the 17,800 mph speed a rocket needs to reach orbit."
+  },
+  "sources": [
+    {
+      "title": "What Is a Rocket? (Grades K-4)",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-a-rocket-grades-k-4/",
+      "supports": "Rocket engines turn fuel into hot gas and push it out the back, which moves the rocket forward; a jet engine needs air but a rocket carries everything it needs and works in space; liquid and solid fuels, fireworks and model rockets use solid fuel; Newton's third law (equal and opposite reaction); skateboard and bowling ball example, heavier person so the ball moves farther."
+    },
+    {
+      "title": "How Do We Launch Things Into Space?",
+      "publisher": "NASA Space Place",
+      "url": "https://spaceplace.nasa.gov/launching-into-space/en/",
+      "supports": "Exhaust pushes down (action) and the rocket moves up (reaction); gravity pulls down; thrust must be greater than gravity to launch; heaviest spacecraft need the biggest rockets and most propellant; at least 17,800 mph and above most of the atmosphere to stay in orbit; rocket releases the satellite; ISS about 250 miles up at about 17,150 mph."
+    }
+  ]
+}
