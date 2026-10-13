@@ -1,0 +1,237 @@
+{
+  "id": "tech-gps-kid",
+  "topic": "tech",
+  "subject": "gps",
+  "level": "kid",
+  "title": "How Your Phone Knows Where You Are",
+  "emoji": "\ud83d\udef0\ufe0f",
+  "summary": "Satellites send out the time. Your phone times the signals and works out where you are.",
+  "minutes": 6,
+  "date_added": "2026-10-13",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How does your phone tell how far away a GPS satellite is?",
+      "answer": "It checks how long the satellite's signal took to get to it. A longer trip means the satellite is farther away.",
+      "options": [
+        {
+          "text": "It checks how long the signal took to get to it",
+          "correct": true
+        },
+        {
+          "text": "It measures how bright the satellite looks"
+        },
+        {
+          "text": "The satellite sends a photo of your phone"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "How many satellites does your phone need to find where you are?",
+      "answer": "Four. When it knows how far it is from four satellites, only one spot fits.",
+      "options": [
+        {
+          "text": "Four",
+          "correct": true
+        },
+        {
+          "text": "One"
+        },
+        {
+          "text": "Two"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "Do GPS satellites watch or track your phone?",
+      "answer": "No. They only send signals down. Your phone listens and does the math itself.",
+      "options": [
+        {
+          "text": "No. They only send signals, and your phone does the math",
+          "correct": true
+        },
+        {
+          "text": "Yes. They take pictures of every phone"
+        },
+        {
+          "text": "Yes. Your phone has to call them first"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "\ud83d\ude48",
+      "title": "The shouting game",
+      "text": "Close your eyes. One friend calls, \"I'm 10 steps away!\" Another calls, \"I'm 5 steps away!\" A third friend calls too. Could you work out where you are standing?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "How high up are the satellites that GPS uses?",
+      "options": [
+        {
+          "text": "About 10 miles"
+        },
+        {
+          "text": "About 300 miles"
+        },
+        {
+          "text": "About 12,500 miles",
+          "correct": true
+        }
+      ],
+      "reveal": "About 12,500 miles up! That is about 20,000 kilometers above Earth.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udef0\ufe0f",
+      "title": "Clocks in the sky",
+      "text": "GPS uses more than 30 satellites. They fly about 12,500 miles above Earth. Each one sends out a signal all the time. The signal says where the satellite is and what time it is.",
+      "example": "Ground stations on Earth keep checking that each satellite is where it should be."
+    },
+    {
+      "type": "idea",
+      "emoji": "\u23f1\ufe0f",
+      "title": "Time tells distance",
+      "text": "Your phone hears the signal and checks how long it took to arrive. The signal moves at the speed of light. So a longer trip means the satellite is farther away.",
+      "example": "Say a friend always walks at the same speed. If they take longer to reach you, they started farther away.",
+      "why": {
+        "q": "Why do the satellites need super exact clocks?",
+        "a": "The phone uses time to find distance. The signal is so fast that a tiny time mistake would make a big distance mistake."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "4\ufe0f\u20e3",
+      "title": "Four is the magic number",
+      "text": "One distance is not enough. You could be anywhere that far from the satellite. When your phone knows how far it is from four satellites, only one spot fits. That spot is you!",
+      "example": "It is like the shouting game. Each friend's call rules out more places you could be.",
+      "why": {
+        "q": "Why does your phone need more than one satellite?",
+        "a": "One distance only tells you that you are somewhere on a giant ball around the satellite. More distances shrink it down to one spot."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udce1",
+      "title": "GPS listens, it does not watch",
+      "text": "The satellites only send signals down. Your phone does not send anything back to them. Your phone does all the math by itself. GPS is free for anyone in the world to use.",
+      "example": "Most phones can find you to within a few yards. Very fancy GPS tools can get within a few inches!"
+    },
+    {
+      "type": "think",
+      "question": "Before GPS, how do you think people found their way to a new place?",
+      "nudges": [
+        "Long ago, sailors looked up at the night sky. What were they looking at?",
+        "What could you use on a trip if your phone's battery died?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What does each GPS satellite send out?",
+          "options": [
+            {
+              "text": "Where it is and what time it is",
+              "correct": true,
+              "why": "Yes. Your phone uses both to work out where you are."
+            },
+            {
+              "text": "Pictures of the ground",
+              "correct": false,
+              "why": "GPS satellites send signals, not photos."
+            },
+            {
+              "text": "Text messages from friends",
+              "correct": false,
+              "why": "GPS signals carry place and time, not messages."
+            }
+          ]
+        },
+        {
+          "q": "A signal takes longer to reach your phone. What does that tell it?",
+          "options": [
+            {
+              "text": "That satellite is farther away",
+              "correct": true,
+              "why": "Right. A longer trip means a longer distance."
+            },
+            {
+              "text": "That satellite is closer",
+              "correct": false,
+              "why": "A closer satellite's signal would get there sooner."
+            },
+            {
+              "text": "That satellite is broken",
+              "correct": false,
+              "why": "It just means the signal had farther to go."
+            }
+          ]
+        },
+        {
+          "q": "Why does your phone need four satellites, not just one?",
+          "options": [
+            {
+              "text": "One distance could mean lots of places, but four fit one spot",
+              "correct": true,
+              "why": "Yes. Each distance rules out more places."
+            },
+            {
+              "text": "Each satellite only works on one day of the week",
+              "correct": false,
+              "why": "They all work all the time. The phone needs more than one distance."
+            },
+            {
+              "text": "So it can take a group photo",
+              "correct": false,
+              "why": "GPS satellites don't take photos. They help your phone measure distances."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "GPS satellites send out\u2026",
+        "Your phone works out how far away they are by\u2026",
+        "It needs four satellites because\u2026"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "RSA3feQ9gKk",
+    "title": "How does GPS work?",
+    "channel": "NASA Space Place",
+    "duration_sec": 163,
+    "start": 54,
+    "why": "A short NASA cartoon shows a phone timing satellite signals to find the nearest pizza place. It starts partway in, right where the phone begins measuring."
+  },
+  "sources": [
+    {
+      "title": "How Does GPS Work?",
+      "publisher": "NASA Space Place",
+      "url": "https://spaceplace.nasa.gov/gps/en/",
+      "supports": "GPS is 30+ navigation satellites, ground stations and receivers; a receiver in a phone listens for satellite signals and, once it knows its distance from four or more satellites, figures out where you are; usually within a few yards, high-tech receivers within a few inches; ancient sailors used the stars to find their way."
+    },
+    {
+      "title": "GPS",
+      "publisher": "GPS.gov (U.S. government)",
+      "url": "https://www.gps.gov/gps",
+      "supports": "GPS has three segments (space, control, user); the U.S. Space Force runs the space and control segments; satellites transmit one-way signals giving their current position and time; the control segment adjusts the satellite clocks; the receiver uses the signals to calculate its own position and time; the civilian service is free to all users worldwide."
+    },
+    {
+      "title": "Global Positioning System",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Global_Positioning_System",
+      "supports": "Radio signals travel at the constant speed of light, so signal delay is proportional to distance; four satellites are needed to solve three position coordinates plus the receiver's clock error; three spheres usually meet at two points, one not on Earth; satellites carry synchronized atomic clocks; orbit about 20,180 km (12,540 mi); users transmit no data; smartphones can reach 4.9 m (16 ft); started by the Defense Department in 1973, prototype 1978, full 24 satellites in 1993; after Korean Air Lines Flight 007 was shot down in 1983, Reagan directed free civilian use; Selective Availability degraded civilian accuracy to about 100 m until it was disabled May 1, 2000; 31 operational satellites; timing for banking, phones and power grids; jamming vulnerability; no U.S. land-based backup, an outage estimated at $1 billion a day, LORAN-C turned off in North America in 2010."
+    }
+  ]
+}

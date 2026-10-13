@@ -1,0 +1,218 @@
+{
+  "id": "tech-gps-teen",
+  "topic": "tech",
+  "subject": "gps",
+  "level": "teen",
+  "title": "GPS Is a Stopwatch in Space",
+  "emoji": "\ud83d\udef0\ufe0f",
+  "summary": "Satellites broadcast the time, your phone times the trip, and a fourth satellite fixes your phone's cheap clock.",
+  "minutes": 7,
+  "date_added": "2026-10-13",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How does a GPS receiver turn a satellite signal into a distance?",
+      "answer": "It measures how long the signal took to arrive. Radio waves travel at the speed of light, so distance = speed \u00d7 time."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why does a receiver need four satellites, not three?",
+      "answer": "Three distances would pin down your position only if your clock were perfect. The fourth solves for your phone's clock error."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why can GPS work for billions of users at once?",
+      "answer": "It's one-way. Satellites only broadcast; receivers listen and do the math, so no user sends anything back."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "\ud83e\udded",
+      "title": "Nobody is watching",
+      "text": "No GPS satellite knows where your phone is. Your phone never sends them a thing. Yet a smartphone can often work out where it is to within about 16 feet. How do you find yourself using signals that only go one way?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Each satellite tells your phone how far away it is. How many satellites does your phone need to find its position on its own?",
+      "options": [
+        {
+          "text": "1"
+        },
+        {
+          "text": "3"
+        },
+        {
+          "text": "4",
+          "correct": true
+        }
+      ],
+      "reveal": "Four. Three distances would be enough with a perfect clock, but your phone's clock isn't perfect, and the fourth satellite solves for that error.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udce1",
+      "title": "Three parts, one direction",
+      "text": "GPS has three segments. The space segment is the satellites. The control segment is ground stations that keep orbits on track and adjust satellite clocks. The user segment is every receiver. Satellites send one-way signals stating their position and the time, and the U.S. Space Force runs the system. It's free to civilians worldwide.",
+      "example": "Because receivers only listen, the satellites never have to deal with any phone one at a time."
+    },
+    {
+      "type": "idea",
+      "emoji": "\u23f1\ufe0f",
+      "title": "Distance = speed \u00d7 time",
+      "text": "Radio waves move at the speed of light, and that speed doesn't change. So the delay between when a signal leaves the satellite and when it arrives tells you the distance. Your phone reads the send time stamped in the signal and compares it with the arrival time.",
+      "example": "Say a friend texts \"leaving now\" and always bikes at 10 mph. If they arrive 30 minutes later, they were 10 \u00d7 0.5 = 5 miles away.",
+      "examples_by_interest": {
+        "golf": "Say a golf cart always drives 12 mph and takes 5 minutes to reach the clubhouse. It was 12 \u00d7 5/60 = 1 mile away. GPS does the same math with radio waves."
+      },
+      "why": {
+        "q": "Why do GPS satellites carry atomic clocks?",
+        "a": "Light is so fast that a tiny timing error becomes a big distance error. Atomic clocks keep the time stamps exact, and ground stations keep them in sync."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83c\udf10",
+      "title": "Why four, not three",
+      "text": "One distance puts you somewhere on a sphere around a satellite. Three spheres usually meet at just two points, and one usually isn't on Earth. But that only works if your clock is perfect, and a phone's isn't. So there are four unknowns: three for position, one for clock error. Four satellites give four equations.",
+      "example": "The satellites are spread across six orbital planes so that at least four are visible from virtually anywhere on Earth.",
+      "why": {
+        "q": "Why not just put an atomic clock in every phone?",
+        "a": "You don't need to. Solving for the clock error with a fourth satellite lets a cheap phone clock work almost as if it were perfect."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\u2708\ufe0f",
+      "title": "Built for the military, opened to all",
+      "text": "The Defense Department started GPS in 1973, and the full 24 satellites were working by 1993. In 1983 a Korean Air Lines jet strayed into Soviet airspace and was shot down. Afterward, President Reagan directed that GPS be made free for civilian use once it was ready. Civilian accuracy was blurred on purpose to about 100 meters until that was switched off on May 1, 2000.",
+      "example": "The first prototype GPS satellite launched in 1978, five years after the project began."
+    },
+    {
+      "type": "think",
+      "question": "The U.S. government built GPS for the military and then made it free for the whole world. What are the strongest reasons for and against giving away a tool like that?",
+      "nudges": [
+        "Who gains when everyone can use it: airlines, farmers, delivery apps, other countries?",
+        "What risks come with everyone, including rivals, relying on one country's system?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "A signal from a satellite takes longer to reach you than one from another satellite. What does that mean?",
+          "options": [
+            {
+              "text": "The slower-arriving satellite is farther away",
+              "correct": true,
+              "why": "Right. Same speed, more time, more distance."
+            },
+            {
+              "text": "That satellite's radio waves are slower",
+              "correct": false,
+              "why": "Radio waves all travel at the speed of light. The extra time means extra distance."
+            },
+            {
+              "text": "That satellite is broken",
+              "correct": false,
+              "why": "Different arrival times are normal. They're exactly what the receiver uses."
+            },
+            {
+              "text": "Your phone is moving toward it",
+              "correct": false,
+              "why": "The main reason is the extra distance the signal had to travel."
+            }
+          ]
+        },
+        {
+          "q": "Why is the fourth satellite needed?",
+          "options": [
+            {
+              "text": "To solve for the error in the phone's own clock",
+              "correct": true,
+              "why": "Yes. Position has three unknowns, and the clock adds a fourth."
+            },
+            {
+              "text": "To send the phone a map",
+              "correct": false,
+              "why": "Maps come from your app. GPS satellites send position and time."
+            },
+            {
+              "text": "As a spare in case one breaks",
+              "correct": false,
+              "why": "Spares exist in orbit, but the receiver needs four signals for the math."
+            },
+            {
+              "text": "To track where the phone is",
+              "correct": false,
+              "why": "GPS is one-way. Satellites don't track receivers."
+            }
+          ]
+        },
+        {
+          "q": "Before May 2000, why was civilian GPS less accurate?",
+          "options": [
+            {
+              "text": "Civilian signals were blurred on purpose",
+              "correct": true,
+              "why": "Right. That feature was called Selective Availability."
+            },
+            {
+              "text": "There were no satellites yet",
+              "correct": false,
+              "why": "The full constellation was working by 1993."
+            },
+            {
+              "text": "Phones didn't have screens",
+              "correct": false,
+              "why": "The limit was in the signal, not in the devices."
+            },
+            {
+              "text": "Radio waves were slower then",
+              "correct": false,
+              "why": "The speed of light hasn't changed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "GPS satellites broadcast\u2026",
+        "Your phone turns that into distance by\u2026",
+        "It needs a fourth satellite because\u2026"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "70cDSUI4XKE",
+    "title": "How does your smartphone know your location? - Wilton L. Virgo",
+    "channel": "TED-Ed",
+    "duration_sec": 303,
+    "why": "TED-Ed shows why distance = speed of light \u00d7 time needs atomic clocks, how those clocks tick, and how four spheres pin down one point."
+  },
+  "sources": [
+    {
+      "title": "GPS",
+      "publisher": "GPS.gov (U.S. government)",
+      "url": "https://www.gps.gov/gps",
+      "supports": "GPS has three segments (space, control, user); the U.S. Space Force runs the space and control segments; satellites transmit one-way signals giving their current position and time; the control segment adjusts the satellite clocks; the receiver uses the signals to calculate its own position and time; the civilian service is free to all users worldwide."
+    },
+    {
+      "title": "Space Segment",
+      "publisher": "GPS.gov (U.S. government)",
+      "url": "https://www.gps.gov/space-segment",
+      "supports": "Satellites fly about 20,200 km (12,550 miles) up and circle Earth twice a day in six orbital planes; the arrangement lets users see at least four satellites from virtually anywhere; 31 operational satellites as of July 3, 2023."
+    },
+    {
+      "title": "Global Positioning System",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Global_Positioning_System",
+      "supports": "Radio signals travel at the constant speed of light, so signal delay is proportional to distance; four satellites are needed to solve three position coordinates plus the receiver's clock error; three spheres usually meet at two points, one not on Earth; satellites carry synchronized atomic clocks; orbit about 20,180 km (12,540 mi); users transmit no data; smartphones can reach 4.9 m (16 ft); started by the Defense Department in 1973, prototype 1978, full 24 satellites in 1993; after Korean Air Lines Flight 007 was shot down in 1983, Reagan directed free civilian use; Selective Availability degraded civilian accuracy to about 100 m until it was disabled May 1, 2000; 31 operational satellites; timing for banking, phones and power grids; jamming vulnerability; no U.S. land-based backup, an outage estimated at $1 billion a day, LORAN-C turned off in North America in 2010."
+    }
+  ]
+}

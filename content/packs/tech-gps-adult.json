@@ -1,0 +1,219 @@
+{
+  "id": "tech-gps-adult",
+  "topic": "tech",
+  "subject": "gps",
+  "level": "adult",
+  "title": "GPS Is a Clock Network That Happens to Find You",
+  "emoji": "\ud83d\udef0\ufe0f",
+  "summary": "Positioning is timing: four pseudoranges, a relativity correction baked into the hardware, and an economy that quietly runs on GPS time.",
+  "minutes": 8,
+  "date_added": "2026-10-13",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why does a GPS fix need four satellites rather than three?",
+      "answer": "The receiver's cheap clock is a fourth unknown alongside three position coordinates, so it needs four ranges to solve all four."
+    },
+    {
+      "id": "k2",
+      "prompt": "How does relativity affect GPS satellite clocks, and what's done about it?",
+      "answer": "Net, they run about 38 \u00b5s a day fast versus ground clocks. They're built to tick slower before launch, and receivers apply the remaining corrections."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why is GPS a single point of failure well beyond navigation?",
+      "answer": "Its time signal synchronizes things like banking, cell networks and power grids, and it can be jammed; the U.S. has no land-based backup."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "\u23f3",
+      "title": "Einstein in your pocket",
+      "text": "Relativity sounds like physics with no practical stakes. Yet if GPS ignored it, position fixes would go bad within about two minutes, and errors would keep growing by roughly 10 kilometers a day. Every phone map is quietly running a relativity correction."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "Combining special and general relativity, how many microseconds per day do GPS satellite clocks gain relative to identical clocks on the ground?",
+      "estimate": {
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "\u00b5s",
+        "answer": 38
+      },
+      "reveal": "About 38 \u00b5s a day: roughly 45 fast from weaker gravity, minus about 7 slow from orbital speed.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udce1",
+      "title": "Positioning is timing",
+      "text": "Each satellite broadcasts its position and a time stamp from synchronized atomic clocks. Radio travels at the constant speed of light, so time of flight converts to range. The system is one-way: receivers only listen, so any number can use it at once and none has to reveal itself. The hard part isn't geometry; it's knowing time to tens of nanoseconds.",
+      "example": "The government commits to delivering time within 30 ns of the U.S. Naval Observatory's UTC, 95% of the time, to a fixed timing receiver."
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83e\uddee",
+      "title": "Four unknowns, four ranges",
+      "text": "A receiver's own clock is far too poor to time light directly, so each measured range carries the same unknown clock bias. These are pseudoranges. With three coordinates plus bias, you need four satellites. The constellation, 24 baseline slots in six planes with 31 operational satellites, is laid out so at least four are in view almost anywhere.",
+      "example": "The by-product is valuable: solving for the bias hands a $100 receiver atomic-grade time.",
+      "why": {
+        "q": "Why not just put an atomic clock in every receiver?",
+        "a": "Treating the receiver's clock error as one more unknown keeps the atomic clocks in orbit, shared by every user, and gives receivers cheap, highly accurate time."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83c\udf0c",
+      "title": "Relativity, in the error budget",
+      "text": "Orbiting at about 14,000 km/h, satellite clocks run slow by about 7 \u00b5s a day (special relativity). Sitting about 20,000 km up in weaker gravity, they run fast by about 45 \u00b5s (general relativity). Net: about 38 \u00b5s, or 38,000 ns, against a 20\u201330 ns timing need. Engineers set the clocks to tick slower before launch, and receivers compute the remaining corrections.",
+      "example": "38 \u00b5s is more than a thousand times the 20\u201330 ns budget, which is why an uncorrected fix would go stale within minutes.",
+      "why": {
+        "q": "Why do the two effects push in opposite directions?",
+        "a": "Speed slows a clock as seen from the ground, while weaker gravity higher up speeds it. At GPS altitude the gravity effect is larger."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83c\udfaf",
+      "title": "Signal accuracy is not your accuracy",
+      "text": "The government commits to a signal-in-space range error of 2.0 m or less (95%); on April 20, 2021 it measured 0.643 m. What you see depends on geometry, atmosphere, receiver quality, and local blockage. Phones are typically within 4.9 m under open sky but worse among buildings, where reflected signals (multipath) mislead. Dual-frequency receivers plus corrections reach centimeters.",
+      "example": "A blue dot that drifts across the street downtown is a textbook case of blockage and reflected signals, the most common causes GPS.gov lists."
+    },
+    {
+      "type": "idea",
+      "emoji": "\u26a1",
+      "title": "The hidden dependency",
+      "text": "GPS time synchronizes banking, mobile networks, and power-grid switching. That makes a weak, jammable signal into infrastructure. The U.S. has no land-based backup: LORAN-C was shut off in North America in 2010, and one estimate puts the cost of an outage at $1 billion a day. Resilience is a trade-off between paying for redundancy and accepting tail risk.",
+      "example": "The useful question for any business: which systems fail, and how gracefully, if GPS time disappears for a day?"
+    },
+    {
+      "type": "think",
+      "question": "GPS is a free public good from one government, paid for once and relied on by everyone. Who should pay for backups like eLoran or alternative timing: government, the industries that depend on it, or nobody until the risk shows up?",
+      "nudges": [
+        "Make the strongest case for each option, including doing nothing.",
+        "How would you price a rare outage against a steady annual cost?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "A receiver tracks only three satellites and has a cheap clock. What's the core problem?",
+          "options": [
+            {
+              "text": "Four unknowns (x, y, z, clock bias) but only three equations",
+              "correct": true,
+              "why": "Right. The clock bias is the fourth unknown."
+            },
+            {
+              "text": "Three spheres can never intersect",
+              "correct": false,
+              "why": "They usually meet at two points. The issue is the unknown clock bias in every range."
+            },
+            {
+              "text": "The satellites can't see the receiver",
+              "correct": false,
+              "why": "Satellites never see receivers. GPS is one-way."
+            },
+            {
+              "text": "Relativity makes three-satellite fixes impossible",
+              "correct": false,
+              "why": "Relativity is corrected in the system design; it isn't why three are not enough."
+            }
+          ]
+        },
+        {
+          "q": "Which statement about relativity in GPS is correct?",
+          "options": [
+            {
+              "text": "Gravity speeds satellite clocks more than speed slows them, netting about +38 \u00b5s a day",
+              "correct": true,
+              "why": "Yes: about +45 from gravity minus about 7 from speed."
+            },
+            {
+              "text": "Special relativity dominates, so satellite clocks run slow",
+              "correct": false,
+              "why": "Speed slows them about 7 \u00b5s, but weaker gravity speeds them about 45."
+            },
+            {
+              "text": "The effects cancel exactly at GPS altitude",
+              "correct": false,
+              "why": "They don't cancel; the net is about 38 \u00b5s a day."
+            },
+            {
+              "text": "Relativity only matters for military receivers",
+              "correct": false,
+              "why": "Every fix depends on correcting it."
+            }
+          ]
+        },
+        {
+          "q": "The government commits to a signal-in-space range error of 2.0 m or less. What does that tell you about your phone's accuracy?",
+          "options": [
+            {
+              "text": "Little on its own; geometry, atmosphere, the receiver and blockage also matter",
+              "correct": true,
+              "why": "Right. GPS.gov stresses that URE is not user accuracy."
+            },
+            {
+              "text": "You're always within 2.0 m",
+              "correct": false,
+              "why": "That figure is the signal's range error, not your position error."
+            },
+            {
+              "text": "You're within 0.643 m today",
+              "correct": false,
+              "why": "That was one day's global average signal error, not a phone's accuracy."
+            },
+            {
+              "text": "Accuracy is the same downtown and in an open field",
+              "correct": false,
+              "why": "Buildings block and reflect signals, which worsens accuracy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "GPS is really a timing system because\u2026",
+        "A receiver needs four satellites because\u2026",
+        "Relativity matters because\u2026"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "EUrU1y5is3Y",
+    "title": "How GPS Works (Global Positioning System) for Satellite Navigation - Computerphile",
+    "channel": "Computerphile",
+    "duration_sec": 319,
+    "start": 0,
+    "end": 302,
+    "why": "A Nottingham geospatial researcher uses balloons to show intersecting ranges and why a fourth satellite gives your phone atomic-grade time. Ends before a side remark."
+  },
+  "sources": [
+    {
+      "title": "Real-World Relativity: The GPS Navigation System",
+      "publisher": "Richard Pogge, The Ohio State University",
+      "url": "https://www.astronomy.ohio-state.edu/pogge.1/Ast162/Unit5/gps.html",
+      "supports": "Satellites about 20,000 km up at about 14,000 km/h with a roughly 12-hour orbit; ticks must be known to 20-30 nanoseconds; special relativity slows satellite clocks about 7 microseconds a day, general relativity speeds them about 45, net about 38 microseconds a day (38,000 ns); uncorrected, fixes would be false after about 2 minutes and errors would grow about 10 km a day; clocks are built to tick slower before launch, and receivers compute the remaining corrections."
+    },
+    {
+      "title": "GPS Accuracy",
+      "publisher": "GPS.gov (U.S. government)",
+      "url": "https://www.gps.gov/gps-accuracy",
+      "supports": "Smartphones are typically accurate to 4.9 m (16 ft) under open sky, worse near buildings, bridges and trees; blockage and reflected signals (multipath) cause errors; high-end receivers reach a few centimeters; government commits to a signal-in-space user range error of 2.0 m or less (95%), actual 0.643 m on April 20, 2021; URE is not user accuracy; time transfer within 30 nanoseconds of UTC(USNO) 95% of the time; dual frequency corrects atmospheric distortion."
+    },
+    {
+      "title": "Global Positioning System",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Global_Positioning_System",
+      "supports": "Radio signals travel at the constant speed of light, so signal delay is proportional to distance; four satellites are needed to solve three position coordinates plus the receiver's clock error; three spheres usually meet at two points, one not on Earth; satellites carry synchronized atomic clocks; orbit about 20,180 km (12,540 mi); users transmit no data; smartphones can reach 4.9 m (16 ft); started by the Defense Department in 1973, prototype 1978, full 24 satellites in 1993; after Korean Air Lines Flight 007 was shot down in 1983, Reagan directed free civilian use; Selective Availability degraded civilian accuracy to about 100 m until it was disabled May 1, 2000; 31 operational satellites; timing for banking, phones and power grids; jamming vulnerability; no U.S. land-based backup, an outage estimated at $1 billion a day, LORAN-C turned off in North America in 2010."
+    }
+  ]
+}

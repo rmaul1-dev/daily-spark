@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-12",
+ "updated": "2026-10-13",
  "topics": [
   {
    "id": "history",
@@ -183,6 +183,17 @@
     "kid": "body-heart-kid"
    },
    "dinner_question": "Your heart beats all day without you thinking about it. What else does your body do on its own, and what would be hardest to remember if you had to?"
+  },
+  {
+   "date": "2026-10-21",
+   "topic": "tech",
+   "title": "How GPS finds you",
+   "packs": {
+    "adult": "tech-gps-adult",
+    "teen": "tech-gps-teen",
+    "kid": "tech-gps-kid"
+   },
+   "dinner_question": "Before phones had GPS, how did people find their way somewhere new, and which of those ways do you think you'd be best at?"
   }
  ],
  "series": [
@@ -702,6 +713,45 @@
    "minutes": 8,
    "date_added": "2026-10-09",
    "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "tech-gps-kid",
+   "topic": "tech",
+   "level": "kid",
+   "title": "How Your Phone Knows Where You Are",
+   "emoji": "🛰️",
+   "subject": "gps",
+   "summary": "Satellites send out the time. Your phone times the signals and works out where you are.",
+   "minutes": 6,
+   "date_added": "2026-10-13",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "tech-gps-teen",
+   "topic": "tech",
+   "level": "teen",
+   "title": "GPS Is a Stopwatch in Space",
+   "emoji": "🛰️",
+   "subject": "gps",
+   "summary": "Satellites broadcast the time, your phone times the trip, and a fourth satellite fixes your phone's cheap clock.",
+   "minutes": 7,
+   "date_added": "2026-10-13",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "tech-gps-adult",
+   "topic": "tech",
+   "level": "adult",
+   "title": "GPS Is a Clock Network That Happens to Find You",
+   "emoji": "🛰️",
+   "subject": "gps",
+   "summary": "Positioning is timing: four pseudoranges, a relativity correction baked into the hardware, and an economy that quietly runs on GPS time.",
+   "minutes": 8,
+   "date_added": "2026-10-13",
+   "cards": 10,
    "keys_count": 3
   },
   {
