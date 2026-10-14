@@ -1,0 +1,217 @@
+{
+  "id": "history-rosetta-stone-adult",
+  "topic": "history",
+  "subject": "rosetta-stone",
+  "level": "adult",
+  "title": "Breaking a Dead Script: The Rosetta Stone",
+  "emoji": "\ud83d\udcdc",
+  "summary": "Why a parallel text took 20 years to crack: a wrong model, mismatched versions, and the cross-checks that finally worked.",
+  "minutes": 8,
+  "date_added": "2026-10-14",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why wasn't a readable Greek version enough to decode the hieroglyphs quickly?",
+      "answer": "The versions only roughly matched, and scholars believed hieroglyphs were purely ideographic, so they had no way to test sign-to-sound readings."
+    },
+    {
+      "id": "k2",
+      "prompt": "What did the Ramesses cartouche falsify, and why did it matter?",
+      "answer": "Young's view that sound signs spelled only foreign names. A native pharaoh's name written by sound showed the script had a phonetic core."
+    },
+    {
+      "id": "k3",
+      "prompt": "What did Champollion's system get wrong, and who corrected it?",
+      "answer": "He leaned too hard on Coptic and treated every sound sign as one consonant. Lepsius in 1837 explained two- and three-consonant signs."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "\ud83d\udcc9",
+      "title": "A two-week job that took 20 years",
+      "text": "Scholars had one decree in three scripts, and one of them was readable Greek. By one author's account, the first people to look at it expected decipherment to take two weeks; it took 20 years. A parallel text should be the easiest case in code-breaking. Why wasn't it?"
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "Champollion's system listed more than 200 signs that each stood for a single sound. How many single-consonant signs does the modern understanding of hieroglyphs count?",
+      "estimate": {
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "answer": 24
+      },
+      "reveal": "24. Lepsius cut Champollion's 200-plus to 30 in 1837, and the modern count is 24. Many signs Champollion read as one sound actually spell two or three.",
+      "reveal_after": 5
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83c\udfdb\ufe0f",
+      "title": "A propaganda poster in two languages",
+      "text": "The Memphis decree of 27 March 196 BC was issued by a congress of priests honoring the boy-king Ptolemy V, crowned at 12 amid a revolt in the south and losses abroad. The Greek-speaking dynasty needed the priesthood, so the decree went out in hieroglyphs, Demotic and Greek: two languages, three scripts. One author calls it \"a propaganda poster carved in stone.\" Which version came first is still debated.",
+      "example": "The hieroglyphic version used a deliberately archaic form of Egyptian, obsolete for centuries. That is one reason the three versions can't be matched word for word."
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udd2e",
+      "title": "A wrong prior, held for 1,400 years",
+      "text": "The last known hieroglyphic inscription dates to AD 394. What survived was commentary from classical authors who described the script as symbols of ideas. Horapollo's Hieroglyphica said a goose meant \"son\" because geese love their young; in fact the sign was used because the two words shared consonants. With a purely ideographic model, more data couldn't help: there was no way to test a reading.",
+      "why": {
+        "q": "Why does a wrong model of the system hurt more than missing data?",
+        "a": "It decides what counts as an answer. Hunting for symbolic meanings, scholars had no way to check readings against sounds, so errors were never caught."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83e\udde9",
+      "title": "Anchors first",
+      "text": "Progress began with proper names, which a script has to spell by sound when it has no word for them. In 1802 \u00c5kerblad built a 29-letter Demotic alphabet from Greek names, more than half of it correct. Young found the Ptolemy cartouche and about 80 hieroglyph-Demotic matches; of his 13 sound values, six were right, three partly right and four wrong. Then he stopped, convinced sound signs were only for foreign names.",
+      "example": "Griffith later judged Young's results \"mixed up with many false conclusions, but the method pursued was infallibly leading to definite decipherment.\""
+    },
+    {
+      "type": "idea",
+      "emoji": "\u2600\ufe0f",
+      "title": "The falsification test",
+      "text": "Champollion cross-checked Ptolemy against a Cleopatra cartouche from Philae: p, l and o fit both, and two different t signs implied homophones. Then, in September 1822, a four-sign cartouche from Abu Simbel: a sun disc (Coptic re), an unknown, and s, s. Ramesses, a native pharaoh centuries before Greek rule. Thutmose followed, and the same m and s signs sat where the Greek had \"birth\" (Coptic mise).",
+      "example": "He read his Lettre \u00e0 M. Dacier to the Acad\u00e9mie on 27 September 1822, with Young in the audience. His 1824 Pr\u00e9cis called hieroglyphs \"a script all at once figurative, symbolic and phonetic.\"",
+      "why": {
+        "q": "Why was a native pharaoh's name more decisive than more Greek names?",
+        "a": "Young's model allowed sound signs only for foreign names. Ramesses long predated Greek rule, so a phonetic spelling falsified that model."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udee0\ufe0f",
+      "title": "Right method, wrong details",
+      "text": "Champollion overestimated how close Coptic was to classical Egyptian (\"like French from Latin,\" Griffith wrote). He also thought every sound sign stood for one consonant, so he read the two-consonant ms sign as m and counted over 200 single-sound signs. In 1837 Lepsius explained two- and three-consonant signs and cut the list to 30; today's count is 24. The breakthrough arrived with errors that successors fixed.",
+      "example": "Young, meanwhile, kept working on Demotic. Egyptologist John Ray says he \"probably deserves to be known as the decipherer of demotic.\""
+    },
+    {
+      "type": "think",
+      "question": "Credit for the decipherment is still argued along national lines. Richard Parkinson's verdict: \"Young discovered parts of an alphabet\u2014a key\u2014but Champollion unlocked an entire language.\" In your work, who should get the credit: the person who frames the method, or the one who makes it work at scale?",
+      "nudges": [
+        "Steelman Young's claim, then Champollion's.",
+        "How do patents, citations or equity splits handle the same question?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What best explains why a readable Greek text didn't produce a quick decipherment?",
+          "options": [
+            {
+              "text": "The versions didn't align word for word, and the prevailing model treated hieroglyphs as purely ideographic",
+              "correct": true,
+              "why": "Right. A loose parallel plus a wrong model of the script."
+            },
+            {
+              "text": "The Greek was a dialect no one could read",
+              "correct": false,
+              "why": "Greek was known. Its official jargon slowed translators but didn't stop them."
+            },
+            {
+              "text": "The hieroglyphic section was completely destroyed",
+              "correct": false,
+              "why": "It is damaged, but its last 14 lines survive."
+            },
+            {
+              "text": "Napoleon's scholars kept the inscriptions secret",
+              "correct": false,
+              "why": "Prints and casts circulated across Europe within a few years."
+            }
+          ]
+        },
+        {
+          "q": "Which result most directly falsified Young's model of the script?",
+          "options": [
+            {
+              "text": "Reading Ramesses phonetically",
+              "correct": true,
+              "why": "Yes. A native pharaoh spelled by sound broke the foreign-names-only rule."
+            },
+            {
+              "text": "Reading Ptolemy",
+              "correct": false,
+              "why": "Ptolemy was a foreign name, so it fit Young's model."
+            },
+            {
+              "text": "The Cleopatra cross-check",
+              "correct": false,
+              "why": "It confirmed sound values, but Cleopatra was also a foreign name."
+            },
+            {
+              "text": "Showing Demotic came from hieroglyphs",
+              "correct": false,
+              "why": "That was Young's own insight, and it fit his model."
+            }
+          ]
+        },
+        {
+          "q": "What did Lepsius's 1837 letter mainly do?",
+          "options": [
+            {
+              "text": "Explained two- and three-consonant signs, cutting the one-sound list from 200+ to 30",
+              "correct": true,
+              "why": "Right. It corrected Champollion while strengthening his approach."
+            },
+            {
+              "text": "Proved that Young had deciphered hieroglyphs first",
+              "correct": false,
+              "why": "It strengthened Champollion's general approach."
+            },
+            {
+              "text": "Replaced the phonetic approach with an ideographic one",
+              "correct": false,
+              "why": "It reinforced the phonetic approach."
+            },
+            {
+              "text": "Published the first translation of the Greek text",
+              "correct": false,
+              "why": "Greek translations came out in 1803."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Reading the Greek wasn't enough because\u2026",
+        "Ramesses was the decisive test because\u2026",
+        "Champollion's system still needed fixing because\u2026"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "klJBwnBHET8",
+    "title": "The Rosetta Stone and what it actually says with Ilona Regulski | Curator's Corner S7 Ep7",
+    "channel": "The British Museum",
+    "duration_sec": 994,
+    "start": 34,
+    "end": 928,
+    "why": "A British Museum curator reads the decree itself: what it gave the king, why priests met at Memphis, and how the versions were likely composed."
+  },
+  "sources": [
+    {
+      "title": "How the Rosetta Stone Unlocked the Secrets of Ancient Egypt",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/history/rosetta-stone-hieroglyphs-champollion-decipherment-egypt-180980834/",
+      "supports": "Champollion announced the decipherment on September 27, 1822, after bursting into his brother's office on September 14 shouting \"I've got it!\" and collapsing; the stone was found in July 1799 in a fort wall near Rashid (Rosetta); the 196 B.C.E. decree for Ptolemy V is in hieroglyphs, Demotic (a shorthand form of hieroglyphs) and Greek, two languages in three scripts; Dolnick: the first people expected two weeks, it took 20 years; \"a propaganda poster carved in stone\"; the versions said \"only roughly the same thing, as if three people had each described the same movie\"; 14 hieroglyphic lines survive; priests mainly used hieroglyphs, the public Demotic; hieroglyphs fell out of use some 1,400 years earlier; a hybrid system of sound, picture and idea signs (\"I \u2665 New York\"); Young, an English physician and physicist, focused on cartouches because names are pronounced roughly the same in any language, like Chinese spelling foreign names by sound; Young found Ptolemy, published in the Britannica in 1819, and would not accept sound signs beyond foreign names; Champollion used Coptic, written in the Greek alphabet; the four-sign Abu Simbel cartouche of Ramses with a sun (ra or re in Coptic) and a repeated s; British Museum since 1802."
+    },
+    {
+      "title": "Rosetta Stone",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rosetta_Stone",
+      "supports": "Decree of 196 BC for Ptolemy V issued by priests at Memphis in hieroglyphic, Demotic and Greek; hieroglyphic text in a deliberately archaic neo-Middle Egyptian; found in July 1799 by French soldiers demolishing a wall while strengthening Fort Julien near Rosetta, with hopes it could be the key to hieroglyphs; most visited object in the British Museum; only the last 14 hieroglyphic lines survive; Ptolemy V crowned at 12 amid the Great Theban Revolt and losses abroad, decree just over a year later; Ptolemaic kings needed priestly support; prints and casts circulated in Europe; first Greek translations 1803; Akerblad's 29-letter Demotic alphabet, more than half correct; Young's Ptolemaios; Champollion's Cleopatra reading from the Philae obelisk and public announcement on 27 September 1822; the three versions cannot be matched word for word; last hieroglyphic inscription AD 394."
+    },
+    {
+      "title": "Decipherment of ancient Egyptian scripts",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Decipherment_of_ancient_Egyptian_scripts",
+      "supports": "Scripts mix phonetic and ideographic signs; classical authors called hieroglyphs ideographic, which hampered decipherment; Horapollo's goose = 'son' error, really shared consonants; last hieroglyphic text AD 394; Young's eight-sign Ptolemy cartouche and the title 'living for ever, beloved of Ptah'; 13 sound values (6 correct, 3 partly, 4 wrong); about 80 hieroglyph-Demotic matches and 200 hieroglyphic words in his 1819 article; Griffith's verdict on Young's method; Champollion's Ptolemy-Cleopatra cross-check (p, l, o; homophones for t); Ramesses (Coptic re for sun, s-s), Thutmose, and 'birth' = Coptic mise; Lettre read 27 September 1822 with Young in the audience; 1824 Precis quote; Coptic 'like French from Latin'; the ms sign read as m; Lepsius 1837: 30 one-sound signs vs 200+ for Champollion and 24 today; Ray on Young and Demotic; Parkinson's verdict on credit."
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "id": "history-rosetta-stone-teen",
+  "topic": "history",
+  "subject": "rosetta-stone",
+  "level": "teen",
+  "title": "Cracking the Rosetta Stone",
+  "emoji": "\ud83d\udd0d",
+  "summary": "How code-breakers used royal names, cross-checks and Coptic to read hieroglyphs again.",
+  "minutes": 7,
+  "date_added": "2026-10-14",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "If scholars could read the Greek, why couldn't they just translate the hieroglyphs from it?",
+      "answer": "The versions didn't match word for word, and people assumed hieroglyphs were symbols for ideas, not sounds."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why were cartouches the way in?",
+      "answer": "They held royal names like Ptolemy, which sound about the same in any language, so their signs were likely to spell sounds."
+    },
+    {
+      "id": "k3",
+      "prompt": "What did the Ramesses cartouche prove?",
+      "answer": "A native Egyptian king's name was spelled with sound signs, so hieroglyphs used sounds for Egyptian words, not just foreign names."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "\ud83e\udde9",
+      "title": "Two weeks, they said",
+      "text": "In 1799, scholars got what looked like a cheat sheet: one decree carved in hieroglyphs, Demotic and Greek, and they could read Greek. One author says the first people to look at it thought decoding would take two weeks. It took about 20 years. What made it so hard?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Why do you think it took about 20 years?",
+      "options": [
+        {
+          "text": "The stone was locked away, so few scholars could study it"
+        },
+        {
+          "text": "Nobody could read ancient Greek anymore"
+        },
+        {
+          "text": "The versions didn't match word for word, and people wrongly assumed hieroglyphs were pure symbols",
+          "correct": true
+        }
+      ],
+      "reveal": "The texts only roughly matched, and an old belief that hieroglyphs stood for ideas, not sounds, sent people down the wrong path.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83e\udea8",
+      "title": "A parallel text, sort of",
+      "text": "The decree was issued in 196 BC to honor King Ptolemy V. It uses two languages in three scripts: Egyptian (in hieroglyphs and Demotic, a cursive handwriting) and Greek. But the versions said \"only roughly the same thing, as if three people had each described the same movie.\" And only the last 14 lines of hieroglyphs survive.",
+      "example": "So you couldn't assume the first word in the Greek lined up with the first word in the hieroglyphs."
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udd2e",
+      "title": "The wrong assumption",
+      "text": "For centuries, writers claimed hieroglyphs were symbols for ideas, not sounds. An old book called Hieroglyphica said a goose meant \"son\" because geese love their children. Wrong: the goose sign was used because the Egyptian words for goose and son shared the same consonants. A bad model of the system made every clue harder to use.",
+      "why": {
+        "q": "Why is the goose-and-son mix-up really a clue about sounds?",
+        "a": "The sign was picked because the two words sounded alike, not because of what a goose means. That is writing with sounds."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udc51",
+      "title": "Start with the names",
+      "text": "Thomas Young, an English physician and physicist, focused on cartouches, the ovals around royal names. A Greek name like Ptolemy had no Egyptian meaning, so it was likely spelled by sound, the way Chinese writes foreign names. Young matched the Ptolemy cartouche and published in 1819. Then he stalled: he thought sound signs were only for foreign names.",
+      "example": "Some Ptolemy cartouches had extra signs at the end. Young guessed they added a royal title: \"living for ever, beloved of Ptah.\""
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83e\uddea",
+      "title": "Test it on a second name",
+      "text": "A good guess should predict something new. Champollion took the sound values from Ptolemy and tried them on a cartouche thought to be Cleopatra's, copied from an obelisk found at Philae. The signs for p, l and o fit both names. When t was written two different ways, he decided two signs could spell the same sound.",
+      "example": "In this example, think of a cipher. If your letter key from one word spells a second word correctly, your key is probably right.",
+      "why": {
+        "q": "Why did the Cleopatra cartouche matter so much?",
+        "a": "It was an independent test. Sound values guessed from one name correctly predicted letters in a different name."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\u2600\ufe0f",
+      "title": "Ramesses breaks the rule",
+      "text": "In 1822 Champollion studied a four-sign cartouche from Abu Simbel. The first sign was a sun, and in Coptic, a late form of Egyptian written in Greek letters, sun is re. The last two signs were s. Re, ?, s, s: Ramesses, a native Egyptian king. He announced his results in Paris on September 27, 1822, with Young in the audience.",
+      "example": "Young's rule said sound signs were only for foreign names. An Egyptian pharaoh spelled by sound broke that rule."
+    },
+    {
+      "type": "think",
+      "question": "One Egyptologist says Young \"discovered parts of an alphabet\u2014a key\u2014but Champollion unlocked an entire language.\" Who deserves more credit for a breakthrough: the person who spots the method, or the one who makes it work?",
+      "nudges": [
+        "Make the best case for Young, then for Champollion.",
+        "In a startup, who gets credit: the first idea, or the team that ships it?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Scholars could read the Greek. Why wasn't that enough?",
+          "options": [
+            {
+              "text": "The versions didn't match word for word, and hieroglyphs mix sound and idea signs",
+              "correct": true,
+              "why": "Right. Both problems blocked a simple swap."
+            },
+            {
+              "text": "The Greek part was in a secret code too",
+              "correct": false,
+              "why": "The Greek was ordinary ancient Greek that scholars could read."
+            },
+            {
+              "text": "The whole stone was too damaged to read",
+              "correct": false,
+              "why": "The hieroglyphs were damaged, but the Demotic and much of the Greek survived well."
+            },
+            {
+              "text": "Nobody outside Egypt had copies",
+              "correct": false,
+              "why": "Prints and casts went around Europe soon after it was found."
+            }
+          ]
+        },
+        {
+          "q": "Why were Greek royal names a smart starting point?",
+          "options": [
+            {
+              "text": "Foreign names had to be spelled by sound, so their signs revealed sound values",
+              "correct": true,
+              "why": "Yes. That's how Young found Ptolemy."
+            },
+            {
+              "text": "They were carved in bigger signs",
+              "correct": false,
+              "why": "Size wasn't the clue. The ovals marked them as names."
+            },
+            {
+              "text": "The Greek text explained how to spell them",
+              "correct": false,
+              "why": "The Greek gave the name, not the hieroglyph spelling."
+            },
+            {
+              "text": "Royal names were always the first word",
+              "correct": false,
+              "why": "Names appeared throughout the text, inside cartouches."
+            }
+          ]
+        },
+        {
+          "q": "Champollion reads the Ramesses cartouche. Which belief does that disprove?",
+          "options": [
+            {
+              "text": "That sound signs were used only for foreign names",
+              "correct": true,
+              "why": "Yes. Ramesses was a native Egyptian king."
+            },
+            {
+              "text": "That Coptic came from ancient Egyptian",
+              "correct": false,
+              "why": "Coptic does come from Egyptian. That's what helped him."
+            },
+            {
+              "text": "That the stone had three scripts",
+              "correct": false,
+              "why": "It does have three scripts. That's not what Ramesses tested."
+            },
+            {
+              "text": "That ancient Greek could be read",
+              "correct": false,
+              "why": "Greek was readable the whole time."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Reading the Greek wasn't enough because\u2026",
+        "Royal names cracked it open because\u2026",
+        "The Ramesses cartouche proved\u2026"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "lG5z47xIe8A",
+    "title": "How We Decoded The Hieroglyphs Of Ancient Egypt",
+    "channel": "History Hit",
+    "duration_sec": 617,
+    "start": 0,
+    "end": 589,
+    "why": "Egyptologist Chris Naunton walks through Young's Ptolemy cartouche, the Cleopatra cross-check and the Ramesses moment, sign by sign. Ends before the channel plug."
+  },
+  "sources": [
+    {
+      "title": "How the Rosetta Stone Unlocked the Secrets of Ancient Egypt",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/history/rosetta-stone-hieroglyphs-champollion-decipherment-egypt-180980834/",
+      "supports": "Champollion announced the decipherment on September 27, 1822, after bursting into his brother's office on September 14 shouting \"I've got it!\" and collapsing; the stone was found in July 1799 in a fort wall near Rashid (Rosetta); the 196 B.C.E. decree for Ptolemy V is in hieroglyphs, Demotic (a shorthand form of hieroglyphs) and Greek, two languages in three scripts; Dolnick: the first people expected two weeks, it took 20 years; \"a propaganda poster carved in stone\"; the versions said \"only roughly the same thing, as if three people had each described the same movie\"; 14 hieroglyphic lines survive; priests mainly used hieroglyphs, the public Demotic; hieroglyphs fell out of use some 1,400 years earlier; a hybrid system of sound, picture and idea signs (\"I \u2665 New York\"); Young, an English physician and physicist, focused on cartouches because names are pronounced roughly the same in any language, like Chinese spelling foreign names by sound; Young found Ptolemy, published in the Britannica in 1819, and would not accept sound signs beyond foreign names; Champollion used Coptic, written in the Greek alphabet; the four-sign Abu Simbel cartouche of Ramses with a sun (ra or re in Coptic) and a repeated s; British Museum since 1802."
+    },
+    {
+      "title": "Rosetta Stone",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rosetta_Stone",
+      "supports": "Decree of 196 BC for Ptolemy V issued by priests at Memphis in hieroglyphic, Demotic and Greek; hieroglyphic text in a deliberately archaic neo-Middle Egyptian; found in July 1799 by French soldiers demolishing a wall while strengthening Fort Julien near Rosetta, with hopes it could be the key to hieroglyphs; most visited object in the British Museum; only the last 14 hieroglyphic lines survive; Ptolemy V crowned at 12 amid the Great Theban Revolt and losses abroad, decree just over a year later; Ptolemaic kings needed priestly support; prints and casts circulated in Europe; first Greek translations 1803; Akerblad's 29-letter Demotic alphabet, more than half correct; Young's Ptolemaios; Champollion's Cleopatra reading from the Philae obelisk and public announcement on 27 September 1822; the three versions cannot be matched word for word; last hieroglyphic inscription AD 394."
+    },
+    {
+      "title": "Decipherment of ancient Egyptian scripts",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Decipherment_of_ancient_Egyptian_scripts",
+      "supports": "Scripts mix phonetic and ideographic signs; classical authors called hieroglyphs ideographic, which hampered decipherment; Horapollo's goose = 'son' error, really shared consonants; last hieroglyphic text AD 394; Young's eight-sign Ptolemy cartouche and the title 'living for ever, beloved of Ptah'; 13 sound values (6 correct, 3 partly, 4 wrong); about 80 hieroglyph-Demotic matches and 200 hieroglyphic words in his 1819 article; Griffith's verdict on Young's method; Champollion's Ptolemy-Cleopatra cross-check (p, l, o; homophones for t); Ramesses (Coptic re for sun, s-s), Thutmose, and 'birth' = Coptic mise; Lettre read 27 September 1822 with Young in the audience; 1824 Precis quote; Coptic 'like French from Latin'; the ms sign read as m; Lepsius 1837: 30 one-sound signs vs 200+ for Champollion and 24 today; Ray on Young and Demotic; Parkinson's verdict on credit."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-13",
+ "updated": "2026-10-14",
  "topics": [
   {
    "id": "history",
@@ -194,6 +194,17 @@
     "kid": "tech-gps-kid"
    },
    "dinner_question": "Before phones had GPS, how did people find their way somewhere new, and which of those ways do you think you'd be best at?"
+  },
+  {
+   "date": "2026-10-22",
+   "topic": "history",
+   "title": "The Rosetta Stone",
+   "packs": {
+    "adult": "history-rosetta-stone-adult",
+    "teen": "history-rosetta-stone-teen",
+    "kid": "history-rosetta-stone-kid"
+   },
+   "dinner_question": "If you had to leave one message for people 2,000 years from now, what would you write, and how would you help them read it?"
   }
  ],
  "series": [
@@ -489,6 +500,45 @@
     "part": 2,
     "of": 2
    }
+  },
+  {
+   "id": "history-rosetta-stone-kid",
+   "topic": "history",
+   "level": "kid",
+   "title": "The Stone That Cracked a Code",
+   "emoji": "🪨",
+   "subject": "rosetta-stone",
+   "summary": "One message in three kinds of writing helped people read hieroglyphs again.",
+   "minutes": 6,
+   "date_added": "2026-10-14",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "history-rosetta-stone-teen",
+   "topic": "history",
+   "level": "teen",
+   "title": "Cracking the Rosetta Stone",
+   "emoji": "🔍",
+   "subject": "rosetta-stone",
+   "summary": "How code-breakers used royal names, cross-checks and Coptic to read hieroglyphs again.",
+   "minutes": 7,
+   "date_added": "2026-10-14",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "history-rosetta-stone-adult",
+   "topic": "history",
+   "level": "adult",
+   "title": "Breaking a Dead Script: The Rosetta Stone",
+   "emoji": "📜",
+   "subject": "rosetta-stone",
+   "summary": "Why a parallel text took 20 years to crack: a wrong model, mismatched versions, and the cross-checks that finally worked.",
+   "minutes": 8,
+   "date_added": "2026-10-14",
+   "cards": 10,
+   "keys_count": 3
   },
   {
    "id": "science-blue-sky-kid",

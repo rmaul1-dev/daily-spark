@@ -1,0 +1,245 @@
+{
+  "id": "history-rosetta-stone-kid",
+  "topic": "history",
+  "subject": "rosetta-stone",
+  "level": "kid",
+  "title": "The Stone That Cracked a Code",
+  "emoji": "\ud83e\udea8",
+  "summary": "One message in three kinds of writing helped people read hieroglyphs again.",
+  "minutes": 6,
+  "date_added": "2026-10-14",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why did the Rosetta Stone help people read hieroglyphs?",
+      "answer": "It had the same message in hieroglyphs and in Greek. Experts could already read the Greek.",
+      "options": [
+        {
+          "text": "It had the same message in Greek, which experts could read",
+          "correct": true
+        },
+        {
+          "text": "It came with a list of what each sign meant"
+        },
+        {
+          "text": "A priest had carved how to read the signs"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Why did code-breakers start with the names inside ovals?",
+      "answer": "A name sounds about the same in any language. So the signs for a name were likely to stand for sounds.",
+      "options": [
+        {
+          "text": "A name sounds about the same in any language",
+          "correct": true
+        },
+        {
+          "text": "The ovals had the biggest signs"
+        },
+        {
+          "text": "The ovals were the only part not broken"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What did Champollion figure out about hieroglyphs?",
+      "answer": "Many signs stand for sounds, like letters. Others stand for a whole word or idea.",
+      "options": [
+        {
+          "text": "Many signs stand for sounds, and some stand for ideas",
+          "correct": true
+        },
+        {
+          "text": "Every sign is just a picture of a thing"
+        },
+        {
+          "text": "Each sign stands for a whole sentence"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "\ud83d\udd75\ufe0f",
+      "title": "A secret note",
+      "text": "Imagine you find a note in a secret code. Next to it is the same note in English. Could you crack the code? In 1799, people found a stone that gave them a puzzle just like that."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "The first people to study the stone thought cracking the code would take two weeks. How long did it really take?",
+      "options": [
+        {
+          "text": "Two weeks"
+        },
+        {
+          "text": "About two years"
+        },
+        {
+          "text": "About 20 years",
+          "correct": true
+        }
+      ],
+      "reveal": "About 20 years! The signs were much trickier than anyone expected.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83e\udea8",
+      "title": "One message, three kinds of writing",
+      "text": "In 196 BC, priests in Egypt wrote a message to honor their king, Ptolemy V. They carved it in three kinds of writing. The top was hieroglyphs. The middle was Demotic, the everyday writing. The bottom was Greek.",
+      "example": "Hieroglyphs and Demotic were two ways to write the same Egyptian language. It is a bit like fancy writing and everyday handwriting."
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83c\udff0",
+      "title": "Found in a wall",
+      "text": "For about 1,400 years, nobody could read hieroglyphs. Then, in July 1799, French soldiers were fixing an old fort near the town of Rosetta in Egypt. Inside a wall was a broken stone covered in writing. People hoped it was the key.",
+      "example": "Today the stone is in the British Museum in London. It is the most visited object there."
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udc51",
+      "title": "Names in ovals",
+      "text": "Some hieroglyphs sit inside ovals called cartouches. Thomas Young, a scientist from England, guessed they held kings' names. He found the name Ptolemy and worked out sounds for some of its signs.",
+      "example": "It is like spotting your own name in a coded note. Now you know a few of the letters!",
+      "why": {
+        "q": "Why was a name a good place to start?",
+        "a": "A name like Ptolemy sounds about the same in any language. So its signs were likely to stand for sounds."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\u2600\ufe0f",
+      "title": "Re... s... s!",
+      "text": "In 1822, Jean-Fran\u00e7ois Champollion from France looked at another king's name. It had four signs. The first was a sun. In Coptic, a later form of Egyptian, the word for sun was \"re.\" The last two signs meant \"s.\" Only one name fit: Ramesses!",
+      "example": "He ran to his brother's office, shouted \"I've got it!\" and fainted. People first thought the code would take two weeks. It took about 20 years.",
+      "why": {
+        "q": "Why was Ramesses a big deal?",
+        "a": "Ramesses was an Egyptian king, not a Greek one. So Egyptians used sound signs for their own words too."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udd24",
+      "title": "Sounds and ideas",
+      "text": "Hieroglyphs are not only pictures. Some signs stand for sounds, like letters. Others stand for a whole word or idea. Egyptian writing mixes both, even in one word!",
+      "example": "It is a bit like writing \"I \u2665 NY.\" The letters are sounds. The heart means love."
+    },
+    {
+      "type": "think",
+      "question": "Imagine people 3,000 years from now find one of your school notebooks. What clues would help them figure out how to read it?",
+      "nudges": [
+        "What words might show up again and again?",
+        "Would your name be a good place to start? Why?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What three kinds of writing are on the Rosetta Stone?",
+          "options": [
+            {
+              "text": "Hieroglyphs, Demotic and Greek",
+              "correct": true,
+              "why": "Yes. Top, middle and bottom."
+            },
+            {
+              "text": "English, French and Greek",
+              "correct": false,
+              "why": "English and French are not on it. It was carved in ancient Egypt."
+            },
+            {
+              "text": "Only hieroglyphs",
+              "correct": false,
+              "why": "There were three kinds. The Greek part was the big help."
+            }
+          ]
+        },
+        {
+          "q": "Why did the Greek part help so much?",
+          "options": [
+            {
+              "text": "Experts could still read Greek",
+              "correct": true,
+              "why": "Right. They could read the Greek and compare it to the signs."
+            },
+            {
+              "text": "It had a picture next to each sign",
+              "correct": false,
+              "why": "It had no pictures. It helped because people could read it."
+            },
+            {
+              "text": "It told people how to read hieroglyphs",
+              "correct": false,
+              "why": "It did not explain the code. It was the same message, so experts could compare."
+            }
+          ]
+        },
+        {
+          "q": "Champollion read the name Ramesses. What did that show?",
+          "options": [
+            {
+              "text": "Egyptians used sound signs for their own words too",
+              "correct": true,
+              "why": "Yes. Ramesses was an Egyptian king."
+            },
+            {
+              "text": "Hieroglyphs are just pictures",
+              "correct": false,
+              "why": "Not quite. The signs in Ramesses stood for sounds."
+            },
+            {
+              "text": "Only Greek kings had names in ovals",
+              "correct": false,
+              "why": "Ramesses was an Egyptian king, and his name was in an oval too."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The Rosetta Stone had\u2026",
+        "Code-breakers started with names because\u2026",
+        "Champollion figured out that hieroglyphs\u2026"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "Z8dZSySRX_g",
+    "title": "Why was the Rosetta Stone so important? - Franziska Naether",
+    "channel": "TED-Ed",
+    "duration_sec": 317,
+    "start": 0,
+    "end": 289,
+    "why": "A TED-Ed cartoon shows how the stone was found and how Young and Champollion cracked the kings' names. It stops before the last line and credits."
+  },
+  "sources": [
+    {
+      "title": "How the Rosetta Stone Unlocked the Secrets of Ancient Egypt",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/history/rosetta-stone-hieroglyphs-champollion-decipherment-egypt-180980834/",
+      "supports": "Champollion announced the decipherment on September 27, 1822, after bursting into his brother's office on September 14 shouting \"I've got it!\" and collapsing; the stone was found in July 1799 in a fort wall near Rashid (Rosetta); the 196 B.C.E. decree for Ptolemy V is in hieroglyphs, Demotic (a shorthand form of hieroglyphs) and Greek, two languages in three scripts; Dolnick: the first people expected two weeks, it took 20 years; \"a propaganda poster carved in stone\"; the versions said \"only roughly the same thing, as if three people had each described the same movie\"; 14 hieroglyphic lines survive; priests mainly used hieroglyphs, the public Demotic; hieroglyphs fell out of use some 1,400 years earlier; a hybrid system of sound, picture and idea signs (\"I \u2665 New York\"); Young, an English physician and physicist, focused on cartouches because names are pronounced roughly the same in any language, like Chinese spelling foreign names by sound; Young found Ptolemy, published in the Britannica in 1819, and would not accept sound signs beyond foreign names; Champollion used Coptic, written in the Greek alphabet; the four-sign Abu Simbel cartouche of Ramses with a sun (ra or re in Coptic) and a repeated s; British Museum since 1802."
+    },
+    {
+      "title": "Rosetta Stone",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rosetta_Stone",
+      "supports": "Decree of 196 BC for Ptolemy V issued by priests at Memphis in hieroglyphic, Demotic and Greek; hieroglyphic text in a deliberately archaic neo-Middle Egyptian; found in July 1799 by French soldiers demolishing a wall while strengthening Fort Julien near Rosetta, with hopes it could be the key to hieroglyphs; most visited object in the British Museum; only the last 14 hieroglyphic lines survive; Ptolemy V crowned at 12 amid the Great Theban Revolt and losses abroad, decree just over a year later; Ptolemaic kings needed priestly support; prints and casts circulated in Europe; first Greek translations 1803; Akerblad's 29-letter Demotic alphabet, more than half correct; Young's Ptolemaios; Champollion's Cleopatra reading from the Philae obelisk and public announcement on 27 September 1822; the three versions cannot be matched word for word; last hieroglyphic inscription AD 394."
+    },
+    {
+      "title": "Decipherment of ancient Egyptian scripts",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Decipherment_of_ancient_Egyptian_scripts",
+      "supports": "Scripts mix phonetic and ideographic signs; classical authors called hieroglyphs ideographic, which hampered decipherment; Horapollo's goose = 'son' error, really shared consonants; last hieroglyphic text AD 394; Young's eight-sign Ptolemy cartouche and the title 'living for ever, beloved of Ptah'; 13 sound values (6 correct, 3 partly, 4 wrong); about 80 hieroglyph-Demotic matches and 200 hieroglyphic words in his 1819 article; Griffith's verdict on Young's method; Champollion's Ptolemy-Cleopatra cross-check (p, l, o; homophones for t); Ramesses (Coptic re for sun, s-s), Thutmose, and 'birth' = Coptic mise; Lettre read 27 September 1822 with Young in the audience; 1824 Precis quote; Coptic 'like French from Latin'; the ms sign read as m; Lepsius 1837: 30 one-sound signs vs 200+ for Champollion and 24 today; Ray on Young and Demotic; Parkinson's verdict on credit."
+    }
+  ]
+}
