@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-14",
+ "updated": "2026-10-15",
  "topics": [
   {
    "id": "history",
@@ -205,6 +205,17 @@
     "kid": "history-rosetta-stone-kid"
    },
    "dinner_question": "If you had to leave one message for people 2,000 years from now, what would you write, and how would you help them read it?"
+  },
+  {
+   "date": "2026-10-23",
+   "topic": "ideas",
+   "title": "Opportunity cost",
+   "packs": {
+    "adult": "ideas-opportunity-cost-adult",
+    "teen": "ideas-opportunity-cost-teen",
+    "kid": "ideas-opportunity-cost-kid"
+   },
+   "dinner_question": "What is one choice you made this week, and what was the next-best thing you gave up to make it?"
   }
  ],
  "series": [
@@ -1376,6 +1387,45 @@
     "part": 1,
     "of": 3
    }
+  },
+  {
+   "id": "ideas-opportunity-cost-kid",
+   "topic": "ideas",
+   "level": "kid",
+   "title": "What You Give Up When You Choose",
+   "emoji": "⚖️",
+   "subject": "opportunity-cost",
+   "summary": "Every choice has a hidden cost: the next-best thing you did not pick.",
+   "minutes": 6,
+   "date_added": "2026-10-15",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "ideas-opportunity-cost-teen",
+   "topic": "ideas",
+   "level": "teen",
+   "title": "Opportunity Cost: The Hidden Price of Yes",
+   "emoji": "🎯",
+   "subject": "opportunity-cost",
+   "summary": "Every yes spends scarce time or money—so the real cost is the next-best path you shut down.",
+   "minutes": 7,
+   "date_added": "2026-10-15",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "ideas-opportunity-cost-adult",
+   "topic": "ideas",
+   "level": "adult",
+   "title": "Opportunity Cost: Next-Best Thinking Under Scarcity",
+   "emoji": "🧭",
+   "subject": "opportunity-cost",
+   "summary": "Why the real cost of a decision is the best path you shut down—and why sticker prices and relative comparisons hide it.",
+   "minutes": 8,
+   "date_added": "2026-10-15",
+   "cards": 10,
+   "keys_count": 3
   }
  ]
 }

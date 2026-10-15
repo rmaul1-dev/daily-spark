@@ -1,0 +1,173 @@
+{
+  "id": "ideas-opportunity-cost-kid",
+  "topic": "ideas",
+  "subject": "opportunity-cost",
+  "level": "kid",
+  "title": "What You Give Up When You Choose",
+  "emoji": "⚖️",
+  "summary": "Every choice has a hidden cost: the next-best thing you did not pick.",
+  "minutes": 6,
+  "date_added": "2026-10-15",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is opportunity cost?",
+      "answer": "The value of the next-best thing you give up when you make a choice.",
+      "options": [
+        { "text": "The next-best thing you give up when you choose", "correct": true },
+        { "text": "The price tag printed on a toy" },
+        { "text": "Getting two things at once for free" }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Why do we have to choose at all?",
+      "answer": "Because of scarcity: we want more than our time, money, and stuff can cover.",
+      "options": [
+        { "text": "Wants are bigger than what we have (scarcity)", "correct": true },
+        { "text": "Choosing is only a game adults invent" },
+        { "text": "There is always enough of everything" }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "If you pick one toy with your dollar, what is the opportunity cost?",
+      "answer": "The other toy you most wanted instead—not every toy in the store.",
+      "options": [
+        { "text": "The other toy you most wanted instead", "correct": true },
+        { "text": "Every toy in the whole store" },
+        { "text": "Nothing, if the dollar was a gift" }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧸",
+      "title": "One dollar, two toys",
+      "text": "You have one dollar. Two toys each cost a dollar. You can buy only one. What did choosing cost you—besides the dollar?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "You buy the bear. What is the real \"opportunity cost\"?",
+      "options": [
+        { "text": "The other toy you would have bought next", "correct": true },
+        { "text": "Every toy you saw in the store" },
+        { "text": "Only the dollar you handed over" }
+      ],
+      "reveal": "Economists say opportunity cost is the next-best thing you give up—not every other option, and not just the price tag.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "⏳",
+      "title": "Not enough of everything",
+      "text": "Scarcity means we want more than our time, money, and stuff can cover. Because of that, we have to choose.",
+      "example": "Say… you have one free afternoon. You cannot play soccer, practice golf, and build a whole fort at once."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "The next-best thing",
+      "text": "Opportunity cost is the value of the next-best alternative when you decide—it's what you give up. It is only that next-best choice, not every other idea you had.",
+      "example": "Say… you pick soccer practice over a movie. The opportunity cost is the movie you skipped, not also skipping a trip, a game, and a nap.",
+      "why": {
+        "q": "Why only the next-best thing, not every option?",
+        "a": "You could only have done one other thing with that same time or money, so you give up the one you valued next."
+      },
+      "examples_by_interest": {
+        "golf": "Say… you choose range time over a video game. The opportunity cost is the game session you skipped.",
+        "soccer": "Say… you choose practice over a movie. The opportunity cost is the movie you skipped.",
+        "business": "Say… you spend allowance on lemonade cups instead of stickers. The opportunity cost is the stickers you did not buy."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🍕",
+      "title": "Even \"free\" has a cost",
+      "text": "A free pizza still takes your lunchtime. You give up eating with friends somewhere else. Choice always brings an opportunity cost.",
+      "example": "Economists like Milton Friedman's line: there is no such thing as a free lunch—because choosing uses scarce time or stuff."
+    },
+    {
+      "type": "idea",
+      "emoji": "👀",
+      "title": "Look for the hidden trade",
+      "text": "People often notice the price they pay and miss what else that time or money could have done. Asking \"what else could I do?\" makes the trade clearer.",
+      "example": "Say… before you buy a snack, ask what else that money could buy this week—or what else that ten minutes could be."
+    },
+    {
+      "type": "think",
+      "question": "Think of a choice you made this week. What was the next-best thing you gave up?",
+      "nudges": [
+        "Was it time, money, or both?",
+        "Would a friend have picked a different next-best thing?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What does scarcity mean?",
+          "options": [
+            { "text": "Wants are bigger than what we have", "correct": true, "why": "Yes. Limited time, money, and stuff force choices." },
+            { "text": "Stores never run out of toys", "correct": false, "why": "Scarcity is about not having enough for every want." },
+            { "text": "Choices never cost anything", "correct": false, "why": "Choices always give something up." }
+          ]
+        },
+        {
+          "q": "What is opportunity cost?",
+          "options": [
+            { "text": "The next-best thing you give up", "correct": true, "why": "Right. It is what you forgo when you choose." },
+            { "text": "Only the sticker price", "correct": false, "why": "Price is one cost; opportunity cost is the alternative you skip." },
+            { "text": "Getting both options at once", "correct": false, "why": "Opportunity cost appears because you cannot have both." }
+          ]
+        },
+        {
+          "q": "You choose the park over the beach. What is the opportunity cost?",
+          "options": [
+            { "text": "The beach trip you did not take", "correct": true, "why": "Yes—the next-best plan you gave up." },
+            { "text": "Every vacation on Earth", "correct": false, "why": "Only the next-best alternative counts." },
+            { "text": "Nothing, because parks are free", "correct": false, "why": "Even free places use scarce time." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Scarcity means…",
+        "Opportunity cost is…",
+        "Even a free treat still…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "SmuztM-WfuE",
+    "title": "Scarcity and Opportunity Cost for kids",
+    "channel": "Theteacherlab",
+    "duration_sec": 227,
+    "why": "A clear classroom story with one dollar and two toys shows scarcity, then names opportunity cost as the toy you did not buy."
+  },
+  "sources": [
+    {
+      "title": "Opportunity Cost (scarcity, choice, and \"no free lunch\")",
+      "publisher": "Federal Reserve Education",
+      "url": "https://www.federalreserveeducation.org/teaching-resources/economics/scarcity/opportunity-cost",
+      "supports": "Scarcity: wants greater than resources; choice is required; opportunity cost is the most highly valued opportunity given up (next-best only, not every option); free pizza still has an opportunity cost; Milton Friedman \"no such thing as a free lunch.\""
+    },
+    {
+      "title": "Real-Life Examples of Opportunity Cost",
+      "publisher": "Federal Reserve Bank of St. Louis",
+      "url": "https://www.stlouisfed.org/open-vault/2020/january/real-life-examples-opportunity-cost",
+      "supports": "Definition: opportunity cost is the value of the next-best alternative when a decision is made—what is given up; scarcity of time, money, and resources drives trade-offs."
+    },
+    {
+      "title": "Opportunity cost",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Opportunity_cost",
+      "supports": "Opportunity cost is the value of the best alternative forgone when a choice is made between mutually exclusive alternatives; not limited to money—time and other benefits count too."
+    }
+  ]
+}

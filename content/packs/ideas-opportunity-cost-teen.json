@@ -1,0 +1,162 @@
+{
+  "id": "ideas-opportunity-cost-teen",
+  "topic": "ideas",
+  "subject": "opportunity-cost",
+  "level": "teen",
+  "title": "Opportunity Cost: The Hidden Price of Yes",
+  "emoji": "🎯",
+  "summary": "Every yes spends scarce time or money—so the real cost is the next-best path you shut down.",
+  "minutes": 7,
+  "date_added": "2026-10-15",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is opportunity cost?",
+      "answer": "The value of the next-best alternative you give up when you make a decision—not every other option, and not only the sticker price."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why does scarcity force opportunity costs?",
+      "answer": "Unlimited wants chase limited time, money, and resources, so every choice trades one path for another."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why is the true cost of college more than tuition?",
+      "answer": "You also give up the wages you could have earned by working instead—an implicit opportunity cost on top of explicit tuition."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🥤",
+      "title": "A $7 smoothie",
+      "text": "At the mall, a smoothie costs $7. Most people ask only \"Do I want it?\" Put on economist glasses: what else could that $7—or that ten minutes—have become?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "College tuition is $10,000 a year. You could earn $20,000 working instead. About what do economists say the true yearly cost of attending is?",
+      "options": [
+        { "text": "$10,000—just tuition" },
+        { "text": "$30,000—tuition plus forgone pay", "correct": true },
+        { "text": "$20,000—only the lost wages" },
+        { "text": "$0—education always pays for itself" }
+      ],
+      "reveal": "Explicit tuition ($10,000) plus the implicit opportunity cost of not working ($20,000) makes about $30,000 a year—before counting later higher earnings that can reverse the math.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "⏳",
+      "title": "Scarcity → choice → cost",
+      "text": "Scarcity means wants outrun the time, money, and resources available. That forces choices. Every choice has an opportunity cost: the value of the next-best alternative you give up.",
+      "example": "Federal Reserve education materials stress the chain: scarcity, then choice, then opportunity cost as the foundation of economic thinking."
+    },
+    {
+      "type": "idea",
+      "emoji": "🥇",
+      "title": "Next-best, not every-best",
+      "text": "Opportunity cost is only the option you would have picked next—not the sum of every rejected idea. You can only spend the same hour once.",
+      "example": "Say… after school you could practice golf, code an app, or watch a show. If golf wins, the opportunity cost is whichever of coding or the show you valued second—not both stacked.",
+      "why": {
+        "q": "Why isn't the cost \"everything else I might have done\"?",
+        "a": "Those alternatives compete for the same scarce slot. You forgo the single next-best use, not every use at once."
+      },
+      "examples_by_interest": {
+        "golf": "Say… you take a paid lesson instead of a free range hour with friends. The opportunity cost is that friend session—the next-best use of the afternoon.",
+        "soccer": "Say… you pick an extra practice over a weekend job shift. The opportunity cost is the pay (and experience) from that shift.",
+        "business": "Say… you spend Saturday restocking your stand instead of testing a new product. The opportunity cost is the learning from that test."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🎓",
+      "title": "Explicit vs implicit",
+      "text": "Explicit costs are the obvious dollars out the door—tuition, gear, rent. Implicit costs are what you give up without a receipt, like wages you never earned while in class.",
+      "example": "Economists add both. A year of college can cost tuition plus the paycheck you skipped by not working full-time."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔍",
+      "title": "People forget the trade",
+      "text": "Opportunity costs are easy to neglect. A St. Louis Fed essay suggests seeing a $7 smoothie as a movie ticket or $7 for a future goal—not just a drink.",
+      "example": "When the next-best use is named out loud, people buy less often. Spelling the trade changes the decision."
+    },
+    {
+      "type": "think",
+      "question": "Name one \"yes\" you are considering (a purchase, a team, a project). What is the single next-best use of that time or money—and would you still say yes?",
+      "nudges": [
+        "Write the next-best option in one sentence before deciding.",
+        "Would your answer change if the cost were tomorrow's self, not today's?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Opportunity cost is best defined as:",
+          "options": [
+            { "text": "The value of the next-best alternative given up", "correct": true, "why": "Yes—that is the Fed and textbook definition." },
+            { "text": "Only the sticker price you pay", "correct": false, "why": "Sticker price is explicit; opportunity cost includes the alternative forgone." },
+            { "text": "The sum of every option you imagined", "correct": false, "why": "Only the next-best alternative counts." },
+            { "text": "A fee banks charge for saving", "correct": false, "why": "Opportunity cost is a decision concept, not a bank fee." }
+          ]
+        },
+        {
+          "q": "Why can college cost more than tuition alone?",
+          "options": [
+            { "text": "You also give up wages you could have earned", "correct": true, "why": "Forgone earnings are a classic implicit opportunity cost." },
+            { "text": "Textbooks are always free", "correct": false, "why": "Books can add explicit costs; the key idea here is forgone pay." },
+            { "text": "Opportunity cost never applies to school", "correct": false, "why": "Time in school is a major opportunity-cost case." },
+            { "text": "Colleges refund every choice", "correct": false, "why": "Choices still trade off scarce years." }
+          ]
+        },
+        {
+          "q": "You have one Saturday. You pick building a product over a paid shift. The opportunity cost is mainly:",
+          "options": [
+            { "text": "The pay (and experience) from that shift", "correct": true, "why": "That was the next-best use of the day." },
+            { "text": "Every job you might ever have", "correct": false, "why": "Only the next-best alternative for that Saturday." },
+            { "text": "Zero, because weekends are free", "correct": false, "why": "Time is scarce even when money isn't spent." },
+            { "text": "Only the snacks you bought while building", "correct": false, "why": "Snacks are a small explicit cost; the big trade is the shift." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Opportunity cost means…",
+        "Scarcity forces…",
+        "College (or any big yes) also costs…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "BQQ1HFobVPQ",
+    "title": "Opportunity Cost: The Hidden Cost of Everything",
+    "channel": "Sprouts",
+    "duration_sec": 176,
+    "why": "Adds forgone wages to tuition so you see why economists count implicit costs—not only the bill you pay."
+  },
+  "sources": [
+    {
+      "title": "Money and Missed Opportunities",
+      "publisher": "Federal Reserve Bank of St. Louis (Page One Economics)",
+      "url": "https://www.stlouisfed.org/publications/page-one-economics/2019/10/01/money-and-missed-opportunities",
+      "supports": "Definition of opportunity cost as next-best alternative given up; scarcity drives trade-offs; $7 smoothie reframed as movie ticket or college-fund dollars; people neglect opportunity costs; naming the alternative changes decisions."
+    },
+    {
+      "title": "Real-Life Examples of Opportunity Cost",
+      "publisher": "Federal Reserve Bank of St. Louis",
+      "url": "https://www.stlouisfed.org/open-vault/2020/january/real-life-examples-opportunity-cost",
+      "supports": "Same definition; explicit vs implicit costs; student leisure vs study; time as an opportunity cost."
+    },
+    {
+      "title": "Opportunity cost",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Opportunity_cost",
+      "supports": "Best alternative forgone; explicit vs implicit costs; example of leaving work (wage forgone) plus cash spent; economic vs accounting profit includes opportunity costs."
+    }
+  ]
+}

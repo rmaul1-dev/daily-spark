@@ -1,0 +1,226 @@
+{
+  "id": "ideas-opportunity-cost-adult",
+  "topic": "ideas",
+  "subject": "opportunity-cost",
+  "level": "adult",
+  "title": "Opportunity Cost: Next-Best Thinking Under Scarcity",
+  "emoji": "🧭",
+  "summary": "Why the real cost of a decision is the best path you shut down—and why sticker prices and relative comparisons hide it.",
+  "minutes": 8,
+  "date_added": "2026-10-15",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is opportunity cost?",
+      "answer": "The value of the next-best alternative forgone when you choose under scarcity—not every rejected option, and not only cash out the door."
+    },
+    {
+      "id": "k2",
+      "prompt": "What is the relative-value trap on big purchases?",
+      "answer": "Comparing an add-on to a large base price (e.g. $1,300 vs $200,000) makes it feel small; the real question is what else $1,300 could buy outright."
+    },
+    {
+      "id": "k3",
+      "prompt": "What happened when a study made the opportunity cost of a $14.99 video explicit?",
+      "answer": "Willingness to buy fell from 75% to 55% when the alternative was labeled as keeping the money for other purchases."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🏠",
+      "title": "Only 0.65% more?",
+      "text": "A $200,000 base-price house offers satin-nickel doorknobs for $1,300. Relative to the house, that is under one percent. Absolute dollars: what else is $1,300 of your future?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "In a study of students deciding on a $14.99 entertaining video, what happened when option B said \"Keep the $14.99 for other purchases\" instead of only \"Not buy\"?",
+      "options": [
+        {
+          "text": "Purchase rates barely moved"
+        },
+        {
+          "text": "Willingness to buy fell from about 75% to 55%",
+          "correct": true
+        },
+        {
+          "text": "Everyone switched to buying"
+        },
+        {
+          "text": "People ignored the wording completely"
+        }
+      ],
+      "reveal": "Frederick et al. (2009), summarized by the St. Louis Fed: making the opportunity cost explicit cut willingness to buy from 75% to 55%. People do not spontaneously price the alternative.",
+      "reveal_after": 5
+    },
+    {
+      "type": "idea",
+      "emoji": "🔗",
+      "title": "Scarcity, choice, cost",
+      "text": "Unlimited wants meet limited time, money, and resources. Scarcity forces choice; choice creates opportunity cost—the value of the next-best alternative given up. Milton Friedman's \"no free lunch\" is the same point: a zero price still consumes a scarce slot.",
+      "example": "Federal Reserve Education walks the chain in that order: scarcity → choice → opportunity cost as the foundation of economic reasoning."
+    },
+    {
+      "type": "idea",
+      "emoji": "🥇",
+      "title": "Next-best only",
+      "text": "The opportunity cost is the single most valued forgone option, not a pile of every fantasy use. With one lunch hour you cannot both eat free pizza on the sidewalk and eat with friends in the cafeteria—so one of those is the cost.",
+      "example": "Fed materials: if school beats TV and the mall, the opportunity cost of school is whichever of TV or the mall ranked second—not both.",
+      "why": {
+        "q": "Why does stacking every alternative overstate the cost?",
+        "a": "Mutually exclusive uses compete for the same scarce resource; you forgo one next-best path, not the sum of all paths."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🧾",
+      "title": "Explicit, implicit, and economic profit",
+      "text": "Explicit costs are out-of-pocket. Implicit costs are owned resources redirected—your time, capital, or a wage you did not take. Accounting profit ignores most implicit costs; economic profit subtracts them. A venture can look profitable on the books and still lose to the next-best use of your capital and hours.",
+      "example": "Leaving work for an hour to buy $200 of supplies costs $200 explicit plus the hourly wage you did not earn—an implicit cost Wikipedia uses to teach the split.",
+      "examples_by_interest": {
+        "business": "Say… your side project shows $10,000 accounting profit but you forwent a $40,000 role. Economic profit is negative; the next-best job was the real benchmark.",
+        "golf": "Say… a $1,500 upgrade on clubs feels small next to a $18,500 trip budget; opportunity-cost thinking asks what else $1,500 buys outright—lessons, travel, or savings.",
+        "building": "Say… a weekend building a shed forgoes billable client work. Materials are explicit; the unbilled weekend is implicit."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🪞",
+      "title": "Relative value and neglect",
+      "text": "On large purchases, people compare add-ons to the base price (relative value) instead of asking what the add-on dollars buy elsewhere. Dealers highlight rival cars, not \"this car or tuition.\" Opportunity costs tend to be neglected unless someone names them.",
+      "example": "St. Louis Fed Page One: $1,300 doorknobs feel cheap versus $200,000; the better frame is $1,300 of other goods, savings, or debt paydown you will never do."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧪",
+      "title": "A nudge that works",
+      "text": "Behavioral work shows that spelling the alternative changes behavior. In Frederick et al. (2009), students seeing \"Keep the $14.99 for other purchases\" bought less than students seeing only \"Not buy this video.\" Autopilot spending skips that step.",
+      "example": "Practical habit from the Fed essay: for small buys first, ask what else the money becomes—then scale the same question to upgrades, hiring, and capital projects."
+    },
+    {
+      "type": "think",
+      "question": "Pick one pending spend or project. What is the next-best use of that capital or calendar—and what number would make you switch?",
+      "nudges": [
+        "Write the alternative as a concrete purchase, investment, or project—not \"save more\" in the abstract.",
+        "If you needed a kill criterion before the spend, what evidence would trigger it?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Opportunity cost is:",
+          "options": [
+            {
+              "text": "The value of the next-best alternative forgone",
+              "correct": true,
+              "why": "Matches Fed and standard micro definitions."
+            },
+            {
+              "text": "Only cash leaving your account",
+              "correct": false,
+              "why": "That is explicit cost; opportunity cost includes implicit forgone value."
+            },
+            {
+              "text": "The sum of all imagined alternatives",
+              "correct": false,
+              "why": "Only the next-best mutually exclusive option counts."
+            },
+            {
+              "text": "A fee for missing a payment",
+              "correct": false,
+              "why": "Different concept—late fees are not opportunity cost."
+            }
+          ]
+        },
+        {
+          "q": "Why can $1,300 of upgrades feel cheap on a $200,000 house?",
+          "options": [
+            {
+              "text": "Relative comparison to the base price shrinks them",
+              "correct": true,
+              "why": "Page One Economics: relative value vs absolute alternative uses."
+            },
+            {
+              "text": "Upgrades never have opportunity costs",
+              "correct": false,
+              "why": "They forgo other uses of the same dollars."
+            },
+            {
+              "text": "Banks refund every customization",
+              "correct": false,
+              "why": "Not how pricing works."
+            },
+            {
+              "text": "Opportunity cost only applies under $100",
+              "correct": false,
+              "why": "Neglect is often worse on large purchases."
+            }
+          ]
+        },
+        {
+          "q": "In the $14.99 video study, making \"keep the money for other purchases\" explicit:",
+          "options": [
+            {
+              "text": "Cut willingness to buy from about 75% to 55%",
+              "correct": true,
+              "why": "Frederick et al. 2009, as reported by the St. Louis Fed."
+            },
+            {
+              "text": "Raised purchases to nearly 100%",
+              "correct": false,
+              "why": "Naming the alternative reduced buying."
+            },
+            {
+              "text": "Had no measurable effect",
+              "correct": false,
+              "why": "The point of the study was a clear effect."
+            },
+            {
+              "text": "Only changed answers for cars",
+              "correct": false,
+              "why": "The experiment used an entertaining video purchase."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Opportunity cost is…",
+        "Big purchases hide it when…",
+        "A simple nudge is to…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "mA-UQW7yHO0",
+    "title": "There is No Such Thing as a Free Lunch - Economic Lowdown",
+    "channel": "Federal Reserve Bank of St. Louis",
+    "duration_sec": 313,
+    "why": "Walks scarcity → choice → opportunity cost and shows why a zero-price lunch still burns a scarce hour—core adult framing from the Fed."
+  },
+  "sources": [
+    {
+      "title": "Money and Missed Opportunities",
+      "publisher": "Federal Reserve Bank of St. Louis (Page One Economics)",
+      "url": "https://www.stlouisfed.org/publications/page-one-economics/2019/10/01/money-and-missed-opportunities",
+      "supports": "Definition; scarcity; $7 smoothie reframing; $1,300 vs $200,000 relative-value example (0.65%); neglect on high-priced purchases; Frederick et al. 2009 video study 75%→55%; autopilot caution; glossary definitions of opportunity cost and scarcity."
+    },
+    {
+      "title": "Opportunity Cost (scarcity, choice, free lunch)",
+      "publisher": "Federal Reserve Education",
+      "url": "https://www.federalreserveeducation.org/teaching-resources/economics/scarcity/opportunity-cost",
+      "supports": "Scarcity definition; choice under limits; opportunity cost as most highly valued opportunity given up; next-best only (school vs TV vs mall); Milton Friedman no free lunch; free pizza still has opportunity cost."
+    },
+    {
+      "title": "Opportunity cost",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Opportunity_cost",
+      "supports": "Best alternative forgone; explicit vs implicit costs; wage-forgone example; economic profit vs accounting profit includes opportunity costs."
+    }
+  ]
+}
