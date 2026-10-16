@@ -1,0 +1,219 @@
+{
+  "id": "civics-juries-adult",
+  "topic": "civics",
+  "subject": "juries",
+  "level": "adult",
+  "title": "The Vanishing Jury: Plea Bargains and the Sixth Amendment",
+  "emoji": "⚖️",
+  "summary": "The Founders built criminal justice around juries; today about 95% of defendants plead guilty. What changed, and what's the trade-off?",
+  "minutes": 8,
+  "date_added": "2026-10-16",
+  "series": {
+    "id": "checks-on-power",
+    "part": 3,
+    "of": 3
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why did plea bargaining come to dominate U.S. criminal cases?",
+      "answer": "Trials grew longer and costlier as prosecutors, defense lawyers and evidence rules took over, so both sides traded guilty pleas for lower charges or sentences."
+    },
+    {
+      "id": "k2",
+      "prompt": "What is the \"trial penalty\" concern?",
+      "answer": "Large plea discounts make trial so risky that even innocent defendants may plead guilty. Bibas proposes capping post-trial sentences at 125% of the offer."
+    },
+    {
+      "id": "k3",
+      "prompt": "What did Ramos v. Louisiana (2020) decide, and what limited it?",
+      "answer": "State criminal verdicts must be unanimous. Edwards v. Vannoy (2021) held the rule isn't retroactive for settled convictions."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🔢",
+      "title": "The central institution that became the exception",
+      "text": "Trial by jury is the only right guaranteed in both the original Constitution and the Bill of Rights. At the Founding, juries were central players in criminal justice. By the mid-twentieth century, they resolved only a small fraction of criminal cases. How does a constitutional centerpiece become the exception?"
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "Today, what share of criminal defendants plead guilty rather than go to trial?",
+      "estimate": {
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "answer": 95
+      },
+      "reveal": "About 95%, usually in exchange for a lower sentence, according to Judge Stephanos Bibas.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "🏛️",
+      "title": "The Founding-era design",
+      "text": "At the Founding there were no professional police forces, and victims, not public prosecutors, usually brought cases. Neither side typically had a lawyer, and trials lasted minutes or hours. Juries of twelve local men weighed both factual guilt and whether a defendant deserved mercy. They \"checked the government's power to punish.\""
+    },
+    {
+      "type": "idea",
+      "emoji": "📉",
+      "title": "Why trials gave way to deals",
+      "text": "Professional police and prosecutors arrived, defendants who could afford it hired lawyers, and judges built rules of evidence and procedure. Trials grew longer and more complex. To avoid that time and expense and clear busy dockets, both sides plea bargained. Today about 95% of defendants plead guilty, usually for a lower sentence.",
+      "why": {
+        "q": "Why would both prosecutors and defendants often prefer a deal?",
+        "a": "A deal avoids the time and expense of trial: the prosecutor clears the docket, and the defendant gets lower charges or a lighter sentence."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "The trial penalty",
+      "text": "Bibas argues a modest plea discount of 10% to 20% fairly compensates for saved time and the small chance of acquittal. But discounts of 50%, 80%, or 90% \"can tempt even the innocent to plead guilty.\" He suggests legislatures cap post-trial sentences at 125% of the plea offer.",
+      "example": "In this example, the plea offer is 4 years. Under a 125% cap, the sentence after losing at trial could be at most 5 years."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧑‍⚖️",
+      "title": "How much should juries know?",
+      "text": "Juries are commonly told not to concern themselves with punishment. Professor Jeffrey Fisher argues the Sixth Amendment should let defendants have juries told the potential punishments, and perhaps their power to acquit. Bibas disagrees that the Constitution requires this, except for the death penalty and the felony line, though he backs similar reforms as policy."
+    },
+    {
+      "type": "idea",
+      "emoji": "📜",
+      "title": "Size, unanimity, and the six-month line",
+      "text": "The jury right applies when the accused faces more than six months in prison. Juries may be as small as six, though nearly all states require twelve. Ramos v. Louisiana (2020) required unanimous verdicts in state courts; Edwards v. Vannoy (2021) declined to apply that retroactively. Fisher suggests the Court rethink both the six-month line and juries smaller than twelve.",
+      "why": {
+        "q": "Why might the Court refuse to make a new rule retroactive?",
+        "a": "Applying it backward would reopen settled convictions; under Edwards, state prisoners convicted by non-unanimous juries can't challenge those convictions in federal court on that basis."
+      }
+    },
+    {
+      "type": "link",
+      "to": "civics-checks-and-balances-adult",
+      "prompt": "\"Separation of Powers as Incentive Design\" gave each branch the means and motive to resist the others. What happens to the jury's check when about 95% of cases end in a plea?",
+      "model": "It is rarely exercised. Bibas argues the shortcuts have cut out jurors' common sense and \"their check on harsh punishments and overzealous prosecutions.\""
+    },
+    {
+      "type": "think",
+      "question": "If every case went to trial, courts would need far more time and money. Make the strongest case for today's plea-heavy system, then the strongest case for reviving jury trials. Which trade-off would you choose?",
+      "nudges": [
+        "Who gains and who bears the risk under each system?",
+        "What would a 125% cap do to the number of trials, and to court budgets?",
+        "Is speed itself a form of fairness for victims and defendants?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "According to the National Constitution Center's common interpretation, what most directly drove the rise of plea bargaining?",
+          "options": [
+            {
+              "text": "Trials grew longer and costlier as lawyers and evidence rules took over",
+              "correct": true,
+              "why": "Yes. Both sides bargained to avoid that time and expense and clear busy dockets."
+            },
+            {
+              "text": "The Sixth Amendment's jury right was narrowed by amendment",
+              "correct": false,
+              "why": "The text hasn't changed; the shift came from how the system evolved."
+            },
+            {
+              "text": "Ramos v. Louisiana made convictions harder",
+              "correct": false,
+              "why": "Ramos came in 2020; juries already resolved only a small fraction of cases by the mid-twentieth century."
+            },
+            {
+              "text": "Judges began choosing jurors themselves",
+              "correct": false,
+              "why": "No. Jurors are still drawn from the community."
+            }
+          ]
+        },
+        {
+          "q": "A plea offer is 3 years. Under Bibas's proposed 125% cap, what's the longest sentence after losing at trial?",
+          "options": [
+            {
+              "text": "3.75 years",
+              "correct": true,
+              "why": "Right: 3 × 1.25 = 3.75."
+            },
+            {
+              "text": "4.5 years",
+              "correct": false,
+              "why": "That would be a 150% cap."
+            },
+            {
+              "text": "6 years",
+              "correct": false,
+              "why": "That's 200% of the offer."
+            },
+            {
+              "text": "3 years",
+              "correct": false,
+              "why": "That's 100%, meaning no trial penalty at all."
+            }
+          ]
+        },
+        {
+          "q": "Where do Bibas and Fisher disagree?",
+          "options": [
+            {
+              "text": "Whether the Sixth Amendment requires telling juries about punishments",
+              "correct": true,
+              "why": "Yes. Fisher thinks it should; Bibas thinks it's wise policy but not constitutionally required, outside narrow cases."
+            },
+            {
+              "text": "Whether juries matter",
+              "correct": false,
+              "why": "Both treat the jury as central and want it revived."
+            },
+            {
+              "text": "Whether verdicts should be unanimous",
+              "correct": false,
+              "why": "Not their dispute; Fisher calls the Court's unanimity rule wise."
+            },
+            {
+              "text": "Whether most cases end in pleas",
+              "correct": false,
+              "why": "Both accept that the vast bulk of cases never reach trial."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "At the Founding, juries…",
+        "Plea bargaining took over because…",
+        "The core trade-off is…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "TvIEvBhfXoQ",
+    "title": "What is the role of plea bargaining in the criminal justice system?",
+    "channel": "National Constitution Center",
+    "duration_sec": 317,
+    "why": "Judge Stephanos Bibas traces how trials grew longer, why plea bargaining took over, and what that means for the jury's role. It's one judge's view."
+  },
+  "sources": [
+    {
+      "title": "Interpretations of the Sixth Amendment (Common Interpretation; essays by Stephanos Bibas and Jeffrey L. Fisher)",
+      "publisher": "National Constitution Center",
+      "url": "https://constitutioncenter.org/the-constitution/amendments/amendment-vi/interpretations/127",
+      "supports": "Founding-era system (no professional police, victim-brought cases, no lawyers, trials of minutes or hours, juries of twelve that weighed guilt and mercy and \"checked the government's power to punish\"); rise of prosecutors, lawyers, evidence rules and plea bargaining; juries resolved a small fraction by the mid-twentieth century; about 95% plead guilty; Bibas on 10–20% vs. 50–90% discounts and the 125% cap; Fisher on telling juries about punishment and nullification; Bibas's disagreement; six-month line; six-member juries; Ramos (2020) and Edwards v. Vannoy (2021); the only right in both the original Constitution and the Bill of Rights."
+    },
+    {
+      "title": "Sixth Amendment",
+      "publisher": "National Constitution Center",
+      "url": "https://constitutioncenter.org/the-constitution/amendments/amendment-vi",
+      "supports": "Full text of the Sixth Amendment's right to a speedy and public trial by an impartial jury; passed September 25, 1789, ratified December 15, 1791."
+    }
+  ]
+}

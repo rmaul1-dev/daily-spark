@@ -1,0 +1,223 @@
+{
+  "id": "civics-juries-teen",
+  "topic": "civics",
+  "subject": "juries",
+  "level": "teen",
+  "title": "Trial by Jury: Why Ordinary Citizens Decide",
+  "emoji": "⚖️",
+  "summary": "Two kinds of juries, two standards of proof, and the right the Founders wrote into the Constitution twice.",
+  "minutes": 7,
+  "date_added": "2026-10-16",
+  "series": {
+    "id": "checks-on-power",
+    "part": 3,
+    "of": 3
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why is the standard of proof higher in criminal trials than in civil ones?",
+      "answer": "A criminal conviction can take away someone's freedom. Civil cases are about money, so \"more likely than not\" is enough."
+    },
+    {
+      "id": "k2",
+      "prompt": "What's the difference between a grand jury and a trial jury?",
+      "answer": "A grand jury (16 to 23 people) decides if there's probable cause to charge someone. A trial jury (6 to 12) hears the case and gives the verdict."
+    },
+    {
+      "id": "k3",
+      "prompt": "What did Ramos v. Louisiana (2020) require?",
+      "answer": "State criminal juries, like federal ones, must be unanimous to convict."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧾",
+      "title": "A price tag in the Bill of Rights",
+      "text": "Most of the Bill of Rights talks about big ideas. But the amendment about juries in civil lawsuits names an exact dollar amount. Why would the Founders trust ordinary citizens with so much?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "The Seventh Amendment keeps the right to a jury in certain federal civil lawsuits. Above what amount of money?",
+      "options": [
+        {
+          "text": "$20",
+          "correct": true
+        },
+        {
+          "text": "$1,000"
+        },
+        {
+          "text": "$10,000"
+        },
+        {
+          "text": "Any amount, even $1"
+        }
+      ],
+      "reveal": "Twenty dollars. The text says \"where the value in controversy shall exceed twenty dollars.\"",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "🗽",
+      "title": "Written in twice",
+      "text": "Trial by jury is the only right guaranteed in both the original Constitution and the Bill of Rights. The Sixth Amendment promises a \"speedy and public\" trial by \"an impartial jury\" in criminal cases. In Federalist No. 83, Alexander Hamilton wrote that the plan's supporters and opponents, \"if they agree on nothing else,\" agreed on the value of trial by jury."
+    },
+    {
+      "type": "idea",
+      "emoji": "💵",
+      "title": "Civil cases count too",
+      "text": "The Seventh Amendment covers civil lawsuits, where one side sues another for money. It keeps the jury right in suits \"where the value in controversy shall exceed twenty dollars.\"",
+      "example": "Say a supplier sues your sneaker-resale business over a $500 order it says you never paid for. That's a civil case: money is at stake, not anyone's freedom."
+    },
+    {
+      "type": "idea",
+      "emoji": "📏",
+      "title": "Two standards of proof",
+      "text": "In a criminal case, the government must prove guilt beyond a reasonable doubt. In a civil case, the side suing only has to show its claim is more likely true than not, called a preponderance of the evidence. That is a much lower bar.",
+      "why": {
+        "q": "Why demand so much more proof in a criminal case?",
+        "a": "A criminal conviction can take away a person's freedom. In a civil case no one's freedom is at stake, so a lower bar is used."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🧩",
+      "title": "Two kinds of juries",
+      "text": "A grand jury of 16 to 23 people meets in private. It decides whether there is \"probable cause\" to put someone on trial. If so, it issues an indictment, a formal charge. A trial jury, or petit jury, of 6 to 12 people hears the case and gives the verdict."
+    },
+    {
+      "type": "idea",
+      "emoji": "🤝",
+      "title": "Everyone must agree",
+      "text": "A criminal jury's verdict must be unanimous. In 2020, in Ramos v. Louisiana, the Supreme Court overruled a 1970s precedent and applied that rule to state courts too. Experts still debate other details, like whether juries of fewer than 12 should be allowed.",
+      "why": {
+        "q": "Why might requiring every juror to agree make a verdict more trustworthy?",
+        "a": "Every juror has to find every part of the crime proved beyond a reasonable doubt, so a single juror's reasonable doubt is enough to block a guilty verdict."
+      }
+    },
+    {
+      "type": "link",
+      "to": "civics-checks-and-balances-teen",
+      "prompt": "In \"Checks and Balances: Designing Against Power\" the branches check each other. Who checks the government when it wants to punish one person?",
+      "model": "A jury of ordinary citizens. The government has to prove its case to them beyond a reasonable doubt, or the jury must find the person not guilty."
+    },
+    {
+      "type": "think",
+      "question": "Hamilton said both sides of the ratification debate valued juries. Today many adults see a jury summons as an annoyance. Make the strongest case for ordinary citizens deciding, then the strongest case for trained judges deciding.",
+      "nudges": [
+        "What do ordinary people bring that experts might not?",
+        "What could a trained judge do better?",
+        "Which would you want if you were the one on trial?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "A grand jury decides…",
+          "options": [
+            {
+              "text": "whether there's probable cause to put someone on trial",
+              "correct": true,
+              "why": "Right. If there's enough evidence, it issues an indictment."
+            },
+            {
+              "text": "whether the defendant is guilty",
+              "correct": false,
+              "why": "That's the trial jury's job."
+            },
+            {
+              "text": "which judge hears the case",
+              "correct": false,
+              "why": "No. A grand jury only weighs whether there's enough evidence for a trial."
+            },
+            {
+              "text": "how much money a civil case is worth",
+              "correct": false,
+              "why": "No. Grand juries handle early criminal matters only."
+            }
+          ]
+        },
+        {
+          "q": "A neighbor sues you for money over a damaged fence. What standard of proof applies?",
+          "options": [
+            {
+              "text": "More likely than not",
+              "correct": true,
+              "why": "Yes. It's a civil case, so a preponderance of the evidence is enough."
+            },
+            {
+              "text": "Beyond a reasonable doubt",
+              "correct": false,
+              "why": "That higher bar is for criminal cases, where freedom is at stake."
+            },
+            {
+              "text": "Probable cause",
+              "correct": false,
+              "why": "That's the grand jury's test for whether to bring criminal charges."
+            }
+          ]
+        },
+        {
+          "q": "What did the Supreme Court decide in Ramos v. Louisiana (2020)?",
+          "options": [
+            {
+              "text": "State criminal juries must be unanimous",
+              "correct": true,
+              "why": "Right. It overruled a 1970s precedent and applied unanimity to the states."
+            },
+            {
+              "text": "Every jury must have exactly 12 people",
+              "correct": false,
+              "why": "No. Juries as small as six are still allowed; Ramos was about agreement."
+            },
+            {
+              "text": "Grand juries are no longer needed",
+              "correct": false,
+              "why": "No. The case was about trial juries agreeing on a verdict."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "There are two kinds of juries…",
+        "Criminal cases need more proof because…",
+        "The Seventh Amendment surprised me because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "8fwQuPQOwH4",
+    "title": "How do jury trials work?",
+    "channel": "National Constitution Center",
+    "duration_sec": 132,
+    "why": "Judge Stephanos Bibas explains jury size, why criminal verdicts must be unanimous, and the two standards of proof."
+  },
+  "sources": [
+    {
+      "title": "Seventh Amendment",
+      "publisher": "National Constitution Center",
+      "url": "https://constitutioncenter.org/the-constitution/amendments/amendment-vii",
+      "supports": "Full text of the Seventh Amendment, including \"where the value in controversy shall exceed twenty dollars\"; passed September 25, 1789, ratified December 15, 1791."
+    },
+    {
+      "title": "Types of Juries",
+      "publisher": "United States Courts (Administrative Office of the U.S. Courts)",
+      "url": "https://www.uscourts.gov/court-programs/jury-service/types-juries",
+      "supports": "Petit juries (6–12) decide criminal and civil cases; beyond a reasonable doubt vs. preponderance of the evidence (more likely than not), a lower standard because no party's freedom is at issue in a civil matter; grand juries (16–23) meet in private, assess probable cause, and issue indictments."
+    },
+    {
+      "title": "Interpretations of the Sixth Amendment (Common Interpretation; essays by Stephanos Bibas and Jeffrey L. Fisher)",
+      "publisher": "National Constitution Center",
+      "url": "https://constitutioncenter.org/the-constitution/amendments/amendment-vi/interpretations/127",
+      "supports": "Jury trial is the only right guaranteed in both the original Constitution and the Bill of Rights; the \"speedy and public\" and \"an impartial jury\" wording; Hamilton's Federalist No. 83 quote; verdicts must be unanimous and Ramos v. Louisiana (2020) overruled a 1970s precedent to apply this to the states; juries may be as small as six, and Fisher suggests rethinking juries of fewer than twelve; adults often see a jury summons as an annoyance."
+    }
+  ]
+}

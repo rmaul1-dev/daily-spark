@@ -1,0 +1,251 @@
+{
+  "id": "civics-juries-kid",
+  "topic": "civics",
+  "subject": "juries",
+  "level": "kid",
+  "title": "Who Decides? The Jury",
+  "emoji": "👥",
+  "summary": "How regular people, picked at random, decide what really happened in a trial.",
+  "minutes": 6,
+  "date_added": "2026-10-16",
+  "series": {
+    "id": "checks-on-power",
+    "part": 3,
+    "of": 3
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What does a jury decide in a trial?",
+      "answer": "The facts, which means what really happened. The judge explains the law.",
+      "options": [
+        {
+          "text": "The facts: what really happened",
+          "correct": true
+        },
+        {
+          "text": "What the law should say"
+        },
+        {
+          "text": "How long the trial lasts"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "How are jurors usually chosen?",
+      "answer": "At random, often from lists of voters. Then the judge and lawyers ask questions to find people who can be fair.",
+      "options": [
+        {
+          "text": "At random, from lists of people",
+          "correct": true
+        },
+        {
+          "text": "The judge picks friends"
+        },
+        {
+          "text": "Whoever signs up first"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "In a criminal trial, how many jurors must agree to say guilty?",
+      "answer": "All of them. The verdict must be unanimous, which means everyone agrees.",
+      "options": [
+        {
+          "text": "All of them",
+          "correct": true
+        },
+        {
+          "text": "More than half"
+        },
+        {
+          "text": "Just one"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🪟",
+      "title": "Who should decide?",
+      "text": "Two classmates tell different stories about a broken window. One says it was an accident. The other says it was not. Who should decide what really happened? How could you make it fair?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "In a U.S. court, how do people end up on a jury?",
+      "options": [
+        {
+          "text": "They are picked at random from lists",
+          "correct": true
+        },
+        {
+          "text": "The judge picks friends"
+        },
+        {
+          "text": "Only people who ask to be on it"
+        }
+      ],
+      "reveal": "Courts pick people at random, often from lists of voters. Then the judge and lawyers ask questions to find people who can be fair.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "👥",
+      "title": "What a jury is",
+      "text": "A jury is a group of regular people who decide a trial. In U.S. federal courts, a trial jury has 6 to 12 people. They listen to witnesses and look at the evidence. Then they decide.",
+      "example": "In a criminal trial, the jury says guilty or not guilty. The trial is public, but the jury talks in private."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎲",
+      "title": "Picked at random",
+      "text": "Courts pick names at random, often from lists of people who vote. Then the judge and the lawyers ask them questions. Based on their answers, some people are excused from that trial.",
+      "why": {
+        "q": "Why pick jurors at random from a big list?",
+        "a": "Courts want a fair mix of people from the whole community, not just one kind of person."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🤝",
+      "title": "Judge and jury, a team",
+      "text": "The judge explains the law. The jury decides the facts, which means what really happened. Each one has its own job.",
+      "example": "Say the law says a person must have known they were doing a crime. The jury looks at the evidence and decides if they knew."
+    },
+    {
+      "type": "idea",
+      "emoji": "✅",
+      "title": "Very sure, and all agree",
+      "text": "In a trial about a crime, the jury must be very sure. The rule is \"beyond a reasonable doubt.\" And every juror must agree to say guilty."
+    },
+    {
+      "type": "idea",
+      "emoji": "🛡️",
+      "title": "A check on power",
+      "text": "Long ago, juries were local people who often knew the people and places in the case. They checked the government's power to punish. Today the government still has to convince regular people that it is right.",
+      "why": {
+        "q": "Why might it matter that regular people, not only officials, decide?",
+        "a": "The government can't punish someone just by saying so. It has to prove its case to everyday citizens."
+      }
+    },
+    {
+      "type": "link",
+      "to": "civics-checks-and-balances-kid",
+      "prompt": "In \"Three Branches, One Team\" you learned that each branch can push back on the others. How is a jury a check, too?",
+      "model": "A jury of regular people decides if the government proved its case. So the government can't punish someone just by saying so."
+    },
+    {
+      "type": "think",
+      "question": "Would you rather have your case decided by one judge or by a jury of regular people? Why?",
+      "nudges": [
+        "What might a judge know that a jury doesn't?",
+        "What might many people notice that one person could miss?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What does the jury decide?",
+          "options": [
+            {
+              "text": "The facts: what really happened",
+              "correct": true,
+              "why": "Yes! The judge explains the law, and the jury decides the facts."
+            },
+            {
+              "text": "What the law should say",
+              "correct": false,
+              "why": "Not quite. The judge tells the jury what the law is."
+            },
+            {
+              "text": "Who the judge should be",
+              "correct": false,
+              "why": "No. The jury's job is to decide the facts of the case."
+            }
+          ]
+        },
+        {
+          "q": "How sure must a jury be to say someone is guilty of a crime?",
+          "options": [
+            {
+              "text": "Beyond a reasonable doubt",
+              "correct": true,
+              "why": "Right. That means very sure."
+            },
+            {
+              "text": "Just a little bit sure",
+              "correct": false,
+              "why": "Not enough. For a crime, the jury must be very sure."
+            },
+            {
+              "text": "They can flip a coin",
+              "correct": false,
+              "why": "No way! The jury decides from the evidence."
+            }
+          ]
+        },
+        {
+          "q": "In a criminal trial, how many jurors must agree to say guilty?",
+          "options": [
+            {
+              "text": "All of them",
+              "correct": true,
+              "why": "Yes. The verdict must be unanimous, which means everyone agrees."
+            },
+            {
+              "text": "Just over half",
+              "correct": false,
+              "why": "Good guess, but not enough. Everyone must agree."
+            },
+            {
+              "text": "Only the leader",
+              "correct": false,
+              "why": "No. Every juror's vote counts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "A jury is…",
+        "The judge's job is…, and the jury's job is…",
+        "I think a jury is fair because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "grnUvCNAfGA",
+    "title": "Jury Service Overview",
+    "channel": "United States Courts",
+    "duration_sec": 213,
+    "why": "The U.S. Courts show how jurors are picked, the two kinds of juries, and what jurors do during a trial."
+  },
+  "sources": [
+    {
+      "title": "Types of Juries",
+      "publisher": "United States Courts (Administrative Office of the U.S. Courts)",
+      "url": "https://www.uscourts.gov/court-programs/jury-service/types-juries",
+      "supports": "Trial (petit) juries have 6–12 people and decide criminal and civil cases; the government must prove guilt beyond a reasonable doubt; verdicts of guilty or not guilty; trials are public but deliberations are private."
+    },
+    {
+      "title": "Juror Selection Process",
+      "publisher": "United States Courts (Administrative Office of the U.S. Courts)",
+      "url": "https://www.uscourts.gov/court-programs/jury-service/juror-selection-process",
+      "supports": "Courts randomly select citizens, using voter lists; the judge and attorneys question potential jurors (voir dire) and some are excused; the judge instructs on the law and the jury determines the facts, with the example about whether the defendant knew they were committing a crime."
+    },
+    {
+      "title": "Interpretations of the Sixth Amendment (Common Interpretation; essays by Stephanos Bibas and Jeffrey L. Fisher)",
+      "publisher": "National Constitution Center",
+      "url": "https://constitutioncenter.org/the-constitution/amendments/amendment-vi/interpretations/127",
+      "supports": "Founding-era juries were local citizens who often knew the people involved and \"checked the government's power to punish\"; a criminal jury's verdict must be unanimous."
+    }
+  ]
+}

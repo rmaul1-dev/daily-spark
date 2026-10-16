@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-15",
+ "updated": "2026-10-16",
  "topics": [
   {
    "id": "history",
@@ -216,6 +216,17 @@
     "kid": "ideas-opportunity-cost-kid"
    },
    "dinner_question": "What is one choice you made this week, and what was the next-best thing you gave up to make it?"
+  },
+  {
+   "date": "2026-10-24",
+   "topic": "civics",
+   "title": "Trial by jury",
+   "packs": {
+    "adult": "civics-juries-adult",
+    "teen": "civics-juries-teen",
+    "kid": "civics-juries-kid"
+   },
+   "dinner_question": "If you were on a jury, what would make you sure enough to decide, and what would make you hold back?"
   }
  ],
  "series": [
@@ -375,7 +386,8 @@
    "level": "kid",
    "packs": [
     "civics-checks-and-balances-kid",
-    "civics-first-amendment-kid"
+    "civics-first-amendment-kid",
+    "civics-juries-kid"
    ]
   },
   {
@@ -387,7 +399,8 @@
    "level": "teen",
    "packs": [
     "civics-checks-and-balances-teen",
-    "civics-first-amendment-teen"
+    "civics-first-amendment-teen",
+    "civics-juries-teen"
    ]
   },
   {
@@ -399,7 +412,8 @@
    "level": "adult",
    "packs": [
     "civics-checks-and-balances-adult",
-    "civics-first-amendment-adult"
+    "civics-first-amendment-adult",
+    "civics-juries-adult"
    ]
   }
  ],
@@ -830,7 +844,7 @@
    "series": {
     "id": "checks-on-power",
     "part": 1,
-    "of": 2
+    "of": 3
    }
   },
   {
@@ -848,7 +862,7 @@
    "series": {
     "id": "checks-on-power",
     "part": 1,
-    "of": 2
+    "of": 3
    }
   },
   {
@@ -866,7 +880,7 @@
    "series": {
     "id": "checks-on-power",
     "part": 1,
-    "of": 2
+    "of": 3
    }
   },
   {
@@ -884,7 +898,7 @@
    "series": {
     "id": "checks-on-power",
     "part": 2,
-    "of": 2
+    "of": 3
    }
   },
   {
@@ -902,7 +916,7 @@
    "series": {
     "id": "checks-on-power",
     "part": 2,
-    "of": 2
+    "of": 3
    }
   },
   {
@@ -920,7 +934,61 @@
    "series": {
     "id": "checks-on-power",
     "part": 2,
-    "of": 2
+    "of": 3
+   }
+  },
+  {
+   "id": "civics-juries-kid",
+   "topic": "civics",
+   "level": "kid",
+   "title": "Who Decides? The Jury",
+   "emoji": "👥",
+   "subject": "juries",
+   "summary": "How regular people, picked at random, decide what really happened in a trial.",
+   "minutes": 6,
+   "date_added": "2026-10-16",
+   "cards": 11,
+   "keys_count": 3,
+   "series": {
+    "id": "checks-on-power",
+    "part": 3,
+    "of": 3
+   }
+  },
+  {
+   "id": "civics-juries-teen",
+   "topic": "civics",
+   "level": "teen",
+   "title": "Trial by Jury: Why Ordinary Citizens Decide",
+   "emoji": "⚖️",
+   "subject": "juries",
+   "summary": "Two kinds of juries, two standards of proof, and the right the Founders wrote into the Constitution twice.",
+   "minutes": 7,
+   "date_added": "2026-10-16",
+   "cards": 11,
+   "keys_count": 3,
+   "series": {
+    "id": "checks-on-power",
+    "part": 3,
+    "of": 3
+   }
+  },
+  {
+   "id": "civics-juries-adult",
+   "topic": "civics",
+   "level": "adult",
+   "title": "The Vanishing Jury: Plea Bargains and the Sixth Amendment",
+   "emoji": "⚖️",
+   "subject": "juries",
+   "summary": "The Founders built criminal justice around juries; today about 95% of defendants plead guilty. What changed, and what's the trade-off?",
+   "minutes": 8,
+   "date_added": "2026-10-16",
+   "cards": 11,
+   "keys_count": 3,
+   "series": {
+    "id": "checks-on-power",
+    "part": 3,
+    "of": 3
    }
   },
   {
