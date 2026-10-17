@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-16",
+ "updated": "2026-10-17",
  "topics": [
   {
    "id": "history",
@@ -227,6 +227,17 @@
     "kid": "civics-juries-kid"
    },
    "dinner_question": "If you were on a jury, what would make you sure enough to decide, and what would make you hold back?"
+  },
+  {
+   "date": "2026-10-25",
+   "topic": "body",
+   "title": "The immune system",
+   "packs": {
+    "adult": "body-immune-system-adult",
+    "teen": "body-immune-system-teen",
+    "kid": "body-immune-system-kid"
+   },
+   "dinner_question": "Your body has fast first responders and slower specialists that remember. When something goes wrong at home, who in our family is the first responder, and who is the careful specialist?"
   }
  ],
  "series": [
@@ -1346,6 +1357,45 @@
    "minutes": 8,
    "date_added": "2026-10-09",
    "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "body-immune-system-kid",
+   "topic": "body",
+   "level": "kid",
+   "title": "Your Body's Germ Defense Team",
+   "emoji": "🛡️",
+   "subject": "immune-system",
+   "summary": "How your skin, white blood cells and antibodies team up to fight germs.",
+   "minutes": 6,
+   "date_added": "2026-10-17",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "body-immune-system-teen",
+   "topic": "body",
+   "level": "teen",
+   "title": "Your Immune System: Fast Defenders, Slow Specialists",
+   "emoji": "🛡️",
+   "subject": "immune-system",
+   "summary": "Why your body runs two defense systems, and how memory turns round two into a rout.",
+   "minutes": 7,
+   "date_added": "2026-10-17",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "body-immune-system-adult",
+   "topic": "body",
+   "level": "adult",
+   "title": "Immunity: A Random Library, Strict Filters, and Memory",
+   "emoji": "🧬",
+   "subject": "immune-system",
+   "summary": "Fast generalists, slow specialists, receptors built before the threat, and why vaccines buy back days.",
+   "minutes": 8,
+   "date_added": "2026-10-17",
+   "cards": 10,
    "keys_count": 3
   },
   {

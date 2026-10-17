@@ -1,0 +1,224 @@
+{
+  "id": "body-immune-system-adult",
+  "topic": "body",
+  "subject": "immune-system",
+  "level": "adult",
+  "title": "Immunity: A Random Library, Strict Filters, and Memory",
+  "emoji": "🧬",
+  "summary": "Fast generalists, slow specialists, receptors built before the threat, and why vaccines buy back days.",
+  "minutes": 8,
+  "date_added": "2026-10-17",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why does a first adaptive response take 4–7 days, and what does memory change?",
+      "answer": "The rare matching B and T cells must be activated and expanded. Afterward memory cells stay poised, so a repeat exposure can be cleared before it establishes itself."
+    },
+    {
+      "id": "k2",
+      "prompt": "How can the immune system recognize pathogens it has never met?",
+      "answer": "B- and T-cell receptor genes are randomly rearranged as the cells mature, building a vast library in advance that may recognize almost anything."
+    },
+    {
+      "id": "k3",
+      "prompt": "What keeps a recognize-anything system from attacking the body?",
+      "answer": "Self-reactive cells are deleted, activation needs innate danger cues as well as a match, and regulatory T cells restrain other T cells."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧬",
+      "title": "Answers before the questions",
+      "text": "Your immune system already holds receptors for pathogens you have never met, including new strains. It doesn't design them after seeing a threat; it generates them at random, in advance, and amplifies whichever ones match. A system that can recognize almost anything has an obvious failure mode. How does it avoid attacking you?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "You carry about 2 trillion lymphocytes, the B and T cells that hold this receptor library. Roughly what do they weigh all together?",
+      "options": [
+        {
+          "text": "About as much as a paperclip"
+        },
+        {
+          "text": "About as much as a golf ball"
+        },
+        {
+          "text": "About as much as your brain",
+          "correct": true
+        },
+        {
+          "text": "About as much as all your skeletal muscle"
+        }
+      ],
+      "reveal": "About as much as your brain or liver, by one estimate. That is the standing inventory the adaptive system keeps on hand, waiting for matches.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "⚡",
+      "title": "Two speeds",
+      "text": "Innate immunity acts immediately, using genetically encoded receptors such as Toll-like receptors that recognize broad danger patterns but can't tell one strain from another. Neutrophils, the most numerous innate cell, gather at an injury within minutes. Adaptive immunity uses B and T cells with unique receptors; in humans it takes 4–7 days to mount a significant response, because the rare matching cells must be activated and expanded.",
+      "why": {
+        "q": "Why not rely on the precise system alone?",
+        "a": "It needs days to expand. The innate side responds immediately, and its signals are also needed to activate B and T cells properly."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🎲",
+      "title": "Built before the threat",
+      "text": "As B and T cells mature, their receptor genes are randomly rearranged (V(D)J recombination), producing unique receptors that may potentially recognize anything, before any antigen is encountered. The body keeps about 2 trillion lymphocytes, roughly the mass of the brain or liver. When one cell finds its antigen and also gets innate danger cues, it divides rapidly into an army of identical effector cells: clonal selection.",
+      "example": "Decision parallel: this is less like forecasting the next threat and more like holding a huge, cheap portfolio of options and funding only the ones that pay off."
+    },
+    {
+      "type": "idea",
+      "emoji": "🛡️",
+      "title": "The tool kit",
+      "text": "Antibodies are the B-cell receptor in soluble form. They neutralize (coat a pathogen so it can't bind host cells), opsonize (flag it for neutrophils and macrophages to engulf), and activate complement, blood proteins that punch holes in bacteria. CD8+ cytotoxic T cells remove virus-infected cells by triggering apoptosis, a programmed death that limits damage to bystander tissue."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "The cost of recognizing anything",
+      "text": "A random library will include receptors that match your own cells. NIAID describes the safeguards: B or T cells that react to the body's own antigens are deleted; a match alone doesn't fully activate a cell without innate cues; and regulatory T cells inhibit other T cells to maintain tolerance. When these checks fail, the immune system can attack the body itself, as in autoimmune disease.",
+      "why": {
+        "q": "Why require two signals, an antigen match plus an innate cue, before activating?",
+        "a": "It is a check against unnecessary activation. A full adaptive response can damage the host, so a match alone isn't treated as enough."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🧠",
+      "title": "Memory, and why vaccines buy back days",
+      "text": "As an infection resolves, most effector cells die, but some remain as memory cells, poised to clear the same pathogen before it establishes itself. Vaccination achieves that memory without an infection. Effective vaccines engage both arms: an immunogen to generate specific memory cells, and often an adjuvant to activate innate immunity, because without innate signals the adaptive response can't be optimally achieved.",
+      "example": "Durability varies: recovering from measles protects for life, but adaptive immunity isn't always lifelong."
+    },
+    {
+      "type": "think",
+      "question": "The immune system pairs a cheap, fast, generic first line with a slow, precise, expensive second line, and requires two independent signals before committing force. Where does your own work use the same design, say in screening deals or credit? Where would you accept more false alarms to avoid missing a real threat?",
+      "nudges": [
+        "What is your \"innate\" layer: quick pattern rules that catch broad risks?",
+        "What does an autoimmune-style error look like in your world: attacking something that was fine?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Why can a memory response clear a pathogen that made you sick the first time?",
+          "options": [
+            {
+              "text": "Matching memory cells are already poised, so the slow activate-and-expand phase is cut short",
+              "correct": true,
+              "why": "Right. That saves the days the primary response needed."
+            },
+            {
+              "text": "Innate receptors learn the specific strain",
+              "correct": false,
+              "why": "Innate receptors are genetically encoded and recognize broad patterns, not strains."
+            },
+            {
+              "text": "The pathogen is weaker the second time",
+              "correct": false,
+              "why": "The pathogen is the same; the host is prepared."
+            },
+            {
+              "text": "Toll-like receptors switch off, so nothing slows the adaptive response",
+              "correct": false,
+              "why": "Innate signals help activate the adaptive response; they don't hold it back."
+            }
+          ]
+        },
+        {
+          "q": "What is the main job of an adjuvant in a vaccine?",
+          "options": [
+            {
+              "text": "Activate innate immunity so the adaptive response is optimally triggered",
+              "correct": true,
+              "why": "Correct. Without innate signals, adaptive immunity isn't optimally achieved."
+            },
+            {
+              "text": "Supply the antigen that memory cells will recognize",
+              "correct": false,
+              "why": "That is the immunogen's job."
+            },
+            {
+              "text": "Directly kill the pathogen",
+              "correct": false,
+              "why": "A vaccine trains the immune system; it isn't there to kill an existing infection."
+            },
+            {
+              "text": "Suppress regulatory T cells",
+              "correct": false,
+              "why": "NIAID describes adjuvants as activating innate immunity, not suppressing Tregs."
+            }
+          ]
+        },
+        {
+          "q": "In opsonization, antibodies…",
+          "options": [
+            {
+              "text": "flag a pathogen so neutrophils and macrophages engulf it",
+              "correct": true,
+              "why": "Right. The antibody coat works as a red flag for phagocytes."
+            },
+            {
+              "text": "block a pathogen from binding host cells",
+              "correct": false,
+              "why": "That is neutralization."
+            },
+            {
+              "text": "assemble pores that burst bacteria",
+              "correct": false,
+              "why": "That is complement, which antibodies can activate."
+            },
+            {
+              "text": "trigger apoptosis in infected cells",
+              "correct": false,
+              "why": "That is what cytotoxic T cells do."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The immune system has two speeds:…",
+        "It can recognize new pathogens because…",
+        "Vaccines matter because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "LmpuerlbJu0",
+    "title": "You Are Immune Against Every Disease",
+    "channel": "Kurzgesagt – In a Nutshell",
+    "duration_sec": 706,
+    "start": 0,
+    "end": 583,
+    "why": "Animated: random gene mixing builds billions of receptors, and the thymus weeds out self-reactive cells. Ends before the book promo; the title overstates."
+  },
+  "sources": [
+    {
+      "title": "Features of an Immune Response",
+      "publisher": "National Institute of Allergy and Infectious Diseases (NIH)",
+      "url": "https://www.niaid.nih.gov/research/immune-response-features",
+      "supports": "Innate immunity acts immediately through genetically encoded receptors such as Toll-like receptors that recognize broad patterns but can't distinguish strains; innate cells help activate adaptive immunity, which comes later because it relies on expanding specific B and T cells; B- and T-cell receptor genes are randomly rearranged, giving unique receptors that may potentially recognize anything; activation needs both an antigen match and innate cues; autoreactive cells are deleted; checks and balances prevent unnecessary activation; B cells make antibodies that neutralize pathogens; T cells kill infected cells and recruit other cells; memory cells can clear a pathogen before it establishes itself; vaccination achieves memory without an actual infection; vaccines use an immunogen and often adjuvants that activate innate immunity."
+    },
+    {
+      "title": "Immune Cells",
+      "publisher": "National Institute of Allergy and Infectious Diseases (NIH)",
+      "url": "https://www.niaid.nih.gov/research/immune-cells",
+      "supports": "Neutrophils are the most numerous innate immune cell and gather within minutes at an injury; antibodies are the B-cell receptor in soluble form and act by neutralization (blocking binding to host cells), opsonization (flagging pathogens for neutrophils and macrophages to engulf) and complement activation (proteins that punch holes in bacteria); CD8+ cytotoxic T cells remove virus-infected cells by triggering apoptosis, which limits bystander damage; regulatory T cells inhibit other T cells and maintain tolerance."
+    },
+    {
+      "title": "Adaptive immune system",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Adaptive_immune_system",
+      "supports": "In humans the adaptive immune system takes 4–7 days to mount a significant response; the body has about 2 trillion lymphocytes, with a total mass about the same as the brain or liver; V(D)J recombination creates receptor diversity before antigens are encountered; activated cells divide rapidly (clonal selection), and after the infection most effector cells die while a few remain as memory cells; regulatory T cells help control autoimmune disease; someone who recovers from measles is protected for life, but adaptive immunity is not always lifelong."
+    }
+  ]
+}

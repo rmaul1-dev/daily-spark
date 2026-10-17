@@ -1,0 +1,242 @@
+{
+  "id": "body-immune-system-kid",
+  "topic": "body",
+  "subject": "immune-system",
+  "level": "kid",
+  "title": "Your Body's Germ Defense Team",
+  "emoji": "🛡️",
+  "summary": "How your skin, white blood cells and antibodies team up to fight germs.",
+  "minutes": 6,
+  "date_added": "2026-10-17",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What do memory cells do?",
+      "answer": "They remember a germ your body fought before. If it comes back, your body can fight it faster.",
+      "options": [
+        {
+          "text": "Help your body fight a germ faster the next time",
+          "correct": true
+        },
+        {
+          "text": "Chew up germs that get into a cut"
+        },
+        {
+          "text": "Make your skin into a stronger wall"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "How does a vaccine help your body?",
+      "answer": "It shows your body a germ in a safe way, so your body learns to spot it without you getting sick.",
+      "options": [
+        {
+          "text": "It lets your body learn about a germ safely",
+          "correct": true
+        },
+        {
+          "text": "It gives you the sickness to get it over with"
+        },
+        {
+          "text": "It kills all the germs in your body"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What do phagocytes do?",
+      "answer": "They are white blood cells that chew up germs that get past your skin.",
+      "options": [
+        {
+          "text": "They chew up germs",
+          "correct": true
+        },
+        {
+          "text": "They make antibodies"
+        },
+        {
+          "text": "They make mucus to trap germs"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🚪",
+      "title": "Germs on the doorknob",
+      "text": "Think about what you touched today, like a doorknob. Each time, you came close to germs. So why aren't you sick all the time? Your body has a defense team, and it is always on duty."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Say the same germ gets into your body a second time. What do you think happens?",
+      "options": [
+        {
+          "text": "Your body fights it faster than the first time",
+          "correct": true
+        },
+        {
+          "text": "Your body has to start over from scratch"
+        },
+        {
+          "text": "Your body doesn't notice it at all"
+        }
+      ],
+      "reveal": "It fights faster! Some of your germ fighters remember the germ. Next time your body can fight back fast, and often you don't get sick at all.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "🧱",
+      "title": "Walls come first",
+      "text": "Your first defense is a wall: your skin. Sticky mucus traps germs. Your tears and skin oils have germ-fighting helpers. Stomach acid helps too, and a cough can push germs out.",
+      "example": "Your skin works like the wall around a castle. Germs have to get past it first.",
+      "why": {
+        "q": "Why is a wall a smart first defense?",
+        "a": "It keeps lots of germs out before they get in. Then your body has fewer germs to fight."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🍽️",
+      "title": "The germ eaters",
+      "text": "If germs get past the walls, white blood cells fight back. Some, called phagocytes (FAH-guh-sites), chew up germs. You can find white blood cells in your bone marrow. That is the thick, spongy jelly inside your bones.",
+      "example": "Did a small cut ever get a bit puffy? Hurt cells send out signals. The signals make the spot swell, and they call the germ eaters in."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔑",
+      "title": "Antibodies lock on",
+      "text": "Other white blood cells, called B cells, make antibodies. An antibody locks onto one kind of germ, like a key that fits one lock. Antibodies can't destroy germs by themselves. They mark germs, so other cells can destroy them."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧠",
+      "title": "Germ fighters remember",
+      "text": "After a fight, a few B cells and T cells stay on as memory cells. If the same germ comes back, they know it. Your body can fight back faster. Often, you don't get sick at all.",
+      "example": "That's why someone who had chickenpox usually won't get it again.",
+      "why": {
+        "q": "Why can your body fight a germ faster the second time?",
+        "a": "Memory cells already know that germ. So your body doesn't have to start over."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "💉",
+      "title": "Vaccines are practice",
+      "text": "A vaccine shows your body a germ in a safe way. It might have germs that are dead or weak, or just a piece of a germ. Your body learns to spot it and makes memory cells. Then you are ready if the real germ shows up.",
+      "example": "The measles shot, for example, can protect you from getting measles."
+    },
+    {
+      "type": "think",
+      "question": "Your defense team has walls, germ eaters, antibody makers and memory cells. If you could keep only one, which would you pick? Why?",
+      "nudges": [
+        "What would happen without the walls?",
+        "What if your body forgot every germ it ever fought?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What is your body's first defense against germs?",
+          "options": [
+            {
+              "text": "Walls like your skin and sticky mucus",
+              "correct": true,
+              "why": "Right! They keep lots of germs out before they get in."
+            },
+            {
+              "text": "Memory cells",
+              "correct": false,
+              "why": "Memory cells help later, once your body has met a germ before."
+            },
+            {
+              "text": "Vaccines",
+              "correct": false,
+              "why": "Vaccines help your body practice. But your skin is the first wall."
+            }
+          ]
+        },
+        {
+          "q": "What do antibodies do?",
+          "options": [
+            {
+              "text": "They lock onto a germ so other cells can destroy it",
+              "correct": true,
+              "why": "Yes! They mark the germ for the rest of the team."
+            },
+            {
+              "text": "They chew up germs",
+              "correct": false,
+              "why": "That is what phagocytes do."
+            },
+            {
+              "text": "They make your skin thicker",
+              "correct": false,
+              "why": "Antibodies lock onto germs. They don't change your skin."
+            }
+          ]
+        },
+        {
+          "q": "How does a vaccine help you?",
+          "options": [
+            {
+              "text": "It teaches your body about a germ without making you sick",
+              "correct": true,
+              "why": "Right. Your body makes memory cells, so it is ready."
+            },
+            {
+              "text": "It cleans every germ out of your body",
+              "correct": false,
+              "why": "A vaccine trains your body for a certain germ. It is practice, not a cleaner."
+            },
+            {
+              "text": "It makes you sick so you rest",
+              "correct": false,
+              "why": "A vaccine is given in a way that doesn't make you sick."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "My body's first wall is…",
+        "If a germ gets in…",
+        "A vaccine helps because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "PSRJfaAYkW4",
+    "title": "How does your immune system work? - Emma Bryce",
+    "channel": "TED-Ed",
+    "duration_sec": 323,
+    "why": "An animated tour that starts with a mosquito bite: white blood cells, antibodies, and how your body remembers germs."
+  },
+  "sources": [
+    {
+      "title": "Immune response",
+      "publisher": "MedlinePlus (U.S. National Library of Medicine, NIH)",
+      "url": "https://medlineplus.gov/ency/article/000821.htm",
+      "supports": "Innate immunity's barriers are the first line of defense: the cough reflex, enzymes in tears and skin oils, mucus that traps bacteria, skin, and stomach acid; damaged cells release chemicals that make blood vessels leak fluid (swelling) and attract phagocytes that \"eat\" germs; B cells make antibodies that attach to a specific antigen and make it easier for immune cells to destroy it; a few B and T cells provide \"memory\" so the body responds faster next time and in many cases you don't get sick; vaccines give small doses of an antigen, such as dead or weakened viruses or parts of a virus, to activate that memory."
+    },
+    {
+      "title": "Your Immune System (for Kids)",
+      "publisher": "Nemours KidsHealth",
+      "url": "https://kidshealth.org/en/kids/immune.html",
+      "supports": "White blood cells (leukocytes) include phagocytes, which chew up invading germs, and lymphocytes, which help the body remember and recognize invaders; leukocytes are found in bone marrow, a thick, spongy jelly inside your bones; the measles shot can protect you from getting measles."
+    },
+    {
+      "title": "The Immune System (for Teens)",
+      "publisher": "Nemours KidsHealth",
+      "url": "https://kidshealth.org/en/teens/immune.html",
+      "supports": "Touching things like a bathroom doorknob exposes you to germs; skin is a barrier that blocks germs; phagocytes such as neutrophils chew up invaders; B cells make antibodies that lock onto specific antigens; antibodies can't destroy a germ without help; T cells destroy infected cells and signal other cells like phagocytes; B cells compared to military intelligence and T cells to soldiers; someone who had chickenpox usually won't get it again; vaccines introduce an antigen in a way that doesn't make someone sick; innate, adaptive (active) and passive immunity, with antibodies in breast milk as borrowed, short-lived protection."
+    }
+  ]
+}

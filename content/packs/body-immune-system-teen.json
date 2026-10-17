@@ -1,0 +1,218 @@
+{
+  "id": "body-immune-system-teen",
+  "topic": "body",
+  "subject": "immune-system",
+  "level": "teen",
+  "title": "Your Immune System: Fast Defenders, Slow Specialists",
+  "emoji": "🛡️",
+  "summary": "Why your body runs two defense systems, and how memory turns round two into a rout.",
+  "minutes": 7,
+  "date_added": "2026-10-17",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why does the adaptive immune system need days the first time it meets a germ?",
+      "answer": "Only a few B and T cells match the new germ. They have to be activated and multiply into an army, which takes about 4 to 7 days."
+    },
+    {
+      "id": "k2",
+      "prompt": "How can your body already have receptors for germs it has never met?",
+      "answer": "B- and T-cell receptor genes are randomly reshuffled as the cells mature. That builds a huge library that can match almost anything."
+    },
+    {
+      "id": "k3",
+      "prompt": "How does a vaccine protect you?",
+      "answer": "It creates memory cells without an actual infection, so next time your body can clear the germ before it takes hold."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "⏱️",
+      "title": "Round one vs. round two",
+      "text": "The first time a new germ gets in, your most precise defenders need days to show up. The next time that same germ arrives, they can clear it before it takes hold. Same germ, same body. What changed between round one and round two?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "The first time a brand-new germ gets in, how long do your B and T cells take to mount a significant response?",
+      "options": [
+        {
+          "text": "A few minutes"
+        },
+        {
+          "text": "About a day"
+        },
+        {
+          "text": "4 to 7 days",
+          "correct": true
+        },
+        {
+          "text": "About a month"
+        }
+      ],
+      "reveal": "4 to 7 days. The few cells that match the germ have to be activated and then multiply. Your fast, general defenders work in the meantime.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "🧱",
+      "title": "Layer 1: walls and first responders",
+      "text": "Your skin is a barrier that blocks germs. If something gets through, innate immune cells respond right away. Phagocytes, like neutrophils, chew up invaders. Innate cells spot broad patterns, like \"this is a bacterium,\" but they can't tell one strain from another."
+    },
+    {
+      "type": "idea",
+      "emoji": "⏳",
+      "title": "Layer 2: specialists take days",
+      "text": "B cells and T cells are the adaptive system. Each one carries a unique receptor that fits one specific target, called an antigen. In humans, this system takes 4 to 7 days to mount a significant response, because the matching cells must be activated and then divide to build an army.",
+      "examples_by_interest": {
+        "soccer": "Say you face a striker nobody has scouted. Your defenders mark her from the first whistle, the same way they'd mark anyone. A plan built just for her works better, but it takes time to build. That's innate vs. adaptive.",
+        "business": "Say a new competitor opens across the street. Your usual playbook kicks in on day one. A strategy aimed at that one rival works better, but it takes longer to build. That's innate vs. adaptive."
+      },
+      "why": {
+        "q": "Why is the adaptive system so much slower than the innate one?",
+        "a": "At first only a few cells fit a new germ. They have to be activated and multiply into an army, and that takes days."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🎲",
+      "title": "A library built in advance",
+      "text": "How can you have a receptor for a germ you've never met? As B and T cells mature, their receptor genes are randomly reshuffled, so the receptors could potentially recognize almost anything. You carry about 2 trillion of these cells, called lymphocytes. Any B or T cell that would attack your own body gets deleted.",
+      "example": "2 trillion is 2,000,000,000,000. One estimate says all your lymphocytes together weigh about as much as your brain."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎯",
+      "title": "Antibodies tag, T cells strike",
+      "text": "Activated B cells make antibodies that lock onto a specific antigen. Antibodies can neutralize a germ, making it harmless, but they can't destroy it without help. T cells kill infected cells and signal other immune cells, like phagocytes, to do their jobs.",
+      "example": "KidsHealth compares B cells to military intelligence that finds targets, and T cells to the soldiers who destroy the invaders it finds."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧠",
+      "title": "Memory, vaccines, and borrowed help",
+      "text": "After the fight, most of the army dies off, but a few cells stay as memory cells. Next time they react before the germ can take hold. A vaccine creates that memory without an actual infection. Passive immunity, like antibodies a baby gets from breast milk, is borrowed and short-lived.",
+      "example": "Memory can last a lifetime: someone who recovers from measles is protected against it for life."
+    },
+    {
+      "type": "think",
+      "question": "Your immune system builds a huge random library of receptors, then multiplies the few that match a real threat. A startup that tests lots of cheap ideas and backs the winners works a bit like that. Where does the comparison work, and where does it break down?",
+      "nudges": [
+        "What does it cost to make trillions of cells that may never be used?",
+        "What is the immune system's version of a bad bet that could hurt you?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Why does your adaptive system take days to respond to a brand-new germ?",
+          "options": [
+            {
+              "text": "The few matching B and T cells must be activated and multiply first",
+              "correct": true,
+              "why": "Right. Building the army takes time, while innate cells respond right away."
+            },
+            {
+              "text": "It has to design a new receptor after it sees the germ",
+              "correct": false,
+              "why": "Receptors are made in advance by random gene reshuffling."
+            },
+            {
+              "text": "It waits for the innate system to give up",
+              "correct": false,
+              "why": "Innate cells actually help switch the adaptive system on."
+            },
+            {
+              "text": "Germs can't be detected until they multiply",
+              "correct": false,
+              "why": "Innate cells spot broad germ patterns right away."
+            }
+          ]
+        },
+        {
+          "q": "A B cell's receptor matches a germ, but innate cells haven't sent any signal that something is wrong. What happens?",
+          "options": [
+            {
+              "text": "It won't be fully activated",
+              "correct": true,
+              "why": "Right. It needs the match and the innate warning signal. That check helps prevent attacks nobody needs."
+            },
+            {
+              "text": "It attacks right away at full strength",
+              "correct": false,
+              "why": "A match alone isn't enough; it also needs cues from innate cells."
+            },
+            {
+              "text": "It turns into a memory cell immediately",
+              "correct": false,
+              "why": "Memory cells form after activation and a full response."
+            },
+            {
+              "text": "It gets deleted for matching a germ",
+              "correct": false,
+              "why": "Cells get deleted for matching your own body, not germs."
+            }
+          ]
+        },
+        {
+          "q": "Which of these is passive immunity?",
+          "options": [
+            {
+              "text": "A baby getting antibodies from breast milk",
+              "correct": true,
+              "why": "Yes. Those antibodies are borrowed, so the protection is short-lived."
+            },
+            {
+              "text": "Getting a vaccine",
+              "correct": false,
+              "why": "With a vaccine your own body makes memory cells, so that's adaptive (active) immunity."
+            },
+            {
+              "text": "Recovering from chickenpox",
+              "correct": false,
+              "why": "Your body built its own memory, so that's adaptive immunity too."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "My body has two defense systems:…",
+        "The first time a germ shows up…",
+        "A vaccine works because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "2DFN4IBZ3rI",
+    "title": "Immune System, Part 2: Crash Course Anatomy & Physiology #46",
+    "channel": "CrashCourse",
+    "duration_sec": 583,
+    "why": "Crash Course on the adaptive side: how B cells match antigens, clone themselves, pump out antibodies and leave memory cells, plus vaccines and passive immunity."
+  },
+  "sources": [
+    {
+      "title": "The Immune System (for Teens)",
+      "publisher": "Nemours KidsHealth",
+      "url": "https://kidshealth.org/en/teens/immune.html",
+      "supports": "Touching things like a bathroom doorknob exposes you to germs; skin is a barrier that blocks germs; phagocytes such as neutrophils chew up invaders; B cells make antibodies that lock onto specific antigens; antibodies can't destroy a germ without help; T cells destroy infected cells and signal other cells like phagocytes; B cells compared to military intelligence and T cells to soldiers; someone who had chickenpox usually won't get it again; vaccines introduce an antigen in a way that doesn't make someone sick; innate, adaptive (active) and passive immunity, with antibodies in breast milk as borrowed, short-lived protection."
+    },
+    {
+      "title": "Features of an Immune Response",
+      "publisher": "National Institute of Allergy and Infectious Diseases (NIH)",
+      "url": "https://www.niaid.nih.gov/research/immune-response-features",
+      "supports": "Innate immunity acts immediately through genetically encoded receptors such as Toll-like receptors that recognize broad patterns but can't distinguish strains; innate cells help activate adaptive immunity, which comes later because it relies on expanding specific B and T cells; B- and T-cell receptor genes are randomly rearranged, giving unique receptors that may potentially recognize anything; activation needs both an antigen match and innate cues; autoreactive cells are deleted; checks and balances prevent unnecessary activation; B cells make antibodies that neutralize pathogens; T cells kill infected cells and recruit other cells; memory cells can clear a pathogen before it establishes itself; vaccination achieves memory without an actual infection; vaccines use an immunogen and often adjuvants that activate innate immunity."
+    },
+    {
+      "title": "Adaptive immune system",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Adaptive_immune_system",
+      "supports": "In humans the adaptive immune system takes 4–7 days to mount a significant response; the body has about 2 trillion lymphocytes, with a total mass about the same as the brain or liver; V(D)J recombination creates receptor diversity before antigens are encountered; activated cells divide rapidly (clonal selection), and after the infection most effector cells die while a few remain as memory cells; regulatory T cells help control autoimmune disease; someone who recovers from measles is protected for life, but adaptive immunity is not always lifelong."
+    }
+  ]
+}
