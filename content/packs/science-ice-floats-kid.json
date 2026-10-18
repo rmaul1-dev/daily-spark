@@ -1,0 +1,229 @@
+{
+  "id": "science-ice-floats-kid",
+  "topic": "science",
+  "subject": "ice-floats",
+  "level": "kid",
+  "title": "Why Ice Floats",
+  "emoji": "🧊",
+  "summary": "Ice is lighter for its size than water, and that keeps fish safe all winter.",
+  "minutes": 6,
+  "date_added": "2026-10-18",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why does an ice cube float in water?",
+      "answer": "Ice is less dense than liquid water. It packs less stuff into the same space, so it floats.",
+      "options": [
+        {
+          "text": "Ice is less dense than liquid water",
+          "correct": true
+        },
+        {
+          "text": "Ice is full of air from the freezer"
+        },
+        {
+          "text": "Cold things always float"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "What happens to water's tiny pieces when it freezes?",
+      "answer": "They line up in a neat pattern that holds them farther apart, so ice takes up more room.",
+      "options": [
+        {
+          "text": "They line up in a pattern with more space between them",
+          "correct": true
+        },
+        {
+          "text": "They squeeze closer together"
+        },
+        {
+          "text": "They stop being water"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "How can fish live in a lake that has frozen over?",
+      "answer": "The ice floats on top like a lid. The water under it stays liquid, and the fish live there.",
+      "options": [
+        {
+          "text": "The ice floats on top and the water below stays liquid",
+          "correct": true
+        },
+        {
+          "text": "Fish freeze and thaw out in spring"
+        },
+        {
+          "text": "Lakes freeze from the bottom, so fish swim on top"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🥤",
+      "title": "The cube that won't sink",
+      "text": "Drop an ice cube into a glass of water. It bobs right at the top. But for most stuff, the solid kind sinks in its own liquid. So what makes ice so different?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "How much of a floating ice cube sticks up above the water?",
+      "options": [
+        {
+          "text": "About one tenth",
+          "correct": true
+        },
+        {
+          "text": "About half"
+        },
+        {
+          "text": "Almost all of it"
+        }
+      ],
+      "reveal": "About one tenth! Ice is about 90% as dense as water, so only about 10% of it pokes out above the top.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Floating is about density",
+      "text": "Density means how much stuff is packed into a space. Things less dense than water float. Ice is only about 90% as dense as water. So about one tenth of an ice cube sits above the water.",
+      "example": "An iceberg works the same way. Most of it hides under the water."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔷",
+      "title": "Ice is full of tiny gaps",
+      "text": "Water is made of tiny pieces called molecules. In liquid water they tumble around in a jumble. When water freezes, they lock into a neat pattern. That pattern holds them farther apart, so ice takes up more room.",
+      "example": "Fun fact: ice made from a rare kind called heavy water is denser than normal water. It sinks!",
+      "why": {
+        "q": "Why would a neat pattern take up more room than a jumble?",
+        "a": "The pattern holds each molecule at a set distance from its neighbors. In a liquid they can crowd in closer."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🐟",
+      "title": "Lakes freeze from the top",
+      "text": "In winter, ice forms on top of a lake and stays there. It works like a lid between the cold air and the water below. The water under it stays liquid, so fish can live there all winter. If ice sank, a lake could freeze from the bottom up.",
+      "examples_by_interest": {
+        "nature": "Say you walk out on a frozen pond in January. Under the ice, the water is still liquid, and that is where the fish are."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "💥",
+      "title": "Freezing water pushes hard",
+      "text": "Water grows when it freezes, and it pushes with a lot of force. Water pipes can burst when the water in them freezes. Ice in cracks can even help break rocks apart."
+    },
+    {
+      "type": "think",
+      "question": "Imagine a world where ice sank. What would winter be like for fish, and for kids who like to skate?",
+      "nudges": [
+        "Where would the ice end up in a lake?",
+        "Would there be ice on top to skate on?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Why does ice float?",
+          "options": [
+            {
+              "text": "It is less dense than liquid water",
+              "correct": true,
+              "why": "Yes. Ice packs less stuff into the same space."
+            },
+            {
+              "text": "It is colder than the water",
+              "correct": false,
+              "why": "Cold alone does not make things float. Density decides."
+            },
+            {
+              "text": "It has air bubbles inside",
+              "correct": false,
+              "why": "Some ice has air in it, but even clear ice floats. Its molecules are spaced out."
+            }
+          ]
+        },
+        {
+          "q": "What happens when water freezes?",
+          "options": [
+            {
+              "text": "Its molecules lock into a pattern with gaps",
+              "correct": true,
+              "why": "Right. The gaps make ice take up more room."
+            },
+            {
+              "text": "Its molecules squeeze closer together",
+              "correct": false,
+              "why": "That happens for most things, but not for water."
+            },
+            {
+              "text": "It loses half its water",
+              "correct": false,
+              "why": "It is the same water. It just takes up more room."
+            }
+          ]
+        },
+        {
+          "q": "Why can fish live in a frozen lake?",
+          "options": [
+            {
+              "text": "The ice stays on top and the water below stays liquid",
+              "correct": true,
+              "why": "Yes. The floating ice is like a lid."
+            },
+            {
+              "text": "The fish freeze and wake up in spring",
+              "correct": false,
+              "why": "The fish live in the liquid water under the ice."
+            },
+            {
+              "text": "The ice sinks to the bottom",
+              "correct": false,
+              "why": "Ice floats, so it stays on top."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Ice floats because…",
+        "When water freezes, its molecules…",
+        "That matters for fish because…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Water Density",
+      "publisher": "U.S. Geological Survey, Water Science School",
+      "url": "https://www.usgs.gov/water-science-school/science/water-density",
+      "supports": "Density is mass per volume; ice is less dense than liquid water, which is why ice cubes float; in most substances the solid is denser; ice is about 90% as dense as water, so about 10% of an ice cube or iceberg sits above the water line; most of an iceberg is below the surface; ice molecules line up in a regular lattice that spreads them out more than in the liquid; if water were densest at freezing, lakes could freeze from the bottom up; 'heavy ice' from heavy water is denser than normal water and sinks."
+    },
+    {
+      "title": "Ice",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ice",
+      "supports": "Because ice is less dense than liquid water it floats, which prevents bottom-up freezing and makes a sheltered place for life beneath it; ice expansion causes freeze-thaw weathering of rock; water pipes burst from the pressure of water expanding as it freezes."
+    }
+  ],
+  "video": {
+    "youtube_id": "nvcucRLrzuA",
+    "title": "Why does ice float?",
+    "channel": "SciShow",
+    "duration_sec": 166,
+    "start": 0,
+    "end": 134,
+    "why": "A quick SciShow answer: why ice floats, the tiny gaps in frozen water, and why that keeps lake life alive. It stops before the thank-you ads."
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "id": "science-ice-floats-teen",
+  "topic": "science",
+  "subject": "ice-floats",
+  "level": "teen",
+  "title": "Why Ice Floats: Water Breaks the Rules",
+  "emoji": "🧊",
+  "summary": "Most solids sink in their own liquid. Water's hydrogen bonds flip that rule, and lakes survive winter because of it.",
+  "minutes": 7,
+  "date_added": "2026-10-18",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why is ice less dense than liquid water?",
+      "answer": "Hydrogen bonds lock frozen water molecules into an open hexagonal lattice that holds them farther apart than in the liquid."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why do lakes freeze from the top down instead of the bottom up?",
+      "answer": "Water is densest at about 4°C, so colder water stays on top and freezes there, and the floating ice insulates the water below."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why can freezing water burst a pipe?",
+      "answer": "Water expands about 9% when it freezes, and that expansion pushes hard on whatever is holding it."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🕵️",
+      "title": "The rule-breaker in your glass",
+      "text": "For most substances, the solid is denser than the liquid, so a chunk of it should sink. Water breaks that rule. Your ice cubes float, ponds freeze on top, and fish swim all winter under the ice. What makes water the rebel?"
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "Fill a bottle with exactly 1,000 mL of water and freeze it. About how much space will the ice take up?",
+      "estimate": {
+        "min": 900,
+        "max": 1200,
+        "step": 10,
+        "unit": "mL",
+        "answer": 1090
+      },
+      "reveal": "About 1,090 mL. Water expands by about 9% when it freezes, so 1,000 mL of water becomes roughly 1,090 mL of ice.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Density decides who floats",
+      "text": "Density is mass per volume. Liquid water is about 1 gram per milliliter. Ice at 0°C is about 0.917 grams per cubic centimeter, so it's less dense and floats. Since ice is roughly 90% as dense as water, about 90% of an iceberg sits below the waterline and only about 10% shows.",
+      "example": "Mass matters too: ice made from heavy water, whose hydrogen atoms carry an extra neutron, is denser than normal water and sinks in it.",
+      "examples_by_interest": {
+        "golf": "Say a golf ball that's denser than water drops into a pond. It sinks, while an ice cube of the same size bobs at the top. Same rule: the denser object goes down."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🔗",
+      "title": "Hydrogen bonds build a cage",
+      "text": "A water molecule is polar: the oxygen end is slightly negative and the hydrogen ends slightly positive. Neighbors attract through hydrogen bonds. When water freezes, those bonds lock molecules into an open hexagonal lattice with gaps in it. That's why water expands about 9% as it turns to ice.",
+      "why": {
+        "q": "Why would stronger connections make ice less packed, not more?",
+        "a": "Hydrogen bonds point in set directions, so they hold molecules at fixed angles with gaps between them. In the liquid, molecules can crowd into those gaps."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🌡️",
+      "title": "The 4°C trick",
+      "text": "Water is densest at about 4°C (39.2°F), not at freezing. As a lake cools in fall, water near 4°C sinks to the bottom. Colder water floats above it and freezes at the surface. The ice then insulates the water below, so deep lakes stay near 4°C at the bottom all year.",
+      "example": "If water were densest at its freezing point, cold surface water would keep sinking and a lake could freeze from the bottom up."
+    },
+    {
+      "type": "idea",
+      "emoji": "💥",
+      "title": "Expansion is a force",
+      "text": "That 9% expansion pushes hard. Freezing water bursts pipes, which is a common cause of flooded houses. Water in soil can freeze and lift roads and building foundations, called frost heaving. Water freezing in rock cracks over and over helps break rock apart, called freeze-thaw weathering.",
+      "examples_by_interest": {
+        "building": "Say you build a stone wall with cracks that fill with rain. Each hard freeze, the water in the cracks expands by about 9% and pries them a little wider."
+      }
+    },
+    {
+      "type": "think",
+      "question": "Argue it both ways: is water's weird freezing mostly good news or mostly bad news for people?",
+      "nudges": [
+        "What would happen to lakes, fish and fishing if ice sank?",
+        "What does it cost cities and homeowners every winter?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What mainly makes ice less dense than liquid water?",
+          "options": [
+            {
+              "text": "Hydrogen bonds hold molecules in an open lattice",
+              "correct": true,
+              "why": "Right. The lattice has gaps, so the same mass takes up more space."
+            },
+            {
+              "text": "Air bubbles trapped in the ice",
+              "correct": false,
+              "why": "Air can make some ice cloudy, but even clear ice floats because of its structure."
+            },
+            {
+              "text": "Ice molecules are bigger than liquid ones",
+              "correct": false,
+              "why": "The molecules are the same H2O. The spacing between them is what changes."
+            },
+            {
+              "text": "Ice has less mass per molecule",
+              "correct": false,
+              "why": "Each molecule weighs the same. It's the packing that's looser."
+            }
+          ]
+        },
+        {
+          "q": "In midwinter, where is the densest water in a deep, ice-covered lake?",
+          "options": [
+            {
+              "text": "At the bottom, near 4°C",
+              "correct": true,
+              "why": "Yes. Water is densest near 4°C, so that water sinks and stays at the bottom."
+            },
+            {
+              "text": "Right under the ice, at 0°C",
+              "correct": false,
+              "why": "Water near 0°C is less dense than 4°C water, so it stays near the top."
+            },
+            {
+              "text": "Spread evenly, since it's all the same temperature",
+              "correct": false,
+              "why": "The lake layers, with colder water on top."
+            },
+            {
+              "text": "Inside the ice itself",
+              "correct": false,
+              "why": "Ice is the least dense of all. That's why it floats."
+            }
+          ]
+        },
+        {
+          "q": "An iceberg has a volume of 1,000 cubic meters. About how much of it is above the water?",
+          "options": [
+            {
+              "text": "About 100 cubic meters",
+              "correct": true,
+              "why": "Right. Ice is roughly 90% as dense as water, so about 10% sticks out."
+            },
+            {
+              "text": "About 500 cubic meters",
+              "correct": false,
+              "why": "That would need ice to be half as dense as water."
+            },
+            {
+              "text": "About 900 cubic meters",
+              "correct": false,
+              "why": "That's flipped: about 900 cubic meters are below the waterline."
+            },
+            {
+              "text": "None of it",
+              "correct": false,
+              "why": "Ice is less dense than water, so part of it always floats above."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Most solids sink in their own liquid, but ice…",
+        "The reason is hydrogen bonds, which…",
+        "This matters because…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Water Density",
+      "publisher": "U.S. Geological Survey, Water Science School",
+      "url": "https://www.usgs.gov/water-science-school/science/water-density",
+      "supports": "Density is mass per volume; water is roughly 1 g/mL and densest at 4.0°C (39.2°F); in most substances solids are more dense; ice is about 90% as dense as water, so about 10% of an iceberg is above the water line and almost all of it is below; ice molecules form a regular lattice that spreads them out; denser water sinks below less-dense water in lakes, and if water were densest at freezing, lakes could freeze from the bottom up; heavy ice made from heavy water (deuterium, one proton and one neutron) is denser than normal water and sinks."
+    },
+    {
+      "title": "Ice",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ice",
+      "supports": "Ice density 0.9167–0.9168 g/cm³ at 0°C versus about 0.9998 g/cm³ for water; ice is about 8.3% less dense, a volumetric expansion of 9%; hexagonal crystal structure (ice Ih); hydrogen bonds control the structure of water and ice; ice expansion causes freeze-thaw weathering of rock and frost heaving damage to foundations and roads, and bursts water pipes, a common cause of flooded houses; floating ice prevents bottom-up freezing and shelters life beneath it."
+    },
+    {
+      "title": "Properties of water",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Properties_of_water",
+      "supports": "Water is strongly polar and forms hydrogen bonds; hydrogen bonding gives it a solid less dense than its liquid; directional hydrogen bonds make an open lattice structure; water's density decreases about 9% on freezing; water is densest near 4°C, so below 4°C lakes form a stable layering with the floating ice insulating the water below, and the bottom of deep enough lakes stays at about 4°C year-round."
+    }
+  ],
+  "video": {
+    "youtube_id": "UukRgqzk-KE",
+    "title": "Why does ice float in water? - George Zaidan and Charles Morton",
+    "channel": "TED-Ed",
+    "duration_sec": 236,
+    "why": "TED-Ed animates hydrogen bonds forming and breaking, then locking into ice's open hexagonal structure, and imagines a world where ice sank."
+  }
+}

@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-17",
+ "updated": "2026-10-18",
  "topics": [
   {
    "id": "history",
@@ -238,6 +238,17 @@
     "kid": "body-immune-system-kid"
    },
    "dinner_question": "Your body has fast first responders and slower specialists that remember. When something goes wrong at home, who in our family is the first responder, and who is the careful specialist?"
+  },
+  {
+   "date": "2026-10-26",
+   "topic": "science",
+   "title": "Why ice floats",
+   "packs": {
+    "adult": "science-ice-floats-adult",
+    "teen": "science-ice-floats-teen",
+    "kid": "science-ice-floats-kid"
+   },
+   "dinner_question": "If ice sank instead of floating, what would winter be like around here, and what would we miss most?"
   }
  ],
  "series": [
@@ -721,6 +732,45 @@
    "minutes": 8,
    "date_added": "2026-10-10",
    "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "science-ice-floats-kid",
+   "topic": "science",
+   "level": "kid",
+   "title": "Why Ice Floats",
+   "emoji": "🧊",
+   "subject": "ice-floats",
+   "summary": "Ice is lighter for its size than water, and that keeps fish safe all winter.",
+   "minutes": 6,
+   "date_added": "2026-10-18",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "science-ice-floats-teen",
+   "topic": "science",
+   "level": "teen",
+   "title": "Why Ice Floats: Water Breaks the Rules",
+   "emoji": "🧊",
+   "subject": "ice-floats",
+   "summary": "Most solids sink in their own liquid. Water's hydrogen bonds flip that rule, and lakes survive winter because of it.",
+   "minutes": 7,
+   "date_added": "2026-10-18",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "science-ice-floats-adult",
+   "topic": "science",
+   "level": "adult",
+   "title": "Why Ice Floats: Water's Density Anomaly",
+   "emoji": "🧊",
+   "subject": "ice-floats",
+   "summary": "Directional hydrogen bonds make solid water about 9% bulkier than liquid, which shapes lakes, infrastructure and sea level.",
+   "minutes": 8,
+   "date_added": "2026-10-18",
+   "cards": 10,
    "keys_count": 3
   },
   {

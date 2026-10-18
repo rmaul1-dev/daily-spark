@@ -1,0 +1,226 @@
+{
+  "id": "science-ice-floats-adult",
+  "topic": "science",
+  "subject": "ice-floats",
+  "level": "adult",
+  "title": "Why Ice Floats: Water's Density Anomaly",
+  "emoji": "🧊",
+  "summary": "Directional hydrogen bonds make solid water about 9% bulkier than liquid, which shapes lakes, infrastructure and sea level.",
+  "minutes": 8,
+  "date_added": "2026-10-18",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is the molecular reason ice is less dense than liquid water?",
+      "answer": "Directional hydrogen bonds lock molecules into an open hexagonal lattice; in the liquid, broken bonds let molecules fill those cavities."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why does water reach maximum density near 4°C rather than at its freezing point?",
+      "answer": "Between 0 and 4°C, breaking hydrogen bonds lets molecules pack denser; above 4°C ordinary thermal expansion wins, so density peaks between."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why does melting floating sea ice matter far less for sea level than melting land ice sheets?",
+      "answer": "Floating sea ice already displaces water (Archimedes' principle); ice sheets on land add new water to the ocean when they melt."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🔄",
+      "title": "A liquid that reverses course",
+      "text": "Cool most liquids and they contract, then freeze into a denser solid. Water contracts too, until about 4°C. Then it reverses and expands, and it expands roughly 9% more as it freezes. That one anomaly decides whether lakes freeze solid, why pipes burst, and which melting ice actually raises the sea."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "It's February and a deep northern lake has a thick ice cover. What's the water temperature near the bottom?",
+      "options": [
+        {
+          "text": "Right at 0°C (32°F), just above freezing"
+        },
+        {
+          "text": "About 4°C (39°F)",
+          "correct": true
+        },
+        {
+          "text": "Below 0°C, kept liquid by the pressure"
+        },
+        {
+          "text": "About 10°C (50°F), warmed by the lakebed"
+        }
+      ],
+      "reveal": "About 4°C. Water is densest near 4°C, so that water settles at the bottom, and in deep enough lakes the bottom stays near 4°C all year.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "🔗",
+      "title": "Directional bonds, open lattice",
+      "text": "Water is strongly polar, and its hydrogen bonds are directional: each molecule bonds to neighbors at fixed angles. Freezing locks them into hexagonal ice Ih, an open lattice. At 0°C ice is about 0.9167 g/cm³ versus about 0.9998 for water, about 8.3% less dense, which is a 9% volume expansion. Hydrogen bonds are only about 5–10% as strong as covalent bonds, but they set this structure.",
+      "example": "Water isn't alone: silicon, gallium, germanium and bismuth also expand on freezing. But most substances shrink into a denser solid.",
+      "why": {
+        "q": "Why does a stronger, more ordered bonding network produce a less dense solid?",
+        "a": "Because the bonds fix molecules at set angles, the ordered lattice is open, with cavities that the more disordered liquid can partly fill."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🌡️",
+      "title": "Two effects, one peak at 4°C",
+      "text": "Two forces compete as water warms from 0°C. Melting breaks hydrogen bonds, and up to about 4°C that lets molecules fill lattice cavities, so density rises. Above 4°C, ordinary thermal expansion dominates and density falls. Near boiling, water is about 4% less dense than at 4°C.",
+      "example": "So 4°C water is the heaviest per liter, and in a cooling lake it's the water that sinks."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏔️",
+      "title": "Why lakes don't freeze solid",
+      "text": "Once surface water drops below 4°C, it's lighter than the water beneath, so the lake layers stably instead of mixing. Ice forms on top and insulates the rest. Even Lake Baikal in Siberia freezes only to about 1 m thick. If water were densest at freezing, cooling would keep overturning the lake until it froze from the bottom up.",
+      "why": {
+        "q": "Why would a lake whose water was densest at 0°C freeze from the bottom?",
+        "a": "Cold surface water would keep sinking and mixing, so the whole lake would reach 0°C, and ice forming would collect from the bottom up."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "💥",
+      "title": "The 9% that costs money",
+      "text": "The same expansion is a force. Freezing water bursts pipes, a common cause of flooded houses. Freezing soil water heaves roads and building foundations. Repeated freezing in rock cracks drives freeze-thaw weathering. The trait that protects lake life is a steady expense for infrastructure.",
+      "examples_by_interest": {
+        "business": "Say you own rental homes in a cold climate. A vacant house with a furnace failure can turn freezing pipes into a flood, so heat and water shutoffs become part of the operating plan."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🌊",
+      "title": "Which melting ice raises the sea",
+      "text": "Archimedes' principle applies: floating sea ice already displaces water, so its melting isn't a major driver of sea-level rise. Ice sheets on land are different. Losses from the Greenland and Antarctic ice sheets add water to the ocean, and they're a major cause of sea-level rise.",
+      "example": "The kitchen version: a melting ice cube in a full glass doesn't overflow it, but adding ice from the freezer on top of the water would."
+    },
+    {
+      "type": "think",
+      "question": "Water's anomaly is a feature for lake ecosystems and a bug for infrastructure. Where else does one physical property cut both ways, and how do people design around it?",
+      "nudges": [
+        "Think about thermal expansion in bridges, rails or concrete.",
+        "Is the cost of the bug borne by the same people who get the benefit?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Which best explains why water is densest near 4°C?",
+          "options": [
+            {
+              "text": "Below 4°C, more hydrogen bonds hold an open structure; above it, thermal expansion dominates",
+              "correct": true,
+              "why": "Right. Two competing effects create a density peak between them."
+            },
+            {
+              "text": "Dissolved gases escape at 4°C",
+              "correct": false,
+              "why": "Dissolved material changes density, but the 4°C peak is a property of pure water."
+            },
+            {
+              "text": "Water molecules get physically smaller at 4°C",
+              "correct": false,
+              "why": "The molecules don't change size. Their arrangement does."
+            },
+            {
+              "text": "Water molecules gain a little mass at 4°C",
+              "correct": false,
+              "why": "Mass doesn't change with temperature. Volume does, because the packing changes."
+            }
+          ]
+        },
+        {
+          "q": "A lake's surface is 1°C and its bottom is 4°C. What happens to the layers?",
+          "options": [
+            {
+              "text": "They stay put: the colder surface water is lighter",
+              "correct": true,
+              "why": "Yes. Below 4°C, colder water is less dense, so the layering is stable."
+            },
+            {
+              "text": "The surface water sinks because it's colder",
+              "correct": false,
+              "why": "That's the intuition from most liquids, but below 4°C colder water is lighter."
+            },
+            {
+              "text": "The lake mixes until it's 0°C throughout",
+              "correct": false,
+              "why": "That's what would happen if water were densest at 0°C."
+            },
+            {
+              "text": "The bottom water rises because it's warmer",
+              "correct": false,
+              "why": "Warmer here means denser, so the 4°C water stays down."
+            }
+          ]
+        },
+        {
+          "q": "Which ice melting would add the most to sea level?",
+          "options": [
+            {
+              "text": "Ice sheets sitting on Greenland",
+              "correct": true,
+              "why": "Right. Land ice adds new water to the ocean when it melts."
+            },
+            {
+              "text": "Floating Arctic sea ice",
+              "correct": false,
+              "why": "Sea ice already displaces water, so it isn't a major driver of sea-level rise."
+            },
+            {
+              "text": "Floating ice cubes in a glass",
+              "correct": false,
+              "why": "The same Archimedes logic: they already displace their share."
+            },
+            {
+              "text": "Ice of either kind adds the same amount",
+              "correct": false,
+              "why": "Floating ice already displaces water; land ice doesn't."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Water's hydrogen bonds lock ice into…",
+        "That's why lakes…",
+        "It also means melting sea ice and melting ice sheets…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Properties of water",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Properties_of_water",
+      "supports": "Water is strongly polar and forms hydrogen bonds, which give it a solid less dense than the liquid; density decreases about 9% on freezing; directional hydrogen bonds give ice and cold water open lattice structures; breaking bonds between 0 and 4°C allows denser packing as molecules fill lattice cavities, while above 4°C thermal expansion dominates; water near boiling is about 4% less dense than at 4°C; below 4°C lakes layer stably with floating ice insulating the water below; Lake Baikal freezes only to about 1 m; bottoms of deep enough lakes stay near 4°C year-round; if water were densest at freezing, lakes would mix and freeze bottom up; silicon, gallium, germanium and bismuth also expand on freezing."
+    },
+    {
+      "title": "Ice",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ice",
+      "supports": "Ice is about 8.3% less dense than liquid water (a 9% volumetric expansion); ice density 0.9167–0.9168 g/cm³ at 0°C versus 0.9998–0.999863 g/cm³ for water; almost all ice on Earth is hexagonal ice Ih; expansion causes freeze-thaw weathering, frost-heave damage to foundations and roadways, and burst pipes that commonly flood houses; floating ice prevents bottom-up freezing; sea ice already displaces water due to Archimedes' principle, while losses from the Greenland and Antarctic ice sheets are a major cause of sea level rise."
+    },
+    {
+      "title": "10.1 Intermolecular Forces",
+      "publisher": "OpenStax Chemistry 2e",
+      "url": "https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces",
+      "supports": "Hydrogen bonding is a particularly strong dipole-dipole attraction between molecules with O-H, N-H or F-H groups, including water; hydrogen bonds are intermolecular and only about 5 to 10% as strong as covalent bonds, but strongly affect the properties of liquids and solids."
+    }
+  ],
+  "video": {
+    "youtube_id": "ASLUY2U1M-8",
+    "title": "How polarity makes water behave strangely - Christina Kleinberg",
+    "channel": "TED-Ed",
+    "duration_sec": 232,
+    "why": "A tight four-minute refresher on polarity and hydrogen bonds, ending with why ice is about 9% less dense and why lakes freeze from the top down."
+  }
+}
