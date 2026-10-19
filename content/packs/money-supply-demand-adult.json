@@ -1,0 +1,220 @@
+{
+  "id": "money-supply-demand-adult",
+  "topic": "money",
+  "subject": "supply-demand",
+  "level": "adult",
+  "title": "Supply and Demand: What the Model Really Says",
+  "emoji": "📊",
+  "summary": "Marginal logic, shifts versus movements, price ceilings, and where the model breaks.",
+  "minutes": 8,
+  "date_added": "2026-10-19",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How do equilibrium price and quantity move after a demand shift versus a supply shift?",
+      "answer": "A demand shift moves price and quantity in the same direction. A supply shift moves them in opposite directions."
+    },
+    {
+      "id": "k2",
+      "prompt": "What happens when a price is held below the market-clearing level?",
+      "answer": "Quantity demanded exceeds quantity supplied, and a non-price mechanism such as queues, lotteries or first come, first served decides who gets the good."
+    },
+    {
+      "id": "k3",
+      "prompt": "When does the simple competitive supply-and-demand model stop being the right tool?",
+      "answer": "When a seller or buyer has market power, and for unusual goods like Giffen and Veblen goods whose demand can rise with price."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧭",
+      "title": "A price nobody chose",
+      "text": "Buyers and sellers each decide one deal at a time, and none of them sets the price. Yet in a competitive market the price moves until the amount people want to buy equals the amount offered. The model that explains this is the theoretical basis of modern economics, and it has real limits."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "The price of a basic food rises. Can people end up buying more of it, not less?",
+      "options": [
+        {
+          "text": "No. Demand curves always slope down."
+        },
+        {
+          "text": "Yes, for a staple that takes up a large part of a household's income.",
+          "correct": true
+        },
+        {
+          "text": "Only if the government sets the price."
+        }
+      ],
+      "reveal": "Yes. These are Giffen goods. The classic example is potatoes in Ireland: a price rise left families unable to afford meat, so they ate more potatoes.",
+      "reveal_after": 5
+    },
+    {
+      "type": "idea",
+      "emoji": "🧮",
+      "title": "Marginal logic",
+      "text": "Demand mirrors marginal value: a buyer purchases another unit while it's worth more than the price. Supply mirrors marginal cost: a competitive firm adds output while the extra unit costs less than the price. Holding all else equal, price adjusts until quantity demanded equals quantity supplied and the market clears.",
+      "example": "Cournot drew the first demand curves in 1838, Fleeming Jenkin added supply curves in 1870, and Alfred Marshall popularized the diagram in 1890.",
+      "why": {
+        "q": "Why does the price move toward the crossing point rather than anywhere else?",
+        "a": "At any other price one side is left unmatched: a surplus pushes sellers to cut, a shortage lets them raise, until the amounts match."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🔍",
+      "title": "Shifts versus movements",
+      "text": "A price change is a movement along a curve, a change in quantity demanded. Income, tastes, related goods' prices, expectations, number of buyers or advertising shift demand itself. Input costs, technology, expectations or number of sellers shift supply. A demand shift moves price and quantity the same way; a supply shift moves them opposite ways.",
+      "example": "Reading the news: if a price and the quantity sold both rose, look for a demand change. If the price fell while quantity rose, look for a supply change, like a cheaper way to grow wheat.",
+      "examples_by_interest": {
+        "business": "Say input costs jump for every seller in your market, and the market sells less at a higher price. That's supply shifting left, not buyers suddenly wanting less."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⏳",
+      "title": "Short run versus long run",
+      "text": "In the short run some inputs, usually physical capital, and the number of firms are fixed. In the long run firms enter or exit and every input adjusts. So long-run supply curves are flatter: quantity responds more to price. That means a lasting price rise can draw much more output over time than it does at first.",
+      "why": {
+        "q": "Why is long-run supply more responsive?",
+        "a": "Given time, new firms can enter and existing ones can add capital, so a higher price calls forth much more output."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🚧",
+      "title": "Price ceilings and rationing",
+      "text": "Cap a price below the clearing level and the shortage persists. Something else allocates: queues, first come, first served, lotteries, rationing, black markets, more demand for substitutes. The trade-off is real: a ceiling lets some people buy what they couldn't at the market price, while those willing to pay more can't, and time lost waiting is a cost.",
+      "example": "In the 1973 oil crisis, rationing and price controls in many countries caused shortages. Soviet price controls in the 1980s meant lines for cars and apartments."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚠️",
+      "title": "Where the model breaks",
+      "text": "The curves assume price-takers. A seller or buyer with market power sets quantity to move the price, so monopoly, oligopoly or monopsony models fit better. Some goods break the law of demand: Veblen goods become more attractive at higher prices, and Giffen goods can see quantity rise with price. And evidence for textbook labor supply curves is contested.",
+      "example": "Economist Steve Fleetwood called the labor-market evidence \"at best inconclusive and at worst casts doubt on their existence.\""
+    },
+    {
+      "type": "think",
+      "question": "Anti-price-gouging laws stop sellers from raising prices sharply. Make the strongest case for those laws, then the strongest case against, using this model.",
+      "nudges": [
+        "What does a higher price do to who gets the goods, and to how much gets shipped in?",
+        "What does a capped price do to fairness, lines and supply?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Gasoline prices fall sharply while the quantity sold rises. Which explanation best fits the model?",
+          "options": [
+            {
+              "text": "Supply increased, for example from new production technology",
+              "correct": true,
+              "why": "Price and quantity moving opposite ways points to a supply shift."
+            },
+            {
+              "text": "Demand increased because people drove more",
+              "correct": false,
+              "why": "A demand increase would raise price and quantity together."
+            },
+            {
+              "text": "Demand decreased",
+              "correct": false,
+              "why": "Less demand would lower the price but also the quantity sold."
+            },
+            {
+              "text": "Quantity demanded fell along a fixed curve",
+              "correct": false,
+              "why": "Quantity rose, and a lower price moves along demand toward more, not less."
+            }
+          ]
+        },
+        {
+          "q": "A government caps the price of bread well below the market-clearing level. What does the basic model predict?",
+          "options": [
+            {
+              "text": "Excess demand, with bread allocated by lines, rationing or luck",
+              "correct": true,
+              "why": "A below-clearing price leaves quantity demanded above quantity supplied, so non-price methods allocate."
+            },
+            {
+              "text": "A surplus of unsold bread",
+              "correct": false,
+              "why": "A surplus comes from a price held above equilibrium, not below."
+            },
+            {
+              "text": "No change, because the cap doesn't affect buyers",
+              "correct": false,
+              "why": "A lower price raises quantity demanded, so more people want bread than bakers offer."
+            },
+            {
+              "text": "Everyone who wants bread at the capped price gets it",
+              "correct": false,
+              "why": "Only if supply covered demand at that price, which a binding cap prevents."
+            }
+          ]
+        },
+        {
+          "q": "Why might long-run supply respond more to price than short-run supply?",
+          "options": [
+            {
+              "text": "Firms can enter or exit and adjust all inputs over time",
+              "correct": true,
+              "why": "That's the textbook distinction: in the long run nothing is fixed."
+            },
+            {
+              "text": "Buyers become richer over time",
+              "correct": false,
+              "why": "That shifts demand, not the slope of supply."
+            },
+            {
+              "text": "Prices are always higher in the long run",
+              "correct": false,
+              "why": "Slope is about responsiveness, not the price level."
+            },
+            {
+              "text": "Short-run supply curves slope downward",
+              "correct": false,
+              "why": "Short-run supply still slopes up, just more steeply."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Price settles where…",
+        "To tell a demand shift from a supply shift…",
+        "The model breaks when…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "g9aDizJpd_s",
+    "title": "Supply and Demand: Crash Course Economics #4",
+    "channel": "CrashCourse",
+    "duration_sec": 622,
+    "start": 0,
+    "end": 592,
+    "why": "Crash Course on price signals, surpluses and shortages, a 2014 gas-price example, and a debate on organ markets. It stops before the credits."
+  },
+  "sources": [
+    {
+      "title": "Supply and demand",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Supply_and_demand",
+      "supports": "Supply and demand is the theoretical basis of modern economics; holding all else equal, price varies until quantity demanded equals quantity supplied; demand parallels marginal utility and supply marginal cost; Cournot (1838), Jenkin (1870), Marshall (1890); movement along versus shift of the curve; determinants of demand and supply; demand shifts move price and quantity together, supply shifts move them in opposite directions (cheaper-wheat example); short-run vs long-run supply and flatter long-run curves; market power calls for monopoly, oligopoly or monopsony models; Veblen and Giffen goods (potatoes in Ireland); Fleetwood quote on labor supply curves."
+    },
+    {
+      "title": "Shortage",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shortage",
+      "supports": "Shortages persist when prices don't rise, e.g. under price ceilings or anti-price-gouging laws; non-price allocation (first come, first served, lotteries, queues, rationing, black markets, substitute demand); the trade-off that ceilings let some buy who otherwise couldn't, at a cost to those willing to pay more and in lost time; 1973 oil crisis rationing and price controls caused shortages; Soviet 1980s price controls and lines for cars and apartments."
+    }
+  ]
+}

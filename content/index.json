@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-18",
+ "updated": "2026-10-19",
  "topics": [
   {
    "id": "history",
@@ -249,6 +249,17 @@
     "kid": "science-ice-floats-kid"
    },
    "dinner_question": "If ice sank instead of floating, what would winter be like around here, and what would we miss most?"
+  },
+  {
+   "date": "2026-10-27",
+   "topic": "money",
+   "title": "Supply and demand",
+   "packs": {
+    "adult": "money-supply-demand-adult",
+    "teen": "money-supply-demand-teen",
+    "kid": "money-supply-demand-kid"
+   },
+   "dinner_question": "If our family ran a lemonade stand on the hottest day of the year, would you raise the price, keep it the same, or do something else, and why?"
   }
  ],
  "series": [
@@ -1196,6 +1207,45 @@
    "summary": "Inflation as a general price-level rise, CPI/PCE measurement, purchasing power, and who bears unexpected inflation.",
    "minutes": 8,
    "date_added": "2026-10-11",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "money-supply-demand-kid",
+   "topic": "money",
+   "level": "kid",
+   "title": "Why Prices Go Up and Down",
+   "emoji": "🍋",
+   "subject": "supply-demand",
+   "summary": "Buyers and sellers pull on a price like a tug-of-war until it settles in the middle.",
+   "minutes": 6,
+   "date_added": "2026-10-19",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "money-supply-demand-teen",
+   "topic": "money",
+   "level": "teen",
+   "title": "Supply, Demand, and the Price Tag",
+   "emoji": "🏷️",
+   "subject": "supply-demand",
+   "summary": "How buyers and sellers find a price nobody chose, and what moves it.",
+   "minutes": 7,
+   "date_added": "2026-10-19",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "money-supply-demand-adult",
+   "topic": "money",
+   "level": "adult",
+   "title": "Supply and Demand: What the Model Really Says",
+   "emoji": "📊",
+   "subject": "supply-demand",
+   "summary": "Marginal logic, shifts versus movements, price ceilings, and where the model breaks.",
+   "minutes": 8,
+   "date_added": "2026-10-19",
    "cards": 10,
    "keys_count": 3
   },

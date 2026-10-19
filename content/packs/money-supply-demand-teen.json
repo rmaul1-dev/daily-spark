@@ -1,0 +1,209 @@
+{
+  "id": "money-supply-demand-teen",
+  "topic": "money",
+  "subject": "supply-demand",
+  "level": "teen",
+  "title": "Supply, Demand, and the Price Tag",
+  "emoji": "🏷️",
+  "summary": "How buyers and sellers find a price nobody chose, and what moves it.",
+  "minutes": 7,
+  "date_added": "2026-10-19",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why does a price above the equilibrium tend to fall?",
+      "answer": "Sellers offer more than buyers want, so there is a surplus. To sell it, sellers cut prices until the amounts match."
+    },
+    {
+      "id": "k2",
+      "prompt": "What is the difference between a change in demand and a change in quantity demanded?",
+      "answer": "A price change moves you along the demand curve (quantity demanded). Anything else, like income or tastes, shifts the whole curve (demand)."
+    },
+    {
+      "id": "k3",
+      "prompt": "When supply increases, what happens to the equilibrium price and quantity?",
+      "answer": "The price falls and the quantity sold rises. They move in opposite directions."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🍓",
+      "title": "The price nobody set",
+      "text": "No one person decides what strawberries cost. The farmer can name a number, but if it's too high, nobody buys. Yet the price lands somewhere, and it moves when things change. What's pulling the strings?"
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "Say at a soccer tournament, fans would buy 60 − 10×P cups of lemonade an hour at a price of P dollars. All the stands together would sell 10 + 10×P cups. What price makes the two match?",
+      "estimate": {
+        "min": 0,
+        "max": 6,
+        "step": 0.25,
+        "unit": "$",
+        "answer": 2.5
+      },
+      "reveal": "$2.50. Fans want 60 − 25 = 35 cups, and the stands offer 10 + 25 = 35 cups.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "📉",
+      "title": "The law of demand",
+      "text": "When a price goes up, buyers want less; when it falls, they want more. A buyer keeps buying another unit as long as it's worth more to them than the price. Economists split terms: a price change is a change in quantity demanded, a move along the curve. A change in demand means the whole curve shifts.",
+      "example": "Say a smoothie goes from $4 to $7. You might still buy one a week, but not three."
+    },
+    {
+      "type": "idea",
+      "emoji": "📈",
+      "title": "The law of supply",
+      "text": "Sellers move the other way. A firm keeps producing more as long as making one more unit costs less than the price it gets. So a higher price pulls out more output, and a lower one shrinks it.",
+      "why": {
+        "q": "Why does a higher price unlock more output?",
+        "a": "Extra units that cost too much to make at a low price become worth making once the price is above their cost."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Equilibrium",
+      "text": "Equilibrium is the price where quantity demanded equals quantity supplied, so the market clears. In the lemonade example it's $2.50: 35 cups each way. At $3, fans want 30 but stands offer 40, a surplus, so prices drop. At $2, fans want 40 but stands offer 30, a shortage, so prices rise.",
+      "why": {
+        "q": "Why do prices drift toward equilibrium on their own?",
+        "a": "A surplus pushes sellers to cut prices to sell what's left, and a shortage lets them raise prices, until the amounts match."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "↔️",
+      "title": "When the curves shift",
+      "text": "Things other than price move a whole curve. Demand shifts with income, tastes, prices of related goods, expectations, number of buyers and advertising. Supply shifts with input costs, technology and number of sellers. More demand raises price and quantity. More supply lowers price but raises quantity.",
+      "example": "Say someone invents a cheaper way to grow wheat. Supply shifts right, so wheat gets cheaper and more is sold.",
+      "examples_by_interest": {
+        "business": "Say you sell cleaned used golf balls, and three new sellers start up nearby. Supply shifts right, so expect to sell at a lower price."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🚧",
+      "title": "When the price can't move",
+      "text": "If a price is held below equilibrium, maybe by a legal cap or a seller who won't raise it, the shortage doesn't go away. Then something besides price decides who gets the goods: lines, first come, first served, or a lottery.",
+      "example": "In the Soviet Union in the 1980s, prices were kept low by law, and people waited in line for cars, apartments and some clothing."
+    },
+    {
+      "type": "think",
+      "question": "A price cap on a scarce item helps some people afford it but leads to lines and empty shelves. When, if ever, is that trade-off worth it? Argue both sides.",
+      "nudges": [
+        "Who wins and who loses when the price rises freely?",
+        "Who wins and who loses when the price is capped?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "In the lemonade example (fans want 60 − 10×P, stands offer 10 + 10×P), what happens at $3?",
+          "options": [
+            {
+              "text": "A surplus of 10 cups, so the price tends to fall",
+              "correct": true,
+              "why": "Fans want 30, stands offer 40. Sellers cut prices to move the extra."
+            },
+            {
+              "text": "A shortage of 10 cups, so the price tends to rise",
+              "correct": false,
+              "why": "That's what happens at $2, below equilibrium."
+            },
+            {
+              "text": "The market clears at 35 cups",
+              "correct": false,
+              "why": "That only happens at $2.50."
+            },
+            {
+              "text": "Nothing, because price doesn't affect sellers",
+              "correct": false,
+              "why": "Higher prices draw more cups from sellers."
+            }
+          ]
+        },
+        {
+          "q": "A popular athlete starts drinking a brand of sports drink, and fans copy her. What happens to that drink's market?",
+          "options": [
+            {
+              "text": "Demand shifts right, so price and quantity both rise",
+              "correct": true,
+              "why": "Tastes changed, so the whole demand curve moved."
+            },
+            {
+              "text": "Quantity demanded rises, but the curve doesn't move",
+              "correct": false,
+              "why": "The price didn't change first. Tastes changed, so the curve shifts."
+            },
+            {
+              "text": "Supply shifts right, so the price falls",
+              "correct": false,
+              "why": "Nothing changed for sellers' costs or numbers."
+            },
+            {
+              "text": "Price falls and quantity rises",
+              "correct": false,
+              "why": "That pattern comes from more supply, not more demand."
+            }
+          ]
+        },
+        {
+          "q": "A new machine cuts the cost of making phone cases. What happens?",
+          "options": [
+            {
+              "text": "Supply shifts right: price falls, quantity rises",
+              "correct": true,
+              "why": "Lower costs mean sellers offer more at every price."
+            },
+            {
+              "text": "Demand shifts right: price and quantity rise",
+              "correct": false,
+              "why": "Buyers didn't change. Sellers' costs did."
+            },
+            {
+              "text": "Supply shifts left: price rises",
+              "correct": false,
+              "why": "That would come from higher costs, not lower ones."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The price settles where…",
+        "If the price is too high…",
+        "A curve shifts when…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "LTKP-mm3Hb0",
+    "title": "Supply and Demand: The Force Behind a Cup of Coffee",
+    "channel": "Sprouts",
+    "duration_sec": 365,
+    "start": 0,
+    "end": 321,
+    "why": "A coffee shop walks through demand and supply curves, where they meet, and what a bad bean harvest does to the price. It stops before the end-of-video homework ask."
+  },
+  "sources": [
+    {
+      "title": "Supply and demand",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Supply_and_demand",
+      "supports": "Holding all else equal, price varies until the market-clearing price where quantity demanded equals quantity supplied (equilibrium); law of demand and downward-sloping demand curve; buyers buy another unit while its marginal value exceeds the price; firms produce more while the extra cost is below the price; movement along the curve is a change in quantity demanded, a shift is a change in demand; determinants of demand (income, tastes, related goods, expectations, number of buyers, advertising) and of supply (input prices, technology, expectations, number of suppliers); demand shift right raises price and quantity; supply shift right lowers price and raises quantity, with the cheaper-wheat example."
+    },
+    {
+      "title": "Shortage",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shortage",
+      "supports": "Excess demand prompts sellers to raise prices toward equilibrium; a shortage persists when the price does not rise, for example under price ceilings or when sellers choose not to raise prices; a non-price method such as first come, first served or a lottery then decides who is served; in the Soviet Union in the 1980s prices were kept artificially low and people waited in line for cars, apartments and some types of clothing; price ceilings involve a trade-off."
+    }
+  ]
+}

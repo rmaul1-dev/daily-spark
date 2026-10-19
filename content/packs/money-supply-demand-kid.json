@@ -1,0 +1,235 @@
+{
+  "id": "money-supply-demand-kid",
+  "topic": "money",
+  "subject": "supply-demand",
+  "level": "kid",
+  "title": "Why Prices Go Up and Down",
+  "emoji": "🍋",
+  "summary": "Buyers and sellers pull on a price like a tug-of-war until it settles in the middle.",
+  "minutes": 6,
+  "date_added": "2026-10-19",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "When the price of something goes down, what usually happens?",
+      "answer": "People usually want to buy more of it. A lower price means more buyers.",
+      "options": [
+        {
+          "text": "People want to buy more of it",
+          "correct": true
+        },
+        {
+          "text": "People want to buy less of it"
+        },
+        {
+          "text": "Sellers want to make more of it"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "A seller has lots left over because the price is too high. What usually happens next?",
+      "answer": "The seller lowers the price so more people will buy.",
+      "options": [
+        {
+          "text": "The seller lowers the price",
+          "correct": true
+        },
+        {
+          "text": "The seller raises the price"
+        },
+        {
+          "text": "Buyers line up to get it"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "Lots of people want something, and stores keep running out. What usually happens to the price?",
+      "answer": "The price usually goes up until the number people want matches the number for sale.",
+      "options": [
+        {
+          "text": "It usually goes up",
+          "correct": true
+        },
+        {
+          "text": "It usually goes down"
+        },
+        {
+          "text": "It always stays the same"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧃",
+      "title": "Who picks the price?",
+      "text": "Imagine you run a lemonade stand. Charge $5 a cup and the line is empty. Charge 5 cents and you run out in a minute. Somewhere in the middle is a price that works. How do you find it?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "A new toy is so popular that stores keep running out. If stores are free to change the price, what usually happens?",
+      "options": [
+        {
+          "text": "The price goes up",
+          "correct": true
+        },
+        {
+          "text": "The price goes down"
+        },
+        {
+          "text": "The price stays the same"
+        }
+      ],
+      "reveal": "The price usually goes up. When more people want something than there is for sale, sellers raise the price until the two match.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "🛒",
+      "title": "Buyers like low prices",
+      "text": "When a price goes down, people usually want to buy more. When it goes up, they buy less. This is called demand.",
+      "example": "Say lemonade costs 25 cents a cup. Lots of kids buy some. At $5 a cup, almost no one does."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏪",
+      "title": "Sellers like high prices",
+      "text": "Sellers act the other way. When a price goes up, they want to make and sell more, because each sale earns more. This is called supply.",
+      "example": "Say lemonade sells for $3 a cup on your street. More kids may want to open stands too.",
+      "why": {
+        "q": "Why would a high price make sellers want to make more?",
+        "a": "They make more as long as each extra cup costs less to make than the price they get for it."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "The price in the middle",
+      "text": "Buyers pull the price down. Sellers pull it up. If the price is too high, sellers have lots left over, so they cut it. If it is too low, they run out, so it goes up. It settles where the amount people want to buy matches the amount for sale.",
+      "examples_by_interest": {
+        "soccer": "Say your team sells snacks at a game. Price them too high and you carry a full box home. Too low and you sell out at halftime."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🌩️",
+      "title": "When things change",
+      "text": "Prices move when buyers or sellers change. If more people want something, its price goes up. If there is less of it to sell, its price goes up too. If there is more of it, the price goes down.",
+      "example": "Say a storm wrecks half the strawberry crop. There are fewer berries to sell, so they cost more."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎟️",
+      "title": "When the price can't move",
+      "text": "Sometimes the price stays low even when there isn't enough. Then the price can't decide who gets it. So people wait in line, or it's first come, first served. Some people go home with nothing.",
+      "example": "Say a store keeps a hot toy cheap. The toys are gone in minutes, and late shoppers miss out."
+    },
+    {
+      "type": "think",
+      "question": "Is it fairer to let a price go up when there isn't enough, or to keep it low and let people wait in line? Can you argue both sides?",
+      "nudges": [
+        "Who gets the item when the price goes up?",
+        "Who gets it when the price stays low?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What usually happens when a price goes down?",
+          "options": [
+            {
+              "text": "People want to buy more",
+              "correct": true,
+              "why": "Yes. Lower prices bring more buyers."
+            },
+            {
+              "text": "People want to buy less",
+              "correct": false,
+              "why": "That happens when a price goes up."
+            },
+            {
+              "text": "Sellers want to make more",
+              "correct": false,
+              "why": "Sellers usually want to make more when the price is high."
+            }
+          ]
+        },
+        {
+          "q": "A bake sale has lots of cookies left over. What will sellers likely do?",
+          "options": [
+            {
+              "text": "Lower the price",
+              "correct": true,
+              "why": "Right. A lower price helps them sell the extras."
+            },
+            {
+              "text": "Raise the price",
+              "correct": false,
+              "why": "A higher price would leave even more cookies."
+            },
+            {
+              "text": "Bake more cookies",
+              "correct": false,
+              "why": "They already have too many."
+            }
+          ]
+        },
+        {
+          "q": "What happens when the price stays low but there isn't enough?",
+          "options": [
+            {
+              "text": "People wait in line or it's first come, first served",
+              "correct": true,
+              "why": "Yes. Something else has to decide who gets it."
+            },
+            {
+              "text": "Everyone gets one anyway",
+              "correct": false,
+              "why": "There isn't enough for everyone, so some people miss out."
+            },
+            {
+              "text": "The store makes more right away",
+              "correct": false,
+              "why": "Making more takes time, and a low price gives sellers less reason to."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Buyers want more when…",
+        "Sellers want to sell more when…",
+        "The price ends up where…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "2Wp-diDRVKI",
+    "title": "What Is Supply and Demand?",
+    "channel": "IMF",
+    "duration_sec": 109,
+    "why": "A quick IMF explainer with blueberries: lower prices bring more buyers, higher prices bring more sellers, and bad weather pushes the price up."
+  },
+  "sources": [
+    {
+      "title": "Supply and demand",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Supply_and_demand",
+      "supports": "Supply and demand is a model of how prices are set: the price changes until the amount buyers want equals the amount sellers offer; the law of demand (people buy more as the price falls); sellers make more as long as an extra unit costs less to make than the price; more demand raises the price; less supply (for example from higher costs) raises the price and more supply lowers it."
+    },
+    {
+      "title": "Shortage",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shortage",
+      "supports": "When more is wanted than is for sale, sellers raise prices until the two match; if the price does not rise, a shortage follows and something else, such as first come, first served, a lottery, or waiting in line, decides who gets the item."
+    }
+  ]
+}
