@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "topics": [
   {
    "id": "history",
@@ -260,6 +260,17 @@
     "kid": "money-supply-demand-kid"
    },
    "dinner_question": "If our family ran a lemonade stand on the hottest day of the year, would you raise the price, keep it the same, or do something else, and why?"
+  },
+  {
+   "date": "2026-10-28",
+   "topic": "space",
+   "title": "Why the Moon has phases",
+   "packs": {
+    "adult": "space-moon-phases-adult",
+    "teen": "space-moon-phases-teen",
+    "kid": "space-moon-phases-kid"
+   },
+   "dinner_question": "If the Moon were the only calendar we had, what would you plan by it, and what would be hard to keep track of?"
   }
  ],
  "series": [
@@ -1378,6 +1389,45 @@
    "summary": "Momentum, a logarithm that bills you exponentially, gravity losses, and why staging is worth its risks.",
    "minutes": 8,
    "date_added": "2026-10-12",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "space-moon-phases-kid",
+   "topic": "space",
+   "level": "kid",
+   "title": "Why Does the Moon Change Shape?",
+   "emoji": "🌙",
+   "subject": "moon-phases",
+   "summary": "The Moon never really changes shape. Our view of its sunny side does.",
+   "minutes": 6,
+   "date_added": "2026-10-20",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "space-moon-phases-teen",
+   "topic": "space",
+   "level": "teen",
+   "title": "The Moon Is Always Half Lit",
+   "emoji": "🌓",
+   "subject": "moon-phases",
+   "summary": "Phases are geometry: how much of the Moon's sunlit half we can see from Earth.",
+   "minutes": 7,
+   "date_added": "2026-10-20",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "space-moon-phases-adult",
+   "topic": "space",
+   "level": "adult",
+   "title": "Moon Phases: Geometry in the Sky",
+   "emoji": "🌗",
+   "subject": "moon-phases",
+   "summary": "Why phases are an angle, why the cycle runs 29.5 days, and why we see one face (mostly).",
+   "minutes": 8,
+   "date_added": "2026-10-20",
    "cards": 10,
    "keys_count": 3
   },

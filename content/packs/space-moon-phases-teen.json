@@ -1,0 +1,204 @@
+{
+  "id": "space-moon-phases-teen",
+  "topic": "space",
+  "subject": "moon-phases",
+  "level": "teen",
+  "title": "The Moon Is Always Half Lit",
+  "emoji": "🌓",
+  "summary": "Phases are geometry: how much of the Moon's sunlit half we can see from Earth.",
+  "minutes": 7,
+  "date_added": "2026-10-20",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What causes the Moon's phases?",
+      "answer": "The Sun always lights half the Moon. As the Moon orbits Earth, we see more or less of that lit half. Earth's shadow is not the cause."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why does new Moon to new Moon take about 29.5 days when one orbit takes about 27.3?",
+      "answer": "Earth moves along its orbit around the Sun during the month, so the Moon has to travel extra to line up with the Sun again."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why do we always see the same side of the Moon?",
+      "answer": "It is tidally locked: it spins exactly once each time it orbits Earth."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌓",
+      "title": "The half Moon that isn't",
+      "text": "NASA says the \"half Moon\" isn't really half of the Moon, and that the full Moon is, technically, the real half moon. Both claims are true. How?"
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "The Moon circles Earth in about 27.3 days. How many days do you think it takes to go from one new Moon to the next?",
+      "estimate": {
+        "min": 20,
+        "max": 35,
+        "step": 0.5,
+        "unit": "days",
+        "answer": 29.5
+      },
+      "reveal": "About 29.5 days. Earth keeps moving around the Sun, so the Moon has to go a bit farther to line up with the Sun again.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "☀️",
+      "title": "Always half lit",
+      "text": "Only the Sun makes its own light in our solar system. Moonlight is sunlight bouncing off the Moon. The Sun always lights the half of the Moon facing it, the Moon's day side. A phase is just how much of that day side we can see from Earth as the Moon circles us.",
+      "example": "Try it: a lamp is the Sun, a ball on a pencil is the Moon, your head is Earth. Turn slowly in a dark room and watch the lit part grow and shrink.",
+      "why": {
+        "q": "Why can't Earth's shadow be the cause?",
+        "a": "Earth's shadow can only reach the Moon at full Moon, in a lunar eclipse. The Moon's tilted orbit usually misses the shadow, but phases happen every month."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📐",
+      "title": "What \"quarter\" really means",
+      "text": "First quarter means the Moon is a quarter of the way through its monthly trip. The half circle you see is half of the lit half, so a quarter of the whole Moon. At full Moon you see the entire day side, which is half the Moon. That is the real half moon."
+    },
+    {
+      "type": "idea",
+      "emoji": "🕰️",
+      "title": "The phase tells the time",
+      "text": "A phase depends on where the Moon is compared with the Sun, so it predicts when the Moon is up. A full Moon sits opposite the Sun, so it rises around sunset and sets around sunrise. A first quarter Moon rises around midday and sets around the middle of the night. A new Moon rises and sets with the Sun.",
+      "example": "See a half Moon high in the sky in the evening? It's first quarter, and NASA calls it excellent viewing."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔄",
+      "title": "27.3 days or 29.5?",
+      "text": "The Moon circles Earth in about 27.3 days, but new Moon to new Moon takes about 29.5. Earth isn't standing still. During the month it moves along its path around the Sun, so the Moon needs about two more days to line up with the Sun again. It orbits Earth 13.4 times a year but passes between Earth and the Sun only 12.4 times.",
+      "why": {
+        "q": "Why does Earth's motion make the cycle longer, not shorter?",
+        "a": "A new Moon needs the Moon lined up between Earth and the Sun. Earth has moved on, so the Moon must go past one full lap to get back in line."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🔒",
+      "title": "The same face, every night",
+      "text": "The Moon spins exactly once each time it orbits Earth, so the same side always faces us. This is called tidal locking, and it's common: all the solar system's large moons are locked to their planets. The far side isn't dark, though. At new Moon, it's the side in full sunlight."
+    },
+    {
+      "type": "think",
+      "question": "Suppose the Moon spun much faster, so over a month we saw every side of it. Would we still see phases? What would change?",
+      "nudges": [
+        "What decides how much of the lit half we see?",
+        "Would the face of the Moon look the same each night?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "During a full Moon, where is the Sun?",
+          "options": [
+            {
+              "text": "On the other side of Earth, opposite the Moon",
+              "correct": true,
+              "why": "Right. We face the Moon's whole day side, so the Sun must be behind us."
+            },
+            {
+              "text": "Right behind the Moon",
+              "correct": false,
+              "why": "Then the lit side would face away from us. That's a new Moon."
+            },
+            {
+              "text": "Off to one side, at a right angle",
+              "correct": false,
+              "why": "A right angle gives a quarter Moon, not a full one."
+            }
+          ]
+        },
+        {
+          "q": "A first quarter Moon looks like a half circle. How much of the Moon's whole surface are you seeing lit?",
+          "options": [
+            {
+              "text": "About a quarter",
+              "correct": true,
+              "why": "Yes: half of the lit half."
+            },
+            {
+              "text": "About half",
+              "correct": false,
+              "why": "That's the whole day side, which you only see at full Moon."
+            },
+            {
+              "text": "About three quarters",
+              "correct": false,
+              "why": "You can never see more than the half facing you."
+            }
+          ]
+        },
+        {
+          "q": "Why does new Moon to new Moon take about 29.5 days, longer than one 27.3-day orbit?",
+          "options": [
+            {
+              "text": "Earth moves around the Sun, so the Moon must go farther to line up again",
+              "correct": true,
+              "why": "Exactly. The Moon has to catch up with the moving Earth–Sun line."
+            },
+            {
+              "text": "The Moon slows down near full Moon",
+              "correct": false,
+              "why": "Its speed varies a little, but that's not why the cycle is longer."
+            },
+            {
+              "text": "Earth's shadow delays the new Moon",
+              "correct": false,
+              "why": "Earth's shadow doesn't cause phases at all."
+            },
+            {
+              "text": "The Moon spins backward for two days",
+              "correct": false,
+              "why": "The Moon's spin stays steady. Earth's motion is the reason."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The Sun always lights…",
+        "A phase is how much…",
+        "The cycle takes 29.5 days because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "wz01pTvuMa0",
+    "title": "Moon Phases Demonstration",
+    "channel": "National Science Teaching Association",
+    "duration_sec": 256,
+    "why": "A lamp, a foam ball and your head: watch every phase appear just by moving the \"Moon\" around \"Earth.\""
+  },
+  "sources": [
+    {
+      "title": "Moon Phases",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/moon/moon-phases/",
+      "supports": "Only the Sun shines with its own light; the Moon is always half-lit; first quarter means a quarter through the monthly journey and shows half of the lit half; the full Moon is technically the real half moon; at new Moon the lit side faces away from Earth; moonrise and moonset times for each phase; the 27.3-day orbit and 29.5-day cycle; libration from the elliptical orbit and the 5° orbital tilt; daytime moons."
+    },
+    {
+      "title": "Lunar phase",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lunar_phase",
+      "supports": "Phases are not caused by Earth's shadow; the lit fraction is (1 − cos θ)/2 where θ is the elongation; 27.3-day orbit vs 29.5-day phase cycle because of Earth's orbit (13.4 orbits but 12.4 passages a year); eclipses need new or full Moon and the 5° tilt usually prevents them; around 59% of the surface imaged from the ground thanks to libration; 12 lunar months are 10 or 11 days short of a solar year, so lunar calendars drift and lunisolar calendars add a 13th month."
+    },
+    {
+      "title": "Tidal Locking",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/moon/tidal-locking/",
+      "supports": "The Moon spins once per orbit so the same side faces Earth; all the solar system's large moons are tidally locked; the lagging bulge, heat dissipation and slowing spin; the Moon drifts away about 1.5 inches (4 cm) a year, driven mainly by Earth's oceans, which also slows Earth's rotation."
+    }
+  ]
+}

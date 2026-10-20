@@ -1,0 +1,231 @@
+{
+  "id": "space-moon-phases-kid",
+  "topic": "space",
+  "subject": "moon-phases",
+  "level": "kid",
+  "title": "Why Does the Moon Change Shape?",
+  "emoji": "🌙",
+  "summary": "The Moon never really changes shape. Our view of its sunny side does.",
+  "minutes": 6,
+  "date_added": "2026-10-20",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Where does moonlight come from?",
+      "answer": "It is sunlight bouncing off the Moon. The Moon makes no light of its own.",
+      "options": [
+        {
+          "text": "Sunlight bouncing off the Moon",
+          "correct": true
+        },
+        {
+          "text": "The Moon glowing on its own"
+        },
+        {
+          "text": "Light from stars shining on it"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Why does the Moon seem to change shape?",
+      "answer": "As the Moon travels around Earth, we see more or less of its sunny half.",
+      "options": [
+        {
+          "text": "We see more or less of its sunny half",
+          "correct": true
+        },
+        {
+          "text": "Earth's shadow covers part of it"
+        },
+        {
+          "text": "The Moon gets bigger and smaller"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "About how long does the Moon take to go through all its phases?",
+      "answer": "About 29 and a half days, from one new Moon to the next.",
+      "options": [
+        {
+          "text": "About 29 and a half days",
+          "correct": true
+        },
+        {
+          "text": "About one week"
+        },
+        {
+          "text": "About one year"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌙",
+      "title": "A shape-shifting Moon?",
+      "text": "Look at the Moon tonight. Then look again in two weeks. It might go from a thin sliver to a big, round ball! Did the Moon really change?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "What do you think makes the Moon look like it changes shape?",
+      "options": [
+        {
+          "text": "Earth's shadow covers part of it"
+        },
+        {
+          "text": "We see different amounts of its sunny side",
+          "correct": true
+        },
+        {
+          "text": "Clouds in space hide part of it"
+        }
+      ],
+      "reveal": "We see different amounts of the Moon's sunny side as it travels around Earth. The Moon's shape never changes.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "🔦",
+      "title": "The Moon has no light",
+      "text": "The Moon does not make its own light. Moonlight is really sunlight bouncing off the Moon. The Sun always lights up the half of the Moon that faces it. The other half is dark.",
+      "example": "Shine a lamp on a ball in a dark room. One side glows. The other side stays dark.",
+      "svg": "<svg viewBox=\"0 0 300 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"The Sun lights the half of the Moon that faces it\"><circle cx=\"40\" cy=\"60\" r=\"28\" fill=\"#fbbf24\"/><path d=\"M75 60 H128\" stroke=\"#f59e0b\" stroke-width=\"3\" stroke-dasharray=\"6 5\"/><circle cx=\"160\" cy=\"60\" r=\"22\" fill=\"#475569\"/><path d=\"M160 38 A22 22 0 0 0 160 82 Z\" fill=\"#fde68a\"/><circle cx=\"262\" cy=\"60\" r=\"18\" fill=\"#60a5fa\"/><text x=\"40\" y=\"108\" font-size=\"12\" text-anchor=\"middle\" fill=\"#64748b\">Sun</text><text x=\"160\" y=\"108\" font-size=\"12\" text-anchor=\"middle\" fill=\"#64748b\">Moon</text><text x=\"262\" y=\"108\" font-size=\"12\" text-anchor=\"middle\" fill=\"#64748b\">Earth</text></svg>"
+    },
+    {
+      "type": "idea",
+      "emoji": "🌍",
+      "title": "Our view changes",
+      "text": "The Moon travels around Earth. As it moves, we see more or less of its sunny half. The Moon never really changes shape. Only our view of it changes!",
+      "why": {
+        "q": "Why can't Earth's shadow be the reason?",
+        "a": "Earth's shadow does fall on the Moon sometimes. That is a lunar eclipse, and it does not happen every month. Phases happen every month."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🌒",
+      "title": "A growing Moon",
+      "text": "At new Moon, the dark side faces us, so we can't see the Moon. Then a thin sliver shows up. That is a crescent. It grows into a half circle, then a full Moon. Growing is called waxing.",
+      "example": "In the U.S., a growing crescent is lit on the right side."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌘",
+      "title": "A shrinking Moon",
+      "text": "After the full Moon, the bright part shrinks. That is called waning. It goes back to a half circle, then a thin crescent lit on the left. Then it is new Moon again. The whole trip takes about 29 and a half days."
+    },
+    {
+      "type": "think",
+      "question": "People long ago used the Moon to keep track of time. Why do you think the Moon worked well for that?",
+      "nudges": [
+        "What can everyone see, wherever they live?",
+        "How often do the phases repeat?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Where does moonlight come from?",
+          "options": [
+            {
+              "text": "Sunlight bouncing off the Moon",
+              "correct": true,
+              "why": "Yes! The Moon reflects the Sun's light."
+            },
+            {
+              "text": "The Moon glows on its own",
+              "correct": false,
+              "why": "The Moon makes no light of its own. Without the Sun, it would be dark."
+            },
+            {
+              "text": "Lights from Earth's cities",
+              "correct": false,
+              "why": "Moonlight comes from the Sun, not from Earth."
+            }
+          ]
+        },
+        {
+          "q": "Why does the Moon look like it changes shape?",
+          "options": [
+            {
+              "text": "We see different amounts of its sunny half",
+              "correct": true,
+              "why": "Right. Our view changes as the Moon goes around Earth."
+            },
+            {
+              "text": "Earth's shadow covers part of it every night",
+              "correct": false,
+              "why": "Earth's shadow only covers the Moon in a lunar eclipse, and that is not every month."
+            },
+            {
+              "text": "The Moon really gets bigger and smaller",
+              "correct": false,
+              "why": "The Moon stays the same size and shape. Only our view changes."
+            }
+          ]
+        },
+        {
+          "q": "What is a waxing Moon doing?",
+          "options": [
+            {
+              "text": "Growing",
+              "correct": true,
+              "why": "Yes! Waxing means the bright part is getting bigger."
+            },
+            {
+              "text": "Shrinking",
+              "correct": false,
+              "why": "That is waning. Waxing is the opposite."
+            },
+            {
+              "text": "Staying the same",
+              "correct": false,
+              "why": "The bright part is changing. Waxing means it is growing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The Moon gets its light from…",
+        "As the Moon goes around Earth…",
+        "A waxing Moon is…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "yXe0yxzYkjo",
+    "title": "Why Does the Moon Change?",
+    "channel": "SciShow Kids",
+    "duration_sec": 228,
+    "why": "See how the Moon's sunny side comes into view and then slips away as the Moon travels around Earth."
+  },
+  "sources": [
+    {
+      "title": "What Are the Moon's Phases?",
+      "publisher": "NASA Space Place",
+      "url": "https://spaceplace.nasa.gov/moon-phases/en/",
+      "supports": "The Moon makes no light of its own; moonlight is reflected sunlight; the Sun always lights the half facing it; our view changes as the Moon orbits; the eight phases; waxing means growing and waning means shrinking; in the Northern Hemisphere the waxing crescent is lit on the right and the waning crescent on the left; about 29.5 days from new moon to new moon."
+    },
+    {
+      "title": "Lunar phase",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lunar_phase",
+      "supports": "Phases are not caused by Earth's shadow; the lit fraction is (1 − cos θ)/2 where θ is the elongation; 27.3-day orbit vs 29.5-day phase cycle because of Earth's orbit (13.4 orbits but 12.4 passages a year); eclipses need new or full Moon and the 5° tilt usually prevents them; around 59% of the surface imaged from the ground thanks to libration; 12 lunar months are 10 or 11 days short of a solar year, so lunar calendars drift and lunisolar calendars add a 13th month."
+    },
+    {
+      "title": "What Is an Eclipse?",
+      "publisher": "NASA Space Place",
+      "url": "https://spaceplace.nasa.gov/eclipses/en/",
+      "supports": "During a lunar eclipse, Earth's shadow covers the full Moon; lunar eclipses don't happen every month because the Moon's path is tilted."
+    }
+  ]
+}
