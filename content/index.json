@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "topics": [
   {
    "id": "history",
@@ -271,6 +271,17 @@
     "kid": "space-moon-phases-kid"
    },
    "dinner_question": "If the Moon were the only calendar we had, what would you plan by it, and what would be hard to keep track of?"
+  },
+  {
+   "date": "2026-10-29",
+   "topic": "tech",
+   "title": "How computers count with 0s and 1s",
+   "packs": {
+    "adult": "tech-binary-adult",
+    "teen": "tech-binary-teen",
+    "kid": "tech-binary-kid"
+   },
+   "dinner_question": "If someone picks a secret number from 1 to 100 and you can only ask yes-or-no questions, how few questions could you get it in?"
   }
  ],
  "series": [
@@ -909,6 +920,45 @@
    "summary": "Positioning is timing: four pseudoranges, a relativity correction baked into the hardware, and an economy that quietly runs on GPS time.",
    "minutes": 8,
    "date_added": "2026-10-13",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "tech-binary-kid",
+   "topic": "tech",
+   "level": "kid",
+   "title": "Counting With Only 0 and 1",
+   "emoji": "💡",
+   "subject": "binary",
+   "summary": "Computers count with just two digits. Each place is worth double the one next to it.",
+   "minutes": 6,
+   "date_added": "2026-10-21",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "tech-binary-teen",
+   "topic": "tech",
+   "level": "teen",
+   "title": "Everything Is a Number in Disguise",
+   "emoji": "💾",
+   "subject": "binary",
+   "summary": "Why computers use two states, how place value works in base 2, and how the same bits can be a number or a letter.",
+   "minutes": 7,
+   "date_added": "2026-10-21",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "tech-binary-adult",
+   "topic": "tech",
+   "level": "adult",
+   "title": "Why Everything Runs on Two Symbols",
+   "emoji": "💾",
+   "subject": "binary",
+   "summary": "Binary trades compactness for reliability; bit width fixes range in advance; and meaning lives in the encoding, not the bits.",
+   "minutes": 8,
+   "date_added": "2026-10-21",
    "cards": 10,
    "keys_count": 3
   },

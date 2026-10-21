@@ -1,0 +1,223 @@
+{
+  "id": "tech-binary-teen",
+  "topic": "tech",
+  "subject": "binary",
+  "level": "teen",
+  "title": "Everything Is a Number in Disguise",
+  "emoji": "💾",
+  "summary": "Why computers use two states, how place value works in base 2, and how the same bits can be a number or a letter.",
+  "minutes": 7,
+  "date_added": "2026-10-21",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why do computers store data in two states instead of ten?",
+      "answer": "Two well-separated states are simple to build with logic gates and resist noise, so a slightly messy signal is still read correctly."
+    },
+    {
+      "id": "k2",
+      "prompt": "How many patterns can n bits make, and why?",
+      "answer": "2 to the power n. Each bit can be 0 or 1, so every added bit doubles the count: 8 bits give 256."
+    },
+    {
+      "id": "k3",
+      "prompt": "How can the same bits mean a number or a letter?",
+      "answer": "Bits have no meaning alone; the rule used to read them decides. 1101001 is 105 as a number and i in ASCII."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🕵️",
+      "title": "Same bits, two meanings",
+      "text": "The pattern 1101001 can be the number 105. It can also be the lowercase letter i. A computer stores both in exactly the same way. So how does it know which one it is looking at?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "How many different values can a single byte (8 bits) hold?",
+      "options": [
+        {
+          "text": "8"
+        },
+        {
+          "text": "16"
+        },
+        {
+          "text": "256",
+          "correct": true
+        },
+        {
+          "text": "1,000"
+        }
+      ],
+      "reveal": "256. Each bit doubles the options: 2 × 2 × 2 × 2 × 2 × 2 × 2 × 2 = 256, so a byte holds 0 to 255.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "⚡",
+      "title": "Why two states win",
+      "text": "In a modern computer, a bit is usually one of two voltages. Two states are easy to build with logic gates. They also resist noise: a signal that drifts a little is still clearly high or low. That is why almost all modern computers use binary. Disks use the same idea with two magnetic directions.",
+      "example": "Early computers stored bits as switches and punched holes. Anything with two clear states can hold a bit.",
+      "why": {
+        "q": "Why not build computers with ten voltage levels, one per decimal digit?",
+        "a": "Ten levels would sit close together, so a little noise could make one look like its neighbor. Two far-apart states are much harder to misread."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🧮",
+      "title": "Place value, base 2",
+      "text": "Binary works like decimal, but each place is worth double the one to its right: 1, 2, 4, 8, 16, 32. Add the places that hold a 1. So 100101 = 32 + 4 + 1 = 37. Every extra bit doubles the number of patterns, so n bits give 2 to the power n.",
+      "example": "A byte is 8 bits, so it has 2⁸ = 256 patterns, the numbers 0 through 255.",
+      "examples_by_interest": {
+        "business": "Say your shop's inventory app stores each item count in one byte. It can track 0 to 255 of each item. Stock item number 256 and you've run out of patterns, so the app needs a wider number."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🔤",
+      "title": "Letters are numbers too",
+      "text": "ASCII, a standard first published in 1963, gives each character a number from 0 to 127. That fits in 7 bits. Lowercase i is 105. Its designers made each uppercase letter differ from its lowercase partner by a single bit. That made it easier to match text and build keyboards and printers.",
+      "example": "105 in binary is 1101001, because 64 + 32 + 8 + 1 = 105."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔑",
+      "title": "The rule decides",
+      "text": "So is 1101001 the number 105 or the letter i? The bits don't change. Only the rule used to read them changes. A rule for turning bits into meaning is called an encoding. Programs that share data have to agree on which encoding they are using.",
+      "example": "Say two friends pass coded notes. If one thinks 1 means A and the other thinks 1 means Z, every message turns to nonsense.",
+      "why": {
+        "q": "Why can't a computer just look at bits and tell what they are?",
+        "a": "The same pattern is valid as a number, a letter, or something else. Only the agreed rule says which one was meant."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📜",
+      "title": "From paper to switches",
+      "text": "Gottfried Leibniz wrote his first known work on binary in 1679 and published his best-known paper on it in 1703. Then in 1937, Claude Shannon's master's thesis at MIT did binary math and logic with electric relays and switches. That thesis essentially founded practical digital circuit design.",
+      "example": "Binary sat on paper for over 250 years before switches made it the language of machines."
+    },
+    {
+      "type": "think",
+      "question": "Braille, Morse code and binary all build messages from a few simple symbols. What do you gain, and what do you give up, by using only two symbols instead of ten or twenty-six?",
+      "nudges": [
+        "How many digits does 37 take in decimal? In binary?",
+        "Which is worse for a machine: a longer message, or one it might misread?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What is 1011 in decimal?",
+          "options": [
+            {
+              "text": "11",
+              "correct": true,
+              "why": "Right: 8 + 2 + 1 = 11."
+            },
+            {
+              "text": "1,011",
+              "correct": false,
+              "why": "That reads it as decimal. In binary the places are 8, 4, 2 and 1."
+            },
+            {
+              "text": "13",
+              "correct": false,
+              "why": "13 would be 1101. Check which places hold a 1."
+            },
+            {
+              "text": "3",
+              "correct": false,
+              "why": "That counts the 1s. You need to add the values of their places."
+            }
+          ]
+        },
+        {
+          "q": "A 7-bit code gets one extra bit. How many patterns does it have now?",
+          "options": [
+            {
+              "text": "256",
+              "correct": true,
+              "why": "Yes. 7 bits give 128, and one more bit doubles it to 256."
+            },
+            {
+              "text": "129",
+              "correct": false,
+              "why": "An extra bit doubles the patterns instead of adding one."
+            },
+            {
+              "text": "135",
+              "correct": false,
+              "why": "Adding bits doesn't add a fixed amount. Each one doubles the count."
+            },
+            {
+              "text": "8",
+              "correct": false,
+              "why": "That's the number of bits, not the number of patterns they make."
+            }
+          ]
+        },
+        {
+          "q": "Why do computers use two voltage levels instead of many?",
+          "options": [
+            {
+              "text": "Two far-apart states are simple to build and hard to misread when there's noise",
+              "correct": true,
+              "why": "Exactly. Reliability matters more than short numbers."
+            },
+            {
+              "text": "Electricity can only ever be on or fully off",
+              "correct": false,
+              "why": "Voltage can take many values. Engineers choose two on purpose."
+            },
+            {
+              "text": "Binary numbers are shorter than decimal ones",
+              "correct": false,
+              "why": "They're longer: 37 takes six bits but only two decimal digits."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Computers use two states because…",
+        "In binary, each place…",
+        "The same bits can mean different things because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "wgbV6DLVezo",
+    "title": "How exactly does binary code work? - José Américo N L F de Freitas",
+    "channel": "TED-Ed",
+    "duration_sec": 280,
+    "why": "A TED-Ed animation shows why two voltage levels are reliable, how one bit pattern can be a number or a letter, and how pictures and sound become bits."
+  },
+  "sources": [
+    {
+      "title": "Binary number",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Binary_number",
+      "supports": "Binary is base 2 and uses only 0 and 1; each digit is a bit; almost all modern computers use it because it is straightforward to implement with logic gates and has noise immunity; in a modern computer bits may be two different voltages, on disks magnetic polarities, earlier switches and punched holes or tape; any mechanism with two exclusive states can represent bits; counting goes 0, 1, 10, 11, 100 with reset and carry like decimal; each bit is an increasing power of 2 and the value is the sum, e.g. 100101 = 32 + 4 + 1 = 37; Leibniz's first known binary work was 1679 and his best-known article, Explication de l'Arithmetique Binaire, was published in 1703; he saw 1 and 0 as a symbol of creation out of nothing; Claude Shannon's 1937 MIT master's thesis implemented Boolean algebra and binary arithmetic with relays and switches and essentially founded practical digital circuit design."
+    },
+    {
+      "title": "Byte",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Byte",
+      "supports": "A byte commonly consists of eight bits; historically it was the number of bits used to encode one character of text; 2 to the 8th power is 256, so one byte holds the values 0 through 255."
+    },
+    {
+      "title": "ASCII",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ASCII",
+      "supports": "ASCII encodes 128 code points (0 to 127), storable in 7 bits; lowercase i is 105; first edition published in 1963; lowercase letters differ from uppercase by a single bit, which simplified case-insensitive matching and building keyboards and printers; its punctuation shaped programming-language syntax; it lacks accented letters (e.g. resume with accents); the first 128 Unicode code points are the same as ASCII, making UTF-8 backward compatible with 7-bit ASCII; UTF-8 overtook older encodings as the most common on the web in 2008."
+    }
+  ]
+}

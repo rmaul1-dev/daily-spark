@@ -1,0 +1,224 @@
+{
+  "id": "tech-binary-adult",
+  "topic": "tech",
+  "subject": "binary",
+  "level": "adult",
+  "title": "Why Everything Runs on Two Symbols",
+  "emoji": "💾",
+  "summary": "Binary trades compactness for reliability; bit width fixes range in advance; and meaning lives in the encoding, not the bits.",
+  "minutes": 8,
+  "date_added": "2026-10-21",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why do nearly all computers use binary, even though it takes more digits than decimal?",
+      "answer": "Two well-separated states are simple to build with logic gates and resist noise. Extra digits are cheap; misreads are not."
+    },
+    {
+      "id": "k2",
+      "prompt": "How does an integer's bit width set its range?",
+      "answer": "n bits encode 2^n values, 0 to 2^n − 1 if unsigned. Each extra bit doubles the range, and the width is fixed in advance."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why did Unicode keep ASCII's first 128 codes unchanged?",
+      "answer": "Compatibility: a UTF-8 file of plain ASCII characters is byte-for-byte identical to an ASCII file, so old text and software kept working."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🤔",
+      "title": "The verbose winner",
+      "text": "Write 37 in decimal and it takes two digits. In binary it takes six: 100101. For people, base 2 is clumsy. Yet almost every modern computer uses it. The reason is physics and engineering, not elegance."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "An unsigned 32-bit integer starts at 0. About how large a number can it hold, in billions?",
+      "estimate": {
+        "min": 0,
+        "max": 10,
+        "step": 0.1,
+        "unit": "billion",
+        "answer": 4.3
+      },
+      "reveal": "2³² − 1 = 4,294,967,295, about 4.3 billion. Thirty-two on/off switches cover a range that big.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "⚡",
+      "title": "Physics picks base 2",
+      "text": "Binary wins because two states are easy to build and hard to confuse. Logic gates implement it directly. With only two well-separated voltage levels, moderate noise doesn't change the reading. Early machines used switches, punched holes and paper tape; disks use magnetic polarity. Any physical system with two distinct states can hold a bit.",
+      "example": "The trade is length for reliability: 37 needs six bits instead of two decimal digits, but each bit is far harder to misread.",
+      "why": {
+        "q": "Why is noise immunity worth more than compact notation?",
+        "a": "Adding digits is cheap. A misread value silently corrupts data. Two far-apart states trade length for reliability."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📏",
+      "title": "Width is decided up front",
+      "text": "An n-bit unsigned integer encodes 2ⁿ values, from 0 to 2ⁿ − 1. The growth is exponential: 8 bits reach 255, 32 bits reach 4,294,967,295. But a stored integer has a fixed width chosen in advance. Too few bits and the range runs out; too many and every value costs extra memory.",
+      "example": "Each added bit doubles the range. Going from 32 to 33 bits adds another 4,294,967,296 possible values.",
+      "examples_by_interest": {
+        "business": "Say an order system numbers invoices with an unsigned 16-bit integer. It tops out at 2¹⁶ − 1 = 65,535, so a growing business would outrun it. A 32-bit field pushes the ceiling past 4.29 billion."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🔑",
+      "title": "Meaning lives in the encoding",
+      "text": "Bits carry no meaning of their own. The pattern 1101001 is 105 as an unsigned integer and lowercase i in ASCII. Integers can also be stored as binary-coded decimal or Gray code. Every file format and protocol is an agreement about how to read patterns, and a mismatched agreement turns valid data into nonsense.",
+      "example": "105 = 64 + 32 + 8 + 1, so the same seven bits serve as a number or a letter depending only on the rule applied.",
+      "why": {
+        "q": "Why can't software just inspect bits and infer what they mean?",
+        "a": "The same pattern is valid under many encodings at once. Only the agreed rule, usually set by the format or protocol, says which was meant."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🌐",
+      "title": "Standards lock in",
+      "text": "ASCII, first published in 1963, mapped 128 characters to 7-bit codes, and its punctuation shaped programming-language syntax. It was English-focused, with no accented letters. Unicode kept ASCII as its first 128 code points, so a UTF-8 file of plain ASCII is identical to an ASCII file. UTF-8 overtook older encodings on the web in 2008.",
+      "example": "Compatibility made switching cheap: old ASCII text needed no conversion at all.",
+      "why": {
+        "q": "Why did UTF-8 extend ASCII instead of starting clean?",
+        "a": "Keeping the first 128 codes identical meant existing ASCII text was already valid UTF-8, so old files and software kept working."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📜",
+      "title": "From theology to switches",
+      "text": "Leibniz wrote his first known work on binary in 1679 and published his best-known article on it in 1703; he saw 1 and 0 as a symbol of creation out of nothing. In 1937, Claude Shannon's MIT master's thesis implemented Boolean algebra and binary arithmetic with relays and switches, essentially founding practical digital circuit design.",
+      "example": "The math was ready for centuries. What made it dominant was a physical device whose two states mapped onto it cleanly."
+    },
+    {
+      "type": "think",
+      "question": "ASCII's English-first design was a sensible trade-off in 1963 that carried real costs later. Where in your own work is a 'good enough' standard or field width quietly locking in today's assumptions?",
+      "nudges": [
+        "Think of IDs, account numbers, form fields or file formats you depend on.",
+        "Argue the other side: when is fixing a standard early worth its later costs?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "A counter is stored as an unsigned 16-bit integer. What is the largest value it can hold?",
+          "options": [
+            {
+              "text": "65,535",
+              "correct": true,
+              "why": "Right: 2¹⁶ − 1. Sixteen bits give 65,536 values, starting at 0."
+            },
+            {
+              "text": "65,536",
+              "correct": false,
+              "why": "That's how many values there are. Counting from 0, the top is one less."
+            },
+            {
+              "text": "16,000",
+              "correct": false,
+              "why": "Range grows exponentially with width, not by a fixed amount per bit."
+            },
+            {
+              "text": "99,999",
+              "correct": false,
+              "why": "That's the five-digit decimal maximum. Binary places double rather than multiply by 10."
+            }
+          ]
+        },
+        {
+          "q": "What's the main reason computers are built on binary rather than decimal hardware?",
+          "options": [
+            {
+              "text": "Two well-separated states are simple to build with logic gates and resist noise",
+              "correct": true,
+              "why": "Yes. Reliability and simple circuits outweigh the longer numbers."
+            },
+            {
+              "text": "Binary numbers are shorter than decimal ones",
+              "correct": false,
+              "why": "They're longer: 37 is two decimal digits but six bits."
+            },
+            {
+              "text": "Leibniz's 1703 paper set it as a standard",
+              "correct": false,
+              "why": "Leibniz described the math; circuits made it practical much later."
+            },
+            {
+              "text": "Decimal values can't be stored in circuits at all",
+              "correct": false,
+              "why": "They can, for example as binary-coded decimal. Binary is a design choice."
+            }
+          ]
+        },
+        {
+          "q": "Why did Unicode keep ASCII's first 128 code points unchanged?",
+          "options": [
+            {
+              "text": "So existing ASCII text and software stayed valid",
+              "correct": true,
+              "why": "Exactly. Plain ASCII files are already valid UTF-8."
+            },
+            {
+              "text": "Because no encoding can hold more than 128 characters",
+              "correct": false,
+              "why": "Unicode holds far more. It kept the 128 for compatibility."
+            },
+            {
+              "text": "Because ASCII already covered every language",
+              "correct": false,
+              "why": "ASCII was English-focused. Unicode exists to cover much more."
+            },
+            {
+              "text": "To make each character exactly one bit shorter",
+              "correct": false,
+              "why": "The goal was compatibility, not saving bits."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Computers use binary because…",
+        "The number of bits sets…",
+        "The same bits can mean different things because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "1GSjbWt0c9M",
+    "title": "Representing Numbers and Letters with Binary: Crash Course Computer Science #4",
+    "channel": "CrashCourse",
+    "duration_sec": 645,
+    "why": "Crash Course walks through binary place value and addition, 8-, 32- and 64-bit ranges, floating point, and how ASCII and Unicode turn text into numbers."
+  },
+  "sources": [
+    {
+      "title": "Binary number",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Binary_number",
+      "supports": "Binary is base 2 and uses only 0 and 1; each digit is a bit; almost all modern computers use it because it is straightforward to implement with logic gates and has noise immunity; in a modern computer bits may be two different voltages, on disks magnetic polarities, earlier switches and punched holes or tape; any mechanism with two exclusive states can represent bits; counting goes 0, 1, 10, 11, 100 with reset and carry like decimal; each bit is an increasing power of 2 and the value is the sum, e.g. 100101 = 32 + 4 + 1 = 37; Leibniz's first known binary work was 1679 and his best-known article, Explication de l'Arithmetique Binaire, was published in 1703; he saw 1 and 0 as a symbol of creation out of nothing; Claude Shannon's 1937 MIT master's thesis implemented Boolean algebra and binary arithmetic with relays and switches and essentially founded practical digital circuit design."
+    },
+    {
+      "title": "Integer (computer science)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Integer_(computer_science)",
+      "supports": "Integers are commonly stored as a group of bits; an integral type with n bits can encode 2^n numbers, and an unsigned type typically represents 0 through 2^n - 1; other encodings such as binary-coded decimal, Gray code or printed character codes are sometimes used."
+    },
+    {
+      "title": "ASCII",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ASCII",
+      "supports": "ASCII encodes 128 code points (0 to 127), storable in 7 bits; lowercase i is 105; first edition published in 1963; lowercase letters differ from uppercase by a single bit, which simplified case-insensitive matching and building keyboards and printers; its punctuation shaped programming-language syntax; it lacks accented letters (e.g. resume with accents); the first 128 Unicode code points are the same as ASCII, making UTF-8 backward compatible with 7-bit ASCII; UTF-8 overtook older encodings as the most common on the web in 2008."
+    }
+  ]
+}

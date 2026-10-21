@@ -1,0 +1,237 @@
+{
+  "id": "tech-binary-kid",
+  "topic": "tech",
+  "subject": "binary",
+  "level": "kid",
+  "title": "Counting With Only 0 and 1",
+  "emoji": "💡",
+  "summary": "Computers count with just two digits. Each place is worth double the one next to it.",
+  "minutes": 6,
+  "date_added": "2026-10-21",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why can a computer get by with only 0 and 1?",
+      "answer": "Its tiny parts are either on or off. On can stand for 1, and off can stand for 0.",
+      "options": [
+        {
+          "text": "Its parts are on or off, and that can mean 1 or 0",
+          "correct": true
+        },
+        {
+          "text": "It can only count up to 1"
+        },
+        {
+          "text": "Bigger digits would not fit on the screen"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "In binary, what is each place worth compared with the place to its right?",
+      "answer": "Twice as much. The places go 1s, 2s, 4s, 8s, and so on.",
+      "options": [
+        {
+          "text": "Twice as much",
+          "correct": true
+        },
+        {
+          "text": "Ten times as much"
+        },
+        {
+          "text": "The same amount"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "How many different patterns can one byte (8 bits) make?",
+      "answer": "256. That is enough for every number from 0 to 255.",
+      "options": [
+        {
+          "text": "256",
+          "correct": true
+        },
+        {
+          "text": "8"
+        },
+        {
+          "text": "100"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🔦",
+      "title": "The flashlight game",
+      "text": "Say you can only talk to a friend with a flashlight. It can be on or off. That's it! Could you still send your friend the number 9?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "In binary, you only get the digits 0 and 1. How do you think you write the number 2?",
+      "options": [
+        {
+          "text": "2"
+        },
+        {
+          "text": "10",
+          "correct": true
+        },
+        {
+          "text": "11"
+        }
+      ],
+      "reveal": "It's 10! That means one 2 and zero 1s.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "💡",
+      "title": "Just two choices",
+      "text": "Inside a computer, tiny parts are either on or off. On can mean 1. Off can mean 0. Each 0 or 1 is called a bit. The word bit is short for binary digit.",
+      "example": "A light switch is like one bit. It is up or down, with nothing in between.",
+      "why": {
+        "q": "Why do computers use only two choices, not ten?",
+        "a": "Two choices are simple to build and hard to mix up. Even if a signal is a little messy, on and off still look very different."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🧱",
+      "title": "Places that double",
+      "text": "In our numbers, each place is worth 10 times more: ones, tens, hundreds. In binary, each place is worth 2 times more: ones, twos, fours, eights. To read a number, add up the places that have a 1.",
+      "example": "1001 means one 8 and one 1. So 8 + 1 = 9. And 10 means one 2 and no 1s. So it is 2.",
+      "svg": "<svg viewBox=\"0 0 300 110\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Binary places 8, 4, 2, 1 holding 1, 0, 0, 1, which makes 9\"><g font-family=\"sans-serif\" text-anchor=\"middle\"><text x=\"60\" y=\"22\" font-size=\"14\" fill=\"#64748b\">8s</text><text x=\"120\" y=\"22\" font-size=\"14\" fill=\"#64748b\">4s</text><text x=\"180\" y=\"22\" font-size=\"14\" fill=\"#64748b\">2s</text><text x=\"240\" y=\"22\" font-size=\"14\" fill=\"#64748b\">1s</text><rect x=\"35\" y=\"32\" width=\"50\" height=\"44\" rx=\"8\" fill=\"#fbbf24\"/><rect x=\"95\" y=\"32\" width=\"50\" height=\"44\" rx=\"8\" fill=\"#e2e8f0\"/><rect x=\"155\" y=\"32\" width=\"50\" height=\"44\" rx=\"8\" fill=\"#e2e8f0\"/><rect x=\"215\" y=\"32\" width=\"50\" height=\"44\" rx=\"8\" fill=\"#fbbf24\"/><text x=\"60\" y=\"63\" font-size=\"24\" fill=\"#1e293b\">1</text><text x=\"120\" y=\"63\" font-size=\"24\" fill=\"#1e293b\">0</text><text x=\"180\" y=\"63\" font-size=\"24\" fill=\"#1e293b\">0</text><text x=\"240\" y=\"63\" font-size=\"24\" fill=\"#1e293b\">1</text><text x=\"150\" y=\"100\" font-size=\"16\" fill=\"#1e293b\">8 + 1 = 9</text></g></svg>"
+    },
+    {
+      "type": "idea",
+      "emoji": "🔢",
+      "title": "Count like a computer",
+      "text": "Binary counting goes 0, 1, 10, 11, 100. When a place is full, it goes back to 0. Then you carry a 1 to the next place on the left. It is the same trick we use to go from 9 to 10.",
+      "example": "Say your pinky is the 1s place and your ring finger is the 2s place. Finger up is 1. Both up is 11. That is 2 + 1 = 3."
+    },
+    {
+      "type": "idea",
+      "emoji": "📦",
+      "title": "Eight bits make a byte",
+      "text": "A group of 8 bits is called a byte. A byte can make 256 different patterns. That is enough for every number from 0 to 255. Long ago, one byte was often used to store one letter.",
+      "example": "Each extra bit doubles the patterns. Two bits make 4: 00, 01, 10 and 11. Three bits make 8.",
+      "why": {
+        "q": "Why does adding one more bit double the patterns?",
+        "a": "The new bit can be 0 or 1. Each old pattern can go with either one, so you get two times as many."
+      }
+    },
+    {
+      "type": "think",
+      "question": "Say you can only flash a light on and off. How could you send a friend a secret word?",
+      "nudges": [
+        "What if each letter got its own number?",
+        "How would your friend know where one letter stops?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What is a bit?",
+          "options": [
+            {
+              "text": "One 0 or one 1",
+              "correct": true,
+              "why": "Yes. A bit is the smallest piece of computer information."
+            },
+            {
+              "text": "A group of 8 numbers",
+              "correct": false,
+              "why": "A group of 8 bits is a byte. A bit is just one 0 or 1."
+            },
+            {
+              "text": "A tiny computer",
+              "correct": false,
+              "why": "A bit is not a machine. It is one 0 or 1 inside the machine."
+            }
+          ]
+        },
+        {
+          "q": "What number is 11 in binary?",
+          "options": [
+            {
+              "text": "3",
+              "correct": true,
+              "why": "Right. One 2 plus one 1 makes 3."
+            },
+            {
+              "text": "11",
+              "correct": false,
+              "why": "In binary, 11 means one 2 and one 1. Add them up!"
+            },
+            {
+              "text": "2",
+              "correct": false,
+              "why": "Close! 10 is 2. The extra 1 on the right adds one more."
+            }
+          ]
+        },
+        {
+          "q": "How many bits are in a byte?",
+          "options": [
+            {
+              "text": "8",
+              "correct": true,
+              "why": "Yes. Eight bits make one byte."
+            },
+            {
+              "text": "2",
+              "correct": false,
+              "why": "Two is how many choices one bit has. A byte has 8 bits."
+            },
+            {
+              "text": "10",
+              "correct": false,
+              "why": "Ten is how many digits we use. A byte has 8 bits."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Computers only use…",
+        "In binary, each place is worth…",
+        "A byte is…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "USCBCmwMCDA",
+    "title": "How Computers Work: Binary & Data",
+    "channel": "Code.org",
+    "duration_sec": 359,
+    "why": "Two engineers show how on-and-off wires become bits, how 1001 makes 9, and how letters, pictures and sounds turn into numbers."
+  },
+  "sources": [
+    {
+      "title": "Binary number",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Binary_number",
+      "supports": "Binary is base 2 and uses only 0 and 1; each digit is a bit; almost all modern computers use it because it is straightforward to implement with logic gates and has noise immunity; in a modern computer bits may be two different voltages, on disks magnetic polarities, earlier switches and punched holes or tape; any mechanism with two exclusive states can represent bits; counting goes 0, 1, 10, 11, 100 with reset and carry like decimal; each bit is an increasing power of 2 and the value is the sum, e.g. 100101 = 32 + 4 + 1 = 37; Leibniz's first known binary work was 1679 and his best-known article, Explication de l'Arithmetique Binaire, was published in 1703; he saw 1 and 0 as a symbol of creation out of nothing; Claude Shannon's 1937 MIT master's thesis implemented Boolean algebra and binary arithmetic with relays and switches and essentially founded practical digital circuit design."
+    },
+    {
+      "title": "Bit",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bit",
+      "supports": "The bit is the most basic unit of information in computing; the name is a portmanteau of binary digit; a bit can be stored by a device that exists in either of two states."
+    },
+    {
+      "title": "Byte",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Byte",
+      "supports": "A byte commonly consists of eight bits; historically it was the number of bits used to encode one character of text; 2 to the 8th power is 256, so one byte holds the values 0 through 255."
+    }
+  ]
+}
