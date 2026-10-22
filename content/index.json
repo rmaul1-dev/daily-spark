@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-21",
+ "updated": "2026-10-22",
  "topics": [
   {
    "id": "history",
@@ -282,6 +282,17 @@
     "kid": "tech-binary-kid"
    },
    "dinner_question": "If someone picks a secret number from 1 to 100 and you can only ask yes-or-no questions, how few questions could you get it in?"
+  },
+  {
+   "date": "2026-10-30",
+   "topic": "history",
+   "title": "How railroads invented time zones",
+   "packs": {
+    "adult": "history-time-zones-adult",
+    "teen": "history-time-zones-teen",
+    "kid": "history-time-zones-kid"
+   },
+   "dinner_question": "If every family on our street set its own clock by the sun, what would get harder for us, and what might actually be nicer?"
   }
  ],
  "series": [
@@ -617,6 +628,45 @@
    "summary": "Why a parallel text took 20 years to crack: a wrong model, mismatched versions, and the cross-checks that finally worked.",
    "minutes": 8,
    "date_added": "2026-10-14",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "history-time-zones-kid",
+   "topic": "history",
+   "level": "kid",
+   "title": "The Day With Two Noons",
+   "emoji": "🕛",
+   "subject": "time-zones",
+   "summary": "Long ago, every town had its own time. Then trains came, and clocks had to agree.",
+   "minutes": 6,
+   "date_added": "2026-10-22",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "history-time-zones-teen",
+   "topic": "history",
+   "level": "teen",
+   "title": "Who Owns the Clock?",
+   "emoji": "🚂",
+   "subject": "time-zones",
+   "summary": "In 1883, railroad companies, not Congress, reset North America's clocks. The math and the business logic.",
+   "minutes": 7,
+   "date_added": "2026-10-22",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "history-time-zones-adult",
+   "topic": "history",
+   "level": "adult",
+   "title": "When the Railroads Owned the Clock",
+   "emoji": "🕰️",
+   "subject": "time-zones",
+   "summary": "How a private railroad standard became America's official time, and what it traded away.",
+   "minutes": 8,
+   "date_added": "2026-10-22",
    "cards": 10,
    "keys_count": 3
   },

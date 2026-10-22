@@ -1,0 +1,216 @@
+{
+  "id": "history-time-zones-adult",
+  "topic": "history",
+  "subject": "time-zones",
+  "level": "adult",
+  "title": "When the Railroads Owned the Clock",
+  "emoji": "🕰️",
+  "summary": "How a private railroad standard became America's official time, and what it traded away.",
+  "minutes": 8,
+  "date_added": "2026-10-22",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What does standard time give up, and what does it buy?",
+      "answer": "It gives up clocks that match the local sun (4 minutes per degree of longitude) in exchange for one shared time across a network."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why did U.S. railroads adopt standard time before any law required it?",
+      "answer": "About 80 conflicting standards caused confusion and accidents, and they feared government intervention that might undercut their profits."
+    },
+    {
+      "id": "k3",
+      "prompt": "How did a private standard become nearly universal without a mandate?",
+      "answer": "Railroads lobbied cities, newspapers printed instructions, observatories sent signals; most cities switched within a year, and Congress codified it in 1918."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "📜",
+      "title": "35 years without a law",
+      "text": "From 1883 to 1918, the time on most American clocks came from a vote of railroad officials, not from any statute. Congress only codified it 35 years later. Standard time is a clean case study in coordination: who solves a network problem, at what cost, and with whose consent."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "By the early 1880s, how many different time standards do you think North American railroads were running on?",
+      "estimate": {
+        "min": 0,
+        "max": 200,
+        "step": 5,
+        "answer": 80
+      },
+      "reveal": "About 80, per a Law Library of Congress history, on top of more than 144 local times across North America.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "🌍",
+      "title": "The trade-off: local sun vs. shared time",
+      "text": "Solar time is physical: noon drifts 4 minutes per degree of longitude, so 15° equals one hour. Standard time deliberately sets most clocks off the local sun in exchange for agreement across a network. Fleming pointed out that many of the corrections already applied for local mean time were larger than those involved in abandoning solar time. The switch cost less precision than it seemed.",
+      "example": "Bristol, about 2.5° west of London, reaches solar noon about 10 minutes later. Under one standard, that 10 minutes simply disappears from the clock face."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧩",
+      "title": "A coordination failure",
+      "text": "Each railroad kept the time of its headquarters or main terminus, which made its own timetable simple. Summed across the network, that produced about 80 standards and junctions with one clock per railroad. Charles Dowd wrote that \"the traveler's watch was to him but a delusion.\" Worse, trains from different companies sharing track mistimed their passings, and accidents followed.",
+      "why": {
+        "q": "Why was each railroad's choice sensible on its own but costly overall?",
+        "a": "Home-city time kept each company's schedule simple, but where lines met and shared track, mismatched times confused passengers and led to accidents."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🏨",
+      "title": "Private ordering, in the state's shadow",
+      "text": "The railroads moved because they feared government intervention \"that might undercut their profits.\" Their trade body, the General Time Convention, had secretary William F. Allen draft a plan; he synthesized Dowd, Fleming and Abbe and polled engineers and officials through his railway guide. On October 11, 1883, at Chicago's Grand Pacific Hotel, a majority approved zones on the 75th, 90th, 105th and 120th meridians, an hour apart.",
+      "why": {
+        "q": "Why would competitors standardize voluntarily?",
+        "a": "Writing the rules themselves let them avoid government intervention they feared would undercut their profits."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📈",
+      "title": "Adoption without a mandate",
+      "text": "On November 18, 1883, railroad clocks reset, and in many cities noon struck twice. Railroad officials lobbied city governments, newspapers printed instructions and zone maps, and the Naval and Allegheny observatories sent telegraph signals. Within a year about 85% of cities over 10,000 people used standard time. Holdouts were real: Detroit, roughly halfway between two zone meridians, kept local time until 1900.",
+      "example": "Detroit then tried Central, local mean and Eastern time before a 1915 ordinance, ratified by voters in 1916, settled on Eastern."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Legitimacy, then law",
+      "text": "Critics saw a private takeover. The Indianapolis Sentinel wrote that \"the Railroad Convention has taken charge of the time business.\" The Standard Time Act of 1918 made the zones federal law and gave the Interstate Commerce Commission authority over boundaries. Internationally, the 1884 Meridian Conference chose Greenwich 22-1, with France and Brazil abstaining, but adopted no time zones, calling them outside its purview.",
+      "example": "Today's map remains largely the railroads' design, with boundaries shifted as counties petitioned to move."
+    },
+    {
+      "type": "think",
+      "question": "Standard time worked because a private industry moved first and the state ratified it 35 years later. Where else do you see that pattern (technical standards, accounting rules, internet protocols)? Make the case that private standard-setting is efficient, then the case that it sidesteps public consent.",
+      "nudges": [
+        "Who bore the costs of the old system, and who decided on the new one?",
+        "What would a government-first process have gained, and what would it have cost in time?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Two cities are 7.5° of longitude apart. What's the gap in their solar noon?",
+          "options": [
+            {
+              "text": "30 minutes",
+              "correct": true,
+              "why": "Yes. 7.5 × 4 minutes = 30, half a time zone."
+            },
+            {
+              "text": "7.5 minutes",
+              "correct": false,
+              "why": "That treats degrees as minutes. Each degree is 4 minutes."
+            },
+            {
+              "text": "15 minutes",
+              "correct": false,
+              "why": "That would be 3.75°. Multiply 7.5 by 4."
+            },
+            {
+              "text": "1 hour",
+              "correct": false,
+              "why": "One hour is a full 15° zone; this is half of that."
+            }
+          ]
+        },
+        {
+          "q": "Which best explains why railroads, rather than Congress, created U.S. standard time?",
+          "options": [
+            {
+              "text": "They feared intervention that might undercut profits, so they wrote the rules first",
+              "correct": true,
+              "why": "Right. Private ordering under the threat of regulation."
+            },
+            {
+              "text": "Congress had no power to regulate time",
+              "correct": false,
+              "why": "Congress did exactly that in 1918, so that wasn't the barrier."
+            },
+            {
+              "text": "The 1884 Meridian Conference required it",
+              "correct": false,
+              "why": "The switch came first, in 1883, and the conference adopted no time zones."
+            },
+            {
+              "text": "Cities demanded it and railroads complied",
+              "correct": false,
+              "why": "The reverse: railroad officials lobbied city governments to adopt it."
+            }
+          ]
+        },
+        {
+          "q": "Detroit kept local time until 1900 and only settled on Eastern in 1915-16. What does that best illustrate?",
+          "options": [
+            {
+              "text": "Without a mandate, places that fit the zones badly can hold out for years",
+              "correct": true,
+              "why": "Yes. Detroit sat about halfway between two zone meridians, and nothing forced it to choose."
+            },
+            {
+              "text": "Detroit had no railroads",
+              "correct": false,
+              "why": "Detroit was on the zone border, which ran through railroad cities like it."
+            },
+            {
+              "text": "Federal law exempted Detroit",
+              "correct": false,
+              "why": "There was no federal time law until 1918."
+            },
+            {
+              "text": "The time zones were drawn wrong and later scrapped",
+              "correct": false,
+              "why": "The system survived; today's map is largely the railroads' design."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Before 1883, each railroad…",
+        "Standard time trades away…",
+        "The railroads moved first because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "5Irykmp-ILk",
+    "title": "Railroad Time: The Railroad and the Invention of Time Zones",
+    "channel": "California State Railroad Museum",
+    "duration_sec": 2184,
+    "start": 214,
+    "end": 597,
+    "why": "Historian Scott Johnston on why trains and the telegraph forced shared time, and why Fleming's missed-train story undersells his decades of advocacy. Clipped."
+  },
+  "sources": [
+    {
+      "title": "Whose Time is it Anyway? A Brief History of Standardized Time Zones in the United States",
+      "publisher": "Law Library of Congress (In Custodia Legis)",
+      "url": "https://blogs.loc.gov/law/2024/11/whose-time-is-it-anyway-a-brief-history-of-standardized-time-zones-in-the-united-states/",
+      "supports": "About 80 railroad time standards by the early 1880s and over 144 local times in North America; Dowd's \"the traveler's watch was to him but a delusion\"; railroads feared government intervention \"that might undercut their profits\"; General Time Convention secretary William F. Allen drew on Dowd, Fleming and Abbe and solicited opinions through the Traveler's Official Railway Guide; October 11, 1883 majority vote at the Grand Pacific Hotel in Chicago on zones based on the 75th, 90th, 105th and 120th meridians, one hour apart; railroad officials visited city governments, newspapers printed instructions and maps, the Naval and Allegheny observatories sent telegraph signals; noon struck twice on November 18, 1883; Indianapolis Sentinel: \"the Railroad Convention has taken charge of the time business\"; 1918 Standard Time Act gave the Interstate Commerce Commission authority over boundaries; system largely the railroads', boundaries shifted as counties appealed."
+    },
+    {
+      "title": "Time zone",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Time_zone",
+      "supports": "Four minutes per degree of longitude, London-Bristol example (about 10 minutes, 2.5 degrees), 15-degree hour zones; railroads used their headquarters or main terminus time, junction clocks per railroad, accidents from mistimed passings on shared tracks; within a year 85% of cities over 10,000 people (about 200) used standard time; Detroit, about halfway between the Eastern and Central meridians, kept local time until 1900, tried Central, local mean and Eastern time, then a May 1915 ordinance ratified by popular vote in August 1916 settled on EST; Standard Time Act of March 19, 1918."
+    },
+    {
+      "title": "International Meridian Conference",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/International_Meridian_Conference",
+      "supports": "Fleming pointed out that many of the corrections for local mean time were greater than those involved in abandoning solar time; the 1884 conference adopted Greenwich as the prime meridian 22-1, with San Domingo against and France and Brazil abstaining; proposals for standard time by all nations were called outside the conference's purview and never voted on, so it adopted no time zones; local times were not legally established in the U.S. until 1918."
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "id": "history-time-zones-teen",
+  "topic": "history",
+  "subject": "time-zones",
+  "level": "teen",
+  "title": "Who Owns the Clock?",
+  "emoji": "🚂",
+  "summary": "In 1883, railroad companies, not Congress, reset North America's clocks. The math and the business logic.",
+  "minutes": 7,
+  "date_added": "2026-10-22",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why does solar noon arrive about 4 minutes later for every degree you go west?",
+      "answer": "Earth turns 360° in 24 hours, which is 1,440 minutes, so each degree takes 4 minutes. That makes 15° exactly one hour."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why did the railroads push for standard time themselves?",
+      "answer": "About 80 railroad times caused confusion and accidents on shared track, and they feared government rules that might cut into profits."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why did some people object to railroad time?",
+      "answer": "They felt a private industry was overriding sun-based local time, which seemed like the natural order."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧩",
+      "title": "A private company sets the clock",
+      "text": "Here's a puzzle. In 1883, a group of railroad managers changed the time for most of North America, and Congress didn't make it law until 35 years later. How does one industry end up setting the clock for a whole country?"
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "Earth turns 360° in 24 hours. For every 1° of longitude you go west, how many minutes later does solar noon arrive?",
+      "estimate": {
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "unit": "minutes",
+        "answer": 4
+      },
+      "reveal": "4 minutes. 24 hours is 1,440 minutes, and 1,440 ÷ 360 = 4. So 15° of longitude is exactly one hour.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "🌍",
+      "title": "Solar noon moves",
+      "text": "Before standard time, cities set their clocks by measuring the sun crossing the meridian, the north-south line overhead. Because Earth rotates, solar noon shifts 4 minutes for every degree of longitude: 1,440 minutes ÷ 360°. So 15° is exactly one hour, the logic behind hour-wide time zones.",
+      "example": "Bristol sits about 2.5° west of London, so its solar noon comes about 10 minutes later. Precise for one town, a headache for a network."
+    },
+    {
+      "type": "idea",
+      "emoji": "🛤️",
+      "title": "80 times, shared track",
+      "text": "By the early 1880s, North America had over 144 local times, and railroads ran on an estimated 80 different standards. Most lines used the time of their home city. Lines between Chicago and Pittsburgh ran on Columbus time, even ones that never went through Columbus. Some junctions kept one clock per railroad.",
+      "why": {
+        "q": "Why was this dangerous, not just annoying?",
+        "a": "Trains from different companies shared tracks. When their times didn't match, they could mistime their passings, and accidents happened."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "💼",
+      "title": "A business move",
+      "text": "The railroads feared the government would step in with rules that might undercut their profits. So their trade group, the General Time Convention, had its secretary, William F. Allen, draft a plan. Allen drew on ideas from Charles Dowd, Sandford Fleming and Cleveland Abbe, and asked railroad engineers for input. On October 11, 1883, in Chicago, most officials voted yes.",
+      "example": "Say every company in an industry agrees on one charger plug so the government doesn't pick one for them. Same strategy.",
+      "why": {
+        "q": "Why act before the government did?",
+        "a": "Designing the system themselves let railroads avoid government rules that, they feared, might undercut their profits."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🕛",
+      "title": "The Day of Two Noons",
+      "text": "Allen's zones were based on the 75th, 90th, 105th and 120th meridians west of Greenwich, each one hour apart. On November 18, 1883, observatories sent telegraph time signals, and in many cities clocks struck noon twice: once by old local time, once by the new standard. Within a year, about 85% of cities over 10,000 people had switched."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Railroad time vs. sun time",
+      "text": "Not everyone cheered. Some saw it as a violation of the natural order. The Indianapolis Sentinel complained, \"People will have to marry by railroad time and die by railroad time.\" Detroit kept local time until 1900 and didn't settle on Eastern time until 1915-16. Congress wrote time zones into federal law in 1918.",
+      "example": "Zone lines have shifted since, as counties asked to move, but today's system is still mostly the railroads' design."
+    },
+    {
+      "type": "think",
+      "question": "The railroads fixed a real problem, but a private industry set the time for everyone without a public vote. Smart problem-solving or too much power? Make the best case for one side, then argue the other.",
+      "nudges": [
+        "What might have happened if everyone waited for Congress?",
+        "Who didn't get a say in 1883?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Two towns are 15° of longitude apart. How far apart is their solar noon?",
+          "options": [
+            {
+              "text": "15 minutes",
+              "correct": false,
+              "why": "Close idea, wrong unit. Each degree is 4 minutes, so 15° is 60 minutes."
+            },
+            {
+              "text": "4 minutes",
+              "correct": false,
+              "why": "That's for one degree. Multiply by 15."
+            },
+            {
+              "text": "1 hour",
+              "correct": true,
+              "why": "Yes. 15 × 4 minutes = 60 minutes, the width of one time zone."
+            },
+            {
+              "text": "4 hours",
+              "correct": false,
+              "why": "Too big. 15° is 1/24 of a full turn, so one hour."
+            }
+          ]
+        },
+        {
+          "q": "Why did the railroads create standard time instead of waiting for Congress?",
+          "options": [
+            {
+              "text": "They feared government rules that might cut into their profits",
+              "correct": true,
+              "why": "Right. Setting the rules themselves let them shape the system."
+            },
+            {
+              "text": "Congress had banned them from using local time",
+              "correct": false,
+              "why": "No such ban existed. Congress didn't act on time zones until 1918."
+            },
+            {
+              "text": "An international treaty required it",
+              "correct": false,
+              "why": "No treaty required it. The railroads acted on their own."
+            },
+            {
+              "text": "Cities demanded it first",
+              "correct": false,
+              "why": "It was the other way around: railroad officials had to persuade cities."
+            }
+          ]
+        },
+        {
+          "q": "What made November 18, 1883 \"the Day of Two Noons\"?",
+          "options": [
+            {
+              "text": "Clocks struck noon by local time, then again after being reset",
+              "correct": true,
+              "why": "Yes. Many clocks hit noon, were reset, then hit noon again."
+            },
+            {
+              "text": "Every clock moved exactly one hour",
+              "correct": false,
+              "why": "Clocks moved by different amounts, depending on how far each town was from its zone's meridian."
+            },
+            {
+              "text": "Two observatories sent signals that disagreed",
+              "correct": false,
+              "why": "The signals were meant to agree, so clocks could sync."
+            },
+            {
+              "text": "The sun crossed the meridian twice",
+              "correct": false,
+              "why": "The sun did nothing unusual. Only human clocks changed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Before 1883, every town's clock…",
+        "The railroads made their own standard because…",
+        "Time zones are 15° wide because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "UBpTohx1BOc",
+    "title": "How did trains standardize time in the United States? - William Heuisler",
+    "channel": "TED-Ed",
+    "duration_sec": 215,
+    "why": "TED-Ed's quick history of how railroads replaced town-by-town time with standard time zones, using real clock examples from Chicago and nearby cities."
+  },
+  "sources": [
+    {
+      "title": "Whose Time is it Anyway? A Brief History of Standardized Time Zones in the United States",
+      "publisher": "Law Library of Congress (In Custodia Legis)",
+      "url": "https://blogs.loc.gov/law/2024/11/whose-time-is-it-anyway-a-brief-history-of-standardized-time-zones-in-the-united-states/",
+      "supports": "Cities set clocks by the sun's path across the meridian; over 144 local times in North America and an estimated 80 railroad time standards by the early 1880s; railroads feared government intervention that might undercut their profits; General Time Convention secretary William F. Allen drew on Dowd, Fleming and Abbe and solicited opinions from engineers and officials; October 11, 1883 vote at the Grand Pacific Hotel in Chicago; zones on the 75th, 90th, 105th and 120th meridians, one hour apart; telegraph signals from the Naval and Allegheny observatories; clocks struck noon twice on November 18, 1883; objections as a violation of the natural order; Indianapolis Sentinel quote; 1918 Standard Time Act; boundaries shifted as counties appealed; system largely the railroads'."
+    },
+    {
+      "title": "Time zone",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Time_zone",
+      "supports": "Four minutes per degree of longitude; London-Bristol example (about 10 minutes, 2.5 degrees); 15 degrees per hour zone; each railroad used its headquarters or main terminus time, junction clocks per railroad, accidents from mistimed passings on shared tracks; within a year 85% of cities over 10,000 people used standard time; Detroit kept local time until 1900 and settled on EST by a May 1915 ordinance ratified in August 1916; 1918 Standard Time Act."
+    },
+    {
+      "title": "Standard time",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Standard_time",
+      "supports": "Railroads between Chicago and Pittsburgh/Buffalo used Columbus time even on lines that did not run through Columbus; the General Time Convention met in Chicago at the Grand Pacific Hotel on October 11, 1883 and adopted Allen's system."
+    }
+  ]
+}

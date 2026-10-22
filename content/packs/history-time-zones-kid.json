@@ -1,0 +1,233 @@
+{
+  "id": "history-time-zones-kid",
+  "topic": "history",
+  "subject": "time-zones",
+  "level": "kid",
+  "title": "The Day With Two Noons",
+  "emoji": "🕛",
+  "summary": "Long ago, every town had its own time. Then trains came, and clocks had to agree.",
+  "minutes": 6,
+  "date_added": "2026-10-22",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why did towns long ago each have their own time?",
+      "answer": "Each town set its clocks by the sun. The sun is highest at different moments in different places.",
+      "options": [
+        {
+          "text": "Each town set its clocks by the sun",
+          "correct": true
+        },
+        {
+          "text": "Clocks back then could not keep time"
+        },
+        {
+          "text": "Each town's mayor picked a time he liked"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Why did railroads want everyone to use the same time?",
+      "answer": "Trains shared tracks and ran on schedules. Lots of different times caused mix-ups and even crashes.",
+      "options": [
+        {
+          "text": "So trains on shared tracks would not mix up their timing",
+          "correct": true
+        },
+        {
+          "text": "So trains could go faster"
+        },
+        {
+          "text": "So towns could stop using clocks"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What happened on the Day of Two Noons?",
+      "answer": "Clocks struck noon by the old town time. Then they were reset to the new time and struck noon again.",
+      "options": [
+        {
+          "text": "Clocks struck noon by old time, then again by new time",
+          "correct": true
+        },
+        {
+          "text": "The sun was highest in the sky twice that day"
+        },
+        {
+          "text": "Every clock in the country was set back a full hour"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🕰️",
+      "title": "Two clocks, both right?",
+      "text": "Picture your town clock at exactly 12:00. Now picture a town a few hours west. Long ago, its clock would show a different time at that very same moment. And both clocks were right! How?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "In 1883, North America got time zones. Who do you think made the plan?",
+      "options": [
+        {
+          "text": "The President"
+        },
+        {
+          "text": "Congress"
+        },
+        {
+          "text": "Railroad companies",
+          "correct": true
+        }
+      ],
+      "reveal": "Railroad companies! Their leaders voted on the plan at a meeting in Chicago.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "☀️",
+      "title": "Noon by the sun",
+      "text": "Long ago, each town set its clocks by the sun. Noon was when the sun was highest in the sky. But Earth spins, so the sun gets there at different moments in different places. Go west, and noon comes a little later.",
+      "example": "In England, noon in the city of Bristol comes about 10 minutes after noon in London. Bristol is a bit to the west."
+    },
+    {
+      "type": "idea",
+      "emoji": "🚂",
+      "title": "Trains made a mess",
+      "text": "Then railroads spread across the country. Each railroad picked its own time. By the early 1880s, railroads used about 80 different times! Some stations had several clocks, and each one showed a different time.",
+      "example": "Say you have a train to catch, and the station has three clocks. Which one do you trust?",
+      "why": {
+        "q": "Why was this more than just confusing?",
+        "a": "Trains from different companies shared the same tracks. When their times did not match, they could get their timing wrong, and accidents happened."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🏨",
+      "title": "A meeting in Chicago",
+      "text": "The government was not in charge of this. The railroads were. On October 11, 1883, railroad leaders met at the Grand Pacific Hotel in Chicago. William F. Allen showed them a plan with big time zones, each one hour apart. Most of them voted yes.",
+      "example": "Inside one zone, every railroad clock would show the same time."
+    },
+    {
+      "type": "idea",
+      "emoji": "🕛",
+      "title": "The Day of Two Noons",
+      "text": "The big switch came on Sunday, November 18, 1883. Observatories sent the exact time by telegraph. In many cities, clocks struck noon by the old town time. Then they were reset and struck noon again by the new time!",
+      "example": "That is why people called it the \"Day of Two Noons.\""
+    },
+    {
+      "type": "idea",
+      "emoji": "🗞️",
+      "title": "Not everyone liked it",
+      "text": "Most cities switched right away. But some people felt it went against nature. One newspaper joked that even the sun, moon and stars \"will have to give in at last.\" In 1918, Congress made time zones the law.",
+      "example": "The time zones we use today are still mostly the railroads' plan."
+    },
+    {
+      "type": "think",
+      "question": "Imagine each family in town set its own clock. What would go wrong? Think about school, soccer and calls with family far away.",
+      "nudges": [
+        "What if your friend's clock was 10 minutes off from yours?",
+        "Who would need to agree on the time?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Long ago, how did a town set its clocks?",
+          "options": [
+            {
+              "text": "By the sun",
+              "correct": true,
+              "why": "Yes. Noon was when the sun was highest in the sky."
+            },
+            {
+              "text": "By a signal from the President",
+              "correct": false,
+              "why": "Not quite. Each town used the sun, not the President."
+            },
+            {
+              "text": "By a phone app",
+              "correct": false,
+              "why": "Phones did not exist yet. Towns used the sun."
+            }
+          ]
+        },
+        {
+          "q": "Who made the 1883 time zone plan?",
+          "options": [
+            {
+              "text": "Railroad leaders",
+              "correct": true,
+              "why": "Right. They voted on it at a meeting in Chicago."
+            },
+            {
+              "text": "Congress",
+              "correct": false,
+              "why": "Congress came later. It made time zones the law in 1918."
+            },
+            {
+              "text": "A king in England",
+              "correct": false,
+              "why": "No king did this. The railroads made the plan."
+            }
+          ]
+        },
+        {
+          "q": "Why was it called the Day of Two Noons?",
+          "options": [
+            {
+              "text": "Clocks struck noon by old time, then again by new time",
+              "correct": true,
+              "why": "Yes. Many clocks were reset after noon, so noon came twice."
+            },
+            {
+              "text": "The sun went up twice",
+              "correct": false,
+              "why": "The sun did its normal thing. Only the clocks changed."
+            },
+            {
+              "text": "Every train left at noon",
+              "correct": false,
+              "why": "Trains ran as usual. The name is about clocks striking noon twice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Long ago, each town set its clock by…",
+        "Trains made that a problem because…",
+        "In 1883, the railroads…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "UBpTohx1BOc",
+    "title": "How did trains standardize time in the United States? - William Heuisler",
+    "channel": "TED-Ed",
+    "duration_sec": 215,
+    "why": "A TED-Ed cartoon shows how each town kept its own time, why that was a problem for trains, and how time zones fixed it."
+  },
+  "sources": [
+    {
+      "title": "Whose Time is it Anyway? A Brief History of Standardized Time Zones in the United States",
+      "publisher": "Law Library of Congress (In Custodia Legis)",
+      "url": "https://blogs.loc.gov/law/2024/11/whose-time-is-it-anyway-a-brief-history-of-standardized-time-zones-in-the-united-states/",
+      "supports": "Cities set clocks by the sun's path across the meridian; over 144 local times in North America; about 80 railroad time standards by the early 1880s; stations used multiple clocks; railroad officials met October 11, 1883 at the Grand Pacific Hotel in Chicago, where William F. Allen presented zones one hour apart and a majority voted yes; observatories sent telegraph signals; on November 18, 1883 clocks struck noon twice, the \"Day of Two Noons\"; most cities adopted it immediately, some called it a violation of the natural order; Indianapolis Sentinel: \"they, too, will have to give in at last\" (of the sun, moon and stars); the 1918 Standard Time Act; today's system remains largely the railroads' design."
+    },
+    {
+      "title": "Time zone",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Time_zone",
+      "supports": "Solar noon shifts four minutes per degree of longitude; noon in London comes about 10 minutes before noon in Bristol, about 2.5 degrees west; each railroad used its own time and some junctions had a clock per railroad; accidents occurred when trains of different companies on the same tracks mistimed their passings; inaugurated Sunday, November 18, 1883; Standard Time Act of March 19, 1918."
+    }
+  ]
+}
