@@ -1,0 +1,236 @@
+{
+  "id": "ideas-correlation-causation-adult",
+  "topic": "ideas",
+  "subject": "correlation-causation",
+  "level": "adult",
+  "title": "Correlation and Causation: Reading the Arrow",
+  "emoji": "🧭",
+  "summary": "Confounders, reverse causation and chance, why randomization fixes them, and how we infer cause when we can't randomize.",
+  "minutes": 8,
+  "date_added": "2026-10-23",
+  "series": {
+    "id": "how-we-know",
+    "part": 4,
+    "of": 4
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why can't a single correlation tell you which way causation runs?",
+      "answer": "The same pattern fits A causing B, B causing A, a third factor causing both, or chance. The data alone don't pick one."
+    },
+    {
+      "id": "k2",
+      "prompt": "What does random allocation buy you that statistical adjustment can't?",
+      "answer": "It balances unknown and unmeasured factors, not just the ones you thought to measure and adjust for."
+    },
+    {
+      "id": "k3",
+      "prompt": "What is the opposite mistake, and how did Bradford Hill address it?",
+      "answer": "Dismissing correlational evidence entirely. Hill offered nine viewpoints, like strength, consistency and temporality, to weigh an association before calling it causal."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "💡",
+      "title": "Turn off the night-light?",
+      "text": "In May 1999, a study in Nature reported that young children who slept with the light on were much more likely to develop myopia later. It got wide press coverage. If you were a parent reading it, would you have switched off the night-light?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "A later Ohio State study looked again at night-lights and nearsightedness. What do you think it found?",
+      "options": [
+        {
+          "text": "The light damaged developing eyes, confirming the result"
+        },
+        {
+          "text": "Parents' myopia was strongly linked to children's, and myopic parents more often left a light on",
+          "correct": true
+        },
+        {
+          "text": "There was no link of any kind"
+        },
+        {
+          "text": "Only very bright lights mattered"
+        }
+      ],
+      "reveal": "It didn't find that the light caused myopia. It found a strong link between parental and child myopia, and that myopic parents were more likely to leave a light on: a classic confounder.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "🕵️",
+      "title": "The common cause",
+      "text": "A confounder is a third variable that drives both things you're measuring. In the night-light case, parental myopia plausibly sat behind both the light and the child's eyesight. The textbook version: ice cream sales and drowning deaths rise together because hot months mean more ice cream and more swimming. Confounders can be adjusted for if measured; the danger is the one nobody measured.",
+      "why": {
+        "q": "Why is an unmeasured confounder more dangerous than a measured one?",
+        "a": "A measured confounder can be corrected for in the analysis. One nobody thought to record silently produces the correlation."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "↩️",
+      "title": "The arrow runs backward, or both ways",
+      "text": "Low cholesterol is associated with higher mortality, but some diseases, such as cancer, lower cholesterol and also raise the risk of death. The disease drives both. Causation can also run both ways: cyclists have lower BMI, yet prospective studies of people who take up cycling show a smaller effect than cross-sectional snapshots, suggesting that leaner people may also be likelier to cycle.",
+      "example": "Say teams with high engagement scores post better results. Engagement may drive results, but winning may also lift engagement."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎰",
+      "title": "Chance, multiplied",
+      "text": "Sometimes two variables aren't related at all and line up by luck. The more comparisons you run, the more likely some unrelated pair looks related. This is why a striking finding from a data set that was searched many ways deserves suspicion until it replicates.",
+      "example": "Say an analyst checks 50 dashboard metrics against sales. Even if none matters, a few will look related by luck. Pick the best one and you'll have a convincing chart."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎲",
+      "title": "Why randomization works",
+      "text": "People differ in known and unknown ways that affect outcomes. A randomized controlled trial assigns them to groups by chance, which balances those factors on average, measured or not. The first published medical RCT, in 1948, tested streptomycin for tuberculosis. RCTs are often seen as among the strongest evidence, though critics note they don't eliminate bias in every case.",
+      "why": {
+        "q": "Why can't careful statistical adjustment fully replace randomization?",
+        "a": "Adjustment handles only the variables you measured. Randomization balances unknown ones too, if the trial is well designed and large enough."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "The opposite fallacy",
+      "text": "Dismissing correlation entirely is also a mistake, because much scientific evidence is correlational and some experiments are unethical. The tobacco industry historically relied on dismissing correlational evidence linking smoking and lung cancer. In 1965, Austin Bradford Hill offered nine viewpoints for weighing an association, including strength, consistency, temporality and dose-response, to study it \"before we cry causation.\""
+    },
+    {
+      "type": "link",
+      "to": "ideas-confirmation-bias-adult",
+      "prompt": "In \"Confirmation Bias: Search, Interpretation, Memory\" you saw how we favor evidence that fits. Why is a correlation that confirms your favorite theory especially risky?",
+      "model": "You're least likely to hunt for the confounder or the reverse arrow when the pattern already says what you hoped."
+    },
+    {
+      "type": "think",
+      "question": "Pick a belief you act on at work or with money that rests on a correlation. What's the strongest confounder or reverse-causation story against it? If you can't run an experiment, which of Hill's viewpoints would most change your mind?",
+      "nudges": [
+        "Did the supposed cause clearly come first?",
+        "Is there a dose-response: more of it, more effect?",
+        "Argue the other side as if you were paid to."
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Companies that offer a perk have lower turnover. Which explanation is a confounder story?",
+          "options": [
+            {
+              "text": "Profitable firms can afford perks and also retain staff better",
+              "correct": true,
+              "why": "Right. Profitability drives both, so the perk may do little by itself."
+            },
+            {
+              "text": "The perk makes employees stay",
+              "correct": false,
+              "why": "That's the causal story you're testing, not an alternative to it."
+            },
+            {
+              "text": "Low turnover lets firms afford perks",
+              "correct": false,
+              "why": "Plausible, but that's reverse causation, not a third factor."
+            },
+            {
+              "text": "The link is pure chance",
+              "correct": false,
+              "why": "Possible, but that's coincidence, not confounding."
+            }
+          ]
+        },
+        {
+          "q": "Why do prospective cycling studies showing a smaller BMI effect than cross-sectional ones matter?",
+          "options": [
+            {
+              "text": "They suggest some reverse causation: leaner people may be likelier to cycle",
+              "correct": true,
+              "why": "Yes. Following people over time separates the two directions."
+            },
+            {
+              "text": "They prove cycling has no effect on weight",
+              "correct": false,
+              "why": "A smaller effect isn't zero."
+            },
+            {
+              "text": "They show BMI can't be measured",
+              "correct": false,
+              "why": "Measurement isn't the issue; direction is."
+            },
+            {
+              "text": "They prove cross-sectional studies are always wrong",
+              "correct": false,
+              "why": "Snapshots are useful; they just can't sort out direction alone."
+            }
+          ]
+        },
+        {
+          "q": "What's the main advantage of random allocation over adjusting for covariates?",
+          "options": [
+            {
+              "text": "It balances unmeasured factors as well as measured ones",
+              "correct": true,
+              "why": "Exactly. You can't adjust for what you didn't record."
+            },
+            {
+              "text": "It removes the need for a control group",
+              "correct": false,
+              "why": "The control group is essential to an RCT."
+            },
+            {
+              "text": "It guarantees zero bias",
+              "correct": false,
+              "why": "Critics note RCTs can still be biased; randomization reduces, not eliminates, the risk."
+            },
+            {
+              "text": "It makes any sample size enough",
+              "correct": false,
+              "why": "A trial still needs enough participants to balance factors."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "A correlation can come from…",
+        "Randomization helps because…",
+        "When we can't run an experiment, we…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "HUti6vGctQM",
+    "title": "Correlation CAN Imply Causation! | Statistics Misconceptions",
+    "channel": "minutephysics",
+    "duration_sec": 251,
+    "start": 0,
+    "end": 179,
+    "why": "A sharp counterpoint: how several correlations together can rule out causal stories, so correlation isn't useless. The clip stops before the sponsor segment."
+  },
+  "sources": [
+    {
+      "title": "Correlation does not imply causation",
+      "publisher": "Wikipedia (encyclopedia article with cited research)",
+      "url": "https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation",
+      "supports": "Correlation alone can't establish causation; the 1999 Nature night-light and myopia study, its press coverage, and the Ohio State follow-up; confounding (measured confounders can be corrected for); ice cream and drowning; low cholesterol, cancer and mortality as reverse causation; cycling and BMI, prospective vs. cross-sectional studies; coincidental correlations grow with more comparisons; much evidence is correlational; the tobacco industry's dismissal of correlational evidence."
+    },
+    {
+      "title": "Randomized controlled trial",
+      "publisher": "Wikipedia (encyclopedia article with cited research)",
+      "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial",
+      "supports": "RCTs randomly allocate participants, balancing known and unknown factors and reducing confounding if well designed and large enough; widely considered among the highest-quality evidence yet criticized for failing to reduce bias in some cases; the 1948 streptomycin tuberculosis trial was the first published medical RCT."
+    },
+    {
+      "title": "Bradford Hill criteria",
+      "publisher": "Wikipedia (encyclopedia article with cited research)",
+      "url": "https://en.wikipedia.org/wiki/Bradford_Hill_criteria",
+      "supports": "In 1965 Austin Bradford Hill presented nine viewpoints, including strength, consistency, temporality and biological gradient (dose-response), with his words \"before we cry causation.\""
+    }
+  ]
+}

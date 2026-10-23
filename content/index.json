@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "topics": [
   {
    "id": "history",
@@ -293,6 +293,17 @@
     "kid": "history-time-zones-kid"
    },
    "dinner_question": "If every family on our street set its own clock by the sun, what would get harder for us, and what might actually be nicer?"
+  },
+  {
+   "date": "2026-10-31",
+   "topic": "ideas",
+   "title": "Correlation vs. causation",
+   "packs": {
+    "adult": "ideas-correlation-causation-adult",
+    "teen": "ideas-correlation-causation-teen",
+    "kid": "ideas-correlation-causation-kid"
+   },
+   "dinner_question": "What are two things that seem to happen together in our family, and is one really causing the other, or is something else behind both?"
   }
  ],
  "series": [
@@ -342,7 +353,8 @@
    "packs": [
     "ideas-socrates-kid",
     "ideas-confirmation-bias-kid",
-    "science-moving-continents-kid"
+    "science-moving-continents-kid",
+    "ideas-correlation-causation-kid"
    ]
   },
   {
@@ -355,7 +367,8 @@
    "packs": [
     "ideas-socrates-teen",
     "ideas-confirmation-bias-teen",
-    "science-moving-continents-teen"
+    "science-moving-continents-teen",
+    "ideas-correlation-causation-teen"
    ]
   },
   {
@@ -368,7 +381,8 @@
    "packs": [
     "ideas-socrates-adult",
     "ideas-confirmation-bias-adult",
-    "science-moving-continents-adult"
+    "science-moving-continents-adult",
+    "ideas-correlation-causation-adult"
    ]
   },
   {
@@ -739,7 +753,7 @@
    "series": {
     "id": "how-we-know",
     "part": 3,
-    "of": 3
+    "of": 4
    }
   },
   {
@@ -757,7 +771,7 @@
    "series": {
     "id": "how-we-know",
     "part": 3,
-    "of": 3
+    "of": 4
    }
   },
   {
@@ -775,7 +789,7 @@
    "series": {
     "id": "how-we-know",
     "part": 3,
-    "of": 3
+    "of": 4
    }
   },
   {
@@ -1663,7 +1677,7 @@
    "series": {
     "id": "how-we-know",
     "part": 2,
-    "of": 3
+    "of": 4
    }
   },
   {
@@ -1681,7 +1695,7 @@
    "series": {
     "id": "how-we-know",
     "part": 2,
-    "of": 3
+    "of": 4
    }
   },
   {
@@ -1699,7 +1713,7 @@
    "series": {
     "id": "how-we-know",
     "part": 2,
-    "of": 3
+    "of": 4
    }
   },
   {
@@ -1717,7 +1731,7 @@
    "series": {
     "id": "how-we-know",
     "part": 1,
-    "of": 3
+    "of": 4
    }
   },
   {
@@ -1735,7 +1749,7 @@
    "series": {
     "id": "how-we-know",
     "part": 1,
-    "of": 3
+    "of": 4
    }
   },
   {
@@ -1753,7 +1767,7 @@
    "series": {
     "id": "how-we-know",
     "part": 1,
-    "of": 3
+    "of": 4
    }
   },
   {
@@ -1794,6 +1808,60 @@
    "date_added": "2026-10-15",
    "cards": 10,
    "keys_count": 3
+  },
+  {
+   "id": "ideas-correlation-causation-kid",
+   "topic": "ideas",
+   "level": "kid",
+   "title": "Do Windmills Make Wind?",
+   "emoji": "🌬️",
+   "subject": "correlation-causation",
+   "summary": "Two things can happen together without one causing the other. Here's how to tell.",
+   "minutes": 6,
+   "date_added": "2026-10-23",
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "how-we-know",
+    "part": 4,
+    "of": 4
+   }
+  },
+  {
+   "id": "ideas-correlation-causation-teen",
+   "topic": "ideas",
+   "level": "teen",
+   "title": "Correlation vs. Causation: Who Caused What?",
+   "emoji": "🔗",
+   "subject": "correlation-causation",
+   "summary": "Four reasons two things move together, and the experiment that sorts them out.",
+   "minutes": 7,
+   "date_added": "2026-10-23",
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "how-we-know",
+    "part": 4,
+    "of": 4
+   }
+  },
+  {
+   "id": "ideas-correlation-causation-adult",
+   "topic": "ideas",
+   "level": "adult",
+   "title": "Correlation and Causation: Reading the Arrow",
+   "emoji": "🧭",
+   "subject": "correlation-causation",
+   "summary": "Confounders, reverse causation and chance, why randomization fixes them, and how we infer cause when we can't randomize.",
+   "minutes": 8,
+   "date_added": "2026-10-23",
+   "cards": 11,
+   "keys_count": 3,
+   "series": {
+    "id": "how-we-know",
+    "part": 4,
+    "of": 4
+   }
   }
  ]
 }

@@ -1,0 +1,214 @@
+{
+  "id": "ideas-correlation-causation-teen",
+  "topic": "ideas",
+  "subject": "correlation-causation",
+  "level": "teen",
+  "title": "Correlation vs. Causation: Who Caused What?",
+  "emoji": "🔗",
+  "summary": "Four reasons two things move together, and the experiment that sorts them out.",
+  "minutes": 7,
+  "date_added": "2026-10-23",
+  "series": {
+    "id": "how-we-know",
+    "part": 4,
+    "of": 4
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "When A and B are correlated, what are the four possible explanations?",
+      "answer": "A causes B, B causes A, a third factor C causes both, or it's coincidence."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why did medieval Europeans wrongly think lice kept people healthy?",
+      "answer": "Reverse causation: lice leave a host when its temperature rises, so the coming illness drove the lice away, not the other way around."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why does random assignment let an experiment show cause and effect?",
+      "answer": "Chance balances both known and unknown differences between the groups, so a difference in outcome points to the treatment."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🪳",
+      "title": "Lice: a health tip?",
+      "text": "In the Middle Ages, many Europeans believed lice were good for your health. Their evidence was real: sick people rarely had lice. So when lice left, people got sick. What were they missing?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Sick people in the Middle Ages rarely had lice. What do you think explains it?",
+      "options": [
+        {
+          "text": "Lice protected people from illness"
+        },
+        {
+          "text": "Lice leave when a body gets warmer, as in a fever",
+          "correct": true
+        },
+        {
+          "text": "Sick people washed more often"
+        }
+      ],
+      "reveal": "Lice are very sensitive to body temperature. A small rise, like a fever, makes them look for a new host. The illness came first and drove them off.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "🔗",
+      "title": "Four ways to be linked",
+      "text": "A correlation means two variables tend to move together. On its own, it can't tell you why. If A and B are correlated, maybe A causes B, maybe B causes A, maybe a third factor C causes both, or maybe it's coincidence. The more things you compare, the more likely two unrelated ones line up by chance.",
+      "example": "Ice cream sales and drowning deaths both rise in summer. Ice cream isn't dangerous: hot weather means more ice cream and more swimming."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔄",
+      "title": "The arrow points backward",
+      "text": "This is called reverse causation: you've got cause and effect swapped. Lice are very sensitive to body temperature, and a small rise, like a fever, sends them looking for a new host. Medical thermometers didn't exist yet, so that small rise was rarely noticed. It looked like the lice left first and then people got sick.",
+      "why": {
+        "q": "Why was this mistake so hard to catch in the Middle Ages?",
+        "a": "The medical thermometer hadn't been invented, so the small temperature rise that came first went unnoticed."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "💡",
+      "title": "The hidden third factor",
+      "text": "A 1999 study in Nature found young kids who slept with a light on were much more likely to become nearsighted later. A later Ohio State study didn't find that the light caused it. It found a strong link between parents' and kids' nearsightedness, and that nearsighted parents were more likely to leave a light on. A hidden cause like that is called a confounding variable.",
+      "examples_by_interest": {
+        "golf": "Say golfers with pricier drivers post lower scores. Maybe the club helps. Or maybe serious golfers both practice more and buy pricier gear. Practice could be the hidden third factor.",
+        "business": "Say shops that spend more on ads make more sales. Maybe ads drive sales. Or maybe bigger shops can afford more ads and also have more customers. Size could be the hidden third factor."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🎲",
+      "title": "How scientists break the tie",
+      "text": "In a randomized controlled trial, people are randomly assigned to groups, such as a new treatment versus the usual one. Random assignment balances both known and unknown differences between the groups. So if outcomes differ, the treatment is the likely cause. The first published medical one, in 1948, tested the drug streptomycin for tuberculosis.",
+      "why": {
+        "q": "Why not just compare people who chose the treatment with people who didn't?",
+        "a": "People who choose differ in ways you can't see or measure. Random assignment spreads those differences evenly across both groups."
+      }
+    },
+    {
+      "type": "link",
+      "to": "ideas-confirmation-bias-teen",
+      "prompt": "In \"Confirmation Bias: Test to Fail\" you learned to design tests that could prove you wrong. How is a randomized trial that kind of test?",
+      "model": "It sets up a fair comparison where the treatment can clearly fail, instead of collecting examples that fit what you hoped."
+    },
+    {
+      "type": "think",
+      "question": "A headline says: \"Teens who play a sport get better grades.\" List one possible hidden third factor and one reverse-causation story. How would you design a fair test?",
+      "nudges": [
+        "What else might sporty teens have more of: time, support, sleep?",
+        "Could grades affect who stays on the team?",
+        "What could you randomly assign, and what couldn't you?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Towns with more ice cream sales have more drownings. What's the best explanation?",
+          "options": [
+            {
+              "text": "Hot weather increases both",
+              "correct": true,
+              "why": "Right. Heat is the confounding variable behind both."
+            },
+            {
+              "text": "Eating ice cream makes swimming risky",
+              "correct": false,
+              "why": "That treats correlation as causation. Hot weather explains both."
+            },
+            {
+              "text": "Drownings make people buy ice cream",
+              "correct": false,
+              "why": "That's a reverse-causation story, but there's no reason to believe it here."
+            },
+            {
+              "text": "It must be pure coincidence",
+              "correct": false,
+              "why": "There's an obvious common cause, the summer heat, so it isn't just chance."
+            }
+          ]
+        },
+        {
+          "q": "Medieval people saw lice leave before illness. What actually happened?",
+          "options": [
+            {
+              "text": "An early fever, which came first, drove the lice away",
+              "correct": true,
+              "why": "Yes, reverse causation. The illness was already starting."
+            },
+            {
+              "text": "Lice really did prevent disease",
+              "correct": false,
+              "why": "The pattern was real, but the cause ran the other way."
+            },
+            {
+              "text": "The lice carried the cure",
+              "correct": false,
+              "why": "No. Lice are sensitive to body heat, and a fever made them leave."
+            }
+          ]
+        },
+        {
+          "q": "Why does a randomized trial beat comparing people who chose a treatment with people who didn't?",
+          "options": [
+            {
+              "text": "Chance balances known and unknown differences between groups",
+              "correct": true,
+              "why": "Exactly. That's what lets you read a difference as cause and effect."
+            },
+            {
+              "text": "It always uses more people",
+              "correct": false,
+              "why": "Size helps, but randomization is the key part."
+            },
+            {
+              "text": "It doesn't need a comparison group",
+              "correct": false,
+              "why": "It needs one. The control group is the comparison."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Correlation doesn't prove causation because…",
+        "The lice story shows…",
+        "A randomized trial fixes this by…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "ofweqU0Lz4I",
+    "title": "Correlation vs Causation Explained: Why Patterns Can Mislead Us",
+    "channel": "Sprouts",
+    "duration_sec": 290,
+    "start": 0,
+    "end": 181,
+    "why": "Animated tour of confounders, reverse causation and chance links, ending on why randomized trials are the gold standard. Stops before extra case studies."
+  },
+  "sources": [
+    {
+      "title": "Correlation does not imply causation",
+      "publisher": "Wikipedia (encyclopedia article with cited research)",
+      "url": "https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation",
+      "supports": "Correlation alone can't establish cause; the four possibilities (A causes B, B causes A, a third factor causes both, coincidence); more comparisons make chance links more likely; ice cream and drowning both rise with summer heat; medieval belief about lice, lice leaving with a rise in body temperature, no thermometer yet; the 1999 Nature night-light study and the Ohio State follow-up on parental nearsightedness; confounding variables."
+    },
+    {
+      "title": "Randomized controlled trial",
+      "publisher": "Wikipedia (encyclopedia article with cited research)",
+      "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial",
+      "supports": "Randomized controlled trials randomly allocate participants to compared groups, balancing known and unknown factors and reducing confounding; the first published medical RCT was the 1948 streptomycin tuberculosis trial."
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "id": "ideas-correlation-causation-kid",
+  "topic": "ideas",
+  "subject": "correlation-causation",
+  "level": "kid",
+  "title": "Do Windmills Make Wind?",
+  "emoji": "🌬️",
+  "summary": "Two things can happen together without one causing the other. Here's how to tell.",
+  "minutes": 6,
+  "date_added": "2026-10-23",
+  "series": {
+    "id": "how-we-know",
+    "part": 4,
+    "of": 4
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Ice cream sales and swimming both go up in summer. What causes both?",
+      "answer": "Hot weather. Ice cream does not make people swim. The heat makes people want both.",
+      "options": [
+        {
+          "text": "Hot weather",
+          "correct": true
+        },
+        {
+          "text": "Ice cream makes people swim"
+        },
+        {
+          "text": "Swimming makes people hungry for ice cream"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Windmills spin fast when it is windy. Which one causes the other?",
+      "answer": "The wind makes the windmills spin. There is wind even where there are no windmills.",
+      "options": [
+        {
+          "text": "The wind makes windmills spin",
+          "correct": true
+        },
+        {
+          "text": "Windmills make the wind"
+        },
+        {
+          "text": "Neither one; it is just luck"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What is a fair way to test if something really causes a change?",
+      "answer": "Split people into two groups by chance, like a coin flip. Give only one group the new thing, then compare.",
+      "options": [
+        {
+          "text": "Split people into groups by chance, then compare",
+          "correct": true
+        },
+        {
+          "text": "Ask only people who already like it"
+        },
+        {
+          "text": "Try it once and see what happens"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌬️",
+      "title": "A windy puzzle",
+      "text": "Picture a field of windmills. When they spin fast, it is very windy. When they stop, the air is calm. So do windmills make the wind?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Windmills spin fast on windy days. What do you think is going on?",
+      "options": [
+        {
+          "text": "Windmills make the wind"
+        },
+        {
+          "text": "The wind makes windmills spin",
+          "correct": true
+        },
+        {
+          "text": "It is just luck"
+        }
+      ],
+      "reveal": "The wind makes the windmills spin. Wind blows even where there are no windmills, but windmills need wind to turn.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "🔄",
+      "title": "Which way does it go?",
+      "text": "Two things that happen together are linked. But being linked does not tell you which one causes the other. Wind blows in places with no windmills at all. Windmills need wind to turn. So the wind is the cause.",
+      "example": "Scientists call two things that go up and down together a correlation. Causation means one thing really makes the other happen.",
+      "why": {
+        "q": "How do we know the wind comes first?",
+        "a": "Wind blows even where there are no windmills. But a windmill can't turn without wind."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🍦",
+      "title": "A sneaky third thing",
+      "text": "In hot summer months, people buy a lot more ice cream. In hot summer months, more people go swimming too. Does ice cream make people swim? No! Hot weather causes both. A hidden cause like this can link two things that don't cause each other.",
+      "why": {
+        "q": "Why do ice cream and swimming go up at the same time?",
+        "a": "Hot weather makes people want ice cream, and it also makes them want to swim."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "💡",
+      "title": "A real science mix-up",
+      "text": "In 1999, a study found that young kids who slept with a light on were more likely to become nearsighted. That means far-away things look blurry. Did the light cause it? A later study found a better answer. Nearsighted parents were more likely to leave a light on, and kids of nearsighted parents were more likely to be nearsighted too."
+    },
+    {
+      "type": "idea",
+      "emoji": "🪙",
+      "title": "A fair test",
+      "text": "Scientists have a smart way to check a cause. They split people into two groups by chance, like flipping a coin. Only one group gets the new thing. Chance mixes the groups up fairly, so if one group changes more, the new thing is the likely reason.",
+      "example": "Say you want to know if a new snack helps your team run faster. Flip a coin for each player. Heads get the snack, tails don't. Then time everyone.",
+      "examples_by_interest": {
+        "soccer": "Say you want to know if a new warm-up helps your team score. Flip a coin for each player. Heads do the new warm-up, tails do the old one. Then count goals for both groups."
+      }
+    },
+    {
+      "type": "link",
+      "to": "ideas-confirmation-bias-kid",
+      "prompt": "In \"The Sure-Thing Trap\" you learned to ask, \"What would show I am wrong?\" How is a coin-flip test like asking that question?",
+      "model": "Both give your idea a fair chance to fail. If the new thing doesn't really work, the test can show it."
+    },
+    {
+      "type": "think",
+      "question": "Kids who eat breakfast often do better at school. Can you think of a sneaky third thing that might cause both?",
+      "nudges": [
+        "Think about sleep, or what mornings are like at home.",
+        "How could you test it fairly?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Ice cream sales and swimming both go up in summer. Why?",
+          "options": [
+            {
+              "text": "Hot weather causes both",
+              "correct": true,
+              "why": "Yes! The heat is the hidden third thing."
+            },
+            {
+              "text": "Ice cream gives people energy to swim",
+              "correct": false,
+              "why": "Good guess, but ice cream isn't the cause. Hot weather makes people want both."
+            },
+            {
+              "text": "Swimmers sell ice cream",
+              "correct": false,
+              "why": "Not quite. The link comes from hot weather."
+            }
+          ]
+        },
+        {
+          "q": "Windmills spin fast when it is windy. What is the cause?",
+          "options": [
+            {
+              "text": "The wind",
+              "correct": true,
+              "why": "Right. Windmills need wind to turn, but wind blows without windmills."
+            },
+            {
+              "text": "The windmills",
+              "correct": false,
+              "why": "It can look that way! But wind blows even where there are no windmills."
+            },
+            {
+              "text": "Nobody can ever know",
+              "correct": false,
+              "why": "We can figure it out. Wind blows with no windmills around, so wind comes first."
+            }
+          ]
+        },
+        {
+          "q": "Which is the fairest test of a new snack?",
+          "options": [
+            {
+              "text": "Flip a coin to decide who gets it, then compare",
+              "correct": true,
+              "why": "Yes! Chance makes the two groups fair."
+            },
+            {
+              "text": "Give it only to the fastest runners",
+              "correct": false,
+              "why": "They were already fast, so you couldn't tell if the snack helped."
+            },
+            {
+              "text": "Ask your friends if they like it",
+              "correct": false,
+              "why": "Liking it doesn't show it makes anyone faster."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Two things can happen together because…",
+        "A sneaky third thing is…",
+        "A fair test works by…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "RROYfekYM8Q",
+    "title": "STEAM STARS | Correlation Vs Causation | Shaftesbury Kids",
+    "channel": "Shaftesbury Kids",
+    "duration_sec": 165,
+    "why": "Two sisters explain data, then show a silly-sounding link between ice cream and sharks that warm beach weather explains."
+  },
+  "sources": [
+    {
+      "title": "Correlation does not imply causation",
+      "publisher": "Wikipedia (encyclopedia article with cited research)",
+      "url": "https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation",
+      "supports": "Correlation alone can't show cause and effect; the windmill example (windmills need wind, wind doesn't need windmills); hot summer months raise both ice cream sales and swimming; the 1999 study linking night lights with nearsightedness and the later Ohio State study finding nearsighted parents were more likely to leave a light on; reverse causation and hidden third factors."
+    },
+    {
+      "title": "Randomized controlled trial",
+      "publisher": "Wikipedia (encyclopedia article with cited research)",
+      "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial",
+      "supports": "Randomized controlled trials randomly assign people to groups, which balances known and unknown differences so the comparison is fair."
+    }
+  ]
+}
