@@ -1,0 +1,225 @@
+{
+  "id": "civics-bill-to-law-adult",
+  "topic": "civics",
+  "subject": "bill-to-law",
+  "level": "adult",
+  "title": "The Veto as Leverage: Article I, Section 7 in Practice",
+  "emoji": "📜",
+  "summary": "About 2,600 vetoes, a 4% override rate, and why the veto's biggest effects never show up in the count.",
+  "minutes": 8,
+  "date_added": "2026-10-24",
+  "series": {
+    "id": "checks-on-power",
+    "part": 4,
+    "of": 4
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How often has Congress overridden presidential vetoes, and why does the count understate the veto's power?",
+      "answer": "About 4% of all vetoes (7% of regular ones). Veto threats shape bills before passage, and no record counts them."
+    },
+    {
+      "id": "k2",
+      "prompt": "When can a pocket veto happen today, and why does it matter?",
+      "answer": "Only after a Congress's final adjournment, since the House and Senate now accept veto messages during recesses. It can't be overridden."
+    },
+    {
+      "id": "k3",
+      "prompt": "What does the two-thirds override rule let a minority do?",
+      "answer": "If all members vote, 146 House members or 34 senators can sustain a veto, even against a large majority."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🔢",
+      "title": "A power that rarely loses",
+      "text": "Presidents have vetoed about 2,600 bills since George Washington's first in 1792. Congress has overturned only a sliver of them. Yet the veto's biggest effect may be on bills that are rewritten, or never sent, because a veto is coming."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "Of all presidential vetoes in U.S. history, regular and pocket, what share has Congress overridden?",
+      "estimate": {
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "answer": 4
+      },
+      "reveal": "About 4%: 112 of 2,597 vetoes in the Senate-sourced count. Counting only regular vetoes, which can be overridden, about 7%.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "📜",
+      "title": "What the text says",
+      "text": "The Constitution never uses the word \"veto.\" Article I, Section 7 says every bill passed by both Houses must be presented to the President. If he objects, he returns it to the House where it started. Two thirds of each House can then pass it, and the votes \"shall be determined by yeas and Nays,\" with every member's name recorded."
+    },
+    {
+      "type": "idea",
+      "emoji": "⏳",
+      "title": "Silence has two outcomes",
+      "text": "A bill not returned within ten days, Sundays excepted, becomes law \"as if he had signed it\" unless Congress's adjournment prevents its return. Then it dies: a pocket veto, which can't be overridden. Because the House clerk and Senate secretary now accept veto messages during recesses, a pocket veto is only possible after a Congress's final adjournment.",
+      "why": {
+        "q": "Why did modern practice shrink the pocket veto?",
+        "a": "If officers of each chamber can receive a veto message during any recess, the bill can be returned for an override vote, so adjournment no longer prevents its return except at the end of a Congress."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📊",
+      "title": "The base rate",
+      "text": "The Senate-sourced count: 1,531 regular vetoes and 1,066 pocket vetoes, 2,597 in all, with 112 overridden. That's about 4% of all vetoes and 7% of regular ones. The spread is wide: Franklin Roosevelt vetoed 635 bills, the most of any president, while several presidents vetoed none.",
+      "example": "The outlier is Andrew Johnson: Congress overrode 15 of his 29 vetoes, about 52%."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎯",
+      "title": "Leverage you can't count",
+      "text": "Presidents also threaten vetoes, publicly or privately, to change a bill's content or to warn Congress not to waste time. There is no record of what counts as a veto threat or how many have been made. So a low override rate doesn't measure the veto's influence; much of the bargaining happens before a bill reaches the desk.",
+      "why": {
+        "q": "Why can't the override statistics capture the veto's full influence?",
+        "a": "Threats change or stop bills before any veto happens, and no one keeps a record of them."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "The minority's power",
+      "text": "Two thirds is counted among members voting. If everyone votes, overriding takes 290 of 435 House members and 67 of 100 senators. Flip it around: 146 House members or 34 senators can sustain a veto. A president plus about a third of one chamber can block a large majority."
+    },
+    {
+      "type": "link",
+      "to": "civics-checks-and-balances-adult",
+      "prompt": "In \"Separation of Powers as Incentive Design\" thresholds encoded how costly a mistake would be. Given a 4% override rate, what does the two-thirds bar protect, and what does it cost?",
+      "model": "It keeps a temporary majority from routinely overruling the president, at the cost of letting a determined minority of one chamber sustain a veto against broad support."
+    },
+    {
+      "type": "think",
+      "question": "Is the override bar set right? Make the strongest case for lowering it to three fifths, then the strongest case for keeping two thirds.",
+      "nudges": [
+        "What kinds of laws would pass under a lower bar?",
+        "What does a recorded supermajority vote signal about a law?",
+        "Would your answer change depending on who held the presidency?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Congress takes a short mid-session recess, and the president never acts on a bill within ten days. Under modern practice, what most likely happens?",
+          "options": [
+            {
+              "text": "It becomes law without a signature",
+              "correct": true,
+              "why": "Right. Veto messages can be received during recesses, so the recess doesn't prevent a return, and silence makes it law."
+            },
+            {
+              "text": "It's pocket vetoed",
+              "correct": false,
+              "why": "Today a pocket veto is only possible after a Congress's final adjournment."
+            },
+            {
+              "text": "It's held until Congress returns, then voted on again",
+              "correct": false,
+              "why": "No. The Constitution has no such step; silence for ten days makes it law."
+            },
+            {
+              "text": "It goes to the Supreme Court",
+              "correct": false,
+              "why": "No. The courts aren't part of presentment."
+            }
+          ]
+        },
+        {
+          "q": "All 100 senators vote on an override. What's the smallest group that can sustain the veto?",
+          "options": [
+            {
+              "text": "34",
+              "correct": true,
+              "why": "Yes. Overriding needs 67 (two thirds of 100 rounds up), so 34 no votes leave only 66 yes votes."
+            },
+            {
+              "text": "33",
+              "correct": false,
+              "why": "Then 67 could vote yes, enough to override."
+            },
+            {
+              "text": "41",
+              "correct": false,
+              "why": "More than needed; 34 no votes already keep the yes side below 67."
+            },
+            {
+              "text": "50",
+              "correct": false,
+              "why": "Far more than needed; 34 is enough."
+            }
+          ]
+        },
+        {
+          "q": "Why is the 4% override rate a weak measure of the veto's influence?",
+          "options": [
+            {
+              "text": "Veto threats reshape or stop bills before any veto, and they aren't recorded",
+              "correct": true,
+              "why": "Right. Much of the bargaining happens before a bill reaches the president."
+            },
+            {
+              "text": "Most vetoes are later struck down by courts",
+              "correct": false,
+              "why": "No. Courts don't review routine vetoes."
+            },
+            {
+              "text": "Congress rarely votes on overrides at all",
+              "correct": false,
+              "why": "Even so, that wouldn't explain influence before passage; the threat is the key."
+            },
+            {
+              "text": "The count includes bills the president signed",
+              "correct": false,
+              "why": "No. Signed bills aren't vetoes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The Constitution gives the president…",
+        "Override statistics are misleading because…",
+        "The trade-off in two thirds is…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "B45S0K_tQKA",
+    "title": "How a bill becomes a law | US government and civics | US government and civics | Khan Academy",
+    "channel": "Khan Academy",
+    "duration_sec": 637,
+    "why": "A walk through how committees, the House Rules Committee and conference committees shape a bill before it ever reaches the president's desk."
+  },
+  "sources": [
+    {
+      "title": "Article I (Section 7: the Presentment Clause)",
+      "publisher": "National Constitution Center",
+      "url": "https://constitutioncenter.org/the-constitution/articles/article-i",
+      "supports": "Article I, Section 7 text: presentment; return with objections to the originating House; two thirds of each House to override; votes \"determined by yeas and Nays\" with names entered on the journal; ten days (Sundays excepted); becomes law \"in like Manner as if he had signed it\" unless adjournment prevents its return."
+    },
+    {
+      "title": "List of United States presidential vetoes",
+      "publisher": "Wikipedia (counts cited to the U.S. Senate)",
+      "url": "https://en.wikipedia.org/wiki/List_of_United_States_presidential_vetoes",
+      "supports": "\"Veto\" doesn't appear in the Constitution; override by two thirds of members voting; pocket vetoes can't be overridden; clerk of the House and secretary of the Senate receive veto messages during recesses so pocket vetoes are only possible after adjournment sine die of a Congress's final session; veto threats, public or private, with no record of their number; Washington's first veto April 5, 1792; totals 1,531 regular, 1,066 pocket, 2,597 total, 112 overridden (4% of all, 7% of regular); Franklin Roosevelt 635 vetoes; Andrew Johnson 15 of 29 overridden; several presidents with none."
+    },
+    {
+      "title": "The Legislative Process",
+      "publisher": "U.S. House of Representatives",
+      "url": "https://www.house.gov/the-house-explained/the-legislative-process",
+      "supports": "House has 435 members and the Senate 100 (basis for the 290/67 and 146/34 arithmetic)."
+    }
+  ]
+}

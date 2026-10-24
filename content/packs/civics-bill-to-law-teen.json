@@ -1,0 +1,218 @@
+{
+  "id": "civics-bill-to-law-teen",
+  "topic": "civics",
+  "subject": "bill-to-law",
+  "level": "teen",
+  "title": "Sign, Veto or Wait: How a Bill Becomes a Law",
+  "emoji": "📜",
+  "summary": "Committees, two chambers, and the president's four options, including two where nobody signs anything.",
+  "minutes": 7,
+  "date_added": "2026-10-24",
+  "series": {
+    "id": "checks-on-power",
+    "part": 4,
+    "of": 4
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How does Congress override a veto?",
+      "answer": "Each chamber must pass the bill again by a two-thirds vote. If every member votes, that's 290 in the House and 67 in the Senate."
+    },
+    {
+      "id": "k2",
+      "prompt": "What happens if the president does nothing with a bill for 10 days (Sundays excepted)?",
+      "answer": "If Congress is in session, it becomes law without a signature. If Congress has adjourned and blocked its return, it dies: a pocket veto."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why does a bill sometimes go to a conference committee?",
+      "answer": "The House and Senate must pass identical text. A conference committee works out the differences, and both chambers vote again."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧩",
+      "title": "A law nobody signed",
+      "text": "Most people think a bill needs the president's signature to become law. It doesn't. The Constitution lets a bill become law with no signature at all, and it lets a bill die with no veto. How can both be true?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Congress passes a bill and stays in session. The president does nothing with it for 10 days (Sundays not counted). What happens?",
+      "options": [
+        {
+          "text": "It becomes law",
+          "correct": true
+        },
+        {
+          "text": "It dies"
+        },
+        {
+          "text": "It goes back to Congress for a new vote"
+        },
+        {
+          "text": "It goes to the Supreme Court"
+        }
+      ],
+      "reveal": "It becomes law. Article I says it \"shall be a Law, in like Manner as if he had signed it.\"",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "🏛️",
+      "title": "Through committee",
+      "text": "A member of Congress sponsors a bill. It goes to a committee, a smaller group that studies it and can change it. If the committee releases it, the full chamber debates, amends and votes. A simple majority passes it: 218 of 435 in the House, 51 of 100 in the Senate."
+    },
+    {
+      "type": "idea",
+      "emoji": "🤝",
+      "title": "One bill, two chambers",
+      "text": "The House and Senate must pass the same text. If their versions differ, a conference committee, made of members from both chambers, works out the differences. Then both chambers vote again on the final version. One rule: bills for raising revenue must start in the House."
+    },
+    {
+      "type": "idea",
+      "emoji": "✍️",
+      "title": "Sign or veto",
+      "text": "The president gets 10 days, Sundays excepted. Signing makes it law. A veto sends it back to the chamber where it started, with the president's objections. To override, two thirds of each chamber must vote yes. If every member votes, that's 290 in the House and 67 in the Senate.",
+      "example": "Say the House votes 300 to 135 to override. That clears two thirds. Then the Senate votes 66 to 34. That's just under two thirds, so the veto stands."
+    },
+    {
+      "type": "idea",
+      "emoji": "⏳",
+      "title": "The two quiet options",
+      "text": "If the president does nothing for 10 days while Congress is in session, the bill becomes law without a signature. If Congress adjourns and that blocks the bill's return, it dies. That's a pocket veto, and Congress can't override it. Today it's only possible after a Congress's final session ends.",
+      "why": {
+        "q": "Why can't Congress override a pocket veto?",
+        "a": "The bill was never returned for a new vote. To pass it, Congress has to start over with a new bill, which could be vetoed again."
+      }
+    },
+    {
+      "type": "link",
+      "to": "civics-checks-and-balances-teen",
+      "prompt": "In \"Checks and Balances: Designing Against Power\" the veto was one check among many. A simple majority already passed the bill. Why make the override bar two thirds?",
+      "model": "So Congress beats the president only with broad support, not a narrow majority. Neither branch wins easily, which forces compromise."
+    },
+    {
+      "type": "think",
+      "question": "Of all presidential vetoes in U.S. history, Congress has overridden only about 4%. Is that a sign the system works, or that the bar is too high? Argue both sides.",
+      "nudges": [
+        "Who should win when a president and Congress disagree?",
+        "What could go wrong if overrides were easy?",
+        "What could go wrong if they were nearly impossible?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "All 100 senators vote on a veto override. What's the fewest yes votes needed?",
+          "options": [
+            {
+              "text": "67",
+              "correct": true,
+              "why": "Right. Two thirds of 100 is 66.7, so 66 falls short and 67 is the minimum."
+            },
+            {
+              "text": "51",
+              "correct": false,
+              "why": "That's a simple majority, enough to pass a bill but not to override."
+            },
+            {
+              "text": "60",
+              "correct": false,
+              "why": "Close, but the Constitution sets the override bar at two thirds."
+            },
+            {
+              "text": "75",
+              "correct": false,
+              "why": "That's three quarters, more than the Constitution requires."
+            }
+          ]
+        },
+        {
+          "q": "Which kind of bill has to start in the House?",
+          "options": [
+            {
+              "text": "Tax and revenue bills",
+              "correct": true,
+              "why": "Yes. Article I says bills for raising revenue must start in the House."
+            },
+            {
+              "text": "Treaties",
+              "correct": false,
+              "why": "No. The start-in-the-House rule is only for bills that raise revenue."
+            },
+            {
+              "text": "Every bill",
+              "correct": false,
+              "why": "No. Most bills can start in either chamber."
+            },
+            {
+              "text": "Bills about judges",
+              "correct": false,
+              "why": "No. The start-in-the-House rule covers tax and revenue bills."
+            }
+          ]
+        },
+        {
+          "q": "Congress adjourns for good, and the president never acts on a bill. What happens?",
+          "options": [
+            {
+              "text": "It dies, a pocket veto",
+              "correct": true,
+              "why": "Right, and Congress can't override it."
+            },
+            {
+              "text": "It becomes law after 10 days",
+              "correct": false,
+              "why": "That only happens while Congress is still in session."
+            },
+            {
+              "text": "Congress overrides it automatically",
+              "correct": false,
+              "why": "No. A pocket veto can't be overridden; Congress must start over."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "A bill has to get through…",
+        "The president has four options…",
+        "The surprising part is…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "TnhoIJIGnLs",
+    "title": "Diagramming how a bill becomes a law in the U.S.",
+    "channel": "Khan Academy",
+    "duration_sec": 437,
+    "why": "Khan Academy draws the whole path on one diagram: committees, both chambers, the conference committee, the veto, the override and the pocket veto."
+  },
+  "sources": [
+    {
+      "title": "The Legislative Process",
+      "publisher": "U.S. House of Representatives",
+      "url": "https://www.house.gov/the-house-explained/the-legislative-process",
+      "supports": "A representative sponsors a bill; committee study; calendar, debate, amendment and vote; simple majority of 218 of 435 in the House and 51 of 100 in the Senate; conference committee works out differences and both chambers give final approval; the president has 10 days to sign or veto."
+    },
+    {
+      "title": "Article I (Section 7: the Presentment Clause)",
+      "publisher": "National Constitution Center",
+      "url": "https://constitutioncenter.org/the-constitution/articles/article-i",
+      "supports": "Article I, Section 7 text: vetoed bill returned with objections to the House where it originated; two thirds of each House to override; ten days (Sundays excepted); a bill not returned becomes law \"in like Manner as if he had signed it,\" unless Congress's adjournment prevents its return; Section 7 also says \"All Bills for raising Revenue shall originate in the House of Representatives.\" Arithmetic: two thirds of 435 is 290 and of 100 is 66.7, so 67."
+    },
+    {
+      "title": "List of United States presidential vetoes",
+      "publisher": "Wikipedia (counts cited to the U.S. Senate)",
+      "url": "https://en.wikipedia.org/wiki/List_of_United_States_presidential_vetoes",
+      "supports": "Override requires two thirds of members voting; pocket vetoes can't be overridden and Congress must pass a new bill to try again; in modern practice pocket vetoes are only possible after the final adjournment of a Congress; 112 of 2,597 total vetoes overridden (4%)."
+    }
+  ]
+}

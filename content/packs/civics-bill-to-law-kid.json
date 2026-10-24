@@ -1,0 +1,246 @@
+{
+  "id": "civics-bill-to-law-kid",
+  "topic": "civics",
+  "subject": "bill-to-law",
+  "level": "kid",
+  "title": "From Idea to Law",
+  "emoji": "📜",
+  "summary": "How an idea turns into a real U.S. law, and what happens when the president says no.",
+  "minutes": 6,
+  "date_added": "2026-10-24",
+  "series": {
+    "id": "checks-on-power",
+    "part": 4,
+    "of": 4
+  },
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is a bill?",
+      "answer": "A plan for a new law, or a change to a law we already have.",
+      "options": [
+        {
+          "text": "A plan for a new law or a change to a law",
+          "correct": true
+        },
+        {
+          "text": "A law that is already done"
+        },
+        {
+          "text": "A vote by the Supreme Court"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Who has to vote yes on a bill before it goes to the president?",
+      "answer": "Both the House and the Senate, on the same version of the bill.",
+      "options": [
+        {
+          "text": "Both the House and the Senate",
+          "correct": true
+        },
+        {
+          "text": "Only the Senate"
+        },
+        {
+          "text": "Only the House"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "The president vetoes a bill. How can it still become a law?",
+      "answer": "Congress votes again. If two out of three members in both the House and the Senate say yes, it becomes a law.",
+      "options": [
+        {
+          "text": "Two out of three in both the House and Senate vote yes",
+          "correct": true
+        },
+        {
+          "text": "More than half of the House votes yes"
+        },
+        {
+          "text": "The Supreme Court says yes"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "💡",
+      "title": "Your big idea",
+      "text": "Say you think every school in the country should have a longer recess. Wishing won't make it a rule. Telling your teacher won't either. So how does an idea become a real law?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "The president says no to a bill. That is called a veto. What happens next?",
+      "options": [
+        {
+          "text": "The bill is gone forever"
+        },
+        {
+          "text": "Congress can vote again and still make it a law",
+          "correct": true
+        },
+        {
+          "text": "The Supreme Court votes on it"
+        }
+      ],
+      "reveal": "Congress can vote again. If two out of every three members in both the House and the Senate say yes, it becomes a law anyway.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "📜",
+      "title": "A bill is an idea on paper",
+      "text": "A bill is a plan for a new law, or a change to an old one. The idea can come from a member of Congress. It can also come from regular people who ask their member to help. Then a member puts the bill forward.",
+      "example": "In this example, a class writes to their member of Congress about recess. If the member likes the idea, they can turn it into a bill."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔍",
+      "title": "A small group checks it first",
+      "text": "Next, the bill goes to a committee. That is a small group of members. They study the bill, talk about it, and can change it. If they don't send it on, the bill stops there.",
+      "why": {
+        "q": "Why send a bill to a small group first?",
+        "a": "A small group can study the bill closely and fix it before everyone votes on it."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🏛️",
+      "title": "Two votes, one bill",
+      "text": "Congress has two parts, the House and the Senate. Both must vote yes. In the House, a win is 218 out of 435 votes. In the Senate, it is 51 out of 100.",
+      "example": "Sometimes the House and the Senate pass different versions. Then they work out the differences. Both vote again on the same bill."
+    },
+    {
+      "type": "idea",
+      "emoji": "✍️",
+      "title": "The president decides",
+      "text": "Last, the bill goes to the president. If the president signs it, it is a law. If the president says no, that is a veto. Then Congress can vote again. If two out of three in both the House and the Senate say yes, it is a law anyway.",
+      "why": {
+        "q": "Why let Congress beat a veto?",
+        "a": "So one person can't stop a law that most of Congress strongly wants. Each part can push back on the other."
+      }
+    },
+    {
+      "type": "link",
+      "to": "civics-checks-and-balances-kid",
+      "prompt": "In \"Three Branches, One Team\" you learned that the veto is a check. Who checks the president's veto?",
+      "model": "Congress does. If two out of three members in both the House and the Senate vote yes, the bill becomes a law anyway."
+    },
+    {
+      "type": "think",
+      "question": "Making a law takes many steps and lots of yes votes. Is that good or bad? Think of one reason for each side.",
+      "nudges": [
+        "What if a bad idea could become a law fast?",
+        "What if a good idea took years?",
+        "Which matters more to you?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Where does a bill go first, before the whole House or Senate votes?",
+          "options": [
+            {
+              "text": "To a committee, a small group that studies it",
+              "correct": true,
+              "why": "Yes! The committee studies it and can change it."
+            },
+            {
+              "text": "Straight to the president",
+              "correct": false,
+              "why": "Not yet. The president only gets it after both parts of Congress say yes."
+            },
+            {
+              "text": "To a judge",
+              "correct": false,
+              "why": "No. Judges aren't part of making a bill."
+            }
+          ]
+        },
+        {
+          "q": "A bill passes the House. What has to happen next?",
+          "options": [
+            {
+              "text": "The Senate has to pass it too",
+              "correct": true,
+              "why": "Right. Both the House and the Senate must say yes."
+            },
+            {
+              "text": "It is a law right away",
+              "correct": false,
+              "why": "Not yet. The Senate and the president still get a turn."
+            },
+            {
+              "text": "The House votes on it again",
+              "correct": false,
+              "why": "No. Next it goes to the other part of Congress, the Senate."
+            }
+          ]
+        },
+        {
+          "q": "The president vetoes a bill. Congress votes again, and two out of three in both the House and the Senate say yes. What happens?",
+          "options": [
+            {
+              "text": "It becomes a law",
+              "correct": true,
+              "why": "Yes! That is called beating, or overriding, the veto."
+            },
+            {
+              "text": "It is gone forever",
+              "correct": false,
+              "why": "No. Enough yes votes let Congress beat a veto."
+            },
+            {
+              "text": "The president gets to vote again",
+              "correct": false,
+              "why": "No. Once Congress overrides the veto, the bill is a law."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "A law starts as…",
+        "Before the president sees it…",
+        "If the president says no…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "u5jKL6hFNdk",
+    "title": "Facts of Congress - How a Bill Becomes Law",
+    "channel": "IU Center on Representative Government",
+    "duration_sec": 66,
+    "why": "A one-minute cartoon that follows a bill from an idea, to a committee, to both parts of Congress, to the president."
+  },
+  "sources": [
+    {
+      "title": "How laws are made",
+      "publisher": "USAGov (U.S. General Services Administration)",
+      "url": "https://www.usa.gov/how-laws-are-made",
+      "supports": "A bill is a proposal for a new law or a change to an existing law; ideas can come from members of Congress or from people who petition their member; committees research, discuss and change bills; both chambers must pass the same version; the president can sign or veto; Congress can usually override a veto."
+    },
+    {
+      "title": "The Legislative Process",
+      "publisher": "U.S. House of Representatives",
+      "url": "https://www.house.gov/the-house-explained/the-legislative-process",
+      "supports": "A representative sponsors a bill; it goes to a committee and moves on only if released; a simple majority passes it, 218 of 435 in the House and 51 of 100 in the Senate."
+    },
+    {
+      "title": "Article I (Section 7: the Presentment Clause)",
+      "publisher": "National Constitution Center",
+      "url": "https://constitutioncenter.org/the-constitution/articles/article-i",
+      "supports": "Article I, Section 7: a vetoed bill becomes law if two thirds of each House vote to pass it again."
+    }
+  ]
+}

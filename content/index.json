@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "topics": [
   {
    "id": "history",
@@ -304,6 +304,17 @@
     "kid": "ideas-correlation-causation-kid"
    },
    "dinner_question": "What are two things that seem to happen together in our family, and is one really causing the other, or is something else behind both?"
+  },
+  {
+   "date": "2026-11-01",
+   "topic": "civics",
+   "title": "How a bill becomes a law",
+   "packs": {
+    "adult": "civics-bill-to-law-adult",
+    "teen": "civics-bill-to-law-teen",
+    "kid": "civics-bill-to-law-kid"
+   },
+   "dinner_question": "If you could turn one idea into a law for the whole country, what would it be, and who might argue against it?"
   }
  ],
  "series": [
@@ -467,7 +478,8 @@
    "packs": [
     "civics-checks-and-balances-kid",
     "civics-first-amendment-kid",
-    "civics-juries-kid"
+    "civics-juries-kid",
+    "civics-bill-to-law-kid"
    ]
   },
   {
@@ -480,7 +492,8 @@
    "packs": [
     "civics-checks-and-balances-teen",
     "civics-first-amendment-teen",
-    "civics-juries-teen"
+    "civics-juries-teen",
+    "civics-bill-to-law-teen"
    ]
   },
   {
@@ -493,7 +506,8 @@
    "packs": [
     "civics-checks-and-balances-adult",
     "civics-first-amendment-adult",
-    "civics-juries-adult"
+    "civics-juries-adult",
+    "civics-bill-to-law-adult"
    ]
   }
  ],
@@ -1041,7 +1055,7 @@
    "series": {
     "id": "checks-on-power",
     "part": 1,
-    "of": 3
+    "of": 4
    }
   },
   {
@@ -1059,7 +1073,7 @@
    "series": {
     "id": "checks-on-power",
     "part": 1,
-    "of": 3
+    "of": 4
    }
   },
   {
@@ -1077,7 +1091,7 @@
    "series": {
     "id": "checks-on-power",
     "part": 1,
-    "of": 3
+    "of": 4
    }
   },
   {
@@ -1095,7 +1109,7 @@
    "series": {
     "id": "checks-on-power",
     "part": 2,
-    "of": 3
+    "of": 4
    }
   },
   {
@@ -1113,7 +1127,7 @@
    "series": {
     "id": "checks-on-power",
     "part": 2,
-    "of": 3
+    "of": 4
    }
   },
   {
@@ -1131,7 +1145,7 @@
    "series": {
     "id": "checks-on-power",
     "part": 2,
-    "of": 3
+    "of": 4
    }
   },
   {
@@ -1149,7 +1163,7 @@
    "series": {
     "id": "checks-on-power",
     "part": 3,
-    "of": 3
+    "of": 4
    }
   },
   {
@@ -1167,7 +1181,7 @@
    "series": {
     "id": "checks-on-power",
     "part": 3,
-    "of": 3
+    "of": 4
    }
   },
   {
@@ -1185,7 +1199,61 @@
    "series": {
     "id": "checks-on-power",
     "part": 3,
-    "of": 3
+    "of": 4
+   }
+  },
+  {
+   "id": "civics-bill-to-law-kid",
+   "topic": "civics",
+   "level": "kid",
+   "title": "From Idea to Law",
+   "emoji": "📜",
+   "subject": "bill-to-law",
+   "summary": "How an idea turns into a real U.S. law, and what happens when the president says no.",
+   "minutes": 6,
+   "date_added": "2026-10-24",
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "checks-on-power",
+    "part": 4,
+    "of": 4
+   }
+  },
+  {
+   "id": "civics-bill-to-law-teen",
+   "topic": "civics",
+   "level": "teen",
+   "title": "Sign, Veto or Wait: How a Bill Becomes a Law",
+   "emoji": "📜",
+   "subject": "bill-to-law",
+   "summary": "Committees, two chambers, and the president's four options, including two where nobody signs anything.",
+   "minutes": 7,
+   "date_added": "2026-10-24",
+   "cards": 10,
+   "keys_count": 3,
+   "series": {
+    "id": "checks-on-power",
+    "part": 4,
+    "of": 4
+   }
+  },
+  {
+   "id": "civics-bill-to-law-adult",
+   "topic": "civics",
+   "level": "adult",
+   "title": "The Veto as Leverage: Article I, Section 7 in Practice",
+   "emoji": "📜",
+   "subject": "bill-to-law",
+   "summary": "About 2,600 vetoes, a 4% override rate, and why the veto's biggest effects never show up in the count.",
+   "minutes": 8,
+   "date_added": "2026-10-24",
+   "cards": 11,
+   "keys_count": 3,
+   "series": {
+    "id": "checks-on-power",
+    "part": 4,
+    "of": 4
    }
   },
   {
