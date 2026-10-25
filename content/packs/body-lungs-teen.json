@@ -1,0 +1,214 @@
+{
+  "id": "body-lungs-teen",
+  "topic": "body",
+  "subject": "lungs",
+  "level": "teen",
+  "title": "Breathing: The CO2 Alarm",
+  "emoji": "🫁",
+  "summary": "Why your lungs can't inflate themselves, how gas swaps by diffusion, and what really sets your breathing rate.",
+  "minutes": 7,
+  "date_added": "2026-10-25",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Under most conditions, what mainly sets how fast you breathe?",
+      "answer": "The carbon dioxide level in your blood. Sensors in the brainstem notice the change and speed breathing up or slow it down."
+    },
+    {
+      "id": "k2",
+      "prompt": "How do your lungs fill if they can't expand on their own?",
+      "answer": "The diaphragm and rib muscles make the chest bigger, creating a slight vacuum that pulls air in."
+    },
+    {
+      "id": "k3",
+      "prompt": "How do oxygen and carbon dioxide cross between the alveoli and the blood?",
+      "answer": "By diffusion: each gas moves from where there's more of it to where there's less, through tiny capillaries in the alveolar walls."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🏊",
+      "title": "The underwater countdown",
+      "text": "Hold your breath at the bottom of a pool and the urge to breathe keeps building until you have to come up. It's tempting to think the alarm means \"you're running out of oxygen.\" Under most conditions, your body is actually watching a different gas."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Under most conditions, what is your brain mainly tracking when it sets how fast you breathe?",
+      "options": [
+        {
+          "text": "How much carbon dioxide is in your blood",
+          "correct": true
+        },
+        {
+          "text": "How much oxygen is in your blood"
+        },
+        {
+          "text": "How full your lungs feel"
+        },
+        {
+          "text": "How tired your breathing muscles are"
+        }
+      ],
+      "reveal": "Carbon dioxide. Under most conditions, the CO2 level in your blood controls your breathing rate. Oxygen levels take over as a signal mainly when oxygen gets low.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "🧽",
+      "title": "Lungs can't inflate themselves",
+      "text": "Your lungs are like sponges: they can't get bigger on their own. The diaphragm, a dome-shaped muscle under them, contracts and moves down while rib muscles pull the ribs up and out. The chest gets bigger, which creates a slight vacuum, and air flows in. At rest, breathing out is mostly passive: the muscles relax and the lungs deflate on their own, like an elastic balloon left open.",
+      "example": "Sprinting at the end of a soccer game changes that. Your abdominal muscles join in to push air out faster.",
+      "why": {
+        "q": "Why can breathing out at rest happen without any muscle effort?",
+        "a": "The lungs contain elastic tissue. Once the breathing muscles relax, the lungs spring back and deflate by themselves."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🌳",
+      "title": "The bronchial tree",
+      "text": "Air goes down the trachea, a windpipe held open by stiff rings of cartilage. It splits into two bronchi, one per lung, which branch into smaller bronchi and then bronchioles. These end in alveoli, tiny air sacs where the gas exchange actually happens. You have hundreds of millions of them."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔀",
+      "title": "Diffusion does the swap",
+      "text": "Each alveolus is lined with capillaries, tiny blood vessels. By diffusion, oxygen moves from the air in the alveoli into the blood, where hemoglobin in red blood cells grabs it. Carbon dioxide, made by your cells as they work, mostly travels dissolved in the plasma. In the lungs, it passes into the alveoli and gets exhaled.",
+      "example": "No pump pushes oxygen across. Diffusion just means molecules spread from where there are more of them to where there are fewer."
+    },
+    {
+      "type": "idea",
+      "emoji": "🚨",
+      "title": "CO2 is the control signal",
+      "text": "Under most conditions, the carbon dioxide level in your blood controls your breathing rate. Sensors on the brainstem detect the slight rise in acidity that extra CO2 causes, and the brain makes you breathe faster and deeper. Oxygen sensors near major arteries matter most when oxygen runs low.",
+      "example": "When you exercise, your muscles make more CO2. Your brainstem raises your breathing just enough that blood CO2 stays about the same as at rest.",
+      "why": {
+        "q": "Why would tracking CO2 work as a breathing signal?",
+        "a": "CO2 rises whenever your cells work harder, so it tracks how hard your body is working. Breathing more clears it and brings in more oxygen at the same time."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🎛️",
+      "title": "Autopilot with an override",
+      "text": "Breathing runs on the autonomic (automatic) nervous system, so you don't think about it. The sympathetic side speeds breathing up and widens your bronchial tubes. The parasympathetic side slows it down. You can override the autopilot for a while: to sing, talk, blow out candles or hold your breath.",
+      "example": "Sensors in your joints and muscles notice your arms and legs moving. They may help raise your breathing rate when you get active."
+    },
+    {
+      "type": "think",
+      "question": "Your body controls breathing by tracking CO2, a waste product, instead of measuring oxygen directly. What are the advantages and risks of steering by a signal like that?",
+      "nudges": [
+        "What does a rising CO2 level tell your body about how hard it is working?",
+        "When might CO2 and oxygen not move together?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Why do your lungs fill when your diaphragm contracts?",
+          "options": [
+            {
+              "text": "The chest gets bigger and creates a slight vacuum, so air flows in",
+              "correct": true,
+              "why": "Right. The lungs can't expand themselves; the muscles make the room."
+            },
+            {
+              "text": "The lung tissue contracts and sucks air in",
+              "correct": false,
+              "why": "Lungs are like sponges; they can't get bigger on their own."
+            },
+            {
+              "text": "The heart pushes air into the lungs",
+              "correct": false,
+              "why": "The heart moves blood, not air. Breathing muscles move air."
+            },
+            {
+              "text": "The windpipe squeezes air downward",
+              "correct": false,
+              "why": "The windpipe is held open by cartilage rings; it's a pipe, not a pump."
+            }
+          ]
+        },
+        {
+          "q": "Halfway through a long run, your muscles are producing more CO2. What happens?",
+          "options": [
+            {
+              "text": "Brainstem sensors pick up the change and you breathe faster and deeper",
+              "correct": true,
+              "why": "Yes. That keeps blood CO2 about where it was at rest."
+            },
+            {
+              "text": "Nothing changes until your oxygen runs low",
+              "correct": false,
+              "why": "Under most conditions, CO2, not oxygen, drives the breathing rate."
+            },
+            {
+              "text": "You breathe more slowly to save energy",
+              "correct": false,
+              "why": "More CO2 means more breathing, not less."
+            }
+          ]
+        },
+        {
+          "q": "How does oxygen get from the alveoli into your blood?",
+          "options": [
+            {
+              "text": "By diffusion through the capillaries in the alveolar walls",
+              "correct": true,
+              "why": "Right. It moves from where there's more oxygen to where there's less."
+            },
+            {
+              "text": "Cilia pump it across",
+              "correct": false,
+              "why": "Cilia sweep dust and fluid out of the airways; they don't move oxygen into blood."
+            },
+            {
+              "text": "The bronchi push it into the heart",
+              "correct": false,
+              "why": "The bronchi carry air to the lungs; the exchange happens at the alveoli."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Your lungs can't inflate themselves, so…",
+        "In the alveoli, oxygen and CO2 swap by…",
+        "The urge to breathe mostly comes from…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "8NUxvJS-_0k",
+    "title": "How do lungs work? - Emma Bryce",
+    "channel": "TED-Ed",
+    "duration_sec": 201,
+    "why": "An animated trip from the diaphragm to the alveoli: hemoglobin grabs oxygen by diffusion while the autonomic nervous system runs the cycle."
+  },
+  "sources": [
+    {
+      "title": "How the Lungs Work: How Your Body Controls Breathing",
+      "publisher": "National Heart, Lung, and Blood Institute (NIH)",
+      "url": "https://www.nhlbi.nih.gov/health/lungs/body-controls-breathing",
+      "supports": "Lungs are like sponges and can't get bigger on their own; chest and abdominal muscles contract to create a slight vacuum so air flows in; on exhaling the muscles relax and the lungs deflate on their own like an elastic balloon; the diaphragm is a dome-shaped muscle below the lungs and the main breathing muscle; abdominal muscles help breathe out during fast breathing such as physical activity; breathing is controlled by the autonomic nervous system; the parasympathetic system slows breathing and the sympathetic system increases it and widens the bronchial tubes; you can control breathing at times, such as holding your breath or singing; sensors in the brain and near blood vessels detect CO2 and oxygen; sensors in joints and muscles may help raise breathing during activity."
+    },
+    {
+      "title": "Control of ventilation",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Control_of_ventilation",
+      "supports": "Under most conditions, blood CO2 controls the respiratory rate; central chemoreceptors on the medulla respond to the fall in pH caused by rising CO2 and increase the rate and depth of breathing; peripheral chemoreceptors in the aortic and carotid bodies sense oxygen and CO2; oxygen levels become important in hypoxia; in exercise, CO2 production rises and the response keeps the partial pressure of CO2 unchanged from rest; voluntary overrides include speech, song, blowing out candles and breath holding."
+    },
+    {
+      "title": "Lungs and Respiratory System (for Teens)",
+      "publisher": "Nemours KidsHealth",
+      "url": "https://kidshealth.org/en/teens/lungs.html",
+      "supports": "Diaphragm moves down and rib muscles pull ribs up and out to enlarge the chest; trachea strengthened by stiff rings of cartilage; trachea divides into bronchi, then bronchioles, ending in alveoli where gas exchange takes place; hundreds of millions of alveoli; lungs contain elastic tissue; oxygen moves by diffusion from alveoli into capillaries and is picked up by hemoglobin in red blood cells; carbon dioxide made by cells mostly dissolves in plasma and passes into the alveoli to be exhaled; cilia sweep particles out of the airway."
+    }
+  ]
+}

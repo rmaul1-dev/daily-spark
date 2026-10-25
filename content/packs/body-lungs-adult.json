@@ -1,0 +1,220 @@
+{
+  "id": "body-lungs-adult",
+  "topic": "body",
+  "subject": "lungs",
+  "level": "adult",
+  "title": "The Lung: A Diffusion Machine Steered by CO2",
+  "emoji": "🫁",
+  "summary": "Why gas exchange needs a huge, thin surface, what surfactant buys you, and why the breathing controller watches CO2 rather than oxygen.",
+  "minutes": 8,
+  "date_added": "2026-10-25",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why do the lungs need such a large, thin exchange surface?",
+      "answer": "Oxygen dissolves and diffuses poorly, so exchange only keeps up with a huge area (about 70–80 m²) and very thin walls."
+    },
+    {
+      "id": "k2",
+      "prompt": "What variable mainly drives breathing rate under normal conditions, and how is it sensed?",
+      "answer": "Blood CO2. Central chemoreceptors on the medulla sense the pH drop it causes; oxygen matters mainly in hypoxia."
+    },
+    {
+      "id": "k3",
+      "prompt": "What does surfactant do?",
+      "answer": "It coats the alveoli, cutting the work of inflating them and keeping them from collapsing when you breathe out."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "📐",
+      "title": "A floor plan in your chest",
+      "text": "Your lungs fit in a chest cavity, yet the surface where air meets blood covers roughly 70 to 80 square meters. And the system that decides how hard to breathe mostly ignores oxygen, the gas it exists to deliver. Both oddities fall out of the same physics."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Roughly how much total surface area do an adult's alveoli provide for gas exchange?",
+      "options": [
+        {
+          "text": "About 1 square meter"
+        },
+        {
+          "text": "About 10 square meters"
+        },
+        {
+          "text": "About 75 square meters",
+          "correct": true
+        },
+        {
+          "text": "About 500 square meters"
+        }
+      ],
+      "reveal": "About 70 to 80 square meters, spread across hundreds of millions of alveoli.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "🧮",
+      "title": "Diffusion sets the design",
+      "text": "Nothing pumps oxygen into blood; it diffuses across the alveolar wall. Because oxygen has relatively low solubility, and so a low diffusion rate, the lung needs a very large surface (about 70–80 m²) and very thin walls. Capillaries cover about 70% of each alveolus. Counts vary by source: NHLBI says about 150 million alveoli; one widely cited figure is about 480 million.",
+      "example": "The estimate spread is a useful reminder: \"how many\" depends on method and on the person, while the design logic (area times thinness) holds either way.",
+      "why": {
+        "q": "Why does low oxygen solubility force a large, thin surface?",
+        "a": "If each square meter moves gas slowly, the only ways to move enough are more square meters and a shorter path across the wall."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🫧",
+      "title": "Surfactant: lowering the cost of each breath",
+      "text": "Without help, inflating hundreds of millions of tiny sacs would take more work, and they would tend to collapse. Type II alveolar cells secrete surfactant, which coats the alveoli. NHLBI notes it reduces the work of breathing by helping the lungs inflate, and prevents collapse when you breathe out.",
+      "example": "Elastic fibers in the alveolar walls matter too. In emphysema, the elastin in those walls breaks down."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎚️",
+      "title": "The controller watches CO2",
+      "text": "Ventilation is determined primarily by blood CO2. CO2 forms carbonic acid, which releases hydrogen ions and lowers pH. Central chemoreceptors on the medulla respond and raise rate and depth. Peripheral chemoreceptors in the carotid and aortic bodies sense oxygen and CO2; oxygen becomes important in hypoxia. Going from rest into exercise, the response is strong enough that arterial PCO2 doesn't change.",
+      "example": "Opioids and anesthetics depress breathing by blunting the normal response to rising CO2. That's the controller failing, not the lungs.",
+      "why": {
+        "q": "Why would a well-designed controller regulate CO2 rather than oxygen directly?",
+        "a": "CO2 production tracks metabolic rate and shifts blood pH right away, so it's a fast, sensitive signal of demand. Oxygen sensing serves as the backstop when oxygen falls."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⚠️",
+      "title": "Failure modes map to the design",
+      "text": "Each design feature has a matching failure. Lose surface area and exchange suffers: in pneumonia, fluid in the alveoli cuts the effective area. Break down the wall's elastic fibers and the structure fails: in emphysema, the elastin in the alveolar walls is destroyed. Damage the control loop, and breathing falls short even with healthy lungs.",
+      "example": "For a decision-maker, the pattern is the useful part: list a system's core physical constraint, its maintenance layer and its controller, then ask how each fails."
+    },
+    {
+      "type": "think",
+      "question": "Your breathing controller steers by a proxy (CO2) that usually moves with the real target (oxygen supply) and is faster to read. Where do you steer by a proxy at work or in investing, and when would it decouple from what you actually care about?",
+      "nudges": [
+        "In what situations could CO2 be normal while oxygen is low?",
+        "What is your backstop sensor if the proxy breaks?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What best explains the lung's very large, very thin exchange surface?",
+          "options": [
+            {
+              "text": "Oxygen's low solubility gives it a low diffusion rate, so area and thinness have to compensate",
+              "correct": true,
+              "why": "Right. Exchange is passive diffusion, so geometry carries the load."
+            },
+            {
+              "text": "Alveoli actively pump oxygen into the blood",
+              "correct": false,
+              "why": "There's no pump; gas crosses by diffusion."
+            },
+            {
+              "text": "The large surface is mainly for cooling the blood",
+              "correct": false,
+              "why": "The surface exists for gas exchange."
+            },
+            {
+              "text": "It stores a reserve of oxygen for exercise",
+              "correct": false,
+              "why": "The alveoli are an exchange surface, not an oxygen tank."
+            }
+          ]
+        },
+        {
+          "q": "A patient on high-dose opioids is breathing too little despite healthy lung tissue. What's the best explanation?",
+          "options": [
+            {
+              "text": "The drug blunts the controller's response to rising CO2",
+              "correct": true,
+              "why": "Yes. The sensor-to-muscle loop is turned down."
+            },
+            {
+              "text": "Surfactant has stopped being made",
+              "correct": false,
+              "why": "The lung tissue is healthy here; this is a control problem."
+            },
+            {
+              "text": "The alveoli have lost surface area",
+              "correct": false,
+              "why": "That's the pneumonia or emphysema pattern, not a drug effect on control."
+            },
+            {
+              "text": "The bronchi have narrowed from irritation",
+              "correct": false,
+              "why": "Airway narrowing is a different mechanism; opioids act on the CO2 response."
+            }
+          ]
+        },
+        {
+          "q": "During steady exercise, metabolic CO2 production rises sharply. What happens to arterial PCO2?",
+          "options": [
+            {
+              "text": "It stays about the same, because ventilation rises to match",
+              "correct": true,
+              "why": "Right. The controller holds PCO2 steady from rest into exercise."
+            },
+            {
+              "text": "It climbs steadily until you stop",
+              "correct": false,
+              "why": "The chemoreceptor response increases ventilation enough to prevent that."
+            },
+            {
+              "text": "It falls far below resting levels",
+              "correct": false,
+              "why": "Not in ordinary exercise; it's held roughly constant. Only very short, intense bursts can push it lower."
+            },
+            {
+              "text": "It no longer affects breathing during exercise",
+              "correct": false,
+              "why": "CO2 sensing is exactly what drives the extra ventilation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Oxygen crosses into the blood by diffusion, which is why the lungs…",
+        "Surprisingly, your breathing rate is mostly set by…",
+        "That's why drugs like opioids can be dangerous: …"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "Cqt4LjHnMEA",
+    "title": "Respiratory System, Part 2: Crash Course Anatomy & Physiology #32",
+    "channel": "CrashCourse",
+    "duration_sec": 623,
+    "start": 128,
+    "end": 478,
+    "why": "A clip on partial-pressure gradients (why Everest is hard) and how CO2, heat and acidity loosen hemoglobin's grip on oxygen."
+  },
+  "sources": [
+    {
+      "title": "Pulmonary alveolus",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pulmonary_alveolus",
+      "supports": "About 480 million alveoli in a typical pair of lungs with 70–80 m² of gas-exchange surface; capillaries cover about 70% of each alveolus; oxygen's relatively low solubility (and hence rate of diffusion) requires the large internal surface area and very thin walls; type II cells secrete surfactant; elastic fibers; pneumonia fluid reduces effective surface area; in emphysema the elastin in the alveolar walls is broken down."
+    },
+    {
+      "title": "How the Lungs Work: The Respiratory System",
+      "publisher": "National Heart, Lung, and Blood Institute (NIH)",
+      "url": "https://www.nhlbi.nih.gov/health/lungs/respiratory-system",
+      "supports": "About 150 million alveoli; surfactant reduces the work of breathing by helping the lungs inflate and prevents collapse on exhalation; oxygen moves into the blood in capillaries and carbon dioxide moves out."
+    },
+    {
+      "title": "Control of ventilation",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Control_of_ventilation",
+      "supports": "Ventilatory rate is determined primarily by blood CO2; CO2 converts to carbonic acid, releasing hydrogen ions and lowering pH; central chemoreceptors on the medulla respond by increasing rate and depth; peripheral chemoreceptors in the carotid and aortic bodies sense oxygen and CO2; oxygen becomes important in hypoxia; PCO2 does not change from rest into exercise; opioids and anesthetics depress ventilation by decreasing the response to raised CO2."
+    }
+  ]
+}

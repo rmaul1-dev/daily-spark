@@ -1,0 +1,242 @@
+{
+  "id": "body-lungs-kid",
+  "topic": "body",
+  "subject": "lungs",
+  "level": "kid",
+  "title": "How Your Lungs Fill Up",
+  "emoji": "🫁",
+  "summary": "The muscle that pulls air in, the tiny air sacs, and the big oxygen swap.",
+  "minutes": 6,
+  "date_added": "2026-10-25",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What pulls air into your lungs?",
+      "answer": "A big muscle under your lungs called the diaphragm. It moves down, your chest gets bigger, and air rushes in.",
+      "options": [
+        {
+          "text": "The diaphragm, a big muscle under your lungs",
+          "correct": true
+        },
+        {
+          "text": "The lungs puff up all by themselves"
+        },
+        {
+          "text": "Your heart pushes the air in"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "What happens in the tiny air sacs called alveoli?",
+      "answer": "Oxygen moves from the air into your blood, and carbon dioxide moves from your blood into the air you breathe out.",
+      "options": [
+        {
+          "text": "Oxygen goes into your blood and carbon dioxide comes out",
+          "correct": true
+        },
+        {
+          "text": "Food gets broken down into tiny bits"
+        },
+        {
+          "text": "Dust gets stored there forever"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "Why don't you have to remember to breathe?",
+      "answer": "Your brain runs your breathing on its own. Sensors tell it how much oxygen and carbon dioxide are in your blood.",
+      "options": [
+        {
+          "text": "Your brain runs it on its own",
+          "correct": true
+        },
+        {
+          "text": "Your lungs have their own little brain"
+        },
+        {
+          "text": "You only breathe when you think about it"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "✋",
+      "title": "Hand on your belly",
+      "text": "Put one hand on your belly and take a big, slow breath. Feel it move? Your lungs are up in your chest, not in your belly. So what is doing the pushing down there?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "What do you think makes your lungs fill up with air?",
+      "options": [
+        {
+          "text": "A big muscle under your lungs",
+          "correct": true
+        },
+        {
+          "text": "The lungs puff up by themselves"
+        },
+        {
+          "text": "Your heart pumps air in"
+        }
+      ],
+      "reveal": "A muscle! Your lungs can't get bigger on their own. A muscle under them, called the diaphragm, moves down and makes room. Then air rushes in.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "💪",
+      "title": "A muscle does the pulling",
+      "text": "Your lungs are like sponges. They can't get bigger on their own. When you breathe in, a big muscle under them, the diaphragm (DYE-uh-fram), moves down. Muscles also lift your ribs up and out. Your chest gets bigger, and air rushes in.",
+      "example": "When you breathe out, the diaphragm moves back up. Your chest gets smaller, and air goes out.",
+      "why": {
+        "q": "Why does your belly move when you breathe in?",
+        "a": "The diaphragm sits between your chest and your belly. When it moves down toward your belly to make room for air, you can feel your belly move."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "👃",
+      "title": "Air takes a trip",
+      "text": "Air comes in through your nose or mouth. Your nose warms the air and makes it a bit wet. Tiny hairs called cilia (SIL-ee-uh) catch dust. Then the air goes down your windpipe. Stiff rings keep the windpipe open.",
+      "example": "When you swallow, a small flap called the epiglottis covers your windpipe. It keeps food and drinks out of your lungs."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌳",
+      "title": "An upside-down tree",
+      "text": "At the bottom, your windpipe splits into two tubes, one for each lung. Inside, the tubes split again and again, like tree branches. They get smaller and smaller. At the very ends are tiny air sacs called alveoli (al-VEE-uh-lie). You have hundreds of millions of them!"
+    },
+    {
+      "type": "idea",
+      "emoji": "🔄",
+      "title": "The big swap",
+      "text": "Each air sac is wrapped in tiny blood vessels. Oxygen from the air moves into your blood there. Red blood cells carry it all over your body. At the same time, carbon dioxide moves out of your blood and into the air sac. Then you breathe it out.",
+      "example": "Carbon dioxide is a waste gas. Your cells make it as they do their jobs, like a fire makes smoke.",
+      "why": {
+        "q": "Why do your cells need oxygen at all?",
+        "a": "The cells in your body need oxygen to stay alive. Breathing brings it in every few seconds."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🧠",
+      "title": "Your brain runs it",
+      "text": "You don't have to remember to breathe. Your brain does it for you. Sensors check how much oxygen and carbon dioxide are in your blood. When you run, your brain makes you breathe faster.",
+      "example": "You can take charge for a bit, like when you sing or hold your breath. But most of the time, your brain is in charge."
+    },
+    {
+      "type": "think",
+      "question": "Your body breathes for you, even when you sleep. What other things does your body do without you thinking about them?",
+      "nudges": [
+        "Think about your heart. Do you tell it to beat?",
+        "What happens when dust gets in your nose?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What happens to your chest when you breathe in?",
+          "options": [
+            {
+              "text": "It gets bigger, so air rushes in",
+              "correct": true,
+              "why": "Yes! The diaphragm moves down and your ribs move up and out."
+            },
+            {
+              "text": "It gets smaller, so air rushes in",
+              "correct": false,
+              "why": "Close, but it's the other way. A smaller chest pushes air out."
+            },
+            {
+              "text": "It stays the same size",
+              "correct": false,
+              "why": "Try it with a hand on your chest. Your chest gets bigger to pull air in."
+            }
+          ]
+        },
+        {
+          "q": "What are alveoli?",
+          "options": [
+            {
+              "text": "Tiny air sacs at the ends of the tubes in your lungs",
+              "correct": true,
+              "why": "Right! That is where oxygen goes into your blood."
+            },
+            {
+              "text": "Tiny hairs in your nose",
+              "correct": false,
+              "why": "Those are cilia. They catch dust."
+            },
+            {
+              "text": "The flap that covers your windpipe",
+              "correct": false,
+              "why": "That is the epiglottis. It keeps food out of your lungs."
+            }
+          ]
+        },
+        {
+          "q": "What do you breathe out that your body doesn't need?",
+          "options": [
+            {
+              "text": "Carbon dioxide",
+              "correct": true,
+              "why": "Yes! It is a waste gas your cells make."
+            },
+            {
+              "text": "Oxygen only",
+              "correct": false,
+              "why": "Oxygen is the gas your body needs. The waste gas is carbon dioxide."
+            },
+            {
+              "text": "Water from your stomach",
+              "correct": false,
+              "why": "Your stomach isn't part of breathing. The waste gas you breathe out is carbon dioxide."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "When I breathe in, a muscle called…",
+        "In the tiny air sacs…",
+        "I don't have to remember to breathe because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "0giiDDBJVQU",
+    "title": "How Your Lungs Work",
+    "channel": "Nemours KidsHealth",
+    "duration_sec": 321,
+    "why": "Chloe and the Nurb race down the windpipe to the alveoli, where oxygen moves into the blood. (Their alveoli count is one estimate.)"
+  },
+  "sources": [
+    {
+      "title": "Your Lungs & Respiratory System (for Kids)",
+      "publisher": "Nemours KidsHealth",
+      "url": "https://kidshealth.org/en/kids/lungs.html",
+      "supports": "Cells need oxygen to stay alive and make carbon dioxide as they do their jobs; breathing in, the diaphragm moves down and rib muscles pull the ribs up and out so the chest gets bigger and pulls air in, and the reverse pushes air out; the nose warms and humidifies air and cilia filter dust; the epiglottis covers the air passage when we swallow; the trachea has stiff rings of cartilage; the trachea divides into bronchi, then bronchioles, ending in alveoli; each person has hundreds of millions of alveoli; oxygen moves into the blood in capillaries and is carried by red blood cells; carbon dioxide passes into the alveoli to be exhaled."
+    },
+    {
+      "title": "How the Lungs Work: How Your Body Controls Breathing",
+      "publisher": "National Heart, Lung, and Blood Institute (NIH)",
+      "url": "https://www.nhlbi.nih.gov/health/lungs/body-controls-breathing",
+      "supports": "The lungs are like sponges and cannot get bigger on their own; the diaphragm is the main breathing muscle; breathing usually needs no thought; you breathe more often during physical activity; you can control breathing at times, such as holding your breath or singing; sensors in the brain and near blood vessels detect carbon dioxide and oxygen levels in the blood."
+    },
+    {
+      "title": "How the Lungs Work: The Respiratory System",
+      "publisher": "National Heart, Lung, and Blood Institute (NIH)",
+      "url": "https://www.nhlbi.nih.gov/health/lungs/respiratory-system",
+      "supports": "Air enters through the nose or mouth, which moisten and warm it; bronchial tubes branch into bronchioles that end in clusters of tiny air sacs called alveoli, each wrapped in tiny blood vessels called capillaries, where oxygen moves into the blood and carbon dioxide moves out."
+    }
+  ]
+}
