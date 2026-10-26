@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "topics": [
   {
    "id": "history",
@@ -326,6 +326,17 @@
     "kid": "body-lungs-kid"
    },
    "dinner_question": "If you could design a body that never had to breathe, what would it need instead, and what might go wrong?"
+  },
+  {
+   "date": "2026-11-03",
+   "topic": "money",
+   "title": "Don't put all your eggs in one basket",
+   "packs": {
+    "adult": "money-diversification-adult",
+    "teen": "money-diversification-teen",
+    "kid": "money-diversification-kid"
+   },
+   "dinner_question": "If our family could only own three very different things to protect us from bad luck, what would you pick, and why those three?"
   }
  ],
  "series": [
@@ -1450,6 +1461,45 @@
    "summary": "Marginal logic, shifts versus movements, price ceilings, and where the model breaks.",
    "minutes": 8,
    "date_added": "2026-10-19",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "money-diversification-kid",
+   "topic": "money",
+   "level": "kid",
+   "title": "Don't Put All Your Eggs in One Basket",
+   "emoji": "🧺",
+   "subject": "diversification",
+   "summary": "Why a smart seller sells umbrellas and sunglasses, and how spreading out lowers risk.",
+   "minutes": 6,
+   "date_added": "2026-10-26",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "money-diversification-teen",
+   "topic": "money",
+   "level": "teen",
+   "title": "Rain or Shine: How Diversification Cuts Risk",
+   "emoji": "🌦️",
+   "subject": "diversification",
+   "summary": "Why different beats more, how many stocks is enough, and the rebalancing habit.",
+   "minutes": 7,
+   "date_added": "2026-10-26",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "money-diversification-adult",
+   "topic": "money",
+   "level": "adult",
+   "title": "Diversification: What It Removes and What It Can't",
+   "emoji": "🧮",
+   "subject": "diversification",
+   "summary": "The covariance floor, the Elton–Gruber curve, crisis correlations, and rebalancing trade-offs.",
+   "minutes": 8,
+   "date_added": "2026-10-26",
    "cards": 10,
    "keys_count": 3
   },

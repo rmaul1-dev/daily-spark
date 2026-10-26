@@ -1,0 +1,211 @@
+{
+  "id": "money-diversification-adult",
+  "topic": "money",
+  "subject": "diversification",
+  "level": "adult",
+  "title": "Diversification: What It Removes and What It Can't",
+  "emoji": "🧮",
+  "summary": "The covariance floor, the Elton–Gruber curve, crisis correlations, and rebalancing trade-offs.",
+  "minutes": 8,
+  "date_added": "2026-10-26",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "In an equal-weighted portfolio, why can't adding stocks drive risk to zero?",
+      "answer": "Variance = (1/n)·avg variance + ((n−1)/n)·avg covariance. As n grows the first term vanishes; the average covariance remains."
+    },
+    {
+      "id": "k2",
+      "prompt": "What is the difference between diversifiable and non-diversifiable risk?",
+      "answer": "Diversifiable (idiosyncratic) risk is company-specific and shrinks as you add holdings; systematic (market) risk remains however many you hold."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why can diversification disappoint exactly when you need it?",
+      "answer": "Correlations aren't constant; research finds they tend to rise during market stress, shrinking the benefit."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "📉",
+      "title": "The floor under the curve",
+      "text": "Pick one stock at random and its annual returns swing hard: about 49% standard deviation on average, in Elton and Gruber's 1977 study of 3,290 securities. Add stocks and the swings shrink fast. But they never reach zero, no matter how many you add. Where does the floor come from?"
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "In that study, a random one-stock portfolio averaged a 49.24% standard deviation. What did random, equal-weighted 1,000-stock portfolios average?",
+      "estimate": {
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "unit": "%",
+        "answer": 19.21
+      },
+      "reveal": "About 19.2%, versus 20.9% at 30 stocks. Most of the reduction comes early; what remains is market-wide risk.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "🧮",
+      "title": "The covariance floor",
+      "text": "For an equal-weighted portfolio of n assets, variance = (1/n)·(average variance) + ((n−1)/n)·(average covariance). As n grows, the first term goes to zero and portfolio variance tends to the average covariance between holdings. Only if assets were uncorrelated (and equally volatile) would variance fall as σ²/n toward zero.",
+      "why": {
+        "q": "Why does the covariance term dominate as n grows?",
+        "a": "There are n variance terms but n(n−1) covariance terms. Weighting by 1/n² shrinks the variance part to (1/n)·avg variance while the covariance part approaches the full average covariance."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📊",
+      "title": "The empirical curve",
+      "text": "Elton and Gruber's averages of annual standard deviation: 1 stock 49.24%; 4 stocks 29.69% (0.60× one stock); 10 stocks 23.93% (0.49×); 30 stocks 20.87% (0.42×); 1,000 stocks 19.21% (0.39×). Even four stocks capture most of the reduction, and 30 is close to 1,000.",
+      "example": "That is why Investor.gov's rule of thumb is at least a dozen carefully selected stocks, and why many investors simply buy a total-market index fund that holds thousands."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎯",
+      "title": "What gets diversified away",
+      "text": "Own all of the S&P 500 and you're exposed only to the index. Own one member and you also carry that company's own risk. The first is non-diversifiable (systematic, market, beta) risk; the second is diversifiable (idiosyncratic) risk. CAPM argues investors are compensated only for the non-diversifiable kind. Other models dispute this.",
+      "why": {
+        "q": "Why would a model say idiosyncratic risk earns no extra return?",
+        "a": "In CAPM's logic, risk you could remove by holding more assets isn't rewarded; only risk that remains however many you hold is. Some other models do not accept this."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🌪️",
+      "title": "When correlations climb",
+      "text": "The floor isn't fixed. Research going back to Longin and Solnik (1995) found international equity correlations change over time and tend to rise during market stress, cutting the benefit when it's needed most. Historically stocks, bonds and cash haven't moved up and down together, which is why mixing asset classes matters. And per-asset fees can make over-diversification a net drag.",
+      "example": "False diversification: a narrowly focused sector fund isn't instant diversification, and every extra fund adds fees."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Rebalancing and its frictions",
+      "text": "Drift re-concentrates risk: a 60% stock target can become 80% after a rally. Restore it by selling over-weights, buying under-weights, or steering new contributions. Calendar rules (every 6–12 months) or preset bands both work; infrequent tends to be better. Check whether the method you use will trigger transaction fees or tax consequences.",
+      "example": "Allocation is not diversification: a 25-year-old 100% in stock may have a reasonable allocation, but it doesn't spread risk across categories."
+    },
+    {
+      "type": "think",
+      "question": "Diversification is measured across your whole balance sheet, not one account. Where is your own biggest concentration, and what is the strongest argument for keeping a concentrated bet rather than spreading it?",
+      "nudges": [
+        "What correlates with your income: an industry, an employer, a region?",
+        "When does conviction plus knowledge justify concentration, and what would prove you wrong?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "In an equal-weighted portfolio, as n → ∞ the portfolio variance tends to:",
+          "options": [
+            {
+              "text": "The average covariance between holdings",
+              "correct": true,
+              "why": "Right. The (1/n)·avg variance term vanishes."
+            },
+            {
+              "text": "Zero",
+              "correct": false,
+              "why": "Only if holdings were uncorrelated. Real stocks share market risk."
+            },
+            {
+              "text": "The average variance divided by 2",
+              "correct": false,
+              "why": "The variance term goes to zero, not to half."
+            },
+            {
+              "text": "The variance of the least risky asset",
+              "correct": false,
+              "why": "Diversification can push below that; the limit is the average covariance."
+            }
+          ]
+        },
+        {
+          "q": "You hold the entire S&P 500. Which risk remains?",
+          "options": [
+            {
+              "text": "Movements of the index itself",
+              "correct": true,
+              "why": "Yes. That's non-diversifiable, systematic risk."
+            },
+            {
+              "text": "Each company's specific risk, fully",
+              "correct": false,
+              "why": "Holding all 500 diversifies most of that away."
+            },
+            {
+              "text": "No risk at all",
+              "correct": false,
+              "why": "Market risk remains however many index stocks you hold."
+            },
+            {
+              "text": "Only bond-market risk",
+              "correct": false,
+              "why": "You hold stocks; the index's own moves are your exposure."
+            }
+          ]
+        },
+        {
+          "q": "Stocks drifted from a 60% target to 80%. Which rebalancing method avoids selling?",
+          "options": [
+            {
+              "text": "Direct new contributions to under-weighted categories",
+              "correct": true,
+              "why": "Right. It's slower but avoids the fees and taxes that selling can bring."
+            },
+            {
+              "text": "Sell stocks and buy bonds",
+              "correct": false,
+              "why": "That works, but selling can trigger transaction fees or tax consequences."
+            },
+            {
+              "text": "Raise the target to 80%",
+              "correct": false,
+              "why": "That changes the plan based on performance, which Investor.gov cautions against."
+            },
+            {
+              "text": "Wait for stocks to fall back",
+              "correct": false,
+              "why": "That's market timing, not rebalancing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Adding stocks cuts risk fast at first, but…",
+        "The risk you can't diversify away is…",
+        "Diversification can disappoint in a crash because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "Pmlsa5-ruMk",
+    "title": "How Diversification Works",
+    "channel": "The Plain Bagel",
+    "duration_sec": 654,
+    "start": 12,
+    "end": 577,
+    "why": "Idiosyncratic vs market risk, correlation, the shrinking marginal benefit and false diversification. Clipped to skip sponsor reads; his Google price aside is dated."
+  },
+  "sources": [
+    {
+      "title": "Diversification (finance)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Diversification_(finance)",
+      "supports": "Equal-weighted portfolio variance = (1/n)·average variance + ((n−1)/n)·average covariance, tending to the average covariance as n grows; uncorrelated equal-variance assets give σ²/n; Elton and Gruber (1977), 3,290 securities, average standard deviations and ratios for 1, 4, 10, 30 and 1,000 stocks, with four stocks giving most of the reduction and 30 close to 1,000; diversifiable (idiosyncratic) vs non-diversifiable (systematic, beta, market) risk and the S&P 500 example; CAPM says only non-diversifiable risk is compensated, other models dispute it; per-asset fees can cause over-diversification; Longin and Solnik (1995) and later studies: correlations change over time and tend to increase during market stress."
+    },
+    {
+      "title": "Beginners' Guide to Asset Allocation, Diversification, and Rebalancing",
+      "publisher": "Investor.gov (U.S. Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset",
+      "supports": "At least a dozen carefully selected individual stocks; total stock market index fund owns thousands of companies; 60% to 80% rebalancing example and the three ways to rebalance; calendar (six or twelve months) or threshold rebalancing, best done infrequently; savvy investors don't change allocation on relative performance; a 25-year-old investing entirely in stock may be a reasonable allocation but doesn't diversify across categories; returns of stocks, bonds and cash historically haven't moved up and down at the same time; narrowly focused funds don't give instant diversification and more investments add fees; rebalancing may trigger transaction fees or tax consequences."
+    }
+  ]
+}

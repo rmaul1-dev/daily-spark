@@ -1,0 +1,216 @@
+{
+  "id": "money-diversification-teen",
+  "topic": "money",
+  "subject": "diversification",
+  "level": "teen",
+  "title": "Rain or Shine: How Diversification Cuts Risk",
+  "emoji": "🌦️",
+  "summary": "Why different beats more, how many stocks is enough, and the rebalancing habit.",
+  "minutes": 7,
+  "date_added": "2026-10-26",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How does diversification reduce risk?",
+      "answer": "You spread money across investments that react differently, so when one falls, others may hold up or rise and offset it."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why does 'different' matter more than 'more' when diversifying?",
+      "answer": "Holdings that react to the same news move together. Two funds owning the same kind of stocks don't spread risk."
+    },
+    {
+      "id": "k3",
+      "prompt": "What is rebalancing?",
+      "answer": "Bringing your portfolio back to its planned mix, like trimming stocks from 80% back to a 60% target. It makes you sell high and buy low."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🎲",
+      "title": "One stock or a dozen?",
+      "text": "Two friends each have $1,000 to invest. One puts it all in a single hot stock. The other spreads it across many companies in different industries. If one company has a terrible year, who gets hurt more? And why isn't \"just own more stocks\" the whole answer?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "The SEC's Investor.gov says that if you pick individual stocks, you need at least how many to be truly diversified?",
+      "options": [
+        {
+          "text": "4 or 5"
+        },
+        {
+          "text": "At least a dozen",
+          "correct": true
+        },
+        {
+          "text": "At least 500"
+        }
+      ],
+      "reveal": "At least a dozen carefully selected stocks, says Investor.gov. Four or five isn't enough. That's one reason many investors use funds instead.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "☂️",
+      "title": "The umbrella seller's secret",
+      "text": "Street vendors often sell umbrellas and sunglasses. Rain sells umbrellas; sun sells sunglasses. Nobody buys both at once, and that's the point. By diversifying the product line, the vendor reduces the risk of losing money on any given day. Investing works the same way.",
+      "examples_by_interest": {
+        "golf": "Say you give golf lessons outdoors in summer and run an indoor golf simulator in winter. Whatever the season, one side of the business is likely bringing in money."
+      },
+      "why": {
+        "q": "Why does it help that nobody buys umbrellas and sunglasses together?",
+        "a": "Because their sales depend on opposite weather, a bad day for one tends to be a good day for the other, so the total stays steadier."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🧺",
+      "title": "Two levels of spreading",
+      "text": "Diversify between asset categories and within them. Stocks have historically had the highest risk and returns. Bonds are usually less volatile (they swing less) with more modest returns. Cash is safest but earns least. Historically, the three haven't moved up and down at the same time.",
+      "example": "Within stocks, spread across many companies and industry sectors, large and small companies, and other countries."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔢",
+      "title": "How many is enough?",
+      "text": "Four or five individual stocks won't diversify you. Investor.gov says you need at least a dozen carefully selected ones. That's hard, so many people use mutual funds, which pool money from many investors. A total stock market index fund owns stock in thousands of companies."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔗",
+      "title": "Different beats more",
+      "text": "Spreading helps most when holdings don't move in lockstep. In finance terms, the benefit is bigger when returns are less correlated, and biggest when they move in opposite directions. A fund that focuses on one industry sector doesn't give instant diversification, even if it owns many companies.",
+      "why": {
+        "q": "Why don't three funds that all focus on tech stocks spread your risk much?",
+        "a": "They hold the same kind of companies, so the same news hits all three. Spreading only works when holdings react differently."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Rebalancing",
+      "text": "Over time, winners grow into a bigger share. Say your plan is 60% stocks, and a rally pushes stocks to 80%. Rebalancing means selling some stocks or adding to the under-weighted parts to get back to 60%. It forces you to buy low and sell high. Watch for transaction fees and taxes.",
+      "example": "Many experts suggest checking every six or twelve months, or when a mix drifts past a limit you set in advance."
+    },
+    {
+      "type": "think",
+      "question": "Investor.gov says a 25-year-old putting everything into stocks for retirement can be a reasonable plan. When is it smart NOT to diversify across categories, and when is it reckless? Argue both sides.",
+      "nudges": [
+        "How does how long you can wait change the answer?",
+        "What about money you need next year, like a down payment?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Which pair diversifies a small shop best?",
+          "options": [
+            {
+              "text": "Umbrellas and sunglasses",
+              "correct": true,
+              "why": "Right. They sell in opposite weather, so the shop has sales rain or shine."
+            },
+            {
+              "text": "Umbrellas and raincoats",
+              "correct": false,
+              "why": "Both sell on rainy days. A sunny week hurts both."
+            },
+            {
+              "text": "Sunglasses and sunscreen",
+              "correct": false,
+              "why": "Both sell on sunny days. A rainy week hurts both."
+            },
+            {
+              "text": "Three colors of umbrella",
+              "correct": false,
+              "why": "That's more products, but they all depend on rain."
+            }
+          ]
+        },
+        {
+          "q": "Your plan is 60% stocks. After a big rally, stocks are 80%. What does rebalancing do?",
+          "options": [
+            {
+              "text": "Sell some stocks or add to other parts to get back near 60%",
+              "correct": true,
+              "why": "Yes. It returns you to your planned level of risk."
+            },
+            {
+              "text": "Buy more stocks since they're winning",
+              "correct": false,
+              "why": "That raises your risk further. Rebalancing trims winners back to the plan."
+            },
+            {
+              "text": "Change your plan to 80% stocks",
+              "correct": false,
+              "why": "Investor.gov says savvy investors don't change their mix just because one part is hot."
+            },
+            {
+              "text": "Sell everything and hold cash",
+              "correct": false,
+              "why": "That abandons the plan instead of restoring it."
+            }
+          ]
+        },
+        {
+          "q": "Which gives the least real diversification?",
+          "options": [
+            {
+              "text": "Three funds that all focus on the tech sector",
+              "correct": true,
+              "why": "Right. Same kind of companies, same risks."
+            },
+            {
+              "text": "A stock fund, a bond fund and a money market fund",
+              "correct": false,
+              "why": "Those categories historically haven't moved up and down together, so this is real spreading."
+            },
+            {
+              "text": "Large-company, small-company and international stock funds",
+              "correct": false,
+              "why": "Different company sizes and countries is one way to spread within stocks."
+            },
+            {
+              "text": "Owning a total stock market index fund",
+              "correct": false,
+              "why": "It holds thousands of companies across the market."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Diversification works because…",
+        "Owning more stocks doesn't help if…",
+        "Rebalancing means…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "qY-xgy_kl78",
+    "title": "What is Diversification? A Beginners Guide to Reducing Investment Risk",
+    "channel": "Money Instructor",
+    "duration_sec": 348,
+    "why": "A clear walk through asset, sector and geographic diversification, why lots of tech stocks isn't diversified, and why rebalancing matters."
+  },
+  "sources": [
+    {
+      "title": "Beginners' Guide to Asset Allocation, Diversification, and Rebalancing",
+      "publisher": "Investor.gov (U.S. Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset",
+      "supports": "Street vendors sell umbrellas and sunglasses, and diversifying the product line reduces the risk of losing money on any given day; diversify between and within asset categories; stocks historically greatest risk and highest returns, bonds generally less volatile with modest returns, cash safest with lowest return; returns of the three major categories historically have not moved up and down at the same time; four or five stocks isn't diversified, you need at least a dozen carefully selected individual stocks; mutual funds pool money and a total stock market index fund owns thousands of companies; a 25-year-old investing entirely in stock for retirement might be reasonable; the 60% to 80% rebalancing example; rebalancing forces you to buy low and sell high; savvy investors don't change allocation because a category is hot; rebalance every six or twelve months or past a preset threshold; consider transaction fees and tax consequences; diversify within stocks across a wide range of companies and industry sectors, large and small company and international funds; a mutual fund focused on one industry sector doesn't give instant diversification."
+    },
+    {
+      "title": "Diversification (finance)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Diversification_(finance)",
+      "supports": "Diversification's favorable effect on portfolio variance is enhanced if assets are negatively correlated and diminished (though not eliminated) if they are positively correlated."
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "id": "money-diversification-kid",
+  "topic": "money",
+  "subject": "diversification",
+  "level": "kid",
+  "title": "Don't Put All Your Eggs in One Basket",
+  "emoji": "🧺",
+  "summary": "Why a smart seller sells umbrellas and sunglasses, and how spreading out lowers risk.",
+  "minutes": 6,
+  "date_added": "2026-10-26",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What does diversification mean?",
+      "answer": "Spreading your money over many different things, so one bad one can't sink you.",
+      "options": [
+        {
+          "text": "Spreading your money over many different things",
+          "correct": true
+        },
+        {
+          "text": "Putting all your money in your favorite thing"
+        },
+        {
+          "text": "Keeping your money a secret"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Why would a street seller sell umbrellas and sunglasses?",
+      "answer": "Umbrellas sell on rainy days and sunglasses sell on sunny days, so the seller has something to sell rain or shine.",
+      "options": [
+        {
+          "text": "So there's something to sell, rain or shine",
+          "correct": true
+        },
+        {
+          "text": "Because people always buy both at once"
+        },
+        {
+          "text": "Because they are the cheapest things to make"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "Can spreading out promise you will never lose money?",
+      "answer": "No. It can't promise that. But it makes it less likely that you lose a lot all at once.",
+      "options": [
+        {
+          "text": "No, but it makes big losses less likely",
+          "correct": true
+        },
+        {
+          "text": "Yes, you can never lose money"
+        },
+        {
+          "text": "No, it makes losing money more likely"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🥚",
+      "title": "One basket or three?",
+      "text": "Imagine you carry twelve eggs home in one basket. You trip. Oh no! Now imagine you had split them into three baskets and you trip. What is different this time?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "A street seller sells umbrellas and sunglasses. Why do you think they sell both?",
+      "options": [
+        {
+          "text": "So there's something to sell, rain or shine",
+          "correct": true
+        },
+        {
+          "text": "Because people always buy both at once"
+        },
+        {
+          "text": "Because they are both small"
+        }
+      ],
+      "reveal": "Rain or shine! On rainy days, umbrellas sell. On sunny days, sunglasses sell. Selling both makes a bad day less likely.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "☂️",
+      "title": "Rain or shine",
+      "text": "When it rains, umbrellas sell, but sunglasses don't. When it's sunny, it flips. So a smart seller sells both. That way the seller is less likely to lose money on any one day.",
+      "example": "Say your lemonade stand also sells hot cocoa. On hot days, lemonade sells. On cold days, cocoa sells.",
+      "why": {
+        "q": "Why is it smart to sell two things that sell on different days?",
+        "a": "When one thing isn't selling, the other one might be. So a bad day for one isn't a bad day for the whole stand."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🧺",
+      "title": "A big word",
+      "text": "Spreading your money over many different things has a name. It's called diversification (dih-VER-sih-fih-KAY-shun). It's like using more than one basket. If one thing does badly, the others can help make up for it.",
+      "example": "Grown-ups say it like this: \"Don't put all your eggs in one basket.\""
+    },
+    {
+      "type": "idea",
+      "emoji": "🏢",
+      "title": "Different, not just more",
+      "text": "Lots of things only help if they are different. Ten toy companies could all have a bad year at the same time. A toy company, a food company and a game company are less likely to all have a bad year together.",
+      "example": "Two baskets that sit on the same wobbly shelf can both fall. Put them in different places.",
+      "why": {
+        "q": "Why doesn't owning ten toy companies spread your risk very much?",
+        "a": "They are all the same kind of business. The same bad news, like fewer kids buying toys, could hurt all ten at once."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🍕",
+      "title": "Tiny slices of many companies",
+      "text": "A fund lets lots of people put their money together. The fund then buys small pieces of many companies. One kind of fund owns parts of thousands of companies! That is a lot of baskets."
+    },
+    {
+      "type": "idea",
+      "emoji": "🛟",
+      "title": "Not magic",
+      "text": "Spreading out can't promise you will never lose money. If the whole market drops, lots of things can drop at once. But spreading out makes it less likely that you lose a lot all at once."
+    },
+    {
+      "type": "think",
+      "question": "Where else in life is it smart to use more than one basket?",
+      "nudges": [
+        "Think about friends. What if you only had one friend and they moved away?",
+        "Think about sports or hobbies. What if your only one got canceled?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What does diversification mean?",
+          "options": [
+            {
+              "text": "Spreading your money over many different things",
+              "correct": true,
+              "why": "Yes! Like using more than one basket."
+            },
+            {
+              "text": "Putting all your money in one thing you like",
+              "correct": false,
+              "why": "That's all your eggs in one basket. Diversification spreads them out."
+            },
+            {
+              "text": "Hiding your money under your bed",
+              "correct": false,
+              "why": "That keeps it in one place. Diversification means spreading it out."
+            }
+          ]
+        },
+        {
+          "q": "Which lemonade stand spreads its risk best?",
+          "options": [
+            {
+              "text": "One that also sells hot cocoa",
+              "correct": true,
+              "why": "Right! Cocoa can sell on cold days when lemonade doesn't."
+            },
+            {
+              "text": "One that sells three kinds of lemonade",
+              "correct": false,
+              "why": "Those all sell best on hot days. On a cold day, all three are slow."
+            },
+            {
+              "text": "One that only opens on hot days",
+              "correct": false,
+              "why": "That doesn't spread risk. It just means fewer days to sell."
+            }
+          ]
+        },
+        {
+          "q": "Can spreading out promise you never lose money?",
+          "options": [
+            {
+              "text": "No, but it makes big losses less likely",
+              "correct": true,
+              "why": "Yes! It isn't magic, but it helps."
+            },
+            {
+              "text": "Yes, always",
+              "correct": false,
+              "why": "If the whole market drops, lots of things can drop together."
+            },
+            {
+              "text": "No, it makes losing more likely",
+              "correct": false,
+              "why": "It's the other way. Spreading out makes big losses less likely."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Diversification means…",
+        "A street seller sells umbrellas and sunglasses because…",
+        "Spreading out isn't magic, but…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "kb6IVAdlTrI",
+    "title": "Episode 20 - Diversification - Money Explained for Kids | Nia & Hari Will Teach You | SmartKidsMoney",
+    "channel": "Smart Kids Money",
+    "duration_sec": 262,
+    "start": 0,
+    "end": 229,
+    "why": "Two kids use eggs, baskets and pretend toy, food and game companies to show why spreading out lowers risk. (It stops before the subscribe ending.)"
+  },
+  "sources": [
+    {
+      "title": "Beginners' Guide to Asset Allocation, Diversification, and Rebalancing",
+      "publisher": "Investor.gov (U.S. Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset",
+      "supports": "Street vendors sell umbrellas and sunglasses because each sells in different weather, and selling both reduces the risk of losing money on any given day; spreading money among different investments to reduce risk is called diversification; 'don't put all your eggs in one basket'; spreading within a category means investing in segments and industry sectors that may perform differently under different market conditions, and a fund focused on one industry sector doesn't give instant diversification; a mutual fund pools money from many investors; a total stock market index fund owns stock in thousands of companies."
+    },
+    {
+      "title": "Diversify Your Investments",
+      "publisher": "Investor.gov (U.S. Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/save-and-invest/diversify-your-investments",
+      "supports": "Diversification is summed up as 'Don't put all your eggs in one basket'; if one investment loses money, others may make up for it; it can't guarantee investments won't suffer if the market drops, but it can improve the chances you won't lose money, or won't lose as much."
+    }
+  ]
+}
