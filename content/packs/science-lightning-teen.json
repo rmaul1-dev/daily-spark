@@ -1,0 +1,222 @@
+{
+  "id": "science-lightning-teen",
+  "topic": "science",
+  "subject": "lightning",
+  "level": "teen",
+  "title": "The Spark That Splits the Sky",
+  "emoji": "⚡",
+  "summary": "How a storm cloud charges up, how a bolt picks its target, and why thunder means you're in range.",
+  "minutes": 7,
+  "date_added": "2026-10-27",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How does a thunderstorm cloud become electrically charged?",
+      "answer": "Collisions between light ice crystals and heavier hail charge them. Updrafts carry the positive crystals up, leaving the middle and lower cloud negative."
+    },
+    {
+      "id": "k2",
+      "prompt": "What decides where lightning strikes?",
+      "answer": "Mostly height, pointy shape and isolation. Metal doesn't attract lightning, though it does conduct it."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why does hearing thunder mean you're in danger?",
+      "answer": "Thunder carries about 10 miles, and lightning can strike about 10 miles from a storm, so if you can hear it you're within striking distance."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🏙️",
+      "title": "So much for 'never twice'",
+      "text": "The Empire State Building gets hit by lightning about 23 times a year. So the old saying that lightning never strikes the same place twice is flat wrong. Which raises a better question: how does a bolt pick where to land?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "You're outside in a storm. Which matters most for where lightning strikes?",
+      "options": [
+        {
+          "text": "How much metal is nearby"
+        },
+        {
+          "text": "Height, pointy shape and isolation",
+          "correct": true
+        },
+        {
+          "text": "It's completely random"
+        }
+      ],
+      "reveal": "Height, pointy shape and isolation dominate. Metal makes no difference to where lightning strikes, though it does carry the current once it hits.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "☁️",
+      "title": "Charging a storm cloud",
+      "text": "Inside a thunderstorm, rising air (an updraft) tosses ice crystals and small hail around. Collisions charge them: the light crystals turn positive and get carried to the top, while the heavier hail turns negative and stays lower. The cloud ends up positive on top, negative in the middle, and the ground below picks up a positive charge.",
+      "why": {
+        "q": "Why do the charges end up in separate layers?",
+        "a": "The updraft sorts particles by weight. Light positive crystals ride up to the top; heavier negative hail hangs in the middle or falls."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🔌",
+      "title": "Air holds, then breaks",
+      "text": "Air is an insulator, meaning it blocks electric current. As charge builds, the difference gets too big and the air breaks down. A channel called a stepped leader grows down from the cloud, and tall grounded objects send up streamers to meet it. When they connect, current surges through: the return stroke, the bright flash, moving at about 100,000 km per second.",
+      "example": "That's about one third of the speed of light."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎯",
+      "title": "How a bolt picks a target",
+      "text": "The electric field is strongest on grounded objects whose tops are closest to the cloud, so tall, pointy, isolated things get hit most: trees, towers, mountains. Metal doesn't attract lightning. But metal conducts it, so stay away from metal fences, railings and bleachers in a storm.",
+      "example": "That's why the same skyscraper can be hit again and again."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔊",
+      "title": "Thunder as a rangefinder",
+      "text": "The bolt can heat the air to 50,000°F, roughly 5 times hotter than the Sun's surface. The air expands so fast it makes a sound wave: thunder. Light arrives almost instantly, but thunder takes about 5 seconds per mile. Count the seconds and divide by 5 to get miles.",
+      "examples_by_interest": {
+        "golf": "Say you're on the 7th hole and count 20 seconds from flash to thunder. 20 ÷ 5 = 4 miles. Lightning can strike about 10 miles from a storm, so you're in range: head for the clubhouse now, not after the putt."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🏠",
+      "title": "No safe place outside",
+      "text": "You can hear thunder about 10 miles away, and lightning can strike that far from a storm, so thunder means you're in range. 'Bolts from the blue' can even hit 10 to 15 miles away. Crouching doesn't make you safer, and standing under a tree is the second leading cause of lightning casualties. Get into a solid building or hard-topped vehicle.",
+      "why": {
+        "q": "Why isn't waiting until it starts raining good enough?",
+        "a": "Lightning often strikes more than three miles from the center of the storm, far outside the rain."
+      }
+    },
+    {
+      "type": "think",
+      "question": "Many lightning casualties happen because people don't seek shelter soon enough. If you ran a golf tournament or a soccer league, what lightning rule would you set, and what would it cost you?",
+      "nudges": [
+        "Who loses if you stop play too often?",
+        "How would you make sure people actually follow the rule?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "In a typical thunderstorm, which part of the cloud ends up positively charged?",
+          "options": [
+            {
+              "text": "The top, where updrafts carry light ice crystals",
+              "correct": true,
+              "why": "Right. Light crystals turn positive and ride up to the top."
+            },
+            {
+              "text": "The middle, where the hail is",
+              "correct": false,
+              "why": "The heavier hail turns negative, so the middle is mostly negative."
+            },
+            {
+              "text": "None of it; clouds have no charge",
+              "correct": false,
+              "why": "Collisions between ice and hail definitely charge the cloud."
+            },
+            {
+              "text": "Only the rain at the bottom",
+              "correct": false,
+              "why": "There is a small positive charge near the bottom, but the big positive region is the top."
+            }
+          ]
+        },
+        {
+          "q": "You count 25 seconds between flash and thunder. About how far away was the strike?",
+          "options": [
+            {
+              "text": "About 5 miles",
+              "correct": true,
+              "why": "Yes. 25 ÷ 5 = 5 miles, well within striking range."
+            },
+            {
+              "text": "About 25 miles",
+              "correct": false,
+              "why": "You need to divide by 5. Sound takes about 5 seconds per mile."
+            },
+            {
+              "text": "About 125 miles",
+              "correct": false,
+              "why": "That's multiplying. Divide by 5 instead."
+            },
+            {
+              "text": "You can't tell from the delay",
+              "correct": false,
+              "why": "You can. Light is nearly instant and sound covers about a mile every 5 seconds."
+            }
+          ]
+        },
+        {
+          "q": "Your friend takes off their metal watch during a storm 'so lightning won't target me'. What's the best reply?",
+          "options": [
+            {
+              "text": "Metal doesn't change where lightning strikes; get inside instead",
+              "correct": true,
+              "why": "Exactly. Height, shape and isolation matter, and wasting time is the real danger."
+            },
+            {
+              "text": "Good idea, metal attracts lightning",
+              "correct": false,
+              "why": "That's a myth. Metal makes no difference to where lightning strikes."
+            },
+            {
+              "text": "Better to lie flat on the ground",
+              "correct": false,
+              "why": "Lying flat raises your exposure to dangerous ground current."
+            },
+            {
+              "text": "Crouch down and wait it out",
+              "correct": false,
+              "why": "Crouching doesn't make you safer outdoors. Get to shelter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "A storm cloud charges up because…",
+        "Lightning tends to hit…",
+        "If you can hear thunder…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Understanding Lightning Science",
+      "publisher": "National Weather Service (NOAA)",
+      "url": "https://www.weather.gov/safety/lightning-science-overview",
+      "supports": "Updrafts and collisions charge particles: light ice crystals become positive and are carried to the top, heavier hail becomes negative in the middle and lower cloud, with a small positive charge near the bottom; the ground beneath becomes positively charged; air acts as an insulator until the charge difference is too great; lightning heats air to 50,000°F, about 5 times hotter than the Sun's surface; thunder travels about a mile every 5 seconds; thunder is heard about 10 miles away and lightning can strike 10 miles from a storm."
+    },
+    {
+      "title": "Lightning Myths",
+      "publisher": "National Weather Service (NOAA)",
+      "url": "https://www.weather.gov/safety/lightning-myths",
+      "supports": "Empire State Building hit about 23 times a year; lightning strikes tall, pointy, isolated objects repeatedly; height, pointy shape and isolation dominate where lightning strikes and metal makes no difference, though metal conducts it, so avoid metal fences, railings and bleachers; lightning often strikes more than three miles from the storm center and bolts from the blue can hit 10–15 miles away; crouching doesn't make you safer; being under a tree is the second leading cause of lightning casualties; lying flat increases exposure to ground current; many casualties occur because people don't seek shelter soon enough; go to a substantial building or hard-topped vehicle."
+    },
+    {
+      "title": "Lightning",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lightning",
+      "supports": "Cloud-to-ground lightning is initiated by a stepped leader moving down, met by a streamer moving up; the electric field is strongest on grounded objects whose tops are closest to the cloud base, such as trees and tall buildings; the return stroke current travels around 100,000 km/s, about one third the speed of light."
+    }
+  ],
+  "video": {
+    "youtube_id": "lQGFvKAujb8",
+    "title": "How does lightning form?",
+    "channel": "Met Office - Learn About Weather",
+    "duration_sec": 217,
+    "why": "The UK's weather service walks through hail and ice colliding, stepped leaders meeting upward streamers, the return stroke, and why the heat makes thunder."
+  }
+}

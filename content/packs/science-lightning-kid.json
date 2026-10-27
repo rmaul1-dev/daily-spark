@@ -1,0 +1,245 @@
+{
+  "id": "science-lightning-kid",
+  "topic": "science",
+  "subject": "lightning",
+  "level": "kid",
+  "title": "Lightning and Thunder",
+  "emoji": "⚡",
+  "summary": "Lightning is a giant spark, and thunder is the sound of air heated in a flash.",
+  "minutes": 6,
+  "date_added": "2026-10-27",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What makes lightning in a storm cloud?",
+      "answer": "Bits of ice and hail bump into each other and build up electric charge. When the charge gets too big, a giant spark jumps.",
+      "options": [
+        {
+          "text": "Ice and hail bump and build up charge until a spark jumps",
+          "correct": true
+        },
+        {
+          "text": "The Sun shines through the cloud and lights it up"
+        },
+        {
+          "text": "Rain drops rub on the ground and glow"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "What makes the sound of thunder?",
+      "answer": "Lightning heats the air so fast that it spreads out and shrinks back quickly. That push makes the sound wave we hear.",
+      "options": [
+        {
+          "text": "Air heated by lightning spreads out fast and makes a sound wave",
+          "correct": true
+        },
+        {
+          "text": "Two clouds crash into each other"
+        },
+        {
+          "text": "The lightning bolt hits the ground and cracks it"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "How can you tell about how far away lightning was?",
+      "answer": "Count the seconds from the flash to the thunder, then divide by 5. That gives you the miles.",
+      "options": [
+        {
+          "text": "Count the seconds from flash to thunder and divide by 5",
+          "correct": true
+        },
+        {
+          "text": "See how bright the flash was"
+        },
+        {
+          "text": "Count the seconds and add 5"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌩️",
+      "title": "Count the seconds",
+      "text": "Next time there is a storm, watch for a flash. Then count the seconds until the boom. That number is a clue. It tells you how far away the lightning was!"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Lightning heats the air it zips through. How hot do you think that air gets?",
+      "options": [
+        {
+          "text": "As hot as a campfire"
+        },
+        {
+          "text": "As hot as an oven"
+        },
+        {
+          "text": "About 5 times hotter than the Sun's surface",
+          "correct": true
+        }
+      ],
+      "reveal": "It can reach 50,000 degrees Fahrenheit. That is about 5 times hotter than the surface of the Sun!",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "⚡",
+      "title": "A giant spark",
+      "text": "Storm clouds are full of tiny bits of ice and small hail. Air moves them up and down, and they bump into each other. The bumps give them an electric charge. When the charge gets too big, a giant spark jumps. That spark is lightning.",
+      "example": "Some lightning stays inside the cloud. Some jumps all the way down to the ground.",
+      "why": {
+        "q": "Why does the spark wait until the charge gets really big?",
+        "a": "Air usually blocks electricity. When the charge gets too big, the air can't hold it back, and the spark jumps."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "💥",
+      "title": "Thunder is hot air",
+      "text": "Lightning heats the air around it in a flash. It can get up to 50,000 degrees Fahrenheit! The hot air spreads out super fast. Then it cools and shrinks fast. That quick push and pull makes the sound we hear as thunder.",
+      "example": "So every boom of thunder comes from a flash of lightning."
+    },
+    {
+      "type": "idea",
+      "emoji": "⏱️",
+      "title": "Count to find the storm",
+      "text": "You see the flash right away. But the sound of thunder takes about 5 seconds to go one mile. So count the seconds from flash to boom. Then divide by 5 to get the miles.",
+      "example": "Count 10 seconds? The lightning was about 2 miles away. Do your counting from a safe place inside.",
+      "examples_by_interest": {
+        "soccer": "Say you are at soccer practice and you count 15 seconds from flash to boom. 15 divided by 5 is 3, so the lightning was about 3 miles away. That is close enough to reach you, so it is time to go inside."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🏠",
+      "title": "When thunder roars, go indoors",
+      "text": "You can hear thunder about 10 miles from the lightning. Lightning can also strike about that far from a storm. So if you can hear thunder, the storm is close enough to reach you. Go into a big building or a car with a hard roof.",
+      "why": {
+        "q": "Why is a tree a bad place to wait out a storm?",
+        "a": "Lightning often hits tall things like trees. Standing under a tree is one of the top ways people get hurt by lightning."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🏙️",
+      "title": "It can strike twice",
+      "text": "People say lightning never strikes the same place twice. That is a myth! Lightning often hits tall, pointy things again and again. The Empire State Building is hit about 23 times a year.",
+      "example": "Tall trees and mountains get hit many times a year too."
+    },
+    {
+      "type": "think",
+      "question": "Lots of people get hurt because they wait too long to go inside. Why do you think people keep playing when they hear thunder far away?",
+      "nudges": [
+        "Does far-away thunder feel scary or safe?",
+        "What could help a whole team remember to go in?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What makes lightning?",
+          "options": [
+            {
+              "text": "Ice and hail bump and build up charge until a spark jumps",
+              "correct": true,
+              "why": "Yes. Lightning is a giant spark of electricity."
+            },
+            {
+              "text": "Sunlight heats the cloud until it glows",
+              "correct": false,
+              "why": "Sunlight isn't the cause. The charge builds up inside the storm cloud."
+            },
+            {
+              "text": "Rain falls very fast",
+              "correct": false,
+              "why": "Rain is part of a storm, but the spark comes from built-up charge."
+            }
+          ]
+        },
+        {
+          "q": "You count 20 seconds from flash to thunder. How far away was the lightning?",
+          "options": [
+            {
+              "text": "About 4 miles",
+              "correct": true,
+              "why": "Right. 20 divided by 5 is 4."
+            },
+            {
+              "text": "About 20 miles",
+              "correct": false,
+              "why": "Close, but you need to divide by 5. That gives 4."
+            },
+            {
+              "text": "About 100 miles",
+              "correct": false,
+              "why": "That would be times 5. Divide by 5 instead."
+            }
+          ]
+        },
+        {
+          "q": "You hear thunder during a game outside. What should you do?",
+          "options": [
+            {
+              "text": "Go inside a building or a hard-roof car now",
+              "correct": true,
+              "why": "Yes. If you hear thunder, the storm is close enough to reach you."
+            },
+            {
+              "text": "Finish the game first",
+              "correct": false,
+              "why": "Many people get hurt by waiting. No game is worth it."
+            },
+            {
+              "text": "Stand under a tall tree",
+              "correct": false,
+              "why": "Trees often get hit. Being under one is not safe."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Lightning is…",
+        "Thunder happens because…",
+        "When you hear thunder, you should…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Understanding Lightning Science",
+      "publisher": "National Weather Service (NOAA)",
+      "url": "https://www.weather.gov/safety/lightning-science-overview",
+      "supports": "Thunderstorm clouds hold ice crystals and small hail; collisions in the cloud charge the particles; air normally insulates, and when the charge difference is too great it breaks down and lightning discharges; lightning is a giant spark of electricity; lightning can be within the cloud or cloud-to-ground; thunder is heard about 10 miles away and lightning can strike 10 miles from a storm; lightning heats air to 50,000°F, about 5 times hotter than the Sun's surface; thunder travels about a mile every 5 seconds, so seconds divided by 5 gives miles (10 seconds is 2 miles)."
+    },
+    {
+      "title": "Understanding Lightning: Thunder",
+      "publisher": "National Weather Service (NOAA)",
+      "url": "https://www.weather.gov/safety/lightning-science-thunder",
+      "supports": "Thunder is created when lightning heats the air rapidly so it expands, then cools and contracts quickly, making the sound wave we hear; 15 seconds = 3 miles; count from a safe place; if you can hear thunder you are likely within striking distance."
+    },
+    {
+      "title": "Lightning Myths",
+      "publisher": "National Weather Service (NOAA)",
+      "url": "https://www.weather.gov/safety/lightning-myths",
+      "supports": "Lightning often strikes the same place repeatedly, especially tall, pointy, isolated objects; the Empire State Building is hit about 23 times a year; trees and mountains get struck many times a year; being under a tree is the second leading cause of lightning casualties; many casualties happen because people don't seek shelter soon enough, and no game is worth it; go to a substantial building or hard-topped vehicle."
+    }
+  ],
+  "video": {
+    "youtube_id": "VqXnN_FQfrc",
+    "title": "What Causes Lightning?",
+    "channel": "NOAA SciJinks",
+    "duration_sec": 165,
+    "why": "A short NOAA video that shows ice bits crashing in a storm cloud, building up charge, and the spark that jumps to the ground."
+  }
+}

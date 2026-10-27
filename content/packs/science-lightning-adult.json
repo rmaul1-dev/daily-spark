@@ -1,0 +1,217 @@
+{
+  "id": "science-lightning-adult",
+  "topic": "science",
+  "subject": "lightning",
+  "level": "adult",
+  "title": "Inside a Lightning Flash",
+  "emoji": "⚡",
+  "summary": "Charge separation, leaders and return strokes, and what thunder tells you about risk.",
+  "minutes": 8,
+  "date_added": "2026-10-27",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is the return stroke, and why is it so bright and hot?",
+      "answer": "When a downward leader connects with an upward one, current surges through the low-resistance path, superheating the channel into plasma; that surge is the bright flash."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why does thunder rumble instead of a single bang?",
+      "answer": "The channel runs for miles. You hear the nearest part first and sound from farther segments arrives later."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why did lightning-safety guidance widen the 'safe distance' from the last flash?",
+      "answer": "Newer data showed half of successive flashes were about 9 km apart, not the 3–4 km once assumed, so the old 2–3 mile rule was too tight."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌍",
+      "title": "Common, and still not fully understood",
+      "text": "Lightning is everywhere in Earth's skies, yet the very first step of a flash, how a conductive channel called a leader gets started inside a cloud, is still described as a process that is not well understood. Lots of observation, one stubborn gap."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "Averaged over the whole planet, about how many lightning flashes happen every second?",
+      "estimate": {
+        "min": 0,
+        "max": 200,
+        "step": 1,
+        "unit": "per second",
+        "answer": 44
+      },
+      "reveal": "About 44 (±5) per second, nearly 1.4 billion flashes a year.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "☁️",
+      "title": "Building the charge",
+      "text": "Global monitoring puts lightning at about 44 flashes a second, nearly 1.4 billion a year. The engine is a storm cloud whose charges have been separated into layers, which creates a strong electric field. Air resists current, so charge keeps building until the field can drive a discharge. Some flashes stay in the cloud; cloud-to-ground strikes are the ones that reach us.",
+      "example": "Think of it as a capacitor charging: nothing visible happens until the dielectric (the air) gives way."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌳",
+      "title": "Leaders and attachment",
+      "text": "A bidirectional channel of ionized air, a leader, forms between oppositely charged regions. For a typical ground flash, a negative stepped leader works down from the cloud. Near the ground the field is strongest on tall grounded objects, which launch upward streamers. When one connects with the downward leader, called attachment, it creates a low-resistance path. Unconnected branches explain the forked look.",
+      "why": {
+        "q": "Why do tall objects get hit more often, but not always?",
+        "a": "The field is strongest on objects whose tops are closest to the cloud, so they send streamers first; but whichever streamer meets the leader first sets the path."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⚡",
+      "title": "The return stroke",
+      "text": "Once the gap is bridged, resistance collapses and electrons accelerate, the current front moving at about 100,000 km/s, a third of light speed. Return-stroke current averages about 30 kiloamperes in a typical negative flash and superheats the channel into plasma that can exceed 50,000°F. Faster, weaker dart leaders then trigger repeat strokes that usually reuse the same channel, which is why a flash flickers.",
+      "example": "Wind can shift the hot channel between strokes, so repeat strokes may appear offset."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔊",
+      "title": "Thunder as information",
+      "text": "The channel heats air to as much as 50,000°F; it expands, then cools and contracts, creating the sound wave we call thunder. Sound takes about 5 seconds per mile, so seconds ÷ 5 gives distance. Because the channel spans miles, you hear the nearest section first: a sharp crack means it passed close, a rumble means several miles away. Thunder carries only about 10 miles.",
+      "why": {
+        "q": "Why does audible thunder imply real risk?",
+        "a": "Thunder is heard about 10 miles out, and 'bolts from the blue' can hit 10–15 miles from a storm, so hearing it means you're within striking distance."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📊",
+      "title": "When the data moved the rule",
+      "text": "Safety education once treated 3–5 km (2–3 miles) from the previous flash as relatively safe, based on data that successive flashes were 3–4 km apart. Newer measurements found half of flashes were about 9 km apart, and a National Severe Storms Laboratory report concluded the distance should rise to at least 10–13 km (6–8 miles). Same physics, better data, a wider margin.",
+      "example": "A clean case of updating a rule of thumb when the distribution, not just the average, gets measured properly."
+    },
+    {
+      "type": "think",
+      "question": "Lightning is low-probability but high-severity, and many casualties come from people not seeking shelter soon enough. If you set the policy for a golf course or a job site, how would you balance lost time against risk, and how would you get people to actually comply?",
+      "nudges": [
+        "What does a false alarm cost versus a miss?",
+        "Would a bright-line rule ('thunder means stop') beat judgment calls here?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What creates the brilliant flash we see in a cloud-to-ground strike?",
+          "options": [
+            {
+              "text": "The return stroke, after the downward leader connects with an upward streamer",
+              "correct": true,
+              "why": "Right. The connection opens a low-resistance path and the current surge superheats the channel."
+            },
+            {
+              "text": "The stepped leader alone, as it descends",
+              "correct": false,
+              "why": "The leader is faint; the bright flash comes after attachment."
+            },
+            {
+              "text": "Light reflecting off charged hail",
+              "correct": false,
+              "why": "The light comes from the superheated plasma channel."
+            },
+            {
+              "text": "Friction between the bolt and the air",
+              "correct": false,
+              "why": "It's electrical current heating the channel, not friction."
+            }
+          ]
+        },
+        {
+          "q": "A flash and its thunder are 30 seconds apart. Which conclusion is best?",
+          "options": [
+            {
+              "text": "About 6 miles away, and still within striking range",
+              "correct": true,
+              "why": "Yes. 30 ÷ 5 = 6 miles, inside the roughly 10-mile reach of a storm."
+            },
+            {
+              "text": "About 6 miles away, so you're safe",
+              "correct": false,
+              "why": "The distance is right, but lightning can strike 10 miles or more from a storm."
+            },
+            {
+              "text": "About 30 miles away",
+              "correct": false,
+              "why": "Divide by 5: sound covers about a mile every 5 seconds."
+            },
+            {
+              "text": "Too far to estimate",
+              "correct": false,
+              "why": "You can: 30 ÷ 5 gives about 6 miles."
+            }
+          ]
+        },
+        {
+          "q": "Why did experts recommend widening the 'relatively safe' distance from the previous flash?",
+          "options": [
+            {
+              "text": "Newer data showed half of successive flashes were about 9 km apart",
+              "correct": true,
+              "why": "Exactly. The old 3–4 km figure understated how far the next flash can land."
+            },
+            {
+              "text": "Lightning has become more powerful in recent decades",
+              "correct": false,
+              "why": "The change came from better measurement, not stronger lightning."
+            },
+            {
+              "text": "Metal in modern buildings attracts strikes from farther away",
+              "correct": false,
+              "why": "Metal doesn't change where lightning strikes."
+            },
+            {
+              "text": "Thunder now carries farther than it used to",
+              "correct": false,
+              "why": "Thunder still carries about 10 miles; the change was about flash spacing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "A lightning flash starts when…",
+        "The bright part is the return stroke, which…",
+        "Thunder matters for safety because…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lightning",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lightning",
+      "supports": "Global lightning frequency about 44 (±5) per second, nearly 1.4 billion flashes a year; leaders are bidirectional ionized channels initiated between oppositely charged regions in a process not well understood; stepped leaders approach the ground and the field is strongest on grounded objects whose tops are closest to the cloud, which launch upward streamers; attachment forms a low-resistance path; unattached leaders visible in branched lightning; return stroke electrons accelerate at up to one third of light speed, around 100,000 km/s; return stroke current averages 30 kA for a typical negative CG flash; channel superheated into plasma above 50,000°F; dart leaders precede subsequent strokes that usually reuse the channel, which may be offset by wind; charge separation creates electric fields."
+    },
+    {
+      "title": "Understanding Lightning: Thunder",
+      "publisher": "National Weather Service (NOAA)",
+      "url": "https://www.weather.gov/safety/lightning-science-thunder",
+      "supports": "Thunder: lightning heats air up to 50,000°F, air expands then cools and contracts, creating the sound wave; heard only about 10 miles from the strike; you hear the nearest part of the channel first, then farther parts; a sharp crack means the channel passed nearby, a rumble means at least several miles away; about 5 seconds per mile, divide seconds by 5; hearing thunder means you are within striking distance."
+    },
+    {
+      "title": "Lightning Myths",
+      "publisher": "National Weather Service (NOAA)",
+      "url": "https://www.weather.gov/safety/lightning-myths",
+      "supports": "Bolts from the blue can strike 10–15 miles from the thunderstorm; many casualties occur because people don't seek shelter soon enough; old data put successive flashes 3–4 km apart while new data shows half are about 9 km apart; the NSSL report concluded the safe distance from a previous flash should be at least 10–13 km (6–8 miles) versus the 3–5 km (2–3 miles) used in the past."
+    }
+  ],
+  "video": {
+    "youtube_id": "JXhif3E3l2s",
+    "title": "HOW LIGHTNING WORKS - Weird World of Lightning",
+    "channel": "Pecos Hank",
+    "duration_sec": 659,
+    "start": 0,
+    "end": 595,
+    "why": "High-speed footage of leaders, upward connections, return strokes and multi-stroke flicker, explained carefully by a storm chaser. Clipped before the sign-off."
+  }
+}
