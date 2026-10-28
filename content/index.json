@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "topics": [
   {
    "id": "history",
@@ -348,6 +348,17 @@
     "kid": "science-lightning-kid"
    },
    "dinner_question": "If you were in charge of a big outdoor game and heard thunder far away, would you stop the game right away? Why or why not?"
+  },
+  {
+   "date": "2026-11-05",
+   "topic": "space",
+   "title": "Eclipses: when the Moon hides the Sun",
+   "packs": {
+    "adult": "space-eclipses-adult",
+    "teen": "space-eclipses-teen",
+    "kid": "space-eclipses-kid"
+   },
+   "dinner_question": "If a total eclipse were coming somewhere a long drive away, would our family make the trip, and what would make it worth it?"
   }
  ],
  "series": [
@@ -1721,6 +1732,45 @@
    "summary": "Why phases are an angle, why the cycle runs 29.5 days, and why we see one face (mostly).",
    "minutes": 8,
    "date_added": "2026-10-20",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "space-eclipses-kid",
+   "topic": "space",
+   "level": "kid",
+   "title": "When the Sun Goes Dark at Noon",
+   "emoji": "🌑",
+   "subject": "eclipses",
+   "summary": "How the Moon can hide the Sun, why it turns red, and how to watch safely.",
+   "minutes": 6,
+   "date_added": "2026-10-28",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "space-eclipses-teen",
+   "topic": "space",
+   "level": "teen",
+   "title": "The Cosmic Coincidence",
+   "emoji": "🌘",
+   "subject": "eclipses",
+   "summary": "Why the Moon fits the Sun so perfectly, why eclipses are rare, and why scientists chase them.",
+   "minutes": 7,
+   "date_added": "2026-10-28",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "space-eclipses-adult",
+   "topic": "space",
+   "level": "adult",
+   "title": "Eclipses: Geometry, Clockwork, and a Test of Einstein",
+   "emoji": "🌘",
+   "subject": "eclipses",
+   "summary": "Why eclipses are rare and predictable, what they have taught science, and why total ones won't last forever.",
+   "minutes": 8,
+   "date_added": "2026-10-28",
    "cards": 10,
    "keys_count": 3
   },

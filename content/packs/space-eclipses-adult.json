@@ -1,0 +1,222 @@
+{
+  "id": "space-eclipses-adult",
+  "topic": "space",
+  "subject": "eclipses",
+  "level": "adult",
+  "title": "Eclipses: Geometry, Clockwork, and a Test of Einstein",
+  "emoji": "🌘",
+  "summary": "Why eclipses are rare and predictable, what they have taught science, and why total ones won't last forever.",
+  "minutes": 8,
+  "date_added": "2026-10-28",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why are total solar eclipses frequent globally but rare at any one place?",
+      "answer": "The umbra is only about 100 to 160 km wide and sweeps by at over 1,700 km/h, so a given spot waits 360 to 410 years on average."
+    },
+    {
+      "id": "k2",
+      "prompt": "What is the saros, and why does it work?",
+      "answer": "About 18 years 11 days. After 223 lunar months, Sun, Moon and Earth return to nearly the same geometry, so a near-identical eclipse recurs."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why are total solar eclipses temporary on geological timescales?",
+      "answer": "Tidal effects push the Moon about 3.8 cm farther away each year; eventually it will look too small to cover the Sun."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌘",
+      "title": "A coincidence with an expiry date",
+      "text": "The Sun is about 400 times the Moon's diameter and about 400 times its distance, so both span roughly half a degree of sky. That near-perfect match makes total eclipses possible. It is also temporary: the Moon is drifting away, and one day totality will simply stop happening."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Total solar eclipses happen somewhere on Earth about every 18 months. On average, how often does a single location see one?",
+      "options": [
+        {
+          "text": "About every 40 years"
+        },
+        {
+          "text": "About every 120 years"
+        },
+        {
+          "text": "Every 360 to 410 years",
+          "correct": true
+        },
+        {
+          "text": "About every 2,000 years"
+        }
+      ],
+      "reveal": "Once every 360 to 410 years on average. The umbra is a narrow, fast-moving strip.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "📐",
+      "title": "Nodes and eclipse seasons",
+      "text": "The Moon's orbit is tilted about 5 degrees to Earth's, crossing it at two points called nodes. A solar eclipse needs a new Moon while the Sun is within roughly 15 to 18 degrees of a node. That window opens about twice a year, so every year has at least two solar eclipses and as many as five, no more than two of them total.",
+      "why": {
+        "q": "Why can't there be dozens of eclipses a year?",
+        "a": "Most new Moons fall outside the eclipse limit, so the Moon passes above or below the Sun and its shadow misses Earth."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🏃",
+      "title": "A narrow, fast shadow",
+      "text": "The umbra is typically 100 to 160 km wide (up to about 267 km at best) and moves east at over 1,700 km/h, while the partial-eclipse penumbra spans more than 6,400 km. Totality can't currently exceed 7 min 32 s; the longest calculated, on July 16, 2186, will last 7 min 29 s. Hence globally common, locally rare.",
+      "example": "For the U.S.: after April 8, 2024, the next total eclipse visible from the lower 48 is in 2044, only in Montana and North Dakota. The next coast-to-coast path comes in 2045."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔁",
+      "title": "Clockwork: the saros",
+      "text": "After 223 lunar months, about 6,585.3 days (18 years, 11 days, 8 hours), Sun, Moon and Earth return to nearly the same geometry, so a near-identical eclipse recurs, shifted about 120 degrees west by the extra third of a day. Modern forecasts go further: integrating Newton's laws gives timings accurate to under a minute over hundreds of years.",
+      "why": {
+        "q": "Why is the repeat shifted about 120 degrees west?",
+        "a": "The cycle runs about a third of a day past a whole number of days, so Earth has turned about a third of a rotation by the time the geometry repeats."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🔬",
+      "title": "A natural laboratory",
+      "text": "During the May 29, 1919 total eclipse, Arthur Eddington compared star positions near the darkened Sun with their usual positions; the observations helped confirm Einstein's general relativity. Today NASA uses totality to study the inner corona, key to how energy reaches the solar wind, and the ionosphere, which carries radio and GPS signals."
+    },
+    {
+      "type": "idea",
+      "emoji": "⏳",
+      "title": "Why it won't last",
+      "text": "Tidal acceleration pushes the Moon about 3.8 cm farther from Earth each year. Hundreds of millions of years ago the Moon looked bigger, so there were no annular eclipses. Millions of years from now it will look too small to cover the Sun, and total eclipses will end. We live in the window where both kinds happen."
+    },
+    {
+      "type": "think",
+      "question": "Ancient astronomers used eclipse cycles to forecast eclipses long before anyone could explain the orbits behind them. When is a reliable pattern without a mechanism good enough to act on, and when isn't it? Think of an example from investing or business.",
+      "nudges": [
+        "What would make a pattern break without warning?",
+        "How long a track record would you need?",
+        "What changes when you know the mechanism?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Why don't solar eclipses happen at every new Moon?",
+          "options": [
+            {
+              "text": "The Moon's orbit is tilted about 5 degrees, so the shadow usually misses Earth",
+              "correct": true,
+              "why": "Right. An eclipse needs a new Moon near a node."
+            },
+            {
+              "text": "The Moon's shadow is too faint to reach Earth",
+              "correct": false,
+              "why": "When aligned, the shadow does reach Earth. Alignment is the constraint."
+            },
+            {
+              "text": "Earth's atmosphere scatters the shadow",
+              "correct": false,
+              "why": "The atmosphere doesn't prevent eclipses; geometry does."
+            },
+            {
+              "text": "New Moons only occur twice a year",
+              "correct": false,
+              "why": "New Moons occur roughly monthly; eclipse seasons occur about twice a year."
+            }
+          ]
+        },
+        {
+          "q": "Why does a near-identical eclipse recur one saros later, but shifted west?",
+          "options": [
+            {
+              "text": "The cycle ends about a third of a day past a whole day, so Earth has turned about 120 degrees",
+              "correct": true,
+              "why": "Exactly. 6,585.3 days leaves a 0.3-day remainder."
+            },
+            {
+              "text": "The Moon's orbit shrinks each cycle",
+              "correct": false,
+              "why": "The Moon is slowly receding, not shrinking its orbit, and that isn't what causes the shift."
+            },
+            {
+              "text": "Earth's axis flips each cycle",
+              "correct": false,
+              "why": "Earth's axis does not flip; the shift comes from the leftover fraction of a day."
+            },
+            {
+              "text": "Eclipse paths are random",
+              "correct": false,
+              "why": "They're highly predictable, which is the point of the saros."
+            }
+          ]
+        },
+        {
+          "q": "What will eventually end total solar eclipses?",
+          "options": [
+            {
+              "text": "The Moon receding until it looks too small to cover the Sun",
+              "correct": true,
+              "why": "Yes. About 3.8 cm a year adds up over millions of years."
+            },
+            {
+              "text": "The Moon's orbit becoming untilted",
+              "correct": false,
+              "why": "That would make eclipses more frequent, not end them."
+            },
+            {
+              "text": "The Sun shrinking",
+              "correct": false,
+              "why": "The source says the Sun may look brighter and larger, which makes coverage even harder."
+            },
+            {
+              "text": "Earth's rotation stopping",
+              "correct": false,
+              "why": "Not what the sources describe; the limit is the Moon's apparent size."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Eclipses are rare at any one place because…",
+        "We can predict them precisely because…",
+        "They won't last forever because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "PRgua7xceDA",
+    "title": "Eclipses: Crash Course Astronomy #5",
+    "channel": "CrashCourse",
+    "duration_sec": 631,
+    "why": "Phil Plait walks through the 400-to-1 coincidence, the 5-degree tilt, umbra and penumbra, annular eclipses, and the Moon's slow retreat."
+  },
+  "sources": [
+    {
+      "title": "Solar eclipse",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Solar_eclipse",
+      "supports": "400 times diameter and distance, about 0.5 degree; 5-degree tilt and eclipse seasons; eclipse limits of 15 to 18 degrees from a node; two to five solar eclipses a year, no more than two total; umbra 100 to 160 km wide, up to 267 km, moving east at over 1,700 km/h; penumbra over 6,400 km; totality can never exceed 7 min 32 s; July 16, 2186 eclipse of 7 min 29 s; total eclipses every 18 months somewhere but once every 360 to 410 years at a place; saros of 6,585.3 days with about a 120-degree westward shift due to the 0.3 day; May 29, 1919 eclipse and Eddington's star comparison helping confirm general relativity; tidal acceleration moves the Moon about 3.8 cm a year; no annular eclipses hundreds of millions of years ago and no total eclipses millions of years from now; the Sun may appear larger."
+    },
+    {
+      "title": "Eclipses: Frequently Asked Questions",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/eclipses/faq/",
+      "supports": "Saros of 223 lunar months, about 6,585.3211 days or 18 years 11 days 8 hours, paths shifted 120 degrees west; forecasts from Newton's laws integrated by computer, accurate to under a minute over hundreds of years; NASA studies the inner corona (solar wind) and the ionosphere (radio and GPS signals) during totality; after 2024 the next total eclipse from the contiguous U.S. is in 2044, only North Dakota and Montana, and coast to coast in 2045."
+    },
+    {
+      "title": "Types of Solar Eclipses",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/eclipses/types/",
+      "supports": "Total, annular, partial and hybrid eclipses; annular when the Moon is at or near its farthest point from Earth."
+    }
+  ]
+}

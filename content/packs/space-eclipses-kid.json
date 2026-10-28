@@ -1,0 +1,240 @@
+{
+  "id": "space-eclipses-kid",
+  "topic": "space",
+  "subject": "eclipses",
+  "level": "kid",
+  "title": "When the Sun Goes Dark at Noon",
+  "emoji": "🌑",
+  "summary": "How the Moon can hide the Sun, why it turns red, and how to watch safely.",
+  "minutes": 6,
+  "date_added": "2026-10-28",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What happens in a solar eclipse?",
+      "answer": "The Moon passes between the Sun and Earth. It blocks the Sun's light, and its shadow falls on Earth.",
+      "options": [
+        {
+          "text": "The Moon blocks the Sun's light",
+          "correct": true
+        },
+        {
+          "text": "Earth's shadow covers the Sun"
+        },
+        {
+          "text": "The Sun turns off for a while"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Why don't we get an eclipse every month?",
+      "answer": "The Moon's path is a little tilted. Most months it passes a bit above or below the Sun.",
+      "options": [
+        {
+          "text": "The Moon's path is a little tilted",
+          "correct": true
+        },
+        {
+          "text": "The Moon only goes around Earth once a year"
+        },
+        {
+          "text": "Clouds hide most eclipses"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What is the safe way to look at the Sun during an eclipse?",
+      "answer": "Use special eclipse glasses or a pinhole viewer. Regular sunglasses are not safe.",
+      "options": [
+        {
+          "text": "Special eclipse glasses or a pinhole viewer",
+          "correct": true
+        },
+        {
+          "text": "Very dark sunglasses"
+        },
+        {
+          "text": "Quick peeks with bare eyes"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌑",
+      "title": "Dark at lunchtime?",
+      "text": "Imagine it is lunchtime on a sunny day. Then the sky starts to get dark, like evening. It is not a storm. What could be blocking the Sun?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "How often do you think one spot on Earth gets a solar eclipse?",
+      "options": [
+        {
+          "text": "About once a year"
+        },
+        {
+          "text": "About every 20 years"
+        },
+        {
+          "text": "About every 375 years",
+          "correct": true
+        }
+      ],
+      "reveal": "About every 375 years, on average, and only for a few minutes! The Moon's shadow on Earth is small.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "🌑",
+      "title": "The Moon gets in the way",
+      "text": "A solar eclipse happens when the Moon passes between the Sun and Earth. The Moon blocks the Sun's light. Its shadow falls on Earth. So it can get dark in the middle of the day!",
+      "example": "Hold your thumb up and cover a faraway tree. Something small and close can hide something big and far away.",
+      "why": {
+        "q": "How can the small Moon hide the giant Sun?",
+        "a": "The Sun is about 400 times wider than the Moon. But it is also about 400 times farther away. So they look about the same size in our sky."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🎯",
+      "title": "Not every month",
+      "text": "The Moon goes around Earth every month. So why isn't there an eclipse every month? The Moon's path is a little tilted. Most months, its shadow misses Earth. Only some months do they line up just right."
+    },
+    {
+      "type": "idea",
+      "emoji": "🗺️",
+      "title": "A small shadow",
+      "text": "The Moon's shadow on Earth is not very big. So only a few places see each eclipse. A total eclipse happens somewhere on Earth about every year and a half. But one spot only gets an eclipse about every 375 years!"
+    },
+    {
+      "type": "idea",
+      "emoji": "🌕",
+      "title": "A red Moon",
+      "text": "In a lunar eclipse, Earth gets between the Sun and the Moon. Earth's shadow covers the full Moon at night. The Moon can even turn red! Anyone on the night side of Earth can see it.",
+      "why": {
+        "q": "Why can the Moon turn red?",
+        "a": "Earth's air bends some sunlight toward the Moon and soaks up the other colors. It is the same reason sunsets look orange and red."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🕶️",
+      "title": "Keep your eyes safe",
+      "text": "Look at the Sun only through special eclipse glasses. Regular sunglasses are not safe, no matter how dark they are. No glasses? Make a pinhole viewer. Look at the Sun's picture on paper, not through the hole.",
+      "example": "Poke a small hole in a card. Stand with the Sun behind you. A tiny picture of the Sun shows up on paper held below it."
+    },
+    {
+      "type": "think",
+      "question": "If a total eclipse were coming to our town, what would you want to watch for? How would you keep your eyes safe?",
+      "nudges": [
+        "What happens to the sky?",
+        "What tools would you bring?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What blocks the Sun in a solar eclipse?",
+          "options": [
+            {
+              "text": "The Moon",
+              "correct": true,
+              "why": "Yes! The Moon passes between the Sun and Earth."
+            },
+            {
+              "text": "Earth",
+              "correct": false,
+              "why": "Earth blocks the light in a lunar eclipse. In a solar eclipse, it is the Moon."
+            },
+            {
+              "text": "A big cloud",
+              "correct": false,
+              "why": "Clouds can hide the Sun, but an eclipse is the Moon getting in the way."
+            }
+          ]
+        },
+        {
+          "q": "Why can a lot of people see a lunar eclipse?",
+          "options": [
+            {
+              "text": "Anyone on the night side of Earth can see it",
+              "correct": true,
+              "why": "Right! The Moon is up for everyone on the night side."
+            },
+            {
+              "text": "It only happens in the daytime",
+              "correct": false,
+              "why": "A lunar eclipse happens at night, during a full Moon."
+            },
+            {
+              "text": "It lasts for a whole year",
+              "correct": false,
+              "why": "It does not last a year. Lots of people see it because the whole night side of Earth can see the Moon."
+            }
+          ]
+        },
+        {
+          "q": "Which is safe for looking at the Sun?",
+          "options": [
+            {
+              "text": "Special eclipse glasses",
+              "correct": true,
+              "why": "Yes! Eclipse glasses are made just for looking at the Sun."
+            },
+            {
+              "text": "Very dark sunglasses",
+              "correct": false,
+              "why": "Even very dark sunglasses are not safe for looking at the Sun."
+            },
+            {
+              "text": "Looking through a pinhole",
+              "correct": false,
+              "why": "Use a pinhole to make a picture on paper. Never look at the Sun through the hole."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "A solar eclipse happens when…",
+        "We don't get one every month because…",
+        "To watch safely, you…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "L9oP7fqc0s0",
+    "title": "What is an Eclipse?",
+    "channel": "Smithsonian National Air and Space Museum",
+    "duration_sec": 157,
+    "why": "Watch the Moon's shadow land on Earth, see why an eclipsed Moon glows red, and see the tilted path that makes eclipses rare."
+  },
+  "sources": [
+    {
+      "title": "Lunar Eclipses and Solar Eclipses",
+      "publisher": "NASA Space Place",
+      "url": "https://spaceplace.nasa.gov/eclipses/en/",
+      "supports": "A solar eclipse is the Moon getting in the way of the Sun's light and casting its shadow on Earth, so it gets dark during the day; a total eclipse happens about every year and a half somewhere on Earth; the Moon's shadow is small, and the same spot sees a solar eclipse for a few minutes about every 375 years on average; in a lunar eclipse Earth's shadow covers the full Moon at night, which can look red because Earth's atmosphere bends sunlight and absorbs other colors, the same reason sunsets are red; anyone on the nighttime half of Earth can see it; the Moon's path is tilted."
+    },
+    {
+      "title": "Solar eclipse",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Solar_eclipse",
+      "supports": "The Sun is about 400 times farther away than the Moon and about 400 times wider, so they look about the same size; the Moon's orbit is tilted, so its shadow usually misses Earth and eclipses don't happen every month."
+    },
+    {
+      "title": "Eclipse Viewing Safety",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/eclipses/safety/",
+      "supports": "It is not safe to look at the Sun without special eye protection except during totality; eclipse glasses are not regular sunglasses, and regular sunglasses, no matter how dark, are not safe; solar viewers are thousands of times darker; a pinhole projector (a hole in an index card, with the Sun at your back) shows the Sun's image on a surface; do not look at the Sun through the pinhole."
+    }
+  ]
+}

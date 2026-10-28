@@ -1,0 +1,219 @@
+{
+  "id": "space-eclipses-teen",
+  "topic": "space",
+  "subject": "eclipses",
+  "level": "teen",
+  "title": "The Cosmic Coincidence",
+  "emoji": "🌘",
+  "summary": "Why the Moon fits the Sun so perfectly, why eclipses are rare, and why scientists chase them.",
+  "minutes": 7,
+  "date_added": "2026-10-28",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How can the much smaller Moon exactly cover the Sun?",
+      "answer": "The Sun is about 400 times wider but also about 400 times farther away, so both look about half a degree across."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why don't we get a solar eclipse at every new Moon?",
+      "answer": "The Moon's orbit is tilted about 5 degrees, so its shadow usually passes above or below Earth."
+    },
+    {
+      "id": "k3",
+      "prompt": "What makes an eclipse annular instead of total?",
+      "answer": "The Moon is at or near its farthest point from Earth, so it looks smaller than the Sun and leaves a bright ring."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌘",
+      "title": "A suspiciously perfect fit",
+      "text": "The Sun is about 400 times wider than the Moon. Yet in a total eclipse, the Moon covers the Sun's bright face almost exactly, leaving only a glowing halo. Is that physics, or just luck?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "The Moon passes between Earth and the Sun at every new Moon, about once a month. How many solar eclipses happen somewhere on Earth each year?",
+      "options": [
+        {
+          "text": "0 or 1"
+        },
+        {
+          "text": "Between 2 and 5",
+          "correct": true
+        },
+        {
+          "text": "About 12, one per new Moon"
+        }
+      ],
+      "reveal": "Between 2 and 5 every year, and never more than 2 of them total. The tilted orbit makes most new Moons miss.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "📏",
+      "title": "Size versus distance",
+      "text": "How big something looks depends on its size and its distance. The Sun is about 400 times wider than the Moon, and also about 400 times farther away. The two ratios nearly cancel, so both look about half a degree across. That match is a coincidence, not a law of physics.",
+      "example": "Your thumb at arm's length can hide a building far away. Size alone doesn't decide what blocks what."
+    },
+    {
+      "type": "idea",
+      "emoji": "📐",
+      "title": "The 5-degree tilt",
+      "text": "The Moon's orbit is tilted about 5 degrees to Earth's orbit, so at most new Moons its shadow passes above or below Earth. Eclipses can only happen during eclipse seasons, when the lineup works. That gives at least 2 and up to 5 solar eclipses a year, with no more than 2 total.",
+      "why": {
+        "q": "What would happen if the Moon's orbit weren't tilted?",
+        "a": "If its orbit were perfectly circular and in the same plane as Earth's, there would be a total solar eclipse at every new Moon."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "💍",
+      "title": "Total, annular, partial",
+      "text": "The Moon's orbit is a slightly stretched oval. If an eclipse happens when the Moon is at or near its farthest point, it looks smaller than the Sun and leaves a bright ring: an annular eclipse. If the three bodies aren't perfectly lined up, you get a partial eclipse, a bite out of the Sun."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏃",
+      "title": "A small, fast shadow",
+      "text": "The Moon's darkest shadow, the umbra, is usually only 100 to 160 km wide, and it races east at over 1,700 km/h. So totality lasts minutes, never more than about 7.5. A total eclipse happens somewhere about every 18 months, but any one place waits 360 to 410 years on average.",
+      "why": {
+        "q": "Why is totality so short?",
+        "a": "The umbra is narrow and moves at over 1,700 km/h, so it crosses any one spot in a few minutes."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🔭",
+      "title": "Why scientists chase it",
+      "text": "The Sun's corona, its faint outer atmosphere, is usually drowned out by the bright face. During totality it becomes visible. NASA studies it to learn how the Sun drives the solar wind, which can affect technology on Earth. Outside totality, look only through eclipse glasses."
+    },
+    {
+      "type": "think",
+      "question": "The Moon is slowly drifting away from Earth, so someday there will be no total eclipses. If you could see only one more total eclipse in your life, would you travel far to see it? What would it be worth to you?",
+      "nudges": [
+        "What can you only see during totality?",
+        "Is a 2-minute experience worth a long trip?",
+        "How would you weigh cost against a once-in-a-lifetime view?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "The Sun is about 400 times wider than the Moon. Why do they look the same size?",
+          "options": [
+            {
+              "text": "The Sun is also about 400 times farther away",
+              "correct": true,
+              "why": "Right. Bigger and farther cancel out, so both look about half a degree wide."
+            },
+            {
+              "text": "Earth's air shrinks the Sun's image",
+              "correct": false,
+              "why": "The air doesn't shrink the Sun. Distance does the work."
+            },
+            {
+              "text": "The Moon is closer to the Sun than Earth is",
+              "correct": false,
+              "why": "During a solar eclipse the Moon is between us and the Sun, much closer to us."
+            },
+            {
+              "text": "They are actually the same size",
+              "correct": false,
+              "why": "The Sun really is about 400 times wider."
+            }
+          ]
+        },
+        {
+          "q": "Why doesn't every new Moon cause a solar eclipse?",
+          "options": [
+            {
+              "text": "The Moon's orbit is tilted about 5 degrees",
+              "correct": true,
+              "why": "Yes. Most months the shadow passes above or below Earth."
+            },
+            {
+              "text": "The Moon is too small to cast a shadow",
+              "correct": false,
+              "why": "It casts a shadow every month. Usually that shadow just misses Earth."
+            },
+            {
+              "text": "New Moons happen only twice a year",
+              "correct": false,
+              "why": "New Moons happen about every month. Eclipse seasons happen about twice a year."
+            },
+            {
+              "text": "The Sun is too bright",
+              "correct": false,
+              "why": "Brightness isn't the issue. Lineup is."
+            }
+          ]
+        },
+        {
+          "q": "An eclipse happens when the Moon is near its farthest point from Earth. What do you see?",
+          "options": [
+            {
+              "text": "A bright ring around the Moon",
+              "correct": true,
+              "why": "Yes. The Moon looks smaller than the Sun, so you get an annular eclipse."
+            },
+            {
+              "text": "A total eclipse that lasts longer",
+              "correct": false,
+              "why": "A farther Moon looks smaller, so it can't cover the whole Sun."
+            },
+            {
+              "text": "A red Moon",
+              "correct": false,
+              "why": "A red Moon happens in a lunar eclipse, when Earth's shadow falls on the Moon."
+            },
+            {
+              "text": "Nothing at all",
+              "correct": false,
+              "why": "The Moon still blocks most of the Sun. It just leaves a ring."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The Moon can cover the Sun because…",
+        "We don't get eclipses every month because…",
+        "An annular eclipse happens when…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "vIZyuXl-91U",
+    "title": "Why Aren't There Eclipses Every Month?",
+    "channel": "minutephysics",
+    "duration_sec": 142,
+    "why": "A 1757 astronomy book, read aloud and animated, explains how the Moon's tilted orbit makes most new Moons miss."
+  },
+  "sources": [
+    {
+      "title": "Solar eclipse",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Solar_eclipse",
+      "supports": "Sun about 400 times the Moon's distance and diameter, both about 0.5 degree; Moon's orbit tilted about 5 degrees so its shadow usually misses Earth; with a circular orbit in the same plane there would be a total eclipse every new Moon; eclipse seasons; at least two and up to five solar eclipses a year, no more than two total; umbra typically 100 to 160 km wide moving east at over 1,700 km/h; totality can never last more than 7 min 32 s; total eclipses somewhere every 18 months on average but at a given place once every 360 to 410 years."
+    },
+    {
+      "title": "Types of Solar Eclipses",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/eclipses/types/",
+      "supports": "Total, annular, partial and hybrid eclipses; annular happens when the Moon is at or near its farthest point and looks smaller than the Sun, leaving a ring; partial happens when the Sun, Moon and Earth aren't perfectly lined up; the corona is visible during totality; except during totality, always use eclipse glasses or a pinhole projector."
+    },
+    {
+      "title": "Eclipses: Frequently Asked Questions",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/eclipses/faq/",
+      "supports": "NASA studies the corona, visible only during total solar eclipses, to understand how heat and energy move from the Sun into the solar wind, which can affect technology on Earth."
+    }
+  ]
+}
