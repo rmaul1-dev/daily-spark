@@ -1,0 +1,219 @@
+{
+  "id": "tech-encryption-adult",
+  "topic": "tech",
+  "subject": "encryption",
+  "level": "adult",
+  "title": "Why Modern Encryption Works, and What Could Break It",
+  "emoji": "🔐",
+  "summary": "Publish the design, guard only the key; public keys fix key distribution at a compute cost; quantum computing threatens the public-key half most.",
+  "minutes": 8,
+  "date_added": "2026-10-29",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What does Kerckhoffs's principle say, and why do cryptographers follow it?",
+      "answer": "A system should stay secure even if everything but the key is public. Small keys are far easier to keep secret than a whole design, which tends to leak."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why do TLS, SSH and PGP combine public-key and symmetric encryption?",
+      "answer": "Public keys solve key distribution but are computationally expensive. They're used only to share a short symmetric key, which encrypts the bulk data efficiently."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why does quantum computing threaten public-key encryption more than symmetric encryption?",
+      "answer": "Shor's algorithm could solve the factoring and discrete-log problems behind RSA and elliptic curves. Grover's only gives a square-root speedup, offset by longer symmetric keys."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🤔",
+      "title": "Publish the blueprint",
+      "text": "Most organizations guard their secrets. Cryptographers do the opposite: they want the design of a cipher public, so anyone can attack it. Only one short thing must stay secret, the key. Much of online security rests on that counter-intuitive bet."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "With purely symmetric encryption, every pair of people needs its own secret key. How many keys does a 1,000-person organization need so anyone can talk privately with anyone?",
+      "estimate": {
+        "min": 0,
+        "max": 1000000,
+        "step": 4500,
+        "answer": 499500
+      },
+      "reveal": "499,500. Pairs grow as n(n − 1)/2, so 1,000 × 999 ÷ 2. With public keys, each person needs just one key pair.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "📖",
+      "title": "The enemy knows the system",
+      "text": "In 1883, Auguste Kerckhoffs set out rules for military ciphers, including that a system should stay secure even if everything except the key is public. Claude Shannon later put it as \"the enemy knows the system.\" The logic: a design is large and leaks through spies, bribery or captured equipment; a small key is far easier to keep secret.",
+      "example": "Security through obscurity can help in the short run, but the counter-argument is that only systems that have been published and analyzed should be trusted over the long run.",
+      "why": {
+        "q": "Why is secrecy of the design a weak foundation?",
+        "a": "It replaces one hard problem with another: keeping a large, widely deployed design secret for years. If only the key is secret, you only have to protect and manage keys."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🔑",
+      "title": "The quadratic key problem",
+      "text": "Before the mid-1970s, all ciphers were symmetric: both sides held the same key, exchanged in advance over a secure channel. To keep messages private from other users, each pair needs its own key, which becomes unmanageable as users grow. In 1976 Diffie and Hellman published public key agreement; in 1977 Rivest, Shamir and Adleman devised RSA.",
+      "example": "Key count is n(n − 1)/2: 100 people need 4,950 keys; 1,000 need 499,500. With key pairs, the count grows linearly: one pair per person. (GCHQ had reached similar results by 1974, declassified in 1997.)",
+      "examples_by_interest": {
+        "business": "Say a trading network links 1,000 firms, and each must talk privately with every other. Symmetric keys alone means 499,500 secrets to issue, rotate and protect. With public keys, it's 1,000 key pairs."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Hybrid by necessity",
+      "text": "Asymmetric algorithms are nearly always much more computationally intensive than symmetric ones. So TLS, SSH and PGP use public-key methods only to exchange a short symmetric key, then encrypt the data symmetrically. The trade-off moves elsewhere: you must trust that a public key is authentic. TLS relies on certificate authorities to vouch for that.",
+      "example": "A man-in-the-middle who swaps in his own public keys can read and re-encrypt traffic undetected. The math holds; the identity check is the weak point. The chief practical risk is a private key becoming known.",
+      "why": {
+        "q": "Why doesn't strong math alone make public-key systems secure?",
+        "a": "The math protects the private key, but you still need to know the public key truly belongs to the other party. That rests on trusted third parties and key hygiene."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⚛️",
+      "title": "An asymmetric quantum threat",
+      "text": "Most public-key algorithms rely on integer factorization or (elliptic-curve) discrete logarithms. A sufficiently powerful quantum computer running Shor's algorithm could solve all of these easily. Symmetric ciphers fare far better: Grover's algorithm gives only a square-root speedup, so 256-bit keys still provide about 128 bits of security.",
+      "example": "The fix for symmetric crypto is just a longer key. The fix for public-key crypto is new math, built on problems believed, but not proven, to resist quantum attack."
+    },
+    {
+      "type": "idea",
+      "emoji": "⏳",
+      "title": "Harvest now, decrypt later",
+      "text": "Data that must stay confidential for many years is at risk today: an adversary can record encrypted traffic now and decrypt it once quantum machines exist. That is why migration is starting before the threat is real. In August 2024, NIST released its first three finalized post-quantum standards, FIPS 203, 204 and 205.",
+      "example": "The relevant question for a dataset is not \"can it be broken today?\" but \"must it stay secret longer than the time until a capable quantum computer, plus the time it takes us to migrate?\""
+    },
+    {
+      "type": "think",
+      "question": "Kerckhoffs says to assume your opponent knows the system. Where does your own work rely on obscurity (a model, a process, a pricing method), and how would you redesign it if a competitor learned it tomorrow? Then argue the other side: when is obscurity worth keeping?",
+      "nudges": [
+        "Which part could you change quickly if it leaked, like a key?",
+        "Does obscurity add a layer, or replace a real defense?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "A vendor says its cipher is safer because the algorithm is a trade secret. What's the strongest critique under Kerckhoffs's principle?",
+          "options": [
+            {
+              "text": "Security should rest on the key alone; secret designs tend to leak and go unreviewed",
+              "correct": true,
+              "why": "Yes. Only published, analyzed systems earn long-run trust, and a leaked design can't be swapped like a key."
+            },
+            {
+              "text": "Secret algorithms are always weaker mathematically",
+              "correct": false,
+              "why": "Not necessarily. The problem is relying on the secrecy, not the math itself."
+            },
+            {
+              "text": "Trade secrets are illegal in cryptography",
+              "correct": false,
+              "why": "There's no such rule. The objection is about where security should rest."
+            },
+            {
+              "text": "Keys don't matter if the algorithm is secret",
+              "correct": false,
+              "why": "That's backwards. Kerckhoffs puts all the weight on the key."
+            }
+          ]
+        },
+        {
+          "q": "Why don't secure websites encrypt an entire video stream with RSA?",
+          "options": [
+            {
+              "text": "Public-key operations are far more computationally intensive, so they're used just to share a symmetric key",
+              "correct": true,
+              "why": "Right. That's the hybrid design behind TLS."
+            },
+            {
+              "text": "RSA can't encrypt binary data",
+              "correct": false,
+              "why": "The issue isn't the type of data. It's the computational cost."
+            },
+            {
+              "text": "RSA is already broken by today's computers",
+              "correct": false,
+              "why": "The quantum worry is about future machines. The reason here is speed."
+            },
+            {
+              "text": "Symmetric encryption is more secure in every way",
+              "correct": false,
+              "why": "Symmetric ciphers can't solve key distribution by themselves; that's why both are used."
+            }
+          ]
+        },
+        {
+          "q": "A firm sends records that must stay confidential for 25 years over links secured with RSA key exchange today. What's the main quantum-era risk?",
+          "options": [
+            {
+              "text": "Traffic recorded now could be decrypted later by a capable quantum computer",
+              "correct": true,
+              "why": "Yes: harvest now, decrypt later. Long-lived secrets are exposed before the machine exists."
+            },
+            {
+              "text": "Grover's algorithm will instantly break their AES keys",
+              "correct": false,
+              "why": "Grover gives only a square-root speedup; longer symmetric keys offset it."
+            },
+            {
+              "text": "None, until a quantum computer is actually built",
+              "correct": false,
+              "why": "Recording happens today. The risk depends on how long the data must stay secret."
+            },
+            {
+              "text": "Post-quantum algorithms are proven unbreakable, so just wait",
+              "correct": false,
+              "why": "They're thought, but not proven, to resist quantum attack, and waiting leaves today's data exposed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Good encryption keeps only the key secret because…",
+        "Websites mix public-key and symmetric encryption because…",
+        "Quantum computers threaten…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "jhXCTbFnK8o",
+    "title": "Cryptography: Crash Course Computer Science #33",
+    "channel": "CrashCourse",
+    "duration_sec": 753,
+    "why": "From substitution ciphers and Enigma to DES, AES, Diffie–Hellman (with paint mixing) and RSA, ending with how HTTPS combines all three."
+  },
+  "sources": [
+    {
+      "title": "Kerckhoffs's principle",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle",
+      "supports": "Kerckhoffs's principle: a cryptosystem should be secure even if everything except the key is public; stated in Kerckhoffs's 1883 article La cryptographie militaire with six rules for military ciphers; Shannon's phrasing \"the enemy knows the system\"; keeping small keys secret is more manageable than keeping a whole design secret; designs leak via bribery, captured equipment and spies; security through obscurity versus the counter-argument that only published, analyzed systems should be trusted long-term."
+    },
+    {
+      "title": "Public-key cryptography",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Public-key_cryptography",
+      "supports": "Before the mid-1970s all ciphers were symmetric, keys exchanged over a secure channel, unmanageable as participants grow, with a separate key for each pair of users; public key can be openly distributed, security depends on private key secrecy; Diffie–Hellman 1976, RSA 1977; GCHQ work 1970–1974 declassified 1997; asymmetric algorithms are nearly always much more computationally intensive, so PGP, SSH and TLS use them to exchange a symmetric key (hybrid); TLS relies on certificate authorities (PKI); man-in-the-middle attacks substitute public keys; the chief risk is the private key becoming known."
+    },
+    {
+      "title": "Post-quantum cryptography",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Post-quantum_cryptography",
+      "supports": "Most public-key algorithms rely on integer factorization, discrete logarithm or elliptic-curve discrete logarithm problems, all easily solved by a sufficiently powerful quantum computer running Shor's algorithm; post-quantum algorithms are thought but not proven secure; symmetric algorithms are relatively secure; Grover's algorithm needs work proportional to the square root of the key space, so 256-bit keys give 128 bits of security; harvest now, decrypt later threatens data that must stay confidential for a long time; NIST released its first three finalized post-quantum standards (FIPS 203, 204, 205) in August 2024."
+    }
+  ]
+}

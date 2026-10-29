@@ -1,0 +1,236 @@
+{
+  "id": "tech-encryption-kid",
+  "topic": "tech",
+  "subject": "encryption",
+  "level": "kid",
+  "title": "Secret Codes and Magic Locks",
+  "emoji": "🔐",
+  "summary": "A secret code needs a key. Old codes had tiny keys. Today's codes use huge ones, and a lock anyone can close.",
+  "minutes": 6,
+  "date_added": "2026-10-29",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "In a shift code, what is the key?",
+      "answer": "The number of steps you move each letter. Your friend needs the same number to read it.",
+      "options": [
+        {
+          "text": "The number of steps each letter moves",
+          "correct": true
+        },
+        {
+          "text": "The first word of the message"
+        },
+        {
+          "text": "The paper the note is written on"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Why is a shift code easy to crack?",
+      "answer": "There are only 25 shifts. A codebreaker can try them all and pick the one that makes real words.",
+      "options": [
+        {
+          "text": "There are only 25 shifts to try",
+          "correct": true
+        },
+        {
+          "text": "The letters are too big"
+        },
+        {
+          "text": "It only works on short notes"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "With a public key and a private key, which one do you keep secret?",
+      "answer": "The private key. Anyone can use the public key to lock a message, but only the private key opens it.",
+      "options": [
+        {
+          "text": "The private key",
+          "correct": true
+        },
+        {
+          "text": "The public key"
+        },
+        {
+          "text": "You share both keys"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🕵️",
+      "title": "Write a secret note",
+      "text": "Try this. Write the word HI. Now move each letter three steps down the alphabet. H becomes K, and I becomes L. Your note says KL! Could a friend read it?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "A shift code moves every letter the same number of steps. How many different shifts can you use in English?",
+      "options": [
+        {
+          "text": "3"
+        },
+        {
+          "text": "25",
+          "correct": true
+        },
+        {
+          "text": "1,000"
+        }
+      ],
+      "reveal": "Just 25! That is why a shift code is so easy to crack.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "🏛️",
+      "title": "Caesar's secret code",
+      "text": "This trick is called a Caesar cipher. A cipher is a secret code. It is named after Julius Caesar, a leader in ancient Rome. A Roman writer said Caesar shifted letters by three to hide army messages.",
+      "example": "With a shift of three, A becomes D and B becomes E. To read it, your friend moves each letter back three steps."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔑",
+      "title": "The key is the secret",
+      "text": "The number you shift by is called the key. Your friend needs the same key to read the note. But English has only 25 shifts. So a codebreaker can just try them all, one by one!",
+      "example": "Say you shift PIZZA AT SIX by three. It turns into SLCCD DW VLA. Try shifting back by one, then two, then three. At three, real words pop out.",
+      "why": {
+        "q": "Why is a code with only 25 keys a weak code?",
+        "a": "Someone can try every key. The right key is the one that spells real words."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "💻",
+      "title": "Giant keys",
+      "text": "Today, computers hide messages with much bigger keys. These keys are long strings of 0s and 1s, called bits. Each extra bit doubles the number of keys to try. Many keys today have 128 bits or more. That is far too many keys to try them all.",
+      "example": "1 bit makes 2 keys. 2 bits make 4. 3 bits make 8. Now keep doubling, all the way to 128 bits!"
+    },
+    {
+      "type": "idea",
+      "emoji": "🔒",
+      "title": "A lock anyone can close",
+      "text": "Here is a puzzle. How do you share a key with a friend far away, with no spy seeing it? In the 1970s, people found a smart answer. You make two keys that go together. Anyone can use your public key to lock a message. Only your private key can open it.",
+      "example": "Think of an open padlock that you hand out to everyone. Anyone can snap it shut on a box. Only you have the key that opens it.",
+      "why": {
+        "q": "Why is it okay for everyone to see the public key?",
+        "a": "The public key can only lock messages. Opening them takes the private key, and you keep that one secret."
+      }
+    },
+    {
+      "type": "think",
+      "question": "Where would a secret code be handy at school or at home? Who should get the key, and who should not?",
+      "nudges": [
+        "Think about a diary, a club, or a surprise party.",
+        "What could go wrong if the key got out?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "In a Caesar cipher with a shift of three, what does A become?",
+          "options": [
+            {
+              "text": "D",
+              "correct": true,
+              "why": "Yes! Count three steps from A: B, C, D."
+            },
+            {
+              "text": "C",
+              "correct": false,
+              "why": "Close! C is only two steps away. Count one more."
+            },
+            {
+              "text": "B",
+              "correct": false,
+              "why": "B is one step away. A shift of three goes to D."
+            }
+          ]
+        },
+        {
+          "q": "Why is a Caesar cipher easy to crack?",
+          "options": [
+            {
+              "text": "There are only 25 shifts to try",
+              "correct": true,
+              "why": "Right. A codebreaker can try every shift until real words show up."
+            },
+            {
+              "text": "It uses numbers",
+              "correct": false,
+              "why": "It actually uses letters. The weak spot is that there are so few keys."
+            },
+            {
+              "text": "It only works in Latin",
+              "correct": false,
+              "why": "It works in English too. The weak spot is that there are only 25 shifts."
+            }
+          ]
+        },
+        {
+          "q": "With a public key and a private key, which do you keep secret?",
+          "options": [
+            {
+              "text": "The private key",
+              "correct": true,
+              "why": "Yes. Only the private key can open the message, so it stays with you."
+            },
+            {
+              "text": "The public key",
+              "correct": false,
+              "why": "The public key is fine to share. It can only lock messages."
+            },
+            {
+              "text": "Both keys",
+              "correct": false,
+              "why": "You can share the public key with anyone. Only the private key stays secret."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "A Caesar cipher works by…",
+        "It is easy to crack because…",
+        "Today, computers use…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "sMOZf4GN3oc",
+    "title": "The Caesar cipher | Journey into cryptography | Computer Science | Khan Academy",
+    "channel": "Khan Academy",
+    "duration_sec": 156,
+    "why": "See a shift of three turn A into D, then watch how codebreakers cracked it by counting which letters show up most."
+  },
+  "sources": [
+    {
+      "title": "Caesar cipher",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Caesar_cipher",
+      "supports": "The Caesar cipher replaces each letter with one a fixed number of places down the alphabet; the shift is used as the key; it is named for Julius Caesar, who according to the Roman historian Suetonius used a shift of three (A becoming D) to protect military messages; there are only 25 possible shifts in English, so an attacker can try each one, and the correct decryption is the one that makes sense."
+    },
+    {
+      "title": "Brute-force attack",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brute-force_attack",
+      "supports": "The work of a brute-force attack grows exponentially with key size; modern symmetric algorithms typically use 128- to 256-bit keys; there is a physical argument that a 128-bit key is secure against brute force."
+    },
+    {
+      "title": "Public-key cryptography",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Public-key_cryptography",
+      "supports": "Public-key cryptography uses pairs of related keys, a public key and a private key; the public key can be openly shared, anyone can encrypt with it, but only the holder of the private key can decrypt; security depends on keeping the private key secret; before the mid-1970s all ciphers needed the same secret key exchanged in advance; Diffie and Hellman published a public key method in 1976."
+    }
+  ]
+}

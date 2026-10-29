@@ -1,0 +1,217 @@
+{
+  "id": "tech-encryption-teen",
+  "topic": "tech",
+  "subject": "encryption",
+  "level": "teen",
+  "title": "Cracking Codes: From Caesar to HTTPS",
+  "emoji": "🔐",
+  "summary": "Why small key spaces lose, how frequency analysis leaks secrets, and how public keys solved the key-sharing problem.",
+  "minutes": 7,
+  "date_added": "2026-10-29",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why does a cipher's strength depend on how many possible keys it has?",
+      "answer": "With few keys, an attacker can try them all (brute force). Each extra key bit doubles the number of keys to search."
+    },
+    {
+      "id": "k2",
+      "prompt": "What problem did public-key cryptography solve?",
+      "answer": "Key distribution. Before it, both sides had to share a secret key safely in advance. A public key can be shared openly; only the private key stays secret."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why do protocols like TLS use both public-key and symmetric encryption?",
+      "answer": "Public-key math is much slower. It is used to share a short symmetric key, which then encrypts the actual data quickly."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧩",
+      "title": "The fatal flaw",
+      "text": "Julius Caesar reportedly hid military messages by shifting every letter three places, so A became D. To an outsider it looks like gibberish. But the code has a weakness that has nothing to do with how scrambled it looks. Can you spot it before the end?"
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "Each extra bit in a key doubles the number of possible keys. Going from a 56-bit key to a 64-bit key multiplies the number of keys by how much?",
+      "estimate": {
+        "min": 0,
+        "max": 1024,
+        "step": 8,
+        "unit": "×",
+        "answer": 256
+      },
+      "reveal": "256 times. Eight extra bits means doubling eight times: 2⁸ = 256.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "🏛️",
+      "title": "A shift is a key",
+      "text": "In a Caesar cipher, the shift amount is the key. The method can be public; only the number is secret. But English allows only 25 shifts. An attacker can simply try every one, a brute-force attack. The correct key is the one that produces readable English.",
+      "example": "EXXEGOEXSRGI looks random. Shift each letter back by four and it reads ATTACKATONCE. No other shift makes sense.",
+      "why": {
+        "q": "Why doesn't encrypting twice with two different shifts make it stronger?",
+        "a": "Shifting by A and then by B is the same as one shift of A + B. You're still using one of the same 25 keys."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📏",
+      "title": "Bits multiply the haystack",
+      "text": "Modern ciphers use keys made of bits, usually 128 to 256 of them. Brute-force effort grows exponentially with key size, not linearly. U.S. export rules once capped keys at 56 bits. In 1998, a $250,000 machine built by the Electronic Frontier Foundation could brute-force a 56-bit DES key in a matter of days.",
+      "example": "From 56 to 64 bits multiplies the keys by 2⁸ = 256. From 56 to 128 bits multiplies them by 2⁷², a number with 22 digits.",
+      "why": {
+        "q": "Why does adding just one bit double an attacker's work?",
+        "a": "The new bit can be 0 or 1, so every old key now comes in two versions. The search space doubles."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🕵️",
+      "title": "Patterns leak",
+      "text": "Codebreakers have a faster trick than trying every key. In English, E and T are usually the most common letters. A Caesar cipher swaps each letter for the same letter every time, so that pattern survives. Counting letters is called frequency analysis. The earliest surviving record of it comes from the scholar Al-Kindi in the 9th century.",
+      "example": "Say the most common letter in a long Caesar-coded message is H. E shifted by three is H, so the key is probably 3."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔑",
+      "title": "The key-sharing problem",
+      "text": "Until the mid-1970s, every cipher was symmetric: sender and receiver used the same secret key, swapped in advance over a secure channel. That gets unmanageable fast. In 1976, Whitfield Diffie and Martin Hellman published a way to agree on a key in public. In 1977, Rivest, Shamir and Adleman at MIT invented RSA.",
+      "example": "Plot twist: British government codebreakers at GCHQ had found similar ideas in the early 1970s, but kept them secret until 1997."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚡",
+      "title": "Fast plus safe = hybrid",
+      "text": "Public-key math is much more computationally intensive than symmetric encryption. So protocols like TLS, which most websites use for HTTPS, do both. Public-key methods share a short symmetric key. Then the fast symmetric cipher encrypts everything else.",
+      "example": "It's like mailing a small locked box holding a house key, then using that house key every day after."
+    },
+    {
+      "type": "think",
+      "question": "Say you're launching an app that stores customer data. Would you rather keep your encryption method secret, or publish it and keep only the key secret? Argue both sides.",
+      "nudges": [
+        "What happens if a secret method leaks? What if a key leaks?",
+        "Who finds flaws in a method that experts can study?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "A cipher uses 40-bit keys. You upgrade to 41-bit keys. What happens to the brute-force work?",
+          "options": [
+            {
+              "text": "It doubles",
+              "correct": true,
+              "why": "Yes. One more bit gives every old key two versions, 0 and 1."
+            },
+            {
+              "text": "It goes up by one key",
+              "correct": false,
+              "why": "Adding a bit doesn't add one key. It doubles the whole set."
+            },
+            {
+              "text": "It goes up about 2.5%",
+              "correct": false,
+              "why": "That would be linear growth. Key spaces grow exponentially: one bit doubles them."
+            },
+            {
+              "text": "It grows 41 times",
+              "correct": false,
+              "why": "Not quite. Each bit multiplies by 2, not by the bit count."
+            }
+          ]
+        },
+        {
+          "q": "The most common letter in a long Caesar-coded English message is L. What's the most likely shift?",
+          "options": [
+            {
+              "text": "7",
+              "correct": true,
+              "why": "Right. E is letter 5 and L is letter 12, so E was probably shifted 7 places."
+            },
+            {
+              "text": "3",
+              "correct": false,
+              "why": "A shift of 3 turns E into H, not L."
+            },
+            {
+              "text": "11",
+              "correct": false,
+              "why": "That would turn E into P. Count from E to L instead."
+            },
+            {
+              "text": "12",
+              "correct": false,
+              "why": "12 is L's place in the alphabet. The shift is the gap from E to L."
+            }
+          ]
+        },
+        {
+          "q": "Why did the work of Diffie, Hellman and RSA matter so much?",
+          "options": [
+            {
+              "text": "Strangers could set up secret messages without first sharing a secret key",
+              "correct": true,
+              "why": "Yes. That solved the key-distribution problem for an open network."
+            },
+            {
+              "text": "It made codes impossible to break",
+              "correct": false,
+              "why": "Any key can in theory be brute-forced. The big win was sharing keys safely."
+            },
+            {
+              "text": "It replaced symmetric encryption",
+              "correct": false,
+              "why": "Not really. Hybrid systems still use fast symmetric ciphers for the data."
+            },
+            {
+              "text": "It let people keep their methods secret",
+              "correct": false,
+              "why": "Actually the methods are public. Only the private key is secret."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Old ciphers were weak because…",
+        "Each extra bit in a key…",
+        "Public keys solved…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "ZghMPWGXexs",
+    "title": "The Internet: Encryption & Public Keys",
+    "channel": "Code.org",
+    "duration_sec": 399,
+    "why": "A security engineer goes from Caesar's cipher to 256-bit keys, public and private keys, and the HTTPS padlock. (She counts 26 shifts, including zero.)"
+  },
+  "sources": [
+    {
+      "title": "Caesar cipher",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Caesar_cipher",
+      "supports": "Caesar's shift of three (A becoming D) per Suetonius, used for military messages; the shift is the key; only 25 possible shifts in English, so brute force works and the correct decryption is the one that makes sense (exxegoexsrgi with shift four gives attackatonce); encrypting twice with shifts A and B equals one shift of A + B; frequency analysis, with E and T usually most frequent in English; earliest surviving records of breaking substitution ciphers are the 9th-century works of Al-Kindi."
+    },
+    {
+      "title": "Brute-force attack",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brute-force_attack",
+      "supports": "Brute-force resources grow exponentially with key size, not linearly; U.S. export regulations historically restricted keys to 56 bits (DES); modern symmetric algorithms typically use 128- to 256-bit keys; the 1998 EFF US$250,000 DES cracking machine could brute-force a DES key in a matter of days."
+    },
+    {
+      "title": "Public-key cryptography",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Public-key_cryptography",
+      "supports": "Before the mid-1970s all ciphers were symmetric, with the same key exchanged securely in advance, which becomes unmanageable; Diffie and Hellman published a key-agreement method in 1976; Rivest, Shamir and Adleman, then at MIT, invented RSA in 1977; GCHQ's Ellis (1970), Cocks (1973) and Williamson (1974) found these ideas first, declassified in 1997; public-key algorithms are much more computationally intensive, so TLS, SSH and PGP use them to exchange a symmetric key (hybrid cryptosystems); most websites use TLS for HTTPS."
+    }
+  ]
+}
