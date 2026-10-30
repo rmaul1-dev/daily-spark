@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "topics": [
   {
    "id": "history",
@@ -370,6 +370,17 @@
     "kid": "tech-encryption-kid"
    },
    "dinner_question": "If you had to invent a secret code for our family, how would you share the key so nobody else could learn it?"
+  },
+  {
+   "date": "2026-11-07",
+   "topic": "history",
+   "title": "The Panama Canal: a water staircase for ships",
+   "packs": {
+    "adult": "history-panama-canal-adult",
+    "teen": "history-panama-canal-teen",
+    "kid": "history-panama-canal-kid"
+   },
+   "dinner_question": "If you had to get a huge ship over a hill, would you dig the hill away or build a water staircase? What would make you choose?"
   }
  ],
  "series": [
@@ -751,6 +762,45 @@
    "minutes": 8,
    "date_added": "2026-10-22",
    "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "history-panama-canal-kid",
+   "topic": "history",
+   "level": "kid",
+   "title": "A Water Staircase for Ships",
+   "emoji": "🚢",
+   "subject": "panama-canal",
+   "summary": "How giant ships climb over a hill in Panama, and the tiny bug that almost stopped the canal.",
+   "minutes": 6,
+   "date_added": "2026-10-30",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "history-panama-canal-teen",
+   "topic": "history",
+   "level": "teen",
+   "title": "The Canal That Beat the Mosquito",
+   "emoji": "🦟",
+   "subject": "panama-canal",
+   "summary": "France failed in Panama. The US finished two years early. The difference was biology, one big design call and a lot of water.",
+   "minutes": 7,
+   "date_added": "2026-10-30",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "history-panama-canal-adult",
+   "topic": "history",
+   "level": "adult",
+   "title": "A Saltwater Shortcut That Runs on Rain",
+   "emoji": "🌧️",
+   "subject": "panama-canal",
+   "summary": "A 1906 design choice made the Panama Canal's capacity depend on a rain-fed lake. Droughts, slot auctions and new reservoirs follow from that.",
+   "minutes": 8,
+   "date_added": "2026-10-30",
+   "cards": 9,
    "keys_count": 3
   },
   {

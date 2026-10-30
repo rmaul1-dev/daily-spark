@@ -1,0 +1,232 @@
+{
+  "id": "history-panama-canal-kid",
+  "topic": "history",
+  "subject": "panama-canal",
+  "level": "kid",
+  "title": "A Water Staircase for Ships",
+  "emoji": "🚢",
+  "summary": "How giant ships climb over a hill in Panama, and the tiny bug that almost stopped the canal.",
+  "minutes": 6,
+  "date_added": "2026-10-30",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How do the locks lift a ship up?",
+      "answer": "Water flows down from a lake into the lock. The ship floats higher as the water rises.",
+      "options": [
+        {
+          "text": "Water flows in from a lake above, and the ship floats up",
+          "correct": true
+        },
+        {
+          "text": "A giant crane lifts the ship"
+        },
+        {
+          "text": "Wheels roll the ship up the hill"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Why did ships want a canal across Panama?",
+      "answer": "It is a shortcut between the Atlantic and Pacific. Ships don't have to sail around the bottom of South America.",
+      "options": [
+        {
+          "text": "It is a shortcut, so ships skip the long trip around South America",
+          "correct": true
+        },
+        {
+          "text": "The water in Panama is warmer"
+        },
+        {
+          "text": "Ships had to stop there for fuel"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What made building the canal so hard at first?",
+      "answer": "Many workers got sick from diseases spread by mosquitoes.",
+      "options": [
+        {
+          "text": "Diseases spread by mosquitoes",
+          "correct": true
+        },
+        {
+          "text": "Snow and ice"
+        },
+        {
+          "text": "Not enough water"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌎",
+      "title": "A hill in the way",
+      "text": "Find North and South America on a map. Look for the skinny part in the middle. That is Panama. Ships sail across it on a canal, from one ocean to the other. But there is a big hill in the way! How do ships get over it?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "How do you think the canal lifts huge ships up the hill?",
+      "options": [
+        {
+          "text": "Giant cranes"
+        },
+        {
+          "text": "Water that flows down from a lake",
+          "correct": true
+        },
+        {
+          "text": "Big wheels under the ship"
+        }
+      ],
+      "reveal": "Water! It flows down from a lake into a big box called a lock, and the ship floats up.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "🗺️",
+      "title": "A shortcut across land",
+      "text": "The Atlantic and the Pacific are two oceans. By sea, they are far apart. Without the canal, a ship had to sail around the bottom tip of South America. That trip is long and rough. The canal cuts across the thinnest part of the land instead.",
+      "example": "Say your friend lives across a pond. You could walk all the way around it, or take a bridge straight across. The canal is the bridge."
+    },
+    {
+      "type": "idea",
+      "emoji": "🪜",
+      "title": "A water staircase",
+      "text": "The middle of the canal is a big lake. It sits about 85 feet above the sea. To get up there, ships use locks. A lock is a giant box of water with gates at each end. A ship goes in, the gates close, and water flows in. The ship floats up and up!",
+      "example": "It works like a toy boat in a bathtub. Add water, and the boat rises.",
+      "why": {
+        "q": "Why doesn't the canal need pumps to fill the locks?",
+        "a": "The lake is higher than the locks. Water flows downhill by itself, so gravity does the work."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🫏",
+      "title": "Mules that are trains",
+      "text": "Small electric trains run on tracks next to the locks. They are called mules. Long ago, real mules helped people cross Panama. Today, the train mules hold ropes to keep ships steady in the tight locks. The ship's own engines push it forward.",
+      "example": "Think of two friends holding the sides of a wagon so it rolls straight."
+    },
+    {
+      "type": "idea",
+      "emoji": "🦟",
+      "title": "The tiny enemy",
+      "text": "Building the canal was very hard. A team from France tried first, in the 1880s. Many workers got sick from diseases spread by mosquitoes. France ran out of money and gave up. Later, an American named William Gorgas was put in charge of keeping workers healthy. He led a fight against the mosquitoes.",
+      "example": "His team got rid of standing water where mosquitoes breed and put screens on windows. In about two years, those diseases were nearly gone."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎉",
+      "title": "Open for ships!",
+      "text": "The United States finished the canal in 1914. It opened on August 15, 1914, when a ship named Ancon sailed through. Since 1999, Panama has run the canal itself. On a normal day, about 36 ships can cross.",
+      "example": "That is more than one ship every hour!"
+    },
+    {
+      "type": "think",
+      "question": "The builders chose to lift ships with locks instead of digging the whole hill away. What is good about each idea? What is hard?",
+      "nudges": [
+        "Think about how much dirt you would have to dig.",
+        "Think about where all the water for the locks comes from."
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What is a lock on a canal?",
+          "options": [
+            {
+              "text": "A big box of water with gates that lifts or lowers ships",
+              "correct": true,
+              "why": "Yes. Water goes in to lift a ship and out to lower it."
+            },
+            {
+              "text": "A key that opens the canal",
+              "correct": false,
+              "why": "Not this kind of lock. A canal lock is a box of water with gates."
+            },
+            {
+              "text": "A bridge over the water",
+              "correct": false,
+              "why": "Not quite. A lock lifts ships with water."
+            }
+          ]
+        },
+        {
+          "q": "What are the canal's mules?",
+          "options": [
+            {
+              "text": "Small electric trains that keep ships steady",
+              "correct": true,
+              "why": "Right. They hold ropes so ships stay straight in the locks."
+            },
+            {
+              "text": "Animals that pull every ship",
+              "correct": false,
+              "why": "Real mules helped long ago. Today the mules are electric trains."
+            },
+            {
+              "text": "Boats that carry food",
+              "correct": false,
+              "why": "No. The mules run on tracks beside the locks."
+            }
+          ]
+        },
+        {
+          "q": "How did William Gorgas help the workers?",
+          "options": [
+            {
+              "text": "He fought the mosquitoes that spread disease",
+              "correct": true,
+              "why": "Yes. His team got rid of standing water and put up window screens."
+            },
+            {
+              "text": "He built the first lock",
+              "correct": false,
+              "why": "Engineers built the locks. Gorgas led the fight against disease."
+            },
+            {
+              "text": "He drove the first ship",
+              "correct": false,
+              "why": "No. A ship named Ancon opened the canal. Gorgas fought mosquitoes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The Panama Canal is a shortcut that…",
+        "Ships climb over the hill using…",
+        "Building it was hard because…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Panama Canal",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Panama_Canal",
+      "supports": "The canal crosses the narrowest point of Panama between the Atlantic and Pacific and lets ships avoid the route around the southern tip of South America; about 50 miles (82 km) long; locks lift ships to Gatun Lake about 85 ft (26 m) above sea level; France worked 1881–1889 and stopped; Gorgas fought mosquito-borne yellow fever and malaria with screens, removing stagnant water and spraying breeding areas, and the diseases were nearly eliminated after two years; US finished 1914; opened 15 August 1914 with the SS Ancon; Panama took control in 1999; 36 ships can transit in normal times."
+    },
+    {
+      "title": "Panama Canal locks",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Panama_Canal_locks",
+      "supports": "Water fills lock chambers from the lake by gravity through culverts, controlled by valves; electric locomotives called mules, named after the animals once used to cross the isthmus, give side-to-side and braking control while ships' own engines move them forward."
+    },
+    {
+      "title": "Building the Panama Canal, 1903–1914",
+      "publisher": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/milestones/1899-1913/panama-canal",
+      "supports": "The French attempt led by de Lesseps was undone by malaria, yellow fever and other tropical diseases and went bankrupt; the canal was completed in 1914."
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "id": "history-panama-canal-adult",
+  "topic": "history",
+  "subject": "panama-canal",
+  "level": "adult",
+  "title": "A Saltwater Shortcut That Runs on Rain",
+  "emoji": "🌧️",
+  "summary": "A 1906 design choice made the Panama Canal's capacity depend on a rain-fed lake. Droughts, slot auctions and new reservoirs follow from that.",
+  "minutes": 8,
+  "date_added": "2026-10-30",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why does a lock-and-lake canal 'spend' fresh water on every transit?",
+      "answer": "Raising a ship fills chambers from the lake; lowering it drains that water downhill to the sea. Gravity only moves it one way."
+    },
+    {
+      "id": "k2",
+      "prompt": "How does drought turn into a shipping problem at Panama?",
+      "answer": "Less rain means a lower Gatun Lake, so fewer lockages can be afforded. Daily slots get cut, and scarce slots get auctioned at high prices."
+    },
+    {
+      "id": "k3",
+      "prompt": "What are the two main engineering responses to the water constraint?",
+      "answer": "Use less per transit (water-saving basins reuse 60% in the 2016 locks) and add supply (a planned Indio River reservoir)."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌧️",
+      "title": "An ocean link with a rain gauge",
+      "text": "The Panama Canal joins two salt oceans. Yet in late 2023 its daily traffic was capped not by ships, tolls or machinery, but by rainfall. In August 2026 a shipper paid a record $5.3 million at auction just to jump the queue. How does a saltwater shortcut end up rationed by fresh water?"
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "On average, how many million gallons of fresh water does a single ship's passage through the canal use?",
+      "estimate": {
+        "min": 0,
+        "max": 150,
+        "step": 1,
+        "unit": "million gallons",
+        "answer": 52
+      },
+      "reveal": "About 52 million gallons (roughly 200 million liters) per transit, drawn from Gatun Lake.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "The 1906 trade-off",
+      "text": "France tried a sea-level canal from 1881 and stopped in 1889 amid disease, engineering problems and lost investor confidence. In 1906 a US panel still voted eight to five for sea level. Chief engineer John Stevens, who had seen the Chagres River in full flood, called that \"an entirely untenable proposition.\" He won with a lock-and-lake design: dam the Chagres to make Gatun Lake 85 ft up, and lift ships to it.",
+      "example": "It saved enormous digging. The hidden cost: every lockage would be paid in lake water.",
+      "why": {
+        "q": "Why does a lock canal spend water when a sea-level canal doesn't?",
+        "a": "Lifting a ship means filling a chamber from the lake above; lowering it means draining that water downhill to the sea. Gravity only moves it one way."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "💧",
+      "title": "The water bill per ship",
+      "text": "Each original lock chamber takes about 26.7 million gallons to fill, moved by gravity through culverts. Averaged out, a transit uses about 52 million gallons of fresh water. Gatun Lake is also Panama City's main source of drinking water, so canal traffic and a capital city draw on the same reservoir. In a 2019 drought, the lake fell to historic lows.",
+      "example": "In a dry spell, the real limit on traffic is how much water the lake can spare."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌵",
+      "title": "Drought is a capacity cap",
+      "text": "In normal times about 36 ships a day can transit. In early December 2023, low water cut that to 22, and ships backed up; in January 2024 it was 24. The squeeze returned in 2026: from September 3 the limit fell to 34, then to 32 from September 15. When slots are scarce, price does the rationing: the August 2026 $5.3 million priority bid came amid drought restrictions.",
+      "example": "Going from 36 to 22 slots is a cut of about 39% in daily capacity."
+    },
+    {
+      "type": "idea",
+      "emoji": "♻️",
+      "title": "Use less, or store more",
+      "text": "The 2016 Neopanamax locks have gravity-fed water-saving basins that let 60% of each transit's water be reused. Because the chambers are much bigger, they still use only about 7% less water per transit than each old lane. On the supply side, the canal authority plans a $1.6 billion Indio River reservoir holding about 1.25 billion cubic meters, expected to add up to 15 daily transits in the dry season.",
+      "example": "Efficiency mostly paid for bigger ships; new supply is what adds slots."
+    },
+    {
+      "type": "think",
+      "question": "If fresh water is the scarce input, how should the canal ration it: higher tolls, auctions, priority by cargo type, or more reservoirs? Who wins and who loses under each, including the people of Panama who drink from the same lake?",
+      "nudges": [
+        "Auctions send slots to whoever values them most. Is that the same as whoever matters most?",
+        "A new reservoir adds supply, but what does it cost, and who bears it?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Why did the record auction bid happen in 2026?",
+          "options": [
+            {
+              "text": "Drought restrictions cut slots, so scarce priority passage was bid up",
+              "correct": true,
+              "why": "Right. Fewer slots plus steady demand pushes the price of jumping the queue up."
+            },
+            {
+              "text": "Tolls were abolished and replaced by auctions",
+              "correct": false,
+              "why": "Regular tolls still exist; auctions are for priority slots."
+            },
+            {
+              "text": "The new locks closed for repairs",
+              "correct": false,
+              "why": "The pack's sources tie the record to drought restrictions, not repairs."
+            },
+            {
+              "text": "Ships got too big for both lanes",
+              "correct": false,
+              "why": "Size limits are a separate issue from the 2026 drought squeeze."
+            }
+          ]
+        },
+        {
+          "q": "The 2016 locks reuse 60% of their water, yet use only about 7% less per transit than an old lane. Why?",
+          "options": [
+            {
+              "text": "The new chambers are much larger, so the savings mostly offset their size",
+              "correct": true,
+              "why": "Yes. Bigger ships need bigger chambers, which need more water."
+            },
+            {
+              "text": "The basins don't work in drought",
+              "correct": false,
+              "why": "The basins work; the chambers are just much bigger."
+            },
+            {
+              "text": "They use salt water instead",
+              "correct": false,
+              "why": "The locks are fed by gravity from Gatun Lake."
+            },
+            {
+              "text": "The 60% figure counts only rainy months",
+              "correct": false,
+              "why": "The figure is per transit, not seasonal."
+            }
+          ]
+        },
+        {
+          "q": "What was the core advantage of Stevens's lock-and-lake plan over sea level?",
+          "options": [
+            {
+              "text": "It avoided a huge amount of excavation by lifting ships over the land",
+              "correct": true,
+              "why": "Correct. The lake was made by damming the Chagres, with locks at each end."
+            },
+            {
+              "text": "It used no water",
+              "correct": false,
+              "why": "The opposite: it spends lake water on every lockage."
+            },
+            {
+              "text": "It allowed unlimited ship sizes",
+              "correct": false,
+              "why": "Lock size set the Panamax limit."
+            },
+            {
+              "text": "It was France's design",
+              "correct": false,
+              "why": "France had first tried sea level."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The canal's capacity depends on rain because…",
+        "When drought hits, slots get…",
+        "The two fixes are…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "SBvclVcesEE",
+    "title": "The Surprising Efficiency of Canal Locks",
+    "channel": "Practical Engineering",
+    "duration_sec": 637,
+    "start": 0,
+    "end": 590,
+    "why": "A civil engineer's model shows why each lockage loses water downhill, and how the 2016 locks' side basins cut that loss to 40%. Ends before the Patreon plug."
+  },
+  "sources": [
+    {
+      "title": "Panama Canal",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Panama_Canal",
+      "supports": "France began in 1881 and stopped in 1889 amid engineering problems, high mortality and lack of investor confidence; 1906 panel eight to five for sea level; Stevens had seen the Chagres in full flood and called sea level \"an entirely untenable proposition\"; lock-and-lake plan with a reservoir 85 ft above sea level fed to the locks by gravity; about 52 million gallons (200 million liters) of fresh water per passage; Gatun Lake is Panama City's primary drinking-water source; 2019 drought historic lows; 36 ships per day in normal times, 22 in early December 2023, 24 in January 2024; 34 from 3 September 2026 and 32 from 15 September 2026; record US$5.3 million priority auction in August 2026 amid drought restrictions; water-saving basins reuse 60% of water per transit and the new locks use 7% less water per transit than each existing lane; Neopanamax locks opened 2016; planned $1.6 billion Indio River reservoir of about 1.25 billion cubic meters for up to 15 additional daily dry-season transits."
+    },
+    {
+      "title": "Panama Canal locks",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Panama_Canal_locks",
+      "supports": "Each original chamber takes 26.7 million US gallons to fill; water is moved by gravity through culverts and controlled by valves."
+    },
+    {
+      "title": "Building the Panama Canal, 1903–1914",
+      "publisher": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/milestones/1899-1913/panama-canal",
+      "supports": "Diseases undid the French attempt, which went bankrupt after 9 years; the canal was completed in 1914."
+    }
+  ]
+}

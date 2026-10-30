@@ -1,0 +1,216 @@
+{
+  "id": "history-panama-canal-teen",
+  "topic": "history",
+  "subject": "panama-canal",
+  "level": "teen",
+  "title": "The Canal That Beat the Mosquito",
+  "emoji": "🦟",
+  "summary": "France failed in Panama. The US finished two years early. The difference was biology, one big design call and a lot of water.",
+  "minutes": 7,
+  "date_added": "2026-10-30",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why was knowing that mosquitoes spread yellow fever and malaria the turning point in Panama?",
+      "answer": "It told Gorgas what to attack: drain standing water, spray breeding areas and screen windows. Within two years the diseases were nearly gone."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why did the US build a lock-and-lake canal instead of a sea-level one?",
+      "answer": "Damming the Chagres River made Gatun Lake about 85 ft up, so ships could be lifted over the land instead of digging it all away."
+    },
+    {
+      "id": "k3",
+      "prompt": "How does a lock raise a ship without pumps?",
+      "answer": "Valves let water flow downhill from the lake through big tunnels into the chamber. Gravity fills it and the ship floats up."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "⛏️",
+      "title": "The champion who lost",
+      "text": "Ferdinand de Lesseps had already built the Suez Canal. In the 1880s his company started digging across Panama. After about nine years it went bankrupt, and roughly 20,000 people had died. The United States took over in 1904 and finished in 1914. What did the second team know that the first didn't?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "The US set a target finish date of June 10, 1916. When do you think the canal was actually done?",
+      "options": [
+        {
+          "text": "About five years late"
+        },
+        {
+          "text": "Right on the target date"
+        },
+        {
+          "text": "About two years early",
+          "correct": true
+        }
+      ],
+      "reveal": "About two years early. It was finished in 1914, two years ahead of the 1916 target.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "🦟",
+      "title": "The real enemy was tiny",
+      "text": "The worst problems were yellow fever and malaria. Scientists such as Carlos Finlay, Walter Reed and Ronald Ross had recently shown that mosquitoes spread them. Colonel William Gorgas, the project's chief sanitation officer, used that. His teams removed standing water, sprayed breeding areas with oil and larvicide, fumigated buildings and screened windows.",
+      "example": "After about two years of that work, the mosquito-spread diseases were nearly eliminated.",
+      "why": {
+        "q": "Why did knowing how the disease spread matter so much?",
+        "a": "Once you know the carrier is a mosquito, you can attack where it breeds instead of only treating sick workers."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🏞️",
+      "title": "The big design call",
+      "text": "In 1906 an engineering panel voted eight to five for a sea-level canal, the kind France had first tried. Chief engineer John Stevens had seen the Chagres River in full flood. He called sea level \"an entirely untenable proposition.\" His plan: dam the river, make a lake 85 ft above the sea, and lift ships up to it with locks.",
+      "example": "The Gatun Dam made Gatun Lake, the largest human-made lake in the world at the time."
+    },
+    {
+      "type": "idea",
+      "emoji": "🪜",
+      "title": "Gravity does the lifting",
+      "text": "A lock chamber is a concrete box with gates. To raise a ship, valves open and lake water flows down through huge tunnels in the walls, called culverts. No pumps: gravity moves the water. A chamber can fill in about ten minutes. At Gatun, three chambers in a row lift ships from the Atlantic up to the lake.",
+      "example": "Filling one chamber takes about 26.7 million gallons. Lowering a ship drains that same amount back downhill."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏁",
+      "title": "Finished two years early",
+      "text": "Army engineer George Goethals took charge in 1907. He split the job into Atlantic, Central and Pacific divisions. The hardest part was the Culebra Cut through the mountains, where landslides kept pouring into the cut. The work finished in 1914, two years before the June 10, 1916 target. It cost almost $500 million, and about 5,600 workers died.",
+      "example": "Most of the workers who died were laborers from the West Indies, especially Barbados."
+    },
+    {
+      "type": "idea",
+      "emoji": "📏",
+      "title": "A size limit for the world's ships",
+      "text": "The original locks are 33.5 m wide. Ships built to fit them are called Panamax. By 2011, about 37% of the world's container ships were too big. So Panama built a third, wider lane of locks, which opened to traffic on June 26, 2016, for larger Neopanamax ships.",
+      "example": "Ship designers had to choose: fit the canal, or build bigger and take another route.",
+      "examples_by_interest": {
+        "business": "Say you run a shipping company. A ship that fits the old locks can use the shortcut. A bigger ship carries more boxes per trip, but before 2016 it couldn't use the canal at all. That's a real trade-off between size and route."
+      }
+    },
+    {
+      "type": "think",
+      "question": "Stevens overruled an expert panel's vote because of what he had seen on the ground. When should one person with field experience overrule a committee? Argue both sides.",
+      "nudges": [
+        "What did Stevens know that the panel might not have?",
+        "What could go wrong if one confident person always gets the final say?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What changed the disease problem for the US builders?",
+          "options": [
+            {
+              "text": "Knowing mosquitoes carried the diseases, so Gorgas could attack where they bred",
+              "correct": true,
+              "why": "Right. Draining standing water, spraying and screens nearly wiped out the diseases in about two years."
+            },
+            {
+              "text": "A vaccine for every worker",
+              "correct": false,
+              "why": "The pack's sources describe mosquito control, not vaccines."
+            },
+            {
+              "text": "Building in the dry season only",
+              "correct": false,
+              "why": "The key was mosquito control, not timing."
+            },
+            {
+              "text": "Hiring fewer workers",
+              "correct": false,
+              "why": "The US brought in thousands of workers. Mosquito control made it safer."
+            }
+          ]
+        },
+        {
+          "q": "Why does a lock canal need so much fresh water?",
+          "options": [
+            {
+              "text": "Every lift fills a chamber from the lake, and every lowering drains it downhill",
+              "correct": true,
+              "why": "Yes. Gravity only moves water one way, so each trip spends lake water."
+            },
+            {
+              "text": "Ships need fresh water for their engines",
+              "correct": false,
+              "why": "The water is for filling the lock chambers."
+            },
+            {
+              "text": "Salt water would rust the gates",
+              "correct": false,
+              "why": "The reason is the lake feeds the locks by gravity."
+            },
+            {
+              "text": "The pumps need it to cool down",
+              "correct": false,
+              "why": "There are no pumps. Gravity moves the water."
+            }
+          ]
+        },
+        {
+          "q": "About how long before the target date was the canal finished?",
+          "options": [
+            {
+              "text": "About two years",
+              "correct": true,
+              "why": "Correct. 1914 versus a June 10, 1916 target."
+            },
+            {
+              "text": "About two months",
+              "correct": false,
+              "why": "It was much earlier than that: about two years."
+            },
+            {
+              "text": "It was late",
+              "correct": false,
+              "why": "It was actually early, by about two years."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "France failed in Panama mostly because…",
+        "The US succeeded partly because Gorgas…",
+        "Instead of digging to sea level, Stevens…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "uE_UuHRtXCY",
+    "title": "Demolition, disease, and death: Building the Panama Canal - Alex Gendler",
+    "channel": "TED-Ed",
+    "duration_sec": 335,
+    "why": "TED-Ed shows why France's sea-level plan failed and how the US chose to \"raise the sea up the mountain\" with locks. Its death counts are rounder than ours."
+  },
+  "sources": [
+    {
+      "title": "Building the Panama Canal, 1903–1914",
+      "publisher": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/milestones/1899-1913/panama-canal",
+      "supports": "De Lesseps, builder of the Suez Canal, led the French attempt; malaria, yellow fever and other tropical diseases; after 9 years and about 20,000 lives it went bankrupt; the canal was completed in 1914."
+    },
+    {
+      "title": "Panama Canal",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Panama_Canal",
+      "supports": "US took over in 1904 and opened the canal in 1914; Gorgas's measures (water systems, fumigation, oil and larvicide on breeding areas, netting and screens, removing stagnant water) after Finlay, Reed and Ross showed the diseases were mosquito-borne, nearly eliminated in two years; about 5,600 workers died in the US phase, mostly West Indian laborers, especially from Barbados; 1906 panel voted eight to five for sea level; Stevens had seen the Chagres in flood and called sea level \"an entirely untenable proposition\"; lake 85 ft above sea level, Gatun Dam and the largest human-made lake at the time; Goethals took over in 1907 with Atlantic, Central and Pacific divisions; Culebra Cut landslides; finished two years ahead of the 10 June 1916 target; almost $500 million; original locks 33.5 m wide, Panamax; 37% of container ships too large by 2011; third lane of locks began commercial operation 26 June 2016 for Neopanamax ships; Gatun Locks are a three-stage flight up to lake level."
+    },
+    {
+      "title": "Panama Canal locks",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Panama_Canal_locks",
+      "supports": "Each chamber needs 26.7 million US gallons to fill and the same amount drains to lower it; culverts in the walls carry the water; water is moved by gravity and controlled by valves; a chamber can be filled in as little as ten minutes."
+    }
+  ]
+}
