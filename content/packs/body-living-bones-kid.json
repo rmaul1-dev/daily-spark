@@ -1,0 +1,237 @@
+{
+  "id": "body-living-bones-kid",
+  "topic": "body",
+  "subject": "living-bones",
+  "level": "kid",
+  "title": "Your Bones Are Alive!",
+  "emoji": "🦴",
+  "summary": "Why you have fewer bones than a baby, what's inside a bone, and how a broken bone fixes itself.",
+  "minutes": 6,
+  "date_added": "2026-10-31",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "A baby has about 300 bones, but a grown-up has 206. Where did the extra bones go?",
+      "answer": "Some bones grow together, or fuse, into bigger bones. Nothing is lost.",
+      "options": [
+        {
+          "text": "Some bones grow together into bigger bones",
+          "correct": true
+        },
+        {
+          "text": "The extra bones fall out, like baby teeth"
+        },
+        {
+          "text": "The body melts them down for food"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "What are your bones doing all the time, even when you are still?",
+      "answer": "Some cells break down old bone, and other cells build new bone. While you are young, building wins, so bones get stronger.",
+      "options": [
+        {
+          "text": "Breaking down old bone and building new bone",
+          "correct": true
+        },
+        {
+          "text": "Nothing at all, because bones are not alive"
+        },
+        {
+          "text": "Slowly turning into soft jelly"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "How does a broken bone heal?",
+      "answer": "A blood clot forms around the break. Then a soft healing zone called a callus joins the pieces and slowly gets hard.",
+      "options": [
+        {
+          "text": "A clot forms, then a callus joins the pieces and gets hard",
+          "correct": true
+        },
+        {
+          "text": "The doctor glues the pieces together"
+        },
+        {
+          "text": "The cast grows into new bone"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🏛️",
+      "title": "Not like a museum",
+      "text": "Bones in a museum are dry and hard. They are not alive anymore. Now press on your knee or your wrist. The bones under your skin are alive! They grow, change and even fix themselves."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "A grown-up has 206 bones. How many bones do you think a newborn baby has?",
+      "options": [
+        {
+          "text": "About 100"
+        },
+        {
+          "text": "Exactly 206"
+        },
+        {
+          "text": "About 300",
+          "correct": true
+        }
+      ],
+      "reveal": "About 300! As a baby grows, some bones grow together. That is how 300 becomes 206.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "👶",
+      "title": "Fewer bones as you grow",
+      "text": "A baby has about 300 bones. Many of them grow together, or fuse, into bigger bones. A grown-up ends up with 206. Some baby bones start out as soft cartilage (KAR-tel-ij). Bit by bit, the cartilage turns into hard bone.",
+      "example": "Your bones keep growing until you are about 25. After that, they are as big as they will ever get."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧽",
+      "title": "Hard outside, spongy inside",
+      "text": "The outside of a bone is smooth and very hard. Inside is spongy bone, full of little holes. In many bones, the very middle has marrow. It is like a thick jelly, and it makes new blood cells!",
+      "why": {
+        "q": "Why is it OK for the inside of a bone to be spongy?",
+        "a": "Spongy bone is still very strong. Together with the hard outside, it makes a skeleton that is strong and light."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🏗️",
+      "title": "Tear down, build up",
+      "text": "Your bones change all the time. Some bone cells break down old bone. Other cells build new bone to take its place. While you are young, new bone is made faster than old bone is broken down. So your bones get stronger."
+    },
+    {
+      "type": "idea",
+      "emoji": "🩹",
+      "title": "A bone can fix itself",
+      "text": "When a bone breaks, a blood clot forms around the break first. Next, a healing zone called a callus (KAL-us) joins the pieces. At first it is soft. Then it gets harder and stronger. Most broken bones heal in a few months.",
+      "example": "A cast keeps the bone still while it heals. That helps it heal the right way.",
+      "why": {
+        "q": "Why does a broken arm need a cast?",
+        "a": "The cast keeps the bone from moving around while it heals, so it heals correctly."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🤸",
+      "title": "Help your bones grow strong",
+      "text": "Bones answer exercise by making new bone. Running, jumping rope and dancing all put weight on your bones. Bones also need calcium from foods like milk, cheese, yogurt and leafy greens. Vitamin D helps your body take in that calcium.",
+      "examples_by_interest": {
+        "soccer": "Say you play a soccer game. All that running and jumping puts weight on your leg bones, and they answer by building new bone."
+      }
+    },
+    {
+      "type": "think",
+      "question": "Your bones keep building until you are about 25. What is one thing you could do this week to help them?",
+      "nudges": [
+        "Think about games where you run or jump.",
+        "Which foods have calcium?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What is bone marrow's big job?",
+          "options": [
+            {
+              "text": "Making new blood cells",
+              "correct": true,
+              "why": "Yes! The jelly-like marrow inside many bones makes blood cells."
+            },
+            {
+              "text": "Making bones bend like rubber",
+              "correct": false,
+              "why": "Not quite. Marrow is inside the bone, and its job is making blood cells."
+            },
+            {
+              "text": "Storing air",
+              "correct": false,
+              "why": "Bones don't store air. The marrow inside makes blood cells."
+            }
+          ]
+        },
+        {
+          "q": "Why do young people's bones get stronger over time?",
+          "options": [
+            {
+              "text": "New bone is made faster than old bone is broken down",
+              "correct": true,
+              "why": "Right! Building wins while you are young."
+            },
+            {
+              "text": "Bones stop changing after you are born",
+              "correct": false,
+              "why": "Bones change all the time. Cells break down old bone and build new bone."
+            },
+            {
+              "text": "Bones get harder by drying out",
+              "correct": false,
+              "why": "Living bones don't dry out. They get stronger because new bone is built faster than old bone is removed."
+            }
+          ]
+        },
+        {
+          "q": "What is a callus on a broken bone?",
+          "options": [
+            {
+              "text": "A healing zone that joins the pieces",
+              "correct": true,
+              "why": "Yes! It starts soft and gets hard."
+            },
+            {
+              "text": "A kind of cast",
+              "correct": false,
+              "why": "A cast is on the outside. The callus grows inside, right at the break."
+            },
+            {
+              "text": "A new bone that grows somewhere else",
+              "correct": false,
+              "why": "The callus grows right at the break to join the pieces."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "My bones are alive because…",
+        "A broken bone heals when…",
+        "To help my bones get strong, I can…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "vRuh9aBwUdM",
+    "title": "Your Super Skeleton!",
+    "channel": "SciShow Kids",
+    "duration_sec": 250,
+    "why": "A tour of your skeleton, from the femur to the tiny stapes in your ear, and why babies have about 300 bones but grown-ups have 206."
+  },
+  "sources": [
+    {
+      "title": "Health Lesson: Learning About Bones",
+      "publisher": "NIAMS (National Institutes of Health)",
+      "url": "https://www.niams.nih.gov/health-topics/educational-resources/health-lesson-learning-about-bones",
+      "supports": "Bones are alive and grow and change all the time; spongy bone is inside compact bone and full of holes; bone marrow is jelly-like and makes blood cells; a baby has about 300 bones that fuse into the adult 206; bone cells break down old bone and others make new bone, and while young new bone is made faster so bones get denser and stronger; a broken bone first forms a blood clot, then a callus that starts soft and gets harder; most broken bones heal within a few months; casts keep the bone from moving so it heals correctly; bones respond to exercise by making new bone; weight-bearing activities like jumping rope and dancing; calcium from milk, cheese, yogurt and leafy greens; vitamin D helps absorb calcium."
+    },
+    {
+      "title": "Your Bones (for Kids)",
+      "publisher": "Nemours KidsHealth",
+      "url": "https://kidshealth.org/en/kids/bones.html",
+      "supports": "Museum bones are dry, but the bones in your body are alive; compact bone is smooth and very hard; cancellous (spongy) bone is still very strong; bone marrow is like a thick jelly and makes blood cells; babies have about 300 bones that fuse into 206; some baby bones are cartilage that is slowly replaced by bone; growth is complete by about 25; the skeleton is very strong and very light; running, jumping and dancing strengthen bones."
+    }
+  ]
+}

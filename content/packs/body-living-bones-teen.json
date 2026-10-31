@@ -1,0 +1,219 @@
+{
+  "id": "body-living-bones-teen",
+  "topic": "body",
+  "subject": "living-bones",
+  "level": "teen",
+  "title": "The Bone Bank",
+  "emoji": "🏦",
+  "summary": "Your skeleton is torn down and rebuilt all the time, and the next decade is when you build the most.",
+  "minutes": 7,
+  "date_added": "2026-10-31",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What are growth plates, and why do they matter for how tall you get?",
+      "answer": "Zones of multiplying cartilage cells near the ends of kids' bones. The cartilage grows in length, then turns into hard bone."
+    },
+    {
+      "id": "k2",
+      "prompt": "What do osteoblasts and osteoclasts each do?",
+      "answer": "Osteoblasts build new bone and help repair damage. Osteoclasts break bone down to sculpt and reshape it."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why are the teen years such a big deal for bones?",
+      "answer": "While you're young, more new bone is added than removed. Bone mass peaks by the mid- to late 20s, and that peak helps set bone health for life."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🔨",
+      "title": "Demolition, on purpose",
+      "text": "Right now, cells in your skeleton are breaking down bone. Not because anything is wrong. It's part of the plan. Other cells are right behind them, building new bone. So why would your body tear down its own frame?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "For most people, by about what age does the amount of bone in the skeleton hit its peak?",
+      "options": [
+        {
+          "text": "Around age 12"
+        },
+        {
+          "text": "The mid- to late 20s",
+          "correct": true
+        },
+        {
+          "text": "Around age 50"
+        }
+      ],
+      "reveal": "The mid- to late 20s. Until then, more bone goes in than comes out.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "📏",
+      "title": "Growth plates",
+      "text": "Kids' and young teens' bones have growing zones called growth plates. Cartilage cells there multiply and grow in length, then change into hard, mineralized bone. Growth plates are easy to spot on an X-ray.",
+      "example": "Girls mature earlier than boys, so their growth plates turn into solid bone at a younger age."
+    },
+    {
+      "type": "idea",
+      "emoji": "👷",
+      "title": "A three-cell crew",
+      "text": "Bone is a protein framework called collagen, hardened by a mineral, calcium phosphate. Three kinds of cells keep it in shape. Osteoblasts make new bone and help repair damage. Osteocytes are mature bone cells. Osteoclasts break bone down to sculpt and reshape it. This constant swap is called remodeling.",
+      "why": {
+        "q": "Why would a healthy body keep breaking down its own bone?",
+        "a": "Remodeling replaces old or damaged bone tissue with new bone, and osteoclasts help sculpt and reshape bones as you grow."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🏦",
+      "title": "Deposits and withdrawals",
+      "text": "Think of bone like a bank account. In childhood and the teen years, much more new bone is deposited than taken out. Bone mass peaks by the mid- to late 20s. Later, more comes out than goes in. If that goes too far, bones get weak and break easily. That's called osteoporosis.",
+      "example": "Calcium also runs your muscles, heart and nerves. If you don't eat enough, your body takes the calcium it needs from your bones."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏃",
+      "title": "Load builds bone",
+      "text": "Bones respond to exercise by making new bone tissue. Physically active kids gain more bone mass than less active kids, and theirs usually stays higher into adulthood. The best types are weight-bearing and resistance exercise, like running, jumping and basketball.",
+      "examples_by_interest": {
+        "soccer": "Say you play soccer three times a week. The sprints and jumps load your leg bones, which is exactly the signal that tells them to build.",
+        "golf": "Say you walk the course instead of riding in a cart. Walking is weight-bearing, so your legs and hips get a bone-building signal on every hole."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🩹",
+      "title": "How a break heals",
+      "text": "A break first forms a blood clot, which protects it and brings in the cells that will heal it. Next, a callus forms around the break and joins the pieces. It starts soft and gets harder and stronger. Most broken bones heal within a few months. A cast or splint keeps the bone still so it heals correctly."
+    },
+    {
+      "type": "think",
+      "question": "If most of your bone is banked before your late 20s, how should that change what a 13-year-old does compared with a 40-year-old?",
+      "nudges": [
+        "Which habits pay off most while deposits beat withdrawals?",
+        "What could a 40-year-old still do to slow the withdrawals?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Which cell's main job is to break down bone so it can be reshaped?",
+          "options": [
+            {
+              "text": "Osteoclast",
+              "correct": true,
+              "why": "Right. Osteoclasts break bone down and help sculpt it."
+            },
+            {
+              "text": "Osteoblast",
+              "correct": false,
+              "why": "Osteoblasts are the builders. They make new bone."
+            },
+            {
+              "text": "Osteocyte",
+              "correct": false,
+              "why": "Osteocytes are mature bone cells, not the breakers."
+            },
+            {
+              "text": "Red blood cell",
+              "correct": false,
+              "why": "Red blood cells are made in marrow and carry oxygen. They don't reshape bone."
+            }
+          ]
+        },
+        {
+          "q": "Two friends are 14. One plays a running sport most days; the other mostly sits. What does the evidence predict?",
+          "options": [
+            {
+              "text": "The active friend gains more bone mass, and it tends to stay higher as an adult",
+              "correct": true,
+              "why": "Yes. Active kids gain more bone mass, and it typically stays high into adulthood."
+            },
+            {
+              "text": "No difference, because genes decide everything",
+              "correct": false,
+              "why": "Genes set the timing of peak bone mass, but activity changes how much bone you build."
+            },
+            {
+              "text": "The active friend's bones wear out faster",
+              "correct": false,
+              "why": "Load is the signal to build. Bones respond to exercise by making new tissue."
+            },
+            {
+              "text": "Only the sitting friend's bones keep growing",
+              "correct": false,
+              "why": "Both keep growing, but the active one builds more bone."
+            }
+          ]
+        },
+        {
+          "q": "Why is a callus useful when a bone breaks?",
+          "options": [
+            {
+              "text": "It forms around the break and joins the pieces, then hardens",
+              "correct": true,
+              "why": "Exactly. It starts soft, then gets harder and stronger."
+            },
+            {
+              "text": "It numbs the pain",
+              "correct": false,
+              "why": "That's not its job. The callus is the healing zone that joins the bone."
+            },
+            {
+              "text": "It replaces the need for a cast",
+              "correct": false,
+              "why": "A cast still helps by keeping the bone still while the callus does its work."
+            },
+            {
+              "text": "It's a sign the bone won't heal",
+              "correct": false,
+              "why": "It's the opposite. The callus is how the bone heals."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "My bones are always being remodeled, which means…",
+        "The teen years matter for bones because…",
+        "When a bone breaks, it heals by…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "gVXoAbeB8QI",
+    "title": "What happens when you break a bone? - Gurpreet Baht and Natalie Pang",
+    "channel": "TED-Ed",
+    "duration_sec": 252,
+    "why": "An animated walk through a fracture healing, from inflammation to a cartilage callus to remodeling, and why exercise makes bones denser."
+  },
+  "sources": [
+    {
+      "title": "Bones, Muscles, and Joints (for Teens)",
+      "publisher": "Nemours KidsHealth",
+      "url": "https://kidshealth.org/en/teens/bones-muscles-joints.html",
+      "supports": "Bone is a collagen framework hardened by calcium phosphate; calcium and vitamin D intake affect how much calcium bones store; growth plates are multiplying cartilage cells that grow in length then change into hard mineralized bone, easy to spot on an X-ray; girls' growth plates change into bone earlier; bone is constantly renewed and reshaped; osteoblasts make new bone and help repair damage, osteocytes are mature bone cells, osteoclasts break down bone and help sculpt and shape it."
+    },
+    {
+      "title": "Health Lesson: Learning About Bones",
+      "publisher": "NIAMS (National Institutes of Health)",
+      "url": "https://www.niams.nih.gov/health-topics/educational-resources/health-lesson-learning-about-bones",
+      "supports": "Remodeling: old or damaged bone tissue is broken down and replaced with new bone; when young, new bone is made faster than old bone is broken down; bone mass peaks by the mid- to late 20s; later, faster breakdown can lead to osteoporosis; a break first forms a blood clot that protects it and delivers healing cells, then a callus that starts soft and hardens; most broken bones heal within a few months; casts and splints keep the bone from moving so it heals correctly; bones respond to exercise by making new bone; walking, jumping rope, basketball and dancing are weight-bearing."
+    },
+    {
+      "title": "Kids and Their Bones: A Guide for Parents",
+      "publisher": "NIAMS (National Institutes of Health)",
+      "url": "https://www.niams.nih.gov/health-topics/kids-and-their-bones",
+      "supports": "In childhood and adolescence much more new bone is deposited than taken out; bone mass peaks by the mid- to late 20s and the peak helps determine lifelong bone health; calcium helps muscles, heart and nerves, and if diet falls short the body takes calcium from bones; genes determine the timing of peak bone mass; physically active children gain more bone mass and it typically stays high into adulthood; weight-bearing and resistance exercises are best."
+    }
+  ]
+}

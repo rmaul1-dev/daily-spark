@@ -1,0 +1,210 @@
+{
+  "id": "body-living-bones-adult",
+  "topic": "body",
+  "subject": "living-bones",
+  "level": "adult",
+  "title": "The Skeleton as a Balance Sheet",
+  "emoji": "🦴",
+  "summary": "Bone is continuously resorbed and rebuilt. Why youth is the building window, load is the signal, and fractures heal without a scar.",
+  "minutes": 8,
+  "date_added": "2026-10-31",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is bone remodeling, and roughly how fast does it run in adults?",
+      "answer": "Osteoclasts resorb bone and osteoblasts lay down new bone, repairing everyday micro-damage. Adults turn over about 10% of the skeleton a year."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why do childhood and adolescence matter so much for lifelong bone health?",
+      "answer": "Formation far outpaces resorption while young, so bone mass peaks by the mid- to late 20s, and that peak helps set bone health for the rest of life."
+    },
+    {
+      "id": "k3",
+      "prompt": "How does a fractured bone heal, and what makes bone repair unusual?",
+      "answer": "A clot becomes the template for a callus of cartilage and woven bone, which is replaced and then remodeled over months to years. Bone heals with new bone, not a weak scar."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🔄",
+      "title": "A frame that won't sit still",
+      "text": "A skeleton looks like the most permanent thing in the body. It isn't. In the first year of life, almost 100% of it is replaced. Even in adulthood the replacement never stops; it just slows. The bone you have today is partly not the bone you had a few years ago."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "Roughly what share of an adult's skeleton gets replaced through remodeling each year?",
+      "estimate": {
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "unit": "%",
+        "answer": 10
+      },
+      "reveal": "About 10% a year in adults, compared with almost 100% in the first year of life.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "🏗️",
+      "title": "Continuous renovation",
+      "text": "Remodeling pairs two cell types. Osteoclasts resorb bone; osteoblasts secrete new bone. The cycle repairs fractures and also the micro-damage that accumulates during normal activity, and it responds to the mechanical loads the bone carries. In adults it turns over about 10% of the skeleton per year.",
+      "example": "Hormones including parathyroid hormone, vitamin D, growth hormone and calcitonin help regulate it, so remodeling is tied to the body's calcium supply, not just structural repair.",
+      "why": {
+        "q": "Why would the body spend energy demolishing bone that still works?",
+        "a": "Normal activity creates micro-damage, and loads change. Continuous remodeling repairs the damage and reshapes bone to the demands placed on it."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📈",
+      "title": "A balance sheet that peaks early",
+      "text": "During childhood and adolescence, much more bone is deposited than resorbed. In most people bone mass peaks by the mid- to late 20s, at maximum strength and density, and that peak helps determine bone health for life. When resorption and formation fall out of balance, the result is metabolic bone disease such as osteoporosis.",
+      "example": "Calcium also serves muscles, heart and nerves. When the diet falls short, the body draws calcium from bone. The skeleton doubles as the body's calcium reserve."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏋️",
+      "title": "Load is the signal",
+      "text": "Remodeling responds to mechanical loading, and the pediatric evidence is clear on direction. Genes set the timing of peak bone mass, but physically active children gain more bone mass than less active ones, and it typically stays high into adulthood. Weight-bearing and resistance exercise work best, especially before puberty.",
+      "example": "The trade-off runs both ways: NIAMS warns that dieting, fasting or exercising too much during adolescence to lose weight can lead to bone loss."
+    },
+    {
+      "type": "idea",
+      "emoji": "🩹",
+      "title": "Healing without a scar",
+      "text": "After a fracture, a clot forms within hours and serves as a template. Cartilage and woven bone build a callus, whose formation peaks around day 14. That tissue is replaced by trabecular bone, and remodeling begins as early as 3 to 4 weeks but may take 3 to 5 years. The aim is new bone, not a scar that would be a structural weakness.",
+      "why": {
+        "q": "Why do doctors push displaced bones back into place and hold them still?",
+        "a": "Stabilizing the pieces in position aids union, and the callus is then remodeled into a shape that closely duplicates the bone's original shape and strength."
+      }
+    },
+    {
+      "type": "think",
+      "question": "If peak bone mass is largely banked before the late 20s, how should a family weigh kids' sports and diet now against adults' habits later? Where is the leverage?",
+      "nudges": [
+        "Compare the payoff of a deposit at 12 with one at 45.",
+        "What would the case be for focusing on adult habits instead?",
+        "Where does too much of a good thing, such as extreme training or dieting, hurt?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Which statement best describes adult bone remodeling?",
+          "options": [
+            {
+              "text": "Osteoclasts resorb and osteoblasts rebuild, turning over about 10% of the skeleton a year",
+              "correct": true,
+              "why": "Right. It's continuous, coupled, and slower than in infancy."
+            },
+            {
+              "text": "It stops once growth ends in the mid-20s",
+              "correct": false,
+              "why": "Growth ends, but remodeling continues throughout life at about 10% a year."
+            },
+            {
+              "text": "It only happens after a fracture",
+              "correct": false,
+              "why": "It also repairs everyday micro-damage and responds to loading."
+            },
+            {
+              "text": "Osteoblasts break down bone and osteoclasts build it",
+              "correct": false,
+              "why": "Reversed: osteoclasts resorb, osteoblasts form."
+            }
+          ]
+        },
+        {
+          "q": "A 12-year-old and a 45-year-old each start the same jumping and strength routine. Based on the sources, where is the bigger long-run payoff likely?",
+          "options": [
+            {
+              "text": "The 12-year-old, because bone gained before peak tends to persist into adulthood",
+              "correct": true,
+              "why": "Yes. Active children gain more bone mass, and it typically stays high, and the peak helps set lifelong bone health."
+            },
+            {
+              "text": "The 45-year-old, because adults remodel faster",
+              "correct": false,
+              "why": "Adults remodel more slowly (about 10% a year) than infants, and they're past the peak-building window."
+            },
+            {
+              "text": "No difference; genes fix bone mass",
+              "correct": false,
+              "why": "Genes set the timing of the peak, but activity changes how much bone is gained."
+            },
+            {
+              "text": "Neither; exercise doesn't affect bone",
+              "correct": false,
+              "why": "Remodeling responds to mechanical loading, and bones respond to exercise by making new tissue."
+            }
+          ]
+        },
+        {
+          "q": "What distinguishes bone repair from most soft-tissue repair?",
+          "options": [
+            {
+              "text": "It aims to regenerate bone without a scar that would be a structural weakness",
+              "correct": true,
+              "why": "Correct. The callus is ultimately remodeled toward the original shape and strength."
+            },
+            {
+              "text": "It finishes completely within two weeks",
+              "correct": false,
+              "why": "Callus formation peaks around day 14, but remodeling can take 3 to 5 years."
+            },
+            {
+              "text": "It needs no blood supply",
+              "correct": false,
+              "why": "The clot is the template for the callus, and poor blood supply impairs healing."
+            },
+            {
+              "text": "It skips the inflammatory stage",
+              "correct": false,
+              "why": "Inflammation is an early step; cells in the clot release inflammatory signals."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "My skeleton isn't fixed; it's constantly…",
+        "The years before the late 20s matter because…",
+        "A fracture heals by…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "rDGqkMHPDqE",
+    "title": "The Skeletal System: Crash Course Anatomy & Physiology #19",
+    "channel": "CrashCourse",
+    "duration_sec": 638,
+    "why": "Compact vs. spongy bone and the osteocyte-osteoclast-osteoblast remodeling cycle, framed by astronaut bone loss. Its 'new skeleton every 7 to 10 years' is loose shorthand."
+  },
+  "sources": [
+    {
+      "title": "Bone remodeling",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bone_remodeling",
+      "supports": "Osteoclasts resorb bone and osteoblasts form new bone; remodeling reshapes or replaces bone after fractures and micro-damage from normal activity and responds to mechanical loading; almost 100% of the skeleton is replaced in the first year of life and about 10% per year in adults; imbalance between resorption and formation causes metabolic bone diseases such as osteoporosis; regulated by hormones including PTH, vitamin D, growth hormone and calcitonin; tied to adequate calcium supply."
+    },
+    {
+      "title": "Kids and Their Bones: A Guide for Parents",
+      "publisher": "NIAMS (National Institutes of Health)",
+      "url": "https://www.niams.nih.gov/health-topics/kids-and-their-bones",
+      "supports": "In childhood and adolescence much more new bone is deposited than taken out; bone mass peaks by the mid- to late 20s at maximum strength and density, and the peak helps determine lifelong bone health; calcium serves muscles, heart and nerves and the body takes it from bones if the diet falls short; genes determine timing of peak bone mass; active children gain more bone mass that typically stays high into adulthood, especially before puberty; weight-bearing and resistance exercises are best; dieting, fasting or exercising too much during adolescence can lead to bone loss."
+    },
+    {
+      "title": "Bone healing",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bone_healing",
+      "supports": "After a fracture a clot forms within hours and acts as a template for the callus; inflammatory mediators are released early; the callus of cartilage and woven bone peaks around day 14 and is replaced by trabecular bone; remodeling begins as early as 3–4 weeks and may take 3–5 years; bone healing aims to produce new bone without a scar that would be a structural weakness; reducing and stabilizing displaced bones aids union; the callus is remodeled toward the original shape and strength; poor blood supply impairs healing."
+    }
+  ]
+}
