@@ -1,0 +1,217 @@
+{
+  "id": "ideas-anchoring-adult",
+  "topic": "ideas",
+  "subject": "anchoring",
+  "level": "adult",
+  "title": "Anchoring: The First Number in the Room",
+  "emoji": "⚓",
+  "summary": "How arbitrary starting points bias estimates, why incentives, warnings and expertise don't fix it, what it means in negotiation, and where the evidence is shakier.",
+  "minutes": 8,
+  "date_added": "2026-11-01",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is the anchoring-and-adjustment account, and what is its core failure mode?",
+      "answer": "Estimates start from an initial value, often supplied by the problem or a partial calculation, and adjustments away from it are typically insufficient."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why don't incentives, warnings or expertise reliably remove anchoring?",
+      "answer": "Payoffs for accuracy didn't reduce it, warned subjects still drifted toward the anchor, and real-estate agents were as swayed as students while denying it."
+    },
+    {
+      "id": "k3",
+      "prompt": "In a negotiation, what is the trade-off in making the first offer?",
+      "answer": "The first offer anchors the range and often yields better economic results, but a poorly informed opener can anchor against itself and first movers tend to feel less satisfied."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🎡",
+      "title": "Paid to be right, still pulled",
+      "text": "Tversky and Kahneman spun a wheel of fortune in front of subjects, then asked them to estimate the percentage of UN members that are African countries. The spin was plainly irrelevant. Groups that saw 10 gave a median of 25%; groups that saw 65 gave 45%. And paying people for accuracy did not reduce the effect."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Students and professional real-estate agents valued the same house after seeing different listing prices. Who was more swayed by the listing price?",
+      "options": [
+        {
+          "text": "Students, by a wide margin"
+        },
+        {
+          "text": "Agents, because they trust listings"
+        },
+        {
+          "text": "Both about equally, and agents denied being influenced",
+          "correct": true
+        },
+        {
+          "text": "Neither group"
+        }
+      ],
+      "reveal": "Both groups were equally influenced by the listing price, and the agents denied that it had affected them.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "🧮",
+      "title": "Start, adjust, stop short",
+      "text": "Tversky and Kahneman's 1974 account: people estimate by starting from an initial value (given in the problem or produced by a partial calculation) and adjusting, and \"adjustments are typically insufficient.\" High-school students given 5 seconds produced a median of 2,250 for 8×7×6×5×4×3×2×1 and 512 for 1×2×…×8. The answer is 40,320. Same quantity, different starting points, both far too low.",
+      "why": {
+        "q": "Why does the partial-calculation case matter more than the wheel?",
+        "a": "It shows the anchor needn't be handed to you. Your own first steps of reasoning can become the starting point you under-adjust from."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🎯",
+      "title": "Irrelevant, incentivized, forewarned",
+      "text": "Relevance isn't required: the wheel's number had nothing to do with the question. Incentives didn't help in the original work. And in a later study, subjects told explicitly that an anchor would \"contaminate\" their answer, and asked to correct for it, still estimated higher than a no-anchor control. Awareness of the bias is not the same as immunity to it.",
+      "example": "Practical upshot: the first number in a model, a budget or a pitch deck deserves the same scrutiny as the conclusion, because it quietly sets where everyone's adjustment begins."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏠",
+      "title": "Expertise is not a shield",
+      "text": "Northcraft and Neale showed students and real-estate agents the same house with different listing prices. Both groups were equally influenced, and in follow-up interviews the agents denied that the listing price had affected them. Later research is mixed: expertise sometimes reduces the effect (one study of stock-return estimates found it did), but experts remain susceptible, especially when unwarned."
+    },
+    {
+      "type": "idea",
+      "emoji": "🤝",
+      "title": "Negotiation: the first-offer trade-off",
+      "text": "The opening offer sets the anchor; the counteroffer sets a second one. Precision strengthens an anchor: a beach house anchored at $799,800 drew an estimate of $784,671, versus $751,867 at $800,000, because precise numbers set a finer adjustment scale. Studies suggest first movers often do better economically, yet feel less satisfied, and an uninformed first mover can anchor against their own interest.",
+      "example": "Say you're pricing a facility and the counterparty opens. Before responding, state your own independently derived number and the reasoning behind it, so the debate centres on two anchors, not one.",
+      "why": {
+        "q": "Why would a precise anchor pull harder than a round one?",
+        "a": "The proposed explanation is scale: a round number invites adjustments in large steps, a precise one in small steps, so the final figure ends closer to it."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🔬",
+      "title": "What's solid, what's shaky",
+      "text": "The effect is easy to show but hard to explain: there's no consensus on cause. Rival accounts include insufficient adjustment and \"selective accessibility,\" where considering the anchor makes anchor-consistent information come to mind. Some studies using clearly random anchors (a die roll, a random-number button) failed to replicate the effect. On mitigation, most interventions are weak; \"consider the opposite\" has been the most reliable. In groups, whoever speaks first may carry outsized weight."
+    },
+    {
+      "type": "think",
+      "question": "Think of a recent pricing, hiring or investment decision. Where did the first number come from, and how far did the final answer move from it? Then argue the other side: when is it wiser to let the counterparty anchor first?",
+      "nudges": [
+        "Was the starting figure derived independently or inherited from someone else?",
+        "What would 'consider the opposite' have looked like in that meeting?",
+        "When does going second protect you from opening against your own interest?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Which finding most directly shows that anchors need not be relevant to the question?",
+          "options": [
+            {
+              "text": "The wheel-of-fortune study on African UN members",
+              "correct": true,
+              "why": "Right. A wheel spin shifted median estimates from 25% to 45%."
+            },
+            {
+              "text": "Real-estate agents valuing a listed house",
+              "correct": false,
+              "why": "A listing price is at least plausibly informative; that study shows expertise doesn't protect you."
+            },
+            {
+              "text": "The $799,800 beach-house anchor",
+              "correct": false,
+              "why": "That study is about precision, not irrelevance."
+            },
+            {
+              "text": "First movers feeling less satisfied",
+              "correct": false,
+              "why": "That's about negotiation outcomes and feelings, not anchor relevance."
+            }
+          ]
+        },
+        {
+          "q": "A team wants to neutralize anchoring in a valuation meeting. Which step has the best support?",
+          "options": [
+            {
+              "text": "Have members write independent estimates and argue why the answer could be far from any number on the table",
+              "correct": true,
+              "why": "Yes. It sidesteps the first speaker's pull and applies consider-the-opposite."
+            },
+            {
+              "text": "Remind everyone that anchoring exists",
+              "correct": false,
+              "why": "Explicit warnings didn't stop subjects drifting toward the anchor."
+            },
+            {
+              "text": "Offer a bonus for accuracy",
+              "correct": false,
+              "why": "Payoffs for accuracy did not reduce anchoring in Tversky and Kahneman's work."
+            },
+            {
+              "text": "Let the most senior expert speak first",
+              "correct": false,
+              "why": "Experts are susceptible too, and the first speaker can carry outsized weight."
+            }
+          ]
+        },
+        {
+          "q": "Which statement best reflects the state of the evidence?",
+          "options": [
+            {
+              "text": "The effect is well documented, but its cause is debated and some clearly random anchors failed to replicate it",
+              "correct": true,
+              "why": "That's the honest picture: robust phenomenon, contested mechanism, some boundary conditions."
+            },
+            {
+              "text": "Anchoring has been fully explained by insufficient adjustment",
+              "correct": false,
+              "why": "Selective accessibility and other accounts compete; there's no consensus."
+            },
+            {
+              "text": "Anchoring only affects novices",
+              "correct": false,
+              "why": "Agents in Northcraft and Neale's study were as influenced as students."
+            },
+            {
+              "text": "Anchoring disappears when people are paid",
+              "correct": false,
+              "why": "Incentives did not reduce it in the original experiments."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Anchoring is when…",
+        "It survives incentives, warnings and expertise, for example…",
+        "The best defence in a negotiation is…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "NFiDdbquWJY",
+    "title": "CRITICAL THINKING - Cognitive Biases: Anchoring [HD]",
+    "channel": "Wireless Philosophy",
+    "duration_sec": 294,
+    "why": "Yale psychologist Laurie Santos walks through the multiplication and wheel experiments in under five minutes. Note: she says \"average\" where the paper reports medians."
+  },
+  "sources": [
+    {
+      "title": "Judgment under Uncertainty: Heuristics and Biases (Science, 1974)",
+      "publisher": "Amos Tversky and Daniel Kahneman, hosted by UC Irvine",
+      "url": "https://sites.socsci.uci.edu/~bskyrms/bio/readings/tversky_k_heuristics_biases.pdf",
+      "supports": "The 1974 anchoring-and-adjustment account and the phrase \"adjustments are typically insufficient\"; the wheel of fortune (0–100) with medians of 25 and 45 for anchors 10 and 65; payoffs for accuracy did not reduce anchoring; high school students' 5-second estimates (median 2,250 descending, 512 ascending; correct 40,320)."
+    },
+    {
+      "title": "Anchoring effect",
+      "publisher": "Wikipedia (encyclopedia article with cited research)",
+      "url": "https://en.wikipedia.org/wiki/Anchoring_effect",
+      "supports": "Anchors can be completely irrelevant; the \"contaminate\" warning study; Northcraft and Neale's students vs real-estate agents and the agents' denial; expertise sometimes reduces the effect (stock-return estimates) but experts remain susceptible; first offer and counter-anchor; first movers less satisfied but often economically better off; an uninformed first mover can anchor against their own interests; Janiszewski and Uy's precision results ($799,800 → $784,671 vs $800,000 → $751,867) and the scale explanation; no consensus on cause; selective accessibility; clearly random procedures (die roll, random generator) failing to replicate; consider-the-opposite as the most reliable mitigation; first speaker's outsized influence in groups."
+    }
+  ]
+}

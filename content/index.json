@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-31",
+ "updated": "2026-11-01",
  "topics": [
   {
    "id": "history",
@@ -392,6 +392,17 @@
     "kid": "body-living-bones-kid"
    },
    "dinner_question": "Your bones are being rebuilt all the time. What is one thing you did today that helped build them, and what could you add tomorrow?"
+  },
+  {
+   "date": "2026-11-09",
+   "topic": "ideas",
+   "title": "Anchoring: why the first number sticks",
+   "packs": {
+    "adult": "ideas-anchoring-adult",
+    "teen": "ideas-anchoring-teen",
+    "kid": "ideas-anchoring-kid"
+   },
+   "dinner_question": "Think of a time a first price, score or guess stuck in your head. Did it change what you decided, and what would you do differently now?"
   }
  ],
  "series": [
@@ -2280,6 +2291,45 @@
     "part": 4,
     "of": 4
    }
+  },
+  {
+   "id": "ideas-anchoring-kid",
+   "topic": "ideas",
+   "level": "kid",
+   "title": "The Number That Sticks",
+   "emoji": "⚓",
+   "subject": "anchoring",
+   "summary": "The first number you hear can pull your guess. Here's how to spot it.",
+   "minutes": 6,
+   "date_added": "2026-11-01",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "ideas-anchoring-teen",
+   "topic": "ideas",
+   "level": "teen",
+   "title": "Anchoring: Why the First Number Wins",
+   "emoji": "⚓",
+   "subject": "anchoring",
+   "summary": "An arbitrary number can bend your estimate, even when you're paid to be accurate. Here's how anchors work, and how to use and resist them.",
+   "minutes": 7,
+   "date_added": "2026-11-01",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "ideas-anchoring-adult",
+   "topic": "ideas",
+   "level": "adult",
+   "title": "Anchoring: The First Number in the Room",
+   "emoji": "⚓",
+   "subject": "anchoring",
+   "summary": "How arbitrary starting points bias estimates, why incentives, warnings and expertise don't fix it, what it means in negotiation, and where the evidence is shakier.",
+   "minutes": 8,
+   "date_added": "2026-11-01",
+   "cards": 10,
+   "keys_count": 3
   }
  ]
 }

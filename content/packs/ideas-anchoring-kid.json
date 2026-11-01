@@ -1,0 +1,236 @@
+{
+  "id": "ideas-anchoring-kid",
+  "topic": "ideas",
+  "subject": "anchoring",
+  "level": "kid",
+  "title": "The Number That Sticks",
+  "emoji": "⚓",
+  "summary": "The first number you hear can pull your guess. Here's how to spot it.",
+  "minutes": 6,
+  "date_added": "2026-11-01",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is an anchor in your thinking?",
+      "answer": "It is the first number you hear or see. It pulls your guess toward it, even if it should not matter.",
+      "options": [
+        {
+          "text": "The first number you hear, which pulls your guess",
+          "correct": true
+        },
+        {
+          "text": "The last number you hear, which you forget"
+        },
+        {
+          "text": "A number you already know is right"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "People spun a wheel before they made a guess. What did the wheel number do?",
+      "answer": "It pulled their guesses toward it. A low number led to low guesses, and a high number led to high guesses.",
+      "options": [
+        {
+          "text": "It pulled their guesses toward it",
+          "correct": true
+        },
+        {
+          "text": "Nothing, because it was just luck"
+        },
+        {
+          "text": "It made every guess right"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What is a good trick to fight an anchor?",
+      "answer": "Think of the opposite. Ask, \"What if the real answer is very different?\" Then make your own guess.",
+      "options": [
+        {
+          "text": "Ask, \"What if the real answer is very different?\"",
+          "correct": true
+        },
+        {
+          "text": "Go with the first number you heard"
+        },
+        {
+          "text": "Guess as fast as you can"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "⏱️",
+      "title": "Five seconds. Go!",
+      "text": "Quick, no paper! What is 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1? You only get five seconds, so just guess. Now picture a friend who gets the same problem written the other way: 1 × 2 × 3 and so on, up to 8."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Two groups of students had 5 seconds to guess. One group saw 8 × 7 × 6… The other saw 1 × 2 × 3… The answer is the same. Which group guessed higher?",
+      "options": [
+        {
+          "text": "The group that saw 8 × 7 × 6…",
+          "correct": true
+        },
+        {
+          "text": "The group that saw 1 × 2 × 3…"
+        },
+        {
+          "text": "Both groups guessed about the same"
+        }
+      ],
+      "reveal": "The 8 × 7 × 6 group guessed much higher. Their middle guess was 2,250. The other group's middle guess was 512.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "🔢",
+      "title": "The first steps pull you",
+      "text": "The real answer is 40,320. Students who started with 8 × 7 had a middle guess of 2,250. Students who started with 1 × 2 had a middle guess of 512. Both were way too low! There was no time to finish, so they guessed from the first few steps.",
+      "why": {
+        "q": "Why did the 8 × 7 group guess higher?",
+        "a": "Their first steps gave big numbers fast, like 8 × 7 = 56. So their guess started from a bigger number."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⚓",
+      "title": "What an anchor is",
+      "text": "A ship drops an anchor to stay near one spot. A number can do that to your brain. The first number you think of is your starting point. You move away from it, but often not far enough. Scientists call this anchoring.",
+      "example": "Two famous scientists, Amos Tversky and Daniel Kahneman, gave it this name back in 1974."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎡",
+      "title": "A wheel that should not matter",
+      "text": "Scientists spun a wheel with numbers from 0 to 100. Then they asked: out of all the countries in the United Nations, what percent are in Africa? When the wheel said 10, the middle guess was 25. When it said 65, the middle guess was 45. The wheel had nothing to do with Africa, but it still pulled the guesses!",
+      "why": {
+        "q": "Why is it so strange that the wheel changed the guesses?",
+        "a": "The wheel was just a spin. It told people nothing about Africa, yet high numbers still led to higher guesses."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🍔",
+      "title": "Stores use anchors too",
+      "text": "Some restaurants list the most costly food at the top of the menu. After you see a high price first, the other prices can look cheap. That high price is an anchor. It is there to change how you feel about the rest.",
+      "example": "So when you see a big price first, pause. Ask what the thing is really worth to you."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔄",
+      "title": "How to fight back",
+      "text": "Anchors are sneaky. People who were warned about them still got pulled. But one trick works best: think of the opposite. Ask yourself, \"What if the real answer is very different?\" Then make your own guess."
+    },
+    {
+      "type": "think",
+      "question": "A kid says, \"My old game is worth $100!\" You want to buy it. How can you find out what it is really worth?",
+      "nudges": [
+        "What could you check before you make your own guess?",
+        "What if the real price is much lower?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What is anchoring?",
+          "options": [
+            {
+              "text": "When the first number you hear pulls your guess",
+              "correct": true,
+              "why": "Yes! The first number becomes a starting point that is hard to move away from."
+            },
+            {
+              "text": "When you forget a number right away",
+              "correct": false,
+              "why": "Not quite. Anchoring is when a number sticks and pulls your guess."
+            },
+            {
+              "text": "When you get a math problem exactly right",
+              "correct": false,
+              "why": "Good try, but anchoring is about guesses getting pulled toward a first number."
+            }
+          ]
+        },
+        {
+          "q": "The wheel landed on 65 before people guessed. What happened?",
+          "options": [
+            {
+              "text": "They guessed higher than people who got 10",
+              "correct": true,
+              "why": "Right. The middle guess was 45 after 65, and 25 after 10."
+            },
+            {
+              "text": "They guessed lower than people who got 10",
+              "correct": false,
+              "why": "It went the other way. The bigger wheel number led to bigger guesses."
+            },
+            {
+              "text": "The wheel made no difference",
+              "correct": false,
+              "why": "It should not have mattered, but it did. Higher numbers pulled guesses up."
+            }
+          ]
+        },
+        {
+          "q": "Which is the best way to fight an anchor?",
+          "options": [
+            {
+              "text": "Ask, \"What if the real answer is very different?\"",
+              "correct": true,
+              "why": "Yes! Thinking of the opposite helps you pull away from the anchor."
+            },
+            {
+              "text": "Stick with the first number",
+              "correct": false,
+              "why": "That is exactly what the anchor wants you to do."
+            },
+            {
+              "text": "Just knowing about anchors is enough",
+              "correct": false,
+              "why": "Sadly not. People who were warned still got pulled."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The first number you hear can…",
+        "Scientists showed this with a wheel that…",
+        "To fight an anchor, you can…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "NFiDdbquWJY",
+    "title": "CRITICAL THINKING - Cognitive Biases: Anchoring [HD]",
+    "channel": "Wireless Philosophy",
+    "duration_sec": 294,
+    "start": 16,
+    "end": 221,
+    "why": "A Yale psychology teacher gives you the same speed math puzzle and the spinning-wheel test. Stops before the extra examples."
+  },
+  "sources": [
+    {
+      "title": "Judgment under Uncertainty: Heuristics and Biases (Science, 1974)",
+      "publisher": "Amos Tversky and Daniel Kahneman, hosted by UC Irvine",
+      "url": "https://sites.socsci.uci.edu/~bskyrms/bio/readings/tversky_k_heuristics_biases.pdf",
+      "supports": "The original study: a wheel of fortune with numbers from 0 to 100; middle (median) guesses of 25 and 45 for the percent of African countries in the United Nations after numbers 10 and 65; high school students had 5 seconds to estimate 8×7×…×1 (median 2,250) or 1×2×…×8 (median 512), and the correct answer is 40,320; the name anchoring for guesses pulled toward a starting point and adjustments that are not big enough."
+    },
+    {
+      "title": "Anchoring effect",
+      "publisher": "Wikipedia (encyclopedia article with cited research)",
+      "url": "https://en.wikipedia.org/wiki/Anchoring_effect",
+      "supports": "Anchoring can come from a completely irrelevant number; Tversky and Kahneman first described anchoring and adjustment; restaurant menus listing high prices at the top as an anchor; people warned about anchoring still gave higher estimates than a group with no anchor; thinking of the opposite is the most reliable way found to reduce the bias."
+    }
+  ]
+}

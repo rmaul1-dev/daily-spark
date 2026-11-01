@@ -1,0 +1,206 @@
+{
+  "id": "ideas-anchoring-teen",
+  "topic": "ideas",
+  "subject": "anchoring",
+  "level": "teen",
+  "title": "Anchoring: Why the First Number Wins",
+  "emoji": "⚓",
+  "summary": "An arbitrary number can bend your estimate, even when you're paid to be accurate. Here's how anchors work, and how to use and resist them.",
+  "minutes": 7,
+  "date_added": "2026-11-01",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is anchoring, and why does adjusting from an anchor usually fall short?",
+      "answer": "Your estimate starts from an initial number and moves away from it, but adjustments are typically too small, so the answer stays biased toward the start."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why can a precise first price ($799,800) be a stronger anchor than a round one ($800,000)?",
+      "answer": "A precise number sets a finer scale, so people adjust in small steps and end closer to it."
+    },
+    {
+      "id": "k3",
+      "prompt": "What is the most reliable way found so far to weaken an anchor?",
+      "answer": "Consider the opposite: actively think about why the true answer could be very different from the anchor."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🎡",
+      "title": "The wheel that knew nothing",
+      "text": "In a classic experiment, researchers spun a wheel of fortune (numbers 0 to 100) right in front of people, then asked them to estimate the percentage of United Nations members that are African countries. The wheel obviously knew nothing about Africa. So it couldn't matter... right?"
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "High school students got 5 seconds to estimate 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1. The true answer is 40,320. What was the group's median (middle) guess?",
+      "estimate": {
+        "min": 0,
+        "max": 40000,
+        "step": 250,
+        "answer": 2250
+      },
+      "reveal": "2,250. That's about 18 times too low, and students who saw 1 × 2 × 3… guessed even lower: 512.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "🧮",
+      "title": "Start, adjust, stop too early",
+      "text": "With 5 seconds, nobody finishes the math. You do a few steps and extrapolate. Students who saw 8 × 7 × 6… had a median guess of 2,250; those who saw 1 × 2 × 3… guessed 512. The answer is 40,320. Tversky and Kahneman called this anchoring: estimates start from an initial value, and the adjustments are typically insufficient.",
+      "why": {
+        "q": "Why did both groups guess far too low, not just the 1 × 2 × 3 group?",
+        "a": "Both started from a partial product and adjusted upward, and adjustments from a starting point are typically too small."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🎯",
+      "title": "Irrelevant, but still powerful",
+      "text": "Back to the wheel. People first said whether the true value was higher or lower than the wheel's number, then estimated. When the wheel showed 10, the median guess was 25%. When it showed 65, the median guess was 45%. Offering payoffs for accuracy did not reduce the effect.",
+      "example": "An anchor doesn't need to be relevant or believable. It just has to be the number you compare against first."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏠",
+      "title": "Experts and warnings don't save you",
+      "text": "In one study, students and real-estate agents valued the same house after seeing different listing prices. Agents said the listing price didn't sway them, yet both groups were equally influenced by it. In another, people were told an anchor would \"contaminate\" their estimates and to correct for it. They still guessed higher than a group that never saw the anchor."
+    },
+    {
+      "type": "idea",
+      "emoji": "🤝",
+      "title": "Anchors in a deal",
+      "text": "In a negotiation, the first offer sets the anchor and the counteroffer is a second anchor. Precision matters: people shown a beach house at $799,800 estimated its value at $784,671, versus $751,867 for those shown $800,000. A precise number sets a finer scale, so people adjust in smaller steps.",
+      "example": "Studies suggest whoever makes the first offer often gets the better economic deal, though they also tend to feel less satisfied afterward.",
+      "examples_by_interest": {
+        "business": "Say you're selling a used laptop. Your opening price is the first anchor, and the buyer's counteroffer is the second. A precise opening number tends to pull the final price closer to where you started than a round one does."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🔄",
+      "title": "How to push back",
+      "text": "Researchers have tried many ways to remove anchoring, and most barely work. The most reliable one so far is \"consider the opposite\": deliberately list reasons the true answer could be far from the anchor. In practice, ask: what would make this number way too high, or way too low?",
+      "why": {
+        "q": "Why would considering the opposite help when simply being warned doesn't?",
+        "a": "A warning doesn't change what you think about. Considering the opposite makes you actively build the case for a very different answer."
+      }
+    },
+    {
+      "type": "think",
+      "question": "You're selling your old bike. Should you name a price first, or let the buyer go first? Make the best case for each side.",
+      "nudges": [
+        "What does the first offer do to the range of the conversation?",
+        "What if you don't know what the bike is really worth?",
+        "How might each side feel afterward?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Students saw either 8 × 7 × 6… or 1 × 2 × 3… for 5 seconds. Which explains the results best?",
+          "options": [
+            {
+              "text": "They extrapolated from the first few steps and didn't adjust enough",
+              "correct": true,
+              "why": "Right. Different starting points gave different, too-low estimates."
+            },
+            {
+              "text": "The descending version is actually a bigger number",
+              "correct": false,
+              "why": "Multiplication order doesn't change the answer. Both equal 40,320."
+            },
+            {
+              "text": "The students didn't know how to multiply",
+              "correct": false,
+              "why": "They could multiply. They just ran out of time and anchored on partial results."
+            },
+            {
+              "text": "Random noise; the groups would match if repeated",
+              "correct": false,
+              "why": "The gap was systematic: the bigger starting steps led to bigger estimates, as predicted."
+            }
+          ]
+        },
+        {
+          "q": "Why did researchers use a spinning wheel to set the anchor?",
+          "options": [
+            {
+              "text": "To show an obviously irrelevant number can still bias estimates",
+              "correct": true,
+              "why": "Exactly. If a wheel spin can move guesses, relevance isn't required."
+            },
+            {
+              "text": "Because the wheel showed the right answer",
+              "correct": false,
+              "why": "It didn't. Its number was unrelated to the question."
+            },
+            {
+              "text": "To make the task more fun so people tried harder",
+              "correct": false,
+              "why": "Effort wasn't the point; even payoffs for accuracy didn't reduce the effect."
+            }
+          ]
+        },
+        {
+          "q": "A seller lists a house at $799,800 instead of $800,000. What does the research predict?",
+          "options": [
+            {
+              "text": "Buyers' estimates stay closer to the list price",
+              "correct": true,
+              "why": "Yes. Precise anchors lead to smaller adjustments."
+            },
+            {
+              "text": "Buyers think the house is cheap and offer more",
+              "correct": false,
+              "why": "The effect isn't about seeming cheap; it's about the scale of adjustment."
+            },
+            {
+              "text": "Nothing, since $200 is tiny",
+              "correct": false,
+              "why": "The dollar gap is tiny, but the estimates differed by over $30,000."
+            },
+            {
+              "text": "Buyers adjust in bigger steps",
+              "correct": false,
+              "why": "It's the opposite. Round numbers invite bigger steps."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Anchoring means…",
+        "Even experts get pulled because…",
+        "To resist an anchor, I would…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "NFiDdbquWJY",
+    "title": "CRITICAL THINKING - Cognitive Biases: Anchoring [HD]",
+    "channel": "Wireless Philosophy",
+    "duration_sec": 294,
+    "why": "Yale psychologist Laurie Santos runs the same speed-multiplication puzzle and the wheel experiment on you, then shows how sellers use anchors."
+  },
+  "sources": [
+    {
+      "title": "Judgment under Uncertainty: Heuristics and Biases (Science, 1974)",
+      "publisher": "Amos Tversky and Daniel Kahneman, hosted by UC Irvine",
+      "url": "https://sites.socsci.uci.edu/~bskyrms/bio/readings/tversky_k_heuristics_biases.pdf",
+      "supports": "Median estimates of 25 and 45 (percent of African countries in the UN) for wheel numbers 10 and 65, with the higher/lower question first; payoffs for accuracy did not reduce anchoring; high school students' 5-second estimates of 8×7×…×1 (median 2,250) vs 1×2×…×8 (median 512), correct answer 40,320; estimates start from an initial value and adjustments are typically insufficient."
+    },
+    {
+      "title": "Anchoring effect",
+      "publisher": "Wikipedia (encyclopedia article with cited research)",
+      "url": "https://en.wikipedia.org/wiki/Anchoring_effect",
+      "supports": "Anchors can be completely irrelevant; Northcraft and Neale's students and real-estate agents were equally influenced by listing prices while agents denied it; people warned that an anchor would \"contaminate\" their estimates still guessed higher than a no-anchor control; first offer as anchor and counteroffer as second anchor; Janiszewski and Uy's $799,800 vs $800,000 beach-house anchors ($784,671 vs $751,867) and the scale explanation; first-offer negotiators often get better economic results but feel less satisfied; consider-the-opposite is the most reliable mitigation."
+    }
+  ]
+}
