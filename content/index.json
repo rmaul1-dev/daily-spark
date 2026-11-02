@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "topics": [
   {
    "id": "history",
@@ -403,6 +403,17 @@
     "kid": "ideas-anchoring-kid"
    },
    "dinner_question": "Think of a time a first price, score or guess stuck in your head. Did it change what you decided, and what would you do differently now?"
+  },
+  {
+   "date": "2026-11-10",
+   "topic": "civics",
+   "title": "Amending the Constitution: why it is so hard to change",
+   "packs": {
+    "adult": "civics-amendments-adult",
+    "teen": "civics-amendments-teen",
+    "kid": "civics-amendments-kid"
+   },
+   "dinner_question": "If you could add one new rule to the Constitution, what would it be, and could you get three out of four states to agree to it?"
   }
  ],
  "series": [
@@ -1460,6 +1471,45 @@
     "part": 4,
     "of": 4
    }
+  },
+  {
+   "id": "civics-amendments-kid",
+   "topic": "civics",
+   "level": "kid",
+   "title": "Changing the Rules of the Country",
+   "emoji": "🖋️",
+   "subject": "amendments",
+   "summary": "How the U.S. Constitution gets changed, and the college student who helped change it.",
+   "minutes": 6,
+   "date_added": "2026-11-02",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "civics-amendments-teen",
+   "topic": "civics",
+   "level": "teen",
+   "title": "The C-Grade Paper That Amended the Constitution",
+   "emoji": "🖋️",
+   "subject": "amendments",
+   "summary": "Why the Constitution is so hard to change, and how a college student got an amendment passed anyway.",
+   "minutes": 7,
+   "date_added": "2026-11-02",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "civics-amendments-adult",
+   "topic": "civics",
+   "level": "adult",
+   "title": "Article V: The Hardest Lock in American Government",
+   "emoji": "🖋️",
+   "subject": "amendments",
+   "summary": "How amending the Constitution works, why almost nothing gets through, and the trade-off between stability and responsiveness.",
+   "minutes": 8,
+   "date_added": "2026-11-02",
+   "cards": 10,
+   "keys_count": 3
   },
   {
    "id": "money-compound-interest-kid",

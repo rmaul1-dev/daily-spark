@@ -1,0 +1,216 @@
+{
+  "id": "civics-amendments-teen",
+  "topic": "civics",
+  "subject": "amendments",
+  "level": "teen",
+  "title": "The C-Grade Paper That Amended the Constitution",
+  "emoji": "🖋️",
+  "summary": "Why the Constitution is so hard to change, and how a college student got an amendment passed anyway.",
+  "minutes": 7,
+  "date_added": "2026-11-02",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What are the two votes an amendment usually has to win?",
+      "answer": "Two-thirds of both the House and the Senate to propose it, then three-fourths of the states (38 of 50) to ratify it."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why doesn't the president sign a constitutional amendment?",
+      "answer": "Article V gives the president no role. Congress sends the proposal straight to the National Archives, then to the states."
+    },
+    {
+      "id": "k3",
+      "prompt": "How could an amendment proposed in 1789 become law in 1992?",
+      "answer": "It had no deadline, so old state votes still counted. A student's campaign got enough new states to reach 38."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "📝",
+      "title": "A C that made history",
+      "text": "In 1982, Gregory Watson, a 19-year-old student at the University of Texas, wrote a government paper. He argued that a forgotten amendment from 1789 could still be ratified. He got a C. Ten years later, that amendment was part of the Constitution."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "Congress sent that pay amendment to the states in 1789. How many years passed before it was finally ratified?",
+      "estimate": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "unit": "years",
+        "answer": 203
+      },
+      "reveal": "203 years: sent to the states in 1789, ratified in 1992.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "🚪",
+      "title": "Two locked doors",
+      "text": "An amendment has to get through two doors. First, two-thirds of the House and two-thirds of the Senate must vote to propose it. Then three-fourths of the states must ratify it, which is 38 of 50. There is a second way to propose one, a convention called by two-thirds of state legislatures, but none of the 27 amendments came that way.",
+      "example": "Say a student council has 99 members. A simple majority would be 50 votes. Two-thirds would be 66, so 34 members could block it.",
+      "why": {
+        "q": "Why did the founders set the bar so far above a simple majority?",
+        "a": "So the Constitution changes only when support is broad and spread across the country, not when one side has a brief majority."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "✋",
+      "title": "No veto here",
+      "text": "A regular bill goes to the president to sign or veto. An amendment skips that step completely. Congress passes it as a joint resolution and sends it straight to the National Archives, which sends it out to the states and counts their votes.",
+      "example": "Once 38 states have ratified, the Archivist of the United States certifies it, and it's officially part of the Constitution."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌪️",
+      "title": "The giant funnel",
+      "text": "From 1789 through early 2025, members of Congress proposed about 11,985 amendments. That's around 200 every two-year Congress. Most never get out of committee. Only 27 have made it all the way.",
+      "example": "Do the math: 27 out of about 11,985 is roughly 1 in 444 proposals, or about 0.2%."
+    },
+    {
+      "type": "idea",
+      "emoji": "⏳",
+      "title": "No deadline, so it never died",
+      "text": "The pay amendment was one of 12 sent to the states in 1789. Ten became the Bill of Rights in 1791. This one fell short, but it had no deadline, so old yes votes still counted. Watson started a letter-writing campaign to state legislatures. Maine ratified in 1983, Michigan put it over the top on May 7, 1992, and it was certified on May 18."
+    },
+    {
+      "type": "idea",
+      "emoji": "💵",
+      "title": "What it actually does",
+      "text": "The 27th Amendment says a change to Congress's pay can't take effect until after the next House election. Members can still vote themselves a raise. They just have to face voters before they get it.",
+      "why": {
+        "q": "Why would waiting for an election matter?",
+        "a": "Voters get a chance to judge the raise, and replace members if they think it's wrong, before any money changes hands."
+      }
+    },
+    {
+      "type": "think",
+      "question": "Should the Constitution be easier to amend? Make the best case for \"yes,\" then the best case for \"no.\"",
+      "nudges": [
+        "What could go wrong if a narrow majority could rewrite the rules?",
+        "What problems might get stuck if almost nothing can change?",
+        "Who benefits from a high bar, and who pays for it?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "An amendment passes the House and Senate with two-thirds votes. What happens next?",
+          "options": [
+            {
+              "text": "It goes to the states, and 38 must ratify it",
+              "correct": true,
+              "why": "Right. Proposal is only the first door. Three-fourths of the states have to agree."
+            },
+            {
+              "text": "The president signs or vetoes it",
+              "correct": false,
+              "why": "That's how a bill works. The president has no role in amendments."
+            },
+            {
+              "text": "The Supreme Court reviews it first",
+              "correct": false,
+              "why": "The Court isn't a step in Article V. The proposal goes to the states."
+            },
+            {
+              "text": "It takes effect right away",
+              "correct": false,
+              "why": "Not yet. Without ratification by three-fourths of the states, it's only a proposal."
+            }
+          ]
+        },
+        {
+          "q": "Roughly what share of proposed amendments have become part of the Constitution?",
+          "options": [
+            {
+              "text": "About 0.2%",
+              "correct": true,
+              "why": "Yes. 27 out of about 11,985 is close to 0.2%."
+            },
+            {
+              "text": "About 2%",
+              "correct": false,
+              "why": "Too high. 2% of 11,985 would be about 240 amendments, but there are only 27."
+            },
+            {
+              "text": "About 20%",
+              "correct": false,
+              "why": "Way too high. That would be thousands of amendments."
+            },
+            {
+              "text": "About 50%",
+              "correct": false,
+              "why": "No. Most proposals never even leave committee."
+            }
+          ]
+        },
+        {
+          "q": "Why could Gregory Watson's campaign succeed in the 1980s and 1990s?",
+          "options": [
+            {
+              "text": "The amendment had no ratification deadline, so earlier state votes still counted",
+              "correct": true,
+              "why": "Exactly. With no time limit, he only needed enough new states to reach 38."
+            },
+            {
+              "text": "Congress voted on it again in 1992",
+              "correct": false,
+              "why": "No new vote was needed. Congress had already proposed it in 1789."
+            },
+            {
+              "text": "The president signed it",
+              "correct": false,
+              "why": "Presidents don't sign amendments."
+            },
+            {
+              "text": "Only a few states were needed back then",
+              "correct": false,
+              "why": "Three-fourths of the states is a lot. In 1992 that meant 38 of 50."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "To amend the Constitution, you need…",
+        "The president…",
+        "A college student once…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "fOCVXLWwSZA",
+    "title": "The 27th Amendment",
+    "channel": "Center for Civic Education",
+    "duration_sec": 131,
+    "why": "A two-minute explainer of what the 27th Amendment says, why it took from 1789 to 1992, and why the framers wanted Congress paid in the first place."
+  },
+  "sources": [
+    {
+      "title": "Constitutional Amendment Process",
+      "publisher": "National Archives (Office of the Federal Register)",
+      "url": "https://www.archives.gov/federal-register/constitution",
+      "supports": "Two-thirds of both houses propose, or a convention called by two-thirds of state legislatures (never used for any of the 27 amendments); three-fourths of the states (38 of 50) ratify; Congress proposes by joint resolution, which does not go to the White House because the president has no constitutional role; the Archivist certified the 27th Amendment on May 18, 1992."
+    },
+    {
+      "title": "Twenty-seventh Amendment to the United States Constitution",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Twenty-seventh_Amendment_to_the_United_States_Constitution",
+      "supports": "Text and meaning of the 27th Amendment (a pay change for Congress takes effect only after the next House election); sent to the states in 1789 with the amendments that became the Bill of Rights in 1791; Gregory Watson's 1982 paper, his C grade and his campaign; Maine ratified first in 1983; Michigan ratified on May 7, 1992, leading to certification."
+    },
+    {
+      "title": "List of proposed amendments to the United States Constitution",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_proposed_amendments_to_the_United_States_Constitution",
+      "supports": "About 11,985 measures were proposed to amend the Constitution from 1789 through January 3, 2025; around 200 per two-year Congress; most never get out of committee."
+    }
+  ]
+}

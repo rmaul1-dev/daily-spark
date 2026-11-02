@@ -1,0 +1,218 @@
+{
+  "id": "civics-amendments-adult",
+  "topic": "civics",
+  "subject": "amendments",
+  "level": "adult",
+  "title": "Article V: The Hardest Lock in American Government",
+  "emoji": "🖋️",
+  "summary": "How amending the Constitution works, why almost nothing gets through, and the trade-off between stability and responsiveness.",
+  "minutes": 8,
+  "date_added": "2026-11-02",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What thresholds does Article V require, and why does the state count matter so much?",
+      "answer": "Two-thirds of both houses (or a convention) to propose, three-fourths of states to ratify. Each state counts equally, so 13 states can block."
+    },
+    {
+      "id": "k2",
+      "prompt": "How narrow is the amendment funnel in practice?",
+      "answer": "About 11,985 proposals from 1789 to early 2025, 33 sent to the states, 27 ratified. Most never leave committee."
+    },
+    {
+      "id": "k3",
+      "prompt": "What procedural choices does Congress control beyond the vote itself?",
+      "answer": "It picks the ratification mode (legislatures or state conventions) and, since 1917, usually sets a ratification deadline."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🔒",
+      "title": "Twelve thousand tries",
+      "text": "Members of Congress have proposed roughly 12,000 constitutional amendments since 1789. The Constitution has 27. The most recent was certified in 1992, and no amendment has been added since. That isn't an accident of history. It is the design working exactly as written."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "From 1789 through January 3, 2025, how many measures were proposed in Congress to amend the Constitution?",
+      "estimate": {
+        "min": 0,
+        "max": 20000,
+        "step": 100,
+        "answer": 11985
+      },
+      "reveal": "About 11,985, roughly 200 per two-year Congress. Only 33 were sent to the states, and 27 were ratified.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "🚪",
+      "title": "Two supermajority gates",
+      "text": "Proposal takes two-thirds of both the House and the Senate, or a convention called on the application of two-thirds of state legislatures. Ratification takes three-fourths of the states, through their legislatures or state conventions. Each state's vote weighs the same regardless of population.",
+      "example": "With 50 states, ratification needs 38. That means any 13 states refusing to ratify is enough to block an amendment, whatever their combined population.",
+      "why": {
+        "q": "Why does equal state weight make blocking easier than the national vote count suggests?",
+        "a": "Because the count is states, not people. A coalition of less-populous states can hold a blocking 13 while representing a small share of the population."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "✋",
+      "title": "The missing branch",
+      "text": "The president has no constitutional role. Congress proposes by joint resolution, which goes to the National Archives, not the White House. The Archivist sends it to the governors, collects ratifications, and certifies the amendment once 38 authenticated ones arrive. That certification of the paperwork's facial legal sufficiency is treated as final and conclusive.",
+      "example": "Contrast an ordinary bill: it needs the president's signature or a two-thirds override. An amendment needs two-thirds from the start, so there is nothing for a veto to add."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌪️",
+      "title": "The funnel in numbers",
+      "text": "About 11,985 proposals were introduced from 1789 through January 3, 2025, around 200 per Congress. Most never leave committee. Only 33 cleared both chambers and went to the states, and 27 were ratified. So clearing Congress was the hard part: about 0.28% of proposals, while roughly 82% of those sent out were ratified.",
+      "example": "33 ÷ 11,985 ≈ 0.28%. 27 ÷ 33 ≈ 81.8%. The binding constraint has been reaching two-thirds in Congress."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚙️",
+      "title": "Congress sets the rules of the game",
+      "text": "Article V lets Congress pick the ratification mode, and the Supreme Court affirmed that in United States v. Sprague (1931). State conventions have been used once, for the Twenty-first Amendment in 1933, which repealed Prohibition. Article V says nothing about deadlines, yet since the Eighteenth Amendment in 1917 most proposals have carried one.",
+      "why": {
+        "q": "Why might Congress choose state conventions over legislatures?",
+        "a": "It gives Congress a second path. If state legislatures are the likely obstacle, a different body in each state can make the decision instead."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Stability versus responsiveness",
+      "text": "Political scientists Steven Levitsky and Daniel Ziblatt argue the U.S. Constitution is the most difficult in the world to amend \"by a lot.\" The high bar protects settled rules from a temporary majority and forces broad, cross-regional consensus. The cost is that rules can stay fixed even when large majorities want them changed. One clause is entrenched even further: no state can lose its equal vote in the Senate without its consent.",
+      "example": "Notice the self-reference problem: lowering Article V's thresholds would itself require clearing Article V's thresholds."
+    },
+    {
+      "type": "think",
+      "question": "Suppose ratification needed only three-fifths of the states instead of three-fourths. Argue the strongest case that this would improve American government, then the strongest case that it would make it worse.",
+      "nudges": [
+        "Which past or proposed changes would become possible, and which protections would become easier to remove?",
+        "How does a high bar shift pressure onto courts and ordinary legislation?",
+        "Does durability of the rules matter more than their fit to the present?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Which statement about the amendment process is accurate?",
+          "options": [
+            {
+              "text": "The president has no formal role, so a proposed amendment is never sent to the White House",
+              "correct": true,
+              "why": "Correct. Congress's joint resolution goes straight to the National Archives."
+            },
+            {
+              "text": "The president can veto a proposed amendment, but two-thirds of Congress can override",
+              "correct": false,
+              "why": "That describes ordinary bills. Amendments skip presentment entirely."
+            },
+            {
+              "text": "Several amendments have been proposed by a convention of the states",
+              "correct": false,
+              "why": "None of the 27 came through the convention route; all were proposed by Congress."
+            },
+            {
+              "text": "Ratification requires a majority of the national popular vote",
+              "correct": false,
+              "why": "There is no national vote. Ratification counts states, and each state counts equally."
+            }
+          ]
+        },
+        {
+          "q": "Given the historical numbers, where has the real bottleneck been?",
+          "options": [
+            {
+              "text": "Getting two-thirds of both chambers to propose",
+              "correct": true,
+              "why": "Right. About 0.28% of proposals cleared Congress, while about 82% of those sent to the states were ratified."
+            },
+            {
+              "text": "Getting 38 states to ratify after Congress proposes",
+              "correct": false,
+              "why": "Ratification has failed sometimes, but 27 of 33 submitted amendments made it. The steep drop comes earlier."
+            },
+            {
+              "text": "Certification by the Archivist",
+              "correct": false,
+              "why": "The Archivist checks paperwork and certifies; it is a ministerial step, not a political filter."
+            },
+            {
+              "text": "Review by the Supreme Court",
+              "correct": false,
+              "why": "The Court is not a step in Article V."
+            }
+          ]
+        },
+        {
+          "q": "Congress wants an amendment ratified even if many state legislatures are likely to resist. What tool does Article V give it?",
+          "options": [
+            {
+              "text": "Specify ratification by state conventions instead of legislatures",
+              "correct": true,
+              "why": "Yes. Congress chooses the mode, as it did for the Twenty-first Amendment in 1933."
+            },
+            {
+              "text": "Lower the ratification threshold for that amendment",
+              "correct": false,
+              "why": "The three-fourths threshold is fixed in Article V; Congress can't change it by resolution."
+            },
+            {
+              "text": "Let the president ratify on behalf of those states",
+              "correct": false,
+              "why": "The president has no role in ratification."
+            },
+            {
+              "text": "Count each state's vote by population",
+              "correct": false,
+              "why": "Each state's vote carries equal weight regardless of population."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Amending the Constitution takes…",
+        "The surprising part is that the bottleneck…",
+        "The trade-off is…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "JqwP7mteNqU",
+    "title": "Amending the Constitution Featuring Justice Neil M. Gorsuch",
+    "channel": "National Constitution Center",
+    "duration_sec": 196,
+    "start": 0,
+    "end": 104,
+    "why": "The National Constitution Center's clear walkthrough of Article V's proposal and ratification routes, clipped to the explainer portion before the interview."
+  },
+  "sources": [
+    {
+      "title": "Constitutional Amendment Process",
+      "publisher": "National Archives (Office of the Federal Register)",
+      "url": "https://www.archives.gov/federal-register/constitution",
+      "supports": "Proposal by two-thirds of both houses or by a convention called by two-thirds of state legislatures (none of the 27 amendments came by convention); ratification by three-fourths of the states (38 of 50); joint resolution goes to NARA, not the White House, because the president has no constitutional role; the Archivist certifies, and that certification of facial legal sufficiency is final and conclusive; 27th Amendment certified May 18, 1992."
+    },
+    {
+      "title": "Article Five of the United States Constitution",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Article_Five_of_the_United_States_Constitution",
+      "supports": "Text of Article V, including that no state may be deprived of its equal suffrage in the Senate without its consent; each state's vote carries equal weight regardless of population; 33 amendments submitted to the states; Congress chooses the ratification mode (United States v. Sprague, 1931); state conventions used only once, for the Twenty-first Amendment in 1933; ratification deadlines began in 1917 with the Eighteenth Amendment and Article V is silent on them; Levitsky and Ziblatt argue the U.S. Constitution is the hardest in the world to amend \"by a lot\"."
+    },
+    {
+      "title": "List of proposed amendments to the United States Constitution",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_proposed_amendments_to_the_United_States_Constitution",
+      "supports": "About 11,985 measures proposed to amend the Constitution from 1789 through January 3, 2025; around 200 per two-year Congress; most never get out of committee."
+    }
+  ]
+}

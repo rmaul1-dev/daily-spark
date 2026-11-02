@@ -1,0 +1,236 @@
+{
+  "id": "civics-amendments-kid",
+  "topic": "civics",
+  "subject": "amendments",
+  "level": "kid",
+  "title": "Changing the Rules of the Country",
+  "emoji": "🖋️",
+  "summary": "How the U.S. Constitution gets changed, and the college student who helped change it.",
+  "minutes": 6,
+  "date_added": "2026-11-02",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is an amendment to the Constitution?",
+      "answer": "A change that is added to the Constitution. There are 27 of them.",
+      "options": [
+        {
+          "text": "A change added to the Constitution",
+          "correct": true
+        },
+        {
+          "text": "A new law that only one state makes"
+        },
+        {
+          "text": "A vote to pick a president"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "How many states must say yes before an amendment becomes part of the Constitution?",
+      "answer": "Three out of every four states. That is 38 of the 50 states.",
+      "options": [
+        {
+          "text": "38 of the 50 states",
+          "correct": true
+        },
+        {
+          "text": "Just one state"
+        },
+        {
+          "text": "26 of the 50 states"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "Why are there two big votes, one in Congress and one in the states?",
+      "answer": "So a change only happens when lots of people all over the country agree.",
+      "options": [
+        {
+          "text": "So most of the country has to agree",
+          "correct": true
+        },
+        {
+          "text": "So the president can pick the winner"
+        },
+        {
+          "text": "So changes can happen in one day"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "📖",
+      "title": "Can you change the rules?",
+      "text": "The Constitution is the rule book for the whole country. It was written more than 200 years ago. Imagine you found a rule in it you wanted to fix. Could you? Yes, but it is really hard."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "How many changes do you think have been added to the Constitution?",
+      "options": [
+        {
+          "text": "3"
+        },
+        {
+          "text": "27",
+          "correct": true
+        },
+        {
+          "text": "About 270"
+        }
+      ],
+      "reveal": "27. Each change is called an amendment.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "🖋️",
+      "title": "A change is an amendment",
+      "text": "A change to the Constitution is called an amendment. There are 27 of them. The first ten came in 1791. Together they are called the Bill of Rights.",
+      "example": "Think of it like adding a new page to a game's rule book. The old pages stay, and the new page is part of the rules too."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏛️",
+      "title": "Step one: Congress",
+      "text": "First, Congress has to vote. Two out of every three members of the House must say yes. Two out of every three members of the Senate must say yes too.",
+      "example": "Say your class has 30 kids. Two out of three would be 20 kids voting yes. Just one more than half, 16 kids, would not be enough."
+    },
+    {
+      "type": "idea",
+      "emoji": "🗺️",
+      "title": "Step two: the states",
+      "text": "Next, the states vote. Three out of every four states must say yes. That is 38 of the 50 states.",
+      "why": {
+        "q": "Why make so many states agree?",
+        "a": "So a change only happens when people in most of the country agree, not just one part of it."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "✋",
+      "title": "The president doesn't sign it",
+      "text": "Here is a surprise. The president does not sign an amendment. The president has no part in it at all. The plan goes straight to the National Archives, which keeps track of the states' votes.",
+      "why": {
+        "q": "Why might it help to leave the president out?",
+        "a": "The Constitution gives the job to Congress and the states. No single person can stop a change that most of the country wants."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🎓",
+      "title": "A school paper that changed it",
+      "text": "In 1982, a college student named Gregory Watson wrote a paper. It was about an old amendment from 1789 that never got enough states. He got a C! But he started asking states to vote yes. In 1992, it finally became the 27th Amendment.",
+      "example": "The 27th Amendment is about pay. If Congress changes its own pay, the change waits until after the next election."
+    },
+    {
+      "type": "think",
+      "question": "Changing the Constitution takes a lot of yes votes. Is that a good thing or a bad thing? Think of one reason for each side.",
+      "nudges": [
+        "What if a bad change could happen fast?",
+        "What if a good change took years?",
+        "Which worries you more?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Who has to vote first on an amendment?",
+          "options": [
+            {
+              "text": "Congress, with two out of three in both the House and the Senate",
+              "correct": true,
+              "why": "Yes! Congress votes first, and it needs a big yes."
+            },
+            {
+              "text": "The president",
+              "correct": false,
+              "why": "No. The president has no part in amendments."
+            },
+            {
+              "text": "Kids at school",
+              "correct": false,
+              "why": "Not quite. Kids can share ideas, like Gregory Watson did, but Congress and the states do the voting."
+            }
+          ]
+        },
+        {
+          "q": "Out of 50 states, how many must say yes?",
+          "options": [
+            {
+              "text": "38",
+              "correct": true,
+              "why": "Right. That is three out of every four states."
+            },
+            {
+              "text": "10",
+              "correct": false,
+              "why": "Not enough. It takes three out of every four states, which is 38."
+            },
+            {
+              "text": "All 50",
+              "correct": false,
+              "why": "Close, but not every state. 38 is enough."
+            }
+          ]
+        },
+        {
+          "q": "What did Gregory Watson do?",
+          "options": [
+            {
+              "text": "He wrote a school paper and then got states to pass an old amendment",
+              "correct": true,
+              "why": "Yes! His work helped make the 27th Amendment in 1992."
+            },
+            {
+              "text": "He wrote the Constitution",
+              "correct": false,
+              "why": "No. The Constitution was written long before he was born."
+            },
+            {
+              "text": "He became president",
+              "correct": false,
+              "why": "No. He was a college student when he started."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "An amendment is…",
+        "To add one, first…",
+        "A college student once…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "LyWAZ4GLrD8",
+    "title": "The Secret Sauce - Teaching Article V of the Constitution",
+    "channel": "iCivics",
+    "duration_sec": 138,
+    "why": "A short cartoon from iCivics that shows the two big votes, how the Bill of Rights got added, and the student who helped pass the 27th Amendment."
+  },
+  "sources": [
+    {
+      "title": "Constitutional Amendment Process",
+      "publisher": "National Archives (Office of the Federal Register)",
+      "url": "https://www.archives.gov/federal-register/constitution",
+      "supports": "An amendment is proposed by a two-thirds vote in both the House and the Senate (or by a convention, never used for any of the 27 amendments); it becomes part of the Constitution when three-fourths of the states (38 of 50) ratify it; the president has no role, so it does not go to the White House; the National Archives handles ratification."
+    },
+    {
+      "title": "Twenty-seventh Amendment to the United States Constitution",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Twenty-seventh_Amendment_to_the_United_States_Constitution",
+      "supports": "The 27th Amendment says a change to Congress's pay takes effect only after the next House election; it was sent to the states in 1789 with the amendments that became the Bill of Rights in 1791; Gregory Watson, a 19-year-old University of Texas student, wrote a 1982 paper about it, got a C, and started a campaign; it was ratified in May 1992."
+    }
+  ]
+}
