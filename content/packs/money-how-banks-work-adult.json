@@ -1,0 +1,215 @@
+{
+  "id": "money-how-banks-work-adult",
+  "topic": "money",
+  "subject": "how-banks-work",
+  "level": "adult",
+  "title": "Borrow Short, Lend Long: The Fragile Genius of Banks",
+  "emoji": "🏦",
+  "summary": "Maturity transformation, Diamond–Dybvig run equilibria, zero reserve requirements, loans that create deposits, and what FDIC insurance does and doesn't fix.",
+  "minutes": 8,
+  "date_added": "2026-11-03",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why is a bank fragile even when its loans are sound?",
+      "answer": "It funds long-term, illiquid loans with deposits payable on demand. If withdrawals bunch up, it must sell assets at a loss and can fail."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why is a bank run a self-fulfilling equilibrium in the Diamond–Dybvig model?",
+      "answer": "Once you suspect a run, withdrawing first is rational; enough people doing so forces the bank to fail, confirming the fear."
+    },
+    {
+      "id": "k3",
+      "prompt": "How does deposit insurance stop runs, and where are its limits?",
+      "answer": "Covered depositors are repaid even if the bank fails, so racing others is pointless. Coverage is $250,000 per depositor, per bank, per ownership category."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "📉",
+      "title": "A simple business, a huge bill",
+      "text": "Take deposits, make loans: banking's core is that simple. Yet for important banking crises from 1970 to 2007, fiscal costs averaged 13% of GDP and lost output averaged 20% of GDP. Why is something so simple so fragile, and why do we put up with it?"
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "What reserve requirement does the Federal Reserve impose on U.S. bank deposits today?",
+      "estimate": {
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "unit": "%",
+        "answer": 0
+      },
+      "reveal": "0%. The Fed eliminated reserve requirements in 2020 and now steers rates mainly through the interest it pays on reserve balances.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "🔁",
+      "title": "Liquidity transformation",
+      "text": "In the Diamond–Dybvig model, borrowers want long-maturity loans (machines, buildings, homes, cars) while savers, facing sudden unpredictable cash needs, want instant access. A bank bridges the two: it pools deposits, portions them into loans, and spreads both default risk and withdrawal risk. It charges much higher interest on long-term loans than it pays on demand deposits. The service and the profit come from the same asset–liability mismatch."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎲",
+      "title": "Two equilibria",
+      "text": "Normally, by the law of large numbers, withdrawals are small because individual needs are uncorrelated, so a little cash suffices. But the model has more than one Nash equilibrium. Once depositors suspect a run, withdrawing first is rational, even though the run will sink the bank. Forced to sell assets at a loss or call in loans, a solvent bank can fail.",
+      "example": "Bernanke has argued that much of the Great Depression's economic damage came directly from bank runs; runs hit many U.S. banks from 1929 to 1933.",
+      "why": {
+        "q": "Why doesn't a solvent bank simply call in its loans to pay depositors?",
+        "a": "Calling loans early forces businesses to disrupt production and households to sell homes or cars, causing more losses; selling assets fast means selling at a loss."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🏦",
+      "title": "Reserves aren't the binding constraint",
+      "text": "The U.S., U.K., Canada, Australia, New Zealand and the Scandinavian countries impose no explicit reserve requirements; the Fed cut its own to zero in 2020. Most banks hold reserves anyway, but those cover only normal withdrawal patterns. Instead, the Fed pays interest on reserve balances to influence rates, and Basel III strengthened capital requirements and added liquidity and leverage rules to limit insolvency."
+    },
+    {
+      "type": "idea",
+      "emoji": "✍️",
+      "title": "Loans create deposits",
+      "text": "When a commercial bank makes a loan, it doesn't hand over someone else's cash. It credits the borrower's deposit account, creating a new deposit, so the money supply expands by the size of the loan. Repayment shrinks it again. Because central banks target interest rates rather than a fixed quantity of base money, the textbook money multiplier doesn't cap money creation in practice.",
+      "example": "Say a bank approves a $400,000 mortgage. It credits $400,000 of new deposits to the borrower's account, ready to pay the seller."
+    },
+    {
+      "type": "idea",
+      "emoji": "🛡️",
+      "title": "Insurance as circuit breaker",
+      "text": "The FDIC (founded 1933) insures deposits to at least $250,000 per depositor, per ownership category, per insured bank; no depositor has lost a penny of insured funds. Its fund is financed by bank assessments plus Treasury interest and backed by the full faith and credit of the U.S. It covers deposits only: not stocks, bonds, mutual funds, annuities, Treasuries or crypto. Fear of delayed access can still spark runs, so the FDIC keeps takeovers secret and reopens branches under new owners the next business day.",
+      "why": {
+        "q": "If insured deposits are safe, why does the speed of reopening matter?",
+        "a": "Depositors may still fear losing access to their money during a reorganization; reopening the next business day removes that reason to run."
+      }
+    },
+    {
+      "type": "think",
+      "question": "Deposit insurance stops runs, but its cap leaves large depositors exposed. Make the strongest case for raising the $250,000 limit, then the strongest case against.",
+      "nudges": [
+        "Who would pay for broader coverage, and would that cost reach ordinary customers?",
+        "How might banks and big depositors behave differently if every dollar were covered?",
+        "Is there a middle path, such as different coverage for business payroll accounts?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "In the Diamond–Dybvig framework, why can a solvent bank fail?",
+          "options": [
+            {
+              "text": "A run forces it to sell long-term assets at a loss to meet withdrawals",
+              "correct": true,
+              "why": "Yes. The assets may be worth enough over time, but not when sold in a hurry."
+            },
+            {
+              "text": "Its loans were bad all along",
+              "correct": false,
+              "why": "That's insolvency. The model's point is that even a bank with good loans can fail."
+            },
+            {
+              "text": "Deposit insurance pays out too slowly",
+              "correct": false,
+              "why": "The model explains runs without insurance; insurance is a remedy, not the cause."
+            },
+            {
+              "text": "Reserve requirements are set to zero",
+              "correct": false,
+              "why": "Runs long predate 2020; no bank holds enough reserves for all deposits at once."
+            }
+          ]
+        },
+        {
+          "q": "You hold $240,000 across checking and savings (both single accounts) plus a $240,000 IRA at one FDIC-insured bank. How much is insured?",
+          "options": [
+            {
+              "text": "All $480,000",
+              "correct": true,
+              "why": "Right. The IRA is a separate ownership category, so each $240,000 falls under its own $250,000 limit."
+            },
+            {
+              "text": "$250,000",
+              "correct": false,
+              "why": "The limit applies per ownership category, and IRAs are separate from single accounts."
+            },
+            {
+              "text": "$240,000",
+              "correct": false,
+              "why": "Both categories are covered, each up to $250,000."
+            },
+            {
+              "text": "Nothing in the IRA",
+              "correct": false,
+              "why": "Certain retirement accounts, including IRAs, are an FDIC ownership category, covered for deposits."
+            }
+          ]
+        },
+        {
+          "q": "A bank approves a $50,000 business loan and credits the borrower's account. What happens to the money supply?",
+          "options": [
+            {
+              "text": "It grows by $50,000; repayment later shrinks it",
+              "correct": true,
+              "why": "Yes. The loan creates a new deposit; repaying it destroys that money."
+            },
+            {
+              "text": "Nothing; the bank lent out existing savers' cash",
+              "correct": false,
+              "why": "Loans are made by crediting a deposit account, which creates a new deposit."
+            },
+            {
+              "text": "It shrinks by $50,000",
+              "correct": false,
+              "why": "Lending expands the money supply; repayment is what reduces it."
+            },
+            {
+              "text": "It grows by $50,000 times a fixed money multiplier",
+              "correct": false,
+              "why": "With rate targeting, the textbook multiplier doesn't limit money creation in practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Banks are fragile because…",
+        "A run is self-fulfilling because…",
+        "Deposit insurance helps, but…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "69zSSx08HtU",
+    "title": "Why This Sign Is in Front of Banks | WSJ",
+    "channel": "The Wall Street Journal",
+    "duration_sec": 331,
+    "why": "1930s runs, FDR on why deposits aren't in a vault, how FDIC insurance and bank sales work, and why Silicon Valley Bank's 2023 failure strained the model."
+  },
+  "sources": [
+    {
+      "title": "Understanding Deposit Insurance",
+      "publisher": "FDIC (Federal Deposit Insurance Corporation)",
+      "url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance",
+      "supports": "FDIC founded in 1933 and created by Congress; no depositor has lost a penny of FDIC-insured funds; insures deposits to at least $250,000 per depositor, per ownership category, at each insured bank; the Deposit Insurance Fund is financed by bank assessments and interest on U.S. government obligations and backed by the full faith and credit of the U.S.; covers deposits only, not stocks, bonds, mutual funds, annuities, life insurance, Treasury securities, municipal securities or crypto; IRAs are a separate ownership category from single accounts, with the worked example of two single accounts plus an IRA at one bank."
+    },
+    {
+      "title": "Bank run",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bank_run",
+      "supports": "Crisis fiscal costs averaging 13% of GDP and output losses averaging 20% of GDP for important crises 1970–2007; Bernanke's view that much Depression damage came directly from bank runs; runs on many banks 1929–1933; fractional reserves and asset–liability mismatch; the Diamond–Dybvig model (long-maturity loans vs liquid deposits, pooling and spreading default and withdrawal risk, more than one Nash equilibrium, rational to join a run); higher interest on long-term loans than on deposits; law of large numbers; calling loans early disrupts production and forces home and vehicle sales; deposit insurance removes the incentive to run but fears of lost access remain, so the FDIC keeps takeovers secret and reopens branches next business day; Basel III strengthens capital requirements and adds liquidity and leverage rules."
+    },
+    {
+      "title": "Fractional-reserve banking",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fractional-reserve_banking",
+      "supports": "The U.S., U.K., Canada, Australia, New Zealand and three Scandinavian countries impose no explicit reserve requirements; the Fed eliminated reserve requirements in 2020 and pays interest on reserve balances to influence rates; most banks hold excess reserves; reserves cover only normal withdrawals; a loan creates new demand deposits and expands the money supply by the loan amount, and repayment reduces it; because central banks target interest rates rather than fixed base money, the money multiplier doesn't limit money creation in practice."
+    }
+  ]
+}

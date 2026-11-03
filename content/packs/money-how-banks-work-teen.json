@@ -1,0 +1,227 @@
+{
+  "id": "money-how-banks-work-teen",
+  "topic": "money",
+  "subject": "how-banks-work",
+  "level": "teen",
+  "title": "Borrow Short, Lend Long: How Banks Really Work",
+  "emoji": "🏦",
+  "summary": "Banks turn instant-access deposits into long-term loans. That earns a profit, and it's exactly why bank runs happen.",
+  "minutes": 7,
+  "date_added": "2026-11-03",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How does a bank earn money from your deposit?",
+      "answer": "It lends deposits out as longer-term loans at a higher interest rate than it pays depositors, and keeps the gap, minus costs and bad loans."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why can a bank run sink a bank whose loans are fine?",
+      "answer": "Loans can't be turned into cash quickly. If many depositors withdraw at once, the bank must sell assets at a loss and can fail."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why does deposit insurance make runs less likely?",
+      "answer": "Insured depositors get their money even if the bank fails, so there's no reason to rush out just because others are."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧩",
+      "title": "Nobody stole anything",
+      "text": "Here's a puzzle. A bank can make solid loans, lose nothing to theft, and still collapse fast, just because people got nervous. How can fear alone sink a bank?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "What's the main reason a bank run can sink a bank whose loans are fine?",
+      "options": [
+        {
+          "text": "Its loans can't be turned into cash fast enough",
+          "correct": true
+        },
+        {
+          "text": "The government takes the deposits"
+        },
+        {
+          "text": "Interest rates suddenly drop to zero"
+        },
+        {
+          "text": "The bank prints too much money"
+        }
+      ],
+      "reveal": "Timing. Deposits can be pulled any day, but loans last years. In a rush, the bank has to sell assets at a loss to raise cash, and that can make it fail.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "🔁",
+      "title": "Borrow short, lend long",
+      "text": "Depositors want their money available any day. Borrowers want years to pay: a business buying machines, a family buying a home or car. A bank sits in the middle. It pools many deposits, splits them into loans, and spreads the risk that some borrowers won't pay or some savers want cash suddenly. Economists call this gap between short-term deposits and long-term loans an asset–liability mismatch."
+    },
+    {
+      "type": "idea",
+      "emoji": "💵",
+      "title": "The interest gap",
+      "text": "Banks charge much higher interest on long-term loans than they pay on deposits. That gap is how they earn a profit. But lending carries risk, because some borrowers default (fail to pay back).",
+      "example": "Say a bank holds $10 million in deposits and pays 1% ($100,000 a year). It lends $9 million at 6%, earning $540,000. Before costs and bad loans, it clears $440,000.",
+      "examples_by_interest": {
+        "business": "Say your startup borrows $50,000 from a bank at 6% to buy equipment: $3,000 of interest a year. If the bank pays its savers 1% on that $50,000 ($500), the bank's gap on your loan is $2,500 a year, before costs."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🎲",
+      "title": "The law of large numbers",
+      "text": "Why doesn't a bank need all that cash on hand? Most people's spending needs are unrelated, so on any one day only a small share of accounts gets withdrawn. In 2020, the Federal Reserve even dropped its reserve requirement entirely. Banks still hold reserves, but those only cover withdrawals in a normal pattern."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏃",
+      "title": "A self-fulfilling run",
+      "text": "If many depositors withdraw at once, the bank runs short of cash and must sell assets at a loss, which can make it fail. Here's the twist: it may not be rational to start a run, but once one starts, joining it is rational. Fear can make itself come true. From 1929 to 1933, runs hit many U.S. banks.",
+      "why": {
+        "q": "Why is it rational to join a run even if you think the bank is healthy?",
+        "a": "If others withdraw first, the cash may be gone before you get yours. Waiting risks your money, so everyone rushes, and the rush can sink the bank."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🛡️",
+      "title": "Deposit insurance",
+      "text": "Congress created the FDIC, founded in 1933. It insures deposits to at least $250,000 per depositor, per ownership category, at each insured bank. Its fund comes from premiums banks pay plus interest on Treasury notes. Since 1933, no depositor has lost a penny of insured funds. It covers checking, savings and CDs, not stocks, bonds, mutual funds or crypto.",
+      "why": {
+        "q": "Why does insurance stop a run before it starts?",
+        "a": "If your insured money is safe even if the bank fails, you have no reason to race other depositors to withdraw it."
+      }
+    },
+    {
+      "type": "think",
+      "question": "Deposit insurance calms depositors. Could it also make banks or depositors less careful? Argue one side, then the other.",
+      "nudges": [
+        "If your money is safe no matter what, how hard would you check which bank you use?",
+        "Without insurance, what would people do the moment they heard a rumor?",
+        "Is there a way to get the calm without the carelessness?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "A bank pays 2% on $1,000,000 of deposits and lends $800,000 at 7%. Before costs and bad loans, what does it earn in a year?",
+          "options": [
+            {
+              "text": "$36,000",
+              "correct": true,
+              "why": "Right: $800,000 × 7% = $56,000 earned, minus $1,000,000 × 2% = $20,000 paid. $56,000 − $20,000 = $36,000."
+            },
+            {
+              "text": "$50,000",
+              "correct": false,
+              "why": "That's 5% (7% − 2%) of $1,000,000, but only $800,000 is lent out. Do each side separately."
+            },
+            {
+              "text": "$56,000",
+              "correct": false,
+              "why": "That's what it earns on loans, but it still pays depositors $20,000."
+            },
+            {
+              "text": "$20,000",
+              "correct": false,
+              "why": "That's what it pays depositors. Subtract it from the $56,000 it earns."
+            }
+          ]
+        },
+        {
+          "q": "Why can a bank get by with only a little cash most days?",
+          "options": [
+            {
+              "text": "Only a small share of depositors withdraw on any one day",
+              "correct": true,
+              "why": "Yes. People's needs are mostly unrelated, so withdrawals are small and predictable, until a panic."
+            },
+            {
+              "text": "The law requires everyone to give notice first",
+              "correct": false,
+              "why": "Demand deposits can be pulled any day; that's what makes runs possible."
+            },
+            {
+              "text": "The FDIC sends cash every morning",
+              "correct": false,
+              "why": "The FDIC insures deposits if a bank fails; it doesn't supply daily cash."
+            },
+            {
+              "text": "Most deposits are kept in the vault",
+              "correct": false,
+              "why": "It's the opposite: most deposits are lent out."
+            }
+          ]
+        },
+        {
+          "q": "Which is protected by FDIC deposit insurance?",
+          "options": [
+            {
+              "text": "A savings account at an FDIC-insured bank",
+              "correct": true,
+              "why": "Yes. Checking, savings and CDs at insured banks are covered."
+            },
+            {
+              "text": "Stock bought through that bank",
+              "correct": false,
+              "why": "Stocks aren't deposits, so FDIC insurance doesn't cover them, even at an insured bank."
+            },
+            {
+              "text": "Crypto held in an app",
+              "correct": false,
+              "why": "The FDIC lists crypto assets as not covered."
+            },
+            {
+              "text": "A mutual fund",
+              "correct": false,
+              "why": "Mutual funds are investments, not deposits, so they aren't covered."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Banks make money by…",
+        "A bank run can sink a healthy bank because…",
+        "Deposit insurance stops runs because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "69zSSx08HtU",
+    "title": "Why This Sign Is in Front of Banks | WSJ",
+    "channel": "The Wall Street Journal",
+    "duration_sec": 331,
+    "start": 0,
+    "end": 173,
+    "why": "Real 1930s bank runs, FDR explaining why banks don't keep your money in a vault, and how FDIC insurance works. (It stops before the 2023 bank failures.)"
+  },
+  "sources": [
+    {
+      "title": "Understanding Deposit Insurance",
+      "publisher": "FDIC (Federal Deposit Insurance Corporation)",
+      "url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance",
+      "supports": "The FDIC was created by Congress and founded in 1933; no depositor has lost a penny of FDIC-insured funds; insures deposits to at least $250,000 per depositor, per ownership category, at each FDIC-insured bank; the Deposit Insurance Fund is funded by assessments (insurance premiums) banks pay and interest on U.S. government obligations such as Treasury notes; covers checking, savings and CDs but not stocks, bonds, mutual funds or crypto assets."
+    },
+    {
+      "title": "Bank run",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bank_run",
+      "supports": "Banks keep a fraction of demand deposits as cash and invest the rest in longer-term loans and securities, an asset–liability mismatch; borrowers (businesses buying machines, households buying homes or cars) prefer long loans while depositors want liquid accounts; banks pool deposits into loans and spread the risks of default and sudden cash demands; banks charge much higher interest on long-term loans than they pay on deposits; because needs are uncorrelated only a small share is withdrawn on any day; if many withdraw at once a bank may sell assets at a loss and fail; it is not rational to start a run but rational to join one; runs hit many banks from 1929 to 1933; deposit insurance removes the incentive to withdraw because others are."
+    },
+    {
+      "title": "Fractional-reserve banking",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fractional-reserve_banking",
+      "supports": "Banks keep only part of deposits as reserves and lend the rest; the Federal Reserve eliminated reserve requirements entirely in 2020; most banks hold reserves anyway, and reserves only cover withdrawals within the normal pattern."
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "id": "money-how-banks-work-kid",
+  "topic": "money",
+  "subject": "how-banks-work",
+  "level": "kid",
+  "title": "Where Does Bank Money Go?",
+  "emoji": "🏦",
+  "summary": "Your bank money doesn't sit in a vault. Here's where it goes, how banks earn money, and what keeps it safe.",
+  "minutes": 6,
+  "date_added": "2026-11-03",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Where is most of the money people put in a bank?",
+      "answer": "It is lent out to people and businesses who borrow it. The bank keeps only part of it as cash.",
+      "options": [
+        {
+          "text": "Lent out to people and businesses",
+          "correct": true
+        },
+        {
+          "text": "Locked in a vault with each person's name"
+        },
+        {
+          "text": "Sent to the government to keep"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "How does a bank make money from lending?",
+      "answer": "It charges borrowers more interest than it pays savers. The bank keeps the difference.",
+      "options": [
+        {
+          "text": "It charges borrowers more interest than it pays savers",
+          "correct": true
+        },
+        {
+          "text": "It prints new dollar bills"
+        },
+        {
+          "text": "It keeps money that savers forget about"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What does FDIC insurance do?",
+      "answer": "It protects money in accounts at insured banks, up to $250,000 for each person at each bank, if the bank fails.",
+      "options": [
+        {
+          "text": "Protects bank account money if the bank fails",
+          "correct": true
+        },
+        {
+          "text": "Makes the bank pay you more interest"
+        },
+        {
+          "text": "Protects money you put in stocks"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🔐",
+      "title": "Picture a giant vault",
+      "text": "Say you put $20 in a bank. You might picture it in a big vault with your name on it. But that is not what happens. So where does it go?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Where do you think most of the money in a bank is right now?",
+      "options": [
+        {
+          "text": "Lent out to people and businesses",
+          "correct": true
+        },
+        {
+          "text": "Locked in the vault"
+        },
+        {
+          "text": "Sent to the government to keep"
+        }
+      ],
+      "reveal": "Most of it is lent out! A bank keeps only part of its money as cash. It lends the rest to people and businesses.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "🔄",
+      "title": "Your money goes to work",
+      "text": "A bank puts together money from lots of savers. It keeps only part of it as cash. It lends the rest to people who need to borrow. A family might borrow to buy a home. A business might borrow to buy new machines.",
+      "example": "Say a bakery borrows money from the bank to buy a new oven. Some of that money might be yours!",
+      "why": {
+        "q": "Why doesn't the bank just keep all the money in the vault?",
+        "a": "Lending is how the bank earns money. People who borrow have to pay back extra, called interest."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "💰",
+      "title": "The interest gap",
+      "text": "When you save, the bank pays you a little extra. That extra is called interest. When people borrow, they pay the bank more interest than the bank pays savers. The bank keeps the difference.",
+      "example": "Say you save $100 and the bank pays you $2 in a year. It lends that $100 to a bakery, and the bakery pays $7. The bank keeps $5."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎲",
+      "title": "Not everyone at once",
+      "text": "Banks count on one simple thing. On most days, only a few people take their money out. So the bank only needs a little cash on hand. But what if lots of people came at the same time?"
+    },
+    {
+      "type": "idea",
+      "emoji": "🏃",
+      "title": "A bank run",
+      "text": "When lots of people rush to take out their money at once, it's called a bank run. The bank can't pay everyone right away, because most of the money is lent out. In the early 1930s, waves of bank runs hit the United States.",
+      "why": {
+        "q": "Why would people rush to the bank just because others are?",
+        "a": "Each person worries the cash will run out before they get theirs. So people rush, and that can make a bank fail."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🛡️",
+      "title": "A safety net",
+      "text": "In 1933, Congress created the FDIC. It protects money in accounts at insured banks, up to $250,000 for each person at each bank. Since then, no one has lost a penny of insured money. So people have less reason to rush.",
+      "example": "Banks pay for this insurance. It covers money in checking and savings accounts, but not stocks."
+    },
+    {
+      "type": "think",
+      "question": "If you ran a bank, how would you decide who to lend money to?",
+      "nudges": [
+        "What would you want to know about the person or business first?",
+        "What could go wrong if they couldn't pay you back?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Where is most of the money people put in a bank?",
+          "options": [
+            {
+              "text": "Lent out to people and businesses",
+              "correct": true,
+              "why": "Yes! The bank keeps only part of it as cash."
+            },
+            {
+              "text": "In a vault with each person's name",
+              "correct": false,
+              "why": "That's what many people picture. But most of it is lent out."
+            },
+            {
+              "text": "Sent to the government",
+              "correct": false,
+              "why": "No. The bank lends most of it to people and businesses."
+            }
+          ]
+        },
+        {
+          "q": "A bank pays savers $2 and gets $7 from a borrower. What does the bank keep?",
+          "options": [
+            {
+              "text": "$5",
+              "correct": true,
+              "why": "Right! $7 minus $2 is $5. That gap is how the bank earns money."
+            },
+            {
+              "text": "$9",
+              "correct": false,
+              "why": "The bank pays the $2 out to savers, so it subtracts. $7 minus $2 is $5."
+            },
+            {
+              "text": "$2",
+              "correct": false,
+              "why": "The $2 goes to the saver. The bank keeps what's left: $5."
+            }
+          ]
+        },
+        {
+          "q": "Why does FDIC insurance make bank runs less likely?",
+          "options": [
+            {
+              "text": "Insured money is safe even if the bank fails",
+              "correct": true,
+              "why": "Yes! So there's no reason to rush to beat everyone else."
+            },
+            {
+              "text": "It locks the bank doors",
+              "correct": false,
+              "why": "No. It protects the money, so people don't need to rush in."
+            },
+            {
+              "text": "It makes banks keep all the cash in a vault",
+              "correct": false,
+              "why": "Banks still lend most of it. The insurance protects the money instead."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "When you put money in a bank, most of it…",
+        "A bank makes money by…",
+        "A bank run is when…, but the FDIC…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "w-SWbwYKWFU",
+    "title": "Biz Kid$ Episode 508 - Young American's Bank Profile",
+    "channel": "Biz Kid$ (TV Series)",
+    "duration_sec": 158,
+    "why": "Two kid business owners borrow from a real bank for young people and learn that a loan isn't free: you pay back a little extra, called interest."
+  },
+  "sources": [
+    {
+      "title": "Understanding Deposit Insurance",
+      "publisher": "FDIC (Federal Deposit Insurance Corporation)",
+      "url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance",
+      "supports": "The FDIC was created by Congress and founded in 1933; since then no depositor has lost a penny of FDIC-insured funds; deposits are insured to at least $250,000 per depositor, per ownership category, at each FDIC-insured bank; insurance premiums are paid by FDIC-insured banks; it covers checking and savings accounts but not stock investments."
+    },
+    {
+      "title": "Bank run",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bank_run",
+      "supports": "Banks keep only a fraction of deposits as cash and lend the rest; banks pool many deposits into loans for businesses and households buying homes and cars; banks charge much higher interest on loans than they pay on deposits, which earns a profit; on any one day only a small share of accounts is withdrawn; a bank run is when many people withdraw at once; once a run starts it is rational to join it, and runs can make a bank fail; the Great Depression had runs on many banks from 1929 to 1933; deposit insurance removes the incentive to withdraw just because others are."
+    }
+  ]
+}
