@@ -1,0 +1,211 @@
+{
+  "id": "science-volcanoes-teen",
+  "topic": "science",
+  "subject": "volcanoes",
+  "level": "teen",
+  "title": "Ooze or Explode? The Physics of Eruptions",
+  "emoji": "🌋",
+  "summary": "Dissolved gas, silica and speed decide whether a volcano pours lava or blasts ash.",
+  "minutes": 7,
+  "date_added": "2026-11-04",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why do gases come out of magma as it nears the surface?",
+      "answer": "The weight of the rock above keeps gas dissolved. As magma rises, that pressure drops, and the gas forms bubbles that drive the eruption."
+    },
+    {
+      "id": "k2",
+      "prompt": "How does silica content change how a volcano erupts?",
+      "answer": "More silica makes longer, tangled chains, so magma gets thicker. Thick magma traps gas, making explosive eruptions more likely."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why can the same gassy magma fizz gently or explode?",
+      "answer": "Speed. Magma that rises slowly can let its gas out bit by bit; magma that rises fast has to release it all at once."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌽",
+      "title": "A volcano in a cornfield",
+      "text": "In 1943, a volcano started growing on a farm in Mexico, near the village of Parícutin. Over 9 years it built a cone about 1,200 feet tall and destroyed a nearby town. Why do some volcanoes pour out lava quietly while others blast rock and ash into the sky?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Magma comes in different recipes. Which ingredient matters most for how thick and sticky it is?",
+      "options": [
+        {
+          "text": "Iron"
+        },
+        {
+          "text": "Silica",
+          "correct": true
+        },
+        {
+          "text": "Salt"
+        },
+        {
+          "text": "Gold"
+        }
+      ],
+      "reveal": "Silica. Its molecules link into chains, and more silica means longer chains that tangle and resist flowing.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "🌡️",
+      "title": "Where magma really comes from",
+      "text": "Magma doesn't come from Earth's core, and there are no permanent lakes of melted rock underground. It forms when part of the upper mantle melts. The heat comes mostly from the decay of radioactive elements like uranium. Melted rock is less dense than solid rock, so it rises, sometimes pooling in magma chambers.",
+      "why": {
+        "q": "Why does magma rise at all?",
+        "a": "It is lighter (less dense) than the rock around it, so buoyancy pushes it up, the way a beach ball held underwater pops up."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🥤",
+      "title": "Pressure holds the gas in",
+      "text": "Magma carries dissolved gases, mostly water and carbon dioxide. Deep down, the huge pressure of the rock above keeps them dissolved. As magma rises, pressure drops, and the gases come out as bubbles. That expanding gas is one of the main forces that drives an eruption.",
+      "example": "Crack open a soda: lower pressure, and the dissolved carbon dioxide suddenly forms bubbles."
+    },
+    {
+      "type": "idea",
+      "emoji": "🍝",
+      "title": "Silica makes it sticky",
+      "text": "Viscosity means resistance to flow: thin and runny versus thick and sticky. Silica molecules link into chains, and more silica means longer chains that tangle like spaghetti. Igneous rocks range from about 45% to 78% silica. Low-silica basalt flows easily. High-silica magma is far thicker, so gas can't escape, and eruptions tend to be explosive.",
+      "example": "Basalt from Kilauea in Hawaii is runny enough that flow fronts can move up to 6 miles an hour.",
+      "examples_by_interest": {
+        "cooking": "In this example, think of jam versus water on the stove. Water just boils, because bubbles escape easily. Thick jam spatters, because gas gets stuck and bursts out. Sticky magma behaves like the jam."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⏩",
+      "title": "Speed changes everything",
+      "text": "How fast magma rises matters too. If it rises slowly, gas can leak out quietly over time. If it rises fast, the gas has to escape all at once, and that sudden release is a main driver of explosions. A soda fizzes gently when opened slowly, but sprays after it's shaken.",
+      "why": {
+        "q": "Why would slow-rising magma be less explosive, even with the same gas?",
+        "a": "The gas has time to escape a little at a time instead of all at once."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🗻",
+      "title": "The shape tells the story",
+      "text": "Runny basalt builds shield volcanoes: broad, gentle slopes made of thousands of thin flows. Mauna Loa, the largest, rises over 28,000 feet above the deep ocean floor. Stickier magma builds steep composite volcanoes from layers of lava and ash, like Mount St. Helens. The stickiest lava piles up into lava domes right over the vent."
+    },
+    {
+      "type": "think",
+      "question": "Mount Rainier hasn't had a big eruption in about a thousand years, but scientists still count it as active. If you were planning a new town near it, how would you weigh a risk that is rare but huge?",
+      "nudges": [
+        "What could you measure to get early warning?",
+        "Argue the other side: why might people choose to live there anyway?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Why does gas come out of magma near the surface?",
+          "options": [
+            {
+              "text": "Pressure from the rock above drops",
+              "correct": true,
+              "why": "Right. Less pressure lets dissolved gas form bubbles, like opening a soda."
+            },
+            {
+              "text": "The magma reaches the core",
+              "correct": false,
+              "why": "Magma forms in the upper mantle, not the core, and rises away from it."
+            },
+            {
+              "text": "Rainwater boils inside it",
+              "correct": false,
+              "why": "The gases are already dissolved in the magma; lower pressure releases them."
+            },
+            {
+              "text": "Magma gets heavier",
+              "correct": false,
+              "why": "Magma rises because it is lighter than the rock around it."
+            }
+          ]
+        },
+        {
+          "q": "Magma A is 50% silica. Magma B is 75% silica. Both have plenty of gas. Which is more likely to explode?",
+          "options": [
+            {
+              "text": "B, because more silica makes it stickier and traps gas",
+              "correct": true,
+              "why": "Yes. Longer, tangled silica chains raise viscosity, so gas can't slip out."
+            },
+            {
+              "text": "A, because it flows faster",
+              "correct": false,
+              "why": "Runny magma lets gas escape, so it tends to flow rather than explode."
+            },
+            {
+              "text": "They are the same",
+              "correct": false,
+              "why": "Silica is the biggest factor in viscosity, so they behave very differently."
+            }
+          ]
+        },
+        {
+          "q": "Which volcano is built mostly from thin, runny lava flows?",
+          "options": [
+            {
+              "text": "Mauna Loa, a shield volcano",
+              "correct": true,
+              "why": "Correct. Thousands of fluid basalt flows built its broad, gentle slopes."
+            },
+            {
+              "text": "Mount St. Helens, a composite volcano",
+              "correct": false,
+              "why": "Its steep cone is layers of lava and ash from stickier magma."
+            },
+            {
+              "text": "A lava dome",
+              "correct": false,
+              "why": "Domes form from lava too sticky to flow far."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Magma erupts because…",
+        "Silica matters because…",
+        "Speed matters because…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Volcanic Eruptions",
+      "publisher": "U.S. National Park Service",
+      "url": "https://www.nps.gov/subjects/volcanoes/volcanic-eruptions.htm",
+      "supports": "Magma forms by partial melting of the upper mantle, not the core, with no permanent melt pools; heat mostly from radioactive decay of uranium, thorium and potassium; magma rises buoyantly and can form magma chambers; water and CO2 are the most common volatiles, kept dissolved by the pressure of overlying rock and released as bubbles near the surface, propelling eruptions, like opening a soda; viscosity is resistance to flow ('thick and sticky' vs 'thin and runny'); silica chains tangle like spaghetti; igneous rocks are about 45–78% silica; high silica means high viscosity and explosive eruptions; Kilauea flow fronts move up to 6 mph; jam vs boiling water; slow ascent lets gas escape nonviolently, rapid ascent forces it out all at once, like a shaken can; Mount Rainier hasn't had a significant eruption for a thousand years but is considered active."
+    },
+    {
+      "title": "Principal Types of Volcanoes",
+      "publisher": "U.S. Geological Survey",
+      "url": "https://pubs.usgs.gov/gip/volc/types.html",
+      "supports": "In 1943 a cinder cone started growing on a farm near Parícutin, Mexico, rose to 1,200 feet, and in 9 years destroyed the town of San Juan; shield volcanoes are built of thousands of fluid basalt flows; Mauna Loa is the largest shield volcano, its top over 28,000 feet above the deep ocean floor; composite volcanoes are steep, layered cones including Mount St. Helens; lava domes form from lava too viscous to flow far."
+    }
+  ],
+  "video": {
+    "youtube_id": "LQwZwKS9RPs",
+    "title": "Volcanic eruption explained - Steven Anderson",
+    "channel": "TED-Ed",
+    "duration_sec": 334,
+    "start": 44,
+    "end": 311,
+    "why": "TED-Ed animates the tug-of-war between heavy rock and gassy magma, and what tips it into an eruption. Clipped to skip an intro with the wrong year."
+  }
+}

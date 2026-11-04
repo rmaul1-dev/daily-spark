@@ -1,0 +1,218 @@
+{
+  "id": "science-volcanoes-adult",
+  "topic": "science",
+  "subject": "volcanoes",
+  "level": "adult",
+  "title": "Effusive or Explosive: What Sets an Eruption's Violence",
+  "emoji": "🌋",
+  "summary": "Viscosity, volatile content, ascent rate and reservoir size together set how violent an eruption gets.",
+  "minutes": 8,
+  "date_added": "2026-11-04",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What physical process drives most explosive eruptions?",
+      "answer": "Decompression: as magma rises, falling pressure lets dissolved water and CO2 exsolve into bubbles, and the rapid expansion of that gas powers the eruption."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why do high-silica magmas tend to erupt explosively?",
+      "answer": "Silica tetrahedra polymerize into long, tangled chains that raise viscosity, so gas can't escape gradually and pressure builds until it fragments the magma."
+    },
+    {
+      "id": "k3",
+      "prompt": "Besides chemistry, what two factors limit how violent or large an eruption can be?",
+      "answer": "Ascent rate (slow ascent lets gas bleed off) and the size of the magma reservoir (small bodies can't feed big eruptions)."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🍯",
+      "title": "The 'runny' lava isn't runny",
+      "text": "Hawaiian basalt is the textbook example of fluid lava, yet the Park Service notes it is thousands of times more viscous than water. High-silica magmas can be many orders of magnitude thicker still. That spread in stickiness is a big part of why one volcano sends lava down its flanks while another fires ash 62,000 feet into the sky."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "Sunset Crater erupted about 0.12 cubic miles of material. Yellowstone's largest eruption, 2.1 million years ago, expelled nearly 600 cubic miles. Roughly how many times larger was Yellowstone's?",
+      "estimate": {
+        "min": 0,
+        "max": 10000,
+        "step": 100,
+        "unit": "×",
+        "answer": 5000
+      },
+      "reveal": "About 5,000 times (600 ÷ 0.12). Reservoir size caps eruption size: a small magma body simply can't feed a giant eruption.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "🌡️",
+      "title": "Magma is made, stored, then triggered",
+      "text": "Erupted magma isn't drawn from the core or from standing lakes of melt. It comes from partial melting of the upper mantle, heated mostly by decay of uranium, thorium and potassium. Being buoyant, it rises through diapirs and dikes and can stall in shallow chambers where it begins to crystallize into a crystal mush. An eruption can be triggered by injection of fresh magma or by overpressure from rising gas content.",
+      "why": {
+        "q": "Why does magma often stall in shallow chambers rather than rising straight to the surface?",
+        "a": "Chambers form where the magma's pressure matches the surrounding rock (neutral buoyancy), so the upward push largely goes away until something changes."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🫧",
+      "title": "Decompression drives the blast",
+      "text": "Magmas carry dissolved volatiles, mostly water and CO2. The overburden keeps them in solution; as magma ascends, pressure falls, they exsolve and form bubbles (vesiculation), and that expanding gas is a primary engine of eruptions. In silicic magmas, vesiculation can shatter the melt into ash. Redoubt's April 21, 1989 eruption threw a column to 62,000 feet.",
+      "example": "Same physics as opening a carbonated drink: drop the confining pressure and dissolved CO2 comes out of solution."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔗",
+      "title": "Silica sets viscosity",
+      "text": "Silica, about 45–78% of igneous rock by weight, forms tetrahedra that share oxygen atoms and link into chains. More silica, longer chains, more tangling, higher viscosity. Sodium, potassium and dissolved water partly offset this by disrupting chains. Low-viscosity basalt lets gas escape and tends toward effusive eruptions; viscous, gas-rich silicic magma traps it and tends toward explosive ones.",
+      "why": {
+        "q": "Why does viscosity matter for explosivity rather than just for flow?",
+        "a": "Gas escapes far more easily from a thin fluid; in a viscous one bubbles can't separate, so pressure accumulates until it releases violently."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⏱️",
+      "title": "Rate and reservoir size",
+      "text": "Ascent rate is the hidden variable: slow-rising magma can degas nonviolently, while fast ascent forces the gas out at once, like a shaken can. Reservoir size then caps the scale. Cinder cones like Sunset Crater tap small sources; Yellowstone's largest eruption expelled nearly 600 cubic miles.",
+      "example": "Read it like a risk model: chemistry sets the style, ascent rate sets the suddenness, and reservoir size bounds the tail."
+    },
+    {
+      "type": "idea",
+      "emoji": "📈",
+      "title": "A log scale for violence",
+      "text": "Plinian eruptions, the most powerful style, eject viscous magma explosively: Mount St. Helens on May 18, 1980 and Pinatubo in 1991 sent ash and gas tens of miles up. The Volcanic Explosivity Index is logarithmic from VEI 2 upward, with each step about ten times the ejecta. VEI 8 means at least 1,000 cubic kilometers.",
+      "example": "So 'one notch bigger' on the VEI is not a little worse; it is roughly an order of magnitude more material."
+    },
+    {
+      "type": "think",
+      "question": "Mount Rainier hasn't had a significant eruption in about a thousand years, yet it's classed as active. How should a city, an insurer, or a homeowner reason about a hazard that is rare, slow to warn on some timescales, and enormous in the tail?",
+      "nudges": [
+        "What would you monitor, and what would make you act?",
+        "Steelman the case for accepting the risk: what do people gain by living there?",
+        "How does a log scale change how you'd think about 'the worst case'?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Two magmas have equal gas content. Which change most raises the odds of an explosive eruption?",
+          "options": [
+            {
+              "text": "Higher silica and faster ascent",
+              "correct": true,
+              "why": "Yes. Higher viscosity traps gas, and fast ascent forces it out at once."
+            },
+            {
+              "text": "Lower silica and slower ascent",
+              "correct": false,
+              "why": "Both of those let gas escape gently, favoring effusive eruptions."
+            },
+            {
+              "text": "More sodium and potassium",
+              "correct": false,
+              "why": "Those disrupt silica chains and lower viscosity, if anything reducing explosivity."
+            },
+            {
+              "text": "A larger share of basalt",
+              "correct": false,
+              "why": "Basalt is low-silica and relatively fluid, so it tends toward effusive activity."
+            }
+          ]
+        },
+        {
+          "q": "An eruption moves from VEI 4 to VEI 6. Roughly how much more ejected material does that imply?",
+          "options": [
+            {
+              "text": "About 100 times",
+              "correct": true,
+              "why": "Right. Each step from VEI 2 up is about tenfold, so two steps is about 100x."
+            },
+            {
+              "text": "About 2 times",
+              "correct": false,
+              "why": "The scale is logarithmic, not linear: two steps is roughly 10 × 10."
+            },
+            {
+              "text": "About 1.5 times",
+              "correct": false,
+              "why": "That treats the scale as linear. Each step is about tenfold."
+            },
+            {
+              "text": "About 1,000 times",
+              "correct": false,
+              "why": "That would be three steps. Two steps is about 100x."
+            }
+          ]
+        },
+        {
+          "q": "What best explains why magma rises in the first place?",
+          "options": [
+            {
+              "text": "It is less dense than the surrounding rock",
+              "correct": true,
+              "why": "Correct. Buoyancy drives its ascent through diapirs and dikes."
+            },
+            {
+              "text": "It is pushed up directly from the core",
+              "correct": false,
+              "why": "Erupted magma forms by partial melting of the upper mantle, not in the core."
+            },
+            {
+              "text": "Groundwater pulls it upward",
+              "correct": false,
+              "why": "Buoyancy, not groundwater, drives ascent."
+            },
+            {
+              "text": "Earth's rotation flings it out",
+              "correct": false,
+              "why": "Rotation isn't the mechanism; density difference is."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Eruptions are driven by…",
+        "Whether it oozes or explodes depends on…",
+        "The scale of an eruption is limited by…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Volcanic Eruptions",
+      "publisher": "U.S. National Park Service",
+      "url": "https://www.nps.gov/subjects/volcanoes/volcanic-eruptions.htm",
+      "supports": "Magma forms by partial melting of the upper mantle, not the core, with no permanent melt pools; heat mainly from radioactive decay of uranium, thorium and potassium; buoyant rise via diapirs and dikes; shallow chambers at neutral buoyancy; crystal mush; triggers include injection of new magma and volatile overpressure; composition, viscosity, gas content, eruption rate and reservoir size control explosivity; silica 45–78% by weight, tetrahedra sharing oxygen form chains that tangle like spaghetti; sodium, potassium and water lower viscosity; basalt thousands of times more viscous than water, high-silica melts many orders of magnitude more; volatiles mainly water and CO2, held by overburden pressure and exsolving (vesiculation) near the surface, propelling eruptions like a carbonated drink; vesiculation can shatter silicic magma into ash; Redoubt April 21, 1989 column to 62,000 feet; slow ascent allows nonviolent degassing, rapid ascent forces gas out at once like a shaken can; Sunset Crater 0.12 cubic miles vs Yellowstone's largest eruption 2.1 million years ago at nearly 600 cubic miles; Mount Rainier considered active despite no significant eruption for a thousand years."
+    },
+    {
+      "title": "Types of Volcanic Eruptions",
+      "publisher": "U.S. Geological Survey",
+      "url": "https://pubs.usgs.gov/gip/volc/eruptions.html",
+      "supports": "Plinian eruptions are the most powerful and involve explosive ejection of relatively viscous lava; Mount St. Helens on 18 May 1980 and Pinatubo on 15 June 1991 sent ash and volcanic gas tens of miles into the air."
+    },
+    {
+      "title": "Volcanic Explosivity Index",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Volcanic_Explosivity_Index",
+      "supports": "The VEI scale is logarithmic from VEI-2 up, each step about a tenfold increase in ejecta; VEI 8 eruptions eject at least 1,000 cubic kilometers."
+    }
+  ],
+  "video": {
+    "youtube_id": "BMZbbewOLvU",
+    "title": "Volcanoes Explained: Crash Course Geology #13",
+    "channel": "CrashCourse",
+    "duration_sec": 658,
+    "start": 0,
+    "end": 638,
+    "why": "Crash Course on dissolved gas, silica and viscosity, the volcano shapes they build, plate settings and the VEI. Clipped before the credits."
+  }
+}

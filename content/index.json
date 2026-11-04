@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "topics": [
   {
    "id": "history",
@@ -425,6 +425,17 @@
     "kid": "money-how-banks-work-kid"
    },
    "dinner_question": "If you ran a bank for our town, who would you lend money to first, and how would you make sure people could still get their savings back?"
+  },
+  {
+   "date": "2026-11-12",
+   "topic": "science",
+   "title": "Volcanoes: why some ooze and others explode",
+   "packs": {
+    "adult": "science-volcanoes-adult",
+    "teen": "science-volcanoes-teen",
+    "kid": "science-volcanoes-kid"
+   },
+   "dinner_question": "If you were a scientist watching a volcano, what clue would make you say it is time to warn the town, and how sure would you need to be?"
   }
  ],
  "series": [
@@ -1069,6 +1080,45 @@
    "summary": "Charge separation, leaders and return strokes, and what thunder tells you about risk.",
    "minutes": 8,
    "date_added": "2026-10-27",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "science-volcanoes-kid",
+   "topic": "science",
+   "level": "kid",
+   "title": "Why Volcanoes Ooze or Explode",
+   "emoji": "🌋",
+   "subject": "volcanoes",
+   "summary": "Gas in melted rock is the push. Thick, sticky lava traps it and can blow up.",
+   "minutes": 6,
+   "date_added": "2026-11-04",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "science-volcanoes-teen",
+   "topic": "science",
+   "level": "teen",
+   "title": "Ooze or Explode? The Physics of Eruptions",
+   "emoji": "🌋",
+   "subject": "volcanoes",
+   "summary": "Dissolved gas, silica and speed decide whether a volcano pours lava or blasts ash.",
+   "minutes": 7,
+   "date_added": "2026-11-04",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "science-volcanoes-adult",
+   "topic": "science",
+   "level": "adult",
+   "title": "Effusive or Explosive: What Sets an Eruption's Violence",
+   "emoji": "🌋",
+   "subject": "volcanoes",
+   "summary": "Viscosity, volatile content, ascent rate and reservoir size together set how violent an eruption gets.",
+   "minutes": 8,
+   "date_added": "2026-11-04",
    "cards": 10,
    "keys_count": 3
   },

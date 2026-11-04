@@ -1,0 +1,242 @@
+{
+  "id": "science-volcanoes-kid",
+  "topic": "science",
+  "subject": "volcanoes",
+  "level": "kid",
+  "title": "Why Volcanoes Ooze or Explode",
+  "emoji": "🌋",
+  "summary": "Gas in melted rock is the push. Thick, sticky lava traps it and can blow up.",
+  "minutes": 6,
+  "date_added": "2026-11-04",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is the difference between magma and lava?",
+      "answer": "Magma is melted rock under the ground. When it comes out on top of the ground, we call it lava.",
+      "options": [
+        {
+          "text": "Magma is under the ground, and lava is on top",
+          "correct": true
+        },
+        {
+          "text": "Magma is hot, and lava is cold rock"
+        },
+        {
+          "text": "Magma is from space, and lava is from Earth"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "What pushes melted rock up and out of a volcano?",
+      "answer": "Gas mixed into the melted rock. Near the top, the gas makes bubbles that push, like a soda you open.",
+      "options": [
+        {
+          "text": "Gas in the melted rock makes bubbles that push",
+          "correct": true
+        },
+        {
+          "text": "Rain falls in and pushes it out"
+        },
+        {
+          "text": "Wind blows into the top of the mountain"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "Why does thick, sticky lava make bigger blasts?",
+      "answer": "Gas can't get out of thick lava easily. It gets trapped and builds up until it bursts out.",
+      "options": [
+        {
+          "text": "It traps gas until the gas bursts out",
+          "correct": true
+        },
+        {
+          "text": "It is colder, so it cracks"
+        },
+        {
+          "text": "It is heavier, so it falls faster"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🥤",
+      "title": "The soda trick",
+      "text": "Picture a can of soda. Open it slowly, and it just fizzes. Shake it hard first, and it sprays everywhere! Some volcanoes are like the slow can. Some are like the shaken one."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Which kind of lava do you think makes the biggest blasts?",
+      "options": [
+        {
+          "text": "Thin, runny lava"
+        },
+        {
+          "text": "Thick, sticky lava",
+          "correct": true
+        },
+        {
+          "text": "It does not matter"
+        }
+      ],
+      "reveal": "Thick, sticky lava! Gas can't get out of it easily, so the gas gets trapped and builds up.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "🔥",
+      "title": "Magma and lava",
+      "text": "Deep under the ground, some rock melts. Melted rock under the ground is called magma. It is lighter than the rock around it, so it rises. When it comes out on top, we call it lava.",
+      "example": "It is the same stuff with two names. The name depends on where it is.",
+      "why": {
+        "q": "Why does magma move up instead of staying put?",
+        "a": "It is lighter than the solid rock around it, so it rises, a bit like a bubble rising in water."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🫧",
+      "title": "Gas is the push",
+      "text": "Magma has gas mixed into it. Deep down, the heavy rock on top squeezes it and keeps the gas in. Near the top, the squeeze gets smaller. The gas makes bubbles, and the bubbles push the magma out.",
+      "example": "That is just like opening a soda. The bubbles show up when the cap comes off."
+    },
+    {
+      "type": "idea",
+      "emoji": "🍯",
+      "title": "Sticky lava traps gas",
+      "text": "Some lava is thin and runny. Gas slips out of it easily. Other lava is thick and sticky. Gas gets stuck inside it and builds up. Lots of trapped gas can make a big blast.",
+      "example": "Think of boiling water and cooking jam. Water just bubbles. Thick jam spits and pops, because the gas has a hard time getting out.",
+      "why": {
+        "q": "Why would trapped gas make a bigger blast than gas that slips out?",
+        "a": "Gas that slips out a little at a time lets off its push slowly. Trapped gas builds up and then escapes all at once."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🏝️",
+      "title": "Runny lava builds wide mountains",
+      "text": "Runny lava spreads out far before it cools. Flow after flow, it builds a wide mountain with gentle sides. Mauna Loa in Hawaii was built this way. From the deep sea floor to its top, it is over 28,000 feet tall!",
+      "example": "Lava in Hawaii can move up to 6 miles an hour."
+    },
+    {
+      "type": "idea",
+      "emoji": "🗻",
+      "title": "Sticky lava builds steep mountains",
+      "text": "Thicker lava can't spread far. Layers of lava and ash pile up close to the opening. That builds a tall, steep cone. Mount Fuji in Japan and Mount St. Helens in Washington are built like this."
+    },
+    {
+      "type": "think",
+      "question": "Scientists watch volcanoes very closely. If you were one of them, what clues would you look for to tell if a volcano might wake up?",
+      "nudges": [
+        "What might magma do to the ground when it moves up?",
+        "Would you look at the gas, the ground, or both?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What do we call melted rock that comes out on top of the ground?",
+          "options": [
+            {
+              "text": "Lava",
+              "correct": true,
+              "why": "Yes. Under the ground it is magma. On top it is lava."
+            },
+            {
+              "text": "Magma",
+              "correct": false,
+              "why": "Close! Magma is the name while it is still under the ground."
+            },
+            {
+              "text": "Ash",
+              "correct": false,
+              "why": "Ash is tiny bits of rock. Melted rock on top is lava."
+            }
+          ]
+        },
+        {
+          "q": "Why does gas come out of magma near the top?",
+          "options": [
+            {
+              "text": "The squeeze from the rock above gets smaller",
+              "correct": true,
+              "why": "Right. Less squeeze lets the gas make bubbles, like opening a soda."
+            },
+            {
+              "text": "The magma gets colder",
+              "correct": false,
+              "why": "Cooling isn't the main reason. Less squeeze lets the gas out."
+            },
+            {
+              "text": "Rain mixes in",
+              "correct": false,
+              "why": "The gas was already in the magma. Less squeeze lets it out."
+            }
+          ]
+        },
+        {
+          "q": "Which lava is most likely to blow up in a big blast?",
+          "options": [
+            {
+              "text": "Thick, sticky lava full of gas",
+              "correct": true,
+              "why": "Yes. Sticky lava traps gas until it bursts out."
+            },
+            {
+              "text": "Thin, runny lava",
+              "correct": false,
+              "why": "Gas slips out of runny lava more easily, so it usually flows."
+            },
+            {
+              "text": "Lava with no gas",
+              "correct": false,
+              "why": "Gas is the push. Without it there is not much blast."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Magma is…",
+        "The gas in it…",
+        "Sticky lava blows up more because…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Volcanic Eruptions",
+      "publisher": "U.S. National Park Service",
+      "url": "https://www.nps.gov/subjects/volcanoes/volcanic-eruptions.htm",
+      "supports": "Magma rises because it is lighter than the surrounding rock; pressure of the rock above keeps gases dissolved until magma nears the surface, where they form bubbles that propel eruptions, like opening a soda; gas escapes more easily from thin fluids than thick ones, like jam spattering versus boiling water; higher viscosity and more gas make more explosive eruptions; Kilauea lava flow fronts move up to 6 miles per hour."
+    },
+    {
+      "title": "Principal Types of Volcanoes",
+      "publisher": "U.S. Geological Survey",
+      "url": "https://pubs.usgs.gov/gip/volc/types.html",
+      "supports": "Shield volcanoes are built of thousands of fluid lava flows that spread widely into broad, gently sloping cones; Mauna Loa's top is over 28,000 feet above the deep ocean floor; composite volcanoes are steep cones of layered lava and ash, including Mount Fuji and Mount St. Helens."
+    },
+    {
+      "title": "What Is a Volcano?",
+      "publisher": "NASA Space Place",
+      "url": "https://spaceplace.nasa.gov/volcanoes2/en/",
+      "supports": "Melted rock is called magma underground and lava on the surface; eruptions can be explosive or calmer gentle flows."
+    }
+  ],
+  "video": {
+    "youtube_id": "K7Oq9_DU1Mc",
+    "title": "All About Volcanoes: How They Form, Eruptions & More!",
+    "channel": "SciShow Kids",
+    "duration_sec": 184,
+    "why": "Jessi and Squeaks show how magma becomes lava, how layers build a volcano, and why some lava shoots up like a fountain while other lava oozes like syrup."
+  }
+}
