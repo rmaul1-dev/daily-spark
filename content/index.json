@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "topics": [
   {
    "id": "history",
@@ -436,6 +436,17 @@
     "kid": "science-volcanoes-kid"
    },
    "dinner_question": "If you were a scientist watching a volcano, what clue would make you say it is time to warn the town, and how sure would you need to be?"
+  },
+  {
+   "date": "2026-11-13",
+   "topic": "space",
+   "title": "Why Mars is red, and why its sunsets are blue",
+   "packs": {
+    "adult": "space-red-mars-adult",
+    "teen": "space-red-mars-teen",
+    "kid": "space-red-mars-kid"
+   },
+   "dinner_question": "Mars's rust is a clue about what happened there long ago. What clue around our house tells a story about our family's past?"
   }
  ],
  "series": [
@@ -2043,6 +2054,45 @@
    "summary": "Why eclipses are rare and predictable, what they have taught science, and why total ones won't last forever.",
    "minutes": 8,
    "date_added": "2026-10-28",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "space-red-mars-kid",
+   "topic": "space",
+   "level": "kid",
+   "title": "The Rusty Red Planet",
+   "emoji": "🔴",
+   "subject": "red-mars",
+   "summary": "Mars is red because of rust. And its sunsets are a big surprise.",
+   "minutes": 6,
+   "date_added": "2026-11-05",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "space-red-mars-teen",
+   "topic": "space",
+   "level": "teen",
+   "title": "Why Mars Is Red: A Rust Mystery",
+   "emoji": "🔴",
+   "subject": "red-mars",
+   "summary": "Mars is red because of rust. In 2025, scientists found a clue about when and how it rusted.",
+   "minutes": 7,
+   "date_added": "2026-11-05",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "space-red-mars-adult",
+   "topic": "space",
+   "level": "adult",
+   "title": "Mars's Rust Has a Wet Past",
+   "emoji": "🔴",
+   "subject": "red-mars",
+   "summary": "Mars is red because of iron oxide, but which oxide it is rewrites the timeline of Martian water.",
+   "minutes": 8,
+   "date_added": "2026-11-05",
    "cards": 10,
    "keys_count": 3
   },

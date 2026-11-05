@@ -1,0 +1,247 @@
+{
+  "id": "space-red-mars-kid",
+  "topic": "space",
+  "subject": "red-mars",
+  "level": "kid",
+  "title": "The Rusty Red Planet",
+  "emoji": "🔴",
+  "summary": "Mars is red because of rust. And its sunsets are a big surprise.",
+  "minutes": 6,
+  "date_added": "2026-11-05",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why does Mars look red?",
+      "answer": "Its rocks and dust have iron in them. The iron has rusted, and rust is red-orange.",
+      "options": [
+        {
+          "text": "Its iron has rusted",
+          "correct": true
+        },
+        {
+          "text": "It is very hot",
+          "correct": false
+        },
+        {
+          "text": "It is close to the sun",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "How did red dust end up all over Mars?",
+      "answer": "Rusty rocks broke into tiny bits of dust over a very long time. Strong winds blew the dust all over the planet.",
+      "options": [
+        {
+          "text": "Winds blew it all over",
+          "correct": true
+        },
+        {
+          "text": "Rovers spread it around",
+          "correct": false
+        },
+        {
+          "text": "It fell from the sun",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What color does the sky near the setting sun turn on Mars?",
+      "answer": "Blue! The fine dust lets blue light through a bit better, and the blue stays near the sun.",
+      "options": [
+        {
+          "text": "Blue",
+          "correct": true
+        },
+        {
+          "text": "Bright red",
+          "correct": false
+        },
+        {
+          "text": "Green",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🔭",
+      "title": "A red dot in the sky",
+      "text": "On a clear night, you might spot a dot that looks orange-red. That dot is the planet Mars! People long ago called it the red one. So what makes a whole planet red?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Mars is the Red Planet. What color do you think the sky near the sun turns at sunset there?",
+      "options": [
+        {
+          "text": "Bright red"
+        },
+        {
+          "text": "Blue",
+          "correct": true
+        },
+        {
+          "text": "Green"
+        }
+      ],
+      "reveal": "Blue! The fine dust lets blue light through a bit better, so the sky near the setting sun glows blue.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "🚲",
+      "title": "Rust, like an old bike",
+      "text": "Mars rocks and dirt have lots of iron in them. Long ago, the iron mixed with water and air, and it rusted. Rust is a red-orange color. That is why Mars looks red.",
+      "example": "It is a lot like an old iron bike chain left out in the rain. Over time it turns rusty orange.",
+      "why": {
+        "q": "Why did the iron on Mars turn red?",
+        "a": "The iron in the rocks mixed with water, or with water and oxygen, and turned into rust. Rust is red."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🌬️",
+      "title": "Dust everywhere",
+      "text": "Over a very long time, the rusty rocks broke into tiny bits of dust. Strong winds blew that dust all over Mars. Big dust storms can cover much of the planet. Then it can take months for the dust to settle.",
+      "example": "From far away, all that dust makes Mars look mostly red."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎨",
+      "title": "Not just red",
+      "text": "Up close, Mars has lots of colors. There is brown, gold and tan too. But red dust floats in the air and covers the ground. In the daytime, the dust makes the sky look hazy and red.",
+      "example": "So the Red Planet is a little like a box of crayons with red dust sprinkled on top."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌅",
+      "title": "Blue sunsets!",
+      "text": "Here is a big surprise. You might think a red planet has red sunsets. But on Mars, the sky near the setting sun glows blue! The fine dust lets blue light through a bit better. The blue light stays close to the sun.",
+      "example": "Rovers on Mars have taken real photos of these blue sunsets."
+    },
+    {
+      "type": "idea",
+      "emoji": "💧",
+      "title": "A clue about water",
+      "text": "Long ago, Mars was wetter. It had rivers and lakes. Scientists think much of its rust formed back then. Today Mars is a cold, dry desert. So the red dust is like a clue from the past.",
+      "example": "It is like finding an old, rusty toy in your yard. The rust tells you it was once out in the rain."
+    },
+    {
+      "type": "think",
+      "question": "Mars's red dust tells a story about its past. What is something near you whose color tells a story about what happened to it?",
+      "nudges": [
+        "Think about a fence, a leaf, a banana or a pair of old sneakers.",
+        "What changed it? Water, sun, air or time?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What makes Mars look red?",
+          "options": [
+            {
+              "text": "Rusty iron in its rocks and dust",
+              "correct": true,
+              "why": "Yes! The iron rusted, and rust is red-orange."
+            },
+            {
+              "text": "Fire under the ground",
+              "correct": false,
+              "why": "Not quite. Mars is red because of rust, not fire."
+            },
+            {
+              "text": "Red plants",
+              "correct": false,
+              "why": "Mars has no known plants. The red is rust."
+            }
+          ]
+        },
+        {
+          "q": "How did red dust get all over Mars?",
+          "options": [
+            {
+              "text": "Strong winds blew it around",
+              "correct": true,
+              "why": "Right. Winds and big dust storms spread it over the planet."
+            },
+            {
+              "text": "Rain washed it everywhere",
+              "correct": false,
+              "why": "Mars is a dry desert today. Wind spreads the dust."
+            },
+            {
+              "text": "Rockets from Earth dropped it",
+              "correct": false,
+              "why": "No, the dust was there long before any rocket."
+            }
+          ]
+        },
+        {
+          "q": "What color is the sky near the sun at a Mars sunset?",
+          "options": [
+            {
+              "text": "Blue",
+              "correct": true,
+              "why": "Yes! The fine dust lets blue light through a bit better."
+            },
+            {
+              "text": "Bright red",
+              "correct": false,
+              "why": "That is a good guess for a red planet, but it is blue!"
+            },
+            {
+              "text": "Purple",
+              "correct": false,
+              "why": "Not quite. Rover photos show a blue glow."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Mars looks red because…",
+        "The red dust got everywhere because…",
+        "The big surprise is…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "eAj_f6JjOUo",
+    "title": "Why is Mars red?",
+    "channel": "Mystery Science",
+    "duration_sec": 293,
+    "start": 0,
+    "end": 187,
+    "why": "Doug from Mystery Science looks at real photos from the surface of Mars and explains how iron and rust make it red. Clipped to the main answer."
+  },
+  "sources": [
+    {
+      "title": "Mars Facts",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/mars/facts/",
+      "supports": "Mars looks red because iron minerals in its dirt rust; the surface is also brown, gold and tan; dust kicked into the air makes it look mostly red from far away; the sky looks hazy and red from dust; dust storms can cover much of the planet and take months to settle; Mars is a dusty, cold desert today; Egyptians called it \"the red one.\" Mars once had river valleys and lakebeds."
+    },
+    {
+      "title": "Have we been wrong about why Mars is red?",
+      "publisher": "European Space Agency (ESA)",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Have_we_been_wrong_about_why_Mars_is_red/",
+      "supports": "Mars is red because of rusted iron minerals; iron reacted with liquid water, or water and oxygen; the rusty material was broken down into dust and spread around the planet by winds; the 2025 study suggests Mars rusted early, when liquid water was more widespread."
+    },
+    {
+      "title": "What Do Sunrises and Sunsets Look Like on Mars?",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/solar-system/planets/mars/what-does-a-sunrise-sunset-look-like-on-mars/",
+      "supports": "Martian sunsets are bluish: fine dust lets blue light through a bit more efficiently and the blue stays near the sun; rover photos of Mars sunsets."
+    }
+  ]
+}

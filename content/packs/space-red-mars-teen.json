@@ -1,0 +1,221 @@
+{
+  "id": "space-red-mars-teen",
+  "topic": "space",
+  "subject": "red-mars",
+  "level": "teen",
+  "title": "Why Mars Is Red: A Rust Mystery",
+  "emoji": "🔴",
+  "summary": "Mars is red because of rust. In 2025, scientists found a clue about when and how it rusted.",
+  "minutes": 7,
+  "date_added": "2026-11-05",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What makes Mars look red from Earth?",
+      "answer": "Iron in its rocks and dust oxidized (rusted). Winds spread the fine rusty dust across the planet and into the air."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why does it matter which kind of rust is in Mars's dust?",
+      "answer": "Different iron oxides form in different conditions. Ferrihydrite forms quickly in cool water, so it points to rusting while Mars still had water."
+    },
+    {
+      "id": "k3",
+      "prompt": "How did scientists test what Mars's dust is made of without a sample?",
+      "answer": "They made replica dust in a lab and measured it the same way spacecraft measure Mars. Ferrihydrite mixed with basalt was the best match."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🕵️",
+      "title": "A planet-sized crime scene",
+      "text": "Mars is red because it rusted. Case closed? Not quite. Rust needs iron plus water or oxygen, and Mars today is a cold desert with very thin air. So when did it rust, and how? In 2025, a team of scientists said the old answer was probably wrong."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "How do you think most of Mars's red rust formed?",
+      "options": [
+        {
+          "text": "Slowly, from thin dry air over billions of years"
+        },
+        {
+          "text": "Quickly, in cool water long ago",
+          "correct": true
+        },
+        {
+          "text": "From meteorites full of rust"
+        }
+      ],
+      "reveal": "The 2025 study points to ferrihydrite, a rust that forms quickly in cool water, so Mars probably rusted while it still had water.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "⚗️",
+      "title": "Rust is chemistry",
+      "text": "Rust is iron that has oxidized: it reacted with water, or with water and oxygen. Mars's crust is rich in iron. Over time, that iron oxidized into red-orange iron oxides. Up close the surface is also brown, gold and tan, but the rust is what gives the planet its red tint.",
+      "example": "Same reaction as a bike left out all winter, just on a planet-wide scale."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌪️",
+      "title": "The dust does the painting",
+      "text": "Over billions of years, the rusty rock was ground down into dust, and winds spread it across the whole planet. Dust storms can cover much of Mars, and it can take months for the dust to settle. Dust hanging in the air even makes the daytime sky look hazy and red.",
+      "example": "Think of it as a global coat of paint, kept fresh by wind."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏜️",
+      "title": "The old answer: dry rust",
+      "text": "Spacecraft data had not shown any water locked inside the rust in Mars's dust. So scientists concluded it was hematite, a dry iron oxide. That fit a story where Mars rusted slowly through reactions with its thin air, over billions of years, after its wet period ended.",
+      "why": {
+        "q": "Why would \"no water in the rust\" point to a dry origin?",
+        "a": "If the iron oxide holds no water, the simplest explanation is that it formed without much water, by slow reactions with the atmosphere."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🧪",
+      "title": "The new answer: wet rust",
+      "text": "In 2025, researchers made replica Mars dust in a lab, ground to about 1/100th the width of a human hair. They measured it the same way orbiting spacecraft measure Mars. The best match was ferrihydrite, an iron oxide that contains water, mixed with basalt, a volcanic rock. Ferrihydrite forms quickly in cool water.",
+      "example": "They combined data from ESA's Mars Express and Trace Gas Orbiter with NASA orbiters and rovers like Curiosity and Opportunity.",
+      "why": {
+        "q": "Why does ferrihydrite change the timeline?",
+        "a": "It forms quickly in cool water, so it must have formed while Mars still had water on its surface. That means Mars rusted earlier than scientists thought."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🌅",
+      "title": "Bonus: blue sunsets",
+      "text": "On the Red Planet, the sky near the setting sun glows blue. The very fine dust lets blue light pass through slightly more efficiently, and blue light that scatters off the dust stays close to the sun's direction. Yellow and red light scatter all over the rest of the sky.",
+      "example": "Scientists use these sunset photos to figure out how high the dust reaches in Mars's atmosphere."
+    },
+    {
+      "type": "think",
+      "question": "The ferrihydrite result is the best match to the data, not yet a sample in a lab. What evidence would convince you, and what could still prove it wrong?",
+      "nudges": [
+        "Perseverance has already collected some dust samples that could someday come back to Earth.",
+        "Argue the other side: why might a lab match from far away be misleading?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Iron rusts when it reacts with…",
+          "options": [
+            {
+              "text": "Water, or water and oxygen",
+              "correct": true,
+              "why": "Right. That's oxidation, the same on Mars as on Earth."
+            },
+            {
+              "text": "Sunlight alone",
+              "correct": false,
+              "why": "Light alone doesn't rust iron; it takes water or oxygen."
+            },
+            {
+              "text": "Carbon dioxide only",
+              "correct": false,
+              "why": "Mars's air is mostly CO2, but rust forms from reactions with water or oxygen."
+            },
+            {
+              "text": "Cold temperatures",
+              "correct": false,
+              "why": "Cold alone doesn't make rust; it takes water or oxygen."
+            }
+          ]
+        },
+        {
+          "q": "Why did scientists originally think Mars's rust was hematite?",
+          "options": [
+            {
+              "text": "Spacecraft found no water in the rust",
+              "correct": true,
+              "why": "Yes. No water signature pointed to a dry iron oxide."
+            },
+            {
+              "text": "A rover brought a sample home",
+              "correct": false,
+              "why": "No Mars sample has been returned to Earth yet."
+            },
+            {
+              "text": "Hematite is the reddest mineral",
+              "correct": false,
+              "why": "Color alone wasn't the reason; the missing water signature was."
+            },
+            {
+              "text": "Mars has always been dry",
+              "correct": false,
+              "why": "Mars had a wet past; the question was when the rust formed."
+            }
+          ]
+        },
+        {
+          "q": "A mineral typically forms quickly in cool water. You find lots of it in a planet's dust. What's the best conclusion?",
+          "options": [
+            {
+              "text": "Water was present when it formed",
+              "correct": true,
+              "why": "Exactly. That is why ferrihydrite points to a wetter early Mars."
+            },
+            {
+              "text": "The planet has oceans today",
+              "correct": false,
+              "why": "The mineral can survive long after the water is gone, like it has on Mars."
+            },
+            {
+              "text": "The dust came from another planet",
+              "correct": false,
+              "why": "Nothing here suggests that; it formed on Mars."
+            },
+            {
+              "text": "The planet was always hot",
+              "correct": false,
+              "why": "The clue is cool water, not heat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Mars is red because…",
+        "Scientists used to think…",
+        "The 2025 study changed that because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "CVIeZuNRxks",
+    "title": "NASA Spotlite: Why is Mars Red?",
+    "channel": "NASA eClips",
+    "duration_sec": 150,
+    "why": "A quick NASA eClips explainer that busts the \"it's red because it's hot\" myth and shows a simple rusting experiment. It covers the basics; the pack adds the 2025 twist."
+  },
+  "sources": [
+    {
+      "title": "Mars Facts",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/mars/facts/",
+      "supports": "Mars is red because iron minerals oxidize (rust); the surface is also brown, gold and tan; dust lifted into the atmosphere makes it look red from afar and the sky hazy and red; dust storms can cover much of the planet and take months to settle; Mars is a cold desert with a very thin atmosphere today."
+    },
+    {
+      "title": "Have we been wrong about why Mars is red?",
+      "publisher": "European Space Agency (ESA)",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Have_we_been_wrong_about_why_Mars_is_red/",
+      "supports": "Rust forms when iron reacts with liquid water, or water and oxygen; rusty material was broken into dust and spread by winds; earlier studies found no water in the dust's iron oxide and concluded hematite formed in dry conditions over billions of years after the wet period; the 2025 study made replica dust about 1/100th of a human hair, analyzed it like spacecraft do, and found ferrihydrite mixed with basalt fit best; ferrihydrite contains water and forms quickly in cool water, so Mars rusted earlier than thought; data from Mars Express, TGO, MRO, Curiosity, Pathfinder and Opportunity; Perseverance samples include dust."
+    },
+    {
+      "title": "What Do Sunrises and Sunsets Look Like on Mars?",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/solar-system/planets/mars/what-does-a-sunrise-sunset-look-like-on-mars/",
+      "supports": "Fine dust lets blue light penetrate more efficiently; scattered blue light stays near the sun while yellow and red light scatter across the sky; sunset images help scientists find how high the dust extends."
+    }
+  ]
+}

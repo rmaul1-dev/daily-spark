@@ -1,0 +1,208 @@
+{
+  "id": "space-red-mars-adult",
+  "topic": "space",
+  "subject": "red-mars",
+  "level": "adult",
+  "title": "Mars's Rust Has a Wet Past",
+  "emoji": "🔴",
+  "summary": "Mars is red because of iron oxide, but which oxide it is rewrites the timeline of Martian water.",
+  "minutes": 8,
+  "date_added": "2026-11-05",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why does the specific iron oxide in Martian dust matter, not just the fact that it's rust?",
+      "answer": "Each iron oxide forms under particular conditions, so the mineral records the environment. Ferrihydrite implies cool liquid water; anhydrous hematite implied slow dry oxidation."
+    },
+    {
+      "id": "k2",
+      "prompt": "What did the 2025 ferrihydrite study actually show, and how strong is that evidence?",
+      "answer": "Lab replica dust measured like spacecraft data matched ferrihydrite plus basalt (and sulfate) best. It is a strong spectral inference, but returned samples are needed to measure it directly."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why do Martian sunsets look blue?",
+      "answer": "Micron-scale dust lets blue light through slightly more efficiently and scatters it close to the sun's direction, while red and yellow scatter across the sky."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧭",
+      "title": "The color is the easy part",
+      "text": "Everyone knows Mars is red because it rusted. The hard question is when. Rust needs water or oxygen, and Mars today is a cold, hyper-arid desert under a thin, mostly CO2 atmosphere. For years the leading answer was slow, dry rusting over billions of years. A 2025 study argues the rust is far older and formed in water."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "After the Sun sets on Mars, how long can a faint twilight glow stay visible?",
+      "estimate": {
+        "min": 0,
+        "max": 180,
+        "step": 10,
+        "unit": "minutes",
+        "answer": 120
+      },
+      "reveal": "Up to about two hours, fading as it goes, because high-altitude dust scatters sunlight around to the night side.",
+      "reveal_after": 5
+    },
+    {
+      "type": "idea",
+      "emoji": "🎨",
+      "title": "What \"red\" actually is",
+      "text": "The red cast comes from oxidized iron, and what we see is mostly the dust. Over billions of years, rusty material was broken down into fine dust and spread around the whole planet by winds, a process that continues today. In ordinary daylight that rusty dust color dominates the view, so the planet's color is set by its mobile surface layer.",
+      "example": "That is why a single mineral question about the dust says something about the whole planet's history."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧾",
+      "title": "The mineral is the record",
+      "text": "Iron oxides come in many forms, and which one forms depends on conditions: water, temperature, time. Earlier spacecraft analyses found no water bound in the dust's iron oxide, so researchers inferred hematite, an anhydrous oxide, formed by slow reactions with the atmosphere long after Mars's early wet period. That reading implied continuous dry oxidation as the main painter.",
+      "why": {
+        "q": "Why is the rust question tied to habitability?",
+        "a": "How the rust formed reveals the environment at the time. Rust made in liquid water implies conditions that matter for whether Mars was ever habitable."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🔬",
+      "title": "The 2025 result",
+      "text": "Valantinas and colleagues ground replica dust to about 1/100th of a hair's width and measured it with the same techniques spacecraft use. A hyperfine mix of poorly crystalline ferrihydrite (Fe5O8H·nH2O), basalt and sulfate best matched orbital and rover data from Mars Express, TGO, MRO, Curiosity, Pathfinder and Opportunity. In a 40-day simulation of Martian conditions, the ferrihydrite lost some adsorbed water but kept its structure.",
+      "example": "Using TGO's views of the same ground under different lighting and angles helped separate particle size from composition, which was essential for making realistic replica dust."
+    },
+    {
+      "type": "idea",
+      "emoji": "⏳",
+      "title": "Rewriting the timeline",
+      "text": "Ferrihydrite forms quickly in cool water, so its dominance implies a geologically swift wet episode, not slow dry weathering. The authors place it in a cold, wet, oxidizing period late in early Mars, followed by a hyper-arid era in which wind eroded and redistributed the dust. Caveat: this is a best spectral fit. Perseverance has cached dust, and only lab analysis of returned samples can measure how much ferrihydrite is really there.",
+      "why": {
+        "q": "Why does a mineral's formation speed matter for the story?",
+        "a": "A mineral that forms fast in water points to a short burst of wet activity, which contradicts a model of continuous, slow dry oxidation."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🌅",
+      "title": "Blue sunsets, same dust",
+      "text": "The same dust gives Mars blue sunsets. Its fine particles let blue light penetrate slightly more efficiently and scatter it close to the Sun's direction, while yellow and red scatter across the sky. Near the setting Sun that blue glow becomes prominent, and high-altitude dust stretches twilight to as long as two hours.",
+      "example": "Rover sunset imaging is also a measurement: it tells scientists how high the dust extends."
+    },
+    {
+      "type": "think",
+      "question": "The ferrihydrite claim rests on a lab analog matched to remote spectra. Steelman the hematite camp: what could make a good spectral match misleading, and what result from returned samples would change your mind either way?",
+      "nudges": [
+        "Consider grain size, mixtures and lighting, all of which shift spectra.",
+        "What would a sample showing mostly hematite, or mostly ferrihydrite, imply for Mars's water history?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Why did the earlier consensus favor hematite?",
+          "options": [
+            {
+              "text": "Spacecraft found no bound-water signature in the dust's iron oxide",
+              "correct": true,
+              "why": "Right. No water signature pointed to an anhydrous oxide formed by dry oxidation."
+            },
+            {
+              "text": "Rovers measured hematite in returned samples",
+              "correct": false,
+              "why": "No Martian samples have been returned to Earth yet."
+            },
+            {
+              "text": "Hematite is the only red iron oxide",
+              "correct": false,
+              "why": "Not the reason. The case rested on the missing water signature, not on color alone."
+            },
+            {
+              "text": "Mars never had liquid water",
+              "correct": false,
+              "why": "Mars's wet past was accepted; the debate was about when the dust rusted."
+            }
+          ]
+        },
+        {
+          "q": "Which finding most directly supports an earlier, wetter origin for the rust?",
+          "options": [
+            {
+              "text": "Ferrihydrite best fits the data and forms quickly in cool water",
+              "correct": true,
+              "why": "Yes. Its formation conditions require water, so it dates the rusting to when water was present."
+            },
+            {
+              "text": "The dust is very fine-grained",
+              "correct": false,
+              "why": "Grain size mattered for the lab match but doesn't date the rust."
+            },
+            {
+              "text": "Dust storms can cover the planet",
+              "correct": false,
+              "why": "That explains distribution, not origin."
+            },
+            {
+              "text": "Martian sunsets are blue",
+              "correct": false,
+              "why": "That is an optical effect of dust size, not chemistry."
+            }
+          ]
+        },
+        {
+          "q": "What is the strongest remaining limitation of the ferrihydrite conclusion?",
+          "options": [
+            {
+              "text": "It's a spectral best fit; direct lab measurement awaits returned samples",
+              "correct": true,
+              "why": "Exactly. The authors and ESA both point to returned samples as the decisive test."
+            },
+            {
+              "text": "Ferrihydrite breaks down instantly on Mars",
+              "correct": false,
+              "why": "Their 40-day simulation found it kept its structure under Martian conditions."
+            },
+            {
+              "text": "Only one spacecraft's data was used",
+              "correct": false,
+              "why": "The study combined data from several orbiters and rovers."
+            },
+            {
+              "text": "Ferrihydrite contains no iron",
+              "correct": false,
+              "why": "It is an iron oxide-hydroxide."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Mars is red because…",
+        "The kind of rust matters because…",
+        "What would settle it is…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Have we been wrong about why Mars is red?",
+      "publisher": "European Space Agency (ESA)",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Have_we_been_wrong_about_why_Mars_is_red/",
+      "supports": "Red color due to rusted iron minerals; over billions of years rusty material was broken down into dust and spread by winds, a process that continues today; rusted iron minerals in the dust, broken down and spread by winds; earlier studies found no water in the dust's iron oxide and concluded hematite formed under dry conditions over billions of years after the wet period; replica dust ground to 1/100th of a human hair and analyzed like spacecraft data; ferrihydrite mixed with basalt fit best; ferrihydrite contains water and forms quickly in cool water, so Mars rusted earlier; TGO's varied illumination angles helped separate particle size from composition; data from Mars Express, TGO, MRO, Curiosity, Pathfinder, Opportunity; Perseverance's cached samples include dust; returned samples needed to measure ferrihydrite; link to habitability."
+    },
+    {
+      "title": "Detection of ferrihydrite in Martian red dust records ancient cold and wet conditions on Mars",
+      "publisher": "Nature Communications (Valantinas et al., 2025)",
+      "url": "https://www.nature.com/articles/s41467-025-56970-z",
+      "supports": "Ferrihydrite (Fe5O8H·nH2O), poorly crystalline, is the dominant iron oxide phase; a hyperfine mixture of ferrihydrite, basalt and sulfate best matches; prior studies attributed the color to anhydrous hematite; 40-day exposure to simulated Martian conditions removed adsorbed water but no phase change; formation during a cold, wet, oxidative period on early Mars and was likely geologically swift; challenges continuous dry oxidation models; later hyper-arid era with wind erosion and global redistribution."
+    },
+    {
+      "title": "What Do Sunrises and Sunsets Look Like on Mars?",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/solar-system/planets/mars/what-does-a-sunrise-sunset-look-like-on-mars/",
+      "supports": "Fine dust lets blue light penetrate more efficiently and scattered blue stays near the sun, while yellow and red scatter across the sky; normal daylight makes the rusty dust color prominent; twilight glow stays visible, increasingly fainter, for up to two hours before sunrise or after sunset, due to high-altitude dust; sunset images show how high dust extends."
+    }
+  ]
+}
