@@ -1,0 +1,239 @@
+{
+  "id": "body-eyes-kid",
+  "topic": "body",
+  "subject": "eyes",
+  "level": "kid",
+  "title": "How Eyes Turn Light into Sight",
+  "emoji": "👁️",
+  "summary": "Light bends through the cornea and lens, hits rods and cones in the retina, and rides the optic nerve to your brain.",
+  "minutes": 6,
+  "date_added": "2026-11-06",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What do the cornea and lens do to light?",
+      "answer": "They bend, or focus, light so it lands sharply on the retina at the back of the eye.",
+      "options": [
+        {
+          "text": "They bend light so it lands sharply on the retina",
+          "correct": true
+        },
+        {
+          "text": "They turn light into sound"
+        },
+        {
+          "text": "They store light for later"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "What is the big difference between rods and cones?",
+      "answer": "Rods help you see shapes in dim light but not color. Cones need more light and sense color.",
+      "options": [
+        {
+          "text": "Rods work in dim light; cones sense color in brighter light",
+          "correct": true
+        },
+        {
+          "text": "Rods see color; cones only see in the dark"
+        },
+        {
+          "text": "Rods and cones do the exact same job"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "Where do the eye's electrical signals go next?",
+      "answer": "They travel through the optic nerve to the brain, which turns them into the pictures you see.",
+      "options": [
+        {
+          "text": "Through the optic nerve to the brain",
+          "correct": true
+        },
+        {
+          "text": "Straight out through the pupil"
+        },
+        {
+          "text": "Into the stomach"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🔦",
+      "title": "No light, no sight",
+      "text": "Close your eyes in a dark room. You see almost nothing. Your eyes do not make pictures alone. They catch light that bounces off things. Then they send that pattern to your brain."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Each eye has about 120 million rods. About how many color-sensing cones do you think it has?",
+      "options": [
+        {
+          "text": "About the same — 120 million"
+        },
+        {
+          "text": "About 7 million",
+          "correct": true
+        },
+        {
+          "text": "Only about 100"
+        }
+      ],
+      "reveal": "About 7 million cones — far fewer than rods. Cones need more light, but they are the ones that sense color.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "🪟",
+      "title": "A clear window and a lens",
+      "text": "Light first hits the cornea (KOR-nee-uh), a clear dome at the front of the eye. The cornea bends the light. Next, light passes the pupil, the dark opening in the colored iris. Then the clear lens bends the light again so it lands on the back of the eye.",
+      "example": "The iris makes the pupil smaller in bright light and bigger in dim light, so the right amount of light gets in.",
+      "why": {
+        "q": "Why does the eye need both a cornea and a lens?",
+        "a": "Together they focus light correctly on the retina, so what you see looks sharp instead of blurry."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🎞️",
+      "title": "The retina is the screen",
+      "text": "The retina (REH-tin-uh) lines the back of the eye. It is thin and sensitive to light. Special cells there, called photoreceptors, turn light into electrical signals. Your brain needs those signals to see.",
+      "example": "Think of a movie screen. The lens aims the light. The retina is where the picture starts."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌙",
+      "title": "Rods for night, cones for color",
+      "text": "Each eye has about 120 million rods and about 7 million cones. Rods see shapes in black, white and gray. They work when it is very dark. Cones sense color, but they need more light. Three kinds of cones — for red, green and blue — work together so you see many colors.",
+      "example": "In a dark hallway you may see a shape move but not tell if a shirt is red or blue. That is rods at work.",
+      "examples_by_interest": {
+        "soccer": "Say you play soccer at dusk. Rods help you track the ball's shape as light fades, while cones struggle to show jersey colors.",
+        "art": "Say you paint at a sunny window. Cones pick up reds, greens and blues so you can mix millions of shades."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📞",
+      "title": "A cable to the brain",
+      "text": "The optic nerve is a thick cable of more than 1 million nerve fibers. It carries signals from the retina to the brain. The brain turns those signals into the pictures you see. It even flips the upside-down pattern from the retina.",
+      "why": {
+        "q": "Why do we say we \"see with our brain\"?",
+        "a": "The eyes collect light and send signals, but the brain builds the picture you notice — shapes, color, depth and meaning."
+      }
+    },
+    {
+      "type": "think",
+      "question": "If you had only rods and no cones, what would the world look like? When would that still help you?",
+      "nudges": [
+        "Think about night and day.",
+        "What can rods do that cones cannot?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What is the cornea's main job?",
+          "options": [
+            {
+              "text": "Bending light to help the eye focus",
+              "correct": true,
+              "why": "Yes! The clear dome bends light so things look sharp."
+            },
+            {
+              "text": "Making tears",
+              "correct": false,
+              "why": "Tears come from glands near the eye. The cornea is the clear front that bends light."
+            },
+            {
+              "text": "Carrying signals to the brain",
+              "correct": false,
+              "why": "That is the optic nerve's job. The cornea bends light at the front."
+            }
+          ]
+        },
+        {
+          "q": "Which cells help most when it is almost dark?",
+          "options": [
+            {
+              "text": "Rods",
+              "correct": true,
+              "why": "Right. Rods are super-sensitive and work in dim light."
+            },
+            {
+              "text": "Cones",
+              "correct": false,
+              "why": "Cones need more light and are best for color in brighter light."
+            },
+            {
+              "text": "Only the iris",
+              "correct": false,
+              "why": "The iris controls the pupil's size, but rods are the cells that sense dim light."
+            }
+          ]
+        },
+        {
+          "q": "What does the optic nerve do?",
+          "options": [
+            {
+              "text": "Carries visual messages from the retina to the brain",
+              "correct": true,
+              "why": "Yes — it is like a cable with more than a million fibers."
+            },
+            {
+              "text": "Focuses light like a camera lens",
+              "correct": false,
+              "why": "Focusing is the cornea and lens. The optic nerve carries signals."
+            },
+            {
+              "text": "Changes the color of the iris",
+              "correct": false,
+              "why": "Iris color is separate. The optic nerve sends messages to the brain."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "My eyes need light because…",
+        "Rods and cones are different because…",
+        "The optic nerve's job is…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "TY1giZgddAs",
+    "title": "The Visual System: How Your Eyes Work",
+    "channel": "National Eye Institute, NIH",
+    "duration_sec": 140,
+    "why": "A short NEI tour from cornea and pupil to retina and brain, including why vision depends on your brain as much as your eyes."
+  },
+  "sources": [
+    {
+      "title": "How the Eyes Work",
+      "publisher": "National Eye Institute (NIH)",
+      "url": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work",
+      "supports": "Light passes through the cornea which bends it to help focus; pupil lets light in; iris controls how much light the pupil lets in; lens works with cornea to focus light on the retina; photoreceptors turn light into electrical signals; signals travel through the optic nerve to the brain which turns them into images."
+    },
+    {
+      "title": "About the Eye",
+      "publisher": "National Eye Institute (NIH)",
+      "url": "https://www.nei.nih.gov/learn-about-eye-health/nei-for-kids/about-eye",
+      "supports": "Cornea is the clear dome that helps focus light; iris regulates light through the pupil; lens helps focus on far and near objects; retina is light-sensitive tissue that sends impulses through the optic nerve; optic nerve is a bundle of more than 1 million nerve fibers; vision depends on the brain as much as the eyes."
+    },
+    {
+      "title": "Your Eyes (for Kids)",
+      "publisher": "Nemours KidsHealth",
+      "url": "https://kidshealth.org/en/kids/eyes.html",
+      "supports": "Cornea helps the eye focus; iris controls light through the pupil; lens focuses light on the retina and changes shape for near vs far; retina changes light into nerve signals; about 120 million rods and 7 million cones per eye; rods see black/white/gray shapes and work in very dark light; cones sense color and need more light; three cone types for red, green, blue that combine for millions of colors; optic nerve carries messages to the brain."
+    }
+  ]
+}

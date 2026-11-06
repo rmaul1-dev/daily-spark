@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "topics": [
   {
    "id": "history",
@@ -447,6 +447,17 @@
     "kid": "space-red-mars-kid"
    },
    "dinner_question": "Mars's rust is a clue about what happened there long ago. What clue around our house tells a story about our family's past?"
+  },
+  {
+   "date": "2026-11-14",
+   "topic": "body",
+   "title": "How your eyes turn light into sight",
+   "packs": {
+    "adult": "body-eyes-adult",
+    "teen": "body-eyes-teen",
+    "kid": "body-eyes-kid"
+   },
+   "dinner_question": "If you could only keep night vision or full color vision for a week, which would you choose, and what would be hardest about that choice?"
   }
  ],
  "series": [
@@ -2288,6 +2299,45 @@
    "summary": "Bone is continuously resorbed and rebuilt. Why youth is the building window, load is the signal, and fractures heal without a scar.",
    "minutes": 8,
    "date_added": "2026-10-31",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "body-eyes-kid",
+   "topic": "body",
+   "level": "kid",
+   "title": "How Eyes Turn Light into Sight",
+   "emoji": "👁️",
+   "subject": "eyes",
+   "summary": "Light bends through the cornea and lens, hits rods and cones in the retina, and rides the optic nerve to your brain.",
+   "minutes": 6,
+   "date_added": "2026-11-06",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "body-eyes-teen",
+   "topic": "body",
+   "level": "teen",
+   "title": "Light In, Sight Out",
+   "emoji": "👁️",
+   "subject": "eyes",
+   "summary": "Cornea and lens focus photons onto rods and cones; the optic nerve ships the code to your brain — and color vision trades off against night vision.",
+   "minutes": 7,
+   "date_added": "2026-11-06",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "body-eyes-adult",
+   "topic": "body",
+   "level": "adult",
+   "title": "From Photon to Perception",
+   "emoji": "👁️",
+   "subject": "eyes",
+   "summary": "How cornea and lens focus light, rods and cones transduce it, and why night vision and color vision pull the retina in opposite directions.",
+   "minutes": 8,
+   "date_added": "2026-11-06",
    "cards": 9,
    "keys_count": 3
   },

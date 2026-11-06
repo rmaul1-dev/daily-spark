@@ -1,0 +1,215 @@
+{
+  "id": "body-eyes-adult",
+  "topic": "body",
+  "subject": "eyes",
+  "level": "adult",
+  "title": "From Photon to Perception",
+  "emoji": "👁️",
+  "summary": "How cornea and lens focus light, rods and cones transduce it, and why night vision and color vision pull the retina in opposite directions.",
+  "minutes": 8,
+  "date_added": "2026-11-06",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What optical jobs do the cornea and lens share, and how do they differ?",
+      "answer": "Both refract light onto the retina. The cornea provides the first major bend; the adjustable lens changes shape to focus near versus far."
+    },
+    {
+      "id": "k2",
+      "prompt": "What is the core trade-off between rods and cones?",
+      "answer": "Rods are extremely light-sensitive (even a single photon) and dominate dim vision but not color; cones need more light, support color via three pigments, and give higher acuity."
+    },
+    {
+      "id": "k3",
+      "prompt": "Where does \"seeing\" actually happen after phototransduction?",
+      "answer": "Photoreceptors convert light to electrical signals that travel the optic nerve to the brain; the brain constructs the perceived image from that code."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "⚛️",
+      "title": "Sight is a translation problem",
+      "text": "Photons are not pictures. Vision works only because specialized cells turn light energy into electrical signals the nervous system can route and interpret. Cut the light, and there is nothing left to translate."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "A human retina has on the order of 120 million rods and 6 million cones. Roughly what percent of those classic photoreceptors are cones?",
+      "estimate": {
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "unit": "%",
+        "answer": 5
+      },
+      "reveal": "About 5%. Cones are the minority — which is why dim-light vision leans so hard on rods.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "🔍",
+      "title": "Refraction before transduction",
+      "text": "Light first meets the cornea, a clear dome that bends rays to help the eye focus. The iris meters intensity by changing pupil size. The lens then works with the cornea to focus light on the retina, changing curvature for near versus distant objects.",
+      "example": "Blurry vision often means the focal plane misses the retina; corrective lenses shift where that plane lands.",
+      "why": {
+        "q": "Why put so much optical work in front of the photoreceptors?",
+        "a": "Photoreceptors only report light that hits them. Without precise focusing, the retinal mosaic receives a smeared pattern and acuity collapses."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📶",
+      "title": "Phototransduction",
+      "text": "Photoreceptors in the retina convert absorbed photons into changes in membrane potential and neurotransmitter release. Those electrical signals — not the photons themselves — leave through retinal circuits and the optic nerve toward visual areas of the brain.",
+      "example": "NEI's short version: photoreceptors turn light into electrical signals; the brain turns those signals into images."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Sensitivity versus color",
+      "text": "Rods mediate scotopic (dim) vision; cones mediate photopic (bright) vision and color. Humans have roughly 120 million rods and about 6 million cones per retina — only ~5% cones. Rods can respond to a single photon and pool onto shared pathways, boosting sensitivity at the cost of spatial detail. Cones are less sensitive, faster, concentrated for high acuity, and use three opsins (roughly long/medium/short wavelength) so relative responses yield color.",
+      "example": "As light falls at dusk, cone-driven color fades while rod-driven shape persists — the same trade-off you feel walking into a dark garage.",
+      "examples_by_interest": {
+        "business": "Say you design a store's lighting: bright enough for cone color and detail on products, without glare that forces pupils shut.",
+        "nature": "Say you watch birds at dawn: silhouettes appear before feather colors do, because rods come online earlier than cones."
+      },
+      "why": {
+        "q": "Why didn't evolution just make every photoreceptor as sensitive as a rod and as colorful as a cone?",
+        "a": "The designs conflict: extreme sensitivity and signal pooling favor night vision; separate pigments, less pooling, and higher thresholds favor color and acuity in daylight."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🧵",
+      "title": "The optic nerve is a bottleneck cable",
+      "text": "Ganglion-cell axons form the optic nerve, the cable that carries retinal output to the brain. There are no photoreceptors where that nerve leaves the eye — a blind spot — yet perception usually fills it in. The brain builds depth, recognition and a stable scene from two slightly different retinal maps.",
+      "example": "You \"see\" with eyes plus cortex: damage or disconnect along the pathway can wipe out vision even if the optics still focus light."
+    },
+    {
+      "type": "think",
+      "question": "If you could reallocate photoreceptors, would you trade some rods for more cones (or the reverse) for your daily life — and what specific tasks would get better or worse?",
+      "nudges": [
+        "List one night task and one color/detail task.",
+        "Where does pooling for sensitivity hurt you?",
+        "What would a more cone-heavy retina cost after sunset?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Which statement best matches the focusing stage of vision?",
+          "options": [
+            {
+              "text": "Cornea and lens refract light so it is focused on the retina",
+              "correct": true,
+              "why": "Correct. Iris/pupil meter intensity; photoreceptors come after focus."
+            },
+            {
+              "text": "Rods and cones bend light before it reaches the lens",
+              "correct": false,
+              "why": "Photoreceptors detect light; they do not do the eye's refractive focusing."
+            },
+            {
+              "text": "The optic nerve focuses photons onto the cornea",
+              "correct": false,
+              "why": "The optic nerve carries electrical signals outward, after transduction."
+            },
+            {
+              "text": "Color is focused by the iris alone",
+              "correct": false,
+              "why": "The iris controls pupil size; wavelength discrimination is a cone/brain job."
+            }
+          ]
+        },
+        {
+          "q": "Why is rod-dominated circuitry good for night vision but weak for fine color detail?",
+          "options": [
+            {
+              "text": "Rods are highly sensitive and often pool onto shared pathways, sacrificing spatial/color resolution",
+              "correct": true,
+              "why": "Yes — sensitivity and pooling help in dim light; cones favor detail and color when light is plentiful."
+            },
+            {
+              "text": "Rods contain three color opsins while cones have none",
+              "correct": false,
+              "why": "Opposite: cones have multiple opsins for color; rods support achromatic dim vision."
+            },
+            {
+              "text": "Rods sit only in the fovea",
+              "correct": false,
+              "why": "The fovea is cone-rich; rods dominate outside it."
+            },
+            {
+              "text": "Rods cannot respond until thousands of photons arrive",
+              "correct": false,
+              "why": "Rods can respond to a single photon; cones need many more."
+            }
+          ]
+        },
+        {
+          "q": "After photoreceptors convert light, what is the next essential step for conscious sight?",
+          "options": [
+            {
+              "text": "Signals travel via the optic nerve for the brain to interpret as images",
+              "correct": true,
+              "why": "Right. Optics and transduction are upstream of perception."
+            },
+            {
+              "text": "Photons continue through the optic nerve into visual cortex",
+              "correct": false,
+              "why": "Photons stop at the retina; the nerve carries electrical signals."
+            },
+            {
+              "text": "The cornea stores the image for later replay",
+              "correct": false,
+              "why": "The cornea is refractive tissue, not a memory store."
+            },
+            {
+              "text": "The pupil switches from rods to cones mechanically",
+              "correct": false,
+              "why": "Pupil size changes light level; rod/cone contributions shift with intensity, not a mechanical swap."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Focusing light onto the retina matters because…",
+        "Rods and cones pull in different directions because…",
+        "Calling sight a brain problem means…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "o0DYP-u1rNM",
+    "title": "Vision: Crash Course Anatomy & Physiology #18",
+    "channel": "CrashCourse",
+    "duration_sec": 579,
+    "why": "Hank walks the optical path and the rod/cone wiring differences that explain sensitivity vs detail — useful context for the pack's trade-off."
+  },
+  "sources": [
+    {
+      "title": "How the Eyes Work",
+      "publisher": "National Eye Institute (NIH)",
+      "url": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work",
+      "supports": "Cornea bends light to help focus; iris controls pupil; lens and cornea focus light on retina; photoreceptors convert light to electrical signals; optic nerve to brain; brain turns signals into images."
+    },
+    {
+      "title": "Photoreceptor cell",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Photoreceptor_cell",
+      "supports": "Rods mediate scotopic/dim vision; cones mediate photopic/bright vision; ~120 million rods and ~6 million cones; three cone classes; rods very light-sensitive vs cones less so; cones high acuity and color; rods not in fovea / cones concentrated in fovea; phototransduction converts photon absorption into neural signals; bipolar/ganglion path toward optic nerve."
+    },
+    {
+      "title": "Rod cell",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rod_cell",
+      "supports": "Rods function in lower light than cones; ~92 million rods measured average vs common ~120 million figure; rods almost entirely responsible for night vision with little role in color; a rod can respond to a single photon and is ~100× more sensitive than cones; many rods may converge on one interneuron, boosting sensitivity at cost of acuity."
+    }
+  ]
+}

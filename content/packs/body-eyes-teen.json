@@ -1,0 +1,221 @@
+{
+  "id": "body-eyes-teen",
+  "topic": "body",
+  "subject": "eyes",
+  "level": "teen",
+  "title": "Light In, Sight Out",
+  "emoji": "👁️",
+  "summary": "Cornea and lens focus photons onto rods and cones; the optic nerve ships the code to your brain — and color vision trades off against night vision.",
+  "minutes": 7,
+  "date_added": "2026-11-06",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How do the cornea and lens turn incoming light into a sharp image on the retina?",
+      "answer": "Both bend (refract) light. The cornea does the first big bend; the flexible lens fine-tunes focus for near or far so light lands on the retina."
+    },
+    {
+      "id": "k2",
+      "prompt": "What trade-off do rods and cones show between night vision and color?",
+      "answer": "Rods are far more sensitive and work in dim light but don't sense color. Cones need brighter light and enable color and fine detail."
+    },
+    {
+      "id": "k3",
+      "prompt": "What path do retinal signals take after photoreceptors fire?",
+      "answer": "Electrical signals leave the retina through the optic nerve (more than a million fibers) to the brain, which builds the images you see."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌑",
+      "title": "A camera that needs photons",
+      "text": "Your eyes don't invent the world. They catch light that bounced off it. In a sealed dark room there is almost nothing for photoreceptors to convert — so \"seeing\" stalls before the brain ever gets a signal."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "About what share of the retina's classic photoreceptors are cones (the color ones)?",
+      "options": [
+        {
+          "text": "About half"
+        },
+        {
+          "text": "About 5%",
+          "correct": true
+        },
+        {
+          "text": "About 90%"
+        },
+        {
+          "text": "Exactly 50-50 with rods"
+        }
+      ],
+      "reveal": "About 5%. Roughly 6 million cones vs about 120 million rods — great for dim light, thinner for daylight color density.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "🔭",
+      "title": "Focus is physics",
+      "text": "Light enters through the cornea, a clear dome that bends rays. The iris sets pupil size to meter how much light gets in. Behind it, the lens works with the cornea to focus light on the retina. Muscles change the lens's shape: thicker for near, thinner for far.",
+      "example": "If the eyeball's shape is off, the focal point misses the retina and the image looks blurry — that is when glasses help push the focus back onto the screen.",
+      "why": {
+        "q": "Why meter light with a pupil instead of always staying wide open?",
+        "a": "Too much light can wash out the image; too little starves the photoreceptors. The iris automatically narrows or widens the pupil to match the scene."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⚡",
+      "title": "Photoreceptors write the code",
+      "text": "The retina is light-sensitive tissue at the back of the eye. Photoreceptors there convert light into electrical signals. Those signals are the only \"picture\" the rest of the nervous system ever gets — photons themselves never enter the brain.",
+      "example": "NEI puts it plainly: eyes collect the information; the brain turns the signals into the images you see."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "The rod–cone trade-off",
+      "text": "Each retina has roughly 120 million rods and about 6–7 million cones — cones are only about 5% of the photoreceptors. Rods handle dim light and shapes in grayscale. Cones need more light, sense detail, and come in three types tuned toward red, green and blue wavelengths that combine into color vision.",
+      "example": "At twilight, colors fade while outlines remain: cones drop offline first; rods keep reporting shape.",
+      "examples_by_interest": {
+        "golf": "Say you finish a round near sunset. Ball flight is still trackable as a moving shape (rods), but reading green tint on the grass gets harder as cones lose light.",
+        "gaming": "Say you turn the room lights way down. UI colors wash out while silhouettes stay visible — same rod-vs-cone handoff."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🧠",
+      "title": "Optic nerve, then brain",
+      "text": "The optic nerve — more than 1 million nerve fibers — carries retinal signals to the brain. The brain combines the slightly different views from each eye, adds depth and meaning, and even corrects the upside-down pattern formed on the retina.",
+      "why": {
+        "q": "If the retina already \"sees,\" why is the brain still essential?",
+        "a": "The retina starts the code, but perception — recognizing a face, judging distance, flipping the image — happens when the brain interprets those signals."
+      }
+    },
+    {
+      "type": "think",
+      "question": "If you were designing an eye for a nocturnal athlete vs a daytime painter, how would you change the rod/cone mix — and what would each design give up?",
+      "nudges": [
+        "What does extra rod density buy you at night?",
+        "What does packing more cones buy you in daylight?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Which pair does the main focusing work before light hits the retina?",
+          "options": [
+            {
+              "text": "Cornea and lens",
+              "correct": true,
+              "why": "Yes. Both bend light; the lens also changes shape for near vs far."
+            },
+            {
+              "text": "Iris and optic nerve",
+              "correct": false,
+              "why": "The iris meters light; the optic nerve carries signals. Focusing is cornea + lens."
+            },
+            {
+              "text": "Rods and cones",
+              "correct": false,
+              "why": "Those convert light into signals after it is already focused."
+            },
+            {
+              "text": "Only the pupil",
+              "correct": false,
+              "why": "The pupil is an opening. Bending of light is done by cornea and lens."
+            }
+          ]
+        },
+        {
+          "q": "Why do colors seem to disappear in a nearly dark room?",
+          "options": [
+            {
+              "text": "Cones need more light than rods, so color vision fails first",
+              "correct": true,
+              "why": "Right. Rods still report shapes in grayscale when cones cannot work well."
+            },
+            {
+              "text": "The optic nerve shuts off at night",
+              "correct": false,
+              "why": "The optic nerve still carries signals; the photoreceptor mix changes which signals you get."
+            },
+            {
+              "text": "Rods only detect red light",
+              "correct": false,
+              "why": "Rods do not support color vision; they report dim-light shapes in grayscale."
+            },
+            {
+              "text": "The lens stops focusing in the dark",
+              "correct": false,
+              "why": "Focus still happens; the limiting step is photoreceptor sensitivity and type."
+            }
+          ]
+        },
+        {
+          "q": "What does the optic nerve connect?",
+          "options": [
+            {
+              "text": "Retina to brain",
+              "correct": true,
+              "why": "Yes — a cable of more than a million fibers carrying visual messages."
+            },
+            {
+              "text": "Cornea to lens",
+              "correct": false,
+              "why": "Those are at the front of the eye; the optic nerve leaves the back."
+            },
+            {
+              "text": "Iris to pupil",
+              "correct": false,
+              "why": "The iris already surrounds the pupil; no optic nerve needed there."
+            },
+            {
+              "text": "One eye only to the other eye",
+              "correct": false,
+              "why": "Each optic nerve leaves its eye toward the brain, carrying that eye's signals."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Focusing light on the retina works by…",
+        "Rods and cones trade off because…",
+        "My brain matters for sight because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "GflMkCZUS6o",
+    "title": "The Eye | Physiology | Biology | FuseSchool",
+    "channel": "FuseSchool - Global Education",
+    "duration_sec": 276,
+    "why": "A clear walk through cornea, iris/pupil, lens focusing, and rod vs cone jobs — the same pipeline as the pack."
+  },
+  "sources": [
+    {
+      "title": "How the Eyes Work",
+      "publisher": "National Eye Institute (NIH)",
+      "url": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work",
+      "supports": "Cornea bends light to help focus; iris controls pupil light entry; lens and cornea focus light on the retina; photoreceptors convert light to electrical signals; optic nerve carries signals to the brain which forms images."
+    },
+    {
+      "title": "About the Eye",
+      "publisher": "National Eye Institute (NIH)",
+      "url": "https://www.nei.nih.gov/learn-about-eye-health/nei-for-kids/about-eye",
+      "supports": "Lens focuses far and near; iris regulates pupil; cornea helps focus; retina sends impulses via optic nerve; optic nerve has more than 1 million fibers; vision depends on brain as much as eyes."
+    },
+    {
+      "title": "Photoreceptor cell",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Photoreceptor_cell",
+      "supports": "Rods primarily mediate dim (scotopic) vision; cones primarily mediate bright (photopic) vision and color; about 120 million rods and 6 million cones per human retina (cones are only a small fraction, on the order of 5%); three cone classes (L, M, S); photoreceptors convert light into signals used for sight."
+    }
+  ]
+}
