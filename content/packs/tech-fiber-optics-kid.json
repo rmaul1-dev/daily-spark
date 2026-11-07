@@ -1,0 +1,236 @@
+{
+  "id": "tech-fiber-optics-kid",
+  "topic": "tech",
+  "subject": "fiber-optics",
+  "level": "kid",
+  "title": "Glass Threads That Carry Light",
+  "emoji": "\ud83d\udca1",
+  "summary": "Internet data rides as flashes of light inside glass thinner than a hair. A trick called total internal reflection keeps the light from leaking out.",
+  "minutes": 6,
+  "date_added": "2026-11-07",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What does an optical fiber carry from one end to the other?",
+      "answer": "Light. Pulses of light stand for the 0s and 1s of computer data.",
+      "options": [
+        {
+          "text": "Pulses of light",
+          "correct": true
+        },
+        {
+          "text": "Electric sparks"
+        },
+        {
+          "text": "Sound waves"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "What keeps light bouncing inside a fiber instead of leaking out?",
+      "answer": "Total internal reflection. Light hits the edge at a shallow angle and bounces back into the glass.",
+      "options": [
+        {
+          "text": "Total internal reflection",
+          "correct": true
+        },
+        {
+          "text": "Magnets on the cable"
+        },
+        {
+          "text": "A mirror glued to each end"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "Why is fiber better than copper for long trips?",
+      "answer": "Light in glass loses less power over distance than electricity in copper, so signals can travel farther before they need a boost.",
+      "options": [
+        {
+          "text": "Light loses less power over long distances",
+          "correct": true
+        },
+        {
+          "text": "Glass is heavier than copper"
+        },
+        {
+          "text": "Copper cannot bend"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "\ud83e\uddf5",
+      "title": "Thinner than a hair",
+      "text": "Imagine a thread of glass so thin it looks like a human hair. Now imagine flashing a light into one end. The light comes out the other end, even if the thread bends around a corner. How?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "About how thick is one glass strand inside a fiber-optic cable?",
+      "options": [
+        {
+          "text": "As thick as a finger"
+        },
+        {
+          "text": "About as thin as a human hair",
+          "correct": true
+        },
+        {
+          "text": "As thick as a garden hose"
+        }
+      ],
+      "reveal": "About as thin as a human hair! Many of those tiny glass strands are bundled into one cable.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udce1",
+      "title": "Data rides on light",
+      "text": "An optical fiber is a flexible strand of glass or plastic that can carry light from one end to the other. For the internet, a laser or LED flashes the light on and off. Those flashes stand for the 0s and 1s that computers use.",
+      "example": "Think of a flashlight that you blink in a secret code. Fiber does that, but millions of times each second, and the \"code\" is computer data."
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83e\ude9e",
+      "title": "A bounce that never stops",
+      "text": "The middle of the fiber is called the core. Around it sits a clear outer layer called the cladding. The cladding bends light less than the core does. When light hits that edge at a shallow angle, it reflects back in. That bounce is called total internal reflection.",
+      "example": "Shine a flashlight into a clear stream of water pouring from a jug. The light can follow the curve of the water instead of shooting straight out.",
+      "why": {
+        "q": "Why does the light stay inside instead of shooting out the side?",
+        "a": "It hits the core-cladding edge at a shallow angle, so it reflects back into the core instead of escaping."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83c\udfc3",
+      "title": "Why light beats copper",
+      "text": "Old long-distance phone lines used copper wire and electricity. Electricity fades and gets noisy over long runs. Light in pure glass loses much less power, so the signal can travel farther before it needs a boost. Fiber also ignores electrical noise from motors or storms.",
+      "example": "A copper cable may need helpers every few kilometers. A modern fiber can go tens of kilometers before the light needs help.",
+      "examples_by_interest": {
+        "gaming": "Say your online game talks to a faraway server. Much of that trip rides as light flashes inside undersea and ground fiber, not as electricity in copper.",
+        "building": "Say you run a network through a long school hallway. One thin fiber can carry far more data than a thick bundle of copper wires."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83c\udf0d",
+      "title": "A world tied by glass",
+      "text": "Today, thin glass threads under the oceans and streets carry most long-distance phone and internet traffic. Charles Kao helped show how to clean the glass so light could go far. He won a Nobel Prize for that work in 2009.",
+      "example": "If you watched a video from another country tonight, much of that trip likely rode as light inside glass under the sea."
+    },
+    {
+      "type": "think",
+      "question": "Where else could a light-carrying tube help, besides the internet?",
+      "nudges": [
+        "Think about a doctor peeking inside the body.",
+        "Or a mechanic checking a tight engine."
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What does fiber use to carry internet data?",
+          "options": [
+            {
+              "text": "Pulses of light",
+              "correct": true,
+              "why": "Yes. Flashes of light stand for the 0s and 1s."
+            },
+            {
+              "text": "Tiny magnets",
+              "correct": false,
+              "why": "Magnets are not how fiber sends data. It uses light."
+            },
+            {
+              "text": "Running water",
+              "correct": false,
+              "why": "Water demos show the idea of light guiding, but real cables use glass and light."
+            }
+          ]
+        },
+        {
+          "q": "What is total internal reflection?",
+          "options": [
+            {
+              "text": "Light bouncing back into the fiber at a shallow angle",
+              "correct": true,
+              "why": "Right. That bounce keeps the signal inside the core."
+            },
+            {
+              "text": "Light turning into heat",
+              "correct": false,
+              "why": "Heat loss is a different problem. Reflection is a bounce that keeps light inside."
+            },
+            {
+              "text": "The cable glowing like a lamp",
+              "correct": false,
+              "why": "A working cable should keep the light inside, not shine it out the sides."
+            }
+          ]
+        },
+        {
+          "q": "Why can fiber go farther than copper before the signal needs a boost?",
+          "options": [
+            {
+              "text": "Light in glass loses less power over distance",
+              "correct": true,
+              "why": "Yes. Lower loss means longer trips between helpers."
+            },
+            {
+              "text": "Glass weighs more, so it is stronger",
+              "correct": false,
+              "why": "Weight is not the reason. Lower light loss is."
+            },
+            {
+              "text": "Copper melts in the ocean",
+              "correct": false,
+              "why": "Copper cables exist underwater too. Fiber wins on loss and bandwidth."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "An optical fiber is\u2026",
+        "Light stays inside because\u2026",
+        "Fiber beats copper for long trips because\u2026"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "FWgKgca4GlA",
+    "title": "Fiber Optics!",
+    "channel": "Children's Museum Houston",
+    "duration_sec": 167,
+    "why": "A museum educator shows refraction with a pencil in water, then explains how a tiny fiber uses total internal reflection to send coded light."
+  },
+  "sources": [
+    {
+      "title": "Optical fiber",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Optical_fiber",
+      "supports": "Optical fibers are flexible glass or plastic strands that transmit light; a higher-index core and lower-index cladding keep light in by total internal reflection; fibers allow longer distances and higher bandwidth than electrical cables with less loss and immunity to electromagnetic interference; glass strands are about the size of a human hair; modern long-haul fibers can span tens of kilometers between repeaters."
+    },
+    {
+      "title": "Total internal reflection",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Total_internal_reflection",
+      "supports": "Total internal reflection is the complete reflection of a wave at a boundary when it arrives from a denser medium at an angle above the critical angle; this is the guiding mechanism used in optical fibers."
+    },
+    {
+      "title": "The 2009 Nobel Prize in Physics - Press release",
+      "publisher": "Nobel Prize",
+      "url": "https://www.nobelprize.org/prizes/physics/2009/press-release/",
+      "supports": "Charles K. Kao received half the 2009 Nobel Prize in Physics for transmitting light in fibers for optical communication; pure-glass fibers made long-distance light signals practical; today low-loss glass fibers carry almost all telephony and data traffic, including the Internet."
+    }
+  ]
+}

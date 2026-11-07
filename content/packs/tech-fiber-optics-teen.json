@@ -1,0 +1,218 @@
+{
+  "id": "tech-fiber-optics-teen",
+  "topic": "tech",
+  "subject": "fiber-optics",
+  "level": "teen",
+  "title": "How Light Outruns Copper",
+  "emoji": "\ud83d\udca1",
+  "summary": "Hair-thin glass guides laser pulses by total internal reflection. Lower loss and huge bandwidth made fiber the backbone of the internet.",
+  "minutes": 7,
+  "date_added": "2026-11-07",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How does total internal reflection keep a signal inside an optical fiber?",
+      "answer": "The core has a slightly higher refractive index than the cladding. Light that hits the boundary above the critical angle reflects back into the core and travels as a guided wave."
+    },
+    {
+      "id": "k2",
+      "prompt": "What problem did Charles Kao identify in 1960s glass fibers?",
+      "answer": "The huge light loss was mostly from impurities, not a fundamental limit. Pure silica glass could carry signals for kilometers instead of tens of meters."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why did fiber replace copper on most long-distance backbone links?",
+      "answer": "Much lower attenuation (longer spans between amplifiers) and far higher bandwidth, plus immunity to electromagnetic interference."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "\ud83c\udf0a",
+      "title": "A glass ocean cable",
+      "text": "Under the Atlantic and Pacific, cables thinner than a garden hose carry nearly all of the internet between continents. Inside are strands of glass about as thin as a human hair. Electricity is not what makes the trip. Light is."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "In the 1960s, ordinary glass fibers lost so much light that a useful signal went only about 20 meters. Charles Kao calculated how far pure glass could go. About how many kilometers?",
+      "estimate": {
+        "min": 0,
+        "max": 500,
+        "step": 5,
+        "unit": "km",
+        "answer": 100
+      },
+      "reveal": "About 100 km \u2014 roughly 5,000 times farther than the dirty glass of the 1960s. That prediction drove the race to make ultrapure fiber.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udd26",
+      "title": "Pulses, not voltage",
+      "text": "Fiber-optic communication sends information as pulses of infrared or visible light through an optical fiber. A transmitter turns electrical bits into light; a receiver turns the light back into electricity. Digital data, voice, and video all ride those flashes.",
+      "example": "On means a 1, off means a 0 \u2014 or more clever patterns \u2014 blinked by a laser diode millions or billions of times per second."
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83e\ude9e",
+      "title": "Core, cladding, bounce",
+      "text": "A fiber has a glass core wrapped in cladding with a slightly lower refractive index. Light that hits that boundary above the critical angle undergoes total internal reflection and stays guided. Bend the cable too sharply and the angle fails, so light leaks out.",
+      "example": "A typical telecom single-mode core is only about 8\u201310 micrometers across \u2014 thinner than many cells \u2014 inside a 125-micrometer cladding.",
+      "why": {
+        "q": "Why does the cladding need a lower refractive index than the core?",
+        "a": "Total internal reflection only happens when light in a higher-index medium hits a lower-index boundary above the critical angle."
+      },
+      "examples_by_interest": {
+        "golf": "Say a golf shot stays on the fairway when the angle into the rough is shallow enough to bounce back. Light in fiber needs a similar \"fairway bounce\" at the core edge.",
+        "building": "Say you snake a cable around a tight corner in a wall. Bend it too sharply and the light's bounce angle fails \u2014 installers treat bend radius as a hard rule."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83e\uddea",
+      "title": "Kao's purity bet",
+      "text": "1960s fibers lost on the order of 1,000 dB/km \u2014 useless for long links. In 1966, Charles K. Kao and George Hockham argued the loss came from contaminants that could be removed. With pure silica, light could travel about 100 km, versus about 20 meters in the fibers of that era. Corning hit the practical ~20 dB/km mark in 1970. Kao shared the 2009 Nobel Prize in Physics for that breakthrough.",
+      "example": "Cutting loss from 1,000 dB/km toward 20 dB/km is a four-order-of-magnitude cleanup of the glass itself.",
+      "why": {
+        "q": "Why was \"impurities\" a more hopeful diagnosis than \"glass just can't do this\"?",
+        "a": "If the limit was dirt, engineers could purify. If it were a fundamental scattering floor they couldn't beat, fiber telecom would have stayed a dream."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\u26a1",
+      "title": "Why copper lost the backbone",
+      "text": "Fiber is preferred when you need high bandwidth, long distance, low power loss, or immunity to electromagnetic interference. Light in silica attenuates far less than electricity in copper, so amplifiers can sit tens to over a hundred kilometers apart. One fiber can also carry many wavelength channels at once (WDM), multiplying capacity without new cable.",
+      "example": "Backbone networks in developed countries have largely replaced copper with fiber for those long hauls; copper often remains only for short last hops.",
+      "examples_by_interest": {
+        "business": "Say a company streams 4K training video to 50 offices. One fiber pair with wavelength channels can carry that load where copper would need many parallel cables and more regenerators.",
+        "gaming": "Say a tournament server is on another continent. Player packets spend most of the trip as light under the ocean \u2014 fiber's low loss and huge bandwidth are why that path exists."
+      }
+    },
+    {
+      "type": "think",
+      "question": "If fiber is so much better for long distance, why do homes and phone chargers still use copper wires?",
+      "nudges": [
+        "Think about cost, connectors, and how hard it is to bend or splice glass.",
+        "When is \"good enough for a few meters\" the smarter engineering choice?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What keeps light guided inside an optical fiber?",
+          "options": [
+            {
+              "text": "Total internal reflection at the core-cladding boundary",
+              "correct": true,
+              "why": "Yes. Above the critical angle, light reflects back into the higher-index core."
+            },
+            {
+              "text": "A metal mirror coating on every strand",
+              "correct": false,
+              "why": "Telecom fiber uses glass cladding and index contrast, not a metal mirror lining."
+            },
+            {
+              "text": "Magnetic fields that steer photons",
+              "correct": false,
+              "why": "Guidance is an optical index effect, not magnetism."
+            },
+            {
+              "text": "Air pressure pushing light forward",
+              "correct": false,
+              "why": "Light propagates as a guided wave; air pressure is not the mechanism."
+            }
+          ]
+        },
+        {
+          "q": "What did Kao argue was the main reason early fibers lost so much light?",
+          "options": [
+            {
+              "text": "Impurities in the glass that could be removed",
+              "correct": true,
+              "why": "Right. Purifying silica made long-distance fiber practical."
+            },
+            {
+              "text": "The speed of light being too slow in glass",
+              "correct": false,
+              "why": "Speed in glass is lower than in vacuum, but that was not the show-stopper; attenuation was."
+            },
+            {
+              "text": "Lasers not being invented yet",
+              "correct": false,
+              "why": "Lasers mattered for transmitters, but Kao's key claim was about glass purity and loss."
+            },
+            {
+              "text": "Fibers being too thick to bend",
+              "correct": false,
+              "why": "Bend radius matters in installation, but the 1960s crisis was optical attenuation."
+            }
+          ]
+        },
+        {
+          "q": "Which pair best explains why fiber won long-distance backbones over copper?",
+          "options": [
+            {
+              "text": "Lower loss over distance and much higher bandwidth",
+              "correct": true,
+              "why": "Yes \u2014 plus EMI immunity \u2014 that combination displaced copper on long hauls."
+            },
+            {
+              "text": "Glass is cheaper than copper by the gram",
+              "correct": false,
+              "why": "Cost helps at scale, but the physics win is loss and bandwidth."
+            },
+            {
+              "text": "Light cables never need any amplifiers",
+              "correct": false,
+              "why": "They still need amplifiers or repeaters, just much farther apart."
+            },
+            {
+              "text": "Copper cannot carry digital signals",
+              "correct": false,
+              "why": "Copper carries digital signals fine over short runs; distance and capacity are the limits."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Fiber carries internet data as\u2026",
+        "Light stays in the strand because\u2026",
+        "Kao's big insight was\u2026"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "er3v4PVNQqE",
+    "title": "The hidden network that makes the internet possible - Sajan Saini",
+    "channel": "TED-Ed",
+    "duration_sec": 319,
+    "why": "Animated explainer of hair-thin glass, total internal reflection, why light beats copper, and how undersea fiber ties the planet together."
+  },
+  "sources": [
+    {
+      "title": "Optical fiber",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Optical_fiber",
+      "supports": "Core plus lower-index cladding guides light by total internal reflection; fibers transmit farther with higher bandwidth and less loss than electrical cables and are immune to EMI; single-mode cores are typically 8\u201310 micrometers; Kao and Hockham (1965/66) showed impurities caused high attenuation and that pure silica could work; Corning reached ~17\u201320 dB/km in 1970; Kao won the 2009 Nobel Prize; modern long-haul repeater spans are often 70\u2013150 km."
+    },
+    {
+      "title": "Fiber-optic communication",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fiber-optic_communication",
+      "supports": "Fiber-optic communication sends pulses of light through optical fiber; preferred for high bandwidth, long distance, low power, or EMI immunity; has largely replaced copper in backbone networks; 1960s fiber loss ~1,000 dB/km vs ~5\u201310 dB/km for coax; Kao/Hockham 1966 purity argument; Corning ~20 dB/km in 1970; WDM lets one fiber carry many wavelength channels."
+    },
+    {
+      "title": "The 2009 Nobel Prize in Physics - Press release",
+      "publisher": "Nobel Prize",
+      "url": "https://www.nobelprize.org/prizes/physics/2009/press-release/",
+      "supports": "In 1966 Kao calculated that purest glass could transmit light about 100 km versus about 20 meters for 1960s fibers; first ultrapure fiber in 1970; today low-loss fibers carry almost all telephony and Internet traffic worldwide."
+    }
+  ]
+}

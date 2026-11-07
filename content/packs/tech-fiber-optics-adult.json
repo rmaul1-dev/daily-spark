@@ -1,0 +1,214 @@
+{
+  "id": "tech-fiber-optics-adult",
+  "topic": "tech",
+  "subject": "fiber-optics",
+  "level": "adult",
+  "title": "Why the Internet Runs on Glass",
+  "emoji": "\ud83d\udca1",
+  "summary": "Index contrast traps light by total internal reflection; purifying silica collapsed attenuation by orders of magnitude; bandwidth, distance, and EMI immunity finished copper's long-haul era.",
+  "minutes": 8,
+  "date_added": "2026-11-07",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What physical condition lets an optical fiber guide light by total internal reflection?",
+      "answer": "A higher refractive index in the core than in the cladding, with rays (or the guided mode) meeting the boundary above the critical angle so energy stays confined rather than refracting out."
+    },
+    {
+      "id": "k2",
+      "prompt": "What was Charles Kao's pivotal claim about 1960s fiber loss?",
+      "answer": "Attenuation of ~1,000 dB/km was mostly removable impurities, not an unbreakable physical floor; pure silica could support ~100 km spans versus ~20 m in contemporary fiber."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why did fiber displace copper on backbone links?",
+      "answer": "Much lower loss (longer amplifier spacing), far higher bandwidth including WDM, and EMI immunity \u2014 trading harder splices and bend-radius care."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "\ud83e\uddee",
+      "title": "20 meters versus 100 kilometers",
+      "text": "In the mid-1960s, glass fibers could carry a useful light signal only about 20 meters before it died. Charles Kao argued that if the glass were pure enough, the same idea could work for about 100 kilometers. That factor of five thousand is why your video call can cross an ocean as light inside hair-thin silica."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "Rule of thumb: light in telecom fiber travels at about 200,000 km/s (index ~1.5). Minimum one-way delay for a 16,000 km Sydney\u2013New York fiber path, ignoring routing detours and electronics?",
+      "estimate": {
+        "min": 0,
+        "max": 200,
+        "step": 5,
+        "unit": "ms",
+        "answer": 80
+      },
+      "reveal": "80 ms. Distance \u00f7 speed: 16,000 / 200,000 = 0.08 s. Real paths are longer and add switching delay, but physics sets that floor.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83d\udcd0",
+      "title": "A waveguide, not a pipe of mirrors",
+      "text": "An optical fiber is a cylindrical dielectric waveguide: a core surrounded by cladding of lower refractive index. For multi-mode fiber, geometric optics says rays steeper than the critical angle undergo total internal reflection. Single-mode fiber (cores ~8\u201310 \u03bcm) must be treated as an electromagnetic mode; much of the energy still rides near the core-cladding boundary as an evanescent field.",
+      "example": "Typical telecom cladding silica index is about 1.444 at 1500 nm, with a doped core a few thousandths higher \u2014 a weakly guiding fiber, deliberately.",
+      "why": {
+        "q": "Why make the index contrast so small instead of a huge jump?",
+        "a": "Weak guidance supports controlled single-mode behavior and manageable dispersion for long-haul telecom, at the cost of tighter bend and splice tolerances."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83e\uddfc",
+      "title": "Attenuation as a materials problem",
+      "text": "Kao and Hockham (Standard Telecommunication Laboratories, 1966) showed that then-current ~1,000 dB/km losses were dominated by impurities, not fundamental scattering alone. They pointed to high-purity silica. Corning's 1970 titanium-doped fiber reached about 17 dB/km \u2014 under the ~20 dB/km practicality threshold \u2014 and later germanium-doped designs cut loss further. Modern silica fibers approach ~0.14\u20130.2 dB/km near 1550 nm, limited mainly by Rayleigh scattering and infrared absorption.",
+      "example": "Four decades of process work cut silica fiber attenuation by roughly four orders of magnitude from mid-1960s levels.",
+      "why": {
+        "q": "Why did hitting ~20 dB/km matter more than inventing a slightly better laser?",
+        "a": "Below that loss budget, amplifier/repeater spacing became economically and technically workable for city- and continent-scale links."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\ud83c\udf10",
+      "title": "Bandwidth, distance, EMI",
+      "text": "Fiber is chosen when high bandwidth, long distance, low power consumption, or immunity to electromagnetic interference is required. It has largely replaced copper in developed-world backbone networks. Wavelength-division multiplexing packs many independent channels onto one strand. Optical amplifiers (notably erbium-doped fiber amplifiers from the late 1980s) boost light without converting each channel back to electricity, which is why undersea systems can span oceans with managed repeater spacing of tens to over a hundred kilometers.",
+      "example": "A phone call on fiber between Sydney and New York faces a physics floor near 80 ms one-way from index alone \u2014 electronics and routing only add to that.",
+      "examples_by_interest": {
+        "business": "Say a firm consolidates two data centers 80 km apart. Fiber's low loss and WDM capacity let it treat that span as one optical hop; copper would demand denser regeneration and far less aggregate throughput per cable.",
+        "building": "Say you pull backbone through a power plant. All-dielectric fiber ignores the EMI that would corrupt copper runs beside switchgear."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "\u2696\ufe0f",
+      "title": "The trade-offs copper still owns",
+      "text": "Fiber is harder and more expensive to terminate: cleaving, alignment, and fusion splicing replace simple copper crimps. Sharp bends raise loss; connectors add tenths of a dB each. For a few meters inside a device or a cheap in-building drop, copper's convenience often wins. The network we actually built is hybrid: glass for the long, fat pipes; metal (and radio) where meters and connectors dominate the cost curve.",
+      "example": "Last-mile designs still debate fiber-to-the-home versus copper or wireless drops \u2014 not because glass fails at distance, but because deployment labor and premises hardware do."
+    },
+    {
+      "type": "think",
+      "question": "If tomorrow someone invented a copper alloy with fiber-like loss over 100 km, what other fiber advantages would still matter \u2014 and which would disappear?",
+      "nudges": [
+        "Bandwidth and WDM, EMI immunity, size and weight, tapping difficulty.",
+        "Which of those are physics of light versus accidents of how we manufacture glass?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Total internal reflection in fiber requires which condition?",
+          "options": [
+            {
+              "text": "Higher refractive index in the core than the cladding, with incidence above the critical angle",
+              "correct": true,
+              "why": "Correct \u2014 that index step and angle confine the guided light."
+            },
+            {
+              "text": "A metallic mirror deposited on the cladding",
+              "correct": false,
+              "why": "Telecom fiber uses dielectric index contrast, not a metal mirror lining."
+            },
+            {
+              "text": "A vacuum core so light travels at c",
+              "correct": false,
+              "why": "Standard telecom fiber has a solid silica core; hollow-core designs are specialty, not the default."
+            },
+            {
+              "text": "Electric current along the glass to steer photons",
+              "correct": false,
+              "why": "Guidance is optical; the glass does not carry a steering current."
+            }
+          ]
+        },
+        {
+          "q": "Kao's 1966 argument mattered because it reframed fiber loss as:",
+          "options": [
+            {
+              "text": "Mostly removable impurities in glass, so purification could unlock ~100 km spans",
+              "correct": true,
+              "why": "Yes \u2014 that claim redirected research toward ultrapure silica."
+            },
+            {
+              "text": "Proof that glass could never beat coaxial cable",
+              "correct": false,
+              "why": "He argued the opposite: cleaned-up glass could beat the old fiber limits."
+            },
+            {
+              "text": "A need to replace light with microwaves inside the cable",
+              "correct": false,
+              "why": "The program stayed optical; the fix was materials purity."
+            },
+            {
+              "text": "Evidence that only plastic fibers would work",
+              "correct": false,
+              "why": "He pointed to high-purity silica glass, not plastic, for long-haul loss targets."
+            }
+          ]
+        },
+        {
+          "q": "Which statement best captures why fiber won long-haul backbones?",
+          "options": [
+            {
+              "text": "Much lower attenuation and far higher bandwidth (including WDM), with EMI immunity",
+              "correct": true,
+              "why": "Those advantages displaced copper on long, high-capacity routes."
+            },
+            {
+              "text": "Glass connectors are simpler than copper RJ45 plugs",
+              "correct": false,
+              "why": "Fiber termination is generally harder; convenience favors copper at short range."
+            },
+            {
+              "text": "Light in fiber needs no amplifiers at any distance",
+              "correct": false,
+              "why": "Amplifiers/repeaters are still required; spacing is just much longer."
+            },
+            {
+              "text": "Copper cannot carry packet-switched data",
+              "correct": false,
+              "why": "Ethernet over copper is ubiquitous locally; distance and capacity are the constraints."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Fiber guides light because\u2026",
+        "Kao showed that the real barrier was\u2026",
+        "Copper still wins short runs when\u2026"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "v4ljKF8LLxc",
+    "title": "The Scientist Who Made the Internet Possible | Great Minds: Narinder Singh Kapany",
+    "channel": "SciShow",
+    "duration_sec": 336,
+    "why": "Clear total-internal-reflection demo of light in a tube, then the Kapany story that turned guided light into flexible fiber tools and, later, communications."
+  },
+  "sources": [
+    {
+      "title": "Optical fiber",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Optical_fiber",
+      "supports": "Dielectric waveguide with higher-index core and lower-index cladding; TIR / guided modes; single-mode cores ~8\u201310 \u03bcm; cladding index ~1.444 at 1500 nm and rule-of-thumb ~200,000 km/s; Sydney\u2013New York 16,000 km implies ~80 ms minimum; Kao/Hockham impurity argument and silica; Corning 1970 ~17 dB/km; modern ~0.14\u20130.2 dB/km class losses; repeater spans 70\u2013150 km; EMI immunity and bandwidth advantages vs copper."
+    },
+    {
+      "title": "Fiber-optic communication",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fiber-optic_communication",
+      "supports": "Light pulses through fiber for voice/video/data; preferred for bandwidth, distance, power, EMI immunity; largely replaced copper backbones; ~1,000 dB/km early fiber vs coax; Kao/Hockham 1966; Corning ~20 dB/km 1970; WDM; optical amplifiers reducing OEO repeaters; comparison benefits including low loss and EMI immunity; fiber harder/more expensive to terminate than copper."
+    },
+    {
+      "title": "The 2009 Nobel Prize in Physics - Press release",
+      "publisher": "Nobel Prize",
+      "url": "https://www.nobelprize.org/prizes/physics/2009/press-release/",
+      "supports": "Kao's 1966 calculation: purest glass ~100 km vs ~20 m for 1960s fibers; ultrapure fiber fabricated 1970; low-loss fibers now carry almost all telephony and Internet traffic."
+    }
+  ]
+}

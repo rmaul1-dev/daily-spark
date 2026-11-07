@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "topics": [
   {
    "id": "history",
@@ -458,6 +458,17 @@
     "kid": "body-eyes-kid"
    },
    "dinner_question": "If you could only keep night vision or full color vision for a week, which would you choose, and what would be hardest about that choice?"
+  },
+  {
+   "date": "2026-11-15",
+   "topic": "tech",
+   "title": "Fiber optics: glass threads that carry the internet as light",
+   "packs": {
+    "adult": "tech-fiber-optics-adult",
+    "teen": "tech-fiber-optics-teen",
+    "kid": "tech-fiber-optics-kid"
+   },
+   "dinner_question": "If you had to explain to a friend why blinking light inside glass can beat electricity in copper for a trip across the ocean, what would you say first?"
   }
  ],
  "series": [
@@ -1337,6 +1348,45 @@
    "minutes": 8,
    "date_added": "2026-10-29",
    "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "tech-fiber-optics-kid",
+   "topic": "tech",
+   "level": "kid",
+   "title": "Glass Threads That Carry Light",
+   "emoji": "💡",
+   "subject": "fiber-optics",
+   "summary": "Internet data rides as flashes of light inside glass thinner than a hair. A trick called total internal reflection keeps the light from leaking out.",
+   "minutes": 6,
+   "date_added": "2026-11-07",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "tech-fiber-optics-teen",
+   "topic": "tech",
+   "level": "teen",
+   "title": "How Light Outruns Copper",
+   "emoji": "💡",
+   "subject": "fiber-optics",
+   "summary": "Hair-thin glass guides laser pulses by total internal reflection. Lower loss and huge bandwidth made fiber the backbone of the internet.",
+   "minutes": 7,
+   "date_added": "2026-11-07",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "tech-fiber-optics-adult",
+   "topic": "tech",
+   "level": "adult",
+   "title": "Why the Internet Runs on Glass",
+   "emoji": "💡",
+   "subject": "fiber-optics",
+   "summary": "Index contrast traps light by total internal reflection; purifying silica collapsed attenuation by orders of magnitude; bandwidth, distance, and EMI immunity finished copper's long-haul era.",
+   "minutes": 8,
+   "date_added": "2026-11-07",
+   "cards": 9,
    "keys_count": 3
   },
   {
