@@ -1,0 +1,240 @@
+{
+  "id": "history-longitude-prize-kid",
+  "topic": "history",
+  "subject": "longitude-prize",
+  "level": "kid",
+  "title": "The Clock That Found the Way",
+  "emoji": "🧭",
+  "summary": "Sailors could tell how far north they were. East and west needed a clock that could keep time on a bouncing ship.",
+  "minutes": 6,
+  "date_added": "2026-11-08",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why does knowing the time in two places tell you how far east or west you are?",
+      "answer": "Earth spins 360 degrees in 24 hours, so each hour of time difference is 15 degrees of longitude.",
+      "options": [
+        {
+          "text": "Each hour of time difference is 15 degrees of longitude",
+          "correct": true
+        },
+        {
+          "text": "Clocks make the Sun stand still"
+        },
+        {
+          "text": "The ocean is painted with time zones"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Why was it so hard to keep time on a ship?",
+      "answer": "The ship's motion, plus heat, cold, and salty air, threw clocks off, especially ones that used a swinging pendulum.",
+      "options": [
+        {
+          "text": "The ship's motion and changing weather threw the clocks off",
+          "correct": true
+        },
+        {
+          "text": "There is no time at sea"
+        },
+        {
+          "text": "Sailors were not allowed to bring clocks"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What was special about Harrison's later clock, H4?",
+      "answer": "It looked like a large pocket watch, ticked five times a second, and kept time well enough at sea to meet the law's toughest limit.",
+      "options": [
+        {
+          "text": "It was a large, fast-ticking watch that kept time well at sea",
+          "correct": true
+        },
+        {
+          "text": "It was a giant pendulum hanging from the mast"
+        },
+        {
+          "text": "It used the moons of Jupiter as a clock"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌊",
+      "title": "Lost between two oceans",
+      "text": "Picture a ship in the middle of the ocean. Water is in every direction, and there are no street signs. Sailors could tell how far north or south they were from the Sun. Finding east and west was the hard part. The tool that solved it was a clock."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "It is noon where you are (the Sun is at its highest). A clock set to Greenwich time says it is 2:00 there. How far west of Greenwich are you?",
+      "options": [
+        {
+          "text": "2 degrees"
+        },
+        {
+          "text": "15 degrees"
+        },
+        {
+          "text": "30 degrees",
+          "correct": true
+        }
+      ],
+      "reveal": "30 degrees west. Earth turns 15 degrees each hour, so two hours times 15 is 30.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "☀️",
+      "title": "Noon in two places",
+      "text": "Longitude is how far east or west you are. People measure it from a line through Greenwich, in England. Local noon is when the Sun is highest in your sky. Earth spins all the way around, 360 degrees, in 24 hours. So each hour of time difference is 15 degrees of longitude.",
+      "example": "If it is noon where you are, and the Greenwich clock says 2:00, you are 30 degrees west.",
+      "why": {
+        "q": "Why is a two-hour difference 30 degrees, not 2 degrees?",
+        "a": "Earth turns a full circle, 360 degrees, in 24 hours. 360 divided by 24 is 15 degrees each hour, so two hours is 30."
+      },
+      "examples_by_interest": {
+        "golf": "Say you know the exact time at your home golf course. If the Sun is highest where you are when that clock says 1:00, you are 15 degrees west of home.",
+        "soccer": "Say you know the exact time at your home field. If the Sun is highest where you are when that clock says 1:00, you are 15 degrees west of home."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⛵",
+      "title": "Clocks that could not sail",
+      "text": "To use that trick, you needed a clock that still showed the time in Greenwich after weeks at sea. On a bouncing ship, clocks with swinging pendulums went wrong. Heat, cold, and salty air made them worse. Then you no longer knew the time at your home port.",
+      "example": "Earth turns one degree of longitude every four minutes. A clock that is off by four minutes already puts you one degree in the wrong place."
+    },
+    {
+      "type": "idea",
+      "emoji": "🪚",
+      "title": "A carpenter who built clocks",
+      "text": "John Harrison was a carpenter who taught himself to make clocks. In the 1720s, his tall house clocks lost only one second in a month. That was better than other clocks then. He set out to make a clock you could carry that lost no more than three seconds a day.",
+      "example": "Three seconds a day may not sound like much. Over a long trip, even small slips add up and move your place on the map."
+    },
+    {
+      "type": "idea",
+      "emoji": "⌚",
+      "title": "From a big sea clock to a watch",
+      "text": "Harrison's first sea clock, now called H1, used two balances linked together. The ship's rolling did not throw it off the way a pendulum would. On a test trip he correctly named a headland the Lizard, not the Start. The ship was 60 miles off course. Years later he built H4, a large pocket watch that ticked five times a second.",
+      "example": "Harrison's son William took H4 to sea. He used it to say they would reach an island sooner than the crew expected. The captain was so impressed he asked to buy their next clock."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏆",
+      "title": "Show how it works",
+      "text": "Britain offered a large money reward for a way to find a ship's longitude. H4 kept time within the toughest limit in the 1714 law. The board said Harrison could have £10,000 after he showed how H4 worked. The rest would wait until other people could build clocks like it.",
+      "example": "The board did not want a one-of-a-kind machine. Harrison felt he had already earned the full reward. Parliament later did pay him, but not as much as he thought he should get.",
+      "why": {
+        "q": "Why did the board want other people to copy H4?",
+        "a": "A navy cannot depend on one watch from one maker. They needed clocks that other workshops could build too."
+      }
+    },
+    {
+      "type": "think",
+      "question": "You invent a tool that works one time. What matters more: that it is very accurate, or that other people can build one too?",
+      "nudges": [
+        "Think of a ship that needs a spare if the first clock breaks.",
+        "Now think of how the inventor might feel after years of work."
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "One hour of time difference equals how many degrees of longitude?",
+          "options": [
+            {
+              "text": "15 degrees",
+              "correct": true,
+              "why": "Yes. Earth turns 360 degrees in 24 hours, and 360 divided by 24 is 15."
+            },
+            {
+              "text": "24 degrees",
+              "correct": false,
+              "why": "24 is the number of hours in a day, not the degrees in each hour."
+            },
+            {
+              "text": "360 degrees",
+              "correct": false,
+              "why": "360 degrees is a full spin of Earth, which takes a whole day, not one hour."
+            }
+          ]
+        },
+        {
+          "q": "Why did Harrison link two balances in H1?",
+          "options": [
+            {
+              "text": "So the ship's motion would not throw the clock off",
+              "correct": true,
+              "why": "Right. The two linked balances could handle the ship's rolling better than a pendulum."
+            },
+            {
+              "text": "To make the clock tick louder",
+              "correct": false,
+              "why": "Loud ticking was not the point. The link was to handle motion at sea."
+            },
+            {
+              "text": "To tell the date and the time at once",
+              "correct": false,
+              "why": "H1 was built to keep time on a moving ship, not to show the date."
+            }
+          ]
+        },
+        {
+          "q": "After H4 met the law's toughest test, what did the board want before paying the rest?",
+          "options": [
+            {
+              "text": "Proof that other makers could build similar clocks",
+              "correct": true,
+              "why": "Yes. They wanted to be sure H4 was not a one-of-a-kind machine."
+            },
+            {
+              "text": "For Harrison to hide how it worked",
+              "correct": false,
+              "why": "The opposite: they asked him to show how H4 worked."
+            },
+            {
+              "text": "For the clock to run with no hands",
+              "correct": false,
+              "why": "The board cared about copies other people could build, not about hiding the hands."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Sailors could find north and south from the Sun, but east and west needed…",
+        "Harrison's first sea clock used two linked balances so that…",
+        "The later clock that met the tough test looked like…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "What is longitude?",
+      "publisher": "Royal Museums Greenwich",
+      "url": "https://www.rmg.co.uk/stories/time/what-longitude",
+      "supports": "Longitude is distance east or west measured from the Greenwich meridian, 0° to 180° east and west; until international agreement, other meridians such as London and Paris were used; latitude can be found from the Sun or pole star because the equator is a physical reference, while longitude has no natural starting line; local noon is when the Sun is highest; Earth rotates 360° in 24 hours so one hour of time difference equals 15° of longitude, or 1° every four minutes; the hard part was knowing the time at the reference location."
+    },
+    {
+      "title": "Longitude found: the story of Harrison's timekeepers",
+      "publisher": "Royal Museums Greenwich",
+      "url": "https://www.rmg.co.uk/stories/time/harrisons-clocks-longitude-problem",
+      "supports": "Harrison was a carpenter, self-taught in clockmaking; mid-1720s longcase clocks accurate to one second in a month; he aimed for a portable clock within three seconds a day; H1 used two interconnected swinging balances unaffected by a ship's motion; on the return from Lisbon he correctly identified a headland as the Lizard rather than the Start, meaning the ship was 60 miles off course; H4 looked like a large pocket watch and ticks five times a second; William used H4 to predict an earlier landfall at Madeira than the crew expected; H4 kept time within the most stringent limits of the 1714 Act; the Board recommended £10,000 when Harrison demonstrated H4's principles and the remaining £10,000 (less earlier payments) once other makers could produce similar timekeepers; the Harrisons felt the full reward was already due; Parliament later rewarded him, but not all he felt he was owed."
+    },
+    {
+      "title": "What is longitude?",
+      "publisher": "NOAA National Ocean Service",
+      "url": "https://oceanservice.noaa.gov/facts/longitude.html",
+      "supports": "Navigators could measure latitude with basic tools for thousands of years; the simplest way to measure longitude from a ship was an accurate clock comparing local noon (Sun at its highest) to a clock set to Greenwich time; each hour of difference equals 15 degrees of longitude because Earth rotates 360 degrees in 24 hours; if it is local noon and the Greenwich clock reads 2 p.m., the ship is 30 degrees west; swaying ships, varying temperatures, and salty air made clocks of the age fail at sea; marine chronometers in the 18th century made accurate longitude at sea possible."
+    }
+  ]
+}

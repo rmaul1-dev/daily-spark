@@ -1,0 +1,230 @@
+{
+  "id": "history-longitude-prize-teen",
+  "topic": "history",
+  "subject": "longitude-prize",
+  "level": "teen",
+  "title": "The Prize for Knowing East from West",
+  "emoji": "⏱️",
+  "summary": "Longitude is a time difference. Keeping that time on a moving ship took a carpenter decades — and a board that wanted copies, not a one-off.",
+  "minutes": 7,
+  "date_added": "2026-11-08",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why does a time difference tell you longitude?",
+      "answer": "Earth rotates 360° in 24 hours, so each hour between local noon and reference time equals 15° of longitude, or 1° every four minutes."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why did ordinary clocks fail as longitude tools at sea?",
+      "answer": "A ship's motion disturbs a pendulum's swing, and changing temperature and salty air also throw mechanical clocks off, so you lose the reference time."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why didn't the Board pay Harrison the rest as soon as H4 met the Act's toughest limit?",
+      "answer": "They required him to show how H4 worked and to prove other makers could build similar timekeepers, so it was not a one-off."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "⚓",
+      "title": "Four ships on the rocks",
+      "text": "On 22 October 1707, five of Admiral Sir Cloudesley Shovell's ships struck rocks off the Isles of Scilly. Four went down. More than 1,400 men, including the admiral, died. The cause was navigational error: they did not know how far east or west they were. Seven years later, Britain put a fortune on the table for anyone who could solve that problem."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "It is local noon — the Sun is at its highest where you are. Your clock, set to Greenwich, reads 2:00 p.m. How far west of Greenwich are you?",
+      "options": [
+        {
+          "text": "2 degrees"
+        },
+        {
+          "text": "15 degrees"
+        },
+        {
+          "text": "30 degrees",
+          "correct": true
+        },
+        {
+          "text": "60 degrees"
+        }
+      ],
+      "reveal": "30° west. Earth turns 15° each hour, so two hours times 15 is 30. A common trap is to treat the '2' on the clock as 2 degrees.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "🌍",
+      "title": "Longitude is a clock problem",
+      "text": "Latitude is how far you are north or south of the equator. You can read it from the Sun or the pole star, because the equator is a real, physical zero. Longitude is east or west of a chosen line — today, the one through Greenwich. Local noon is when the Sun is highest. Earth turns 360° in 24 hours, so one hour of time difference equals 15° of longitude, or 1° every four minutes.",
+      "example": "If it is noon on your ship and a Greenwich-set clock says 2:00 p.m., you are 30° west.",
+      "why": {
+        "q": "Why can't you just read longitude from the Sun the way you read latitude?",
+        "a": "The sky markers you would use are themselves moving as Earth turns. You need the time at a known place as well as your own local noon."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🌊",
+      "title": "Why a bouncing ship breaks the trick",
+      "text": "The method is simple if you can carry Greenwich time with you. Pendulum clocks did that well enough on land, but a swaying ship, changing temperature, and salty air made even good clocks fail. Then you no longer knew the time at your reference place — the hard half of the comparison.",
+      "example": "A clock error of four minutes is already a full degree of longitude. Near a rocky coast, that can mean a wreck. Long, wandering voyages also left crews sick, especially with scurvy, and ships stuck on known 'safe' routes were easier for pirates to find."
+    },
+    {
+      "type": "idea",
+      "emoji": "🪚",
+      "title": "A carpenter's sea clocks",
+      "text": "John Harrison was a carpenter who taught himself clockmaking. In the mid-1720s his longcase clocks kept time to one second in a month, better than other clocks then. He aimed for a portable clock good to three seconds a day. His first sea clock, H1, used two linked swinging balances so a ship's motion would not throw it off.",
+      "example": "On a trial home from Lisbon he correctly said a headland was the Lizard, not the Start: the ship was 60 miles off course. He later built H4, which looked like a large pocket watch but ticked five times a second. His son William took it to sea in 1761 and used it to predict landfall at Madeira earlier than the crew expected."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Meet the test, then change the terms?",
+      "text": "On 9 July 1714 Queen Anne approved an act offering a public reward of £20,000 — at least £1.5 million today — for discovering the longitude at sea. In 1765 the Board confirmed that H4 had kept time within the 1714 Act's most stringent limits. It recommended £10,000 once Harrison showed how H4 worked, and the rest (minus earlier payments) only after other makers could build similar timekeepers.",
+      "example": "Harrison's side said the full reward was already due under the 1714 Act and that the Board had changed the rules after he succeeded. Those terms became law in a new Longitude Act on 10 May 1765.",
+      "why": {
+        "q": "Why would the Board care whether someone else could copy H4?",
+        "a": "A navy cannot depend on one watch from one workshop. They needed a method ships could actually use — and they wanted the design shared."
+      },
+      "examples_by_interest": {
+        "business": "Say you invent a cheaper battery and win a prize that pays only after rivals can make it too. That protects the buyer, who needs supply at scale, but it taxes your secrecy and first-mover reward — the same tension Harrison hit."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📜",
+      "title": "Not the only clock in the sky",
+      "text": "Harrison had been the only serious contender for years, but by the 1760s two sky-based rivals were ready too: lunar distances, and the moons of Jupiter used as a celestial clock. On the Barbados trial, astronomer Nevil Maskelyne sailed ahead to find the island's longitude from Jupiter's satellites, so both sky methods could be judged beside H4.",
+      "example": "Maskelyne later tested H4 on land at Greenwich for 10 months; it did not perform well there, he published, and Harrison challenged the results. The Board wanted the design published; Harrison wanted to protect his methods. Parliament later rewarded him, with the king's encouragement, but not all he felt he was owed. Early chronometers were costly, so uptake was slow until later makers simplified them around 1800."
+    },
+    {
+      "type": "think",
+      "question": "The Board wanted disclosure and copies; Harrison wanted payment under the original Act and to keep his methods private. If you were writing the prize rules, which side would you favor — and what would you lose?",
+      "nudges": [
+        "What goes wrong if the navy depends on one uncopyable watch?",
+        "What goes wrong if an inventor who already met the published test has the target moved?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Why does one hour of time difference equal 15° of longitude?",
+          "options": [
+            {
+              "text": "Earth rotates 360° in 24 hours, and 360 ÷ 24 = 15",
+              "correct": true,
+              "why": "Correct. That is why local noon versus reference time converts so cleanly into degrees."
+            },
+            {
+              "text": "There are 15 time zones in the world",
+              "correct": false,
+              "why": "The 15° figure comes from Earth's spin, not from counting modern time zones."
+            },
+            {
+              "text": "The Sun moves 15° across the sky each minute",
+              "correct": false,
+              "why": "Earth turns 15° each hour, not each minute. One degree takes about four minutes."
+            },
+            {
+              "text": "Greenwich is 15° from the equator",
+              "correct": false,
+              "why": "Greenwich is the zero line for longitude, not a 15° offset from the equator."
+            }
+          ]
+        },
+        {
+          "q": "What problem did H1's two linked balances solve?",
+          "options": [
+            {
+              "text": "A ship's rolling, which throws a pendulum clock off",
+              "correct": true,
+              "why": "Yes. The linked balances were meant to keep time even as the ship moved."
+            },
+            {
+              "text": "Finding north without a compass",
+              "correct": false,
+              "why": "H1 was a timekeeper for longitude, not a replacement compass."
+            },
+            {
+              "text": "Measuring how high the Sun was at noon",
+              "correct": false,
+              "why": "Local noon still came from the Sun. H1's job was to remember the time at the reference place."
+            },
+            {
+              "text": "Translating degrees into miles",
+              "correct": false,
+              "why": "The balances were a mechanical answer to motion at sea, not a unit converter."
+            }
+          ]
+        },
+        {
+          "q": "After H4 met the 1714 Act's toughest limit, what did the Board require before the second half of the money?",
+          "options": [
+            {
+              "text": "Proof that other makers could produce similar timekeepers",
+              "correct": true,
+              "why": "Right. They would pay £10,000 after Harrison showed how H4 worked, and the rest only once others could copy it."
+            },
+            {
+              "text": "That Harrison hide the design forever",
+              "correct": false,
+              "why": "They wanted the opposite: he had to demonstrate the principles so the method could be shared."
+            },
+            {
+              "text": "A new trial using only Jupiter's moons",
+              "correct": false,
+              "why": "Jupiter's satellites were a rival method tested alongside H4, not a new condition for paying him."
+            },
+            {
+              "text": "That H4 tick only once a second",
+              "correct": false,
+              "why": "H4's fast tick — five times a second — was part of its design, not a problem the Board asked him to undo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Longitude is really a time comparison because…",
+        "Harrison's H1 and later H4 attacked the sea-clock problem by…",
+        "Even after H4 met the law's toughest limit, the Board wanted…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "D-i-emUOTfk",
+    "title": "Did We Find Longitude Thanks To A...Clock?",
+    "channel": "SciShow",
+    "duration_sec": 606,
+    "start": 8,
+    "end": 564,
+    "why": "SciShow shows why longitude is a time problem, Harrison's clocks, and why the Board paid in stages. Clipped past the ads. It cites a 5-second Jamaica figure we omit."
+  },
+  "sources": [
+    {
+      "title": "What is longitude?",
+      "publisher": "Royal Museums Greenwich",
+      "url": "https://www.rmg.co.uk/stories/time/what-longitude",
+      "supports": "Latitude from the Sun or pole star versus longitude from a chosen meridian through Greenwich; local noon when the Sun is highest; Earth rotates 360° in 24 hours so one hour equals 15° of longitude, or 1° every four minutes; the difficult part is knowing the time at the reference location."
+    },
+    {
+      "title": "What made the search for longitude so important?",
+      "publisher": "Royal Museums Greenwich",
+      "url": "https://www.rmg.co.uk/stories/time/what-made-search-longitude-so-important",
+      "supports": "On 22 October 1707 five of Admiral Sir Cloudesley Shovell's ships struck rocks off the Isles of Scilly; four went down and more than 1,400 men including the admiral perished, from navigational errors; long voyages also killed crews through disease, notably scurvy; known safe routes helped pirates and privateers; Queen Anne gave royal assent on 9 July 1714 to the Act for Providing a Publick Reward…; the £20,000 reward would be worth at least £1,500,000 today."
+    },
+    {
+      "title": "Longitude found: the story of Harrison's timekeepers",
+      "publisher": "Royal Museums Greenwich",
+      "url": "https://www.rmg.co.uk/stories/time/harrisons-clocks-longitude-problem",
+      "supports": "Harrison the self-taught carpenter-clockmaker; mid-1720s longcase clocks to one second a month; target of three seconds a day; H1's two interconnected balances; Lizard vs Start, 60 miles off course; H4 a large pocket watch ticking five times a second; 1761 Jamaica trial, William's Madeira prediction; Board decided that test was not sufficient; rival methods of lunar distances and Jupiter's satellites; Maskelyne as astronomer on the Barbados trial to find the island's longitude from Jupiter's satellites; February 1765 finding that H4 met the 1714 Act's most stringent limits; £10,000 after demonstrating principles and the rest once others could make similar timekeepers; Harrisons felt the rules had been changed; new Longitude Act of 10 May 1765; Maskelyne's 10-month Greenwich test in which H4 did not perform well; Parliament later rewarded Harrison but not all he felt he was owed; expensive early chronometers and slower uptake until simpler, cheaper designs in the early 1800s."
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "id": "history-longitude-prize-adult",
+  "topic": "history",
+  "subject": "longitude-prize",
+  "level": "adult",
+  "title": "Time Against the Sea: The Longitude Problem",
+  "emoji": "🕰️",
+  "summary": "East-west position is a time comparison. Britain bought a solution with a prize, then argued over whether a working watch counted if nobody else could build it.",
+  "minutes": 8,
+  "date_added": "2026-11-08",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why is longitude equivalent to a time difference?",
+      "answer": "Longitude measures displacement along Earth's daily rotation. The gap between local noon and reference time converts at 15° per hour (360°/24), or 1° every four minutes."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why were good land clocks still useless for longitude at sea?",
+      "answer": "They could not hold reference time aboard a swaying ship in changing temperature and salt air, so sailors lost one half of the comparison."
+    },
+    {
+      "id": "k3",
+      "prompt": "What conflict followed H4 meeting the 1714 Act's strictest limit?",
+      "answer": "The Board conditioned the rest of the money on disclosure and proof that others could build similar timekeepers; Harrison argued that changed the original terms after he had already succeeded."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "❓",
+      "title": "Where you are is when you are",
+      "text": "The most practical way to know how far east or west you are is to know what time it is somewhere else. For centuries, leading scientists bet that astronomy — Jupiter's moons, the Moon's place among the stars — would supply that second time, because they doubted any clock could keep it on a ship. A self-taught carpenter built one anyway. Then came the harder institutional question: does a working one-off count as a solution?"
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "It is local noon (the Sun is at its highest). Your chronometer, set to Greenwich, reads 2:00 p.m. How many degrees west of Greenwich are you?",
+      "estimate": {
+        "min": 0,
+        "max": 90,
+        "step": 5,
+        "unit": "°",
+        "answer": 30
+      },
+      "reveal": "30°. Earth turns 360° in 24 hours, so 15° per hour. Two hours × 15° = 30° west. The tempting error is to read the '2' as 2°.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "🌐",
+      "title": "A comparison, not a landmark",
+      "text": "Latitude has a physical zero — the equator — and can be read from the Sun or pole star. Longitude does not. It is an angle east or west of a chosen meridian (Greenwich later became the usual zero; London, Paris and other cities appeared on charts). Because longitude runs with Earth's rotation, the difference in local solar time is the difference in longitude: 360° in 24 hours, or 15° per hour, or 1° every four minutes. Local noon is when the Sun is highest. The unsolved half was knowing, at that same moment, the time at the reference meridian.",
+      "example": "If the Sun says it is local noon and a Greenwich-set clock reads 2 p.m., the two-hour gap is 30° west.",
+      "why": {
+        "q": "Why is the reference time the hard half?",
+        "a": "You can mark local noon from the sky wherever you are. What you cannot see in the sky is what time it is in Greenwich — unless you carry that time with you, or watch a predicted celestial event."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📉",
+      "title": "A prize with a popular origin story",
+      "text": "Getting longitude wrong killed people and money. On 22 October 1707, five of Admiral Shovell's ships hit the Scillies; four sank and more than 1,400 men, including Shovell, died from navigational errors. Longer voyages also bred disease, especially scurvy. Hugging known 'safe' tracks made ships easier prey for pirates. Spain had offered an incentive as early as 1567; the Dutch and others followed. Britain's turn came on 9 July 1714, when Queen Anne assented to an act offering a public reward of £20,000 (at least £1.5 million today).",
+      "example": "The tidy story that Scilly forced Parliament's hand is weaker than it looks. Royal Museums Greenwich notes no clear public outcry after 1707; the Act followed lobbying by mathematicians such as William Whiston."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔭",
+      "title": "Team sky versus team clock",
+      "text": "Galileo saw, in 1610, that Jupiter's moons could serve as a celestial timekeeper visible from different places at once. He tried to sell the method to Spain and then the Dutch; the practical barriers won. A century later Newton still judged that 'by reason of the length of Telescopes requisite to observe them & the motion of a ship at sea, those Eclipses cannot yet be there observed.' By the 1760s a second astronomical scheme, lunar distances, was ready for sea trial beside any clock.",
+      "example": "On the Barbados trial, Nevil Maskelyne sailed ahead to fix the island's longitude from Jupiter's satellites, so the sky methods and Harrison's H4 could be scored against the same ground truth."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚙️",
+      "title": "Harrison's detour through a watch",
+      "text": "John Harrison, a carpenter and self-taught clockmaker, first built land clocks in the mid-1720s that lost about one second a month. For longitude he wanted a portable timekeeper good to three seconds a day. H1 used two linked swinging balances so ship motion would not wreck the period the way a pendulum's swing would. H2 was finished but never trialled after he found a fundamental flaw. H3, begun in 1740, occupied him for 19 years and still struggled. The breakthrough was not a bigger clock.",
+      "example": "After a 1736 Lisbon trial — outbound rough, better on the return — he correctly called a headland the Lizard rather than the Start, 60 miles off course. Around 1751–52 a watch he commissioned from John Jefferys, with a new kind of balance, worked so well that he folded the idea into H4, a large pocket watch that ticks five times a second. In 1761 his son William took H4 toward Jamaica and predicted an earlier landfall at Madeira than the crew expected. The Board still judged that first Atlantic test insufficient."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏛️",
+      "title": "A solution is not the same as a method",
+      "text": "In February 1765 the Board agreed H4 had kept time within the 1714 Act's most stringent limits. It recommended £10,000 once Harrison demonstrated H4's principles, and the remaining £10,000 (less sums already paid) only after other makers produced similar timekeepers. The Harrisons said the original Act already entitled them to the full reward and that the rules had been changed after the fact. Those conditions became law on 10 May 1765.",
+      "example": "Maskelyne then ran a 10-month land test at Greenwich; H4 'did not perform well,' he published, and Harrison disputed the results. The commissioners wanted the design shared; Harrison wanted it protected. Parliament later paid him — with the king's encouragement — generous compensation, but not all he felt he was owed. Early marine chronometers were expensive, so rollout was slow until later makers simplified the designs in the early 1800s.",
+      "why": {
+        "q": "Was the Board moving the goalposts, or doing its actual job?",
+        "a": "Both readings have force. Paying for one uncopyable watch would not equip a fleet; requiring disclosure and replicas after the accuracy test had been met did look, to Harrison, like a new contract."
+      },
+      "examples_by_interest": {
+        "business": "Say you fund a prize for a cheaper battery. Paying only after competitors can manufacture it protects scale and second sources, but it taxes the inventor's secrecy and first-mover reward — the same trade-off the Board and Harrison hit."
+      }
+    },
+    {
+      "type": "think",
+      "question": "If you were drafting the 1714 Act today, would you pay for a single prototype that meets the accuracy test, or require a manufacturable, disclosed method? What does each rule optimize — and what does it punish?",
+      "nudges": [
+        "Think like a navy that needs spares, training, and more than one workshop.",
+        "Think like an inventor who just beat a test the law itself wrote, after decades of work."
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What conversion turns a time difference into longitude?",
+          "options": [
+            {
+              "text": "15° of longitude per hour of difference between local noon and reference time",
+              "correct": true,
+              "why": "Yes. 360° in 24 hours is 15° per hour, or 1° every four minutes."
+            },
+            {
+              "text": "One degree of longitude per hour, matching time zones",
+              "correct": false,
+              "why": "Each hour is 15°, not 1°. Modern hour-wide time zones are a later convenience built on that 15° slice."
+            },
+            {
+              "text": "60° of longitude per minute of clock error",
+              "correct": false,
+              "why": "Earth turns one degree about every four minutes, so a minute of clock error is a fraction of a degree, not 60°."
+            },
+            {
+              "text": "Longitude equals the Sun's altitude at noon",
+              "correct": false,
+              "why": "The Sun's noon altitude is a latitude cue, not a longitude one."
+            }
+          ]
+        },
+        {
+          "q": "Why did Newton (and others) doubt that Jupiter's moons would solve longitude on a ship?",
+          "options": [
+            {
+              "text": "The telescopes were too long, and a ship's motion made the eclipses impractical to observe",
+              "correct": true,
+              "why": "That is Newton's objection as quoted by Royal Museums Greenwich: long telescopes plus ship motion."
+            },
+            {
+              "text": "Jupiter is only visible from Greenwich",
+              "correct": false,
+              "why": "The appeal of the method was the opposite: the same eclipses can be seen from many places at once."
+            },
+            {
+              "text": "The moons had not yet been discovered",
+              "correct": false,
+              "why": "Galileo found them in 1610, a century before Newton's remark."
+            },
+            {
+              "text": "Their period changes every hour",
+              "correct": false,
+              "why": "The method treated the moons as a predictable celestial clock. The barrier was observing them at sea."
+            }
+          ]
+        },
+        {
+          "q": "After H4 met the 1714 Act's most stringent limits, what did the Board recommend?",
+          "options": [
+            {
+              "text": "£10,000 after Harrison showed how H4 worked, and the rest only once others could make similar timekeepers",
+              "correct": true,
+              "why": "Correct. They wanted disclosure plus proof it was not a one-off, terms the Harrisons said changed the original Act."
+            },
+            {
+              "text": "Immediate payment of the full £20,000 with no conditions",
+              "correct": false,
+              "why": "That is what the Harrisons argued the 1714 Act already required — and what the Board declined to do."
+            },
+            {
+              "text": "No payment unless H4 also tracked Jupiter's moons",
+              "correct": false,
+              "why": "Jupiter's satellites were a rival method, not an extra requirement piled onto the watch."
+            },
+            {
+              "text": "That Harrison destroy H1 through H3",
+              "correct": false,
+              "why": "The fight was about disclosing H4 and showing it could be copied, not about scrapping the earlier machines."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Longitude is really a time comparison because…",
+        "Harrison's path from H1 to H4 mattered because…",
+        "The fight after H4 met the legal test was really about…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "1o3_w0Ypb78",
+    "title": "How We Solved the Greatest Riddle In Navigation",
+    "channel": "Be Smart",
+    "duration_sec": 856,
+    "start": 0,
+    "end": 793,
+    "why": "Joe Hanson links Earth's spin to longitude and to GPS. Clipped before the Patreon closer. It rounds the 1707 deaths high and treats Harrison as simply winning the prize."
+  },
+  "sources": [
+    {
+      "title": "What is longitude?",
+      "publisher": "Royal Museums Greenwich",
+      "url": "https://www.rmg.co.uk/stories/time/what-longitude",
+      "supports": "Longitude as east-west angle from the Greenwich meridian, historically also measured from London, Paris and other places; latitude's physical zero at the equator versus longitude's lack of a natural reference; local noon when the Sun is highest; 360° in 24 hours so one hour equals 15° of longitude, or 1° every four minutes; most schemes required knowing local time and reference time at once."
+    },
+    {
+      "title": "What made the search for longitude so important?",
+      "publisher": "Royal Museums Greenwich",
+      "url": "https://www.rmg.co.uk/stories/time/what-made-search-longitude-so-important",
+      "supports": "Shipwrecks from navigational error and disease on long voyages, notably scurvy; 22 October 1707 Scilly disaster: five of Shovell's ships struck, four sank, more than 1,400 men including the admiral died; no evidence of a public outcry driving government action, and the Act instead followed lobbying by mathematicians such as William Whiston; predictable safe routes aided pirates; Spain's 1567 incentive and later Dutch and other rewards; Galileo's 1610 discovery of Jupiter's moons as a celestial timekeeper and failed pitches to Spain and the Dutch; Newton's remark that long telescopes and ship motion made those eclipses unobservable at sea; Queen Anne's 9 July 1714 assent and a £20,000 reward worth at least £1,500,000 today."
+    },
+    {
+      "title": "Longitude found: the story of Harrison's timekeepers",
+      "publisher": "Royal Museums Greenwich",
+      "url": "https://www.rmg.co.uk/stories/time/harrisons-clocks-longitude-problem",
+      "supports": "Harrison as carpenter and self-taught clockmaker; mid-1720s longcase clocks to one second a month and a target of three seconds a day; Halley referring him to George Graham; H1's linked balances, 1735 London debut, 1736 Lisbon trial on Centurion and return on Orford, Lizard vs Start (60 miles off course); 30 June 1737 meeting and £500 (£250 up front); H2 finished but never trialled after a fundamental flaw; H3 begun 1740 and worked on for 19 years; Jefferys watch around 1751–52 informing H4, which ticks five times a second; 1761 Jamaica permission for William, Madeira prediction; Board judged that test insufficient; lunar distances and Jupiter's satellites as 1760s rivals; Maskelyne to Barbados to fix longitude by Jupiter's satellites; February 1765 confirmation H4 met the Act's most stringent limits and the split £10,000 / remaining £10,000 recommendation; Harrisons' view that the rules had changed; Longitude Act of 10 May 1765; 5 May 1766 sealed-box delivery to Maskelyne, 10-month test that 'did not perform well,' publication and Harrison's challenge; disclose-versus-protect conflict; parliamentary compensation, not all he felt owed; slow, expensive early rollout and simpler cheaper copies by the early 1800s."
+    }
+  ]
+}

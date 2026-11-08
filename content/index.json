@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "topics": [
   {
    "id": "history",
@@ -469,6 +469,17 @@
     "kid": "tech-fiber-optics-kid"
    },
    "dinner_question": "If you had to explain to a friend why blinking light inside glass can beat electricity in copper for a trip across the ocean, what would you say first?"
+  },
+  {
+   "date": "2026-11-16",
+   "topic": "history",
+   "title": "The clock that found longitude at sea",
+   "packs": {
+    "adult": "history-longitude-prize-adult",
+    "teen": "history-longitude-prize-teen",
+    "kid": "history-longitude-prize-kid"
+   },
+   "dinner_question": "Harrison built a clock that worked; the Board wanted copies other people could make. When you invent something, what matters more — that it works once, or that other people can build it too?"
   }
  ],
  "series": [
@@ -889,6 +900,45 @@
    "minutes": 8,
    "date_added": "2026-10-30",
    "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "history-longitude-prize-kid",
+   "topic": "history",
+   "level": "kid",
+   "title": "The Clock That Found the Way",
+   "emoji": "🧭",
+   "subject": "longitude-prize",
+   "summary": "Sailors could tell how far north they were. East and west needed a clock that could keep time on a bouncing ship.",
+   "minutes": 6,
+   "date_added": "2026-11-08",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "history-longitude-prize-teen",
+   "topic": "history",
+   "level": "teen",
+   "title": "The Prize for Knowing East from West",
+   "emoji": "⏱️",
+   "subject": "longitude-prize",
+   "summary": "Longitude is a time difference. Keeping that time on a moving ship took a carpenter decades — and a board that wanted copies, not a one-off.",
+   "minutes": 7,
+   "date_added": "2026-11-08",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "history-longitude-prize-adult",
+   "topic": "history",
+   "level": "adult",
+   "title": "Time Against the Sea: The Longitude Problem",
+   "emoji": "🕰️",
+   "subject": "longitude-prize",
+   "summary": "East-west position is a time comparison. Britain bought a solution with a prize, then argued over whether a working watch counted if nobody else could build it.",
+   "minutes": 8,
+   "date_added": "2026-11-08",
+   "cards": 10,
    "keys_count": 3
   },
   {
