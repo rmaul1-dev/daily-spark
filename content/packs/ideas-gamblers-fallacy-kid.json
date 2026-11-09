@@ -1,0 +1,223 @@
+{
+  "topic": "ideas",
+  "subject": "gamblers-fallacy",
+  "date_added": "2026-11-09",
+  "id": "ideas-gamblers-fallacy-kid",
+  "level": "kid",
+  "title": "The Coin That Cannot Remember",
+  "emoji": "🪙",
+  "summary": "After a streak, is the other side \"due\"? Why a coin has no memory.",
+  "minutes": 6,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "A fair coin lands on heads 4 times in a row. What is the chance the next flip is heads?",
+      "answer": "It is still 1 in 2. A coin has no memory, so earlier flips do not change the next one.",
+      "options": [
+        {
+          "text": "Still 1 in 2, the same as tails",
+          "correct": true
+        },
+        {
+          "text": "Less than tails, because tails is due"
+        },
+        {
+          "text": "More than tails, because heads is hot"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "What does it mean that coin flips are independent?",
+      "answer": "Each flip is not changed by the flips before it. Every flip starts fresh.",
+      "options": [
+        {
+          "text": "Each flip is not changed by earlier flips",
+          "correct": true
+        },
+        {
+          "text": "Each flip must be different from the last"
+        },
+        {
+          "text": "Each flip is chosen by the coin's mood"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "When might a long streak be a clue that something is wrong?",
+      "answer": "If a coin landed on heads 21 times in a row, it might be an unfair coin. Then heads is a smart guess.",
+      "options": [
+        {
+          "text": "When the coin might be unfair or rigged",
+          "correct": true
+        },
+        {
+          "text": "When the coin is a fair coin"
+        },
+        {
+          "text": "When you flip it with your left hand"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🪙",
+      "title": "Heads, heads, heads…",
+      "text": "Flip a fair coin three times. It lands on heads every time! Now you flip it a fourth time. Do you think tails is more likely this time? Lots of people feel that tails must be \"due.\""
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "A fair coin lands on heads 3 times in a row. How likely is heads on the next flip?",
+      "options": [
+        {
+          "text": "Less likely than tails"
+        },
+        {
+          "text": "Just as likely as tails",
+          "correct": true
+        },
+        {
+          "text": "More likely than tails"
+        }
+      ],
+      "reveal": "Just as likely. Each flip has a 1 in 2 chance of heads, no matter what came before.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "🧠",
+      "title": "A coin has no memory",
+      "text": "A fair coin has two sides. Every flip has a 1 in 2 chance of heads. The coin does not remember the last flips. So the flips are independent, which means one flip does not change the next one.",
+      "example": "Four heads in a row? The next flip is still 1 in 2.",
+      "why": {
+        "q": "Why can't a coin be \"due\" for tails?",
+        "a": "The coin does not remember its past flips. Each flip starts with the same 1 in 2 chance."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Two rare things, same chance",
+      "text": "Five heads in a row has a chance of 1 in 32. Four heads and then a tails also has a chance of 1 in 32. They are equally likely! Once four flips are done, only the fifth flip is still a mystery. That one is 1 in 2."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎡",
+      "title": "A famous streak in 1913",
+      "text": "In 1913, a ball landed on black 26 times in a row on a spinning wheel at a casino in Monte Carlo. That is super rare, about 1 in 68 million. People kept betting on red. They thought red had to come next. They lost millions of francs."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎒",
+      "title": "Even kids fall for it",
+      "text": "In one study, students heard that a coin landed on heads three times. They were asked about the fourth flip. About 35 out of 100 fifth graders said heads was less likely than tails. Older students did this less often. None of the college students did."
+    },
+    {
+      "type": "idea",
+      "emoji": "🕵️",
+      "title": "When a streak is a clue",
+      "text": "Now for a twist. Say a coin lands on heads 21 times in a row. That is so rare that the coin might be unfair or rigged. Then heads is a smart guess. A fair coin has no memory. But a streak can teach you that the coin is not fair.",
+      "example": "Same with a die: a fair die has a 1 in 6 chance for each number on every roll."
+    },
+    {
+      "type": "think",
+      "question": "Your friend rolls a die and gets a six three times in a row. She says, \"No more sixes for a while!\" What would you tell her?",
+      "nudges": [
+        "Does the die remember its last rolls?",
+        "What is the chance of a six on the next roll?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "A fair coin lands on tails 5 times in a row. What is the chance of tails on the next flip?",
+          "options": [
+            {
+              "text": "1 in 2",
+              "correct": true,
+              "why": "Yes! The coin has no memory, so it is still 1 in 2."
+            },
+            {
+              "text": "Less than 1 in 2",
+              "correct": false,
+              "why": "Not quite. The coin does not owe you a heads."
+            },
+            {
+              "text": "More than 1 in 2",
+              "correct": false,
+              "why": "Not quite. A streak does not make the coin hot."
+            }
+          ]
+        },
+        {
+          "q": "What does independent mean for coin flips?",
+          "options": [
+            {
+              "text": "One flip does not change the next flip",
+              "correct": true,
+              "why": "Right! Every flip starts fresh."
+            },
+            {
+              "text": "The flips must take turns",
+              "correct": false,
+              "why": "Not quite. The sides do not take turns."
+            },
+            {
+              "text": "The coin picks the side it likes",
+              "correct": false,
+              "why": "Not quite. A fair coin has no favorite side."
+            }
+          ]
+        },
+        {
+          "q": "Which is a good reason to doubt a coin?",
+          "options": [
+            {
+              "text": "It lands on heads 21 times in a row",
+              "correct": true,
+              "why": "Yes. That is so rare that the coin may be unfair."
+            },
+            {
+              "text": "It lands on heads once",
+              "correct": false,
+              "why": "One flip tells you almost nothing."
+            },
+            {
+              "text": "It lands on tails after heads",
+              "correct": false,
+              "why": "That happens all the time with a fair coin."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "A coin has no memory, so…",
+        "The streak at Monte Carlo shows…",
+        "A long streak can be a clue when…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Gambler's fallacy",
+      "publisher": "Wikipedia (encyclopedia article with cited research)",
+      "url": "https://en.wikipedia.org/wiki/Gambler%27s_fallacy",
+      "supports": "Next flip of a fair coin is 1/2 after any streak and flips are independent; five heads in a row and four heads then tails are each 1/32; the Monte Carlo Casino roulette ball fell on black 26 times in a row on 18 August 1913, about 1 in 68.4 million, and gamblers lost millions of francs betting against black; the Fischbein and Schnarch study (35% of 5th graders said heads was less likely after three heads, none of the college students); a very long streak such as 21 heads can suggest a biased coin; each die roll has probability 1/6."
+    },
+    {
+      "title": "Why we gamble like monkeys",
+      "publisher": "BBC Future (Tom Stafford, 2015)",
+      "url": "https://www.bbc.com/future/article/20150127-why-we-gamble-like-monkeys",
+      "supports": "Gambler's fallacy and the 1913 Monte Carlo streak of 26 blacks; the chance of another heads after 10 heads in a row is still 50:50."
+    }
+  ]
+}

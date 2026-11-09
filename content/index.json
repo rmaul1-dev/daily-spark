@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "topics": [
   {
    "id": "history",
@@ -480,6 +480,17 @@
     "kid": "history-longitude-prize-kid"
    },
    "dinner_question": "Harrison built a clock that worked; the Board wanted copies other people could make. When you invent something, what matters more — that it works once, or that other people can build it too?"
+  },
+  {
+   "date": "2026-11-17",
+   "topic": "ideas",
+   "title": "The gambler's fallacy: why a coin has no memory",
+   "packs": {
+    "adult": "ideas-gamblers-fallacy-adult",
+    "teen": "ideas-gamblers-fallacy-teen",
+    "kid": "ideas-gamblers-fallacy-kid"
+   },
+   "dinner_question": "Think of a time you felt something was \"due\" to happen, like a win, a hit or a change in luck. Looking back, was it really due, or did it just feel that way?"
   }
  ],
  "series": [
@@ -2678,6 +2689,45 @@
    "summary": "How arbitrary starting points bias estimates, why incentives, warnings and expertise don't fix it, what it means in negotiation, and where the evidence is shakier.",
    "minutes": 8,
    "date_added": "2026-11-01",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "ideas-gamblers-fallacy-kid",
+   "topic": "ideas",
+   "level": "kid",
+   "title": "The Coin That Cannot Remember",
+   "emoji": "🪙",
+   "subject": "gamblers-fallacy",
+   "summary": "After a streak, is the other side \"due\"? Why a coin has no memory.",
+   "minutes": 6,
+   "date_added": "2026-11-09",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "ideas-gamblers-fallacy-teen",
+   "topic": "ideas",
+   "level": "teen",
+   "title": "Why \"Due\" Is a Myth",
+   "emoji": "🎲",
+   "subject": "gamblers-fallacy",
+   "summary": "Streaks feel like they must even out. They don't. Where that instinct fails, and where it's right.",
+   "minutes": 7,
+   "date_added": "2026-11-09",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "ideas-gamblers-fallacy-adult",
+   "topic": "ideas",
+   "level": "adult",
+   "title": "The Gambler's Fallacy: When \"Due\" Meets Independence",
+   "emoji": "🎰",
+   "subject": "gamblers-fallacy",
+   "summary": "Why streak-balancing feels right, the field evidence that experts do it, and the cases where 'due' is correct.",
+   "minutes": 8,
+   "date_added": "2026-11-09",
    "cards": 10,
    "keys_count": 3
   }

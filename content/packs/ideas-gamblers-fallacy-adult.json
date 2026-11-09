@@ -1,0 +1,223 @@
+{
+  "topic": "ideas",
+  "subject": "gamblers-fallacy",
+  "date_added": "2026-11-09",
+  "id": "ideas-gamblers-fallacy-adult",
+  "level": "adult",
+  "title": "The Gambler's Fallacy: When \"Due\" Meets Independence",
+  "emoji": "🎰",
+  "summary": "Why streak-balancing feels right, the field evidence that experts do it, and the cases where 'due' is correct.",
+  "minutes": 8,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why is the gambler's fallacy a fallacy, and what is the key distinction in the coin example?",
+      "answer": "For independent events the next outcome is unchanged by the past. A streak is improbable before it starts, but after it occurs the next flip is still 1/2."
+    },
+    {
+      "id": "k2",
+      "prompt": "How can proportions converge toward 50/50 without 'correcting' a streak?",
+      "answer": "The proportion approaches 50-50, but the gap between heads and tails counts does not tend to shrink toward zero."
+    },
+    {
+      "id": "k3",
+      "prompt": "Where does 'due' reasoning appear in professional decisions, and when is streak reasoning legitimate?",
+      "answer": "Asylum judges and umpires decided less often like the previous cases. It is legitimate with dependent draws, or when a streak signals a biased process."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🎡",
+      "title": "1 in 68.4 million, and the bets that followed",
+      "text": "At Monte Carlo on August 18, 1913, a roulette ball fell on black 26 times in a row. On a single-zero wheel that run has a probability of about 1 in 68.4 million, assuming an unbiased wheel. As it lengthened, gamblers kept betting against black and lost millions of francs. The wheel was not building a debt."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Researchers studied U.S. asylum judges. After a judge granted two cases in a row, how did the likelihood of granting the third change?",
+      "options": [
+        {
+          "text": "No change; judges decide on the merits"
+        },
+        {
+          "text": "About 5.5% less likely",
+          "correct": true
+        },
+        {
+          "text": "About 5.5% more likely, from momentum"
+        },
+        {
+          "text": "About 25% less likely"
+        }
+      ],
+      "reveal": "The chance of a third grant was about 5.5% lower after two successive grants, a pattern consistent with the gambler's fallacy.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "🪙",
+      "title": "Independence, then the arithmetic",
+      "text": "Before any flips, five heads in a row has probability 1/32. After four heads, those flips have probability 1, and the next is 1/2. \"Five heads\" and \"four heads then tails\" are each 1/32. Likewise 20 heads then a head and 20 heads then a tail are each 1 in 2,097,152. The error is conditioning on rarity that has already been paid.",
+      "why": {
+        "q": "Why does the improbability of a long streak not lower the next outcome's odds?",
+        "a": "The improbable part is the earlier flips, which have already happened. The next flip is independent, so it remains 1/2."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📈",
+      "title": "Large numbers don't correct",
+      "text": "The intuition is half right: the proportion of heads does approach 50-50 over many flips. But the gap between the heads and tails counts does not tend to shrink toward zero. Convergence comes from dilution, not compensation. Tversky and Kahneman's account is that people expect short runs to be representative of the long run, so a streak seems to demand a correction. In an invented coin-toss sequence, people keep heads and tails closer to even than chance would."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Experts do it with real stakes",
+      "text": "Chen, Moskowitz and Shue found negative autocorrelation in decisions unrelated to the merits of the cases, in asylum rulings, loan application reviews and MLB pitch calls. Per one summary, judges were 5.5% less likely to grant after two grants, and umpires 1.3% less likely to call a strike after two strikes. The effect was stronger for less experienced decision-makers, after longer streaks and under weaker incentives for accuracy."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔍",
+      "title": "When \"due\" is rational",
+      "text": "Streak reasoning is correct when draws are dependent. Pull an ace from a deck and keep it out, and the next ace falls from 4/52 (7.69%) to 3/51 (5.88%), which is why card counting works. It can also be rational if the process may be biased: with a 1% prior on a coin that lands heads 60% of the time, 21 straight heads lifts the chance it's biased to about 32%. Then the smart bet is heads.",
+      "why": {
+        "q": "Why can a long streak of heads justify betting on heads?",
+        "a": "Because a streak can be evidence the coin is biased. That is learning about the process, not expecting a correction."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🧠",
+      "title": "Knowing doesn't fix it",
+      "text": "In a 1967 card-guessing study, participants told about the gambler's fallacy and instructed not to rely on runs still based their guesses on run length. Its mirror image is the hot hand: expecting a streak to continue. One view is that people do this for human performance because they don't see skilled action as random. In monkeys, it showed up even when rewards were a 50:50 chance, perhaps because in much of life, successes really are linked."
+    },
+    {
+      "type": "think",
+      "question": "You run a team that reviews loan files in batches. What process changes could reduce streak-correcting, and what does each cost?",
+      "nudges": [
+        "Would you shuffle the order, hide the previous decision, or audit decisions after streaks?",
+        "How would you tell a real change in applicant quality from a bias?",
+        "Could blind review slow decisions or hide helpful context?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "A fair coin has landed heads 20 times. Which statement is correct?",
+          "options": [
+            {
+              "text": "Heads is exactly as likely as tails on the next flip",
+              "correct": true,
+              "why": "Right. Independence leaves the next flip at 1/2."
+            },
+            {
+              "text": "Tails is more likely, since the streak is unlikely to continue",
+              "correct": false,
+              "why": "That is the gambler's fallacy."
+            },
+            {
+              "text": "Heads is more likely, since the streak shows luck",
+              "correct": false,
+              "why": "Hot-hand reasoning needs a reason to think the coin is biased, not just a streak on a fair coin."
+            },
+            {
+              "text": "The odds are 1 in 2,097,152 for heads",
+              "correct": false,
+              "why": "That was the chance of 21 heads before any flips, not the next flip."
+            }
+          ]
+        },
+        {
+          "q": "Why does the law of large numbers not justify expecting a correction?",
+          "options": [
+            {
+              "text": "The proportion converges, but the gap in counts does not tend to shrink to zero",
+              "correct": true,
+              "why": "Right. Convergence comes from dilution, not compensation."
+            },
+            {
+              "text": "Large samples change the probability of each flip",
+              "correct": false,
+              "why": "The probability of each fair flip doesn't change."
+            },
+            {
+              "text": "It only applies to casinos",
+              "correct": false,
+              "why": "It applies to any repeated independent trials."
+            },
+            {
+              "text": "It says streaks end within 20 flips",
+              "correct": false,
+              "why": "It says nothing like that."
+            }
+          ]
+        },
+        {
+          "q": "In which case is expecting the past to affect the future rational?",
+          "options": [
+            {
+              "text": "Drawing cards without replacement",
+              "correct": true,
+              "why": "Right. The deck changes after each draw."
+            },
+            {
+              "text": "A fair coin after four heads",
+              "correct": false,
+              "why": "Fair coin flips are independent."
+            },
+            {
+              "text": "A fair roulette wheel after a streak of black",
+              "correct": false,
+              "why": "Independent spins have no memory."
+            },
+            {
+              "text": "A fair die after a run of sixes",
+              "correct": false,
+              "why": "Each roll of a fair die is independent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The gambler's fallacy confuses…",
+        "Even experts show it because…",
+        "\"Due\" can be legitimate when…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "XA_0OMJjkxQ",
+    "title": "The Gambler's Fallacy is Really Odd",
+    "channel": "Up and Atom",
+    "duration_sec": 818,
+    "start": 0,
+    "end": 650,
+    "why": "The 1913 Monte Carlo streak, independence and the law of small numbers. Clipped before the sponsor ad."
+  },
+  "sources": [
+    {
+      "title": "Gambler's fallacy",
+      "publisher": "Wikipedia (encyclopedia article with cited research)",
+      "url": "https://en.wikipedia.org/wiki/Gambler%27s_fallacy",
+      "supports": "Independence and 1/32 arithmetic; 21 heads = 1 in 2,097,152; Monte Carlo 18 August 1913 (26 blacks, about 1 in 68.4 million, millions of francs lost); proportion approaches 50-50 but the gap between counts does not tend toward zero; representativeness heuristic and invented sequences too close to 0.5; asylum judges 5.5% less likely after two grants and umpires 1.3% less likely after two strikes; cards without replacement 4/52 to 3/51 and card counting; 1% prior biased coin at 60% heads gives about 32% after 21 heads; Beach and Swensson 1967 warned group; hot hand vs gambler's fallacy and human performance (Ayton and Fischer)."
+    },
+    {
+      "title": "Decision-Making under the Gambler's Fallacy: Evidence from Asylum Judges, Loan Officers, and Baseball Umpires",
+      "publisher": "NBER (Chen, Moskowitz & Shue; Quarterly Journal of Economics, 2016)",
+      "url": "https://www.nber.org/papers/w22026",
+      "supports": "Abstract: negative autocorrelation unrelated to case merits in asylum decisions, loan reviews and umpire calls; consistent with the law of small numbers and gambler's fallacy; stronger among more moderate and less experienced decision-makers, after longer streaks and with weaker incentives for accuracy; sequential contrast cannot be ruled out."
+    },
+    {
+      "title": "Why we gamble like monkeys",
+      "publisher": "BBC Future (Tom Stafford, 2015)",
+      "url": "https://www.bbc.com/future/article/20150127-why-we-gamble-like-monkeys",
+      "supports": "Gambler's fallacy and the 1913 Monte Carlo streak; monkeys in a 50:50 reward task still tended to pick the previously winning option; successes in much of life are linked."
+    }
+  ]
+}

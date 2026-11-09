@@ -1,0 +1,202 @@
+{
+  "topic": "ideas",
+  "subject": "gamblers-fallacy",
+  "date_added": "2026-11-09",
+  "id": "ideas-gamblers-fallacy-teen",
+  "level": "teen",
+  "title": "Why \"Due\" Is a Myth",
+  "emoji": "🎲",
+  "summary": "Streaks feel like they must even out. They don't. Where that instinct fails, and where it's right.",
+  "minutes": 7,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why isn't tails \"due\" after a streak of heads from a fair coin?",
+      "answer": "Flips are independent, so the next flip is still 50/50. A streak is rare in advance, but the past flips are already known."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why do people believe streaks must balance out?",
+      "answer": "They expect short runs to look like the long-run average (the law of small numbers), so they think a streak has to be corrected."
+    },
+    {
+      "id": "k3",
+      "prompt": "When is \"due\" actually real?",
+      "answer": "When events are not independent, like drawing cards without putting them back, or when a streak suggests the coin or game is biased."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🎡",
+      "title": "26 blacks in a row",
+      "text": "On August 18, 1913, a roulette ball at the Monte Carlo Casino landed on black 26 times in a row. As the streak grew, gamblers kept betting on red, sure the wheel had to \"balance out.\" They lost millions of francs. What was their math missing?"
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "You flip a fair coin and get heads 20 times in a row. What is the chance, in percent, that flip number 21 is heads?",
+      "estimate": {
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "answer": 50
+      },
+      "reveal": "50%. Twenty heads then another head is exactly as likely as twenty heads then a tail: each is 0.5 to the 21st power, about 1 in 2,097,152.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "🪙",
+      "title": "Before vs. after the flips",
+      "text": "Before you start, five heads in a row has a probability of 1/32, about 3%. But after four heads, those four flips are no longer a mystery. Only the fifth is. \"5 heads\" and \"4 heads, then a tail\" are each 1/32, so the next flip is 1/2 either way.",
+      "why": {
+        "q": "Why is a streak rare in advance but not \"rare\" for the next flip?",
+        "a": "The rare part was getting the first flips. Once they are done, the next flip is still a fresh 1/2."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📉",
+      "title": "The wheel's real odds",
+      "text": "For a single-zero wheel with 18 black pockets out of 37, a run of 26 of one color (red or black) has a chance of 2 × (18/37)^26. That is about 1 in 68.4 million. Rare, yes. But the gamblers bet as if the wheel had a memory that would force red to come back."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧩",
+      "title": "The law of small numbers",
+      "text": "Tversky and Kahneman argued that people use a shortcut called representativeness: they expect even a short run of random results to look like the long-run average. So after many reds, black seems like the more \"representative\" next result. People asked to invent random coin tosses also keep the heads-to-tails ratio too close to 0.5.",
+      "why": {
+        "q": "Why does a short sequence not need to look 50/50?",
+        "a": "Small samples vary a lot. The expectation that every short run balances out is the mistake."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🎯",
+      "title": "Do the \"due\" math",
+      "text": "Say you win a game if you roll a 1 on a 16-sided die, and you get 16 rolls. Your chance of at least one win is 1 − (15/16)^16 = 64.39%. After one miss, with 15 rolls left, it is 1 − (15/16)^15 = 62.02%. Losing didn't make a win more likely. It left you fewer chances."
+    },
+    {
+      "type": "idea",
+      "emoji": "🃏",
+      "title": "When \"due\" is real",
+      "text": "Some things do have memory. Draw an ace from a deck and keep it out: the chance the next card is an ace falls from 4/52 (7.69%) to 3/51 (5.88%). That is how card counting works. And some games add a \"pity timer\" that improves loot box odds after many bad opens. In those, \"due\" is built in, but it can feed the belief that all random things are due."
+    },
+    {
+      "type": "think",
+      "question": "A friend says, \"I've lost 8 bets in a row, so my next one is more likely to win.\" Argue the case for why they might be wrong, then the case for when they might be right.",
+      "nudges": [
+        "What would you need to know about how the bets work?",
+        "Could the streak itself be a clue?",
+        "Does it matter if each bet is independent?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "After 4 heads in a row on a fair coin, what is the probability of heads on flip 5?",
+          "options": [
+            {
+              "text": "1/2",
+              "correct": true,
+              "why": "Right. Independence means the next flip is still 1/2."
+            },
+            {
+              "text": "1/32",
+              "correct": false,
+              "why": "1/32 was the chance of five heads before any flips. After four are done, the next is 1/2."
+            },
+            {
+              "text": "Less than 1/2, since tails is due",
+              "correct": false,
+              "why": "The coin has no memory, so tails isn't due."
+            },
+            {
+              "text": "More than 1/2, since heads is hot",
+              "correct": false,
+              "why": "A fair coin doesn't get hot either."
+            }
+          ]
+        },
+        {
+          "q": "Which situation is NOT an example of the gambler's fallacy?",
+          "options": [
+            {
+              "text": "Expecting a king to be less likely after kings are drawn and kept out of the deck",
+              "correct": true,
+              "why": "Right. Cards drawn without replacement change the odds."
+            },
+            {
+              "text": "Expecting black after a long run of red on a fair wheel",
+              "correct": false,
+              "why": "That is the fallacy: the wheel has no memory."
+            },
+            {
+              "text": "Expecting tails after four heads on a fair coin",
+              "correct": false,
+              "why": "That is the fallacy: independent flips."
+            },
+            {
+              "text": "Raising your bet on red after 10 blacks",
+              "correct": false,
+              "why": "That is the fallacy: independent spins."
+            }
+          ]
+        },
+        {
+          "q": "What is the main idea behind the law of small numbers?",
+          "options": [
+            {
+              "text": "People expect short runs to look like the long-run average",
+              "correct": true,
+              "why": "Right. That expectation leads to the false idea that streaks must be corrected."
+            },
+            {
+              "text": "Small groups always have the same results",
+              "correct": false,
+              "why": "Small samples actually vary a lot."
+            },
+            {
+              "text": "Large samples vary more than small ones",
+              "correct": false,
+              "why": "It is the reverse: small samples vary more."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The gambler's fallacy is…",
+        "A fair coin has no memory, so…",
+        "\"Due\" can be real when…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "f_MUjkr0yu4",
+    "title": "Gambler's Fallacy (explained in a minute) - Behavioural Finance",
+    "channel": "Sanlam Investments",
+    "duration_sec": 76,
+    "why": "A one-minute explainer using the coin example, with a note about why investors shouldn't treat a past run as a signal."
+  },
+  "sources": [
+    {
+      "title": "Gambler's fallacy",
+      "publisher": "Wikipedia (encyclopedia article with cited research)",
+      "url": "https://en.wikipedia.org/wiki/Gambler%27s_fallacy",
+      "supports": "Independence of coin flips; 1/32 for five heads vs four heads then tails; Monte Carlo 18 August 1913, 26 blacks, 2×(18/37)^26 or about 1 in 68.4 million on a single-zero wheel, gamblers lost millions of francs; the 16-sided die example (64.39% and 62.02%); representativeness and the law of small numbers, and people inventing coin tosses too close to 0.5; cards drawn without replacement (4/52 to 3/51) and card counting; loot box pity timers; 21 heads in a row has probability 1 in 2,097,152."
+    },
+    {
+      "title": "Why we gamble like monkeys",
+      "publisher": "BBC Future (Tom Stafford, 2015)",
+      "url": "https://www.bbc.com/future/article/20150127-why-we-gamble-like-monkeys",
+      "supports": "Streak at Monte Carlo on 18 August 1913 with 26 blacks, gamblers lost millions betting on red; coin flips are 50:50 after any streak; people tend to think independent events must even out."
+    }
+  ]
+}
