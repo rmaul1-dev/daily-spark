@@ -1,0 +1,248 @@
+{
+  "id": "civics-marbury-v-madison-kid",
+  "topic": "civics",
+  "subject": "marbury-v-madison",
+  "level": "kid",
+  "title": "The Case Where Losing Won",
+  "emoji": "⚖️",
+  "summary": "How a lost job paper in 1801 gave courts the power to say a law does not count.",
+  "minutes": 6,
+  "date_added": "2026-11-10",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is judicial review?",
+      "answer": "It is the power of courts to say a law does not count because it goes against the Constitution.",
+      "options": [
+        {
+          "text": "Courts can say a law does not count if it breaks the Constitution",
+          "correct": true
+        },
+        {
+          "text": "Courts can write brand new laws",
+          "correct": false
+        },
+        {
+          "text": "Courts can pick who is President",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Did William Marbury get his job in the end?",
+      "answer": "No. The court said he had a right to it, but it said it did not have the power to order it.",
+      "options": [
+        {
+          "text": "No. The court said it did not have the power to order it",
+          "correct": true
+        },
+        {
+          "text": "Yes. The court made Madison give him the job",
+          "correct": false
+        },
+        {
+          "text": "Yes. Jefferson changed his mind",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What is the highest law in the United States?",
+      "answer": "The Constitution. A law that goes against it does not count.",
+      "options": [
+        {
+          "text": "The Constitution",
+          "correct": true
+        },
+        {
+          "text": "Any law Congress passes",
+          "correct": false
+        },
+        {
+          "text": "Whatever the President says",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🏆",
+      "title": "Losing on purpose?",
+      "text": "Imagine you ask a ref to make a call. The ref says, \"You are right. But I am not allowed to make that call.\" Then that answer makes refs stronger for years to come. Something like that really happened in 1803."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "William Marbury asked the Supreme Court to help him get a job he had been given. What do you think happened?",
+      "options": [
+        {
+          "text": "The court made sure he got the job"
+        },
+        {
+          "text": "The court said he was right, but it could not order it",
+          "correct": true
+        },
+        {
+          "text": "The court said he was wrong"
+        }
+      ],
+      "reveal": "The court said Marbury was right. But it said the law it needed to help him broke the Constitution. So Marbury never got the job.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "📜",
+      "title": "A job on paper",
+      "text": "In 1801, President John Adams was about to leave. Thomas Jefferson had won the election. Just before he left, Adams picked almost 60 people for new judge jobs. One of them was William Marbury.",
+      "example": "Each person needed an official paper to start the job. Marbury's paper was signed and stamped with a seal. But no one ever handed it to him."
+    },
+    {
+      "type": "idea",
+      "emoji": "🚫",
+      "title": "The paper that never came",
+      "text": "Jefferson became President on March 4, 1801. He told James Madison, a top helper, not to hand out the last papers. Marbury wanted his job. So he asked the Supreme Court to order Madison to give him the paper.",
+      "why": {
+        "q": "Why did Marbury go to a court?",
+        "a": "Madison kept saying no. A court can order a government worker to do a job the law says they must do."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Right, but no help",
+      "text": "In 1803, Chief Justice John Marshall wrote the court's answer. He said Marbury had a right to the job. But a law from Congress gave the court a power the Constitution did not give it. So that part of the law did not count. And the court could not help Marbury.",
+      "example": "All four judges who decided the case agreed. The vote was 4 to 0."
+    },
+    {
+      "type": "idea",
+      "emoji": "🛡️",
+      "title": "A big new power",
+      "text": "Marshall said the Constitution is the top law. If a law goes against it, the law does not count. And judges get to say what the law means. This power is called judicial review.",
+      "example": "Marshall wrote that it is the \"duty of the Judicial Department to say what the law is.\"",
+      "why": {
+        "q": "Why does it matter that someone can say a law breaks the Constitution?",
+        "a": "If no one could, Congress could pass any law it wanted, even ones the Constitution forbids."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🔺",
+      "title": "One more check",
+      "text": "Congress makes laws. The President carries them out. Now the courts could check both of them. The Constitution does not say this in plain words. Marshall's case made it the rule."
+    },
+    {
+      "type": "think",
+      "question": "Marshall gave up helping one man to win a big power for the courts. Was that a fair trade?",
+      "nudges": [
+        "What did Marbury lose?",
+        "Who could judicial review help later on?",
+        "Now argue the other side: why might some people worry about judges having this power?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What is judicial review?",
+          "options": [
+            {
+              "text": "Courts can say a law does not count if it breaks the Constitution",
+              "correct": true,
+              "why": "Yes! That is the power Marshall's case set up."
+            },
+            {
+              "text": "Courts can write new laws",
+              "correct": false,
+              "why": "Not quite. Congress writes laws. Courts decide if they fit the Constitution."
+            },
+            {
+              "text": "Courts can fire the President",
+              "correct": false,
+              "why": "No. Courts check laws and actions. They do not fire anyone."
+            }
+          ]
+        },
+        {
+          "q": "Why did Marbury not get his job?",
+          "options": [
+            {
+              "text": "The court said it did not have the power to order it",
+              "correct": true,
+              "why": "Right. The law that gave it that power broke the Constitution."
+            },
+            {
+              "text": "The court said he did not have a right to it",
+              "correct": false,
+              "why": "Good guess, but no. The court said he did have a right to it."
+            },
+            {
+              "text": "He did not want it anymore",
+              "correct": false,
+              "why": "No. Marbury really wanted the job."
+            }
+          ]
+        },
+        {
+          "q": "Who wrote the court's answer in Marbury v. Madison?",
+          "options": [
+            {
+              "text": "Chief Justice John Marshall",
+              "correct": true,
+              "why": "Yes! He was the top judge on the Supreme Court."
+            },
+            {
+              "text": "Thomas Jefferson",
+              "correct": false,
+              "why": "Not quite. Jefferson was the President who told Madison to keep the papers."
+            },
+            {
+              "text": "William Marbury",
+              "correct": false,
+              "why": "No. Marbury was the man who asked for his job."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Marbury v. Madison started when…",
+        "The court said Marbury was right, but…",
+        "Judicial review means…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "RDcZZpNo_gc",
+    "title": "Marbury v. Madison (1803) - Judicial Review",
+    "channel": "Once Upon a Case",
+    "duration_sec": 173,
+    "why": "A short story of Marbury's lost paper, why the court could not help him, and how that gave courts the power of judicial review."
+  },
+  "sources": [
+    {
+      "title": "Marbury v. Madison (1803), Milestone Documents",
+      "publisher": "National Archives",
+      "url": "https://www.archives.gov/milestone-documents/marbury-v-madison",
+      "supports": "Adams gave Marbury a commission and Madison refused to deliver it; Marshall established judicial review; \"A Law repugnant to the Constitution is void\"; nothing in the Constitution gave the Court this specific power; it completed the system of checks and balances."
+    },
+    {
+      "title": "Marbury v. Madison (1803), Supreme Court Case Library",
+      "publisher": "National Constitution Center",
+      "url": "https://constitutioncenter.org/the-constitution/supreme-court-case-library/marbury-v-madison",
+      "supports": "The 4-0 vote with Marshall writing; the Court said part of the Judiciary Act was unconstitutional so it could not give Marbury a remedy; the quote about the \"duty of the Judicial Department to say what the law is.\""
+    },
+    {
+      "title": "Marbury v. Madison",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marbury_v._Madison",
+      "supports": "Adams named almost 60 people to new judge posts just before leaving office; commissions signed and sealed but Marbury's not delivered; Jefferson took office March 4, 1801 and told Madison to withhold them; a writ of mandamus orders an official to do a duty the law requires; Marbury never got his commission; without judicial review Congress would be all-powerful."
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": "civics-marbury-v-madison-adult",
+  "topic": "civics",
+  "subject": "marbury-v-madison",
+  "level": "adult",
+  "title": "Marbury v. Madison: How the Court Claimed Judicial Review",
+  "emoji": "⚖️",
+  "summary": "The 1803 case that made judicial review real, the strategy behind it, and the strongest critiques.",
+  "minutes": 8,
+  "date_added": "2026-11-10",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What was Marshall's core argument that courts may refuse to apply an unconstitutional statute?",
+      "answer": "A written constitution limits Congress; if courts had to enforce laws that break those limits, the limits would mean nothing. So such a law is void."
+    },
+    {
+      "id": "k2",
+      "prompt": "How did Marshall avoid a head-on clash with the Jefferson administration?",
+      "answer": "He declared the withholding illegal but ruled the Court lacked jurisdiction, so Jefferson won the case and there was no order to defy."
+    },
+    {
+      "id": "k3",
+      "prompt": "What are the two main critiques of the opinion?",
+      "answer": "Marshall reached constitutional questions he could have avoided, and his reasons are said to be assertions that don't compel his conclusion. He also had a conflict of interest."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🔄",
+      "title": "A loss that built an institution",
+      "text": "The Supreme Court's most important power was announced in a case where the petitioner lost, the Court refused to give an order, and it struck down a provision that had given the Court more power. The ruling was unanimous, and the administration it ruled against had little reason to resist. How?"
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "After Marbury struck down part of an act of Congress in 1803, how many years passed before the Supreme Court struck down another federal law?",
+      "estimate": {
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "years",
+        "answer": 54
+      },
+      "reveal": "54 years: the next was Dred Scott v. Sandford in 1857. Some scholars argue the Court was still closely reviewing federal statutes in between.",
+      "reveal_after": 5
+    },
+    {
+      "type": "idea",
+      "emoji": "🗳️",
+      "title": "The setup",
+      "text": "Jefferson beat Adams in 1800. On March 2, 1801, Adams nominated nearly 60 Federalists to new judge and justice of the peace posts; the Senate confirmed them the next day. John Marshall, already named Chief Justice but still acting Secretary of State, sealed the commissions. A few, including William Marbury's, were never delivered, and Jefferson told James Madison to withhold them.",
+      "example": "In December 1801 Marbury asked the Supreme Court directly for a writ of mandamus, relying on Section 13 of the Judiciary Act of 1789."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧩",
+      "title": "Three questions, in a chosen order",
+      "text": "Marshall asked: Does Marbury have a right? Yes, since the appointment was complete once signed and sealed. Is there a remedy? Yes: \"a government of laws, and not of men\" must remedy a violated legal right, and mandamus can reach an official's legal duties, though not discretionary political choices. Can this Court issue it? No. Read as granting original jurisdiction, Section 13 went beyond Article III's short list.",
+      "example": "Section 13's wording is ambiguous; it can plausibly be read as tied only to appellate jurisdiction. Marshall chose the reading that created the conflict.",
+      "why": {
+        "q": "Why does it matter that Marshall addressed Marbury's rights before jurisdiction?",
+        "a": "It let the Court rule on the record that the administration acted illegally, then decline to issue an order Jefferson might have ignored."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📐",
+      "title": "The argument from a written constitution",
+      "text": "The powers of Congress \"are defined and limited,\" and \"that those limits may not be mistaken or forgotten, the constitution is written.\" If courts had to enforce statutes that break those limits, Congress would be practically all-powerful. Hence: \"It is emphatically the province and duty of the Judicial Department to say what the law is.\" Marshall also cited Article III, judges' oaths, and the Supremacy Clause.",
+      "example": "The idea wasn't new. Hamilton defended it in Federalist No. 78, and in Hylton v. United States (1796) the Court weighed a carriage tax's constitutionality but upheld it. Marbury was the first exercise of the power."
+    },
+    {
+      "type": "idea",
+      "emoji": "♟️",
+      "title": "Strategy, and the case against it",
+      "text": "Ordering delivery risked defiance; ruling plainly for Madison handed Jefferson a clean win. Marshall rebuked the administration, gave it the result, and claimed review. Historian Robert McCloskey called it \"a masterwork of indirection.\" Critics answer that he could have decided narrowly, that his reasons are a \"series of assertions,\" and that he should have recused, having sealed these very commissions.",
+      "example": "Defenders reply that the avoidance norm didn't exist in 1803. Justice Frankfurter: its reasoning \"is not impeccable and its conclusion, however wise, not inevitable.\"",
+      "why": {
+        "q": "Why was the ruling hard for Jefferson to resist even though he disliked it?",
+        "a": "He won the judgment. There was no order to defy, only a principle, and he criticized it but accepted it."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📈",
+      "title": "What it built",
+      "text": "The power stuck, but was used sparingly: the Court didn't strike down another act of Congress until Dred Scott in 1857. Marbury also reaches executive action, but only legal duties, not discretion such as vetoes or appointments. That line underlies United States v. Nixon (1974), which made a President comply with a subpoena.",
+      "example": "Keith Whittington argues the Court was significantly involved in reviewing federal statutes through the early 1800s; the 54-year gap is in striking them down."
+    },
+    {
+      "type": "think",
+      "question": "Is judicial review a necessary guard for the Constitution's limits, or a way for unelected judges to override elected ones? Make the strongest case for each.",
+      "nudges": [
+        "If not courts, who enforces the limits, and how?",
+        "What keeps judicial review from becoming policymaking?",
+        "The Court struck down an act of Congress only once in 54 years. Is restraint part of what made it legitimate?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Which statement best captures Marshall's jurisdiction holding?",
+          "options": [
+            {
+              "text": "Section 13, read to expand original jurisdiction beyond Article III, was void",
+              "correct": true,
+              "why": "Right. Congress can't enlarge original jurisdiction by statute."
+            },
+            {
+              "text": "Courts may never issue mandamus to executive officers",
+              "correct": false,
+              "why": "No. He said they may, for legal duties, though not discretionary political ones."
+            },
+            {
+              "text": "Marbury's commission was void because it wasn't delivered",
+              "correct": false,
+              "why": "That was Madison's view. Marshall held the appointment complete once signed and sealed."
+            },
+            {
+              "text": "The case was moot after Jefferson took office",
+              "correct": false,
+              "why": "Mootness wasn't the ground. Jurisdiction under Article III was."
+            }
+          ]
+        },
+        {
+          "q": "Why is the ruling often called strategic?",
+          "options": [
+            {
+              "text": "It asserted a broad power while giving the opposing administration the outcome it wanted",
+              "correct": true,
+              "why": "Yes. There was no order to defy, yet review was established."
+            },
+            {
+              "text": "It forced Madison to deliver all the commissions",
+              "correct": false,
+              "why": "It did the opposite: no writ issued."
+            },
+            {
+              "text": "It was a 3–1 split that disguised dissent",
+              "correct": false,
+              "why": "It was unanimous, 4–0."
+            },
+            {
+              "text": "It relied on an explicit clause granting judicial review",
+              "correct": false,
+              "why": "No such clause exists. Marshall inferred it from a written constitution, Article III, oaths and supremacy."
+            }
+          ]
+        },
+        {
+          "q": "Which is a fair response to the critique that Marshall should have avoided the constitutional question?",
+          "options": [
+            {
+              "text": "The avoidance principle didn't exist in 1803 and is a general guide, not an ironclad rule",
+              "correct": true,
+              "why": "That's the defenders' main reply."
+            },
+            {
+              "text": "Marshall had no connection to the commissions",
+              "correct": false,
+              "why": "He did: as Secretary of State he sealed them, which is the recusal critique."
+            },
+            {
+              "text": "Article III explicitly required him to rule on it",
+              "correct": false,
+              "why": "Article III doesn't say that."
+            },
+            {
+              "text": "No scholar has ever criticized the opinion",
+              "correct": false,
+              "why": "Many have, including on its reasoning and his recusal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Marbury lost, yet the Court gained…",
+        "Marshall's key argument was…",
+        "The strongest critique is…, and the best reply is…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "mWYFwl93uCM",
+    "title": "Judicial Review: Crash Course Government and Politics #21",
+    "channel": "CrashCourse",
+    "duration_sec": 480,
+    "why": "Crash Course covers what judicial review reaches, Marshall's maneuver in Marbury, and the anti-democratic objection, a quick frame for the cards above."
+  },
+  "sources": [
+    {
+      "title": "Marbury v. Madison (1803), Milestone Documents",
+      "publisher": "National Archives",
+      "url": "https://www.archives.gov/milestone-documents/marbury-v-madison",
+      "supports": "Marshall's three questions; signed-and-sealed commission is complete; \"a government of laws, and not of men\"; mandamus for ministerial duties vs political discretion; \"A Law repugnant to the Constitution is void\"; nothing in the Constitution stated the power; no other law struck down until Dred Scott (1857)."
+    },
+    {
+      "title": "Marbury v. Madison (1803), Supreme Court Case Library",
+      "publisher": "National Constitution Center",
+      "url": "https://constitutioncenter.org/the-constitution/supreme-court-case-library/marbury-v-madison",
+      "supports": "4-0 decision written by Marshall; part of the Judiciary Act unconstitutional so no remedy; the written-constitution argument, including \"defined and limited\" and \"that those limits may not be mistaken or forgotten, the constitution is written\"; the \"province and duty\" quote."
+    },
+    {
+      "title": "Marbury v. Madison",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marbury_v._Madison",
+      "supports": "March 2-3, 1801 nominations and confirmation; Marshall's dual role; December 1801 suit under Section 13; Section 13's ambiguity; Article III, oath and Supremacy Clause arguments; Federalist No. 78; Hylton (1796); the political dilemma and McCloskey's \"masterwork of indirection\"; critiques (constitutional avoidance, \"series of assertions\", recusal) and replies; Frankfurter quote; Jefferson criticized but accepted it; executive review limited to legal duties; United States v. Nixon (1974); Dred Scott 1857 and Whittington's view."
+    }
+  ]
+}

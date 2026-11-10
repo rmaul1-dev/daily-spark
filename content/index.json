@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "topics": [
   {
    "id": "history",
@@ -491,6 +491,17 @@
     "kid": "ideas-gamblers-fallacy-kid"
    },
    "dinner_question": "Think of a time you felt something was \"due\" to happen, like a win, a hit or a change in luck. Looking back, was it really due, or did it just feel that way?"
+  },
+  {
+   "date": "2026-11-18",
+   "topic": "civics",
+   "title": "Marbury v. Madison: the case where losing won",
+   "packs": {
+    "adult": "civics-marbury-v-madison-adult",
+    "teen": "civics-marbury-v-madison-teen",
+    "kid": "civics-marbury-v-madison-kid"
+   },
+   "dinner_question": "Marshall let one man lose so the courts could gain a power for the future. When is it worth losing a small fight to set a bigger rule, and when is it not?"
   }
  ],
  "series": [
@@ -1702,6 +1713,45 @@
    "summary": "How amending the Constitution works, why almost nothing gets through, and the trade-off between stability and responsiveness.",
    "minutes": 8,
    "date_added": "2026-11-02",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "civics-marbury-v-madison-kid",
+   "topic": "civics",
+   "level": "kid",
+   "title": "The Case Where Losing Won",
+   "emoji": "⚖️",
+   "subject": "marbury-v-madison",
+   "summary": "How a lost job paper in 1801 gave courts the power to say a law does not count.",
+   "minutes": 6,
+   "date_added": "2026-11-10",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "civics-marbury-v-madison-teen",
+   "topic": "civics",
+   "level": "teen",
+   "title": "Marbury v. Madison: The Smartest Loss in Court History",
+   "emoji": "⚖️",
+   "subject": "marbury-v-madison",
+   "summary": "How Chief Justice Marshall turned an undelivered job paper into the power of judicial review.",
+   "minutes": 7,
+   "date_added": "2026-11-10",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "civics-marbury-v-madison-adult",
+   "topic": "civics",
+   "level": "adult",
+   "title": "Marbury v. Madison: How the Court Claimed Judicial Review",
+   "emoji": "⚖️",
+   "subject": "marbury-v-madison",
+   "summary": "The 1803 case that made judicial review real, the strategy behind it, and the strongest critiques.",
+   "minutes": 8,
+   "date_added": "2026-11-10",
    "cards": 10,
    "keys_count": 3
   },

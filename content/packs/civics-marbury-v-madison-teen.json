@@ -1,0 +1,215 @@
+{
+  "id": "civics-marbury-v-madison-teen",
+  "topic": "civics",
+  "subject": "marbury-v-madison",
+  "level": "teen",
+  "title": "Marbury v. Madison: The Smartest Loss in Court History",
+  "emoji": "⚖️",
+  "summary": "How Chief Justice Marshall turned an undelivered job paper into the power of judicial review.",
+  "minutes": 7,
+  "date_added": "2026-11-10",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is judicial review, and where did the Supreme Court first use it to strike down part of a federal law?",
+      "answer": "The power of courts to refuse to apply a law that conflicts with the Constitution. The Court first used it that way in Marbury v. Madison (1803)."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why couldn't the Court give Marbury the order he asked for?",
+      "answer": "The law letting his case start in the Supreme Court tried to widen the Court's original jurisdiction beyond Article III, so that part was void."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why do people call Marshall's ruling a strategic move?",
+      "answer": "He gave Jefferson the result he wanted, so there was nothing to defy, while claiming a much bigger power for the courts."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "♟️",
+      "title": "Lose the game, win the league",
+      "text": "A man sues the top officials of a brand-new administration. The Supreme Court agrees he was wronged, then rules he loses anyway. Somehow that ruling becomes the source of the Court's most important power. How does losing make you stronger?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "The Court agreed Marbury had a legal right to his job. What do you think it ordered the government to do?",
+      "options": [
+        {
+          "text": "Deliver his commission right away"
+        },
+        {
+          "text": "Nothing: it said it lacked the power to order it",
+          "correct": true
+        },
+        {
+          "text": "Pay him for the job he missed"
+        }
+      ],
+      "reveal": "Nothing. The law that let Marbury's case start in the Supreme Court went beyond what Article III allows, so the Court struck that part down and could not issue the order.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "🕛",
+      "title": "The Midnight Judges",
+      "text": "Thomas Jefferson beat President John Adams in the election of 1800. On March 2, 1801, two days before leaving office, Adams nominated nearly 60 supporters for new judge posts. The Senate approved them the next day. Jefferson's supporters mocked them as the \"Midnight Judges.\"",
+      "example": "John Marshall, still Secretary of State though already named Chief Justice, sealed the commissions. Most were delivered, but a few, including William Marbury's, were not."
+    },
+    {
+      "type": "idea",
+      "emoji": "📨",
+      "title": "A writ of mandamus",
+      "text": "Jefferson took office on March 4, 1801, and told his Secretary of State, James Madison, to hold back the undelivered commissions. In December 1801, Marbury went straight to the Supreme Court. He asked for a writ of mandamus: a court order commanding an official to do a duty the law requires.",
+      "example": "He relied on Section 13 of the Judiciary Act of 1789, a law that said the Court could issue such writs to federal officials."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧩",
+      "title": "Three questions",
+      "text": "Marshall asked three questions. Did Marbury have a right to the commission? Yes, since it was signed and sealed. Did the law give him a remedy? Yes. Could this Court issue it? No. Article III lets only a few kinds of cases, like those involving a state or an ambassador, start in the Supreme Court. Congress can't add to that list by ordinary law.",
+      "why": {
+        "q": "Why can't Congress just pass a law giving the Court more cases to hear first?",
+        "a": "Article III sets the Court's original jurisdiction, and an ordinary law can't change the Constitution. That part of Section 13 was void."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📐",
+      "title": "Say what the law is",
+      "text": "Marshall argued that the whole point of a written constitution is to limit government. If Congress could ignore those limits, they would mean nothing. So \"a law repugnant to the Constitution is void.\" He added: \"It is emphatically the province and duty of the Judicial Department to say what the law is.\" Nothing in the Constitution states this power in so many words."
+    },
+    {
+      "type": "idea",
+      "emoji": "♟️",
+      "title": "The chess move, and the critics",
+      "text": "If the Court had ordered Madison to deliver, Jefferson might have ignored it and made the Court look weak. Instead Marshall called the withholding illegal, gave Jefferson the result he wanted, and claimed a bigger power. Jefferson criticized it but accepted it. Critics note Marshall had sealed these commissions himself and could have ruled more narrowly.",
+      "why": {
+        "q": "Why was it hard for Jefferson to fight this ruling?",
+        "a": "He won the case: Marbury got nothing. There was no order to defy, even though the Court claimed a big new power."
+      }
+    },
+    {
+      "type": "think",
+      "question": "Is it good that unelected judges can strike down laws passed by elected representatives? Make the best case for yes, then the best case for no.",
+      "nudges": [
+        "Who protects the Constitution's limits if courts don't?",
+        "What could go wrong if judges strike down laws too often?",
+        "Judicial review was rarely used for decades after 1803. Why might that matter?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Why did the Court rule it couldn't issue Marbury's writ?",
+          "options": [
+            {
+              "text": "Section 13 tried to expand its original jurisdiction beyond Article III",
+              "correct": true,
+              "why": "Exactly. An ordinary law can't widen what the Constitution sets."
+            },
+            {
+              "text": "Marbury's commission was never signed",
+              "correct": false,
+              "why": "No. Marshall said it was signed and sealed, so the appointment was complete."
+            },
+            {
+              "text": "The President can never be ordered by a court",
+              "correct": false,
+              "why": "Not what it said. Marshall said courts can order officials to do duties the law requires."
+            },
+            {
+              "text": "Marbury filed too late",
+              "correct": false,
+              "why": "Timing wasn't the issue. Jurisdiction was."
+            }
+          ]
+        },
+        {
+          "q": "Which outcome made the ruling hard for Jefferson to resist?",
+          "options": [
+            {
+              "text": "Marbury lost, so there was no order to defy",
+              "correct": true,
+              "why": "Right. Jefferson got the result he wanted, while the Court gained a power."
+            },
+            {
+              "text": "The Court ordered Madison to deliver every commission",
+              "correct": false,
+              "why": "That's what it avoided, since Jefferson might have ignored it."
+            },
+            {
+              "text": "Congress passed a law backing Marshall",
+              "correct": false,
+              "why": "No. This was the Court's own ruling."
+            }
+          ]
+        },
+        {
+          "q": "Which is a fair criticism scholars raise about Marbury?",
+          "options": [
+            {
+              "text": "Marshall had a conflict of interest because he sealed the commissions",
+              "correct": true,
+              "why": "Yes. He had a role in the dispute and didn't step aside."
+            },
+            {
+              "text": "The vote was split 3 to 1",
+              "correct": false,
+              "why": "No. The decision was unanimous, 4 to 0."
+            },
+            {
+              "text": "Marshall invented the idea of a written constitution",
+              "correct": false,
+              "why": "No. The Constitution was written in 1787; Marshall argued from it."
+            },
+            {
+              "text": "The ruling gave Marbury too much money",
+              "correct": false,
+              "why": "Marbury got nothing at all."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Marbury sued because…",
+        "Marshall said Marbury was right but lost because…",
+        "The big result was…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "mWYFwl93uCM",
+    "title": "Judicial Review: Crash Course Government and Politics #21",
+    "channel": "CrashCourse",
+    "duration_sec": 480,
+    "why": "Crash Course explains what judicial review covers, how Marshall used Marbury's case to claim it, and the debate over whether it's undemocratic."
+  },
+  "sources": [
+    {
+      "title": "Marbury v. Madison (1803), Milestone Documents",
+      "publisher": "National Archives",
+      "url": "https://www.archives.gov/milestone-documents/marbury-v-madison",
+      "supports": "Madison refused to deliver Marbury's commission; Marshall's three questions; a signed and sealed commission is complete; \"A Law repugnant to the Constitution is void\"; nothing in the Constitution stated this power."
+    },
+    {
+      "title": "Marbury v. Madison (1803), Supreme Court Case Library",
+      "publisher": "National Constitution Center",
+      "url": "https://constitutioncenter.org/the-constitution/supreme-court-case-library/marbury-v-madison",
+      "supports": "Unanimous 4-0 decision written by Marshall; the relevant part of the Judiciary Act was unconstitutional so the Court could not give a remedy; the \"province and duty\" quote; the written-constitution argument."
+    },
+    {
+      "title": "Marbury v. Madison",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marbury_v._Madison",
+      "supports": "Election of 1800; Adams's March 2, 1801 nominations of nearly 60 supporters, approved March 3; \"Midnight Judges\"; Marshall sealed the commissions as Secretary of State after being named Chief Justice; Jefferson took office March 4; suit filed December 1801; writ of mandamus; Section 13 and Article III original jurisdiction; the political dilemma; Jefferson criticized but accepted it; criticisms about constitutional avoidance and Marshall's conflict of interest."
+    }
+  ]
+}
