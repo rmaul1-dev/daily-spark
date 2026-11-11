@@ -1,0 +1,225 @@
+{
+  "id": "money-stocks-adult",
+  "topic": "money",
+  "subject": "stocks",
+  "level": "adult",
+  "title": "The Residual Claim: What You Actually Own in a Stock",
+  "emoji": "📈",
+  "summary": "Common equity is the last claim in line and the one with the upside. How priority, voting, dilution and market cap fit together.",
+  "minutes": 8,
+  "date_added": "2026-11-11",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why is common stock described as the residual claim on a company?",
+      "answer": "Common holders are paid only after bondholders and preferred holders, so they own what's left: possibly nothing in a liquidation, but the growth if it thrives."
+    },
+    {
+      "id": "k2",
+      "prompt": "What does market cap measure, and why is share price alone uninformative?",
+      "answer": "Market cap is share price times shares outstanding: the market's value of the equity. Price per share says nothing about size or cheapness."
+    },
+    {
+      "id": "k3",
+      "prompt": "How often have large-company stocks lost money in a year, and what follows for investors?",
+      "answer": "About one year in three. Horizon matters (Investor.gov cites long periods like 15 years), and diversifying offsets part of the risk."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "📉",
+      "title": "Last in line, first in growth",
+      "text": "Large-company stocks have lost money in roughly one year out of three, and common shareholders stand last in line if a company is liquidated. Yet the SEC's investor site says stocks offer the greatest potential for growth over the long haul. Both statements are true, and the reason is the structure of the claim you hold."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "On average, how often have large-company stocks, taken as a group, lost money in a year?",
+      "options": [
+        {
+          "text": "About 1 year in 10"
+        },
+        {
+          "text": "About 1 year in 5"
+        },
+        {
+          "text": "About 1 year in 3",
+          "correct": true
+        },
+        {
+          "text": "About 1 year in 2"
+        }
+      ],
+      "reveal": "About one year out of every three, per Investor.gov. Losses are routine, not rare, which is why horizon and the need to sell matter so much.",
+      "reveal_after": 5
+    },
+    {
+      "type": "idea",
+      "emoji": "🪜",
+      "title": "The order of claims",
+      "text": "In a liquidation, cash from the assets goes to creditors before owners: bondholders first, then preferred stockholders, then common stockholders, who get whatever is left, which may be nothing. The flip side is limited exposure: owning shares does not make you responsible for the company's liabilities. Common equity is the residual claim: paid last, from whatever is left.",
+      "example": "In this example, a firm's assets sell for $100 million and it owes creditors $80 million. Owners split the remaining $20 million. If the assets fetch only $75 million, creditors take it all and owners get nothing.",
+      "why": {
+        "q": "Why does the residual position carry both the worst downside and the best upside?",
+        "a": "Fixed claims get paid first and no more; whatever value remains after them, large or zero, belongs to the common holders."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🗳️",
+      "title": "Rights, not just a ticker",
+      "text": "Common stock carries votes, typically one per share, used chiefly to elect the board of directors; a majority holder effectively controls the company. Preferred stock usually gives up the vote in exchange for priority: dividends paid before common, and a claim ahead of common in liquidation. Equity is a governance position as well as a cash-flow claim."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏭",
+      "title": "Why issue equity, and its cost",
+      "text": "Companies issue stock to pay off debt, launch products, expand into new markets, or build facilities. The cost to existing holders is dilution: new shares shrink their percentage in return for cash to sustain or grow the business. The trade helps them only if the new cash grows the business by more than their slice shrank.",
+      "examples_by_interest": {
+        "business": "Say you own 60 of 100 shares in a startup worth $1 million, so your stake is worth $600,000. It sells 50 new shares for $500,000. You now own 60 of 150 shares, 40%, of a company holding $500,000 more. If it's now worth $1.5 million, your stake is still $600,000; growth from that cash is what makes the dilution pay."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🧮",
+      "title": "Price, cap, earnings",
+      "text": "Market capitalization is share price times shares outstanding: the market's valuation of the equity. A $10 stock with 1 billion shares is a $10 billion company; a $100 stock with 1 million shares is a $100 million one. Cheapness is judged against earnings: value stocks trade at low P/E ratios, sometimes because they've fallen out of favor. Growth stocks rarely pay dividends; income stocks pay them consistently."
+    },
+    {
+      "type": "idea",
+      "emoji": "⏳",
+      "title": "Volatility and horizon",
+      "text": "Large-company stocks as a group have lost money in about one year out of three. Prices move on company events, like a faulty product, and on things it can't control, like political or market events. Holders over long periods, say 15 years, have generally been rewarded. The realized loss comes from having to sell below cost on a bad day; diversifying across stocks and into bonds offsets part of the risk.",
+      "why": {
+        "q": "Why does Investor.gov suggest younger long-term savers may hold more stocks than bonds?",
+        "a": "Their goal is far off. Long-period holders have generally been rewarded, and losses get locked in mainly when you must sell below what you paid."
+      }
+    },
+    {
+      "type": "think",
+      "question": "You're a CFO who needs $50 million. When would you issue stock rather than borrow? Now argue the other side.",
+      "nudges": [
+        "What does dilution cost holders if the stock looks cheap today?",
+        "Who stands ahead of shareholders once you add debt?",
+        "How confident are you in what the new cash will earn?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Assets sell for $90 million. Bonds owed: $70 million. Preferred claims: $15 million. How much is left for common holders?",
+          "options": [
+            {
+              "text": "$5 million",
+              "correct": true,
+              "why": "Right. $90M − $70M to bondholders − $15M to preferred = $5M for common."
+            },
+            {
+              "text": "$20 million",
+              "correct": false,
+              "why": "That skips preferred holders, who are paid before common. $90M − $70M − $15M = $5M."
+            },
+            {
+              "text": "$75 million",
+              "correct": false,
+              "why": "Common is last in line, not first. After bonds and preferred, $5M remains."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "why": "Close to the edge, but not zero: $90M − $70M − $15M = $5M."
+            }
+          ]
+        },
+        {
+          "q": "A company has 400 million shares at $25 and issues 100 million new shares at $25. Ignoring any market reaction, what happens?",
+          "options": [
+            {
+              "text": "Market cap rises to $12.5B; existing holders own 80% of it",
+              "correct": true,
+              "why": "Yes. 500M × $25 = $12.5B, and 400M of 500M is 80%: a smaller slice of a company with $2.5B more cash."
+            },
+            {
+              "text": "Existing holders lose $2.5 billion",
+              "correct": false,
+              "why": "At the same price, the new cash comes in at fair value; holders own 80% of a $12.5B company, still $10B."
+            },
+            {
+              "text": "Market cap stays at $10B",
+              "correct": false,
+              "why": "There are now 500M shares at $25: $12.5B."
+            },
+            {
+              "text": "Existing holders still own 100%",
+              "correct": false,
+              "why": "400M of 500M shares is 80%. That's dilution."
+            }
+          ]
+        },
+        {
+          "q": "Which statement about preferred stock is most accurate?",
+          "options": [
+            {
+              "text": "It usually lacks a vote but is paid dividends and liquidation proceeds before common",
+              "correct": true,
+              "why": "Right: it trades control for priority."
+            },
+            {
+              "text": "It votes more heavily than common stock",
+              "correct": false,
+              "why": "Preferred holders usually don't have voting rights."
+            },
+            {
+              "text": "It is paid before bondholders in liquidation",
+              "correct": false,
+              "why": "Bondholders come first, then preferred, then common."
+            },
+            {
+              "text": "It is the same as common, with a higher price",
+              "correct": false,
+              "why": "The difference is the claim: priority instead of a vote."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Owning common stock means you hold the residual claim, which…",
+        "Share price alone doesn't tell you…",
+        "Because stocks lose money about one year in three…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "98qfFzqDKR8",
+    "title": "What it means to buy a company's stock | Stocks and bonds | Finance & Capital Markets | Khan Academy",
+    "channel": "Khan Academy",
+    "duration_sec": 827,
+    "why": "Sal Khan draws a balance sheet to show equity as what's left after debt, then compares a real company's book value per share with its market cap."
+  },
+  "sources": [
+    {
+      "title": "Stocks - FAQs",
+      "publisher": "Investor.gov (U.S. Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+      "supports": "Companies issue stock to pay off debt, launch products, expand into new markets, enlarge or build facilities; common stock votes and gets dividends; preferred usually has no vote but gets dividends first and priority over common in liquidation; bondholders paid first, then preferred, common get what is left, which may be nothing; greatest potential for growth over the long haul; value stocks low PE, sometimes out of favor; growth stocks rarely pay dividends, income stocks pay consistently; large company stocks lost money about one out of every three years; prices affected by a faulty product or political/market events; selling below cost loses money; long holders (say 15 years) generally rewarded; young long-term savers may hold more stocks than bonds; different stocks and bonds offset some risk."
+    },
+    {
+      "title": "Market Capitalization",
+      "publisher": "Investor.gov (U.S. Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/market-capitalization",
+      "supports": "Market capitalization is the share price multiplied by the total number of outstanding shares."
+    },
+    {
+      "title": "Stock",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stock",
+      "supports": "New share issuance dilutes existing shareholders in return for cash to sustain or grow the business; shareholders vote to elect the board, typically one vote per share; the majority shareholder has effective control; owning shares does not mean responsibility for liabilities; creditors are paid before shareholders in liquidation."
+    }
+  ]
+}

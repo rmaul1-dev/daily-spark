@@ -1,0 +1,225 @@
+{
+  "id": "money-stocks-teen",
+  "topic": "money",
+  "subject": "stocks",
+  "level": "teen",
+  "title": "Own a Piece: What a Share Really Is",
+  "emoji": "📈",
+  "summary": "A share is a slice of ownership with rights, rewards and a place in line. Why share price alone tells you almost nothing.",
+  "minutes": 7,
+  "date_added": "2026-11-11",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What are the two ways a stockholder can earn money?",
+      "answer": "Capital appreciation (the price rises and you sell for more) and dividends (a portion of the company's profit paid to shareholders)."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why isn't a $10 stock automatically cheaper than a $100 stock?",
+      "answer": "Price per share alone means little. Market cap is price times shares, and value depends on what the company earns."
+    },
+    {
+      "id": "k3",
+      "prompt": "If a company goes bankrupt, who gets paid first?",
+      "answer": "Bondholders first, then preferred stockholders. Common stockholders are last and may get nothing."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧩",
+      "title": "Which one is the bargain?",
+      "text": "Stock A costs $10 a share. Stock B costs $100 a share. Most people instantly call A the bargain. They could be completely wrong, and by the end of this pack you'll know why."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "A company's shares sell for $10 each, and there are 1 billion shares. What's the whole company worth to the market?",
+      "options": [
+        {
+          "text": "$10 million"
+        },
+        {
+          "text": "$1 billion"
+        },
+        {
+          "text": "$10 billion",
+          "correct": true
+        },
+        {
+          "text": "$100 billion"
+        }
+      ],
+      "reveal": "$10 × 1 billion shares = $10 billion. That number is the company's market capitalization.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "🍰",
+      "title": "Ownership, in slices",
+      "text": "A stock is a security that gives you a share of ownership in a company; another name is equity. Companies issue stock to raise money: to pay off debt, launch products, or expand into new markets. Issuing new shares dilutes existing owners. Each old share becomes a smaller slice, in exchange for cash to grow.",
+      "example": "Say you start a golf-ball business split into 100 shares. You sell 20 shares to a friend for cash to buy inventory. Now you own 80%, not 100%, of a business with more money to work with.",
+      "why": {
+        "q": "Why would a founder accept a smaller slice?",
+        "a": "Selling new shares brings in cash to sustain or grow the business. A smaller slice of a bigger business can be worth more."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "💵",
+      "title": "How owners get paid",
+      "text": "There are two paths. Capital appreciation: the price rises and you sell for more. Dividends: the company pays shareholders a portion of its profit. Growth stocks rarely pay dividends, while income stocks, like an established utility, pay them consistently. Common stock also comes with a vote, typically one vote per share, used to elect the board of directors."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧮",
+      "title": "Price isn't value",
+      "text": "Market capitalization is share price times the number of shares. A $10 stock with 1 billion shares is a $10 billion company. A $100 stock with 1 million shares is a $100 million company. To judge cheapness, investors compare price to earnings, the P/E ratio, instead of just looking at the share price.",
+      "examples_by_interest": {
+        "soccer": "Say two youth soccer clubs sell shares. Club A: $10 a share, 1,000 shares, so it's worth $10,000. Club B: $100 a share, 50 shares, so it's worth $5,000. The pricier share belongs to the smaller club."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🪜",
+      "title": "Last in line",
+      "text": "If a company goes bankrupt and sells off its assets, bondholders get paid first, then preferred stockholders. Common stockholders get whatever is left, which may be nothing. One protection: owning shares doesn't make you responsible for the company's debts.",
+      "why": {
+        "q": "Why would anyone accept being last in line?",
+        "a": "In return, stocks offer the greatest potential for growth over the long haul, and owning shares doesn't make you responsible for the company's debts."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🎢",
+      "title": "The ride",
+      "text": "Large-company stocks as a group have lost money in about one year out of three. But investors who stuck with stocks for long periods, say 15 years, generally have been rewarded. Owning many different stocks, plus other assets like bonds, offsets part of the risk."
+    },
+    {
+      "type": "think",
+      "question": "Would you rather own 1% of a fast-growing startup that pays no dividend, or 1% of a steady utility that pays one every year? Make the case for each.",
+      "nudges": [
+        "What happens to each if the economy has a bad year?",
+        "How long could you wait before needing the money?",
+        "Which one is more likely to be last in line with nothing?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Stock X is $50 a share with 2 million shares. Stock Y is $5 a share with 40 million shares. Which company has the bigger market cap?",
+          "options": [
+            {
+              "text": "Y: $200 million vs X's $100 million",
+              "correct": true,
+              "why": "Right. $5 × 40 million = $200 million; $50 × 2 million = $100 million. The cheaper share belongs to the bigger company."
+            },
+            {
+              "text": "X, because its share price is higher",
+              "correct": false,
+              "why": "Share price alone doesn't tell you size. Multiply by shares: X is $100 million, Y is $200 million."
+            },
+            {
+              "text": "They're the same size",
+              "correct": false,
+              "why": "Check the math: X is $100 million, Y is $200 million."
+            },
+            {
+              "text": "You can't tell without the dividend",
+              "correct": false,
+              "why": "Market cap only needs price and share count. Y is $200 million, X is $100 million."
+            }
+          ]
+        },
+        {
+          "q": "You own 10 of a company's 100 shares. It issues 100 new shares to raise cash. What's your ownership now?",
+          "options": [
+            {
+              "text": "5%",
+              "correct": true,
+              "why": "Yes. 10 out of 200 shares is 5%. That's dilution: a smaller slice, but of a company with more cash."
+            },
+            {
+              "text": "10%",
+              "correct": false,
+              "why": "Your share count stayed at 10, but total shares doubled to 200. 10 ÷ 200 = 5%."
+            },
+            {
+              "text": "20%",
+              "correct": false,
+              "why": "New shares went to other buyers, not you. 10 ÷ 200 = 5%."
+            },
+            {
+              "text": "0%",
+              "correct": false,
+              "why": "You still own your 10 shares. You just own a smaller percentage: 10 ÷ 200 = 5%."
+            }
+          ]
+        },
+        {
+          "q": "A company goes bankrupt and sells its assets. Who is paid last?",
+          "options": [
+            {
+              "text": "Common stockholders",
+              "correct": true,
+              "why": "Right. They get whatever is left after bondholders and preferred holders, which may be nothing."
+            },
+            {
+              "text": "Bondholders",
+              "correct": false,
+              "why": "Bondholders are paid first."
+            },
+            {
+              "text": "Preferred stockholders",
+              "correct": false,
+              "why": "Preferred holders come before common stockholders."
+            },
+            {
+              "text": "Everyone splits it equally",
+              "correct": false,
+              "why": "There's an order: bondholders, then preferred, then common last."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "A share of stock is…",
+        "A $10 stock isn't automatically cheap because…",
+        "Stockholders take more risk because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "q739U0l0z6o",
+    "title": "Three things to know about stocks",
+    "channel": "Khan Academy",
+    "duration_sec": 119,
+    "why": "A two-minute Khan Academy explainer on why a $10 share isn't cheaper than a $100 one: you multiply by the shares to see what the whole company is worth."
+  },
+  "sources": [
+    {
+      "title": "Stocks - FAQs",
+      "publisher": "Investor.gov (U.S. Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+      "supports": "Stocks give a share of ownership and are also called equities; companies issue stock to pay off debt, launch products, expand into new markets; capital appreciation and dividends; common stock votes; growth stocks rarely pay dividends and income stocks (e.g. an established utility) pay them consistently; value stocks have a low price-to-earnings (PE) ratio; in liquidation bondholders are paid first, then preferred, and common holders get whatever is left, which may be nothing; stocks offer the greatest potential for growth over the long haul; large company stocks have lost money about one out of every three years; long holders (say 15 years) generally rewarded; different stocks and bonds offset some risk."
+    },
+    {
+      "title": "Market Capitalization",
+      "publisher": "Investor.gov (U.S. Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/market-capitalization",
+      "supports": "Market capitalization is the share price multiplied by the total number of outstanding shares."
+    },
+    {
+      "title": "Stock",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stock",
+      "supports": "Issuing new shares dilutes existing shareholders in return for cash to sustain or grow the business; shareholders vote to elect the board of directors, typically one vote per share; owning shares does not mean responsibility for the company's liabilities."
+    }
+  ]
+}

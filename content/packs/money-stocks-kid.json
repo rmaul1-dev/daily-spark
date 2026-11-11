@@ -1,0 +1,235 @@
+{
+  "id": "money-stocks-kid",
+  "topic": "money",
+  "subject": "stocks",
+  "level": "kid",
+  "title": "A Slice of a Company",
+  "emoji": "📈",
+  "summary": "A share of stock makes you a part owner of a company. Here's how owners earn money, and how they can lose it.",
+  "minutes": 6,
+  "date_added": "2026-11-11",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What do you own when you buy a share of stock?",
+      "answer": "A small piece of a company. Owning stock makes you a part owner.",
+      "options": [
+        {
+          "text": "A small piece of a company",
+          "correct": true
+        },
+        {
+          "text": "A loan the company must pay back"
+        },
+        {
+          "text": "A coupon for the company's stuff"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Why do companies sell stock?",
+      "answer": "To get money to grow, like making new products or building new places.",
+      "options": [
+        {
+          "text": "To get money to grow",
+          "correct": true
+        },
+        {
+          "text": "Because every company has to by law"
+        },
+        {
+          "text": "To pay back their customers"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "Can you lose money by owning stock?",
+      "answer": "Yes. Stock prices go down as well as up, so a share can be worth less than you paid.",
+      "options": [
+        {
+          "text": "Yes, prices can go down",
+          "correct": true
+        },
+        {
+          "text": "No, stock prices only go up"
+        },
+        {
+          "text": "No, the company has to pay you back"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🍋",
+      "title": "A stand that needs help",
+      "text": "Imagine your lemonade stand gets really popular. You want a second stand, but you don't have the money. What if your friends chipped in, and each one owned part of the stands? That is the big idea behind stocks."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Stocks of big companies, as a group: how often have they lost money in a year?",
+      "options": [
+        {
+          "text": "Never"
+        },
+        {
+          "text": "About 1 year out of 3",
+          "correct": true
+        },
+        {
+          "text": "Almost every year"
+        }
+      ],
+      "reveal": "About one year out of every three, on average. Stock prices go down as well as up.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "🍕",
+      "title": "A share is a slice",
+      "text": "A stock gives you a share of a company. That means you own a small piece of it. Lots of people can each own a piece. Stocks are also called equities.",
+      "example": "Say a pizza shop is split into 100 equal shares. If you own 5 shares, you own 5 of the 100 pieces."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏗️",
+      "title": "Why companies sell shares",
+      "text": "Companies sell stock to get money. They might use it to make new products or build new places. The people who buy the shares become part owners.",
+      "why": {
+        "q": "Why would a company sell pieces of itself?",
+        "a": "It gets money now to grow, like launching new products or building something new."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "💵",
+      "title": "Two ways to earn",
+      "text": "Owners can earn money in two ways. The price of a share can go up, so you sell it for more than you paid. Or the company can pay owners part of its profit. That payment is called a dividend.",
+      "example": "Say you buy one share for $20. Later you sell it for $25. You earned $5."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎢",
+      "title": "Prices go down too",
+      "text": "Stock prices can drop. A company might make a bad product, or big news might shake things up. Stocks of big companies, as a group, have lost money in about one year out of three. So you can lose money.",
+      "why": {
+        "q": "If stocks can lose money, why do people buy them?",
+        "a": "People who kept their stocks for a long time, like 15 years, have mostly done well. But there is no promise."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🧺",
+      "title": "Don't own just one",
+      "text": "No one knows for sure which company will do well. So lots of people own many different stocks. Then one bad company doesn't sink everything.",
+      "example": "Say you own shares in 10 companies. If one has a bad year, you still own the other 9."
+    },
+    {
+      "type": "think",
+      "question": "If you could own a slice of any company, which one would you pick, and why?",
+      "nudges": [
+        "Do lots of people buy what it makes?",
+        "What might make its price go down?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What does owning a share of stock make you?",
+          "options": [
+            {
+              "text": "A part owner of the company",
+              "correct": true,
+              "why": "Yes! A share is a small piece of the company."
+            },
+            {
+              "text": "A worker at the company",
+              "correct": false,
+              "why": "No. You don't work there. You own a small piece of it."
+            },
+            {
+              "text": "Someone the company owes a loan to",
+              "correct": false,
+              "why": "That's a different thing. A stock is a piece of ownership, not a loan."
+            }
+          ]
+        },
+        {
+          "q": "You buy a share for $20 and sell it for $25. How much did you earn?",
+          "options": [
+            {
+              "text": "$5",
+              "correct": true,
+              "why": "Right! $25 minus $20 is $5."
+            },
+            {
+              "text": "$45",
+              "correct": false,
+              "why": "You subtract what you paid. $25 minus $20 is $5."
+            },
+            {
+              "text": "$25",
+              "correct": false,
+              "why": "$25 is what you sold it for. You paid $20, so you earned $5."
+            }
+          ]
+        },
+        {
+          "q": "What is a dividend?",
+          "options": [
+            {
+              "text": "Part of the company's profit paid to owners",
+              "correct": true,
+              "why": "Yes! It's one of the two ways owners can earn."
+            },
+            {
+              "text": "The price you pay for one share",
+              "correct": false,
+              "why": "No. A dividend is profit the company pays out to its owners."
+            },
+            {
+              "text": "A fee for selling a stock",
+              "correct": false,
+              "why": "No. A dividend is money owners get, not money they pay."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "When you buy a share of stock, you…",
+        "Owners can earn money by…",
+        "But stocks can also…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "p7HKvqRI_Bo",
+    "title": "How does the stock market work? - Oliver Elfenbaum",
+    "channel": "TED-Ed",
+    "duration_sec": 270,
+    "why": "A pretend coffee company sells shares to grow. Watch why its price goes up when lots of people want to buy, and down when they sell."
+  },
+  "sources": [
+    {
+      "title": "Stocks - FAQs",
+      "publisher": "Investor.gov (U.S. Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+      "supports": "Stocks give stockholders a share of ownership in a company and are also called equities; companies issue stock to get money for things like launching new products or building new facilities; people earn when the price rises (capital appreciation) or from dividends; prices move down as well as up and you can lose money; prices are affected by things like a faulty product or political or market events; large company stocks as a group have lost money about one out of every three years; people who stuck with stocks for long periods, say 15 years, generally have been rewarded; owning a number of different stocks offsets some of the risk."
+    },
+    {
+      "title": "Dividend",
+      "publisher": "Investor.gov (U.S. Securities and Exchange Commission)",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/dividend",
+      "supports": "A dividend is a portion of a company's profit paid to shareholders."
+    }
+  ]
+}
