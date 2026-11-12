@@ -1,0 +1,249 @@
+{
+  "id": "science-sound-kid",
+  "topic": "science",
+  "subject": "sound",
+  "level": "kid",
+  "title": "How Sound Travels",
+  "emoji": "🔊",
+  "summary": "Sound is a shake that gets passed along, and it moves faster in water and metal than in air.",
+  "minutes": 6,
+  "date_added": "2026-11-12",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is sound?",
+      "answer": "Sound is a shake, or vibration, that gets passed along through air, water or solid stuff.",
+      "options": [
+        {
+          "text": "A shake that gets passed along through stuff",
+          "correct": true
+        },
+        {
+          "text": "A kind of light we hear",
+          "correct": false
+        },
+        {
+          "text": "Tiny bits of air that fly straight into your ear from far away",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Can sound travel through empty space?",
+      "answer": "No. Empty space has nothing to pass the shake along, so sound cannot travel there.",
+      "options": [
+        {
+          "text": "No, there is nothing there to pass the shake along",
+          "correct": true
+        },
+        {
+          "text": "Yes, it just goes faster there",
+          "correct": false
+        },
+        {
+          "text": "Yes, but only loud sounds",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "Where does sound usually travel fastest?",
+      "answer": "In solids, like metal. It is slower in water and slowest in air.",
+      "options": [
+        {
+          "text": "In solids, like metal",
+          "correct": true
+        },
+        {
+          "text": "In air",
+          "correct": false
+        },
+        {
+          "text": "It goes the same speed in everything",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🎶",
+      "title": "Feel your own sound",
+      "text": "Put your fingers gently on the front of your neck. Now hum a song. Do you feel a tiny buzz? That buzz is where your sound starts."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Sound can travel through air and through water. Where do you think it goes faster?",
+      "options": [
+        {
+          "text": "In air"
+        },
+        {
+          "text": "About the same in both"
+        },
+        {
+          "text": "In water, more than 4 times as fast",
+          "correct": true
+        }
+      ],
+      "reveal": "Water wins by a lot. Sound goes more than 4 times as fast in water as in air.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "🥁",
+      "title": "Sound is a shake",
+      "text": "When you hit a drum, its top shakes back and forth very fast. This fast shake is called a vibration. The shake pushes on the tiny bits of air next to it. Those bits bump the next bits, and on it goes, all the way to your ear.",
+      "example": "It is like a row of dominoes. Each one only moves a little, but the push travels down the whole line.",
+      "why": {
+        "q": "Why does the sound stop when you hold the drum still?",
+        "a": "Sound is made by the shake. If nothing is shaking, there is nothing to pass along."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🚀",
+      "title": "No air, no sound",
+      "text": "Sound needs stuff to travel through, like air, water or a wall. Outer space is almost empty. There is nothing there to pass the shake along. So sound cannot travel through empty space.",
+      "example": "That is why a real explosion far out in space would make no sound you could hear."
+    },
+    {
+      "type": "idea",
+      "emoji": "🐋",
+      "title": "Faster in water and metal",
+      "text": "In air, sound moves about 1,125 feet each second. That is fast! But in water, sound goes more than 4 times as fast. In iron, it goes almost 15 times as fast as in air.",
+      "example": "So sound is slowest in air, faster in water like a pool, and fastest in solid things like metal.",
+      "why": {
+        "q": "Why might sound move faster in metal?",
+        "a": "In a solid, the tiny bits are held tightly together, so each push gets passed on quickly."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "✈️",
+      "title": "Faster than sound",
+      "text": "Some things can move faster than sound, like very fast jets. When they do, they make a loud crack called a sonic boom. To people on the ground, it can sound like thunder.",
+      "example": "The crack of a whip is a tiny sonic boom. The tip of the whip moves faster than sound!"
+    },
+    {
+      "type": "idea",
+      "emoji": "🐶",
+      "title": "Some sounds we can't hear",
+      "text": "How high or low a sound is depends on how fast it shakes. People can hear shakes from about 20 to 20,000 times each second. Dogs can hear sounds that are too high for people to hear.",
+      "example": "So a sound can be there even if you cannot hear it. A dog might still hear it."
+    },
+    {
+      "type": "think",
+      "question": "Two astronauts are working outside their spaceship. There is no air around them. How could they share a message without sound going through space?",
+      "nudges": [
+        "What does sound need to travel?",
+        "Could something other than air carry a message?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What makes a sound?",
+          "options": [
+            {
+              "text": "Something shaking back and forth very fast",
+              "correct": true,
+              "why": "Yes! Every sound starts with a vibration."
+            },
+            {
+              "text": "Something that is very bright",
+              "correct": false,
+              "why": "Light is not what makes sound. Sound starts with a shake."
+            },
+            {
+              "text": "Something that is very cold",
+              "correct": false,
+              "why": "Cold is not the cause. Sound starts when something shakes."
+            }
+          ]
+        },
+        {
+          "q": "Why can't sound travel through empty space?",
+          "options": [
+            {
+              "text": "There is nothing there to pass the shake along",
+              "correct": true,
+              "why": "Right. Sound needs stuff, like air or water, to travel through."
+            },
+            {
+              "text": "Space is too dark",
+              "correct": false,
+              "why": "Dark does not matter. Sound does not need light. It needs stuff to travel through."
+            },
+            {
+              "text": "Space is too big",
+              "correct": false,
+              "why": "Size is not the problem. The problem is there is no air to pass the shake along."
+            }
+          ]
+        },
+        {
+          "q": "A whip makes a loud crack. Why?",
+          "options": [
+            {
+              "text": "Its tip moves faster than sound, making a tiny sonic boom",
+              "correct": true,
+              "why": "Yes! A whip crack is a small sonic boom."
+            },
+            {
+              "text": "The handle breaks a little each time",
+              "correct": false,
+              "why": "The whip is fine. The crack comes from the tip going faster than sound."
+            },
+            {
+              "text": "The air gets wet",
+              "correct": false,
+              "why": "Water is not the cause. The tip moves faster than sound."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Sound is really a shake that…",
+        "Sound can't travel in space because…",
+        "The fastest place for sound is…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "3-xKZKxXuu0",
+    "title": "What is Sound? | Physics for Kids | SciShow Kids",
+    "channel": "SciShow Kids",
+    "duration_sec": 237,
+    "why": "Watch marbles and a rubber-band guitar show how a shake gets passed through the air to your ear."
+  },
+  "sources": [
+    {
+      "title": "Sound",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sound",
+      "supports": "A drum makes sound with a vibrating top; sound travels through solids, liquids and gases but cannot travel through a vacuum (empty space); people hear about 20 to 20,000 vibrations per second (20 Hz to 20 kHz); dogs can hear above 20 kHz."
+    },
+    {
+      "title": "Speed of sound",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Speed_of_sound",
+      "supports": "Speed of sound in air is about 1,125 feet per second (343 m/s at 68 °F); it is more than 4 times as fast in fresh water and almost 15 times as fast in iron; sound is usually slowest in gases, faster in liquids and fastest in solids."
+    },
+    {
+      "title": "Sonic boom",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sonic_boom",
+      "supports": "Going faster than sound makes a sonic boom that can sound like a thunderclap; the crack of a bullwhip is a small sonic boom because the tip moves faster than sound."
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "id": "science-sound-teen",
+  "topic": "science",
+  "subject": "sound",
+  "level": "teen",
+  "title": "Breaking the Sound Barrier",
+  "emoji": "💥",
+  "summary": "Why sound has a speed, why it changes, and why going faster than it makes a boom that follows you.",
+  "minutes": 7,
+  "date_added": "2026-11-12",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why does sound usually travel faster in solids than in air?",
+      "answer": "Sound is a push passed from particle to particle. Stiffer materials pass that push on faster, so sound is slowest in gases, faster in liquids, fastest in solids."
+    },
+    {
+      "id": "k2",
+      "prompt": "What does a Mach number tell you?",
+      "answer": "How fast something moves compared with the local speed of sound. Mach 1 is the speed of sound; above Mach 1 is supersonic."
+    },
+    {
+      "id": "k3",
+      "prompt": "Does a supersonic jet make one boom when it passes Mach 1?",
+      "answer": "No. It makes a boom the whole time it is supersonic, and the boom sweeps along the ground behind it in a path called the boom carpet."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧱",
+      "title": "The wall that wasn't",
+      "text": "In the 1940s, people spoke of a \"sound barrier\" near the speed of sound. Then, in 1947, a small rocket plane flew right past it. So what is the speed of sound, and why does it matter so much?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Sound travels about 343 meters per second in air. How much faster do you think it travels through iron?",
+      "options": [
+        {
+          "text": "About 2 times faster"
+        },
+        {
+          "text": "About 5 times faster"
+        },
+        {
+          "text": "Almost 15 times faster",
+          "correct": true
+        },
+        {
+          "text": "About 100 times faster"
+        }
+      ],
+      "reveal": "About 5,120 m/s in iron, almost 15 times faster than in air.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "🔁",
+      "title": "A push, passed along",
+      "text": "Sound is a compression wave. A vibrating object squeezes the air next to it, that squeezed air pushes on the air beside it, and the squeeze moves forward while each bit of air only jiggles in place. The speed of sound is really the speed at which a vibration travels through a material.",
+      "example": "Think of a crowded hallway where one person bumps the next. The bump crosses the hall fast, even though nobody walks across it."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧲",
+      "title": "Stiffer means faster",
+      "text": "How fast the push travels depends on the material's stiffness and density. At 20 °C, sound moves about 343 m/s in air, 1,481 m/s in fresh water (over 4 times faster) and 5,120 m/s in iron (almost 15 times faster). In diamond, which is extremely stiff, it hits about 12,000 m/s.",
+      "why": {
+        "q": "Why would stiffness make sound faster?",
+        "a": "A stiff material snaps back hard when squeezed, so each particle passes the push to the next one more quickly."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🌡️",
+      "title": "Temperature sets the speed in air",
+      "text": "For air, the main thing that changes the speed of sound is temperature. At 0 °C it is about 331 m/s; at 20 °C about 343 m/s. Higher up, air pressure and density both drop, but those effects cancel out, so what matters is that it gets colder, and sound gets slower.",
+      "example": "That is why the \"speed of sound\" for a jet at cruising height is lower than it is at sea level."
+    },
+    {
+      "type": "idea",
+      "emoji": "✈️",
+      "title": "Mach 1 and Chuck Yeager",
+      "text": "Engineers compare a plane's speed with the local speed of sound. That ratio is the Mach number; Mach 1 is the speed of sound. On October 14, 1947, Capt. Chuck Yeager flew the Bell X-1 to Mach 1.06, about 700 mph, at 43,000 feet. The Smithsonian says the idea of a sound barrier \"crumbled into myth.\""
+    },
+    {
+      "type": "idea",
+      "emoji": "💥",
+      "title": "The boom follows you",
+      "text": "A sonic boom is not one bang at the moment a plane passes Mach 1. While a plane is supersonic, it drags a cone of shock waves behind it, and that boom sweeps the ground along its whole flight path, a strip called the boom carpet. The loud booms led to a ban on routine supersonic flights over land.",
+      "example": "A bullwhip's crack and a snapped towel are tiny sonic booms: the tip briefly moves faster than sound.",
+      "why": {
+        "q": "Why can't the pilot hear their own sonic boom?",
+        "a": "The boom forms behind the plane and spreads out from there, like a ship's wake. A Concorde pilot said, \"it's behind us.\""
+      }
+    },
+    {
+      "type": "think",
+      "question": "NASA's X-59 is shaped to make supersonic flight sound more like a car door closing than a boom. If it works, should supersonic flights over land be allowed again? Argue both sides.",
+      "nudges": [
+        "Who gains from faster flights, and who hears the noise?",
+        "How quiet would \"quiet enough\" need to be, and who should decide?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Sound travels fastest through which of these?",
+          "options": [
+            {
+              "text": "An iron bar",
+              "correct": true,
+              "why": "Right. Solids are usually fastest because they are stiff."
+            },
+            {
+              "text": "Pool water",
+              "correct": false,
+              "why": "Water is over 4 times faster than air, but a stiff solid like iron is faster still."
+            },
+            {
+              "text": "Warm air",
+              "correct": false,
+              "why": "Warm air is faster than cold air, but gases are the slowest of the three."
+            },
+            {
+              "text": "It is the same in all of them",
+              "correct": false,
+              "why": "The material matters a lot: about 343 m/s in air vs. over 5,000 m/s in iron."
+            }
+          ]
+        },
+        {
+          "q": "A jet flies at the same speed in mph at sea level and then at 40,000 feet, where it is much colder. What happens to its Mach number?",
+          "options": [
+            {
+              "text": "It goes up, because sound is slower in cold air",
+              "correct": true,
+              "why": "Yes. Same speed divided by a smaller speed of sound gives a bigger Mach number."
+            },
+            {
+              "text": "It goes down, because the air is thinner",
+              "correct": false,
+              "why": "Thinner air alone doesn't change the speed of sound; the pressure and density effects cancel. Cold does."
+            },
+            {
+              "text": "It stays the same, because the jet's speed didn't change",
+              "correct": false,
+              "why": "Mach compares the jet's speed to the local speed of sound, and that changes with temperature."
+            },
+            {
+              "text": "It drops to zero",
+              "correct": false,
+              "why": "The jet is still moving, so its Mach number can't be zero."
+            }
+          ]
+        },
+        {
+          "q": "People on the ground hear a boom from a supersonic jet. When was it made?",
+          "options": [
+            {
+              "text": "Continuously, the whole time the jet was supersonic",
+              "correct": true,
+              "why": "Right. The boom carpet follows the jet along its path."
+            },
+            {
+              "text": "Only at the instant it crossed Mach 1",
+              "correct": false,
+              "why": "That's a common myth. The boom keeps going as long as the jet is supersonic."
+            },
+            {
+              "text": "Only when it slowed down",
+              "correct": false,
+              "why": "Slowing down doesn't create the boom; flying faster than sound does."
+            },
+            {
+              "text": "When the engines started",
+              "correct": false,
+              "why": "Engine noise is different. The boom comes from shock waves at supersonic speed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Sound is a squeeze that gets passed along, so…",
+        "In air, the speed of sound mostly depends on…",
+        "A sonic boom isn't one bang; it's…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "laM0Nv8nkw4",
+    "title": "X-59: Sonic Booms Explained",
+    "channel": "NASA Video",
+    "duration_sec": 283,
+    "why": "NASA shows how pressure waves pile up into shock waves, then an engineer explains how the X-59's long, slender shape is meant to soften the boom."
+  },
+  "sources": [
+    {
+      "title": "Speed of sound",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Speed_of_sound",
+      "supports": "Sound is a compression wave; speed of sound is the speed of vibrations; speed depends on stiffness and density; 343 m/s air at 20 °C, 1,481 m/s fresh water (over 4.3x), 5,120 m/s iron (almost 15x), about 12,000 m/s diamond; 331 m/s at 0 °C; in air temperature is the chief factor and pressure/density effects cancel with altitude; Mach number is speed divided by local speed of sound; Mach 1 = speed of sound, above is supersonic."
+    },
+    {
+      "title": "Bell X-1, Glamorous Glennis",
+      "publisher": "Smithsonian National Air and Space Museum",
+      "url": "https://airandspace.si.edu/collection-objects/bell-x-1-glamorous-glennis/nasm_A19510007000",
+      "supports": "October 14, 1947: Capt. Chuck Yeager, Bell XS-1 (X-1), Mach 1.06, 700 mph, 43,000 feet; the concept of a \"sound barrier\" \"crumbled into myth.\""
+    },
+    {
+      "title": "Sonic boom",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sonic_boom",
+      "supports": "Sonic boom is continuous while supersonic, not one bang at Mach 1; cone of shock waves; boom carpet; bullwhip and towel snaps are small sonic booms; booms led to prohibition of routine supersonic flight overland; Concorde pilot quote \"it's behind us\"; NASA's X-59 low-boom design aims for the sound of a car door closing."
+    }
+  ]
+}

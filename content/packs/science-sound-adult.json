@@ -1,0 +1,215 @@
+{
+  "id": "science-sound-adult",
+  "topic": "science",
+  "subject": "sound",
+  "level": "adult",
+  "title": "Why Sound Has a Speed Limit",
+  "emoji": "🔊",
+  "summary": "What actually sets the speed of sound, the 15% error that stumped Newton, and why the sonic boom became a policy problem.",
+  "minutes": 8,
+  "date_added": "2026-11-12",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why did Newton's 1687 estimate of the speed of sound come out about 15% too low?",
+      "answer": "He treated sound's compressions as isothermal. They are adiabatic: the heat of compression can't escape in time and adds pressure. Laplace fixed it."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why does the speed of sound in air depend on temperature but not on pressure?",
+      "answer": "For an ideal gas, raising pressure raises density in proportion, and the two cancel, leaving speed set by temperature and gas composition."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why is the sonic boom a policy problem rather than a one-time event?",
+      "answer": "The boom is continuous along the whole supersonic path, a boom carpet on the ground, which led to bans on routine supersonic flight over land."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🍎",
+      "title": "Newton's stubborn gap",
+      "text": "Isaac Newton calculated the speed of sound from first principles in his 1687 Principia. His answer was close but clearly wrong, and he responded by adding fudge factors until it matched measurements. Lagrange and Euler tried to close the gap and failed too. The missing piece was hiding in how air heats up when you squeeze it."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "Newton's 1687 calculation gave 979 feet per second. How far off from the real speed of sound in air do you think he was?",
+      "estimate": {
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "unit": "%",
+        "answer": 15
+      },
+      "reveal": "About 15% too low. He predicted 298 m/s; the real value at 20 °C is about 343 m/s.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "🧮",
+      "title": "Stiffness over density",
+      "text": "Sound is a pressure disturbance passed along by molecular collisions, and its speed follows the Newton–Laplace relation: speed equals the square root of stiffness divided by density. Newton assumed the air's temperature stayed constant as it was squeezed, which understates its stiffness, so he got 298 m/s instead of about 343. Compressions in a sound wave are adiabatic: the heat has no time to escape.",
+      "why": {
+        "q": "Why would trapped heat make air \"stiffer\"?",
+        "a": "Compressed air that can't shed its heat gets warmer, which raises its pressure further, so it pushes back harder than Newton assumed."
+      },
+      "example": "Laplace closed the gap using an 1819 measurement of air's heat capacity ratio (1.35); the modern 1.40 brought complete agreement."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌡️",
+      "title": "Temperature, not pressure",
+      "text": "For an ideal gas the speed of sound depends only on temperature and composition: about 331 m/s at 0 °C and 343 m/s at 20 °C. Raise the pressure and density rises with it, so the two cancel. So altitude matters through temperature, which NASA models against height: cooling up to about 11 km slows sound and bends it upward, leaving an acoustic shadow on the ground some distance away.",
+      "example": "Because temperature varies with altitude in a complex way, the same airspeed can be a different Mach number at different heights."
+    },
+    {
+      "type": "idea",
+      "emoji": "📊",
+      "title": "The material matters most",
+      "text": "Sound is usually slowest in gases, faster in liquids and fastest in solids: 343 m/s in air, 1,481 m/s in fresh water (about 4.3×), 5,120 m/s in iron (almost 15×) and about 12,000 m/s in diamond. Solids also carry shear waves, which liquids and gases cannot; seismologists use the two speeds as P-waves and S-waves."
+    },
+    {
+      "type": "idea",
+      "emoji": "✈️",
+      "title": "Mach regimes",
+      "text": "Engineers care about the ratio of airspeed to the local speed of sound, the Mach number, because it changes the forces on the aircraft. NASA Glenn's breakdown: well below Mach 1 compressibility effects are small; near Mach 1 (transonic) effects like flow choking matter; from Mach 1 to 3 shock waves can form; above Mach 5 (hypersonic) the energy involved changes the air itself. The Space Shuttle re-entered around Mach 25."
+    },
+    {
+      "type": "idea",
+      "emoji": "💥",
+      "title": "The boom carpet",
+      "text": "A sonic boom isn't a one-time event at Mach 1. It's continuous while an aircraft is supersonic, sweeping a strip of ground called the boom carpet. In 1964, NASA and the FAA ran the Oklahoma City tests, with eight booms a day for six months; they produced 15,000 complaints and a lawsuit the government lost on appeal in 1969. Booms led to the prohibition of routine supersonic flight overland.",
+      "why": {
+        "q": "Why couldn't engineers simply design the boom away?",
+        "a": "Booms can't be completely prevented, but careful shaping can reduce them; NASA's X-59, first flown on October 28, 2025, aims for the sound of a car door closing."
+      }
+    },
+    {
+      "type": "think",
+      "question": "Low-boom shaping aims to make supersonic flight quiet enough to return over land. Who should decide how quiet is quiet enough, and what evidence would you want before deciding?",
+      "nudges": [
+        "Think about who gains (travelers, airlines) and who bears the cost (people under the boom carpet).",
+        "What did the Oklahoma City tests measure well, and what did they miss?",
+        "Is an average noise level the right metric, or startle and sleep disruption?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Newton's 1687 estimate of the speed of sound was too low mainly because he…",
+          "options": [
+            {
+              "text": "Treated compressions as isothermal instead of adiabatic",
+              "correct": true,
+              "why": "Right. Ignoring the heat of compression understated air's stiffness; Laplace corrected it."
+            },
+            {
+              "text": "Measured the wrong distance with a pendulum",
+              "correct": false,
+              "why": "His figure was a calculation, not a botched measurement; the error was in the physics model."
+            },
+            {
+              "text": "Ignored the effect of air pressure",
+              "correct": false,
+              "why": "Pressure effects cancel with density for an ideal gas; the issue was temperature changes inside the wave."
+            },
+            {
+              "text": "Assumed sound needs no medium",
+              "correct": false,
+              "why": "Newton's model used air as the medium; the gap came from how air responds to compression."
+            }
+          ]
+        },
+        {
+          "q": "A plane holds a constant true airspeed while climbing from sea level to 35,000 feet. What happens to its Mach number?",
+          "options": [
+            {
+              "text": "It rises, because colder air carries sound more slowly",
+              "correct": true,
+              "why": "Yes. Same speed over a lower local speed of sound means a higher Mach number."
+            },
+            {
+              "text": "It falls, because thinner air carries sound more slowly",
+              "correct": false,
+              "why": "Lower pressure and density cancel; it's the colder temperature that slows sound."
+            },
+            {
+              "text": "It stays constant, because Mach depends only on the plane",
+              "correct": false,
+              "why": "Mach is a ratio to the local speed of sound, which changes with temperature."
+            },
+            {
+              "text": "It rises, because higher pressure aloft speeds sound",
+              "correct": false,
+              "why": "Pressure falls with altitude, and in any case pressure alone doesn't set the speed."
+            }
+          ]
+        },
+        {
+          "q": "Which statement about sonic booms is correct?",
+          "options": [
+            {
+              "text": "A supersonic aircraft produces a boom continuously along its flight path",
+              "correct": true,
+              "why": "Right. The boom carpet follows the aircraft for as long as it's supersonic."
+            },
+            {
+              "text": "The boom happens once, when the aircraft crosses Mach 1",
+              "correct": false,
+              "why": "That's a common misconception; the boom is continuous while supersonic."
+            },
+            {
+              "text": "Booms are heard equally in all directions around the plane",
+              "correct": false,
+              "why": "They're heard only where the shock cone intersects the ground, behind the aircraft."
+            },
+            {
+              "text": "Shaping can eliminate booms entirely",
+              "correct": false,
+              "why": "Shaping can reduce them, but they can't be completely prevented."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The speed of sound is set by…",
+        "Newton got it wrong because…",
+        "Supersonic flight over land is restricted because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "JO4_VHM69oI",
+    "title": "The sonic boom problem - Katerina Kaouri",
+    "channel": "TED-Ed",
+    "duration_sec": 343,
+    "why": "A clear animation of wave fronts, the Mach cone, the boom carpet and the N-wave double boom, plus why overland supersonic flight stays restricted."
+  },
+  "sources": [
+    {
+      "title": "Speed of sound",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Speed_of_sound",
+      "supports": "Newton's 1687 Principia figure of 979 ft/s (298 m/s), about 15% too low; fudge factors; Lagrange and Euler failed; Laplace's adiabatic correction using the 1819 Clément-Desormes ratio 1.35, modern 1.40; Newton–Laplace equation (stiffness over density); ideal gas speed depends only on temperature and composition; 331 m/s at 0 °C, 343 m/s at 20 °C; pressure and density effects cancel; cooling up to 11 km refracts sound upward, acoustic shadow; gases < liquids < solids; 1,481 m/s water, 5,120 m/s iron, ~12,000 m/s diamond; shear waves only in solids, P- and S-waves."
+    },
+    {
+      "title": "Speed of Sound Interactive (Beginner's Guide to Aeronautics)",
+      "publisher": "NASA Glenn Research Center",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/speed-of-sound-interactive/",
+      "supports": "Disturbances transmitted by molecular collisions; speed depends on gas type and temperature; atmospheric models of temperature vs altitude; Mach number; subsonic, transonic (flow choking), supersonic 1-3 (shock waves), hypersonic above 5; Space Shuttle re-entry around Mach 25."
+    },
+    {
+      "title": "Sonic boom",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sonic_boom",
+      "supports": "Boom is continuous while supersonic, the boom carpet; 1964 Oklahoma City tests by NASA and FAA, eight booms a day for six months, 15,000 complaints, class-action lawsuit lost on appeal in 1969; prohibition of routine supersonic flight overland; booms can't be completely prevented but shaping can reduce them; X-59 aims for the sound of a car door closing, first flight 28 October 2025."
+    }
+  ]
+}
