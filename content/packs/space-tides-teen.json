@@ -1,0 +1,226 @@
+{
+  "id": "space-tides-teen",
+  "topic": "space",
+  "subject": "tides",
+  "level": "teen",
+  "title": "The Puzzle of the Far-Side Bulge",
+  "emoji": "🌊",
+  "summary": "Why the Moon raises two tides, why the giant Sun only gets second place, and how to predict tomorrow's high tide.",
+  "minutes": 7,
+  "date_added": "2026-11-13",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why is there a tidal bulge on the side of Earth facing away from the Moon?",
+      "answer": "The Moon pulls hardest on the near side, less on Earth's middle and least on the far side. That uneven pull stretches Earth's water into two bulges."
+    },
+    {
+      "id": "k2",
+      "prompt": "The Sun is far more massive than the Moon. Why are its tides weaker?",
+      "answer": "Tide-making force drops with the cube of distance. The Sun is 390 times farther away, which cuts its tidal force to about half the Moon's."
+    },
+    {
+      "id": "k3",
+      "prompt": "What is the difference between spring tides and neap tides?",
+      "answer": "Spring tides (new and full moon) come when Sun, Moon and Earth line up: bigger range. Neap tides (quarter moons) come when they're at right angles: smaller range."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧩",
+      "title": "Why two?",
+      "text": "The Moon pulls on Earth's oceans, so of course the water piles up on the side facing the Moon. But there is a second high tide on the opposite side of Earth, facing away from the Moon. How can a pull make water bulge away from the thing pulling it?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "The Sun has about 27 million times the Moon's mass. How strong do you think the Sun's tide-making force is, compared with the Moon's?",
+      "options": [
+        {
+          "text": "About 27 million times stronger"
+        },
+        {
+          "text": "About 177 times stronger"
+        },
+        {
+          "text": "About the same"
+        },
+        {
+          "text": "About half as strong",
+          "correct": true
+        }
+      ],
+      "reveal": "About half. Being 390 times farther away cuts the Sun's tidal force by about 59 million times.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "An uneven pull",
+      "text": "The Moon's gravity reaches every bit of Earth, but not equally. It pulls hardest on the side facing it and weakest on the far side. That uneven pull stretches Earth slightly into a football shape, with one bulge of water toward the Moon and one away from it. The water isn't lifted so much as squeezed sideways into those bulges.",
+      "why": {
+        "q": "Why would a weaker pull on the far side make a bulge, not a dip?",
+        "a": "Earth's middle is pulled toward the Moon more than the far side is, so the far side lags behind a little. That stretch makes a bulge at both ends."
+      },
+      "example": "NASA's comparison: it's easier to slide water across a table than to lift it straight up."
+    },
+    {
+      "type": "idea",
+      "emoji": "⏰",
+      "title": "The 24-hour-50-minute day",
+      "text": "Earth spins through both bulges, but the Moon is moving along its orbit in the same direction. A spot on Earth needs about 24 hours and 50 minutes, a \"lunar day,\" to line up with the Moon again. So high tides come about 12 hours 25 minutes apart, and it takes about 6 hours 12.5 minutes to go from high to low.",
+      "example": "Say high tide at your beach is 7:00 a.m. on Saturday. The next one is about 7:25 p.m., and Sunday's morning high tide is about 7:50 a.m."
+    },
+    {
+      "type": "idea",
+      "emoji": "📏",
+      "title": "Distance beats mass",
+      "text": "Gravity weakens with the square of distance, but tide-making force weakens with the cube. The Sun has about 27 million times the Moon's mass, and its plain gravitational pull on Earth is over 177 times the Moon's. But it is 390 times farther away. 390 × 390 × 390 is about 59 million, so the Sun's tidal force ends up about half the Moon's.",
+      "why": {
+        "q": "Why would tides care so much about distance?",
+        "a": "Tides come from the pull being stronger on one side of Earth than the other. Far away, that side-to-side difference shrinks fast, by the cube of the distance."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🌕",
+      "title": "Spring and neap",
+      "text": "Twice a month, at new moon and full moon, the Sun, Moon and Earth line up. Their pulls add, so high tides are higher and low tides lower: spring tides. About a week later, at the quarter moons, the Sun and Moon are at right angles and partly cancel: smaller neap tides.",
+      "example": "You can tell a spring tide is coming just by looking at the Moon: if it's full, expect a big tidal range."
+    },
+    {
+      "type": "idea",
+      "emoji": "🗺️",
+      "title": "Real coasts are messy",
+      "text": "Earth is not a smooth ball covered in water. Earth's fast spin carries the bulges a little ahead of the Moon, and continents, ocean depth and the shape of each coast reshape the tide. That is why you can't predict a beach's tides just by watching the Moon; you check the local tide forecast.",
+      "example": "Surfers, kayakers and fishing crews use local tide tables, not just the Moon's position."
+    },
+    {
+      "type": "think",
+      "question": "Tide tables are predictions based on the Moon and Sun, but storms and wind can change the real water level. If you were captaining a big ship into a shallow harbor, how much would you trust the table, and what else would you check?",
+      "nudges": [
+        "What happens if you're wrong by one foot of water?",
+        "What could you measure yourself, right then?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What best explains the high tide on the side of Earth facing away from the Moon?",
+          "options": [
+            {
+              "text": "The Moon pulls the far side less than the rest of Earth, so Earth gets stretched into two bulges",
+              "correct": true,
+              "why": "Right. The pull is strongest on the near side and weakest on the far side, and that stretches Earth both ways."
+            },
+            {
+              "text": "The Sun is always on that side, pulling the water",
+              "correct": false,
+              "why": "The Sun can be on any side. The far-side bulge is there even when the Sun isn't."
+            },
+            {
+              "text": "Earth's own gravity is weaker on that side",
+              "correct": false,
+              "why": "Earth's gravity is about the same all around. What changes is the Moon's pull."
+            },
+            {
+              "text": "The water from the near side overflows around the planet",
+              "correct": false,
+              "why": "Water doesn't spill over. The two bulges form at the same time from the Moon's uneven pull."
+            }
+          ]
+        },
+        {
+          "q": "Say high tide is at 3:00 p.m. today. About when is the next high tide?",
+          "options": [
+            {
+              "text": "About 3:25 a.m.",
+              "correct": true,
+              "why": "Yes. High tides are about 12 hours 25 minutes apart."
+            },
+            {
+              "text": "Exactly 3:00 a.m.",
+              "correct": false,
+              "why": "Close, but the Moon's motion adds about 25 minutes per tide."
+            },
+            {
+              "text": "About 9:00 p.m.",
+              "correct": false,
+              "why": "That's about when low tide comes, roughly 6 hours after high."
+            },
+            {
+              "text": "3:50 p.m. tomorrow",
+              "correct": false,
+              "why": "That's tomorrow's afternoon high tide. One more comes before it, overnight."
+            }
+          ]
+        },
+        {
+          "q": "The Moon looks half full tonight. What kind of tides are likely?",
+          "options": [
+            {
+              "text": "Neap tides, with a smaller range than usual",
+              "correct": true,
+              "why": "Right. At the quarter moons the Sun and Moon pull at right angles and partly cancel."
+            },
+            {
+              "text": "Spring tides, with the biggest range",
+              "correct": false,
+              "why": "Spring tides come at new and full moon, when everything lines up."
+            },
+            {
+              "text": "No tides at all",
+              "correct": false,
+              "why": "Tides never stop. They just get smaller."
+            },
+            {
+              "text": "Only one high tide today",
+              "correct": false,
+              "why": "The number of tides doesn't change with the Moon's phase, just their size."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "There are two tidal bulges because…",
+        "The Sun's tides are weaker than the Moon's because…",
+        "Spring tides happen when…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "mpRJhhbKLFc",
+    "title": "Why are there two tides a day? - Elise Cutts",
+    "channel": "TED-Ed",
+    "duration_sec": 321,
+    "start": 0,
+    "end": 163,
+    "why": "The first 2:43: a tidal bore surprises Alexander the Great's army, then the two bulges explained. Clipped before a later slip about neap tides."
+  },
+  "sources": [
+    {
+      "title": "Tides",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/moon/tides/",
+      "supports": "The Moon's gravity reaches every point of Earth, strongest on the nearest points and weakest on the farthest; Earth is distorted slightly into a football shape; water is pushed and squeezed rather than lifted (bucket on a table); bulges on the near and far sides; Earth's spin carries the bulges a little ahead of the Moon; continents, ocean depth and coast shapes affect tides, so check the local forecast; spring tides twice a month at new and full moon when Sun, Moon and Earth line up; neap tides about a week later at the quarter moons, at right angles."
+    },
+    {
+      "title": "What Causes Tides? (Tides and Water Levels tutorial)",
+      "publisher": "NOAA National Ocean Service",
+      "url": "https://oceanservice.noaa.gov/education/tutorial_tides/tides02_cause.html",
+      "supports": "Gravity varies with the inverse square of distance, tide-generating force with the inverse cube; the Sun is 27 million times the Moon's mass, its gravitational attraction on Earth is more than 177 times the Moon's, it is 390 times farther away, 390 cubed is about 59 million, so its tide-generating force is about half the Moon's."
+    },
+    {
+      "title": "The Frequency of Tides: The Lunar Day (Tides and Water Levels tutorial)",
+      "publisher": "NOAA National Ocean Service",
+      "url": "https://oceanservice.noaa.gov/education/tutorial_tides/tides05_lunarday.html",
+      "supports": "A lunar (tidal) day is 24 hours 50 minutes because the Moon orbits in the same direction Earth spins; high tides come 12 hours 25 minutes apart; it takes 6 hours 12.5 minutes to go from high to low."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "topics": [
   {
    "id": "history",
@@ -524,6 +524,17 @@
     "kid": "science-sound-kid"
    },
    "dinner_question": "If you could only keep one sound in your life forever, which would it be, and what do you think is shaking to make it?"
+  },
+  {
+   "date": "2026-11-21",
+   "topic": "space",
+   "title": "Tides: how the Moon moves the ocean",
+   "packs": {
+    "adult": "space-tides-adult",
+    "teen": "space-tides-teen",
+    "kid": "space-tides-kid"
+   },
+   "dinner_question": "The tide comes in and goes out on a schedule people can predict. What else in your life is that predictable, and what would change if it suddenly weren't?"
   }
  ],
  "series": [
@@ -2366,6 +2377,45 @@
    "minutes": 8,
    "date_added": "2026-11-05",
    "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "space-tides-kid",
+   "topic": "space",
+   "level": "kid",
+   "title": "Why the Ocean Moves In and Out",
+   "emoji": "🌊",
+   "subject": "tides",
+   "summary": "The Moon's pull makes two bumps of ocean water, and Earth spins through both of them every day.",
+   "minutes": 6,
+   "date_added": "2026-11-13",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "space-tides-teen",
+   "topic": "space",
+   "level": "teen",
+   "title": "The Puzzle of the Far-Side Bulge",
+   "emoji": "🌊",
+   "subject": "tides",
+   "summary": "Why the Moon raises two tides, why the giant Sun only gets second place, and how to predict tomorrow's high tide.",
+   "minutes": 7,
+   "date_added": "2026-11-13",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "space-tides-adult",
+   "topic": "space",
+   "level": "adult",
+   "title": "Tides: Why the Moon Is Slowly Leaving",
+   "emoji": "🌊",
+   "subject": "tides",
+   "summary": "Tides come from a gravity gradient, not a pull, and the friction they cause is lengthening our day and pushing the Moon away.",
+   "minutes": 8,
+   "date_added": "2026-11-13",
+   "cards": 9,
    "keys_count": 3
   },
   {

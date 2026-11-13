@@ -1,0 +1,238 @@
+{
+  "id": "space-tides-kid",
+  "topic": "space",
+  "subject": "tides",
+  "level": "kid",
+  "title": "Why the Ocean Moves In and Out",
+  "emoji": "🌊",
+  "summary": "The Moon's pull makes two bumps of ocean water, and Earth spins through both of them every day.",
+  "minutes": 6,
+  "date_added": "2026-11-13",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is the main cause of ocean tides?",
+      "answer": "The Moon's gravity. It pulls on Earth's oceans and makes the water bulge.",
+      "options": [
+        {
+          "text": "The Moon's gravity pulling on the oceans",
+          "correct": true
+        },
+        {
+          "text": "Wind pushing the water",
+          "correct": false
+        },
+        {
+          "text": "Whales and fish swimming together",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Why do most beaches get two high tides a day?",
+      "answer": "The ocean bulges on the side near the Moon and on the far side too. Earth spins through both bulges.",
+      "options": [
+        {
+          "text": "There are two bulges of water, and Earth spins through both",
+          "correct": true
+        },
+        {
+          "text": "The Moon goes around Earth two times a day",
+          "correct": false
+        },
+        {
+          "text": "The Sun makes one tide and the Moon makes the other",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What is a spring tide?",
+      "answer": "An extra-big tide that happens at new moon and full moon, when the Sun, Moon and Earth line up.",
+      "options": [
+        {
+          "text": "An extra-big tide when the Sun, Moon and Earth line up",
+          "correct": true
+        },
+        {
+          "text": "A tide that only happens in the spring season",
+          "correct": false
+        },
+        {
+          "text": "A small, gentle tide at half moon",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🏰",
+      "title": "Where did the water go?",
+      "text": "You build a sandcastle near the water. A few hours later, the sea is far away. Later still, the waves wash your castle flat. Who moved the whole ocean?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "At most beaches, how many high tides do you think happen in one day?",
+      "options": [
+        {
+          "text": "One"
+        },
+        {
+          "text": "Two",
+          "correct": true
+        },
+        {
+          "text": "Four"
+        }
+      ],
+      "reveal": "Two! Most beaches get two high tides and two low tides each day.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "🌙",
+      "title": "The Moon gives a tug",
+      "text": "The Moon is far away, but its gravity still pulls on Earth. The pull is strongest on the side of Earth that faces the Moon. Ocean water there bulges out toward the Moon. That bump of water is a high tide.",
+      "example": "Picture the ocean as a big blanket of water. The Moon tugs one side of the blanket into a hump."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌍",
+      "title": "Two bumps, two high tides",
+      "text": "Here is a surprise. The ocean also bulges on the far side of Earth, away from the Moon. Earth spins once a day, so your beach passes through both bumps. That gives most beaches two high tides and two low tides a day.",
+      "example": "High tide to the next high tide takes a little over 12 hours.",
+      "why": {
+        "q": "Why is high tide about 50 minutes later each day?",
+        "a": "The Moon moves along its path as Earth spins. So Earth needs about 50 extra minutes to catch up to the Moon each day."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "☀️",
+      "title": "The Sun helps too",
+      "text": "The Sun pulls on the oceans too. It is huge, but it is very far away. So its pull on tides is a little less than half of the Moon's. At new moon and full moon, the Sun, Moon and Earth line up. Then high tides get extra high, and low tides get extra low.",
+      "example": "These big tides are called spring tides. They happen about twice a month."
+    },
+    {
+      "type": "idea",
+      "emoji": "🇨🇦",
+      "title": "The shape of the shore matters",
+      "text": "Not every beach gets the same tide. The shape of the land and how deep the water is change things a lot. In the Bay of Fundy in Canada, the tide can rise and fall about 16 meters, or 52 feet. Around the world, the average is only about 1 meter.",
+      "example": "So Fundy's tides are about 16 times bigger than the world average."
+    },
+    {
+      "type": "think",
+      "question": "Say you lived right by the sea. How would knowing the tide times help you, or help a fishing boat, or help a crab?",
+      "nudges": [
+        "When would be the best time to look in tide pools?",
+        "What could go wrong if a boat did not know the tide?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What is the main cause of ocean tides?",
+          "options": [
+            {
+              "text": "The Moon's gravity",
+              "correct": true,
+              "why": "Yes! The Moon's pull makes the ocean bulge."
+            },
+            {
+              "text": "Strong winds",
+              "correct": false,
+              "why": "Wind makes waves and can shift water a little, but the Moon is the main cause of tides."
+            },
+            {
+              "text": "Rain filling the ocean",
+              "correct": false,
+              "why": "Rain adds a little water, but it does not make the sea rise and fall twice a day."
+            }
+          ]
+        },
+        {
+          "q": "Why do most beaches get two high tides a day?",
+          "options": [
+            {
+              "text": "There are two bulges of water, and Earth spins through both",
+              "correct": true,
+              "why": "Right. One bump faces the Moon and one is on the far side."
+            },
+            {
+              "text": "The Moon goes around Earth twice a day",
+              "correct": false,
+              "why": "The Moon takes about a month to go around Earth. It is Earth's spin that carries us through the bumps."
+            },
+            {
+              "text": "High tides happen at random",
+              "correct": false,
+              "why": "Tides are very regular, so people can predict them."
+            }
+          ]
+        },
+        {
+          "q": "It is full moon tonight. What kind of tides should a beach get?",
+          "options": [
+            {
+              "text": "Extra-big spring tides",
+              "correct": true,
+              "why": "Yes. At full moon the Sun, Moon and Earth line up, so their pulls add up."
+            },
+            {
+              "text": "No tides at all",
+              "correct": false,
+              "why": "There are always tides. At full moon they are bigger than usual."
+            },
+            {
+              "text": "Extra-small tides",
+              "correct": false,
+              "why": "Small tides happen at half moon, when the Sun and Moon pull at an angle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Tides happen because…",
+        "There are two high tides a day because…",
+        "At full moon the tides get bigger because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "tcGEjzt_4is",
+    "title": "What Causes Tides?",
+    "channel": "NOAA SciJinks",
+    "duration_sec": 213,
+    "why": "Scientists from NOAA show how the Moon's pull makes two bulges of water, so you can see why there are two high tides a day."
+  },
+  "sources": [
+    {
+      "title": "Tides",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/moon/tides/",
+      "supports": "The Moon's gravity drives tides; strongest pull on the side closest to the Moon; bulges on the near and far sides make high tides; most shorelines get two high and two low tides a day; high to high takes a little over 12 hours; continents, ocean depth and shape affect local tides; the Sun has a little less than half the Moon's tide-generating force; spring tides at new and full moon when Sun, Moon and Earth line up, neap tides at quarter moon."
+    },
+    {
+      "title": "The Frequency of Tides: The Lunar Day (Tides and Water Levels tutorial)",
+      "publisher": "NOAA National Ocean Service",
+      "url": "https://oceanservice.noaa.gov/education/tutorial_tides/tides05_lunarday.html",
+      "supports": "A lunar day is 24 hours 50 minutes; it is 50 minutes longer because the Moon moves in the same direction Earth spins, so Earth takes 50 extra minutes to catch up; two high and two low tides every 24 hours 50 minutes."
+    },
+    {
+      "title": "Bay of Fundy",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bay_of_Fundy",
+      "supports": "The tidal range in the Bay of Fundy, Canada, is about 16 metres (52 ft); the average tidal range worldwide is about one metre (3.3 ft)."
+    }
+  ]
+}

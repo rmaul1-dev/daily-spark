@@ -1,0 +1,208 @@
+{
+  "id": "space-tides-adult",
+  "topic": "space",
+  "subject": "tides",
+  "level": "adult",
+  "title": "Tides: Why the Moon Is Slowly Leaving",
+  "emoji": "🌊",
+  "summary": "Tides come from a gravity gradient, not a pull, and the friction they cause is lengthening our day and pushing the Moon away.",
+  "minutes": 8,
+  "date_added": "2026-11-13",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why does the Sun raise smaller tides than the Moon even though it pulls on Earth far harder?",
+      "answer": "Tides come from the difference in pull across Earth, which falls with the cube of distance. At 390 times farther, the Sun's tidal force is about half the Moon's."
+    },
+    {
+      "id": "k2",
+      "prompt": "How do tides slow Earth's spin and push the Moon away?",
+      "answer": "Earth's spin drags the tidal bulge ahead of the Moon. Its pull moves the Moon to a higher, slower orbit, while friction brakes Earth's rotation and lengthens the day."
+    },
+    {
+      "id": "k3",
+      "prompt": "How do we know the Moon is receding and days were once shorter?",
+      "answer": "Lasers bounced off Apollo-era reflectors measure about 3.8 cm a year of recession, and growth layers in fossil shells and tidal sediments record more, shorter days per year."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🔦",
+      "title": "A laser, a mirror, and a shorter day",
+      "text": "Astronauts left mirrors on the Moon between 1969 and 1972. Bouncing lasers off them shows the Moon drifting about 3.8 cm farther from Earth every year, and Earth's day is getting longer. The cause is the same force that floods a beach twice a day."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "Growth layers in fossil mollusc shells from about 70 million years ago record how many days in a year. What's your estimate?",
+      "estimate": {
+        "min": 300,
+        "max": 450,
+        "step": 1,
+        "unit": "days",
+        "answer": 372
+      },
+      "reveal": "About 372 days a year, so each day was only about 23.5 hours long.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "📐",
+      "title": "A gradient, not a pull",
+      "text": "Gravity falls with the square of distance; the tide-generating force, which is the difference in pull across Earth, falls with the cube. The Sun has about 27 million times the Moon's mass and pulls on Earth more than 177 times harder. But it is 390 times farther away, and 390³ is about 59 million. Net result: the Sun's tidal force is about half the Moon's.",
+      "why": {
+        "q": "Why does the cube law make distance so dominant?",
+        "a": "A tide is the difference in pull between Earth's near and far sides. Relative to the total distance, Earth's width shrinks as you move away, so that difference falls off faster than gravity itself."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🏈",
+      "title": "Two bulges, and the solid Earth too",
+      "text": "The near side is pulled toward the Moon harder than Earth's center, and the center harder than the far side, so Earth is stretched into two bulges. Water isn't lifted so much as squeezed sideways into them. The solid Earth deforms measurably too, and Earth raises 10 to 15 cm tides on the Moon, enough that laser reflection points rise and fall.",
+      "example": "NASA's analogy: it's easier to slide water across a table than to lift it straight up."
+    },
+    {
+      "type": "idea",
+      "emoji": "🐕",
+      "title": "The bulge runs ahead",
+      "text": "Earth spins much faster than the Moon orbits, so it drags the tidal bulge a little ahead of the Moon. That off-axis mass tugs the Moon forward, transferring angular momentum: the Moon climbs to a higher orbit, and tidal friction brakes Earth's spin, turning the energy difference into heat. The paradox: pushing the Moon forward leaves it orbiting more slowly.",
+      "why": {
+        "q": "How can a forward tug make the Moon slower?",
+        "a": "The extra energy lifts it to a higher orbit, where orbital speed is lower. Its potential energy rises by more than its kinetic energy falls."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🐚",
+      "title": "Measured in lasers and fossils",
+      "text": "Lunar laser ranging off the Apollo and Lunokhod reflectors, 1970–2015, gives +38.30 ± 0.08 mm a year in Earth–Moon distance; the day lengthens by a little under 2 milliseconds per century. Fossil shells from about 70 million years ago show 372 days a year (days about 23.5 hours). Tidal sediments from 620 million years ago suggest about 400 days of about 21.9 hours.",
+      "example": "Extrapolation trap: the average recession since then is about 2.17 cm a year, roughly half today's rate. Today's fast rate may come from a near-resonance between ocean basins and tidal frequencies."
+    },
+    {
+      "type": "think",
+      "question": "Today's rate of lunar recession is about double its 620-million-year average, probably because of how today's oceans happen to resonate. What does that suggest about projecting any currently measured rate, in geology, demographics or markets, far into the past or future?",
+      "nudges": [
+        "What made today's rate unusual, and is that condition permanent?",
+        "Which independent evidence (like the fossil record) would catch a bad extrapolation?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "The Sun pulls on Earth more than 177 times harder than the Moon does. Why are solar tides only about half as strong as lunar tides?",
+          "options": [
+            {
+              "text": "Tides depend on the difference in pull across Earth, which falls with the cube of distance",
+              "correct": true,
+              "why": "Right. At 390 times the distance, that gradient shrinks by about 59 million times."
+            },
+            {
+              "text": "The Sun's gravity is partly blocked by the Moon",
+              "correct": false,
+              "why": "Gravity isn't shielded by other bodies. The answer is distance."
+            },
+            {
+              "text": "Sunlight heats the water and cancels the bulge",
+              "correct": false,
+              "why": "Heat doesn't cancel tides. The Sun's tidal force is real; it is just smaller."
+            },
+            {
+              "text": "Solar tides only happen during the day",
+              "correct": false,
+              "why": "The Sun's tidal pull acts on the whole Earth at all hours. What shrinks it is distance."
+            }
+          ]
+        },
+        {
+          "q": "What is the main long-run effect of Earth's tidal bulge running ahead of the Moon?",
+          "options": [
+            {
+              "text": "Earth's spin slows and the Moon moves to a higher, slower orbit",
+              "correct": true,
+              "why": "Yes. Angular momentum moves from Earth's spin to the Moon's orbit."
+            },
+            {
+              "text": "The Moon speeds up and spirals in toward Earth",
+              "correct": false,
+              "why": "That happens to moons that orbit faster than their planet spins. Our Moon is the opposite case."
+            },
+            {
+              "text": "Earth's day gets shorter",
+              "correct": false,
+              "why": "Tidal friction brakes Earth, so the day gets longer."
+            },
+            {
+              "text": "Nothing measurable; the effect is only theoretical",
+              "correct": false,
+              "why": "Laser ranging measures it directly at about 3.8 cm a year."
+            }
+          ]
+        },
+        {
+          "q": "If the Moon were twice as far away, its tide-generating force on Earth would be about…",
+          "options": [
+            {
+              "text": "One-eighth as strong",
+              "correct": true,
+              "why": "Right. Tidal force falls with the cube of distance: 2 × 2 × 2 = 8."
+            },
+            {
+              "text": "Half as strong",
+              "correct": false,
+              "why": "That would be a simple 1/distance rule. Tides fall off much faster."
+            },
+            {
+              "text": "One-quarter as strong",
+              "correct": false,
+              "why": "That's the inverse-square rule for gravity itself. Tides follow the cube."
+            },
+            {
+              "text": "Unchanged, because the Moon's mass is the same",
+              "correct": false,
+              "why": "Mass matters, but distance matters even more for tides."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Tides aren't caused by the Moon's pull so much as…",
+        "The tidal bulge running ahead of the Moon means…",
+        "We know days were shorter because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "KlWpFLfLFBI",
+    "title": "Tides: Crash Course Astronomy #8",
+    "channel": "CrashCourse",
+    "duration_sec": 586,
+    "why": "Phil Plait builds tides from the gravity gradient up, then shows how the leading bulge pushes the Moon away, lengthens the day and tidally locked the Moon."
+  },
+  "sources": [
+    {
+      "title": "What Causes Tides? (Tides and Water Levels tutorial)",
+      "publisher": "NOAA National Ocean Service",
+      "url": "https://oceanservice.noaa.gov/education/tutorial_tides/tides02_cause.html",
+      "supports": "Tide-generating force varies with the inverse cube of distance, gravity with the inverse square; Sun 27 million times the Moon's mass, more than 177 times the Moon's gravitational attraction on Earth, 390 times farther away, 390 cubed about 59 million, so about half the Moon's tidal force."
+    },
+    {
+      "title": "Tides",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/moon/tides/",
+      "supports": "Moon's gravity strongest on the nearest points and weakest on the farthest; water is pushed and squeezed rather than lifted (bucket on a table); solid Earth distorted measurably; Earth's spin carries the bulge a little ahead of the Moon; Earth raises 10-15 cm tides on the Moon's surface, measured by laser reflectors."
+    },
+    {
+      "title": "Tidal acceleration",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tidal_acceleration",
+      "supports": "Tidal acceleration moves the Moon to a higher orbit with lower orbital speed and slows Earth's rotation (tidal braking); the bulge is dragged ahead of the Moon by Earth's faster rotation; tidal friction dissipates energy as heat; angular momentum exchange; potential energy rises more than kinetic falls; day lengthening a little under 2 ms per 100 years; lunar laser ranging to Apollo (1969-1972) and Lunokhod reflectors, 1970-2015 result +38.30 ± 0.08 mm/yr; 70 million year old mollusc shells show 372 days a year, about 23.5 hours; 620 million years ago day was 21.9 h with about 400 days a year; average recession since then 2.17 cm/yr, about half the present rate, possibly due to near resonance of ocean frequencies."
+    }
+  ]
+}
