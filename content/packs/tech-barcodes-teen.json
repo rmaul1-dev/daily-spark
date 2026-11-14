@@ -1,0 +1,227 @@
+{
+  "id": "tech-barcodes-teen",
+  "topic": "tech",
+  "subject": "barcodes",
+  "level": "teen",
+  "title": "Cracking the Code on a Cereal Box",
+  "emoji": "🔢",
+  "summary": "How 95 thin stripes encode 12 digits, read fine upside down, and catch their own mistakes.",
+  "minutes": 7,
+  "date_added": "2026-11-14",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How can a scanner read a UPC upside down without getting the digits backward?",
+      "answer": "Left-side digits have an odd number of black modules and right-side digits an even number. That parity tells the scanner which way it's reading."
+    },
+    {
+      "id": "k2",
+      "prompt": "What does the UPC check digit do?",
+      "answer": "It's computed from the other 11 digits (odd positions × 3, plus even positions, rounded up to a multiple of 10). If any one digit is misread, the math fails."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why did IBM's straight-line code beat RCA's bull's-eye?",
+      "answer": "The bull's-eye circles tended to smear when printed. Laurer's lines didn't smudge, fit on small packages, and a laser could read them from any direction."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🥊",
+      "title": "The engineer who said no",
+      "text": "In the early 1970s, RCA owned the patent on a round bull's-eye barcode, and IBM engineer George Laurer's manager wanted him to stick with the bull's-eye. He refused, and pitched straight lines instead. \"My nature and my training would not allow me to support something I didn't believe in,\" he said. His design is the one on nearly everything you buy."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "A UPC ends with a check digit. If the scanner misreads exactly one digit, how often do you think the check digit catches it?",
+      "options": [
+        {
+          "text": "About half the time"
+        },
+        {
+          "text": "About 89% of the time"
+        },
+        {
+          "text": "Every time",
+          "correct": true
+        }
+      ],
+      "reveal": "Every time. A UPC catches 100% of single-digit errors (it's swapped neighbors that slip past about 11% of the time).",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "📊",
+      "title": "Stripes are bits",
+      "text": "A UPC-A is 95 modules wide, where a module is the thinnest possible stripe. Each of its 12 digits takes exactly 7 modules: two bars and two spaces, each 1 to 4 modules wide. The other 11 modules are guard patterns at the start, middle and end that help the scanner lock on. Count the black bars and you get 30.",
+      "example": "In bar code language, a 1 on the left side is space-space-bar-bar-space-space-bar: 0011001."
+    },
+    {
+      "type": "idea",
+      "emoji": "🙃",
+      "title": "Upside down? No problem",
+      "text": "Each left-side digit has an odd number of black modules (odd parity); each right-side digit has an even number. Right-side digits are also the optical inverse of left-side ones: bars become spaces. So after the start or end guard, the scanner checks the parity and knows which direction it's reading.",
+      "why": {
+        "q": "Why would a supermarket barcode need to work in both directions?",
+        "a": "Cashiers swipe items at every angle. The code had to be read from any direction and at speed, so the symbol itself tells the scanner its orientation."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "✅",
+      "title": "The self-checking digit",
+      "text": "The last digit is a check digit. Add the digits in odd positions and multiply by 3. Add the digits in even positions. The check digit is whatever brings that total up to a multiple of 10. Change any one digit and the total no longer works, so the scanner rejects the read.",
+      "example": "For 03600029145: odd positions 0+6+0+2+1+5 = 14, × 3 = 42. Even positions 3+0+0+9+4 = 16. 42 + 16 = 58, so the check digit is 2.",
+      "why": {
+        "q": "Why multiply some positions by 3 instead of just adding every digit?",
+        "a": "Plain adding can't notice two neighbors swapped, since the sum stays the same. Weighting alternate digits by 3 catches most swaps too."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🎯",
+      "title": "Lines beat circles",
+      "text": "Joe Woodland's patented bull's-eye could be read from any angle, but RCA's printed circles tended to smear. Laurer's straight bars didn't smudge and a laser could scan them from any direction. The first real UPC scan came on June 26, 1974, in Troy, Ohio: a pack of Juicy Fruit gum, 67 cents.",
+      "example": "Woodland got the original idea from Morse code, dragging his fingers through beach sand to make wide and narrow lines."
+    },
+    {
+      "type": "idea",
+      "emoji": "👕",
+      "title": "Every version gets its own number",
+      "text": "After the first digit, five digits name the manufacturer and five name the product. Every variation counts as a different product. GS1 US, which hands out these numbers, sells a single one for $30, or a block of 10 for $250 plus $50 a year.",
+      "example": "Say you start a T-shirt brand with 3 sizes and 3 colors. That's 3 × 3 = 9 products, so you need 9 barcodes.",
+      "examples_by_interest": {
+        "golf": "Say you sell golf balls in 4 colors, in sleeves of 3 or boxes of 12. That's 4 × 2 = 8 products, so you need 8 barcodes.",
+        "business": "Say your candle shop sells 5 scents in 2 sizes. That's 5 × 2 = 10 products, so a block of 10 numbers for $250 covers you exactly."
+      }
+    },
+    {
+      "type": "think",
+      "question": "Laurer refused to back a design he thought would fail, even though his boss wanted it and RCA already owned the bull's-eye patent. When is it smart to push back like that, and when is it just being stubborn?",
+      "nudges": [
+        "What evidence did he have that circles would smear?",
+        "What would he need to show his bosses to win?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "A real UPC starts 04210000526. Its odd-position digits add to 13 and its even-position digits add to 7. What's the check digit?",
+          "options": [
+            {
+              "text": "4",
+              "correct": true,
+              "why": "Yes: 13 × 3 = 39, plus 7 is 46, and 4 more makes 50."
+            },
+            {
+              "text": "0",
+              "correct": false,
+              "why": "That's what you'd get if you skipped the × 3 step: 13 + 7 = 20. Multiply the odd sum by 3 first."
+            },
+            {
+              "text": "6",
+              "correct": false,
+              "why": "6 is the last digit of 46. The check digit is what you add to reach the next multiple of 10."
+            },
+            {
+              "text": "3",
+              "correct": false,
+              "why": "Close. Try 13 × 3 + 7, then count up to the next multiple of 10."
+            }
+          ]
+        },
+        {
+          "q": "How does the scanner know a UPC is upside down?",
+          "options": [
+            {
+              "text": "Left digits have odd parity and right digits have even parity",
+              "correct": true,
+              "why": "Right. Whichever parity it sees first tells it the direction."
+            },
+            {
+              "text": "The numbers printed underneath are upside down",
+              "correct": false,
+              "why": "The scanner reads the bars, not the printed numbers."
+            },
+            {
+              "text": "It can't, so cashiers must hold items right side up",
+              "correct": false,
+              "why": "UPCs were designed to be read from any direction."
+            },
+            {
+              "text": "The check digit always comes first",
+              "correct": false,
+              "why": "The check digit is always the last digit, on the right side."
+            }
+          ]
+        },
+        {
+          "q": "Your bakery sells cookies in 4 flavors and 3 box sizes. How many barcodes do you need?",
+          "options": [
+            {
+              "text": "12",
+              "correct": true,
+              "why": "Yes. Each flavor-and-size combo is its own product: 4 × 3 = 12."
+            },
+            {
+              "text": "7",
+              "correct": false,
+              "why": "That's 4 + 3. But every combination needs its own number, so multiply."
+            },
+            {
+              "text": "1",
+              "correct": false,
+              "why": "One number per product type isn't enough. Each version gets its own."
+            },
+            {
+              "text": "4",
+              "correct": false,
+              "why": "That counts flavors but not sizes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "A UPC turns stripes into digits by…",
+        "The scanner can read it upside down because…",
+        "The check digit catches mistakes by…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "VbHzx4nWqWY",
+    "title": "How Do Barcodes Work | Earth Science",
+    "channel": "BBC Earth Science",
+    "duration_sec": 267,
+    "start": 150,
+    "end": 231,
+    "why": "James May (BBC) shows why the right-hand digits are mirror images and walks through the check-digit math. Clipped to the 81 seconds on those two ideas."
+  },
+  "sources": [
+    {
+      "title": "Universal Product Code",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Universal_Product_Code",
+      "supports": "UPC-A is 95 modules: 12 digits of 7 modules each (two bars and two spaces, 1–4 modules wide) plus 11 guard modules; 30 bars; left digits odd parity, right digits even parity, right digits the optical inverse, letting the scanner read in either direction; number system digit, 5-digit manufacturer code, 5-digit product code, check digit; the check-digit method and the 03600029145 → 2 example; the real code 042100005264 (check digit 4); 100% of single-digit errors and about 89% of transpositions detected; first scan of Wrigley's Juicy Fruit at Marsh supermarket in Troy, Ohio on June 26, 1974, 67 cents."
+    },
+    {
+      "title": "The UPC",
+      "publisher": "IBM Heritage",
+      "url": "https://www.ibm.com/history/upc",
+      "supports": "RCA owned the bull's-eye patent and it was prone to smearing when printed; Laurer refused his manager's appeal to stick with the bull's-eye, with the quoted line; his linear code wouldn't smudge, could be scanned omnidirectionally with a laser, and fit on most products; Woodland's beach-sand idea from Morse code."
+    },
+    {
+      "title": "How to Get a UPC Barcode",
+      "publisher": "GS1 US",
+      "url": "https://www.gs1us.org/upcs-barcodes-prefixes/how-to-get-a-upc-barcode",
+      "supports": "3 sizes × 3 colors = 9 barcodes for a T-shirt; a single GS1 US GTIN costs $30 with no renewal fee; 10 numbers cost $250 initially plus $50 a year."
+    }
+  ]
+}

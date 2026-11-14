@@ -1,0 +1,210 @@
+{
+  "id": "tech-barcodes-adult",
+  "topic": "tech",
+  "subject": "barcodes",
+  "level": "adult",
+  "title": "The Barcode's 25-Year Wait",
+  "emoji": "📦",
+  "summary": "Why a correct 1949 idea needed lasers, cheap computing and an industry-wide standard before it paid off, and why its real value turned out to be data.",
+  "minutes": 8,
+  "date_added": "2026-11-14",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why did the 1952 barcode patent go nowhere for two decades?",
+      "answer": "Its complements didn't exist: no laser to read it cheaply and no affordable computing. The prototype used a 500-watt bulb and was the size of a desk."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why was the UPC a coordination problem, not just an engineering one?",
+      "answer": "Scanners only paid off if at least 75% of grocery items carried codes, and makers wouldn't print codes until stores had scanners. An industry committee set one standard to end the deadlock."
+    },
+    {
+      "id": "k3",
+      "prompt": "What turned out to be the barcode's biggest business value?",
+      "answer": "Not faster checkout but data: hard, item-level evidence of what sells, which transformed inventory, market research and supply chains."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "⏳",
+      "title": "Right idea, wrong decade",
+      "text": "Joe Woodland sketched the barcode in Miami beach sand in 1949. He and Bernard Silver got a patent in 1952, and later sold it for $15,000. The first real checkout scan didn't happen until 1974. Today barcodes are swiped about 6 billion times a day. If the idea was right all along, what took 25 years?"
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "In the early 1970s, about what share of grocery items had to carry a barcode before a store's scanner investment would break even?",
+      "estimate": {
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "unit": "%",
+        "answer": 75
+      },
+      "reveal": "At least 75%. A scanner is worthless if cashiers still key in most items by hand.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "🔌",
+      "title": "Missing complements",
+      "text": "Woodland and Silver's prototype used a 500-watt incandescent bulb and an oscilloscope, and was the size of a desk. One evaluation judged it 20 years ahead of its time. The concept was sound; what was missing was a bright, focused light source and a cheap computer to decode it. The laser arrived in 1960, and falling computing costs did the rest.",
+      "why": {
+        "q": "Why can a correct invention still be worthless for decades?",
+        "a": "Its value depends on complementary technologies. Without a cheap reader and a computer to decode it, the code had nothing to plug into."
+      },
+      "example": "Theodore Maiman, who built the first laser in 1960, later wrote: \"I did not foresee the supermarket check-out scanner or the printer.\""
+    },
+    {
+      "type": "idea",
+      "emoji": "🐔",
+      "title": "A chicken-and-egg market",
+      "text": "Retailers would spend hundreds of thousands of dollars on scanners only if codes were printed on at least 75% of grocery items. Manufacturers faced about $200 million a year in label costs and had no reason to pay until stores could read them. In 1970 the grocery industry formed an ad hoc committee to pick one standard, then compelled suppliers to adopt it.",
+      "why": {
+        "q": "Why couldn't one strong company just go first?",
+        "a": "Each side's payoff depended on the other moving. A single shared standard, backed by the whole industry, removed the risk of backing the wrong code."
+      },
+      "example": "Kroger had pleaded for help in a 1966 booklet: \"could an optical scanner read the price and total the sale… We solicit your help.\""
+    },
+    {
+      "type": "idea",
+      "emoji": "📐",
+      "title": "Engineering to a spec",
+      "text": "The committee's spec was strict: at most 1.5 square inches, printable with existing label technology, readable from any direction at speed, and fewer than one undetected error in 20,000. RCA's bull's-eye was already running in a Cincinnati Kroger, but circles smeared in printing. IBM's George Laurer proposed straight bars; in 1973 the committee chose his rectangle.",
+      "example": "To convince his own skeptical boss, Laurer had IBM's ace softball pitcher throw beanbag ashtrays with codes on the bottom over the scanner. Every one read correctly."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧮",
+      "title": "Cheap error control",
+      "text": "The last of the 12 digits is a check digit: three times the sum of the odd-position digits, plus the even-position digits, must be a multiple of 10. That one digit catches every single-digit error and about 89% of swaps between neighbors. It's a cousin of the Luhn algorithm, another check-digit scheme, and it exists partly to catch typing mistakes.",
+      "example": "For 03600029145: (0+6+0+2+1+5) × 3 = 42, plus (3+0+0+9+4) = 16, gives 58, so the check digit is 2."
+    },
+    {
+      "type": "idea",
+      "emoji": "📈",
+      "title": "The real payoff was data",
+      "text": "Adoption was slow at first and took off when mass merchandisers joined, Kmart first. Checkout lines moved about 40% faster, but the bigger win was information. As one history puts it, the barcode's greatest value is that it has provided \"hard, statistical evidence for what sells and what does not.\" That fed inventory control, market research and, later, data-rich supply chains.",
+      "example": "In investing terms, the obvious use case (labor savings at the register) understated the asset. Much of the long-run value sat in the data stream."
+    },
+    {
+      "type": "think",
+      "question": "The barcode needed a missing complement (cheap lasers and computing) and a coordination fix (one industry standard). Pick a technology today that seems stuck. Which of those two is holding it back, and what would have to change?",
+      "nudges": [
+        "Who has to move first, and who pays?",
+        "Is the bottleneck the technology itself or agreement on a standard?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Which best explains the 25-year gap between Woodland's patent and the first checkout scan?",
+          "options": [
+            {
+              "text": "Missing complements plus a coordination problem among retailers and manufacturers",
+              "correct": true,
+              "why": "Right. The reader tech wasn't ready, and neither side wanted to move first."
+            },
+            {
+              "text": "The patent blocked anyone else from building barcodes until it expired",
+              "correct": false,
+              "why": "The patent was sold for $15,000; the hurdles were technical and economic, not legal."
+            },
+            {
+              "text": "Shoppers refused to buy barcoded products",
+              "correct": false,
+              "why": "There was skepticism, but the binding constraints were on the industry side."
+            },
+            {
+              "text": "The bull's-eye design was impossible to read",
+              "correct": false,
+              "why": "RCA's bull's-eye did work in a test store; it just smeared when printed."
+            }
+          ]
+        },
+        {
+          "q": "Why was the 75% threshold so important?",
+          "options": [
+            {
+              "text": "Below it, cashiers would still key in most items, so scanners couldn't pay for themselves",
+              "correct": true,
+              "why": "Yes. The scanner's value scales with how many items it can read."
+            },
+            {
+              "text": "Regulators required 75% coverage before scanners were legal",
+              "correct": false,
+              "why": "It was a break-even estimate for retailers, not a regulation."
+            },
+            {
+              "text": "Barcodes only worked if 75% of the label was black",
+              "correct": false,
+              "why": "That's not a design rule. It referred to the share of grocery items coded."
+            },
+            {
+              "text": "Manufacturers were paid once 75% of items were coded",
+              "correct": false,
+              "why": "Manufacturers were the ones paying for labels, about $200 million a year."
+            }
+          ]
+        },
+        {
+          "q": "A cashier keys in a UPC and types one digit wrong. What happens?",
+          "options": [
+            {
+              "text": "The check digit equation fails, so the system rejects it",
+              "correct": true,
+              "why": "Right. The UPC check digit catches 100% of single-digit errors."
+            },
+            {
+              "text": "It rings up a different product about 89% of the time",
+              "correct": false,
+              "why": "89% is the share of neighbor swaps caught, not single-digit errors."
+            },
+            {
+              "text": "It rings up the right product anyway",
+              "correct": false,
+              "why": "The digits are the product's ID; a wrong digit can't silently pass the check."
+            },
+            {
+              "text": "Nothing is checked when digits are typed by hand",
+              "correct": false,
+              "why": "The check digit exists partly to catch manual-entry mistakes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The barcode waited 25 years because…",
+        "The industry broke the chicken-and-egg problem by…",
+        "The real value of the barcode turned out to be…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "The History of the Bar Code",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/innovation/history-bar-code-180956704/",
+      "supports": "Woodland left Drexel for Miami Beach in winter 1948 and had the idea in January 1949; patent filed 1949, granted 1952; desk-size prototype with a 500-watt bulb and an oscilloscope, judged 20 years ahead of its time, lacking a minicomputer and bright light; Maiman's 1960 laser and his quote; Kroger's 1966 booklet quote; RCA bull's-eye test at Kroger in Cincinnati in 1972; the committee's spec (1.5 square inches, existing label printing, ten digits, readable from any direction, under one in 20,000 undetected errors); the beanbag ashtray demo; committee chose Laurer's rectangle in 1973; Kmart first mass merchandiser; the quote on statistical evidence of what sells."
+    },
+    {
+      "title": "The UPC",
+      "publisher": "IBM Heritage",
+      "url": "https://www.ibm.com/history/upc",
+      "supports": "Patent sold for $15,000; grocery industry formed the Ad Hoc Committee in 1970; bull's-eye prone to smearing; laser technology and falling computing costs; first swipe June 26, 1974; retailers' hundreds of thousands of dollars of investment needing codes on at least 75% of grocery items to break even; manufacturers facing $200 million a year in labels; industry compelled suppliers; checkout lines 40% faster; about 6 billion swipes a day."
+    },
+    {
+      "title": "Universal Product Code",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Universal_Product_Code",
+      "supports": "12-digit UPC-A with a check digit; the check-digit equation and the 03600029145 → 2 example; detects 100% of single-digit errors and about 89% of transpositions; related to the Luhn algorithm; designed to detect manual-entry errors."
+    }
+  ]
+}

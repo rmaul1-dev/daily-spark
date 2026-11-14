@@ -1,0 +1,236 @@
+{
+  "id": "tech-barcodes-kid",
+  "topic": "tech",
+  "subject": "barcodes",
+  "level": "kid",
+  "title": "The Stripes That Beep",
+  "emoji": "🏷️",
+  "summary": "How a few black stripes tell the store what you are buying, and why they came from lines in the sand.",
+  "minutes": 6,
+  "date_added": "2026-11-14",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What does a store scanner read in a barcode?",
+      "answer": "The pattern of dark bars and white spaces. Dark bars soak up light and white spaces bounce it back.",
+      "options": [
+        {
+          "text": "The pattern of dark bars and white spaces",
+          "correct": true
+        },
+        {
+          "text": "Tiny words hidden in the stripes"
+        },
+        {
+          "text": "The color of the box"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Where does the price come from when a barcode is scanned?",
+      "answer": "The barcode is a number that names the product. The store's computer looks up the price for that number.",
+      "options": [
+        {
+          "text": "The store's computer looks it up using the barcode number",
+          "correct": true
+        },
+        {
+          "text": "The price is printed inside the stripes"
+        },
+        {
+          "text": "The scanner guesses it from the size of the box"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "What gave Joe Woodland the idea for barcode stripes?",
+      "answer": "Morse code. He drew lines in the sand and saw that wide and narrow lines could stand for information, like dots and dashes.",
+      "options": [
+        {
+          "text": "Morse code's dots and dashes",
+          "correct": true
+        },
+        {
+          "text": "The stripes on a zebra"
+        },
+        {
+          "text": "Lines on a soccer field"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🔍",
+      "title": "Go find some stripes",
+      "text": "Grab a cereal box, a juice box or a book. Somewhere on it is a patch of black stripes with numbers under it. Some stripes are thin and some are thick. What could a bunch of stripes be telling the store?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "What do you think the barcode on a can of soda holds?",
+      "options": [
+        {
+          "text": "The price of the soda"
+        },
+        {
+          "text": "A number that names that soda",
+          "correct": true
+        },
+        {
+          "text": "The name of the store"
+        }
+      ],
+      "reveal": "A number that names the product. The store's computer looks up the price for that number.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "🏖️",
+      "title": "Lines in the sand",
+      "text": "Long ago, an inventor named Joe Woodland wanted to speed up the grocery checkout. One day at a beach in Miami, he ran his fingers through the sand. He thought of Morse code, which uses dots and dashes. His lines in the sand gave him an idea: wide lines and thin lines could stand for information too.",
+      "example": "Morse code spells letters with short dots and long dashes. A barcode does the same job with thin and wide stripes."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔦",
+      "title": "Light and dark",
+      "text": "A scanner shines light on the stripes. Dark bars soak up the light. White spaces bounce it back. A sensor feels the bright and dark flashes and measures how wide each stripe is. That pattern turns into a number.",
+      "why": {
+        "q": "Why are barcodes black stripes on white, and not gray on gray?",
+        "a": "The scanner tells bars from spaces by how much light bounces back. Black soaks up light and white bounces it back, so the difference is easy to see."
+      },
+      "example": "It is a bit like a flashlight on a fence. The boards and the gaps look different, so you could count them in the dark."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧾",
+      "title": "A name tag, not a price tag",
+      "text": "The barcode is a number that names the product, like a name tag. The store keeps a list in its computer with that number and a price. When the cashier scans your soda, the computer looks up the price. It also takes one soda off the count of how many are left.",
+      "why": {
+        "q": "Why not just put the price in the barcode?",
+        "a": "The store sets the price and keeps it in its own computer. So the store can change a price without changing the code on every can."
+      },
+      "example": "Say the soda goes on sale. The store changes one number in its computer. The cans on the shelf stay the same."
+    },
+    {
+      "type": "idea",
+      "emoji": "🍬",
+      "title": "The first beep",
+      "text": "The first barcode scan in a store was on June 26, 1974, in Troy, Ohio. It was a pack of Juicy Fruit gum, and it rang up 67 cents. Today, barcodes get scanned about 6 billion times a day around the world.",
+      "example": "Barcodes are not just for food now. They help with library books and boarding passes, and even help hospitals keep track of newborn babies."
+    },
+    {
+      "type": "think",
+      "question": "Imagine your favorite store with no barcodes at all. What would be harder for the cashier? What would be harder for the people who fill the shelves?",
+      "nudges": [
+        "How would the cashier know each price?",
+        "How would the store know when the gum is almost gone?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "How does a scanner tell a dark bar from a white space?",
+          "options": [
+            {
+              "text": "Dark bars soak up light, and white spaces bounce it back",
+              "correct": true,
+              "why": "Yes! The sensor feels which parts are bright and which are dark."
+            },
+            {
+              "text": "It feels bumps on the paper",
+              "correct": false,
+              "why": "Good guess, but barcodes are flat. The scanner uses light."
+            },
+            {
+              "text": "It listens to the beep",
+              "correct": false,
+              "why": "The beep comes after the scan. It means the scan worked."
+            }
+          ]
+        },
+        {
+          "q": "The store puts the soda on sale. What has to change?",
+          "options": [
+            {
+              "text": "Just the price in the store's computer",
+              "correct": true,
+              "why": "Right! The barcode only names the soda. The price lives in the computer."
+            },
+            {
+              "text": "The barcode on every can",
+              "correct": false,
+              "why": "No need. The barcode is a name tag, not a price tag."
+            },
+            {
+              "text": "The scanner",
+              "correct": false,
+              "why": "The scanner stays the same. It just reads the number."
+            }
+          ]
+        },
+        {
+          "q": "What was the first thing ever scanned with a barcode in a store?",
+          "options": [
+            {
+              "text": "A pack of gum",
+              "correct": true,
+              "why": "Yes! A pack of Juicy Fruit gum in Ohio, in 1974."
+            },
+            {
+              "text": "A carton of milk",
+              "correct": false,
+              "why": "Good guess, but it was a pack of gum."
+            },
+            {
+              "text": "A box of cereal",
+              "correct": false,
+              "why": "Close! It was a pack of Juicy Fruit gum."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "A barcode is…",
+        "The scanner reads it by…",
+        "The price comes from…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "TDbtK0NEft4",
+    "title": "How does a Barcode work? 🛒 Maddie's Do You Know 👩",
+    "channel": "Maddie's Do You Know?",
+    "duration_sec": 312,
+    "why": "Maddie sees how a checkout scanner reads stripes, then follows soup cans from warehouse to shelf. It's filmed in the UK, where barcodes have 13 numbers."
+  },
+  "sources": [
+    {
+      "title": "The UPC",
+      "publisher": "IBM Heritage",
+      "url": "https://www.ibm.com/history/upc",
+      "supports": "Joe Woodland at his grandfather's Miami apartment, a day at the beach, fingers through the sand, Morse code dots and dashes, wide and narrow lines; first UPC swipe June 26, 1974 at Marsh's Supermarket in Troy, Ohio, a 67-cent pack of Wrigley's Juicy Fruit gum; about 6 billion barcode swipes a day; barcodes on library books, boarding passes and used for tracking newborns."
+    },
+    {
+      "title": "Barcode reader",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Barcode_reader",
+      "supports": "The scanner's light reflects off the code; dark bars absorb light and white spaces reflect it; the sensor measures the widths of bars and spaces."
+    },
+    {
+      "title": "What Is a GTIN?",
+      "publisher": "GS1 US",
+      "url": "https://www.gs1us.org/upcs-barcodes-prefixes/what-is-a-gtin",
+      "supports": "The lemon-soda example: the brand gives the product its number, the store adds the price to its database, scanning looks up the price, and the count of units is updated."
+    }
+  ]
+}
