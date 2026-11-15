@@ -1,0 +1,213 @@
+{
+  "id": "body-muscles-adult",
+  "topic": "body",
+  "subject": "muscles",
+  "level": "adult",
+  "title": "Muscle: A Molecular Motor and a Heater",
+  "emoji": "💪",
+  "summary": "From sliding filaments to ATP-driven cross-bridges: how muscle turns chemistry into force and heat, and why the field took years to believe it.",
+  "minutes": 8,
+  "date_added": "2026-11-15",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What does the sliding filament theory say happens during contraction?",
+      "answer": "Myosin (thick) filaments slide past actin (thin) filaments while both stay roughly constant in length; overlap, not filament length, changes."
+    },
+    {
+      "id": "k2",
+      "prompt": "What drives the sliding, at the molecular level?",
+      "answer": "Myosin heads repeatedly attach to actin, pull, detach and rebind (the cross-bridge cycle), powered by ATP that myosin breaks down."
+    },
+    {
+      "id": "k3",
+      "prompt": "What is the trade-off between skeletal and smooth muscle?",
+      "answer": "Skeletal muscle is fast, powerful and voluntary but fatigues easily; smooth muscle is slow and involuntary but can stay contracted a long time."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🌡️",
+      "title": "The heater you never think about",
+      "text": "We think of muscle as the thing that moves us. But muscle is also the body's main furnace. And the mechanism behind every contraction, protein filaments sliding past each other, was published in 1954, then met years of skepticism before it became the textbook account."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "Roughly what share of the heat your body produces comes from muscle contraction?",
+      "estimate": {
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "unit": "%",
+        "answer": 85
+      },
+      "reveal": "Nearly 85 percent, per NIH's SEER training module. Heat is a major by-product of muscle metabolism.",
+      "reveal_after": 5
+    },
+    {
+      "type": "idea",
+      "emoji": "🧭",
+      "title": "More than motion",
+      "text": "Nearly all movement in the body comes from muscle contraction; the main exceptions are cilia, the sperm cell's flagellum and the crawling of some white blood cells. Muscle also does quieter work: holding posture through constant fine adjustments, and stabilizing joints, since tendons crossing the knee and shoulder are major stabilizers.",
+      "example": "Even sitting still is active work: skeletal muscles keep making small adjustments to hold you in position."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔬",
+      "title": "1954: two papers, one idea",
+      "text": "On 22 May 1954, two consecutive papers in Nature, from Andrew Huxley and Rolf Niedergerke at Cambridge and from Hugh Huxley and Jean Hanson at MIT, independently proposed that thick myosin filaments slide past thin actin filaments, which stay roughly constant in length. Competing explanations had included electrical attraction and protein folding.",
+      "example": "Change in overlap, not change in filament length: the same telescoping logic as a collapsible tripod leg."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚙️",
+      "title": "ATP and the cross-bridge cycle",
+      "text": "The motor is chemical. In 1939 Engelhardt and Lyubimova found myosin breaks down ATP; in 1942 Szent-Györgyi showed ATP was the energy source for contraction. Hugh Huxley's 1969 Science paper proposed the cross-bridge model: myosin heads attach to actin, pull, detach and rebind, cycling again and again.",
+      "why": {
+        "q": "Why does it matter that myosin is an enzyme, not just a structural protein?",
+        "a": "It means one molecule both breaks down ATP and helps generate force. The prevailing view treated myosin as merely structural, which is why Szent-Györgyi's actomyosin idea met opposition."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Three designs, three trade-offs",
+      "text": "Skeletal muscle is striated, voluntary, fast and powerful, but it tires easily. Smooth muscle in vessel and gut walls is involuntary and slower to contract, yet it can stay contracted for a long time. Cardiac muscle is involuntary too, built for strong, rhythmic contractions. Each design trades speed and power against endurance differently.",
+      "example": "Smooth muscle in blood vessel walls squeezes the blood flowing through them to help maintain blood pressure, a job that would exhaust fast-tiring skeletal muscle."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔥",
+      "title": "Control loop and by-product",
+      "text": "Voluntary movement starts in the motor cortex, travels via the spinal cord and peripheral nerves, and is coordinated by the cerebellum using feedback from sensors in muscles and joints. And the chemistry isn't loss-free: nearly 85 percent of the heat your body produces is the result of muscle contraction, which helps hold body temperature.",
+      "example": "The motor cortex on the right side of the brain controls the left side of the body, and vice versa."
+    },
+    {
+      "type": "think",
+      "question": "The sliding filament theory had strong evidence yet won little support for several years, even Szent-Györgyi resisted part of it. When you meet strong evidence against an expert consensus in your own field, how do you decide how fast to update?",
+      "nudges": [
+        "What made the old view feel safe?",
+        "What evidence would have convinced you sooner?",
+        "Is slow acceptance always a failure, or sometimes healthy?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "A muscle fiber shortens. Under the sliding filament model, which observation fits best?",
+          "options": [
+            {
+              "text": "Filament overlap increases while filament lengths stay roughly constant",
+              "correct": true,
+              "why": "Correct: that's the core claim of both 1954 papers."
+            },
+            {
+              "text": "Myosin filaments fold and shorten",
+              "correct": false,
+              "why": "Folding was a competing pre-1954 idea; the model says the filaments keep roughly constant length."
+            },
+            {
+              "text": "Actin filaments dissolve and re-form",
+              "correct": false,
+              "why": "No; the thin filaments slide past the thick ones rather than being rebuilt."
+            },
+            {
+              "text": "Electrical attraction pulls fibers together",
+              "correct": false,
+              "why": "Electrical attraction was one of the earlier competing theories the sliding model displaced."
+            }
+          ]
+        },
+        {
+          "q": "What role does ATP play in contraction?",
+          "options": [
+            {
+              "text": "It's the energy source myosin breaks down to power the cross-bridge cycle",
+              "correct": true,
+              "why": "Right: Szent-Györgyi showed ATP powers contraction, and myosin has ATPase activity."
+            },
+            {
+              "text": "It's the nerve signal that starts contraction",
+              "correct": false,
+              "why": "The signal comes from nerves; ATP supplies the energy."
+            },
+            {
+              "text": "It's the connective tissue that forms tendons",
+              "correct": false,
+              "why": "No; ATP is an energy-carrying molecule, not a tissue."
+            },
+            {
+              "text": "It only matters in smooth muscle",
+              "correct": false,
+              "why": "Szent-Györgyi showed ATP is the energy source for muscle contraction generally."
+            }
+          ]
+        },
+        {
+          "q": "A job needs steady tension held for a long time without tiring. Which muscle type fits best?",
+          "options": [
+            {
+              "text": "Smooth muscle",
+              "correct": true,
+              "why": "Yes: slower to contract but able to stay contracted a long time."
+            },
+            {
+              "text": "Skeletal muscle",
+              "correct": false,
+              "why": "Fast and powerful, but it tires easily."
+            },
+            {
+              "text": "Cardiac muscle",
+              "correct": false,
+              "why": "Cardiac muscle is built for strong rhythmic beats, not one sustained hold."
+            },
+            {
+              "text": "Any type equally",
+              "correct": false,
+              "why": "The types make distinct speed–endurance trade-offs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Muscle contraction works by…",
+        "The idea took years to accept because…",
+        "The trade-off between muscle types is…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "Ktv-CaOt6UQ",
+    "title": "Muscles, Part 1 - Muscle Cells: Crash Course Anatomy & Physiology #21",
+    "channel": "CrashCourse",
+    "duration_sec": 624,
+    "why": "Crash Course traces the full chain: rope-like muscle structure, the nerve signal, calcium, and the ATP-powered myosin–actin cycle behind sliding filaments."
+  },
+  "sources": [
+    {
+      "title": "Sliding filament theory",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sliding_filament_theory",
+      "supports": "Sliding filament theory: two Nature papers on 22 May 1954 by Andrew Huxley & Rolf Niedergerke (Cambridge) and Hugh Huxley & Jean Hanson (MIT); myosin slides past actin with filaments at relatively constant length; earlier theories included electrical attraction and protein folding; Engelhardt and Lyubimova found myosin's ATPase in 1939; Szent-Györgyi showed in 1942 ATP was the energy source; prevailing dogma held myosin was structural, not an enzyme; theory did not gain support for several years and Szent-Györgyi refused part of it; Hugh Huxley's 20 June 1969 Science paper proposed the cross-bridge model of cyclic attachment and detachment."
+    },
+    {
+      "title": "Introduction to the Muscular System",
+      "publisher": "SEER Training, National Cancer Institute (NIH)",
+      "url": "https://training.seer.cancer.gov/anatomy/muscular/",
+      "supports": "Nearly all movement results from muscle contraction; exceptions are cilia, the sperm flagellum and amoeboid movement of some white blood cells; posture maintained by continual fine adjustments of skeletal muscles; tendons over joints contribute to stability, especially knee and shoulder; nearly 85 percent of body heat is the result of muscle contraction."
+    },
+    {
+      "title": "Bones, Muscles & Joints",
+      "publisher": "Nemours KidsHealth",
+      "url": "https://kidshealth.org/en/parents/bones-muscles-joints.html",
+      "supports": "Skeletal muscle striated, voluntary, contracts quickly and powerfully but tires easily; smooth muscle involuntary, slower to contract but can stay contracted a long time, helps maintain blood pressure in vessel walls; cardiac muscle involuntary with rhythmic powerful contractions; motor cortex sends signals via spinal cord and peripheral nerves; cerebellum coordinates; sensors give feedback; right motor cortex controls left side of body."
+    }
+  ]
+}

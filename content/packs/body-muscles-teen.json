@@ -1,0 +1,211 @@
+{
+  "id": "body-muscles-teen",
+  "topic": "body",
+  "subject": "muscles",
+  "level": "teen",
+  "title": "How Muscles Pull: Sliding Threads and Smart Pairs",
+  "emoji": "💪",
+  "summary": "Inside every muscle fiber, protein threads slide past each other. Pairs of muscles, a brain-to-muscle feedback loop and a lot of heat do the rest.",
+  "minutes": 7,
+  "date_added": "2026-11-15",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What actually happens inside a muscle fiber when it contracts?",
+      "answer": "Thick myosin filaments slide past thin actin filaments. The filaments keep about the same length; their overlap changes."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why do skeletal muscles work in flexor–extensor pairs?",
+      "answer": "Muscles can pull but can't push. So one muscle bends a joint and its partner pulls the other way to straighten it."
+    },
+    {
+      "id": "k3",
+      "prompt": "What are the trade-offs between skeletal and smooth muscle?",
+      "answer": "Skeletal muscle contracts fast and powerfully but tires easily. Smooth muscle is slower but can stay contracted a long time."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧵",
+      "title": "Shorter, with nothing shrinking",
+      "text": "When your biceps contracts, the whole muscle gets shorter. So you'd guess the tiny protein threads inside it shrink, fold up or crumple. Before the 1950s, scientists had several competing ideas, including protein folding. The real answer turned out to be stranger and much more elegant."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "When a muscle fiber contracts, what do you think its protein threads do?",
+      "options": [
+        {
+          "text": "They fold up like an accordion"
+        },
+        {
+          "text": "They slide past each other",
+          "correct": true
+        },
+        {
+          "text": "They dissolve and re-form shorter"
+        }
+      ],
+      "reveal": "They slide. Thick myosin threads pull thin actin threads past them, and both stay about the same length.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "🧩",
+      "title": "Three muscle types, three jobs",
+      "text": "Skeletal muscle attaches to bones by tendons and is voluntary: you control it. It contracts quickly and powerfully but tires easily. Smooth muscle in your gut and blood vessels is involuntary; it's slower but can stay contracted a long time. Cardiac muscle in the heart is involuntary and beats in a strong rhythm.",
+      "example": "A sprint uses skeletal muscle, which tires fast. Muscle in your blood vessel walls can hold its squeeze for a long time without tiring."
+    },
+    {
+      "type": "idea",
+      "emoji": "🦴",
+      "title": "Tendons and pairs",
+      "text": "Skeletal muscles attach to bones with cord-like tendons and pull on your joints to move you. But a muscle can pull, not push. So muscles work in pairs: a flexor contracts to bend a joint, then relaxes while an extensor contracts to straighten it.",
+      "example": "Curl a bag of groceries: your biceps (flexor) contracts. Lower it and straighten your arm: the triceps (extensor) takes over.",
+      "examples_by_interest": {
+        "golf": "Say you're on the backswing: muscles on one side of the joint pull to bend your arms and wrists. On the downswing their partners pull the opposite way. Every move is pulls, never pushes."
+      },
+      "why": {
+        "q": "Why can't a single muscle both bend and straighten your elbow?",
+        "a": "A muscle only does work by contracting and pulling. To reverse the motion, a muscle on the other side has to pull."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🔬",
+      "title": "The sliding filament model",
+      "text": "Each fiber is packed with two protein filaments: thick myosin and thin actin. In 1954 two research teams published the same big idea in Nature: during contraction, the filaments slide past each other while keeping about the same length. Myosin heads grab actin, pull, let go and grab again, powered by ATP.",
+      "example": "Picture a team pulling a rope hand over hand. The rope doesn't shrink; it just moves past their hands."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧠",
+      "title": "A control loop",
+      "text": "When you decide to move, the motor cortex in your brain sends an electrical signal through your spinal cord and nerves to the muscle. The cerebellum coordinates the movement. Sensors in muscles and joints report back where your limb is. The result is smooth motion, not jerky robot moves.",
+      "example": "Running needs many muscles firing in rhythm, so the brain's messages are much more involved than for lifting one arm."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔥",
+      "title": "Your built-in heater",
+      "text": "Heat is an important by-product of muscles at work. Nearly 85 percent of the heat your body makes comes from muscle contraction, and that heat helps keep your body temperature steady.",
+      "example": "You feel warm after soccer practice partly because your working muscles have been making heat."
+    },
+    {
+      "type": "think",
+      "question": "Before 1954, some scientists thought muscle proteins folded up to contract. What kind of evidence would you need to tell \"folding\" apart from \"sliding\"?",
+      "nudges": [
+        "What would you expect to see happen to the length of each thread?",
+        "What tools would let you see something that tiny?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "In the sliding filament model, what changes when a muscle fiber contracts?",
+          "options": [
+            {
+              "text": "How much the actin and myosin filaments overlap",
+              "correct": true,
+              "why": "Right. The filaments keep about the same length; they slide to overlap more."
+            },
+            {
+              "text": "The length of each myosin filament",
+              "correct": false,
+              "why": "That was a reasonable guess, but the evidence showed the filaments stay about the same length."
+            },
+            {
+              "text": "The number of muscle fibers",
+              "correct": false,
+              "why": "Contraction doesn't add fibers. The same fibers shorten as filaments slide."
+            },
+            {
+              "text": "The bone's length",
+              "correct": false,
+              "why": "Bones don't change. The muscle shortens and pulls the bone around the joint."
+            }
+          ]
+        },
+        {
+          "q": "You lower a heavy book by straightening your elbow. Which muscle does the straightening?",
+          "options": [
+            {
+              "text": "The triceps, the extensor at the back of the arm",
+              "correct": true,
+              "why": "Yes. The extensor pulls to straighten the joint."
+            },
+            {
+              "text": "The biceps, by pushing",
+              "correct": false,
+              "why": "Muscles can't push. The biceps bends the elbow; the triceps straightens it."
+            },
+            {
+              "text": "The heart",
+              "correct": false,
+              "why": "Cardiac muscle pumps blood. Arm movements use skeletal muscle."
+            }
+          ]
+        },
+        {
+          "q": "Which muscle type is best for holding a squeeze for a long time without tiring?",
+          "options": [
+            {
+              "text": "Smooth muscle",
+              "correct": true,
+              "why": "Right. It's slower to contract but can stay contracted a long time."
+            },
+            {
+              "text": "Skeletal muscle",
+              "correct": false,
+              "why": "Skeletal muscle is fast and powerful, but it tires easily."
+            },
+            {
+              "text": "None; every muscle tires at the same rate",
+              "correct": false,
+              "why": "Different types make different trade-offs between speed and endurance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Inside a muscle fiber, contraction works by…",
+        "Muscles come in pairs because…",
+        "Most of my body heat comes from…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "VVL-8zr2hk4",
+    "title": "How your muscular system works - Emma Bryce",
+    "channel": "TED-Ed",
+    "duration_sec": 285,
+    "why": "A five-minute TED-Ed tour of the three muscle types, opposing pairs, fast- and slow-twitch fibers, and why muscles are your body's main heater."
+  },
+  "sources": [
+    {
+      "title": "Bones, Muscles & Joints",
+      "publisher": "Nemours KidsHealth",
+      "url": "https://kidshealth.org/en/parents/bones-muscles-joints.html",
+      "supports": "Three muscle types; skeletal muscle attached by tendons, voluntary, contracts quickly and powerfully but tires easily; smooth muscle involuntary, slower but stays contracted a long time; cardiac muscle involuntary with rhythmic powerful contractions; muscles pull but can't push, flexor/extensor pairs, biceps bends and triceps straightens the elbow; motor cortex sends signal through spinal cord and nerves; cerebellum coordinates; sensors in muscles and joints give feedback for smooth motion; running needs many muscles in rhythm."
+    },
+    {
+      "title": "Introduction to the Muscular System",
+      "publisher": "SEER Training, National Cancer Institute (NIH)",
+      "url": "https://training.seer.cancer.gov/anatomy/muscular/",
+      "supports": "Nearly all movement in the body results from muscle contraction; nearly 85 percent of the heat produced in the body comes from muscle contraction, helping maintain body temperature."
+    },
+    {
+      "title": "Sliding filament theory",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sliding_filament_theory",
+      "supports": "Sliding filament theory introduced in 1954 by two teams in Nature; myosin (thick) filaments slide past actin (thin) filaments, which stay relatively constant in length; competing earlier theories included protein folding; myosin attaches to actin, pulls, detaches and binds again (cross-bridge cycle); ATP is the energy source for contraction."
+    }
+  ]
+}

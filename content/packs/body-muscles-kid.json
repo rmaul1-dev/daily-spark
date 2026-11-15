@@ -1,0 +1,236 @@
+{
+  "id": "body-muscles-kid",
+  "topic": "body",
+  "subject": "muscles",
+  "level": "kid",
+  "title": "Muscles Can Only Pull",
+  "emoji": "💪",
+  "summary": "Your muscles move you by pulling, work in pairs, take orders from your brain, and even keep you warm.",
+  "minutes": 6,
+  "date_added": "2026-11-15",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why do muscles work in pairs, like the biceps and triceps?",
+      "answer": "A muscle can pull a bone but can't push it back. So a second muscle pulls the other way.",
+      "options": [
+        {
+          "text": "A muscle can pull but not push, so another muscle pulls the other way",
+          "correct": true
+        },
+        {
+          "text": "One muscle rests while the other one grows"
+        },
+        {
+          "text": "Two muscles are needed to make one bone"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Which kind of muscle do you control on purpose?",
+      "answer": "Skeletal muscle. Heart muscle and smooth muscle work on their own without you thinking.",
+      "options": [
+        {
+          "text": "Skeletal muscle, like in your arms and legs",
+          "correct": true
+        },
+        {
+          "text": "Heart muscle"
+        },
+        {
+          "text": "Smooth muscle in your stomach"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "How does a muscle know when to move?",
+      "answer": "Your brain sends a signal down the spinal cord and nerves to the muscle. Then the muscle gets shorter and pulls.",
+      "options": [
+        {
+          "text": "The brain sends a signal through the spinal cord and nerves",
+          "correct": true
+        },
+        {
+          "text": "The bone tells the muscle to move"
+        },
+        {
+          "text": "The muscle guesses by itself"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🦾",
+      "title": "Try this",
+      "text": "Put one hand on the front of your upper arm. Now bend your elbow slowly. Feel the muscle get firm and bunch up? Now straighten your arm. Which muscle did that job? It was not the same one!"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "How many muscles do you think are in your body?",
+      "options": [
+        {
+          "text": "About 60"
+        },
+        {
+          "text": "More than 600",
+          "correct": true
+        },
+        {
+          "text": "Exactly 6"
+        }
+      ],
+      "reveal": "More than 600! They come in all shapes and sizes, and they have lots of different jobs.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "🧩",
+      "title": "Three kinds of muscle",
+      "text": "You have more than 600 muscles. Skeletal muscles hook onto your bones. You move them when you want to. Smooth muscle lines your stomach and blood vessels. Heart muscle keeps your heart beating. Those two work on their own.",
+      "example": "You choose to kick a ball. But you never have to tell your heart to beat or your stomach to squeeze your lunch along."
+    },
+    {
+      "type": "idea",
+      "emoji": "↔️",
+      "title": "Pull, never push",
+      "text": "A muscle moves a bone by getting shorter and pulling. It can't push the bone back. So muscles work in pairs. Your biceps, on the front of your arm, bends your elbow. Your triceps, on the back, straightens it.",
+      "example": "Think of a door with a rope on each side. One rope pulls it shut. The other rope pulls it open.",
+      "why": {
+        "q": "Why does your arm need two muscles to bend and straighten?",
+        "a": "Muscles can only pull. One pulls to bend the elbow, and the other pulls to straighten it again."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🧠",
+      "title": "Orders from the brain",
+      "text": "When you decide to move, your brain sends a signal. It travels down your spinal cord and nerves to the muscle, and the muscle pulls. Then tiny sensors in the muscle send messages back. That is how your moves stay smooth.",
+      "example": "Fun fact: the right side of your brain moves the left side of your body. The left side moves the right!",
+      "why": {
+        "q": "Why do muscles send messages back to the brain?",
+        "a": "So the brain knows where your arm or leg is and how it is moving. That feedback keeps your moves smooth."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🔥",
+      "title": "Muscles keep you warm",
+      "text": "Muscles make heat when they work. Nearly 85 out of every 100 parts of your body's heat comes from your muscles. That heat helps keep you at the right temperature.",
+      "example": "That is one reason you feel warm after a game of tag at recess."
+    },
+    {
+      "type": "think",
+      "question": "Pick something you did today, like brushing your teeth. Which muscles do you think pulled, and which ones pulled the other way?",
+      "nudges": [
+        "Think about bending and straightening.",
+        "Did any muscles work without you thinking?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What does the triceps do?",
+          "options": [
+            {
+              "text": "It straightens your elbow",
+              "correct": true,
+              "why": "Yes! It pulls from the back of your arm to straighten it."
+            },
+            {
+              "text": "It pushes your arm to bend it",
+              "correct": false,
+              "why": "Muscles can't push. The biceps pulls to bend; the triceps pulls to straighten."
+            },
+            {
+              "text": "It makes your heart beat",
+              "correct": false,
+              "why": "That is heart muscle. The triceps is a skeletal muscle in your arm."
+            }
+          ]
+        },
+        {
+          "q": "Which muscle works without you thinking about it?",
+          "options": [
+            {
+              "text": "Heart muscle",
+              "correct": true,
+              "why": "Right. Your heart beats on its own, day and night."
+            },
+            {
+              "text": "The muscles you use to wave",
+              "correct": false,
+              "why": "Waving is a choice, so it uses skeletal muscles you control."
+            },
+            {
+              "text": "The muscles you use to kick",
+              "correct": false,
+              "why": "Kicking is on purpose. Those are skeletal muscles."
+            }
+          ]
+        },
+        {
+          "q": "Where does most of your body's heat come from?",
+          "options": [
+            {
+              "text": "Your working muscles",
+              "correct": true,
+              "why": "Yes. Nearly 85 out of every 100 parts of body heat comes from muscles."
+            },
+            {
+              "text": "Your bones",
+              "correct": false,
+              "why": "Bones hold you up and protect you. Muscles make most of the heat."
+            },
+            {
+              "text": "Your brain",
+              "correct": false,
+              "why": "Your brain sends signals to your muscles. The muscles make most of the heat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Muscles can only pull, so…",
+        "My biceps and triceps work together by…",
+        "My brain tells a muscle to move by…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "f_F5UwtdPOc",
+    "title": "How Your Muscles Work",
+    "channel": "Nemours KidsHealth",
+    "duration_sec": 348,
+    "why": "Chloe and Nurb show the three kinds of muscle, how biceps and triceps take turns, and how your brain tells muscles to move."
+  },
+  "sources": [
+    {
+      "title": "Bones, Muscles & Joints",
+      "publisher": "Nemours KidsHealth",
+      "url": "https://kidshealth.org/en/parents/bones-muscles-joints.html",
+      "supports": "Muscles pull on joints so we move; three kinds of muscle (skeletal, smooth, cardiac); skeletal muscles are voluntary and attached to bone; smooth muscle in stomach, intestines and blood vessel walls; cardiac muscle in the heart is involuntary; muscles pull but can't push, so they work in flexor/extensor pairs; biceps bends the elbow, triceps straightens it; brain sends a signal through the spinal cord and nerves; right side of brain controls left side of body; sensors send messages back for smooth movement."
+    },
+    {
+      "title": "Muscles",
+      "publisher": "Cleveland Clinic",
+      "url": "https://my.clevelandclinic.org/health/body/21887-muscle",
+      "supports": "You have more than 600 muscles in your body."
+    },
+    {
+      "title": "Introduction to the Muscular System",
+      "publisher": "SEER Training, National Cancer Institute (NIH)",
+      "url": "https://training.seer.cancer.gov/anatomy/muscular/",
+      "supports": "Nearly 85 percent of the heat produced in the body is the result of muscle contraction; heat helps maintain body temperature."
+    }
+  ]
+}

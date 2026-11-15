@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "topics": [
   {
    "id": "history",
@@ -546,6 +546,17 @@
     "kid": "tech-barcodes-kid"
    },
    "dinner_question": "Joe Woodland had a great idea that took 25 years to catch on. What is an idea you had that nobody was ready for yet, and what would have to change for it to work?"
+  },
+  {
+   "date": "2026-11-23",
+   "topic": "body",
+   "title": "Muscles: how pulling moves you",
+   "packs": {
+    "adult": "body-muscles-adult",
+    "teen": "body-muscles-teen",
+    "kid": "body-muscles-kid"
+   },
+   "dinner_question": "Muscles can only pull, never push, so they work in pairs. What is something our family does best as a pair, where each person does the part the other can't?"
   }
  ],
  "series": [
@@ -2700,6 +2711,45 @@
    "minutes": 8,
    "date_added": "2026-11-06",
    "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "body-muscles-kid",
+   "topic": "body",
+   "level": "kid",
+   "title": "Muscles Can Only Pull",
+   "emoji": "💪",
+   "subject": "muscles",
+   "summary": "Your muscles move you by pulling, work in pairs, take orders from your brain, and even keep you warm.",
+   "minutes": 6,
+   "date_added": "2026-11-15",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "body-muscles-teen",
+   "topic": "body",
+   "level": "teen",
+   "title": "How Muscles Pull: Sliding Threads and Smart Pairs",
+   "emoji": "💪",
+   "subject": "muscles",
+   "summary": "Inside every muscle fiber, protein threads slide past each other. Pairs of muscles, a brain-to-muscle feedback loop and a lot of heat do the rest.",
+   "minutes": 7,
+   "date_added": "2026-11-15",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "body-muscles-adult",
+   "topic": "body",
+   "level": "adult",
+   "title": "Muscle: A Molecular Motor and a Heater",
+   "emoji": "💪",
+   "subject": "muscles",
+   "summary": "From sliding filaments to ATP-driven cross-bridges: how muscle turns chemistry into force and heat, and why the field took years to believe it.",
+   "minutes": 8,
+   "date_added": "2026-11-15",
+   "cards": 10,
    "keys_count": 3
   },
   {
