@@ -1,0 +1,232 @@
+{
+  "topic": "ideas",
+  "subject": "sunk-cost",
+  "date_added": "2026-11-16",
+  "id": "ideas-sunk-cost-kid",
+  "level": "kid",
+  "title": "The Ticket You Already Paid For",
+  "emoji": "🎟️",
+  "summary": "Money you already spent is gone. Why it should not boss around your next choice.",
+  "minutes": 6,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is a sunk cost?",
+      "answer": "Money, time or effort you already spent and cannot get back.",
+      "options": [
+        {
+          "text": "Something you already spent and cannot get back",
+          "correct": true
+        },
+        {
+          "text": "Money you plan to spend next week"
+        },
+        {
+          "text": "Money you will get back later"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Why shouldn't a sunk cost decide what you do next?",
+      "answer": "It is gone no matter what you pick. Only what happens next can still change.",
+      "options": [
+        {
+          "text": "It is gone no matter what you pick",
+          "correct": true
+        },
+        {
+          "text": "It always means you should quit"
+        },
+        {
+          "text": "It comes back if you keep going"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "Does skipping the sunk cost trap mean you should always quit?",
+      "answer": "No. If going on is still worth it from now on, keep going.",
+      "options": [
+        {
+          "text": "No, keep going if it is still worth it from now on",
+          "correct": true
+        },
+        {
+          "text": "Yes, always quit right away"
+        },
+        {
+          "text": "Yes, but only on weekends"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🎟️",
+      "title": "Two tickets, one weekend",
+      "text": "Imagine you have two tickets for the same day. One cost a lot. The other cost less, but it sounds way more fun. You can only use one. Which would you pick? Lots of people pick the one that cost more."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "College students imagined a $100 ski trip and a $50 ski trip on the same weekend. They thought the $50 trip would be more fun. Which trip did more of them pick?",
+      "options": [
+        {
+          "text": "The $50 trip, since it was more fun"
+        },
+        {
+          "text": "The $100 trip",
+          "correct": true
+        },
+        {
+          "text": "Exactly half picked each one"
+        }
+      ],
+      "reveal": "More picked the $100 trip: 33 students. Only 28 picked the $50 trip they thought was more fun.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "💸",
+      "title": "Money that is already gone",
+      "text": "A sunk cost is something you already spent and cannot get back. It can be money, time or effort. Whatever you pick next, that money stays spent. So it should not decide what you do next.",
+      "example": "Go or stay home, a ticket you paid for is paid either way.",
+      "why": {
+        "q": "Why shouldn't money you already spent decide what you do next?",
+        "a": "It is gone no matter what you pick. Only what happens next can still change."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⛷️",
+      "title": "The ski trip puzzle",
+      "text": "In a study from 1985, college students imagined two ski trip tickets for the same weekend. One cost $100. The other cost $50, and they thought it would be more fun. They could use only one. 33 students picked the $100 trip. Only 28 picked the more fun one!"
+    },
+    {
+      "type": "idea",
+      "emoji": "🎭",
+      "title": "A test with real tickets",
+      "text": "Then the scientists tried it for real at a college theater. Some people paid the full $15 for a whole season of plays. Others got a surprise discount of $2 or $7. In the first half of the season, the full-price group went to more plays. Paying more made them go more."
+    },
+    {
+      "type": "idea",
+      "emoji": "✈️",
+      "title": "A plane faster than sound",
+      "text": "Britain and France built Concorde, a jet that flew faster than sound. It cost a huge amount. Even when it was clear the plane would not make money, they kept paying. Now people sometimes call this trap the \"Concorde fallacy.\""
+    },
+    {
+      "type": "idea",
+      "emoji": "🧭",
+      "title": "Look forward, not back",
+      "text": "Smart choosers look only at what happens from now on. That does not mean you should always quit. If going on is still worth it, keep going! Just don't keep going only because you already paid.",
+      "example": "Say your movie ticket is paid, and then friends ask you to play soccer, which you love even more. The money is gone either way, so pick the one that will be more fun."
+    },
+    {
+      "type": "think",
+      "question": "Is there something you keep doing only because you already put time into it? If you were starting fresh today, would you pick it again?",
+      "nudges": [
+        "Think about a game, a book, a show or a hobby.",
+        "What would happen next if you kept going? What if you stopped?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "What is a sunk cost?",
+          "options": [
+            {
+              "text": "Money or time already spent that you cannot get back",
+              "correct": true,
+              "why": "Yes! It is spent, and it is not coming back."
+            },
+            {
+              "text": "Money you plan to spend next week",
+              "correct": false,
+              "why": "Not quite. That money is not spent yet, so you can still choose."
+            },
+            {
+              "text": "Money you will get back later",
+              "correct": false,
+              "why": "Not quite. A sunk cost is money you cannot get back."
+            }
+          ]
+        },
+        {
+          "q": "In the theater test, who went to more plays in the first half of the season?",
+          "options": [
+            {
+              "text": "People who paid full price",
+              "correct": true,
+              "why": "Right! Paying more made people go more."
+            },
+            {
+              "text": "People who got a $7 discount",
+              "correct": false,
+              "why": "Not quite. The discount groups went to fewer plays."
+            },
+            {
+              "text": "Everyone went the same amount",
+              "correct": false,
+              "why": "Not quite. The groups were different, and price was the only change."
+            }
+          ]
+        },
+        {
+          "q": "Your family paid for a fair, but a big storm starts. What is the smart way to think?",
+          "options": [
+            {
+              "text": "The money is gone either way, so pick what is best now",
+              "correct": true,
+              "why": "Yes! Think about what happens from now on."
+            },
+            {
+              "text": "We paid, so we must go no matter what",
+              "correct": false,
+              "why": "That is the sunk cost trap. The money is gone either way."
+            },
+            {
+              "text": "We should never buy tickets again",
+              "correct": false,
+              "why": "Not quite. Buying tickets is fine. Just choose well later."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "A sunk cost is…",
+        "In the ski trip study…",
+        "Before you keep going, ask…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "jJajz9n9Oi4",
+    "title": "Sunk Cost Fallacy: Not Knowing When It’s Time to Stop",
+    "channel": "Sprouts",
+    "duration_sec": 246,
+    "start": 0,
+    "end": 230,
+    "why": "A cartoon about Jimmy, a movie ticket and a soccer game, plus Concorde and the theater-ticket test. Stops before the end plug."
+  },
+  "sources": [
+    {
+      "title": "Sunk cost",
+      "publisher": "Wikipedia (encyclopedia article with cited research)",
+      "url": "https://en.wikipedia.org/wiki/Sunk_cost",
+      "supports": "A sunk cost is a cost already paid that cannot be recovered and should not matter for decisions about the future; only future consequences matter; continuing a project can still be right when its future value is high enough (the factory example); the British and French governments kept funding the costly supersonic Concorde after there was no economic case, which is why it is called the \"Concorde fallacy\"."
+    },
+    {
+      "title": "The Psychology of Sunk Cost",
+      "publisher": "Arkes & Blumer, Organizational Behavior and Human Decision Processes 35 (1985), PDF copy",
+      "url": "https://www.communicationcache.com/uploads/1/0/8/8/10887248/the_psychology_of_sunk_cost.pdf",
+      "supports": "Experiment 1 (Ohio and Oregon college students): $100 Michigan ski trip vs $50 Wisconsin trip thought to be more enjoyable, same weekend, only one usable; 33 chose the $100 trip and 28 the $50 trip. Experiment 2: Ohio University Theater 1982–1983 season tickets at $15, $2 off or $7 off, assigned at random; the no-discount group used more tickets in the first half of the season. Sunk costs can be money, effort or time."
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "topic": "ideas",
+  "subject": "sunk-cost",
+  "date_added": "2026-11-16",
+  "id": "ideas-sunk-cost-adult",
+  "level": "adult",
+  "title": "Sunk Costs: Why the Past Shouldn't Get a Vote",
+  "emoji": "🏗️",
+  "summary": "The bygones principle, the experiments that show we break it, how sunk costs bend forecasts, and when persistence is actually rational.",
+  "minutes": 8,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What does the bygones (marginal) principle say, and why are sunk costs irrelevant under it?",
+      "answer": "Only prospective costs and benefits matter. A sunk cost is incurred whatever you choose, so it cancels out of the comparison."
+    },
+    {
+      "id": "k2",
+      "prompt": "Besides biasing the choice itself, how do sunk costs distort judgment?",
+      "answer": "They inflate forecasts: in Arkes and Blumer, people with sunk costs rated a project's success chance 41 vs 34; bettors rated horses higher right after betting."
+    },
+    {
+      "id": "k3",
+      "prompt": "When can persisting despite sunk costs be rational, and how do you tell it apart from the fallacy?",
+      "answer": "With private information, or when the decision-maker's own incentives (reputation, blame) differ from the firm's. That is an incentive problem, not a sunk cost error."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "⛷️",
+      "title": "Michigan or Wisconsin?",
+      "text": "You've paid $100 for a ski weekend in Michigan, then $50 for one in Wisconsin you expect to enjoy more. They turn out to be the same weekend, and neither ticket can be sold or returned. The choice costs nothing extra either way. Economic theory predicts everyone picks Wisconsin."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "Arkes and Blumer (1985) posed exactly that question to 61 college students. What percent chose the more enjoyable $50 Wisconsin trip?",
+      "estimate": {
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "answer": 46
+      },
+      "reveal": "Only 46% (28 of 61). The 99% confidence interval was 30–62%, well below the 100% theory predicts.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "📐",
+      "title": "The bygones principle",
+      "text": "A sunk cost is already incurred and unrecoverable; only prospective costs bear on a rational choice. Expected utility formalizes this as cancellation: ignore any state that yields the same outcome whatever you choose. Example: a factory budgeted at $100M to yield $120M, after $30M spent, is re-forecast at $65M. Spending $70M more for $65M destroys value, so abandon; at $75M, continue.",
+      "why": {
+        "q": "Why does a sunk cost \"cancel out\" of the decision?",
+        "a": "It has been paid under every option you could pick, so it cannot make any option better or worse than another."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🎭",
+      "title": "From thought experiment to field data",
+      "text": "Beyond the ski trip, Arkes and Blumer randomized the first season-ticket buyers at the Ohio University Theater (1982–83) into $15, $2-off and $7-off prices. Over the first five plays the full-price group used 4.11 tickets on average, versus 3.32 and 3.29. The effect faded in the second half, 6–9 months after purchase. Prior economics courses did not reduce the effect in their questionnaires."
+    },
+    {
+      "type": "idea",
+      "emoji": "🔮",
+      "title": "Sunk costs bend forecasts",
+      "text": "Commitment inflates estimates. Students in Arkes and Blumer's radar-plane scenario who had already sunk money rated its chance of financial success 41.0 on average, versus 34.0 without the sunk cost. Knox and Inkster (1968): bettors about to bet rated their horse 3.48 on a 7-point scale; those who had just bet rated theirs 4.81. Staw and Fox: subjects told they had made a prior bad R&D call put $12.97M of a new $20M in, versus $9.43M otherwise."
+    },
+    {
+      "type": "idea",
+      "emoji": "♟️",
+      "title": "When it's an incentive problem, not a bias",
+      "text": "Persistence can be rational. A manager with private information that abandoning is worse is not committing the fallacy, and one protecting a reputation or avoiding blame may be acting rationally for themselves, if not for the firm; that is an incentive problem. Concorde shows the mix: the British government privately saw a commercial disaster, but political and legal issues made pulling out impossible.",
+      "why": {
+        "q": "Why does it matter whether persistence is a bias or an incentive problem?",
+        "a": "The fixes differ: a bias calls for better decision habits, while an incentive problem calls for changing what the decision-maker is rewarded or blamed for."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🛬",
+      "title": "The cousin: plan continuation bias",
+      "text": "The same pull shows up as sticking to a plan as conditions change. A 2004 NASA study found aircrews showed plan continuation bias in 9 of 19 accidents studied. In an analysis of 279 approach-and-landing accidents it was the fourth most common cause, present in 11%. Two drivers recur: optimism about success, and personal responsibility that makes admitting error hard."
+    },
+    {
+      "type": "think",
+      "question": "Pick a commitment of yours (a project, a holding, a hire, a renovation). Re-decide it as if you had inherited it today from someone else, with the same future costs and benefits. What changes, and what does that reveal?",
+      "nudges": [
+        "Which of your reasons mention money or time already spent?",
+        "Do you know something an outsider wouldn't that favors continuing?",
+        "Whose reputation is attached to the original decision?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "$20M has gone into an unfinished plant now worth nothing. It can be finished for $10M, or an equally valuable alternative built for $5M. What does the bygones principle say?",
+          "options": [
+            {
+              "text": "Abandon it and build the alternative for $5M",
+              "correct": true,
+              "why": "Right. The $20M is gone in every option; $5M beats $10M for the same value."
+            },
+            {
+              "text": "Finish it, so the $20M isn't wasted",
+              "correct": false,
+              "why": "That's the fallacy: the $20M is spent whatever you do."
+            },
+            {
+              "text": "Finish it, since $10M is half of what's already in",
+              "correct": false,
+              "why": "The ratio to past spending is irrelevant; compare only future costs and values."
+            },
+            {
+              "text": "Do nothing until the $20M can be recovered",
+              "correct": false,
+              "why": "It can't be recovered; that's what makes it sunk."
+            }
+          ]
+        },
+        {
+          "q": "A division head keeps funding her own failing project mainly to avoid blame for the original decision. How is this best described?",
+          "options": [
+            {
+              "text": "An incentive problem: rational for her, not for the firm",
+              "correct": true,
+              "why": "Right. Her personal payoff differs from the firm's; fixing incentives is the lever."
+            },
+            {
+              "text": "Pure sunk cost fallacy with no other explanation",
+              "correct": false,
+              "why": "Possibly mixed, but avoiding blame is a separate incentive the sources flag."
+            },
+            {
+              "text": "Proof the project will succeed",
+              "correct": false,
+              "why": "Persistence says nothing about the project's prospects."
+            },
+            {
+              "text": "Plan continuation bias in aviation",
+              "correct": false,
+              "why": "Related idea, but this is a corporate incentive case."
+            }
+          ]
+        },
+        {
+          "q": "Which finding shows sunk costs distort beliefs, not just choices?",
+          "options": [
+            {
+              "text": "Those who had sunk money rated success chances 41 vs 34",
+              "correct": true,
+              "why": "Yes, that is a change in forecast, not just behavior."
+            },
+            {
+              "text": "Full-price buyers attended more plays",
+              "correct": false,
+              "why": "That shows a change in behavior, not belief."
+            },
+            {
+              "text": "33 of 61 picked the $100 ski trip",
+              "correct": false,
+              "why": "That's a choice, not a forecast."
+            },
+            {
+              "text": "Concorde kept getting funded",
+              "correct": false,
+              "why": "That's a choice, with political and legal factors too."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "The bygones principle says…",
+        "We know people break it because…",
+        "Persistence is rational when…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "-FzVxsUQ3_w",
+    "title": "Sunk Costs",
+    "channel": "Edspira",
+    "duration_sec": 263,
+    "why": "A plain-English walk-through of why sunk costs are irrelevant, from a movie ticket to a firm's $100 million failing project."
+  },
+  "sources": [
+    {
+      "title": "Sunk cost",
+      "publisher": "Wikipedia (encyclopedia article with cited research)",
+      "url": "https://en.wikipedia.org/wiki/Sunk_cost",
+      "supports": "Definition; prospective vs retrospective costs; bygones/marginal principle and expected-utility cancellation; the $100M/$120M factory re-forecast at $65M vs $75M; the $20M power plant ($10M to finish vs $5M alternative); rational persistence for reputation/blame or private information, and the incentive-problem distinction; Concorde fallacy (British government privately regarded it as a commercial disaster; political and legal issues made pulling out impossible); Knox and Inkster 1968 (3.48 vs 4.81); Staw and Fox ($12.97M vs $9.43M of $20M); plan continuation bias (NASA 2004, 9 of 19; 279 approach-and-landing accidents, fourth most common, 11%; optimism and personal responsibility)."
+    },
+    {
+      "title": "The Psychology of Sunk Cost",
+      "publisher": "Arkes & Blumer, Organizational Behavior and Human Decision Processes 35 (1985), PDF copy",
+      "url": "https://www.communicationcache.com/uploads/1/0/8/8/10887248/the_psychology_of_sunk_cost.pdf",
+      "supports": "Experiment 1: 28 of 61 chose the more enjoyable $50 Wisconsin trip (46%, 99% CI 30–62%); Experiment 2: randomized Ohio University Theater 1982–1983 season tickets, first-half usage 4.11 vs 3.32 and 3.29, no significant difference in the second half (6 to 9 months after purchase); Experiment 4: success estimates 41.0 vs 34.0; prior economics courses did not lessen the effect."
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "topic": "ideas",
+  "subject": "sunk-cost",
+  "date_added": "2026-11-16",
+  "id": "ideas-sunk-cost-teen",
+  "level": "teen",
+  "title": "Throwing Good Money After Bad",
+  "emoji": "📉",
+  "summary": "Why \"we've come too far to quit\" fools smart people, the experiments that prove it, and how to decide forward.",
+  "minutes": 7,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What is a sunk cost, and what does the bygones principle say to do with it?",
+      "answer": "A cost already paid that can't be recovered. Ignore it: decide by comparing only the future costs and benefits of each option."
+    },
+    {
+      "id": "k2",
+      "prompt": "How did the radar-plane study show the sunk cost effect?",
+      "answer": "Same rival plane. With the project 90% done, 41 of 48 said finish it; with nothing spent yet, only 10 of 60 said build it."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why do people fall for sunk costs, according to Arkes and Blumer?",
+      "answer": "They don't want to look wasteful, and having already invested makes them rate the project's odds of success higher."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🛩️",
+      "title": "90% done, already beaten",
+      "text": "You run an airline company and have spent millions building a plane radar can't detect. At 90% done, a rival starts selling one that is faster and far cheaper to run than yours. Finishing yours means spending the last 10% of the budget. Would you?"
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "In a 1985 study, 48 students played that airline president with the plane 90% done. About what percent said to finish it?",
+      "estimate": {
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "answer": 85
+      },
+      "reveal": "About 85%: 41 of the 48 said finish it, even though a better plane was already on the market.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "🔀",
+      "title": "Same plane, opposite answer",
+      "text": "Arkes and Blumer gave other students the same story with one change: nothing had been spent yet, and an employee proposed using the last $1 million of research money to build the plane. Now only 10 of 60 said yes. With the plane 90% done, 41 of 48 had said yes. The key difference was money already spent.",
+      "why": {
+        "q": "Why is this split strong evidence for a sunk cost effect?",
+        "a": "Both groups faced the same better rival plane. The big difference was money already spent, so that is what changed the choice."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🧮",
+      "title": "The bygones principle",
+      "text": "A sunk cost is one already paid that can't be recovered. Economists say only future costs and benefits should count. Say a factory was planned to cost $100 million and be worth $120 million. After $30 million is spent, its expected value drops to $65 million. Spending $70 million more to get $65 million is a loss, so stop. If the value dropped only to $75 million, finishing would still pay."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎭",
+      "title": "Proof with real money",
+      "text": "Questionnaires are just imagining, so Arkes and Blumer ran a field test. At the Ohio University Theater, the first season-ticket buyers were randomly charged $15, $13 or $8. In the first half of the season, full-price buyers used 4.11 tickets on average, versus 3.32 and 3.29 for the discount groups. By the second half the difference had faded.",
+      "why": {
+        "q": "Why does random pricing make this test convincing?",
+        "a": "Chance decided who got a discount, so the groups were alike except for what they paid. The price, not the people, explains the gap."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🧠",
+      "title": "Why our brains do it",
+      "text": "Arkes and Blumer argued the main driver is not wanting to look wasteful. Sunk costs also bend forecasts: on a 0–100 scale, students who had already sunk money into the plane rated its chance of success 41 on average, versus 34 for those who hadn't. And having taken economics courses didn't make the effect smaller."
+    },
+    {
+      "type": "idea",
+      "emoji": "✈️",
+      "title": "The Concorde fallacy, and a catch",
+      "text": "Britain and France kept funding the supersonic Concorde after there was no economic case for it, so the trap is also called the \"Concorde fallacy.\" But persisting isn't always the fallacy. A manager might know something outsiders don't about why quitting would be worse. Then continuing can be fully rational."
+    },
+    {
+      "type": "think",
+      "question": "You've played a sport or instrument for three years and stopped enjoying it. Make the best case for quitting using only the future. Then make the best case for staying using only the future.",
+      "nudges": [
+        "What skills or friendships would continue either way?",
+        "What else could that time go toward?",
+        "Which reasons were secretly about the past three years?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "A project has $40 million spent. Finishing costs $50 million more and the result will be worth $45 million. What does the bygones principle say?",
+          "options": [
+            {
+              "text": "Stop: paying $50M more to get $45M loses money",
+              "correct": true,
+              "why": "Right. The $40M is gone either way; only the next $50M vs $45M counts."
+            },
+            {
+              "text": "Finish, or the $40M is wasted",
+              "correct": false,
+              "why": "That's the sunk cost fallacy. The $40M is spent whether you finish or not."
+            },
+            {
+              "text": "Finish, because $45M is more than zero",
+              "correct": false,
+              "why": "Close, but you'd pay $50M to get it. That's a $5M loss."
+            },
+            {
+              "text": "You can't decide without knowing who spent the $40M",
+              "correct": false,
+              "why": "Who spent it might matter for their reputation, but not for whether finishing pays."
+            }
+          ]
+        },
+        {
+          "q": "Why did the theater researchers hand out discounts at random?",
+          "options": [
+            {
+              "text": "So the groups differed only in price",
+              "correct": true,
+              "why": "Yes. Random assignment rules out other differences between the groups."
+            },
+            {
+              "text": "To raise more money for the theater",
+              "correct": false,
+              "why": "Not quite. Discounts actually brought in less money."
+            },
+            {
+              "text": "So nobody would notice the study",
+              "correct": false,
+              "why": "Not the reason. The point was a fair comparison."
+            },
+            {
+              "text": "Because discounts were cheaper to print",
+              "correct": false,
+              "why": "Not quite. The goal was a fair comparison between groups."
+            }
+          ]
+        },
+        {
+          "q": "Which of these is NOT necessarily the sunk cost fallacy?",
+          "options": [
+            {
+              "text": "Continuing because you know private facts that make quitting worse",
+              "correct": true,
+              "why": "Right. If the future really favors continuing, that's a forward-looking choice."
+            },
+            {
+              "text": "Watching a dull movie to the end because you paid",
+              "correct": false,
+              "why": "This one is the fallacy: the ticket money is gone either way."
+            },
+            {
+              "text": "Picking the less fun ski trip because it cost more",
+              "correct": false,
+              "why": "This one is the fallacy: the classic ski-trip result."
+            },
+            {
+              "text": "Funding a doomed plane because so much is already spent",
+              "correct": false,
+              "why": "This one is the fallacy: it's why it's called the Concorde fallacy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "A sunk cost is…",
+        "The radar-plane study showed…",
+        "To avoid the trap, ask…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "HMBWMdP0-tg",
+    "title": "Why Do We Go All In on Lost Causes?",
+    "channel": "SciShow Psych",
+    "duration_sec": 283,
+    "why": "Escalation of commitment, the 1985 Ohio University study, loss aversion and self-justification, plus how to step back."
+  },
+  "sources": [
+    {
+      "title": "Sunk cost",
+      "publisher": "Wikipedia (encyclopedia article with cited research)",
+      "url": "https://en.wikipedia.org/wiki/Sunk_cost",
+      "supports": "Definition of sunk cost; only prospective costs matter (bygones principle); the $100M/$120M factory example with $30M spent, value falling to $65M (abandon rather than spend $70M) or $75M (continue); the Concorde fallacy; persisting can be rational with private information about the undesirability of abandoning."
+    },
+    {
+      "title": "The Psychology of Sunk Cost",
+      "publisher": "Arkes & Blumer, Organizational Behavior and Human Decision Processes 35 (1985), PDF copy",
+      "url": "https://www.communicationcache.com/uploads/1/0/8/8/10887248/the_psychology_of_sunk_cost.pdf",
+      "supports": "Experiment 3: radar-blank plane, $10M invested and 90% complete, rival plane faster and more economical: 41 yes, 7 no; with nothing invested and the last $1M of research funds: 10 yes, 50 no. Experiment 4: mean success estimates 41.0 vs 34.0. Experiment 2: Ohio University Theater 1982–83 season, $15 or $2 or $7 discounts randomly ordered; first-half tickets used 4.11, 3.32, 3.29; no significant difference in the second half. Desire not to appear wasteful; economics courses did not lessen the effect."
+    }
+  ]
+}

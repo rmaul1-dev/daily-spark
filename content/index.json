@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "topics": [
   {
    "id": "history",
@@ -557,6 +557,17 @@
     "kid": "body-muscles-kid"
    },
    "dinner_question": "Muscles can only pull, never push, so they work in pairs. What is something our family does best as a pair, where each person does the part the other can't?"
+  },
+  {
+   "date": "2026-11-24",
+   "topic": "ideas",
+   "title": "Sunk costs: why the past shouldn't get a vote",
+   "packs": {
+    "adult": "ideas-sunk-cost-adult",
+    "teen": "ideas-sunk-cost-teen",
+    "kid": "ideas-sunk-cost-kid"
+   },
+   "dinner_question": "Have you ever kept doing something mostly because you had already paid for it or put time into it? If you could decide fresh today, would you choose it again?"
   }
  ],
  "series": [
@@ -3028,6 +3039,45 @@
    "summary": "Why streak-balancing feels right, the field evidence that experts do it, and the cases where 'due' is correct.",
    "minutes": 8,
    "date_added": "2026-11-09",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "ideas-sunk-cost-kid",
+   "topic": "ideas",
+   "level": "kid",
+   "title": "The Ticket You Already Paid For",
+   "emoji": "🎟️",
+   "subject": "sunk-cost",
+   "summary": "Money you already spent is gone. Why it should not boss around your next choice.",
+   "minutes": 6,
+   "date_added": "2026-11-16",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "ideas-sunk-cost-teen",
+   "topic": "ideas",
+   "level": "teen",
+   "title": "Throwing Good Money After Bad",
+   "emoji": "📉",
+   "subject": "sunk-cost",
+   "summary": "Why \"we've come too far to quit\" fools smart people, the experiments that prove it, and how to decide forward.",
+   "minutes": 7,
+   "date_added": "2026-11-16",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "ideas-sunk-cost-adult",
+   "topic": "ideas",
+   "level": "adult",
+   "title": "Sunk Costs: Why the Past Shouldn't Get a Vote",
+   "emoji": "🏗️",
+   "subject": "sunk-cost",
+   "summary": "The bygones principle, the experiments that show we break it, how sunk costs bend forecasts, and when persistence is actually rational.",
+   "minutes": 8,
+   "date_added": "2026-11-16",
    "cards": 10,
    "keys_count": 3
   }
