@@ -1,0 +1,243 @@
+{
+  "topic": "history",
+  "subject": "transcontinental-railroad",
+  "date_added": "2026-11-17",
+  "id": "history-transcontinental-railroad-kid",
+  "level": "kid",
+  "title": "The Railroad That Met in the Middle",
+  "emoji": "🚂",
+  "summary": "Two teams built toward each other for six years. Then one spike joined the country by train.",
+  "minutes": 6,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How was the first railroad across the country built?",
+      "answer": "Two companies built toward each other. One started in California and went east. The other started in Nebraska and went west.",
+      "options": [
+        {
+          "text": "Two companies built toward each other from opposite ends",
+          "correct": true
+        },
+        {
+          "text": "One company built it from east to west"
+        },
+        {
+          "text": "Workers started in the middle and built out to both coasts"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Who did most of the work on the western part, through the mountains?",
+      "answer": "Thousands of workers from China. By 1867, nine out of ten workers there were Chinese.",
+      "options": [
+        {
+          "text": "Thousands of workers from China",
+          "correct": true
+        },
+        {
+          "text": "Big steam-powered digging machines"
+        },
+        {
+          "text": "Soldiers from the army"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "How did the railroad change a trip across the country?",
+      "answer": "A trip that used to take months now took about one week.",
+      "options": [
+        {
+          "text": "A trip of months became about one week",
+          "correct": true
+        },
+        {
+          "text": "A trip of one week became one day"
+        },
+        {
+          "text": "It made the trip a little longer but safer"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🗺️",
+      "title": "Months on the road",
+      "text": "Imagine moving from Illinois to California by wagon. It could take months! In the 1860s, America set out to build a railroad all the way across the West. Two teams would build toward each other and meet in the middle."
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Near the end, one team tried to lay 10 miles of track as fast as they could. How long do you think it took?",
+      "options": [
+        {
+          "text": "One day",
+          "correct": true
+        },
+        {
+          "text": "One month"
+        },
+        {
+          "text": "One year"
+        }
+      ],
+      "reveal": "One day! On April 28, 1869, workers laid 10 miles and 56 feet of track between 5 a.m. and 7 p.m.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "🤝",
+      "title": "Two teams, two ends",
+      "text": "In 1862, Congress passed a law to build the railroad. Two companies got the job. The Central Pacific started in Sacramento, California, and built east. The Union Pacific started in Omaha, Nebraska, and built west.",
+      "example": "It is like two friends digging a tunnel in the sand from opposite sides, hoping to meet."
+    },
+    {
+      "type": "idea",
+      "emoji": "⛰️",
+      "title": "Through solid rock",
+      "text": "The Central Pacific had to cross tall mountains. Most of its workers came from China. By 1867, nine out of ten of its workers were Chinese. They cut tunnels through solid granite rock, mostly with hand tools. They kept working through a winter when more than 40 feet of snow fell.",
+      "example": "Workers even dug tunnels through the snow to get to their work."
+    },
+    {
+      "type": "idea",
+      "emoji": "⏱️",
+      "title": "Ten miles in one day",
+      "text": "Near the end, a boss made a $10,000 bet that his crew could lay 10 miles of track in one day. On April 28, 1869, about 5,000 workers, mostly Chinese, did it! The names of eight Irish workers who lifted the rails were written down. The Chinese workers' names were not.",
+      "why": {
+        "q": "Why does it matter whose names got written down?",
+        "a": "Names are how history remembers people. Thousands of Chinese workers did the job, but their names were not saved."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "✨",
+      "title": "The golden spike",
+      "text": "On May 10, 1869, the tracks met at Promontory Summit, Utah. A golden spike was tapped gently, then swapped for an iron one. Leland Stanford swung at the last spike and hit the wood instead! A railroad worker drove it in. Then a telegraph message went out across the country: \"D-O-N-E.\"",
+      "example": "The real golden spike is now kept at a museum at Stanford University in California."
+    },
+    {
+      "type": "idea",
+      "emoji": "🚀",
+      "title": "Months became a week",
+      "text": "Before the railroad, a trip across the country took months. After it, the trip took about one week. People, mail and goods could now cross the country much faster.",
+      "why": {
+        "q": "Why was a faster trip such a big deal?",
+        "a": "People, mail and goods could now cross the country in about a week instead of months."
+      }
+    },
+    {
+      "type": "think",
+      "question": "The Chinese workers did some of the hardest work, but their names were not written down. How could people today help remember them?",
+      "nudges": [
+        "Think about museums, signs, books or school lessons.",
+        "What would you want people to remember about you if you did a huge job?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Where did the two railroad teams start?",
+          "options": [
+            {
+              "text": "Sacramento, California and Omaha, Nebraska",
+              "correct": true,
+              "why": "Yes! One built east, and one built west."
+            },
+            {
+              "text": "New York and Chicago",
+              "correct": false,
+              "why": "Not quite. The railroad ran from the Missouri River to California."
+            },
+            {
+              "text": "Both teams started in Utah",
+              "correct": false,
+              "why": "Not quite. Utah is where they met at the end."
+            }
+          ]
+        },
+        {
+          "q": "What happened on April 28, 1869?",
+          "options": [
+            {
+              "text": "Workers laid 10 miles of track in one day",
+              "correct": true,
+              "why": "Right! About 5,000 workers did it to win a bet."
+            },
+            {
+              "text": "The golden spike was tapped in",
+              "correct": false,
+              "why": "Not quite. That was May 10, 1869."
+            },
+            {
+              "text": "Congress passed the railroad law",
+              "correct": false,
+              "why": "Not quite. That law was passed in 1862."
+            }
+          ]
+        },
+        {
+          "q": "What message went out by telegraph when the last spike went in?",
+          "options": [
+            {
+              "text": "D-O-N-E",
+              "correct": true,
+              "why": "Yes! It meant the job was done, and news spread across the country."
+            },
+            {
+              "text": "H-E-L-L-O",
+              "correct": false,
+              "why": "Not quite. The message said the job was finished."
+            },
+            {
+              "text": "S-T-O-P",
+              "correct": false,
+              "why": "Not quite. The message said the job was finished."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Two companies built…",
+        "The hardest part was…",
+        "When the tracks met…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Pacific Railway Act (1862)",
+      "publisher": "National Archives (Milestone Documents, with full transcript)",
+      "url": "https://www.archives.gov/milestone-documents/pacific-railway-act",
+      "supports": "The Pacific Railway Act passed July 1, 1862; the Union Pacific built west from Omaha and the Central Pacific built east from Sacramento, beginning in 1863; the Central Pacific's workforce included over 10,000 Chinese laborers; last spike May 10, 1869 at Promontory, Utah; the railroad shortened a journey of several months to about one week."
+    },
+    {
+      "title": "FAQs",
+      "publisher": "Chinese Railroad Workers in North America Project, Stanford University",
+      "url": "https://chineserailroadworkers.stanford.edu/faqs/",
+      "supports": "In February 1867 Chinese were about ninety percent of the Central Pacific workforce; the Summit Tunnel was cut through solid granite; virtually all work was done by hand with hand tools; snowfall reached over 40 feet in the winter of 1866–67; on April 28, 1869, ten miles and 56 feet of track were laid in one day, 5 a.m. to 7 p.m., after a $10,000 wager by Charles Crocker, by about 5,000 workers, mostly Chinese, with eight Irish rail-handlers; the eight Irish workers' names were recorded and none of the Chinese workers' names were."
+    },
+    {
+      "title": "Four Special Spikes",
+      "publisher": "National Park Service, Golden Spike National Historical Park",
+      "url": "https://www.nps.gov/gosp/learn/historyculture/four-special-spikes.htm",
+      "supports": "May 10, 1869 ceremony: the precious metal spikes were gently tapped, then removed and replaced with ordinary iron spikes; Stanford swung and struck the tie instead; a regular rail worker drove home the last spike; the telegrapher sent \"D-O-N-E\"; the Golden Spike was later donated to the Stanford University museum."
+    }
+  ],
+  "video": {
+    "youtube_id": "QxYsOcSPXt8",
+    "title": "Did You Know: The Transcontinental Railroad | Encyclopaedia Britannica",
+    "channel": "Encyclopaedia Britannica",
+    "duration_sec": 153,
+    "start": 0,
+    "end": 100,
+    "why": "A short look at the Chinese workers who built the western part of the railroad, and the skills they brought."
+  }
+}

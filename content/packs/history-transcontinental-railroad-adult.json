@@ -1,0 +1,216 @@
+{
+  "topic": "history",
+  "subject": "transcontinental-railroad",
+  "date_added": "2026-11-17",
+  "id": "history-transcontinental-railroad-adult",
+  "level": "adult",
+  "title": "The Transcontinental Railroad: An Incentive Contract at Continental Scale",
+  "emoji": "🛤️",
+  "summary": "Per-mile subsidies, self-dealing builders, a labor strike in the Sierra, and who paid for the line: what the first transcontinental railroad teaches about incentive design.",
+  "minutes": 8,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How did the federal government finance the first transcontinental railroad?",
+      "answer": "With 30-year, 6% government bonds lent per mile ($16,000, $32,000 or $48,000 by terrain) plus checkerboard land grants along the line."
+    },
+    {
+      "id": "k2",
+      "prompt": "What did paying per mile with weak oversight produce?",
+      "answer": "Over-building (roadbeds graded past each other) and profits taken on construction through insider-owned firms like Crédit Mobilier."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why did the 1867 Chinese strike threaten the Central Pacific even though it ended in eight days?",
+      "answer": "Labor was scarce and Chinese were about 90% of its workforce, while its subsidies depended on miles laid."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "💵",
+      "title": "A loan that paid back",
+      "text": "Washington lent the Pacific railroads tens of millions of dollars in bonds, and the builders ran up scandals that hit the 1872 election. Yet the loans were all repaid, and the government kept every other section of land along the line. Good deal or bad deal? Both, depending on which incentive you look at."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "The government-backed loans to the Pacific railroads were all paid off by 1899, with $63 million in principal. About how much interest came with it, in millions of dollars?",
+      "estimate": {
+        "min": 0,
+        "max": 200,
+        "step": 5,
+        "unit": "$M",
+        "answer": 105
+      },
+      "reveal": "About $105 million in interest on $63 million of principal, all repaid by 1899.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "📜",
+      "title": "The financing design",
+      "text": "The Pacific Railway Act of 1862 lent the builders 30-year, 6% U.S. bonds per mile: $16,000 on level ground, $32,000 in foothills, $48,000 in mountains. Congress also granted a checkerboard of land: odd sections to the railroads, even ones kept by the government, which typically doubled in value. The loans were paid off by 1899: $63 million principal, $105 million interest.",
+      "why": {
+        "q": "Why grant land in a checkerboard instead of one solid strip?",
+        "a": "The government kept every other section, so it captured part of the rise in land value the railroad created, and the land grants were a good deal for it."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🎯",
+      "title": "Pay per mile, get miles",
+      "text": "The metric was track built, with no fixed meeting point and little oversight. So near the end both companies kept grading past each other, paid in bonds and land per mile, though only one line would ever be used. Pressure from Congress eventually forced a meeting point at Promontory Summit.",
+      "example": "Like paying a contractor per square foot of drywall with no plan for which rooms you need: you'll get drywall."
+    },
+    {
+      "type": "idea",
+      "emoji": "🏗️",
+      "title": "Profit on construction, not operation",
+      "text": "Knowing the line might not turn a profit for years, both groups set up construction companies they controlled: the Central Pacific's Contract and Finance Company and the Union Pacific's Crédit Mobilier. Crédit Mobilier often charged the Union Pacific twice or more the customary cost for track work. Less than three years after the Last Spike, the Union Pacific faced bankruptcy.",
+      "why": {
+        "q": "Why does a related-party contractor break the incentive to build cheaply?",
+        "a": "Insiders on both sides of the deal profit from higher construction bills, while the railroad and its lenders carry the cost."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⛏️",
+      "title": "Labor as the binding constraint",
+      "text": "The Central Pacific couldn't hire enough white workers, so it hired Chinese laborers, about 90% of its workforce by February 1867, at one-half to two-thirds the cost. In June 1867 about 3,000 struck for $40 a month and a 10-hour day. Crocker cut off food and the strike ended in eight days, but pay for skilled Chinese workers later rose above $35. \"The truth is they are getting smart,\" E. B. Crocker wrote."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Who else paid",
+      "text": "The gains were large: freight and passengers crossed the country in days instead of months, at about one tenth the cost of stagecoach or wagon. The costs fell unevenly. On the Plains the line ran through Indian-held lands in violation of treaties, and the Union Pacific hired marksmen to kill bison, a primary food source for many Plains Indians."
+    },
+    {
+      "type": "think",
+      "question": "Redesign the contract: what would you pay for, and how would you police it, to get speed without the over-building and self-dealing?",
+      "nudges": [
+        "Consider paying on connected, inspected track, or fixing the meeting point in advance.",
+        "Who should audit construction costs, and with what power?",
+        "Which costs (to workers, to Native nations) would your contract price in, and how?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "A company finishes 20 miles in the mountains and 20 on level ground. In 1862 Act bonds, about how much is it lent?",
+          "options": [
+            {
+              "text": "$1,280,000",
+              "correct": true,
+              "why": "Right: 20 × $48,000 + 20 × $16,000 = $960,000 + $320,000."
+            },
+            {
+              "text": "$640,000",
+              "correct": false,
+              "why": "That's 40 miles at the level rate only."
+            },
+            {
+              "text": "$960,000",
+              "correct": false,
+              "why": "That's just the mountain miles."
+            },
+            {
+              "text": "$1,920,000",
+              "correct": false,
+              "why": "That's 40 miles at the mountain rate."
+            }
+          ]
+        },
+        {
+          "q": "What links the over-graded roadbeds and Crédit Mobilier?",
+          "options": [
+            {
+              "text": "Both followed from rewarding volume and cost without strong oversight",
+              "correct": true,
+              "why": "Right. Pay for miles and costs, with weak policing, and you get more miles and higher costs."
+            },
+            {
+              "text": "Both were engineering mistakes",
+              "correct": false,
+              "why": "The sources describe incentives, not engineering errors."
+            },
+            {
+              "text": "Both were ordered by Congress",
+              "correct": false,
+              "why": "Neither was ordered; Congress had to pressure the companies just to agree on a meeting point."
+            },
+            {
+              "text": "Both lowered the cost of the railroad",
+              "correct": false,
+              "why": "Both raised costs."
+            }
+          ]
+        },
+        {
+          "q": "Why did the Central Pacific's Chinese workers have leverage despite low pay?",
+          "options": [
+            {
+              "text": "They were scarce, hard to replace, and most of the workforce",
+              "correct": true,
+              "why": "Yes. And idle days cost the company per-mile subsidies."
+            },
+            {
+              "text": "They had contracts guaranteeing their jobs",
+              "correct": false,
+              "why": "The sources mention no such contracts; their leverage came from scarcity."
+            },
+            {
+              "text": "Congress set their wages",
+              "correct": false,
+              "why": "No. The company set wages."
+            },
+            {
+              "text": "The company did not depend on speed",
+              "correct": false,
+              "why": "It did: subsidies were paid by miles built."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Congress financed the railroad by…",
+        "Paying per mile led to…",
+        "The workers' leverage came from…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "First transcontinental railroad",
+      "publisher": "Wikipedia (encyclopedia article with cited sources)",
+      "url": "https://en.wikipedia.org/wiki/First_transcontinental_railroad",
+      "supports": "30-year 6% bonds at $16,000/$32,000/$48,000 per mile; checkerboard grants of odd sections with government keeping even sections that typically doubled in value; loans paid off by 1899 ($63M principal, $105M interest); weak oversight and incentives to build past one another since payment was per mile; Contract and Finance Company and Crédit Mobilier self-dealing, Crédit Mobilier charging often twice or more the customary cost; Union Pacific faced bankruptcy less than three years after the Last Spike; Crédit Mobilier scandal in the 1872 election; days instead of months at one tenth the cost of stagecoach or wagon; line through Indian-held lands violated treaties; Union Pacific hired marksmen to kill bison, a primary food source for many Plains Indians."
+    },
+    {
+      "title": "FAQs",
+      "publisher": "Chinese Railroad Workers in North America Project, Stanford University",
+      "url": "https://chineserailroadworkers.stanford.edu/faqs/",
+      "supports": "Labor shortage; about 90% of the Central Pacific workforce in February 1867; cost one-half to two-thirds of white workers; June 1867 strike of 3,000 for $40 a month and a ten-hour day; Crocker cut off provisions and the strike ended after eight days; pay quietly raised above $35 for skilled workers; E. B. Crocker: \"The truth is they are getting smart.\""
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "publisher": "National Park Service, Golden Spike National Historical Park",
+      "url": "https://www.nps.gov/gosp/faqs.htm",
+      "supports": "The two companies graded past one another (about 250 miles) because land grants and subsidy bonds were awarded by amount built; no parallel tracks; pressure from Congress forced agreement to meet at Promontory Summit."
+    }
+  ],
+  "video": {
+    "youtube_id": "moDvjW9Z6_I",
+    "title": "Building the Transcontinental Railroad",
+    "channel": "CBS Sunday Morning",
+    "duration_sec": 398,
+    "start": 135,
+    "end": 361,
+    "why": "Historian Gordon Chang on the Central Pacific's Chinese workforce: lower pay, Sierra tunnels cut by hand, and how that history was erased and is now being reclaimed."
+  }
+}

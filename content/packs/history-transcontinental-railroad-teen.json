@@ -1,0 +1,220 @@
+{
+  "topic": "history",
+  "subject": "transcontinental-railroad",
+  "date_added": "2026-11-17",
+  "id": "history-transcontinental-railroad-teen",
+  "level": "teen",
+  "title": "Paid by the Mile",
+  "emoji": "🛤️",
+  "summary": "How Congress paid two companies to race across the West, what that incentive really bought, and the workers who held the leverage.",
+  "minutes": 7,
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "How did the Pacific Railway Act pay the railroad companies?",
+      "answer": "With loans in U.S. bonds and grants of land for every mile built, with three times the bonds per mile in the mountains."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why did the two companies' grading crews pass each other for about 250 miles?",
+      "answer": "Each was paid by the mile built, so each kept grading past the other to claim more bonds and land."
+    },
+    {
+      "id": "k3",
+      "prompt": "Where did the Chinese strikers' bargaining power in 1867 come from?",
+      "answer": "Workers were scarce and Chinese made up about 90% of the Central Pacific's workforce, so they were hard to replace."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🏁",
+      "title": "A race with a finish line nobody set",
+      "text": "In the 1860s the U.S. government hired two companies to build one railroad across the West, one from each end. It paid them by the mile. Nobody said exactly where they had to meet. What could go wrong?"
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "As the two companies neared each other in Utah and Nevada, their crews kept preparing roadbed past each other. For about how many miles did they overlap?",
+      "estimate": {
+        "min": 0,
+        "max": 500,
+        "step": 10,
+        "unit": "miles",
+        "answer": 250
+      },
+      "reveal": "About 250 miles, between Echo, Utah and Wells, Nevada. Only one line would ever be used.",
+      "reveal_after": 2
+    },
+    {
+      "type": "idea",
+      "emoji": "📜",
+      "title": "The deal",
+      "text": "Private companies were reluctant to build a railroad across the West without federal help. So the Pacific Railway Act of 1862 made a deal. For each finished mile, a company got 16 U.S. bonds of $1,000, as a loan it had to repay. That doubled in harder country and tripled in the mountains, so $48,000 a mile. It also got grants of public land along the track.",
+      "example": "Say a company finished 40 miles on flat land. That's 40 × $16,000 = $640,000 in bonds."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎯",
+      "title": "You get what you pay for",
+      "text": "Paying by the mile rewarded miles, not one shared finish line. As the two lines neared each other, both kept grading roadbed past the other, for about 250 miles between Echo, Utah and Wells, Nevada. Pressure from Congress finally forced a deal to meet at Promontory Summit, Utah.",
+      "why": {
+        "q": "Why would a company keep building a roadbed it knew might never carry a train?",
+        "a": "Bonds and land were awarded based on how much railroad each company built, so every extra mile meant more payment."
+      },
+      "examples_by_interest": {
+        "soccer": "Say a coach paid players $1 per shot taken. You'd get lots of wild shots from midfield, not more goals. Reward the wrong number and people chase that number.",
+        "business": "Say you pay a salesperson per call made, not per sale. You'll get tons of calls and maybe few sales. The railroads were paid per mile, so they built miles."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⛏️",
+      "title": "Who did the work",
+      "text": "The Central Pacific couldn't find enough workers in California, so it hired Chinese workers, then recruited from Guangdong, China. By February 1867, they were about 90% of its workforce. They were paid $26 a month at first and bought their own food, while white workers were fed free. Historians estimate they cost the company one-half to two-thirds as much as white workers."
+    },
+    {
+      "type": "idea",
+      "emoji": "✊",
+      "title": "The 1867 strike",
+      "text": "On June 24, 1867, about 3,000 Chinese workers stopped work across almost 30 miles of the Sierra Nevada. They asked for $40 a month, a 10-hour day instead of 11, and shorter tunnel shifts. Charles Crocker cut off their food, and after eight days the strike ended. But the company later quietly raised pay for skilled Chinese workers above $35.",
+      "why": {
+        "q": "Why was the strike a real threat to the company, even though it ended?",
+        "a": "Labor was scarce and the company was paid by miles laid, so every idle day cost it money and workers were hard to replace."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "⏱️",
+      "title": "The finish",
+      "text": "On April 28, 1869, about 5,000 workers, mostly Chinese, laid 10 miles and 56 feet of track in one day to win a $10,000 bet. On May 10, the lines met at Promontory Summit. A trip across the country that took several months now took about one week."
+    },
+    {
+      "type": "think",
+      "question": "If you were writing the Pacific Railway Act, how would you pay the companies so they built fast but didn't waste 250 miles of work?",
+      "nudges": [
+        "What if you set the meeting point first?",
+        "Could you pay for something other than miles, like finished, connected track?",
+        "What new way might a company find to game your rule?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Under the 1862 Act, how many dollars in bonds would a company get for 10 finished miles in the mountains?",
+          "options": [
+            {
+              "text": "$480,000",
+              "correct": true,
+              "why": "Right: 16 bonds × $1,000 × 3 = $48,000 a mile, × 10 miles."
+            },
+            {
+              "text": "$160,000",
+              "correct": false,
+              "why": "That's the flat-land rate. Mountains got triple."
+            },
+            {
+              "text": "$320,000",
+              "correct": false,
+              "why": "That's double, the rate for the next-hardest sections."
+            },
+            {
+              "text": "$48,000",
+              "correct": false,
+              "why": "That's one mile, not ten."
+            }
+          ]
+        },
+        {
+          "q": "What best explains the 250 miles of overlapping roadbed?",
+          "options": [
+            {
+              "text": "Payment was tied to miles built, with no fixed meeting point",
+              "correct": true,
+              "why": "Yes. The incentive rewarded miles, so both kept going."
+            },
+            {
+              "text": "The engineers made a mapping mistake",
+              "correct": false,
+              "why": "The sources point to incentives, not a mistake."
+            },
+            {
+              "text": "The government asked for two parallel tracks",
+              "correct": false,
+              "why": "No. They never built parallel tracks, only roadbeds."
+            },
+            {
+              "text": "Workers were paid by the hour",
+              "correct": false,
+              "why": "Hourly pay for workers wasn't what drove the companies."
+            }
+          ]
+        },
+        {
+          "q": "Why did the 1867 strike give Chinese workers leverage, even though it ended without a deal?",
+          "options": [
+            {
+              "text": "They were most of the workforce, and workers were scarce",
+              "correct": true,
+              "why": "Right. Replacing about 90% of your workforce isn't easy."
+            },
+            {
+              "text": "They had a signed contract with Congress",
+              "correct": false,
+              "why": "The sources don't mention any such contract."
+            },
+            {
+              "text": "Crocker agreed to all their demands",
+              "correct": false,
+              "why": "No. He refused at first, then quietly raised some pay later."
+            },
+            {
+              "text": "The Union Pacific offered to hire them all",
+              "correct": false,
+              "why": "The sources don't say that."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Congress paid the railroads by…",
+        "That's why the crews…",
+        "The Chinese workers had leverage because…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Pacific Railway Act (1862)",
+      "publisher": "National Archives (Milestone Documents, with full transcript)",
+      "url": "https://www.archives.gov/milestone-documents/pacific-railway-act",
+      "supports": "Private corporations were reluctant without federal assistance; Act passed July 1, 1862; transcript: sixteen $1,000 U.S. bonds per mile, double the number per mile and treble the number per mile in the harder and mountain sections, repayment secured to the United States; alternate sections of public land granted per mile; Central Pacific built east from Sacramento, Union Pacific west from Omaha; completion May 10, 1869 shortened a journey of several months to about one week."
+    },
+    {
+      "title": "FAQs",
+      "publisher": "Chinese Railroad Workers in North America Project, Stanford University",
+      "url": "https://chineserailroadworkers.stanford.edu/faqs/",
+      "supports": "Labor shortage and Stanford's 1865 report to Congress; recruitment from Guangdong; about 90% of the workforce in February 1867; $26 a month in 1864 with Chinese paying for their own food while white workers were fed; cost one-half to two-thirds of white workers; June 24, 1867 strike by 3,000 workers over almost thirty miles, demands of $40 a month, ten-hour day and shorter tunnel shifts; food cut off, strike ended after eight days; pay quietly raised above $35 for skilled workers; ten miles and 56 feet in one day on April 28, 1869, about 5,000 workers mostly Chinese, $10,000 wager."
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "publisher": "National Park Service, Golden Spike National Historical Park",
+      "url": "https://www.nps.gov/gosp/faqs.htm",
+      "supports": "Grading crews passed each other for about 250 miles between Echo, Utah and Wells, Nevada because land grants and subsidy bonds were awarded based on the amount of railroad built; no parallel tracks were built; pressure from Congress forced agreement to meet at Promontory Summit."
+    }
+  ],
+  "video": {
+    "youtube_id": "moDvjW9Z6_I",
+    "title": "Building the Transcontinental Railroad",
+    "channel": "CBS Sunday Morning",
+    "duration_sec": 398,
+    "start": 135,
+    "end": 361,
+    "why": "A news story from the 150th anniversary: Stanford historian Gordon Chang on the Chinese crews who did about 90% of the western work, and their descendants today."
+  }
+}

@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "topics": [
   {
    "id": "history",
@@ -568,6 +568,17 @@
     "kid": "ideas-sunk-cost-kid"
    },
    "dinner_question": "Have you ever kept doing something mostly because you had already paid for it or put time into it? If you could decide fresh today, would you choose it again?"
+  },
+  {
+   "date": "2026-11-25",
+   "topic": "history",
+   "title": "The transcontinental railroad: two teams meet in the middle",
+   "packs": {
+    "adult": "history-transcontinental-railroad-adult",
+    "teen": "history-transcontinental-railroad-teen",
+    "kid": "history-transcontinental-railroad-kid"
+   },
+   "dinner_question": "Thousands of workers built the railroad, but only a few names were written down. Who is someone whose hard work often goes unnoticed, and how could we thank them?"
   }
  ],
  "series": [
@@ -1026,6 +1037,45 @@
    "summary": "East-west position is a time comparison. Britain bought a solution with a prize, then argued over whether a working watch counted if nobody else could build it.",
    "minutes": 8,
    "date_added": "2026-11-08",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "history-transcontinental-railroad-kid",
+   "topic": "history",
+   "level": "kid",
+   "title": "The Railroad That Met in the Middle",
+   "emoji": "🚂",
+   "subject": "transcontinental-railroad",
+   "summary": "Two teams built toward each other for six years. Then one spike joined the country by train.",
+   "minutes": 6,
+   "date_added": "2026-11-17",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "history-transcontinental-railroad-teen",
+   "topic": "history",
+   "level": "teen",
+   "title": "Paid by the Mile",
+   "emoji": "🛤️",
+   "subject": "transcontinental-railroad",
+   "summary": "How Congress paid two companies to race across the West, what that incentive really bought, and the workers who held the leverage.",
+   "minutes": 7,
+   "date_added": "2026-11-17",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "history-transcontinental-railroad-adult",
+   "topic": "history",
+   "level": "adult",
+   "title": "The Transcontinental Railroad: An Incentive Contract at Continental Scale",
+   "emoji": "🛤️",
+   "subject": "transcontinental-railroad",
+   "summary": "Per-mile subsidies, self-dealing builders, a labor strike in the Sierra, and who paid for the line: what the first transcontinental railroad teaches about incentive design.",
+   "minutes": 8,
+   "date_added": "2026-11-17",
    "cards": 10,
    "keys_count": 3
   },
