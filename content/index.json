@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "topics": [
   {
    "id": "history",
@@ -579,6 +579,17 @@
     "kid": "history-transcontinental-railroad-kid"
    },
    "dinner_question": "Thousands of workers built the railroad, but only a few names were written down. Who is someone whose hard work often goes unnoticed, and how could we thank them?"
+  },
+  {
+   "date": "2026-11-26",
+   "topic": "civics",
+   "title": "The census: counting everyone",
+   "packs": {
+    "adult": "civics-census-adult",
+    "teen": "civics-census-teen",
+    "kid": "civics-census-kid"
+   },
+   "dinner_question": "The census counts everyone living in a home on one day. If it counted our home today, who would be here, and what is something about our family that a count could never show?"
   }
  ],
  "series": [
@@ -1946,6 +1957,45 @@
    "summary": "The 1803 case that made judicial review real, the strategy behind it, and the strongest critiques.",
    "minutes": 8,
    "date_added": "2026-11-10",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "civics-census-kid",
+   "topic": "civics",
+   "level": "kid",
+   "title": "Counting Everyone",
+   "emoji": "🧮",
+   "subject": "census",
+   "summary": "Why the whole country counts every person every 10 years, and what the count decides.",
+   "minutes": 6,
+   "date_added": "2026-11-18",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "civics-census-teen",
+   "topic": "civics",
+   "level": "teen",
+   "title": "The Census: The Count That Moves Power",
+   "emoji": "📊",
+   "subject": "census",
+   "summary": "How a once-a-decade headcount decides each state's House seats, sometimes by a handful of people.",
+   "minutes": 7,
+   "date_added": "2026-11-18",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "civics-census-adult",
+   "topic": "civics",
+   "level": "adult",
+   "title": "The Census: A Headcount That Allocates Power",
+   "emoji": "🧮",
+   "subject": "census",
+   "summary": "The constitutional count behind House seats: the apportionment math, razor-thin margins, a fixed House, and the confidentiality bargain.",
+   "minutes": 8,
+   "date_added": "2026-11-18",
    "cards": 10,
    "keys_count": 3
   },

@@ -1,0 +1,238 @@
+{
+ "id": "civics-census-kid",
+ "topic": "civics",
+ "subject": "census",
+ "level": "kid",
+ "title": "Counting Everyone",
+ "emoji": "🧮",
+ "summary": "Why the whole country counts every person every 10 years, and what the count decides.",
+ "minutes": 6,
+ "date_added": "2026-11-18",
+ "keys": [
+  {
+   "id": "k1",
+   "prompt": "How often does the United States count all its people?",
+   "answer": "Every 10 years. The Constitution says it must.",
+   "options": [
+    {
+     "text": "Every 10 years",
+     "correct": true
+    },
+    {
+     "text": "Every year",
+     "correct": false
+    },
+    {
+     "text": "Every 4 years, like the vote for President",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "id": "k2",
+   "prompt": "What does the count help decide for each state?",
+   "answer": "How many seats the state gets in the House of Representatives. More people means more seats.",
+   "options": [
+    {
+     "text": "How many seats it gets in the House",
+     "correct": true
+    },
+    {
+     "text": "How big the state is on the map",
+     "correct": false
+    },
+    {
+     "text": "Who the state's governor is",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "id": "k3",
+   "prompt": "Can the census share what your family wrote?",
+   "answer": "No. By law, the answers are kept secret. Records stay closed for 72 years.",
+   "options": [
+    {
+     "text": "No. The law keeps the answers secret",
+     "correct": true
+    },
+    {
+     "text": "Yes. Anyone can look them up",
+     "correct": false
+    },
+    {
+     "text": "Only your neighbors can see them",
+     "correct": false
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "type": "hook",
+   "emoji": "🔢",
+   "title": "Count them all",
+   "text": "Try to count every kid in your school. Hard, right? Now picture counting every person in the whole country. The United States does just that every 10 years. It is called the census."
+  },
+  {
+   "type": "predict",
+   "mode": "choice",
+   "question": "The first census was in 1790. How many people do you think it counted?",
+   "options": [
+    {
+     "text": "About 40 thousand"
+    },
+    {
+     "text": "About 4 million",
+     "correct": true
+    },
+    {
+     "text": "About 40 million"
+    }
+   ],
+   "reveal": "About 3.9 million people. In 2020 the count was more than 331 million!",
+   "reveal_after": 1
+  },
+  {
+   "type": "idea",
+   "emoji": "📜",
+   "title": "It is in the rules",
+   "text": "The Constitution is the country's top set of rules. It says the people must be counted every 10 years. The first count was in 1790. Thomas Jefferson was in charge of it.",
+   "example": "That first count found about 3.9 million people. The 2020 count found more than 331 million."
+  },
+  {
+   "type": "idea",
+   "emoji": "🪑",
+   "title": "Seats for each state",
+   "text": "Congress has a part called the House of Representatives. It has 435 seats. A state with more people gets more seats. Every state gets at least one.",
+   "example": "Think of a class vote where each team picks helpers. A team with more kids gets more helpers. That way, each helper speaks for about the same number of kids.",
+   "why": {
+    "q": "Why share the seats by how many people live in each state?",
+    "a": "So each seat speaks for about the same number of people. Then every person counts about the same."
+   }
+  },
+  {
+   "type": "idea",
+   "emoji": "🔒",
+   "title": "Your answers stay secret",
+   "text": "Every home in the country is asked to fill out the census. By law, the answers people give are kept private. The full records stay closed for 72 years.",
+   "example": "The records from the 2020 count will not be opened until 2092."
+  },
+  {
+   "type": "idea",
+   "emoji": "💻",
+   "title": "New ways to count",
+   "text": "Long ago, workers called U.S. Marshals went from house to house. In 2020, for the first time, people could answer online or by phone. They could still use a paper form too."
+  },
+  {
+   "type": "think",
+   "question": "What could go wrong if some people are not counted?",
+   "nudges": [
+    "Think about the seats each state gets.",
+    "What if a whole town got missed?",
+    "Why might some people not fill it out?"
+   ]
+  },
+  {
+   "type": "quiz",
+   "questions": [
+    {
+     "q": "Why does the country count people every 10 years?",
+     "options": [
+      {
+       "text": "The Constitution says it must",
+       "correct": true,
+       "why": "Yes! It is written right into the top set of rules."
+      },
+      {
+       "text": "To decide what kids learn in school",
+       "correct": false,
+       "why": "Not quite. The count is about how many people live in each place."
+      },
+      {
+       "text": "To pick the President",
+       "correct": false,
+       "why": "Not quite. The count helps share House seats, not pick the President."
+      }
+     ]
+    },
+    {
+     "q": "A state has many more people than its neighbor. What happens?",
+     "options": [
+      {
+       "text": "It gets more seats in the House",
+       "correct": true,
+       "why": "Right. More people means more seats."
+      },
+      {
+       "text": "It gets fewer seats",
+       "correct": false,
+       "why": "Other way around. More people means more seats."
+      },
+      {
+       "text": "Both get the same number",
+       "correct": false,
+       "why": "Not in the House. Seats there go by how many people live in each state."
+      }
+     ]
+    },
+    {
+     "q": "When will the 2020 census records be opened?",
+     "options": [
+      {
+       "text": "In 2092",
+       "correct": true,
+       "why": "Yes! Records stay closed for 72 years."
+      },
+      {
+       "text": "Next year",
+       "correct": false,
+       "why": "No. The law keeps them closed for a long time."
+      },
+      {
+       "text": "Never",
+       "correct": false,
+       "why": "Good guess, but they do open, after 72 years."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "teach",
+   "prompt": "Explain this to someone at dinner in 3 sentences.",
+   "starters": [
+    "Every 10 years, the country…",
+    "The count decides…",
+    "Your answers are…"
+   ]
+  }
+ ],
+ "video": {
+  "youtube_id": "Eq-FMB4epyw",
+  "title": "2020 Census: What is the Census?",
+  "channel": "U.S. Census Bureau",
+  "duration_sec": 111,
+  "why": "A short look at what the census is, why the Constitution asks for it, and how your answers stay private."
+ },
+ "sources": [
+  {
+   "title": "About the Decennial Census of Population and Housing",
+   "publisher": "U.S. Census Bureau",
+   "url": "https://www.census.gov/programs-surveys/decennial-census/about.html",
+   "supports": "The census is every 10 years, on April 1 in years ending in zero; it decides House seats; the first census was in 1790, led by Thomas Jefferson, and counted 3,929,625 people (about 3.9 million); records are kept confidential for 72 years."
+  },
+  {
+   "title": "About Congressional Apportionment",
+   "publisher": "U.S. Census Bureau",
+   "url": "https://www.census.gov/topics/public-sector/congressional-apportionment/about.html",
+   "supports": "The House has 435 seats shared among the 50 states by population; every state gets at least one seat."
+  },
+  {
+   "title": "United States census",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/United_States_census",
+   "supports": "The 2020 count was 331,449,281 and was the first to offer online or phone answers along with paper; 2020 records open April 1, 2092; the first nine censuses were taken by U.S. Marshals; by law answers are confidential."
+  }
+ ]
+}

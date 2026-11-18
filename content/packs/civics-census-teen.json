@@ -1,0 +1,218 @@
+{
+ "id": "civics-census-teen",
+ "topic": "civics",
+ "subject": "census",
+ "level": "teen",
+ "title": "The Census: The Count That Moves Power",
+ "emoji": "📊",
+ "summary": "How a once-a-decade headcount decides each state's House seats, sometimes by a handful of people.",
+ "minutes": 7,
+ "date_added": "2026-11-18",
+ "keys": [
+  {
+   "id": "k1",
+   "prompt": "What is apportionment, and why does the census drive it?",
+   "answer": "Dividing the 435 House seats among the states by population. The census supplies the population counts."
+  },
+  {
+   "id": "k2",
+   "prompt": "How does the method of equal proportions hand out seats?",
+   "answer": "Each state gets one seat. The other 385 go one at a time to whichever state has the highest priority value at that moment."
+  },
+  {
+   "id": "k3",
+   "prompt": "Why do House districts hold far more people today than in 1790?",
+   "answer": "The population kept growing but the House stopped growing at 435 seats, so each member represents more people."
+  }
+ ],
+ "cards": [
+  {
+   "type": "hook",
+   "emoji": "🎯",
+   "title": "Lost by a whisker",
+   "text": "After the 2020 census, 435 House seats were handed out across all 50 states. The very last seat came down to two states, Minnesota and New York. The margin was tiny. How tiny?"
+  },
+  {
+   "type": "predict",
+   "mode": "choice",
+   "question": "How many more residents would New York have needed to take that last seat from Minnesota?",
+   "options": [
+    {
+     "text": "89",
+     "correct": true
+    },
+    {
+     "text": "About 8,900"
+    },
+    {
+     "text": "About 89,000"
+    }
+   ],
+   "reveal": "Just 89. If New York had counted 89 more residents, it would have won the 435th seat instead of Minnesota.",
+   "reveal_after": 3
+  },
+  {
+   "type": "idea",
+   "emoji": "📜",
+   "title": "Written into the Constitution",
+   "text": "Article I, Section 2 orders an \"actual Enumeration\" (a real count) every ten years. The first census was in 1790, led by Secretary of State Thomas Jefferson. Today it happens in every year ending in zero, with Census Day on April 1.",
+   "example": "The 1790 count found about 3.9 million people, and that count was used to share out the first House seats."
+  },
+  {
+   "type": "idea",
+   "emoji": "🧮",
+   "title": "How seats get dealt out",
+   "text": "Apportionment means dividing the House's 435 seats among the states. Every state gets one seat first, which leaves 385. Since 1941 Congress has used the method of equal proportions: each state gets a priority value from its population and its seat count, and the next seat goes to the state with the highest value.",
+   "example": "Picture a draft. After each pick, a state's priority value drops, so a big state keeps picking only while its value stays on top.",
+   "why": {
+    "q": "Why does a state's priority value drop after it wins a seat?",
+    "a": "The value divides the population by a number that grows with each seat the state already has, so more seats means a lower value for the next one."
+   }
+  },
+  {
+   "type": "idea",
+   "emoji": "🎯",
+   "title": "Every person counts",
+   "text": "Because seats go out one at a time in ranked order, the last few are razor-thin. In 2020, Minnesota got seat 435 for the second census in a row. New York needed just 89 more residents, or Minnesota 26 fewer, to flip it.",
+   "example": "So a few missed households can move a seat from one state to another, and it stays moved for ten years."
+  },
+  {
+   "type": "idea",
+   "emoji": "📈",
+   "title": "Districts keep getting bigger",
+   "text": "After the 1790 census, each House member represented about 34,436 people on average. After 2020, it was 761,169. Why? The population grew, but in 1929 Congress capped the House at 435 seats.",
+   "example": "So a member of Congress today speaks for roughly 22 times as many people as in the 1790s."
+  },
+  {
+   "type": "idea",
+   "emoji": "🗺️",
+   "title": "After the count",
+   "text": "The numbers keep working after seats are dealt out. State officials redraw district lines to match population shifts, which is called redistricting. Meanwhile, the census records are kept confidential for 72 years."
+  },
+  {
+   "type": "think",
+   "question": "Should the House stay at 435 seats or grow with the population?",
+   "nudges": [
+    "What happens to a citizen's voice when one member represents 761,169 people?",
+    "What problems might come with a much bigger House?",
+    "Pick a side, then argue the other one as well as you can."
+   ]
+  },
+  {
+   "type": "quiz",
+   "questions": [
+    {
+     "q": "The House has 435 seats and every state gets one first. How many seats does the formula hand out?",
+     "options": [
+      {
+       "text": "385",
+       "correct": true,
+       "why": "Right: 435 − 50 = 385."
+      },
+      {
+       "text": "435",
+       "correct": false,
+       "why": "Close, but the first 50 are automatic, one per state."
+      },
+      {
+       "text": "50",
+       "correct": false,
+       "why": "That's the guaranteed ones. The formula handles the rest."
+      },
+      {
+       "text": "100",
+       "correct": false,
+       "why": "That's the number of senators, a different chamber."
+      }
+     ]
+    },
+    {
+     "q": "Why is the last seat often decided by a tiny margin?",
+     "options": [
+      {
+       "text": "Seats go out one at a time by ranked priority, so the last two values can be nearly equal",
+       "correct": true,
+       "why": "Yes. The 2020 race for seat 435 came down to 89 people."
+      },
+      {
+       "text": "The Census Bureau flips a coin",
+       "correct": false,
+       "why": "No coin. A formula ranks the states."
+      },
+      {
+       "text": "The President picks the last seat",
+       "correct": false,
+       "why": "No. The formula decides; the President just reports the results."
+      },
+      {
+       "text": "Small states always get the last seat",
+       "correct": false,
+       "why": "Not a rule. Minnesota and New York were in the running in 2020."
+      }
+     ]
+    },
+    {
+     "q": "From about 34,436 to 761,169 people per member: what mostly explains that jump?",
+     "options": [
+      {
+       "text": "Population kept growing while the House was capped at 435",
+       "correct": true,
+       "why": "Exactly. Same number of seats, many more people."
+      },
+      {
+       "text": "States lost seats on purpose",
+       "correct": false,
+       "why": "Seats move between states, but the total stayed at 435."
+      },
+      {
+       "text": "Fewer people were counted",
+       "correct": false,
+       "why": "The opposite. Far more people were counted."
+      },
+      {
+       "text": "Each district now covers two states",
+       "correct": false,
+       "why": "No. Districts are drawn inside a single state."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "teach",
+   "prompt": "Explain this to someone at dinner in 3 sentences.",
+   "starters": [
+    "Every 10 years the census…",
+    "House seats are handed out by…",
+    "It matters because…"
+   ]
+  }
+ ],
+ "video": {
+  "youtube_id": "ws5XDzlBUww",
+  "title": "What Is the U.S. Census? | Politics on Point",
+  "channel": "NewsDepth",
+  "duration_sec": 221,
+  "why": "A quick tour from the 1790 count to the 2020 form, and why population decides how many House seats each state gets."
+ },
+ "sources": [
+  {
+   "title": "About the Decennial Census of Population and Housing",
+   "publisher": "U.S. Census Bureau",
+   "url": "https://www.census.gov/programs-surveys/decennial-census/about.html",
+   "supports": "Every 10 years on April 1 in years ending in zero; the Article I, Section 2 quote including \"actual Enumeration\"; the first census in 1790, led by Secretary of State Thomas Jefferson, counted 3,929,625 people; records kept confidential for 72 years; state officials redraw districts after each census (redistricting)."
+  },
+  {
+   "title": "About Congressional Apportionment",
+   "publisher": "U.S. Census Bureau",
+   "url": "https://www.census.gov/topics/public-sector/congressional-apportionment/about.html",
+   "supports": "Apportionment divides the 435 seats among the 50 states; each state gets one seat, then 385 are divided by the method of equal proportions, adopted in 1941, using a priority value from each state's population and its current and next seats."
+  },
+  {
+   "title": "United States congressional apportionment",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/United_States_congressional_apportionment",
+   "supports": "After 2020 Minnesota got the 435th seat for the second time in a row; New York needed 89 more residents or Minnesota 26 fewer; average constituents per member: 34,436 after 1790, 761,169 after 2020; the Reapportionment Act of 1929 capped the House at 435."
+  }
+ ]
+}

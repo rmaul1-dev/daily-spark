@@ -1,0 +1,214 @@
+{
+ "id": "civics-census-adult",
+ "topic": "civics",
+ "subject": "census",
+ "level": "adult",
+ "title": "The Census: A Headcount That Allocates Power",
+ "emoji": "🧮",
+ "summary": "The constitutional count behind House seats: the apportionment math, razor-thin margins, a fixed House, and the confidentiality bargain.",
+ "minutes": 8,
+ "date_added": "2026-11-18",
+ "keys": [
+  {
+   "id": "k1",
+   "prompt": "How does the method of equal proportions allocate House seats?",
+   "answer": "Each state gets one seat. Seats 51–435 go in order of priority value: population divided by the geometric mean of a state's current and next seat."
+  },
+  {
+   "id": "k2",
+   "prompt": "Why has the average House district grown from about 34,000 to over 760,000 people?",
+   "answer": "Population kept rising, but the Reapportionment Act of 1929 capped the House at 435 seats, so every seat represents more people."
+  },
+  {
+   "id": "k3",
+   "prompt": "Why does census confidentiality matter, and when did it break down?",
+   "answer": "People answer honestly only if data stays private. The Second War Powers Act of 1941 lifted protections until 1947, and census data aided internment."
+  }
+ ],
+ "cards": [
+  {
+   "type": "hook",
+   "emoji": "🗳️",
+   "title": "The decade with no recount",
+   "text": "The Constitution requires a census every ten years. Its first use is dividing House seats. Yet after the 1920 census, Congress never reapportioned at all. Rural lawmakers feared losing power to fast-growing cities, so the seat shares set after the 1910 census stayed in place through the 1920s."
+  },
+  {
+   "type": "predict",
+   "mode": "estimate",
+   "question": "After the 1790 census, each House member represented about 34,436 people on average. After the 2020 census, about how many?",
+   "estimate": {
+    "min": 0,
+    "max": 1000000,
+    "step": 10000,
+    "unit": "people",
+    "answer": 761169
+   },
+   "reveal": "761,169, roughly 22 times the 1790 figure. The House stopped growing in 1929; the country didn't.",
+   "reveal_after": 4
+  },
+  {
+   "type": "idea",
+   "emoji": "📜",
+   "title": "A constitutional mandate",
+   "text": "Article I, Section 2 apportions Representatives \"according to their respective numbers\" and orders an \"actual Enumeration\" every ten years, \"in such Manner as they shall by Law direct.\" So Congress picks the method; Title 13 of the U.S. Code governs how the count runs. Counts go to the President within 9 months of Census Day, April 1.",
+   "example": "Apportionment is the census's first use; the second major one is redistricting, where state officials redraw district lines."
+  },
+  {
+   "type": "idea",
+   "emoji": "🧮",
+   "title": "The priority-value machine",
+   "text": "Each state gets one seat; the remaining 385 go one at a time. A state's priority value is its population divided by √(n(n+1)), where n is its current seat count, the geometric mean of current and next seats. The highest value wins the next seat, then that state's value is recomputed. Congress adopted this method of equal proportions in 1941.",
+   "example": "Say State A has 2,000,000 people and 2 seats: its value is 2,000,000 ÷ √6 ≈ 816,497. State B has 1,200,000 and 1 seat: 1,200,000 ÷ √2 ≈ 848,528. The smaller state wins the next seat.",
+   "why": {
+    "q": "Why divide by a number that rises with each seat a state holds?",
+    "a": "It discounts states that already hold seats, so a big state keeps winning only while its value stays highest. That is how a smaller state can win the next seat."
+   }
+  },
+  {
+   "type": "idea",
+   "emoji": "🎯",
+   "title": "Margins measured in households",
+   "text": "Ranking all 385 extra seats makes the cut-off brutal. After 2020, Minnesota took seat 435 for the second straight census. Had New York counted 89 more residents, or Minnesota 26 fewer, New York would have won it. That puts enormous weight on coverage and response.",
+   "example": "Nonresponse is the risk: in recent censuses it ran under 1%, and by October 19, 2020, every state topped a 99% response rate."
+  },
+  {
+   "type": "idea",
+   "emoji": "📈",
+   "title": "The fixed House trade-off",
+   "text": "Before the 20th century, the House grew every decade as states joined and population rose. Then came the 1920s deadlock. The Reapportionment Act of 1929 capped it at 435 and set a permanent process, which ended the stalemate. The cost: average constituents per member went from 34,436 after 1790 to 761,169 after 2020.",
+   "example": "Before 1929, some states had districts twice as large as others. A fixed size traded growing distance from voters for an automatic, predictable reallocation."
+  },
+  {
+   "type": "idea",
+   "emoji": "🔒",
+   "title": "The confidentiality bargain",
+   "text": "Accurate counts depend on people trusting that answers stay private. Title 13 bars disclosing identifiable data, and individual records are sealed for 72 years. That bargain has broken before: the Second War Powers Act of 1941 lifted protections until 1947, and census data helped facilitate the internment of Japanese Americans.",
+   "example": "The 1950 records opened on April 1, 2022; the 2020 records open April 1, 2092."
+  },
+  {
+   "type": "think",
+   "question": "Should the House stay at 435, or grow with the population?",
+   "nudges": [
+    "What does a member representing 761,169 people mean for access and accountability?",
+    "What practical and political costs would a much larger House bring?",
+    "Make the strongest case for the side you don't start on."
+   ]
+  },
+  {
+   "type": "quiz",
+   "questions": [
+    {
+     "q": "State C has 3,000,000 people and 3 seats; State D has 1,000,000 and 1 seat. Who has the higher priority value for its next seat?",
+     "options": [
+      {
+       "text": "State D",
+       "correct": false,
+       "why": "Check C: 3,000,000 ÷ √12 ≈ 866,025, which beats D's 1,000,000 ÷ √2 ≈ 707,107."
+      },
+      {
+       "text": "State C",
+       "correct": true,
+       "why": "Right. C's value is 3,000,000 ÷ √(3×4) ≈ 866,025; D's is 1,000,000 ÷ √(1×2) ≈ 707,107."
+      },
+      {
+       "text": "They tie",
+       "correct": false,
+       "why": "Not here. Work out each value with population ÷ √(n(n+1))."
+      },
+      {
+       "text": "D, because smaller states always win ties",
+       "correct": false,
+       "why": "There's no small-state rule; the higher priority value wins."
+      }
+     ]
+    },
+    {
+     "q": "Why did Congress fail to reapportion after the 1920 census?",
+     "options": [
+      {
+       "text": "Rural lawmakers feared losing seats to growing cities",
+       "correct": true,
+       "why": "Yes. The 1920 results were never used to reapportion; the 1929 Act then set a permanent process."
+      },
+      {
+       "text": "The census was never taken",
+       "correct": false,
+       "why": "It was taken; its results were ignored for reapportionment."
+      },
+      {
+       "text": "The Supreme Court blocked it",
+       "correct": false,
+       "why": "No. It was a congressional stalemate."
+      },
+      {
+       "text": "The House was already capped at 435",
+       "correct": false,
+       "why": "The cap came later, in the 1929 Act that ended the stalemate."
+      }
+     ]
+    },
+    {
+     "q": "What is the main trade-off of the 435-seat cap?",
+     "options": [
+      {
+       "text": "Automatic reapportionment, but ever-larger districts",
+       "correct": true,
+       "why": "Right. It ended stalemates but districts grew to 761,169 people on average."
+      },
+      {
+       "text": "More seats for small states",
+       "correct": false,
+       "why": "The cap doesn't favor small states; each still gets at least one."
+      },
+      {
+       "text": "It ended the need for a census",
+       "correct": false,
+       "why": "No. The census is constitutionally required and still sets the shares."
+      },
+      {
+       "text": "It made the margins for the last seat wider",
+       "correct": false,
+       "why": "Margins can still be razor-thin, as 2020 showed."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "teach",
+   "prompt": "Explain this to someone at dinner in 3 sentences.",
+   "starters": [
+    "Every ten years the census…",
+    "Seats are allocated by…",
+    "The big trade-off is…"
+   ]
+  }
+ ],
+ "video": {
+  "youtube_id": "Wi8fyMFS5H4",
+  "title": "What is Apportionment?",
+  "channel": "U.S. Census Bureau",
+  "duration_sec": 125,
+  "why": "The Census Bureau's two-minute walk-through of the method of equal proportions: one seat per state, then 385 seats ranked by priority value."
+ },
+ "sources": [
+  {
+   "title": "About Congressional Apportionment",
+   "publisher": "U.S. Census Bureau",
+   "url": "https://www.census.gov/topics/public-sector/congressional-apportionment/about.html",
+   "supports": "Article I, Section 2 quotes; census in each year ending in zero; Census Day April 1; Title 13; apportionment is the initial use; one seat per state, then 385 by the method of equal proportions adopted in 1941; priority value = population ÷ geometric mean of current and next seats; Congress decides the method; counts due to the President within 9 months; redistricting by state officials is the second major use."
+  },
+  {
+   "title": "United States congressional apportionment",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/United_States_congressional_apportionment",
+   "supports": "Minnesota got the 435th seat in 2020 for the second time in a row; New York needed 89 more residents or Minnesota 26 fewer; average constituents per member 34,436 (1790) and 761,169 (2020); no reapportionment after 1920; by 1929 some states' districts were twice as large as others'; the House grew every decade before the 20th century; the 1929 Act capped the House at 435 and set a permanent process."
+  },
+  {
+   "title": "United States census",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/United_States_census",
+   "supports": "1920 census results were ignored because rural lawmakers feared losing power to urban areas; nonresponse under 1% in recent censuses and every state above 99% by Oct 19, 2020; Title 13 confidentiality; 72-year seal; Second War Powers Act of 1941 lifted protections until 1947 and census data facilitated Japanese-American internment; 1950 records opened April 1, 2022; 2020 records open April 1, 2092."
+  }
+ ]
+}
