@@ -1,0 +1,230 @@
+{
+ "id": "money-comparative-advantage-kid",
+ "topic": "money",
+ "subject": "comparative-advantage",
+ "level": "kid",
+ "title": "Even the Best Needs a Teammate",
+ "emoji": "🤝",
+ "summary": "Why it pays to split up jobs, even when one person is better at everything.",
+ "minutes": 6,
+ "date_added": "2026-11-19",
+ "keys": [
+  {
+   "id": "k1",
+   "prompt": "Who should do a job, the fastest person or the one who gives up the least to do it?",
+   "answer": "The one who gives up the least. That is called a comparative advantage.",
+   "options": [
+    {
+     "text": "The one who gives up the least",
+     "correct": true
+    },
+    {
+     "text": "Always the fastest person",
+     "correct": false
+    },
+    {
+     "text": "Whoever asks first",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "id": "k2",
+   "prompt": "What happens when each person sticks to the job they give up the least for, and then they share?",
+   "answer": "Together they make more than if each one did a bit of every job.",
+   "options": [
+    {
+     "text": "Together they make more",
+     "correct": true
+    },
+    {
+     "text": "They make less, since one is slower",
+     "correct": false
+    },
+    {
+     "text": "They make the same amount",
+     "correct": false
+    }
+   ]
+  },
+  {
+   "id": "k3",
+   "prompt": "What did David Ricardo show about trade between countries?",
+   "answer": "Two countries can both gain from trade, even if one is better at making everything.",
+   "options": [
+    {
+     "text": "Both can gain, even if one is better at everything",
+     "correct": true
+    },
+    {
+     "text": "Only the better country gains",
+     "correct": false
+    },
+    {
+     "text": "Trade only helps small countries",
+     "correct": false
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "type": "hook",
+   "emoji": "🍪",
+   "title": "The bake sale puzzle",
+   "text": "Say Mia and Leo run a bake sale for one hour. Mia is faster at baking. She is also faster at making signs. So should Mia just do it all? Let's find out."
+  },
+  {
+   "type": "predict",
+   "mode": "choice",
+   "question": "In one hour, Mia can bake 12 cookies or make 6 signs. Leo can bake 4 cookies or make 4 signs. What should Leo do?",
+   "options": [
+    {
+     "text": "Nothing. Mia is faster at both."
+    },
+    {
+     "text": "Make the signs",
+     "correct": true
+    },
+    {
+     "text": "Bake the cookies"
+    }
+   ],
+   "reveal": "Make the signs! Each sign costs Leo only 1 cookie, but it costs Mia 2 cookies.",
+   "reveal_after": 2
+  },
+  {
+   "type": "idea",
+   "emoji": "⏰",
+   "title": "Time runs out",
+   "text": "Mia is faster at both jobs. But she only has one hour. Every minute she spends on signs is a minute she is not baking. So the real question is not who is faster. It is what each person gives up.",
+   "example": "Think of recess. If you spend it all on the swings, you give up the soccer game."
+  },
+  {
+   "type": "idea",
+   "emoji": "⚖️",
+   "title": "What you give up",
+   "text": "In the time Mia makes 1 sign, she could bake 2 cookies. In the time Leo makes 1 sign, he could bake just 1 cookie. So a sign costs Leo less. Leo should make the signs. Being the one who gives up less is called a comparative advantage.",
+   "why": {
+    "q": "Why should Leo make signs, even though Mia makes them faster?",
+    "a": "Because a sign costs Leo only 1 cookie, but it costs Mia 2. Leo gives up less."
+   }
+  },
+  {
+   "type": "idea",
+   "emoji": "📈",
+   "title": "More for the team",
+   "text": "If they each spend half the hour on each job, they get 8 cookies and 5 signs. Now let Leo make signs all hour. That is 4 signs. Mia makes 1 sign, then bakes the rest of the hour. That is 10 cookies and 5 signs. Same signs, 2 more cookies!",
+   "example": "Mia makes 1 sign in 10 minutes. In the other 50 minutes she bakes 10 cookies."
+  },
+  {
+   "type": "idea",
+   "emoji": "🌍",
+   "title": "Countries do it too",
+   "text": "In 1817, a thinker named David Ricardo wrote about England and Portugal. Portugal could make both cloth and wine with less work. Ricardo showed that both countries could still gain if each made what it was best at and they traded."
+  },
+  {
+   "type": "think",
+   "question": "At home, who is great at many jobs but should still hand one off? Which job would you be the best one to take?",
+   "nudges": [
+    "Think about chores, like dishes or folding laundry.",
+    "Ask: what does each person give up to do that job?"
+   ]
+  },
+  {
+   "type": "quiz",
+   "questions": [
+    {
+     "q": "What is a comparative advantage?",
+     "options": [
+      {
+       "text": "Giving up the least to do a job",
+       "correct": true,
+       "why": "Yes! It is about what you give up, not just speed."
+      },
+      {
+       "text": "Being the fastest at every job",
+       "correct": false,
+       "why": "Being fastest is a different idea. Mia was fastest, but Leo still had a job he gave up less for."
+      },
+      {
+       "text": "Doing every job yourself",
+       "correct": false,
+       "why": "Doing it all means giving up a lot. Splitting jobs helped Mia and Leo make more."
+      }
+     ]
+    },
+    {
+     "q": "When Mia and Leo split the jobs the smart way, what happened?",
+     "options": [
+      {
+       "text": "They got 2 more cookies and the same signs",
+       "correct": true,
+       "why": "Right! 10 cookies and 5 signs, instead of 8 and 5."
+      },
+      {
+       "text": "They got fewer cookies",
+       "correct": false,
+       "why": "Look again. They went from 8 cookies to 10."
+      },
+      {
+       "text": "Nothing changed",
+       "correct": false,
+       "why": "Something did change. The smart split gave them 2 extra cookies."
+      }
+     ]
+    },
+    {
+     "q": "What did Ricardo say about England and Portugal?",
+     "options": [
+      {
+       "text": "Both could gain by trading",
+       "correct": true,
+       "why": "Yes! Even though Portugal was better at making both things."
+      },
+      {
+       "text": "Only Portugal should make things",
+       "correct": false,
+       "why": "Portugal was better at both, but Ricardo showed trade could help both countries."
+      },
+      {
+       "text": "They should never trade",
+       "correct": false,
+       "why": "Ricardo argued the opposite. Trade could make both better off."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "teach",
+   "prompt": "Explain this to someone at dinner in 3 sentences.",
+   "starters": [
+    "Being the fastest at everything doesn't mean…",
+    "Leo should make signs because…",
+    "David Ricardo showed that…"
+   ]
+  }
+ ],
+ "video": {
+  "youtube_id": "U12yZXBmQmY",
+  "title": "The Principle of Comparative Advantage - 60 Second Adventures in Economics (4/6)",
+  "channel": "OpenLearn from The Open University",
+  "duration_sec": 82,
+  "why": "A quick cartoon about Ricardo's idea: even a country that is good at everything does better by focusing and trading."
+ },
+ "sources": [
+  {
+   "title": "33.1 Absolute and Comparative Advantage (Principles of Economics 3e)",
+   "publisher": "OpenStax, Rice University",
+   "url": "https://openstax.org/books/principles-economics-3e/pages/33-1-absolute-and-comparative-advantage",
+   "supports": "Comparative advantage means producing at a lower cost in terms of other goods (opportunity cost); absolute advantage means producing more; David Ricardo wrote in 1817 that specialization and trade benefit all partners, even relatively inefficient ones."
+  },
+  {
+   "title": "Comparative advantage",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Comparative_advantage",
+   "supports": "Ricardo's 1817 England and Portugal example: Portugal could make both wine and cloth with less labor, yet both countries gain when each specializes and they trade; gains come from devoting resources to the activity with the lowest opportunity cost."
+  }
+ ]
+}

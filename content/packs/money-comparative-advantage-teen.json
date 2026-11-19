@@ -1,0 +1,198 @@
+{
+ "id": "money-comparative-advantage-teen",
+ "topic": "money",
+ "subject": "comparative-advantage",
+ "level": "teen",
+ "title": "Comparative Advantage: Why the Best Player Doesn't Play Every Position",
+ "emoji": "🔄",
+ "summary": "Opportunity cost decides who should do what, which is why trade can help both sides even when one is better at everything.",
+ "minutes": 7,
+ "date_added": "2026-11-19",
+ "keys": [
+  {
+   "id": "k1",
+   "prompt": "What's the difference between absolute advantage and comparative advantage?",
+   "answer": "Absolute advantage means producing more with the same resources. Comparative advantage means giving up less of other goods to produce something."
+  },
+  {
+   "id": "k2",
+   "prompt": "Why can two sides both gain from trade even if one is better at producing everything?",
+   "answer": "Their opportunity costs differ. If each makes what it gives up least to make and they trade, total output rises."
+  },
+  {
+   "id": "k3",
+   "prompt": "How do you find who has the comparative advantage in a good?",
+   "answer": "Work out each side's opportunity cost of one unit, in units of the other good. The lower cost wins."
+  }
+ ],
+ "cards": [
+  {
+   "type": "hook",
+   "emoji": "🍷",
+   "title": "Better at everything, still trading",
+   "text": "In 1817, the economist David Ricardo described a puzzle. Portugal could make both cloth and wine with fewer hours of work than England. So why should Portugal buy anything from England? His answer became one of the biggest ideas in economics."
+  },
+  {
+   "type": "predict",
+   "mode": "estimate",
+   "question": "England needs 220 hours to make 1 unit of cloth and 1 of wine. If it spends all 220 hours on cloth (100 hours per unit), how many units of cloth does it make?",
+   "estimate": {
+    "min": 0,
+    "max": 4,
+    "step": 0.1,
+    "unit": "units",
+    "answer": 2.2
+   },
+   "reveal": "2.2 units. Portugal, putting its 170 hours into wine at 80 hours per unit, makes 2.125 units. Together that's more of both goods than 1 each.",
+   "reveal_after": 3
+  },
+  {
+   "type": "idea",
+   "emoji": "🛢️",
+   "title": "Two kinds of advantage",
+   "text": "A country has an absolute advantage in a good if it can produce more of it with the same resources. It has a comparative advantage if it produces the good at a lower cost in terms of other goods. That cost is the opportunity cost: what you give up.",
+   "example": "OpenStax's example: Saudi Arabia needs 1 hour for a barrel of oil and 4 hours for a bushel of corn. The U.S. needs 2 hours per barrel and 1 hour per bushel."
+  },
+  {
+   "type": "idea",
+   "emoji": "🧮",
+   "title": "Do the trade-off math",
+   "text": "With those hours, a barrel of oil costs the U.S. 2 bushels of corn. It costs Saudi Arabia only ¼ bushel. So Saudi Arabia has the comparative advantage in oil, and the U.S. has it in corn. The question to ask is always: what do we give up to make this?",
+   "why": {
+    "q": "Why does a barrel of oil cost the U.S. exactly 2 bushels of corn?",
+    "a": "A barrel takes 2 U.S. worker-hours, and each hour could have grown 1 bushel of corn instead."
+   }
+  },
+  {
+   "type": "idea",
+   "emoji": "🇵🇹",
+   "title": "Ricardo's twist",
+   "text": "In Ricardo's example, cloth takes England 100 hours and wine 120. Portugal needs 90 for cloth and 80 for wine. Portugal wins at both. But England gives up less wine per cloth. If England makes only cloth and Portugal only wine, the world gets 2.2 units of cloth and 2.125 of wine.",
+   "example": "Without trade, each country makes 1 cloth and 1 wine: 2 of each in total. Specializing beats that on both goods."
+  },
+  {
+   "type": "idea",
+   "emoji": "💼",
+   "title": "Same logic in a startup",
+   "text": "Say a founder can write 10 pages of code or close 4 sales in a day. Her first hire can write 6 pages or close 1 sale. She's better at both. But each sale costs her 2.5 pages of code, while it costs the hire 6. So she sells and the hire codes.",
+   "examples_by_interest": {
+    "soccer": "Say your best player scores 4 goals or makes 8 key passes per game, and a teammate scores 1 goal or makes 6 passes. A goal costs the star 2 passes but costs the teammate 6. So the star shoots and the teammate sets up play."
+   }
+  },
+  {
+   "type": "think",
+   "question": "Comparative advantage is a model with simple assumptions, like workers and money staying inside each country. What might change in the real world if factories and workers can move easily across borders?",
+   "nudges": [
+    "Ricardo himself said if capital could move, both goods might be made in Portugal.",
+    "Think about who gains and who has to change jobs."
+   ]
+  },
+  {
+   "type": "quiz",
+   "questions": [
+    {
+     "q": "Country A makes 1 shirt in 2 hours or 1 hat in 4 hours. What is A's opportunity cost of one hat?",
+     "options": [
+      {
+       "text": "2 shirts",
+       "correct": true,
+       "why": "Right: 4 hours on a hat could have made 2 shirts."
+      },
+      {
+       "text": "½ shirt",
+       "correct": false,
+       "why": "That's the cost of a shirt in hats. Flip it: a hat takes twice as long as a shirt."
+      },
+      {
+       "text": "4 shirts",
+       "correct": false,
+       "why": "4 is the hours, not the shirts. Divide 4 hours by 2 hours per shirt."
+      },
+      {
+       "text": "1 shirt",
+       "correct": false,
+       "why": "A hat takes twice as long, so it costs more than 1 shirt."
+      }
+     ]
+    },
+    {
+     "q": "In Ricardo's example, why should England make cloth even though Portugal makes cloth faster?",
+     "options": [
+      {
+       "text": "England gives up less wine per cloth than Portugal does",
+       "correct": true,
+       "why": "Yes: cloth costs England 5/6 of a wine but costs Portugal 9/8."
+      },
+      {
+       "text": "England has an absolute advantage in cloth",
+       "correct": false,
+       "why": "Portugal needs fewer hours for both goods, so it has the absolute advantage in cloth."
+      },
+      {
+       "text": "Wine is worth more than cloth",
+       "correct": false,
+       "why": "Prices of the goods aren't what decides it here. The opportunity cost is."
+      }
+     ]
+    },
+    {
+     "q": "What does specializing by comparative advantage do to total output in Ricardo's example?",
+     "options": [
+      {
+       "text": "Raises output of both goods",
+       "correct": true,
+       "why": "2.2 cloth and 2.125 wine, versus 2 of each without specializing."
+      },
+      {
+       "text": "Raises cloth but lowers wine",
+       "correct": false,
+       "why": "Check the numbers again: wine goes from 2 to 2.125."
+      },
+      {
+       "text": "Leaves output the same and just moves it around",
+       "correct": false,
+       "why": "Output actually grows, because each hour goes where it gives up the least."
+      },
+      {
+       "text": "Only helps Portugal",
+       "correct": false,
+       "why": "Both countries can end up with at least 1 of each and some left over."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "teach",
+   "prompt": "Explain this to someone at dinner in 3 sentences.",
+   "starters": [
+    "Absolute advantage is about who makes more, but comparative advantage…",
+    "Even if one side is better at everything…",
+    "To find who should make something, you…"
+   ]
+  }
+ ],
+ "video": {
+  "youtube_id": "NI9TLDIPVcs",
+  "title": "Specialization and Trade: Crash Course Economics #2",
+  "channel": "CrashCourse",
+  "duration_sec": 543,
+  "start": 190,
+  "end": 425,
+  "why": "Crash Course works a planes-and-shoes example on a production possibilities graph; we play the four-minute section on comparative advantage."
+ },
+ "sources": [
+  {
+   "title": "33.1 Absolute and Comparative Advantage (Principles of Economics 3e)",
+   "publisher": "OpenStax, Rice University",
+   "url": "https://openstax.org/books/principles-economics-3e/pages/33-1-absolute-and-comparative-advantage",
+   "supports": "Definitions of absolute and comparative advantage and opportunity cost; Ricardo's 1817 treatise and his role as businessman, economist and member of Parliament; Saudi Arabia/U.S. oil and corn hours (1 and 4; 2 and 1) and opportunity costs (¼ bushel vs 2 bushels per barrel); 'What do we give up to produce this good?'"
+  },
+  {
+   "title": "Comparative advantage",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Comparative_advantage",
+   "supports": "Ricardo's England/Portugal hours (cloth 100 and 90, wine 120 and 80; totals 220 and 170); specializing yields 2.2 units of cloth and 2.125 units of wine; cloth trades for 5/6 to 9/8 units of wine; Ricardo noted that if capital and labor were mobile both goods would be made in Portugal; the model assumes labor and capital don't move internationally."
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "topics": [
   {
    "id": "history",
@@ -590,6 +590,17 @@
     "kid": "civics-census-kid"
    },
    "dinner_question": "The census counts everyone living in a home on one day. If it counted our home today, who would be here, and what is something about our family that a count could never show?"
+  },
+  {
+   "date": "2026-11-27",
+   "topic": "money",
+   "title": "Comparative advantage: why even the best needs a teammate",
+   "packs": {
+    "adult": "money-comparative-advantage-adult",
+    "teen": "money-comparative-advantage-teen",
+    "kid": "money-comparative-advantage-kid"
+   },
+   "dinner_question": "Who in our family is good at lots of jobs but should still hand one off, and which job are you the best person to take on?"
   }
  ],
  "series": [
@@ -2299,6 +2310,45 @@
    "summary": "Common equity is the last claim in line and the one with the upside. How priority, voting, dilution and market cap fit together.",
    "minutes": 8,
    "date_added": "2026-11-11",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "money-comparative-advantage-kid",
+   "topic": "money",
+   "level": "kid",
+   "title": "Even the Best Needs a Teammate",
+   "emoji": "🤝",
+   "subject": "comparative-advantage",
+   "summary": "Why it pays to split up jobs, even when one person is better at everything.",
+   "minutes": 6,
+   "date_added": "2026-11-19",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "money-comparative-advantage-teen",
+   "topic": "money",
+   "level": "teen",
+   "title": "Comparative Advantage: Why the Best Player Doesn't Play Every Position",
+   "emoji": "🔄",
+   "subject": "comparative-advantage",
+   "summary": "Opportunity cost decides who should do what, which is why trade can help both sides even when one is better at everything.",
+   "minutes": 7,
+   "date_added": "2026-11-19",
+   "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "money-comparative-advantage-adult",
+   "topic": "money",
+   "level": "adult",
+   "title": "Comparative Advantage: The Most Counterintuitive Idea in Trade",
+   "emoji": "⚖️",
+   "subject": "comparative-advantage",
+   "summary": "Why opportunity cost, not productivity, drives specialization, what the evidence shows, and where the model's assumptions bite.",
+   "minutes": 8,
+   "date_added": "2026-11-19",
    "cards": 10,
    "keys_count": 3
   },

@@ -1,0 +1,216 @@
+{
+ "id": "money-comparative-advantage-adult",
+ "topic": "money",
+ "subject": "comparative-advantage",
+ "level": "adult",
+ "title": "Comparative Advantage: The Most Counterintuitive Idea in Trade",
+ "emoji": "⚖️",
+ "summary": "Why opportunity cost, not productivity, drives specialization, what the evidence shows, and where the model's assumptions bite.",
+ "minutes": 8,
+ "date_added": "2026-11-19",
+ "keys": [
+  {
+   "id": "k1",
+   "prompt": "Why does comparative advantage depend on opportunity cost rather than absolute productivity?",
+   "answer": "Resources are finite, so the true cost of producing a good is what else those resources could have made. Specialize where that cost is lowest."
+  },
+  {
+   "id": "k2",
+   "prompt": "What key assumption makes Ricardo's result hold, and what did he say happens without it?",
+   "answer": "Capital and labor don't move across borders. If they could, Ricardo wrote, it would pay to move England's capital and labor to Portugal and make both goods there."
+  },
+  {
+   "id": "k3",
+   "prompt": "What did Japan's opening to trade in 1859 suggest about comparative advantage?",
+   "answer": "Its main export, silk, roughly doubled in real price by 1869 while many import prices fell 30–75%, as the theory predicts."
+  }
+ ],
+ "cards": [
+  {
+   "type": "hook",
+   "emoji": "🧩",
+   "title": "Better at everything, and still better off trading",
+   "text": "In Ricardo's 1817 example, Portugal needs fewer labor hours than England for both cloth and wine. Intuition says Portugal should make both. Yet if each country specializes, the same 390 hours yield 2.2 units of cloth and 2.125 of wine instead of 2 and 2. Productivity isn't what decides who makes what."
+  },
+  {
+   "type": "predict",
+   "mode": "choice",
+   "question": "Japan opened to foreign trade in 1859 after centuries of near-isolation. By 1869, what had happened to the real price of its main export, silk?",
+   "options": [
+    {
+     "text": "Fell about 30%"
+    },
+    {
+     "text": "Roughly unchanged"
+    },
+    {
+     "text": "Rose about 10%"
+    },
+    {
+     "text": "Roughly doubled",
+     "correct": true
+    }
+   ],
+   "reveal": "It rose about 100% in real terms, while prices of many imported goods fell 30–75%, the pattern comparative advantage predicts.",
+   "reveal_after": 3
+  },
+  {
+   "type": "idea",
+   "emoji": "📐",
+   "title": "Price everything in what you give up",
+   "text": "In England, cloth takes 100 hours and wine 120, so one cloth costs 5/6 of a wine. In Portugal, cloth takes 90 and wine 80, so one cloth costs 9/8 of a wine. Portugal has the absolute advantage in both; England has the comparative advantage in cloth because it sacrifices less wine to make it.",
+   "why": {
+    "q": "Why isn't Portugal's absolute advantage in cloth enough to make it the cloth producer?",
+    "a": "Every hour Portugal spends on cloth is an hour not spent on wine, where its edge over England is larger. Its cloth costs more wine than England's does."
+   }
+  },
+  {
+   "type": "idea",
+   "emoji": "🔁",
+   "title": "Where the gains come from",
+   "text": "Specialized, England's 220 hours make 2.2 cloth and Portugal's 170 hours make 2.125 wine. At any exchange rate between 5/6 and 9/8 wine per cloth, both can consume at least one unit of each with some left over. The gain is the gap between the two countries' internal trade-offs.",
+   "example": "OpenStax frames the question every country or company should ask as: \"What do we give up to produce this good?\""
+  },
+  {
+   "type": "idea",
+   "emoji": "🗾",
+   "title": "A rare clean test",
+   "text": "Testing the theory is hard because trade moves alongside investment, migration and technology. Japan offers a natural experiment: a market economy of about 30 million that opened abruptly in 1859 under treaties capping tariffs at 5%. By 1869 silk's real price had doubled and many import prices had fallen 30–75%.",
+   "example": "That matches the theory's prediction: export what was cheap under self-sufficiency, import what was expensive."
+  },
+  {
+   "type": "idea",
+   "emoji": "🧱",
+   "title": "Where the assumptions bite",
+   "text": "Ricardo assumed capital and labor stay home; if they could move, he wrote, it would pay to make both goods in Portugal. Critics add more: Brander and Spencer showed strategic subsidies can help a country in markets with few firms; Galbraith disputes constant returns. Global value chains and COVID-era supply shocks have raised resilience questions.",
+   "example": "The theory describes the potential gains from specialization. It is not a strict prediction of what governments will actually do."
+  },
+  {
+   "type": "idea",
+   "emoji": "🗂️",
+   "title": "The same math at work",
+   "text": "Say you can bill $500 an hour and you type twice as fast as an assistant paid $40 an hour. One hour of your typing replaces two of theirs ($80) but costs $500 of billable work. Being better at a task is not a reason to do it; the cost of your next-best use of time is.",
+   "examples_by_interest": {
+    "golf": "Say a club pro earns $150 an hour giving lessons and can regrip clubs twice as fast as a shop hand paid $20 an hour. An hour of the pro's regripping saves $40 of the hand's time but gives up $150 in lessons."
+   }
+  },
+  {
+   "type": "think",
+   "question": "Comparative advantage says total output rises with specialization, but it doesn't say how the gains are shared or how fast workers can switch. Make the strongest case for specializing, then the strongest case for keeping some domestic capacity.",
+   "nudges": [
+    "Consider efficiency, resilience, and the time it takes people to move into new work.",
+    "What would change your mind on each side?"
+   ]
+  },
+  {
+   "type": "quiz",
+   "questions": [
+    {
+     "q": "Country X makes 1 car in 10 hours or 1 ton of wheat in 5 hours. Country Y makes 1 car in 30 hours or 1 ton of wheat in 10 hours. Who has the comparative advantage in cars?",
+     "options": [
+      {
+       "text": "X: a car costs it 2 tons of wheat versus 3 for Y",
+       "correct": true,
+       "why": "Correct. X sacrifices less wheat per car."
+      },
+      {
+       "text": "Y, because it has more hours available",
+       "correct": false,
+       "why": "Available hours don't set opportunity cost; the ratio of hours per good does."
+      },
+      {
+       "text": "X, because it has the absolute advantage in both",
+       "correct": false,
+       "why": "X does have the absolute advantage, but that alone doesn't decide it. The 2-vs-3 ton comparison does."
+      },
+      {
+       "text": "Neither; X should make both",
+       "correct": false,
+       "why": "Even with an absolute advantage in both, X gains by specializing where its relative cost is lowest."
+      }
+     ]
+    },
+    {
+     "q": "In Ricardo's example, which exchange rate would let both England and Portugal gain?",
+     "options": [
+      {
+       "text": "1 cloth for 1 wine",
+       "correct": true,
+       "why": "1 sits between 5/6 and 9/8, so each country gets the other good cheaper than making it."
+      },
+      {
+       "text": "1 cloth for 3/4 wine",
+       "correct": false,
+       "why": "Below 5/6, England would do better making its own wine."
+      },
+      {
+       "text": "1 cloth for 1.25 wine",
+       "correct": false,
+       "why": "Above 9/8, Portugal would do better making its own cloth."
+      },
+      {
+       "text": "Any rate at all",
+       "correct": false,
+       "why": "Outside the 5/6 to 9/8 band, one side loses compared with making the good itself."
+      }
+     ]
+    },
+    {
+     "q": "Which statement best reflects the critiques covered here?",
+     "options": [
+      {
+       "text": "They challenge assumptions like immobile capital and constant returns, and question using the theory to justify free trade in every case",
+       "correct": true,
+       "why": "Yes. They target the model's assumptions and its policy use, not the arithmetic."
+      },
+      {
+       "text": "They show Ricardo's arithmetic is wrong",
+       "correct": false,
+       "why": "The arithmetic holds under its assumptions; critics question the assumptions."
+      },
+      {
+       "text": "They prove trade never raises output",
+       "correct": false,
+       "why": "None of the critiques here claims that."
+      },
+      {
+       "text": "They only concern trade before 1900",
+       "correct": false,
+       "why": "Several are modern, such as global value chains and COVID-era supply disruptions."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "teach",
+   "prompt": "Explain this to someone at dinner in 3 sentences.",
+   "starters": [
+    "Comparative advantage is about opportunity cost, which means…",
+    "Ricardo showed that even Portugal…",
+    "The big caveat is…"
+   ]
+  }
+ ],
+ "video": {
+  "youtube_id": "xN3UV5FsBkU",
+  "title": "Comparative advantage and absolute advantage | Microeconomics | Khan Academy",
+  "channel": "Khan Academy",
+  "duration_sec": 615,
+  "why": "Khan Academy works a two-producer example in which one side gains an absolute advantage in both goods, and shows why specializing still pays."
+ },
+ "sources": [
+  {
+   "title": "Comparative advantage",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Comparative_advantage",
+   "supports": "Ricardo's England/Portugal table (100/120 and 90/80; 220 and 170 hours); 5/6 and 9/8 ratios; 2.2 cloth and 2.125 wine; trade at 5/6 to 9/8 wine per cloth leaves both with at least a unit of each; Ricardo's quote that with mobile capital both goods would be made in Portugal; assumption that labor and capital don't move internationally; theory is about potential benefits, not strict prediction; Japan's 1859 opening (population 30 million, tariffs capped at 5%, silk real price +100% by 1869, imports −30–75%); testing is hard because investment, migration and technology also move; Brander and Spencer strategic trade; Galbraith on constant returns; global value chains and COVID-19 supply chains."
+  },
+  {
+   "title": "33.1 Absolute and Comparative Advantage (Principles of Economics 3e)",
+   "publisher": "OpenStax, Rice University",
+   "url": "https://openstax.org/books/principles-economics-3e/pages/33-1-absolute-and-comparative-advantage",
+   "supports": "Definitions of absolute and comparative advantage and opportunity cost; the question 'What do we give up to produce this good?'; Ricardo's 1817 treatise."
+  }
+ ]
+}
