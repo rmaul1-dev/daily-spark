@@ -1,0 +1,251 @@
+{
+  "id": "science-magnets-kid",
+  "topic": "science",
+  "subject": "magnets",
+  "level": "kid",
+  "title": "Magnets: The Invisible Pull",
+  "emoji": "🧲",
+  "summary": "Magnets have two poles, tiny parts inside that line up, and the whole Earth is one too.",
+  "minutes": 6,
+  "date_added": "2026-11-20",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What happens when you put two magnet ends close together?",
+      "answer": "A north and a south pull together. Two of the same kind push apart.",
+      "options": [
+        {
+          "text": "Opposite ends pull, and same ends push",
+          "correct": true
+        },
+        {
+          "text": "Any two ends always pull together",
+          "correct": false
+        },
+        {
+          "text": "Magnets only push, and never pull",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "What turns a piece of iron into a magnet?",
+      "answer": "The tiny groups inside the iron all turn to point the same way.",
+      "options": [
+        {
+          "text": "Its tiny groups inside all line up",
+          "correct": true
+        },
+        {
+          "text": "It gets very hot",
+          "correct": false
+        },
+        {
+          "text": "Air gets trapped inside it",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "How can you make a magnet you can switch on and off?",
+      "answer": "Send electricity through a coil of wire. When the electricity stops, the magnet stops.",
+      "options": [
+        {
+          "text": "Send electricity through a coil of wire",
+          "correct": true
+        },
+        {
+          "text": "Put a piece of metal in the freezer",
+          "correct": false
+        },
+        {
+          "text": "Rub a balloon on your hair",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧲",
+      "title": "The fridge test",
+      "text": "Grab a fridge magnet. Touch it to a paper clip, a piece of foil, a pencil and a plastic cup. The paper clip jumps right to it. The rest do nothing at all. Why does a magnet pick favorites?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Which pull do you think is stronger: a small fridge magnet up close, or the magnetism of the whole Earth where you stand?",
+      "options": [
+        {
+          "text": "The Earth, by a lot"
+        },
+        {
+          "text": "About the same"
+        },
+        {
+          "text": "The fridge magnet, about 20 times stronger",
+          "correct": true
+        }
+      ],
+      "reveal": "The little fridge magnet wins! Up close, it is about 20 times stronger than Earth's magnetism at the ground.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "↔️",
+      "title": "Two ends, two jobs",
+      "text": "Every magnet has two ends called poles. One is the north pole, and one is the south pole. A north and a south pull together. Two norths push apart, and so do two souths.",
+      "example": "Hold two magnets close. Now flip one around. You can feel the pull turn into a push!",
+      "why": {
+        "q": "Why do you feel a push when you flip one magnet around?",
+        "a": "Flipping it turns the same kind of pole toward the other magnet, and same poles push apart."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🧩",
+      "title": "Tiny parts lined up",
+      "text": "Iron is full of tiny groups that act like mini magnets. Most of the time they point every which way, so they cancel out. Put the iron near a magnet, and the groups turn to point the same way. Now the iron is a magnet too!",
+      "example": "That is why a paper clip stuck to a magnet can hold up a second paper clip. Take the magnet away, and the clips stop sticking.",
+      "why": {
+        "q": "Why can a hard hit with a hammer make a magnet weaker?",
+        "a": "The hit can knock the tiny groups out of line, so they stop pointing the same way."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🥄",
+      "title": "Picky magnets",
+      "text": "Magnets pull hard on only a few metals, like iron, nickel and cobalt. Steel sticks too. Aluminum foil, copper and plastic do not stick. So the magnet is not picking favorites at random. It only grabs stuff that can line up inside.",
+      "example": "Scrap yards use magnets to sort iron and steel away from aluminum."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌍",
+      "title": "Earth is a giant magnet",
+      "text": "The whole Earth acts like a giant magnet. Deep inside, hot melted metal, mostly iron, keeps moving, and that makes it. A compass needle is a tiny magnet that turns to line up with Earth's pull. But Earth's pull is gentle. A fridge magnet up close is about 20 times stronger!",
+      "example": "People in China used compasses to find their way more than 900 years ago."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚡",
+      "title": "A magnet with a switch",
+      "text": "When electricity flows through a wire, the wire becomes a weak magnet. Wind the wire into a coil, and the magnet gets much stronger. Turn off the electricity, and the magnet turns off too. This is called an electromagnet.",
+      "example": "Junkyard cranes use big electromagnets to lift heavy scrap metal. When the power goes off, the scrap drops."
+    },
+    {
+      "type": "think",
+      "question": "Say you had a magnet that could pull on anything you pick. What would you want it to pull? What could go wrong?",
+      "nudges": [
+        "Think about things that are hard to pick up or find.",
+        "What would happen to all the other stuff nearby?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "You hold two magnets with their north poles facing each other. What happens?",
+          "options": [
+            {
+              "text": "They push apart",
+              "correct": true,
+              "why": "Yes! Same poles push apart."
+            },
+            {
+              "text": "They pull together",
+              "correct": false,
+              "why": "That happens with a north and a south. Two norths push."
+            },
+            {
+              "text": "Nothing at all",
+              "correct": false,
+              "why": "Close poles always push or pull. Here they push."
+            }
+          ]
+        },
+        {
+          "q": "Why doesn't aluminum foil stick to a fridge magnet?",
+          "options": [
+            {
+              "text": "Magnets pull hard on only a few metals, and aluminum isn't one",
+              "correct": true,
+              "why": "Right! Iron, nickel and cobalt stick. Aluminum doesn't."
+            },
+            {
+              "text": "The foil is too thin",
+              "correct": false,
+              "why": "A thin paper clip still sticks. Being thin isn't the problem."
+            },
+            {
+              "text": "The magnet ran out of power",
+              "correct": false,
+              "why": "A fridge magnet doesn't need power. It still sticks to the fridge."
+            }
+          ]
+        },
+        {
+          "q": "Why does a compass needle point the way it does?",
+          "options": [
+            {
+              "text": "It is a tiny magnet lining up with Earth's magnetism",
+              "correct": true,
+              "why": "Yes! Earth is a giant magnet, and the needle turns to match it."
+            },
+            {
+              "text": "The Sun pulls on it",
+              "correct": false,
+              "why": "Good guess, but the pull comes from Earth's magnetism."
+            },
+            {
+              "text": "The wind pushes it",
+              "correct": false,
+              "why": "A compass works even inside a still room. It's Earth's magnetism."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Every magnet has two poles, and…",
+        "A piece of iron becomes a magnet when…",
+        "An electromagnet is cool because…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Magnets from Mini to Mighty",
+      "publisher": "National High Magnetic Field Laboratory (MagLab)",
+      "url": "https://nationalmaglab.org/magnet-academy/read-science-stories/science-simplified/magnets-from-mini-to-mighty/",
+      "supports": "Magnets have north and south poles; opposite poles attract and like poles repel; Earth is a magnet made by moving melted iron in its outer core; domains inside iron line up to make a magnet; paper clips become temporary magnets near a magnet and lose it when it's removed; a hammer blow can knock domains out of line; a fridge magnet is about 10 gauss and Earth's field about 0.5 gauss (about 20 times); current in a wire makes a magnetic field and coiling it makes it much stronger."
+    },
+    {
+      "title": "Magnet",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Magnet",
+      "supports": "Magnets strongly attract iron, steel, nickel and cobalt; aluminum, copper and plastic respond far too weakly to feel; magnets sort iron and steel from aluminum in scrap; an electromagnet stops being a magnet when the current stops; junkyard cranes use electromagnets."
+    },
+    {
+      "title": "Compass",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Compass",
+      "supports": "A compass needle is a magnet that lines up with Earth's magnetic field; Song dynasty China used compasses for navigation in the 11th century."
+    }
+  ],
+  "video": {
+    "youtube_id": "s236Q1nuWXg",
+    "title": "Fun with Magnets!",
+    "channel": "SciShow Kids",
+    "duration_sec": 301,
+    "start": 133,
+    "end": 281,
+    "why": "Watch a magnet test spoons made of wood, plastic and metal, and find out why only some metals stick."
+  }
+}

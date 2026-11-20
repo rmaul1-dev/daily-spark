@@ -1,0 +1,214 @@
+{
+  "id": "science-magnets-adult",
+  "topic": "science",
+  "subject": "magnets",
+  "level": "adult",
+  "title": "Magnets: Electron Spin, Heat and a Concentrated Supply Chain",
+  "emoji": "🧲",
+  "summary": "Where magnetism comes from, why heat and cooling set the engineering limits, and why the best magnets became a supply-chain question.",
+  "minutes": 8,
+  "date_added": "2026-11-20",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Why are only a few materials ferromagnetic, and what makes a piece of iron a magnet?",
+      "answer": "In most materials electron orientations cancel. Ferromagnets form domains where they align; a magnet is one whose domains are aligned overall."
+    },
+    {
+      "id": "k2",
+      "prompt": "What is the core trade-off between resistive and superconducting electromagnets?",
+      "answer": "Resistive magnets reach higher steady fields but consume huge power and cooling water; superconducting ones save power but need costly cryogenics."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why is heat a design constraint for neodymium magnets, and what does the fix cost?",
+      "answer": "Coercivity falls sharply above about 100 °C. Adding dysprosium or terbium helps but raises cost and exposure to a concentrated supply."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧲",
+      "title": "A physics problem became a supply problem",
+      "text": "Neodymium-iron-boron magnets, developed independently by General Motors and Sumitomo in 1984, are the strongest permanent magnets sold commercially, in cordless tools, hard drives and EV motors. In 2024 at least 85% of them were made in China, and since April 2025 China has required export licenses for magnets and for dysprosium and terbium, the elements that make them heat-tolerant."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "Earth's field at the surface is about 0.00005 tesla. MagLab's hybrid magnet holds a steady 45 tesla. How many times stronger is that?",
+      "estimate": {
+        "min": 0,
+        "max": 2000000,
+        "step": 10000,
+        "answer": 900000
+      },
+      "reveal": "About 900,000 times: 45 ÷ 0.00005 = 900,000.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "🌀",
+      "title": "Magnetism is electron bookkeeping",
+      "text": "Every electron's spin makes it a tiny magnet. In most materials, electrons are arranged so their orientations cancel. In ferromagnets (at room temperature only iron, nickel, cobalt and gadolinium) groups of atoms form domains in which orientations align. Unmagnetized iron has domains pointing every which way; an applied field swings them into line, and a permanent magnet is a material whose domains stay aligned.",
+      "why": {
+        "q": "Why is pure iron a poor permanent magnet but a great electromagnet core?",
+        "a": "Its domains align easily in a field but don't stay aligned: pure iron holds magnetization only minutes, so it amplifies a coil's field, then lets go."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🌡️",
+      "title": "Heat is the enemy",
+      "text": "Above a material's Curie temperature, its permanent magnetism disappears: the aligned magnetic moments become disordered. For iron that's 770 °C; NdFeB's is far lower, around 320 °C. And trouble starts earlier: NdFeB's coercivity, its resistance to being demagnetized, drops drastically above 100 °C. That limits efficiency in hot hybrid-vehicle motors and wind turbines. Adding dysprosium or terbium curbs the loss but makes the magnets more costly.",
+      "example": "Say a motor magnet must run at 150 °C. A plain NdFeB grade has lost much of its coercivity by then, so the designer either pays for a dysprosium or terbium grade or spends on cooling."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚡",
+      "title": "Electromagnets: pay in power or in cold",
+      "text": "Current always makes a magnetic field, and coiling multiplies it in proportion to the turns. Resistive magnets reach a sustained 35 tesla but pay for it: MagLab uses about 7% of Tallahassee's electricity, plus water forced through the plates to keep them cool. Superconducting magnets carry current with no resistance, saving power, but cost more to build and need liquid helium and nitrogen, and above a critical field they stop superconducting.",
+      "why": {
+        "q": "Why build a hybrid instead of one bigger magnet of either type?",
+        "a": "Each type hits a limit: superconductors stop superconducting above a critical field, and resistive ones get costly in power and heat. Nesting them adds their fields: 11.5 T + 33.5 T = 45 T."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📏",
+      "title": "A ladder of tesla",
+      "text": "1 tesla = 10,000 gauss. Earth's surface field is about 0.5 gauss (0.00005 T); a fridge magnet, about 10 gauss; the strongest permanent magnets, about 1.5 T, the strength used in MRI machines. MagLab's 35-ton hybrid holds a steady 45 T, about 900,000 times Earth's field. Pulsed magnets go higher for a few seconds or less, and destructive ones reach up to 1,000 T for microseconds before blowing apart."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌏",
+      "title": "Concentration risk",
+      "text": "In 2024, analysts estimated global NdFeB output at roughly 220,000–240,000 tonnes, at least 85% of it made in China and most of the rest in Japan and Vietnam. The U.S. Department of Energy has funded research into substitutes, and recycling projects are in pilot. The counterpoint: claims that wind power hinges on neodymium are criticized for missing that most wind turbines don't use permanent magnets and for underrating how economic incentives expand production.",
+      "example": "Each Toyota Prius's electric motors require one kilogram of neodymium."
+    },
+    {
+      "type": "think",
+      "question": "When a critical input is concentrated in one supplier, when is it worth paying more for diversification (substitutes, recycling, other producers), and when should you accept the cheaper concentrated supply?",
+      "nudges": [
+        "Compare the expected cost of a disruption with the yearly premium for insurance.",
+        "Do economic incentives fix shortages on their own, as the critics argue, and how fast?",
+        "Apply it to a single key supplier, customer or lender in your own work."
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Why does an iron core boost a solenoid's field without more electricity?",
+          "options": [
+            {
+              "text": "The core's domains align with the coil's field and add their own magnetism",
+              "correct": true,
+              "why": "Right. The coil organizes the core, and the core's aligned domains add field."
+            },
+            {
+              "text": "Iron conducts better, so more current flows",
+              "correct": false,
+              "why": "The current is the same; the boost comes from the core's aligned domains."
+            },
+            {
+              "text": "Iron stores charge like a battery",
+              "correct": false,
+              "why": "A core doesn't store charge. It contributes field by aligning its domains."
+            },
+            {
+              "text": "The core cools the wire, lowering resistance",
+              "correct": false,
+              "why": "Cooling isn't the mechanism; MagLab credits the iron's atoms aligning with the field."
+            }
+          ]
+        },
+        {
+          "q": "A motor maker needs NdFeB magnets that hold up at high operating temperatures. What's the standard fix, and its cost?",
+          "options": [
+            {
+              "text": "Add dysprosium or terbium: better heat tolerance, but higher cost and exposure to concentrated supply",
+              "correct": true,
+              "why": "Yes. That's the trade the hook described: performance bought with scarce, export-licensed inputs."
+            },
+            {
+              "text": "Use pure neodymium, which is stronger on its own",
+              "correct": false,
+              "why": "Pure neodymium is antiferromagnetic and only below about −254 °C; the iron compound is what works."
+            },
+            {
+              "text": "Nothing is needed: NdFeB has the highest Curie temperature of any magnet",
+              "correct": false,
+              "why": "It's the opposite: NdFeB has a lower Curie temperature than many other magnet types."
+            },
+            {
+              "text": "Switch to pure iron, which keeps its magnetism at high heat",
+              "correct": false,
+              "why": "Pure iron holds magnetization only minutes; it's a core material, not a permanent magnet."
+            }
+          ]
+        },
+        {
+          "q": "Which statement about MagLab's research electromagnets is right?",
+          "options": [
+            {
+              "text": "Resistive ones reach higher steady fields but use big power and water; superconducting ones save power but need cryogenics",
+              "correct": true,
+              "why": "Correct. That's why MagLab's 45 T hybrid combines both."
+            },
+            {
+              "text": "Superconducting ones reach higher steady fields and need no cooling",
+              "correct": false,
+              "why": "They need liquid helium and nitrogen, and their critical field caps them below resistive designs."
+            },
+            {
+              "text": "Resistive ones are cheap to run because copper has no resistance",
+              "correct": false,
+              "why": "Resistance is the whole cost problem: about 7% of Tallahassee's electricity."
+            },
+            {
+              "text": "Both are permanent magnets that need no power once charged",
+              "correct": false,
+              "why": "Both are electromagnets. Turn off the current (or warm the superconductor) and the field goes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "A magnet is really a material whose…",
+        "The engineering limits are heat and cooling, because…",
+        "The best magnets became a strategic issue because…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Magnets from Mini to Mighty",
+      "publisher": "National High Magnetic Field Laboratory (MagLab)",
+      "url": "https://nationalmaglab.org/magnet-academy/read-science-stories/science-simplified/magnets-from-mini-to-mighty/",
+      "supports": "Electron spin and domains; only iron, nickel, cobalt and gadolinium are ferromagnetic at room temperature; pure iron stays magnetized only minutes; iron cores boost a coil's field; field proportional to coil turns; resistive magnets at 35 T, MagLab using about 7% of Tallahassee's electricity and water through Bitter plates; superconducting magnets cost more and need liquid helium and nitrogen, with critical fields; 45 T hybrid = 11.5 T + 33.5 T, 35 tons; 1 T = 10,000 gauss, Earth 0.5 gauss, fridge 10 gauss, permanent magnets about 1.5 T used in MRI; pulsed fields lasting seconds or less; destructive magnets up to 1,000 T for microseconds."
+    },
+    {
+      "title": "Neodymium magnet",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Neodymium_magnet",
+      "supports": "Developed independently by GM and Sumitomo in 1984; strongest commercial permanent magnets, used in cordless tools, hard drives and EV motors; coercivity drops drastically above 100 °C, Curie temperature around 320 °C, lower than many magnet types; dysprosium or terbium added at higher cost; pure neodymium antiferromagnetic only below 19 K; 2024 output about 220,000–240,000 tonnes, at least 85% in China, rest mostly Japan and Vietnam; export licensing since April 2025; DOE substitute research; recycling pilots; the wind-turbine critique; 1 kg of neodymium per Prius."
+    },
+    {
+      "title": "Curie temperature",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Curie_temperature",
+      "supports": "Above the Curie temperature permanent magnetism is lost as ordered magnetic moments become disordered; iron's Curie temperature is 770 °C."
+    }
+  ],
+  "video": {
+    "youtube_id": "s7ndBIL402Q",
+    "title": "How do magnets work?",
+    "channel": "Fermilab",
+    "duration_sec": 578,
+    "why": "Fermilab's Don Lincoln walks the four conditions a permanent magnet needs, from electron spin and half-filled shells to crystal structure and aligned domains."
+  }
+}

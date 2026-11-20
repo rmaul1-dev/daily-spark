@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "topics": [
   {
    "id": "history",
@@ -601,6 +601,17 @@
     "kid": "money-comparative-advantage-kid"
    },
    "dinner_question": "Who in our family is good at lots of jobs but should still hand one off, and which job are you the best person to take on?"
+  },
+  {
+   "date": "2026-11-28",
+   "topic": "science",
+   "title": "Magnets: the invisible pull",
+   "packs": {
+    "adult": "science-magnets-adult",
+    "teen": "science-magnets-teen",
+    "kid": "science-magnets-kid"
+   },
+   "dinner_question": "Magnets grab some things right away and ignore others completely. What is something that grabs your attention right away, and something that never sticks with you no matter how hard you try?"
   }
  ],
  "series": [
@@ -1401,6 +1412,45 @@
    "summary": "What actually sets the speed of sound, the 15% error that stumped Newton, and why the sonic boom became a policy problem.",
    "minutes": 8,
    "date_added": "2026-11-12",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "science-magnets-kid",
+   "topic": "science",
+   "level": "kid",
+   "title": "Magnets: The Invisible Pull",
+   "emoji": "🧲",
+   "subject": "magnets",
+   "summary": "Magnets have two poles, tiny parts inside that line up, and the whole Earth is one too.",
+   "minutes": 6,
+   "date_added": "2026-11-20",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "science-magnets-teen",
+   "topic": "science",
+   "level": "teen",
+   "title": "Magnets: Spinning Electrons and a Planet-Sized Dynamo",
+   "emoji": "🧲",
+   "subject": "magnets",
+   "summary": "Why only a few metals stick, how current makes magnets, and why Earth's 'north' magnetic pole is really a south pole.",
+   "minutes": 7,
+   "date_added": "2026-11-20",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "science-magnets-adult",
+   "topic": "science",
+   "level": "adult",
+   "title": "Magnets: Electron Spin, Heat and a Concentrated Supply Chain",
+   "emoji": "🧲",
+   "subject": "magnets",
+   "summary": "Where magnetism comes from, why heat and cooling set the engineering limits, and why the best magnets became a supply-chain question.",
+   "minutes": 8,
+   "date_added": "2026-11-20",
    "cards": 10,
    "keys_count": 3
   },

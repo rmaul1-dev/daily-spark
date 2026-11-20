@@ -1,0 +1,213 @@
+{
+  "id": "science-magnets-teen",
+  "topic": "science",
+  "subject": "magnets",
+  "level": "teen",
+  "title": "Magnets: Spinning Electrons and a Planet-Sized Dynamo",
+  "emoji": "🧲",
+  "summary": "Why only a few metals stick, how current makes magnets, and why Earth's 'north' magnetic pole is really a south pole.",
+  "minutes": 7,
+  "date_added": "2026-11-20",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "Every electron acts like a tiny magnet. So why aren't most materials magnetic?",
+      "answer": "In most materials electrons are arranged so their magnetic directions cancel. In iron, domains align, and a magnet is iron whose domains all point the same way."
+    },
+    {
+      "id": "k2",
+      "prompt": "What are three ways to make an electromagnet stronger?",
+      "answer": "Add more coils (the field grows with the number of coils), add more current, or put an iron core inside."
+    },
+    {
+      "id": "k3",
+      "prompt": "Why does a compass's north end point toward the Arctic?",
+      "answer": "Opposite poles attract, so it's pulled toward the magnetic pole there, which is actually a south pole of Earth's field."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧭",
+      "title": "The pole that isn't",
+      "text": "A compass needle's north end points north. But magnets only attract opposite poles. So the magnetic pole up in Canada's Arctic, on Ellesmere Island, must be... a south pole. It is. It's still called the North geomagnetic pole, but it acts like the south end of a giant bar magnet buried in Earth."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "Iron can be made into a permanent magnet at room temperature. How many chemical elements in total can be?",
+      "estimate": {
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "answer": 4
+      },
+      "reveal": "Just 4: iron, nickel, cobalt and gadolinium. A fifth, dysprosium, joins them only at low temperatures.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "🌀",
+      "title": "Every electron is a magnet",
+      "text": "All magnetism comes down to electrons. Each spinning electron acts like a tiny magnet with a north and south pole. In most materials, electrons are arranged so their magnetic directions cancel out. In iron, groups of atoms called domains have their electrons all pointing the same way. Only four elements can be permanently magnetized at room temperature: iron, nickel, cobalt and gadolinium.",
+      "why": {
+        "q": "If iron is full of magnetic domains, why isn't every nail a magnet?",
+        "a": "The domains point in different directions, so they cancel. A magnet is iron whose domains are all lined up."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🔨",
+      "title": "Making and breaking a magnet",
+      "text": "Put iron in a magnetic field and its domains swing into line. Soft iron loses that alignment as soon as the field is gone, which is why it's used where a magnet must switch on and off, like in electric motors. Many iron alloys hold it much longer. But 'permanent' isn't forever: a swift hammer blow can knock the domains out of line.",
+      "example": "Early compass makers rubbed an iron needle on lodestone, a natural magnet, to magnetize it. Floated on cork in a bowl of water, the needle swung to line up with Earth's field."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚡",
+      "title": "Current makes magnetism",
+      "text": "Hans Christian Ørsted noticed a compass needle swing when it sat near a wire carrying current. Any current makes a magnetic field. Coil the wire into a solenoid, and the field grows in proportion to the number of coils. Slide an iron core inside and its domains line up with the coil, boosting the field without using more electricity.",
+      "example": "Ten coils make a field about 10 times as strong as a single loop, with the same current.",
+      "examples_by_interest": {
+        "building": "Say you're building an electromagnet that lifts 2 paper clips with 20 coils. With the same current and no core, about 40 coils should roughly double the field, and an iron nail as a core boosts it further."
+      },
+      "why": {
+        "q": "Why does the iron core make the field stronger without more electricity?",
+        "a": "The coil's field lines up the core's domains, and their combined magnetism adds to the coil's own field."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🌍",
+      "title": "Earth's dynamo",
+      "text": "Earth's outer core is liquid, mostly molten iron and nickel. Heat escaping from the core keeps it churning, and that moving metal generates Earth's magnetic field, a process called a geodynamo. At irregular intervals the field flips and the poles swap. The last reversal was about 780,000 years ago.",
+      "example": "Rocks on the sea floor record each flip as magnetic 'stripes' along mid-ocean ridges, which helps scientists track how sea floors and continents have moved."
+    },
+    {
+      "type": "idea",
+      "emoji": "📏",
+      "title": "From fridge to monster magnet",
+      "text": "Field strength is measured in tesla (1 tesla = 10,000 gauss). Earth's field is about 0.5 gauss. A fridge magnet: about 10 gauss. The strongest permanent magnets: about 1.5 tesla, strong enough for MRI machines. The MagLab's 35-ton hybrid magnet makes a steady 45 tesla and needs about 400 liters of cooling water per second."
+    },
+    {
+      "type": "think",
+      "question": "Earth's magnetic field helps shield the atmosphere from the solar wind, and calculations suggest Mars lost most of its atmosphere after its field faded. If you were designing a base on Mars, what problems would you have to solve that Earth's field solves for us?",
+      "nudges": [
+        "Think about what the solar wind carries and what it can strip away.",
+        "Would you build up, build down, or build shielding?",
+        "What would astronauts need that people on Earth get for free?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "A solenoid with 50 coils makes a certain field. With the same current and no core, about how strong is a 150-coil version?",
+          "options": [
+            {
+              "text": "About 3 times as strong",
+              "correct": true,
+              "why": "Right. The field grows in proportion to the number of coils: 150 ÷ 50 = 3."
+            },
+            {
+              "text": "About the same",
+              "correct": false,
+              "why": "Adding coils adds field. That's the whole point of coiling the wire."
+            },
+            {
+              "text": "About 9 times as strong",
+              "correct": false,
+              "why": "That would be squaring the ratio. The field is proportional to the coil count, so it's 3 times."
+            },
+            {
+              "text": "About one-third as strong",
+              "correct": false,
+              "why": "More coils make the field stronger, not weaker."
+            }
+          ]
+        },
+        {
+          "q": "Why can a hard hammer blow weaken a permanent magnet?",
+          "options": [
+            {
+              "text": "It knocks the aligned domains out of line",
+              "correct": true,
+              "why": "Yes. A magnet is aligned domains; jolt them and some point other ways."
+            },
+            {
+              "text": "It knocks electrons out of the iron",
+              "correct": false,
+              "why": "The electrons stay put. What changes is which way the domains point."
+            },
+            {
+              "text": "It changes the iron into a different element",
+              "correct": false,
+              "why": "A hammer can't change an element. It only disturbs the domains' alignment."
+            },
+            {
+              "text": "It drains the magnet's stored electricity",
+              "correct": false,
+              "why": "A permanent magnet doesn't run on stored electricity. Its magnetism comes from aligned domains."
+            }
+          ]
+        },
+        {
+          "q": "A compass's north end points toward Canada's Arctic. What kind of magnetic pole is there?",
+          "options": [
+            {
+              "text": "A south magnetic pole, because opposites attract",
+              "correct": true,
+              "why": "Exactly. The north end of the needle is pulled toward a south pole."
+            },
+            {
+              "text": "A north magnetic pole, because like poles attract",
+              "correct": false,
+              "why": "Like poles repel. Only opposite poles attract."
+            },
+            {
+              "text": "No pole; compasses point at the North Star",
+              "correct": false,
+              "why": "A compass responds to Earth's magnetic field, not to stars."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Every electron is a tiny magnet, but…",
+        "You can make an electromagnet stronger by…",
+        "The strange thing about the magnetic pole in the Arctic is…"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Magnets from Mini to Mighty",
+      "publisher": "National High Magnetic Field Laboratory (MagLab)",
+      "url": "https://nationalmaglab.org/magnet-academy/read-science-stories/science-simplified/magnets-from-mini-to-mighty/",
+      "supports": "Magnetism comes from electrons (spin in permanent magnets, current in electromagnets); domains; only iron, nickel, cobalt and gadolinium are ferromagnetic at room temperature, dysprosium at low temperatures; soft iron as a temporary magnet in motors; a hammer blow can demagnetize; Ørsted and the compass near a current; solenoid field proportional to coils (10 coils ≈ 10×); iron core boosts the field without more electricity; tesla/gauss scale, fridge 10 gauss, Earth 0.5 gauss, permanent magnets about 1.5 T used in MRI; the 35-ton 45 T hybrid using about 400 liters of water a second."
+    },
+    {
+      "title": "Earth's magnetic field",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Earth%27s_magnetic_field",
+      "supports": "The North geomagnetic pole on Ellesmere Island, Nunavut, Canada is the south pole of Earth's field; geodynamo in the liquid iron-nickel outer core driven by escaping heat; reversals, the last about 780,000 years ago; seafloor stripes at mid-ocean ridges; the field deflects the solar wind, and Mars lost most of its atmosphere after its field dissipated."
+    },
+    {
+      "title": "Compass",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Compass",
+      "supports": "Compass needles were magnetized by rubbing iron on lodestone, and a magnetized needle floated on cork in water works as a compass."
+    }
+  ],
+  "video": {
+    "youtube_id": "s7ndBIL402Q",
+    "title": "How do magnets work?",
+    "channel": "Fermilab",
+    "duration_sec": 578,
+    "why": "A Fermilab physicist builds a magnet step by step: magnetic electrons, magnetic atoms, aligned crystals, then lined-up domains."
+  }
+}
