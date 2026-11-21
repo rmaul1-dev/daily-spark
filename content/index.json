@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "topics": [
   {
    "id": "history",
@@ -612,6 +612,17 @@
     "kid": "science-magnets-kid"
    },
    "dinner_question": "Magnets grab some things right away and ignore others completely. What is something that grabs your attention right away, and something that never sticks with you no matter how hard you try?"
+  },
+  {
+   "date": "2026-11-29",
+   "topic": "space",
+   "title": "Pluto: what makes a planet a planet",
+   "packs": {
+    "adult": "space-pluto-dwarf-planet-adult",
+    "teen": "space-pluto-dwarf-planet-teen",
+    "kid": "space-pluto-dwarf-planet-kid"
+   },
+   "dinner_question": "Pluto didn't change in 2006, only the rules did. If you got to write the rules for what counts as a planet, would Pluto make the cut, and why?"
   }
  ],
  "series": [
@@ -2688,6 +2699,45 @@
    "minutes": 8,
    "date_added": "2026-11-13",
    "cards": 9,
+   "keys_count": 3
+  },
+  {
+   "id": "space-pluto-dwarf-planet-kid",
+   "topic": "space",
+   "level": "kid",
+   "title": "Why Pluto Is a Dwarf Planet",
+   "emoji": "🪐",
+   "subject": "pluto-dwarf-planet",
+   "summary": "Pluto did not change in 2006. The rules for what counts as a planet did.",
+   "minutes": 6,
+   "date_added": "2026-11-21",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "space-pluto-dwarf-planet-teen",
+   "topic": "space",
+   "level": "teen",
+   "title": "The Vote That Made Pluto a Dwarf Planet",
+   "emoji": "🪐",
+   "subject": "pluto-dwarf-planet",
+   "summary": "New discoveries forced astronomers to vote on a formal definition of 'planet', and Pluto didn't make the cut.",
+   "minutes": 7,
+   "date_added": "2026-11-21",
+   "cards": 10,
+   "keys_count": 3
+  },
+  {
+   "id": "space-pluto-dwarf-planet-adult",
+   "topic": "space",
+   "level": "adult",
+   "title": "Pluto and the Problem of Defining a Planet",
+   "emoji": "🪐",
+   "subject": "pluto-dwarf-planet",
+   "summary": "Why the IAU's 2006 definition demoted Pluto, what it optimizes for, and where critics say it breaks.",
+   "minutes": 8,
+   "date_added": "2026-11-21",
+   "cards": 10,
    "keys_count": 3
   },
   {

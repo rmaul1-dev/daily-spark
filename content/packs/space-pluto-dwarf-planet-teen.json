@@ -1,0 +1,206 @@
+{
+  "id": "space-pluto-dwarf-planet-teen",
+  "topic": "space",
+  "subject": "pluto-dwarf-planet",
+  "level": "teen",
+  "title": "The Vote That Made Pluto a Dwarf Planet",
+  "emoji": "🪐",
+  "summary": "New discoveries forced astronomers to vote on a formal definition of 'planet', and Pluto didn't make the cut.",
+  "minutes": 7,
+  "date_added": "2026-11-21",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What are the IAU's three tests for a planet, and which one does Pluto fail?",
+      "answer": "Orbit the Sun, be massive enough to pull itself round, and clear the neighborhood around its orbit. Pluto fails the third."
+    },
+    {
+      "id": "k2",
+      "prompt": "Why did astronomers suddenly need a formal definition of 'planet' in 2006?",
+      "answer": "They kept finding Pluto-sized icy bodies beyond Neptune, like Eris, so either all became planets or Pluto had to be reclassified."
+    },
+    {
+      "id": "k3",
+      "prompt": "What is the main argument against the 'cleared the neighborhood' test?",
+      "answer": "Critics like Alan Stern say no planet has fully cleared its orbit; Earth and Jupiter share theirs with thousands of asteroids."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🗳️",
+      "title": "A planet voted off the team",
+      "text": "In August 2006, a room of astronomers in Prague raised yellow cards to vote. When they finished, the solar system had one fewer planet. Pluto hadn't moved or shrunk. The definition had changed."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "The International Astronomical Union had about 9,000 members. How many do you think were in the room for the final vote on Pluto?",
+      "estimate": {
+        "min": 0,
+        "max": 2000,
+        "step": 8,
+        "answer": 424
+      },
+      "reveal": "Only 424, less than 5% of astronomers, which is one reason the decision is still argued about.",
+      "reveal_after": 4
+    },
+    {
+      "type": "idea",
+      "emoji": "🔁",
+      "title": "This happened before",
+      "text": "In 1801, astronomers found Ceres between Mars and Jupiter and called it the missing planet. Then they kept finding similar objects. By 1851 the count had hit 23 planets, with hundreds more likely. So they made a new category: asteroids.",
+      "example": "Ceres went from planet to asteroid, and today it is officially a dwarf planet."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚖️",
+      "title": "Pluto turned out small",
+      "text": "When Pluto's moon Charon was found in 1978, astronomers could finally weigh Pluto by timing Charon's orbit. Pluto was far lighter than expected: about 1/25 of Mercury's mass and smaller than our Moon. Then came Eris in 2005, a world nearly Pluto's size.",
+      "example": "That left two options: call Eris and its cousins planets, or reclassify Pluto.",
+      "why": {
+        "q": "Why does finding a moon let you measure a planet's mass?",
+        "a": "A moon's orbit depends on the gravity of what it circles. Time the orbit, and you can calculate the mass that pulls on it."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📋",
+      "title": "Three tests",
+      "text": "The IAU's rule: a planet (1) orbits the Sun, (2) has enough mass for gravity to pull it nearly round, and (3) has cleared the neighborhood around its orbit. Pluto passes the first two. But it sits in the Kuiper Belt, where other objects cross its path. So it is a dwarf planet.",
+      "example": "An early draft dropped test 3 and would have made Ceres, Eris and even Pluto's moon Charon planets, for 12 in all."
+    },
+    {
+      "type": "idea",
+      "emoji": "🎟️",
+      "title": "Who voted?",
+      "text": "The vote came on the last day of a 10-day meeting, after many had left. Only 424 astronomers were present. The statement naming Pluto a dwarf planet passed 237 to 157, with 30 abstaining. Critics called that too few voters. Defenders said 400 people is a solid sample of 9,000.",
+      "example": "Like polling: you don't need every voter to estimate the result, if the sample is fair."
+    },
+    {
+      "type": "idea",
+      "emoji": "🥊",
+      "title": "The fight isn't over",
+      "text": "Alan Stern, who led NASA's New Horizons mission to Pluto, says no planet has truly cleared its orbit. Earth travels with about 10,000 near-Earth asteroids, and Jupiter with 100,000 Trojans. His line: \"If Neptune had cleared its zone, Pluto wouldn't be there.\" Others say planets clear their zones by controlling everything in them.",
+      "example": "Neptune's gravity locked Pluto into a rhythm: Pluto orbits twice for every three Neptune orbits."
+    },
+    {
+      "type": "think",
+      "question": "Should a planet be defined by what it is (round and big) or by what it does (dominates its orbit)? Argue the side you disagree with first.",
+      "nudges": [
+        "What happens to the planet count under each rule?",
+        "Is a definition 'wrong' if it's useful, or just a choice?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Pluto is round and orbits the Sun. Why is it not a planet under the IAU rule?",
+          "options": [
+            {
+              "text": "It hasn't cleared the neighborhood around its orbit",
+              "correct": true,
+              "why": "Right. It shares the Kuiper Belt with many other objects."
+            },
+            {
+              "text": "It's smaller than Earth's Moon",
+              "correct": false,
+              "why": "It is smaller, but size alone isn't one of the three tests."
+            },
+            {
+              "text": "It has an oval orbit",
+              "correct": false,
+              "why": "Its orbit is unusual, but orbit shape isn't one of the tests."
+            },
+            {
+              "text": "It has moons",
+              "correct": false,
+              "why": "Lots of planets have moons. That has nothing to do with it."
+            }
+          ]
+        },
+        {
+          "q": "Why does the story of Ceres matter for Pluto?",
+          "options": [
+            {
+              "text": "It shows a 'planet' being reclassified once similar objects turned up",
+              "correct": true,
+              "why": "Yes. Ceres was called a planet until similar objects kept turning up, which is Pluto's story too."
+            },
+            {
+              "text": "Ceres is bigger than Pluto",
+              "correct": false,
+              "why": "Ceres is much smaller; Pluto is over ten times as massive."
+            },
+            {
+              "text": "Ceres was the first dwarf planet found beyond Neptune",
+              "correct": false,
+              "why": "Ceres orbits between Mars and Jupiter, not beyond Neptune."
+            },
+            {
+              "text": "Ceres was named by the same person",
+              "correct": false,
+              "why": "No link there. Venetia Burney named Pluto in 1930."
+            }
+          ]
+        },
+        {
+          "q": "Under the first draft (round + orbits a star), about how many planets would we have counted in 2006?",
+          "options": [
+            {
+              "text": "12",
+              "correct": true,
+              "why": "Right. Ceres, Charon and Eris would have joined the nine, with more on the way."
+            },
+            {
+              "text": "8",
+              "correct": false,
+              "why": "8 is the count under the final rule that added test 3."
+            },
+            {
+              "text": "9",
+              "correct": false,
+              "why": "The draft would have added bodies, not kept the old nine."
+            },
+            {
+              "text": "5",
+              "correct": false,
+              "why": "5 is the number of recognized dwarf planets today."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Pluto became a dwarf planet because…",
+        "Astronomers had to define 'planet' because…",
+        "Some scientists still disagree because…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "-iZio70bd-M",
+    "title": "Pluto 101 | National Geographic",
+    "channel": "National Geographic",
+    "duration_sec": 249,
+    "why": "National Geographic tours Pluto's ice mountains and five moons, then explains the planet tests and why Pluto lost its status."
+  },
+  "sources": [
+    {
+      "title": "IAU definition of planet",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/IAU_definition_of_planet",
+      "supports": "Ceres found January 1, 1801 and called the missing planet; 23 planets by 1851, then called asteroids; Charon discovered 1978 allowed Pluto's mass to be measured: about 1/25 of Mercury's, smaller than the Moon, over ten times Ceres; Eris and other similar bodies; the August 16, 2006 draft would have added Ceres, Charon and Eris; final definition passed 24 August 2006 in Prague with yellow cards; Pluto resolution 6A passed 237-157 with 30 abstentions; 424 present, under 5% of ~9,000 members, last day of the 10-day event; sampling 400 of 9,000 gives good accuracy; Alan Stern's critique, 10,000 near-Earth asteroids, 100,000 Trojans and his quote; counterargument about dominance and Neptune's 3:2 resonance with Pluto."
+    },
+    {
+      "title": "Pluto: Facts",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+      "supports": "Pluto reclassified as a dwarf planet by the IAU in 2006 because other objects might cross its orbit in the Kuiper Belt; Alan Stern was principal investigator of New Horizons; New Horizons flew by in 2015."
+    }
+  ]
+}

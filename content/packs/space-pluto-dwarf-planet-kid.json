@@ -1,0 +1,239 @@
+{
+  "id": "space-pluto-dwarf-planet-kid",
+  "topic": "space",
+  "subject": "pluto-dwarf-planet",
+  "level": "kid",
+  "title": "Why Pluto Is a Dwarf Planet",
+  "emoji": "🪐",
+  "summary": "Pluto did not change in 2006. The rules for what counts as a planet did.",
+  "minutes": 6,
+  "date_added": "2026-11-21",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What are the three rules a planet must pass?",
+      "answer": "It goes around the Sun, it is round, and it has cleared its path of other big things.",
+      "options": [
+        {
+          "text": "Goes around the Sun, is round, and has cleared its path",
+          "correct": true
+        },
+        {
+          "text": "Is big, is hot, and has a moon",
+          "correct": false
+        },
+        {
+          "text": "Goes around the Sun, has rings, and has air",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "prompt": "Which rule does Pluto not pass?",
+      "answer": "Pluto has not cleared its path. Lots of other icy objects share its part of space.",
+      "options": [
+        {
+          "text": "It has not cleared its path of other objects",
+          "correct": true
+        },
+        {
+          "text": "It does not go around the Sun",
+          "correct": false
+        },
+        {
+          "text": "It is not round",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "prompt": "Why did Pluto get a new name for its group in 2006?",
+      "answer": "Astronomers found other icy worlds like Pluto far out in space, so they made clear rules for what a planet is.",
+      "options": [
+        {
+          "text": "Scientists found many icy worlds like Pluto and made clear rules",
+          "correct": true
+        },
+        {
+          "text": "Pluto shrank and got much smaller",
+          "correct": false
+        },
+        {
+          "text": "Pluto moved closer to the Sun",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🔭",
+      "title": "Nine, then eight",
+      "text": "Your grandparents learned there were nine planets. You learn there are eight. Pluto is still out there, the same as ever. So what changed?"
+    },
+    {
+      "type": "predict",
+      "mode": "choice",
+      "question": "Pluto was found in 1930. Who do you think picked its name?",
+      "options": [
+        {
+          "text": "The astronomer who found it"
+        },
+        {
+          "text": "An 11-year-old girl",
+          "correct": true
+        },
+        {
+          "text": "A king"
+        }
+      ],
+      "reveal": "An 11-year-old girl in England named Venetia Burney picked the name Pluto.",
+      "reveal_after": 1
+    },
+    {
+      "type": "idea",
+      "emoji": "✏️",
+      "title": "Named by a kid",
+      "text": "Clyde Tombaugh found Pluto in 1930. In England, an 11-year-old girl named Venetia Burney heard the news at breakfast. She said it should be named Pluto, after the Roman god of the underworld. Her grandpa passed the idea on, and it was picked.",
+      "example": "For 76 years after that, Pluto was called the ninth planet."
+    },
+    {
+      "type": "idea",
+      "emoji": "🧊",
+      "title": "Small and far away",
+      "text": "Pluto is tiny. It is only about half as wide as the United States. It is so far away that sunlight takes 5.5 hours to get there. It is very, very cold there.",
+      "example": "Even at noon on Pluto, the light is only as bright as it gets here just around sunset."
+    },
+    {
+      "type": "idea",
+      "emoji": "📋",
+      "title": "Three rules for a planet",
+      "text": "In 2006, a big group of astronomers called the IAU wrote rules for planets. A planet must go around the Sun. It must be big enough that its own gravity pulls it round. And it must have cleared its path of other big objects.",
+      "example": "Earth passes all three tests. So do the other seven planets.",
+      "why": {
+        "q": "Why did astronomers need rules at all?",
+        "a": "They kept finding icy worlds like Pluto far out in space. Without rules, nobody could say which ones were planets."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "🚦",
+      "title": "Pluto shares its road",
+      "text": "Pluto goes around the Sun, and it is round. But it lives in the Kuiper Belt, a zone full of icy objects. Other objects may cross its path. So Pluto fails the third rule. It is now called a dwarf planet.",
+      "example": "Think of a busy hallway at school. A planet is like a kid who has the whole hallway to themselves. Pluto shares it with a crowd."
+    },
+    {
+      "type": "idea",
+      "emoji": "🛰️",
+      "title": "Still an amazing world",
+      "text": "In 2015, a spacecraft called New Horizons flew past Pluto. It found mountains made of ice and wide plains of frozen gas. Pluto has five moons too. There are five known dwarf planets, and there may be many more.",
+      "example": "The five are Ceres, Pluto, Haumea, Makemake and Eris."
+    },
+    {
+      "type": "think",
+      "question": "Do you think Pluto should be a planet? If you could write the rules, what would yours be?",
+      "nudges": [
+        "Would your rules let in lots of new planets, or just a few?",
+        "Is it fair to change a name after people learned it?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "Which rule for planets does Pluto not pass?",
+          "options": [
+            {
+              "text": "It has not cleared its path",
+              "correct": true,
+              "why": "Right! Other icy objects share its part of space."
+            },
+            {
+              "text": "It does not go around the Sun",
+              "correct": false,
+              "why": "Pluto does go around the Sun. That rule it passes."
+            },
+            {
+              "text": "It is not round",
+              "correct": false,
+              "why": "Pluto is round. Its gravity pulled it into a ball."
+            }
+          ]
+        },
+        {
+          "q": "What is Pluto called now?",
+          "options": [
+            {
+              "text": "A dwarf planet",
+              "correct": true,
+              "why": "Yes! It is round and goes around the Sun, but shares its path."
+            },
+            {
+              "text": "A moon",
+              "correct": false,
+              "why": "Pluto does not go around a planet. It has its own moons, though!"
+            },
+            {
+              "text": "A star",
+              "correct": false,
+              "why": "Stars make their own light. Pluto is a cold, icy world."
+            }
+          ]
+        },
+        {
+          "q": "Who named Pluto?",
+          "options": [
+            {
+              "text": "An 11-year-old girl in England",
+              "correct": true,
+              "why": "Yes! Venetia Burney picked the name at breakfast."
+            },
+            {
+              "text": "The spacecraft team in 2015",
+              "correct": false,
+              "why": "Pluto had its name long before. It was named in 1930."
+            },
+            {
+              "text": "A big vote of astronomers",
+              "correct": false,
+              "why": "The vote in 2006 was about rules for planets, not the name."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Pluto is not a planet anymore because…",
+        "To be a planet, something has to…",
+        "The cool thing about Pluto is…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "KQyJOG9MMX8",
+    "title": "Why isn't Pluto a Planet Anymore? Planet vs Dwarf Planet for Kids - FreeSchool",
+    "channel": "Free School",
+    "duration_sec": 163,
+    "why": "A short, clear video that walks through the three planet rules and shows why Pluto fails just one of them."
+  },
+  "sources": [
+    {
+      "title": "Pluto: Facts",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+      "supports": "Pluto discovered in 1930; named by 11-year-old Venetia Burney of England, who suggested it at breakfast after the Roman god of the underworld, and her grandfather forwarded it; about half the width of the United States; sunlight takes 5.5 hours to reach it; midday light on Pluto matches the brightness near sunset on Earth; reclassified as a dwarf planet in 2006 by the IAU; other objects might cross its orbit in the Kuiper Belt; mountains of water ice and plains of frozen nitrogen; five moons; New Horizons flew by in 2015."
+    },
+    {
+      "title": "Dwarf Planets",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/dwarf-planets/",
+      "supports": "The IAU's 2006 planet rules: orbit the Sun, be mostly round, and clear away other objects near its orbit; dwarf planets have not cleared their orbits; five recognized dwarf planets (Ceres, Pluto, Haumea, Makemake, Eris) and maybe more than a hundred more; Clyde Tombaugh discovered Pluto in 1930; other worlds found in the Kuiper Belt led to the change."
+    }
+  ]
+}

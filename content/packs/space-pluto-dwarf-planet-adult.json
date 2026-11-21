@@ -1,0 +1,207 @@
+{
+  "id": "space-pluto-dwarf-planet-adult",
+  "topic": "space",
+  "subject": "pluto-dwarf-planet",
+  "level": "adult",
+  "title": "Pluto and the Problem of Defining a Planet",
+  "emoji": "🪐",
+  "summary": "Why the IAU's 2006 definition demoted Pluto, what it optimizes for, and where critics say it breaks.",
+  "minutes": 8,
+  "date_added": "2026-11-21",
+  "keys": [
+    {
+      "id": "k1",
+      "prompt": "What do the IAU's three planet criteria test, and which one does Pluto fail?",
+      "answer": "Orbiting the Sun, enough mass to be round (hydrostatic equilibrium), and clearing its orbital neighbourhood. Pluto fails the third."
+    },
+    {
+      "id": "k2",
+      "prompt": "What trade-off did the 'cleared the neighbourhood' criterion resolve?",
+      "answer": "A shape-only rule would add many planets (Brown estimated 53, likely 200+ eventually); a dominance rule keeps the list to eight."
+    },
+    {
+      "id": "k3",
+      "prompt": "What are the strongest criticisms of the 2006 definition?",
+      "answer": "Few voted (424 of ~9,000), no planet fully clears its orbit, and the test depends on location, so a Mars-sized body far out would fail it."
+    }
+  ],
+  "cards": [
+    {
+      "type": "hook",
+      "emoji": "🧩",
+      "title": "Same object, new category",
+      "text": "Nothing about Pluto changed on 24 August 2006. What changed was the word. Astronomers voted on a formal definition of 'planet', and the solar system went from nine to eight. Definitions are models: they buy clarity at the cost of edge cases."
+    },
+    {
+      "type": "predict",
+      "mode": "estimate",
+      "question": "The IAU had about 9,000 members in 2006. What share do you think were present for the vote that demoted Pluto?",
+      "estimate": {
+        "min": 0,
+        "max": 100,
+        "step": 0.5,
+        "unit": "%",
+        "answer": 4.7
+      },
+      "reveal": "About 4.7%: 424 astronomers, less than 5% of the community, on the last day of a 10-day meeting.",
+      "reveal_after": 3
+    },
+    {
+      "type": "idea",
+      "emoji": "🔁",
+      "title": "Discovery forces definition",
+      "text": "This is a rerun. Ceres, found in 1801, was hailed as the missing planet; by 1851 there were 23 'planets' and astronomers split off the asteroids. Pluto's turn came in stages: Charon's discovery in 1978 let astronomers weigh Pluto at roughly 1/25 of Mercury's mass, smaller than our Moon. Then Quaoar, Sedna and Eris showed Pluto had peers.",
+      "example": "In 2006 Eris was briefly measured as larger than Pluto. Either it was the tenth planet, or neither was a planet.",
+      "why": {
+        "q": "Why did more discoveries make a definition unavoidable rather than optional?",
+        "a": "Without one, every new Pluto-sized find raised the planet count ad hoc; astronomers expected many more and also worried about classifying planets around other stars."
+      }
+    },
+    {
+      "type": "idea",
+      "emoji": "📐",
+      "title": "Shape vs. dominance",
+      "text": "The IAU's 16 August draft was purely physical: round and orbiting a star. That would have added Ceres, Eris and Charon (as a double planet with Pluto), with a dozen more candidates. Mike Brown estimated at least 53 known bodies would qualify, probably over 200 eventually. The final rule added a dynamical test: a planet must have cleared the neighbourhood around its orbit.",
+      "example": "Trade-off: a shape rule describes the body; a dominance rule describes its role in the system and keeps the list short."
+    },
+    {
+      "type": "idea",
+      "emoji": "🗳️",
+      "title": "Legitimacy of the vote",
+      "text": "Voting in Prague was by raised yellow cards. Only 424 astronomers attended, under 5% of roughly 9,000 members, on the last day after many had left. The Pluto resolution passed 237–157 with 30 abstentions. Defenders note a representative sample of 400 from 9,000 is statistically adequate, and that only planetary specialists really needed to weigh in.",
+      "example": "The objection is about selection, not sample size: who stays for the last day is not a random draw."
+    },
+    {
+      "type": "idea",
+      "emoji": "🌌",
+      "title": "Is 'cleared' coherent?",
+      "text": "Alan Stern, New Horizons' lead scientist, argues no planet has cleared its zone: Earth orbits with about 10,000 near-Earth asteroids, Jupiter with 100,000 Trojans. \"If Neptune had cleared its zone, Pluto wouldn't be there.\" The rebuttal: planets dominate, not empty, their zones. Neptune long ago locked Pluto into a 3:2 resonance, so Neptune sets Pluto's orbit.",
+      "example": "Read 'cleared' as 'gravitationally controls' and the eight pass cleanly; read it literally and none do."
+    },
+    {
+      "type": "idea",
+      "emoji": "⚠️",
+      "title": "Edge cases",
+      "text": "The test depends on location: a Mars-sized body in the inner Oort cloud could not clear so large a zone and would fail. Mercury is not actually in hydrostatic equilibrium yet is explicitly a planet. And the text says 'Sun', so it does not cover planets of other stars, where a separate working definition applies.",
+      "example": "A good definition is judged by usefulness, not by whether it is ever awkward."
+    },
+    {
+      "type": "think",
+      "question": "Is a definition that is useful but has awkward edge cases better than one that is consistent but makes the category huge? Make the strongest case for the side you'd vote against.",
+      "nudges": [
+        "Where else do you draw a bright line knowing it misclassifies a few cases?",
+        "Who should get a vote on a scientific definition?"
+      ]
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "q": "A newly found body orbits the Sun, is round, and shares its orbit with many similar objects it does not control. Under the IAU rule it is:",
+          "options": [
+            {
+              "text": "A dwarf planet",
+              "correct": true,
+              "why": "Right. It passes the first two tests but not clearing its neighbourhood."
+            },
+            {
+              "text": "A planet",
+              "correct": false,
+              "why": "It fails criterion (c): it hasn't cleared or come to dominate its orbit."
+            },
+            {
+              "text": "A small Solar System body",
+              "correct": false,
+              "why": "That category is for bodies that are not round; this one is."
+            },
+            {
+              "text": "A satellite",
+              "correct": false,
+              "why": "Satellites orbit planets; this orbits the Sun."
+            }
+          ]
+        },
+        {
+          "q": "What was the main practical effect of adding the dynamical (clearing) criterion?",
+          "options": [
+            {
+              "text": "It kept the planet count at eight instead of a list that could grow into the dozens or hundreds",
+              "correct": true,
+              "why": "Yes. A shape-only rule would have admitted Ceres, Eris, Charon and many more."
+            },
+            {
+              "text": "It made Pluto a planet again",
+              "correct": false,
+              "why": "The opposite: it is the criterion Pluto fails."
+            },
+            {
+              "text": "It fixed the definition for exoplanets",
+              "correct": false,
+              "why": "The text says 'Sun', so it does not cover other stars' planets."
+            },
+            {
+              "text": "It removed Mercury from the list",
+              "correct": false,
+              "why": "Mercury is explicitly included despite not being in hydrostatic equilibrium."
+            }
+          ]
+        },
+        {
+          "q": "Which is the strongest counter to Stern's 'Earth hasn't cleared its orbit either' argument?",
+          "options": [
+            {
+              "text": "Planets gravitationally dominate their zones, e.g. Neptune controls Pluto's orbit via a 3:2 resonance",
+              "correct": true,
+              "why": "Right. On this reading, 'cleared' means control, not emptiness."
+            },
+            {
+              "text": "Near-Earth asteroids don't really exist",
+              "correct": false,
+              "why": "They do; there are about 10,000 of them."
+            },
+            {
+              "text": "Only 424 astronomers voted",
+              "correct": false,
+              "why": "That's a critique of the process, not a reply to Stern's physics."
+            },
+            {
+              "text": "Jupiter's Trojans are actually moons",
+              "correct": false,
+              "why": "Trojans orbit the Sun along Jupiter's path; they aren't its moons."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "teach",
+      "prompt": "Explain this to someone at dinner in 3 sentences.",
+      "starters": [
+        "Pluto became a dwarf planet because…",
+        "The rule was designed to…",
+        "The best argument against it is…"
+      ]
+    }
+  ],
+  "video": {
+    "youtube_id": "xjxUAQYqGNE",
+    "title": "DEMYSTIFIED: Is Pluto A Planet? | Encyclopaedia Britannica",
+    "channel": "Encyclopaedia Britannica",
+    "duration_sec": 202,
+    "why": "A tight 3-minute recap of the IAU's three criteria and what New Horizons found, useful as a summary before the debate questions."
+  },
+  "sources": [
+    {
+      "title": "IAU definition of planet",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/IAU_definition_of_planet",
+      "supports": "Ceres 1801 and 23 planets by 1851, then asteroids; Charon 1978 and Pluto's mass ~1/25 Mercury, smaller than the Moon; Quaoar, Sedna, Eris; Eris measured larger in 2006; concern about other planetary systems; August 16 draft adding Ceres, Charon (double planet), Eris and twelve more candidates; Mike Brown's 53 / 200+ estimate; final definition 24 August 2006 in Prague with yellow cards; resolution 6A 237-157-30; 424 present, under 5% of 9,000, last day of 10-day event; 400-of-9,000 sampling and Marla Geha's point; Stern's critique with 10,000 NEAs, 100,000 Trojans and quote; dominance counterargument and 3:2 resonance; location dependence (Mars-sized body in inner Oort cloud); Mercury not in hydrostatic equilibrium but included; wording uses 'Sun', separate working definition for extrasolar planets."
+    },
+    {
+      "title": "Pluto: Facts",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+      "supports": "IAU reclassified Pluto as a dwarf planet in 2006; definition of dwarf planet; Pluto is in the Kuiper Belt where other objects might cross its orbit; Alan Stern is New Horizons principal investigator."
+    }
+  ]
+}
